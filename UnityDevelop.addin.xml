@@ -1,0 +1,52 @@
+<AddIn
+	id ="dotBunny.UnityDevelop"
+	name = "Unity Support"
+    author = "dotBunny Inc."
+	copyright   = "(c) 2009 dotBunny Inc."
+	url         = "http://www.dotbunny.com/"
+	description = "Unity integration into MonoDevelop"
+	category    = "IDE extensions"	   
+    version     = "0.0.1" >
+	
+	<Runtime>
+		<Import assembly="UnityDevelop.dll"/>
+	</Runtime>
+
+
+
+    <Extension path = "/MonoDevelop/Ide/FileTemplates">
+        <FileTemplate id       = "UnityEmpty"
+                      file     = "Templates/Files/Empty.xft.xml"/>
+        <FileTemplate id       = "UnityMonoBehaviour"
+                      file     = "Templates/Files/MonoBehaviour.xft.xml"/>
+        <FileTemplate id       = "UnityClass"
+                      file     = "Templates/Files/Class.xft.xml"/>
+        <FileTemplate id       = "UnityInterface"
+                      file     = "Templates/Files/Interface.xft.xml"/>
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/ProjectTemplates">
+        <ProjectTemplate id = "UnityProjectEmpty" file = "Templates/Projects/Empty.xpt.xml" />
+        <ProjectTemplate id = "UnityProject" file = "Templates/Default.xpt.xml" />
+    </Extension>
+    
+    <Extension path="/SharpDevelop/Workbench/MainMenu/Help">
+    <MenuItem 
+        id = "UnitySearchScriptReference"
+        insertafter="Separator2" 
+        insertbefore="Web" 
+        _label = "Search Script Reference ..."
+        description="Search the Script Reference with the selected text."
+        class="dotBunny.UnityDevelop.SearchScriptReference"
+    />
+    </Extension>
+
+
+
+
+
+
+
+
+
+</AddIn>
