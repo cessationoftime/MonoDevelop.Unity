@@ -29,7 +29,7 @@
         <ProjectTemplate id = "UnityProjectEmpty" file = "Templates/Projects/Empty.xpt.xml" />
         <ProjectTemplate id = "UnityProject" file = "Templates/Default.xpt.xml" />
     </Extension>
-    
+
     <Extension path="/SharpDevelop/Workbench/MainMenu/Help">
     <MenuItem 
         id = "UnitySearchScriptReference"

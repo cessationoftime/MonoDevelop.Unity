@@ -3,21 +3,7 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnityDevelop.cs" ctype="Workbench">
-    <Files>
-      <File FileName="UnityDevelop.cs" Line="46" Column="8" />
-      <File FileName="UnityDevelop.addin.xml" Line="32" Column="5" />
-      <File FileName="Templates/Projects/Default.xpt.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Files/Class.xft.xml" Line="28" Column="12" />
-      <File FileName="Templates/Unity/Files/Class.xft.xml" Line="28" Column="12" />
-      <File FileName="Templates/Unity/Files/Interface.xft.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity/Files/MonoBehaviour.xft.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Files/Empty.xft.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Files/Interface.xft.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Files/MonoBehaviour.xft.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Projects/Default.xpt.xml" Line="1" Column="1" />
-      <File FileName="Templates/Unity iPhone/Projects/Empty.xpt.xml" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench ctype="Workbench">
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
@@ -26,18 +12,15 @@
               <Node name="Unity" expanded="True">
                 <Node name="Files" expanded="True" />
               </Node>
-              <Node name="Unity iPhone" expanded="True">
-                <Node name="Files" expanded="True">
-                  <Node name="Interface.xft.xml" selected="True" />
-                </Node>
-                <Node name="Projects" expanded="True" />
-              </Node>
             </Node>
+            <Node name="UnityDevelop.cs" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="UnityDevelop" expanded="True" selected="True" />
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
