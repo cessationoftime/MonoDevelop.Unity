@@ -61,11 +61,6 @@
       <HintPath>..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Projects.Gui.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.TextEditor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\Mono.TextEditor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="MonoDevelop.SourceEditor2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\AddIns\MonoDevelop.SourceEditor2.dll</HintPath>
@@ -75,6 +70,9 @@
   <ItemGroup>
     <Compile Include="UnityDevelop.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="UnityDevelopCommands.cs" />
+    <Compile Include="UnityDevelopHelpers.cs" />
+    <Compile Include="Unity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

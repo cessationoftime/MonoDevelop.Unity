@@ -19,7 +19,7 @@
             <Command id = "UnityDevelop.Commands.ViewManual"
                 defaultHandler = "UnityDevelop.ViewManualHandler"
                 _label = "View Manual"
-            />
+            />a
 
             <Command id = "UnityDevelop.Commands.ViewReference"
                 defaultHandler = "UnityDevelop.ViewReferenceHandler"

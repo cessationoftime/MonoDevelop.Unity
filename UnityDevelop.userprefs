@@ -3,15 +3,30 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnityDevelopCommands.cs" ctype="Workbench">
+    <Files>
+      <File FileName="UnityDevelop.cs" Line="56" Column="29" />
+      <File FileName="UnityDevelop.addin.xml" Line="22" Column="16" />
+      <File FileName="Unity.cs" Line="13" Column="54" />
+      <File FileName="UnityDevelopCommands.cs" Line="60" Column="6" />
+      <File FileName="UnityDevelopHelpers.cs" Line="4" Column="39" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="UnityDevelop" expanded="True">
+            <Node name="References" expanded="True" />
             <Node name="Templates" expanded="True">
-              <Node name="Unity" expanded="True" />
+              <Node name="Unity" expanded="True">
+                <Node name="Files" expanded="True" />
+                <Node name="Projects" expanded="True" />
+              </Node>
+              <Node name="Unity iPhone" expanded="True">
+                <Node name="Files" expanded="True" />
+                <Node name="Projects" expanded="True" />
+              </Node>
             </Node>
-            <Node name="UnityDevelop.addin.xml" selected="True" />
+            <Node name="UnityDevelopCommands.cs" selected="True" />
           </Node>
         </State>
       </Pad>
