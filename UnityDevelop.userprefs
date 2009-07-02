@@ -9,11 +9,9 @@
         <State expanded="True">
           <Node name="UnityDevelop" expanded="True">
             <Node name="Templates" expanded="True">
-              <Node name="Unity" expanded="True">
-                <Node name="Files" expanded="True" />
-              </Node>
+              <Node name="Unity" expanded="True" />
             </Node>
-            <Node name="UnityDevelop.cs" selected="True" />
+            <Node name="UnityDevelop.addin.xml" selected="True" />
           </Node>
         </State>
       </Pad>
