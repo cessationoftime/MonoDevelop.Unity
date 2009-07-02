@@ -1,0 +1,65 @@
+<AddIn
+	id          = "UnityDevelop"
+	name        = "Unity Support"
+    author      = "dotBunny Inc."
+	copyright   = "(c) 2009 dotBunny Inc."
+	url         = "http://www.dotbunny.com/"
+	description = "Unity integration into MonoDevelop"
+	category    = "IDE extensions"
+    version     = "0.0.1" >
+
+	<Runtime>
+		<Import assembly="UnityDevelop.dll"/>
+	</Runtime>
+
+    <Extension path = "/MonoDevelop/Ide/Commands">
+
+        <Category _name = "Unity" id = "Unity">
+
+            <Command id = "UnityDevelop.Commands.ViewManual"
+                defaultHandler = "UnityDevelop.ViewManualHandler"
+                _label = "View Manual"
+            />a
+
+            <Command id = "UnityDevelop.Commands.ViewReference"
+                defaultHandler = "UnityDevelop.ViewReferenceHandler"
+                _label = "View Reference"
+            />
+
+
+            <Command id = "UnityDevelop.Commands.ViewScriptReference"
+                defaultHandler = "UnityDevelop.ViewScriptReferenceHandler"
+                _label = "View Script Reference"
+            />
+
+            <Command id = "UnityDevelop.Commands.SearchManual"
+                defaultHandler = "UnityDevelop.SearchManualHandler"
+                _label = "Search Manual"
+            />
+
+            <Command id = "UnityDevelop.Commands.SearchReference"
+                defaultHandler = "UnityDevelop.SearchReferenceHandler"
+                _label = "Search Reference"
+            />
+
+
+            <Command id = "UnityDevelop.Commands.SearchScriptReference"
+                defaultHandler = "UnityDevelop.SearchScriptReferenceHandler"
+                _label = "Search Script Reference"
+            />
+
+        </Category>
+
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
+        <CommandItem id="UnityDevelop.Commands.ViewManual" />
+        <CommandItem id="UnityDevelop.Commands.ViewReference" />
+        <CommandItem id="UnityDevelop.Commands.ViewScriptReference" />
+        <CommandItem id="UnityDevelop.Commands.SearchManual" />
+        <CommandItem id="UnityDevelop.Commands.SearchReference" />
+        <CommandItem id="UnityDevelop.Commands.SearchScriptReference" />
+    </Extension>
+
+
+</AddIn>
