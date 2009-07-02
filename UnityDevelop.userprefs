@@ -3,13 +3,11 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnityDevelopCommands.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnityDevelopHelpers.cs" ctype="Workbench">
     <Files>
-      <File FileName="UnityDevelop.cs" Line="56" Column="29" />
-      <File FileName="UnityDevelop.addin.xml" Line="22" Column="16" />
-      <File FileName="Unity.cs" Line="13" Column="54" />
-      <File FileName="UnityDevelopCommands.cs" Line="60" Column="6" />
-      <File FileName="UnityDevelopHelpers.cs" Line="4" Column="39" />
+      <File FileName="UnityDevelop.addin.xml" Line="73" Column="17" />
+      <File FileName="UnityDevelop.cs" Line="65" Column="3" />
+      <File FileName="UnityDevelopHelpers.cs" Line="5" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +24,7 @@
                 <Node name="Projects" expanded="True" />
               </Node>
             </Node>
-            <Node name="UnityDevelopCommands.cs" selected="True" />
+            <Node name="UnityDevelopHelpers.cs" selected="True" />
           </Node>
         </State>
       </Pad>

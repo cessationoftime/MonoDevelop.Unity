@@ -4,9 +4,10 @@
     author      = "dotBunny Inc."
 	copyright   = "(c) 2009 dotBunny Inc."
 	url         = "http://www.dotbunny.com/"
-	description = "Unity integration into MonoDevelop"
+	description = "Unity integration into MonoDevelop.
+ A start to something that will grow into something for everyone."
 	category    = "IDE extensions"
-    version     = "0.0.1" >
+    version     = "0.0.2" >
 
 	<Runtime>
 		<Import assembly="UnityDevelop.dll"/>
@@ -18,34 +19,40 @@
 
             <Command id = "UnityDevelop.Commands.ViewManual"
                 defaultHandler = "UnityDevelop.ViewManualHandler"
-                _label = "View Manual"
-            />a
+                _label = "User Manual"
+                description = "View User Manual"
+            />
 
             <Command id = "UnityDevelop.Commands.ViewReference"
                 defaultHandler = "UnityDevelop.ViewReferenceHandler"
-                _label = "View Reference"
+                _label = "Reference Manual"
+                description= ="View Reference Manual"
             />
 
 
             <Command id = "UnityDevelop.Commands.ViewScriptReference"
                 defaultHandler = "UnityDevelop.ViewScriptReferenceHandler"
-                _label = "View Script Reference"
+                _label = "Script Reference"
+                description = "View Scripting Reference"
             />
 
             <Command id = "UnityDevelop.Commands.SearchManual"
                 defaultHandler = "UnityDevelop.SearchManualHandler"
                 _label = "Search Manual"
+                description = "Search User Manual for Selected Text"
             />
 
             <Command id = "UnityDevelop.Commands.SearchReference"
                 defaultHandler = "UnityDevelop.SearchReferenceHandler"
                 _label = "Search Reference"
+                description = "Search Reference Manual for Selected Text"
             />
 
 
             <Command id = "UnityDevelop.Commands.SearchScriptReference"
                 defaultHandler = "UnityDevelop.SearchScriptReferenceHandler"
                 _label = "Search Script Reference"
+                description = "Search Script Reference for Selected Text"
             />
 
         </Category>
@@ -53,12 +60,16 @@
     </Extension>
 
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
-        <CommandItem id="UnityDevelop.Commands.ViewManual" />
-        <CommandItem id="UnityDevelop.Commands.ViewReference" />
-        <CommandItem id="UnityDevelop.Commands.ViewScriptReference" />
-        <CommandItem id="UnityDevelop.Commands.SearchManual" />
-        <CommandItem id="UnityDevelop.Commands.SearchReference" />
-        <CommandItem id="UnityDevelop.Commands.SearchScriptReference" />
+
+        <ItemSet id = "Unity" _label = "Unity">
+            <CommandItem id="UnityDevelop.Commands.ViewManual" />
+            <CommandItem id="UnityDevelop.Commands.ViewReference" />
+            <CommandItem id="UnityDevelop.Commands.ViewScriptReference" />
+            <SeparatorItem id = "UnitySeperator1" />
+            <CommandItem id="UnityDevelop.Commands.SearchManual" />
+            <CommandItem id="UnityDevelop.Commands.SearchReference" />
+            <CommandItem id="UnityDevelop.Commands.SearchScriptReference" />
+        </ItemSet>
     </Extension>
 
 

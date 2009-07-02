@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Text;
 
 
+using MonoDevelop.Core;
+using MonoDevelop.Ide.Gui;
+
 namespace UnityDevelop
 {
 
     public class UnityHandler
     {
         private bool openInBrowser = true;
-        /*System.Web.HttpUtility.UrlEncode(text));*/
 
         #region Overloaded Open
 
-        public  bool Open(Unity.Documentation target)
+        public bool Open(Unity.Documentation target)
         {
             if ( this.openInBrowser )
             {
@@ -30,7 +32,7 @@ namespace UnityDevelop
             return false;
         }
 
-        public  bool Open(Unity.Documentation target, string query)
+        public bool Open(Unity.Documentation target, string query)
         {
             // Searching
             if (query != null && query.Length > 0)
@@ -50,9 +52,18 @@ namespace UnityDevelop
 
         public bool Open(string address)
         {
+            /*
+            IFileService fileService = (IFileService)MonoDevelop.Core.Services.ServiceManager.GetService(typeof(IFileService));
+            fileService.OpenFile(search_url);
+            */
+            //IdeApp.Services.PlatformService
             if ( this.openInBrowser )
             {
-                System.Diagnostics.Process.Start(address);
+              //  FileService.
+                //Runtime.ProcessService.StartProcess(
+                IdeApp.Workbench.OpenDocument(address);
+//                IdeApp.OpenFiles(address);
+                //System.Diagnostics.Process.Start(address);
                 return true;
             }
             return false;

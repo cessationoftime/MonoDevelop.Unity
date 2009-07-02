@@ -17,5 +17,11 @@ namespace UnityDevelop
             // Return trimmed selection
             return editor.SelectedText.Trim();
         }
+
+        public static void DebugHook(string filePath, int lineNumber, int? columnNumber)
+        {
+            // Load that sucker
+            //IdeApp.Workbench.OpenDocument(filePath, lineNumber, columnNumber, true);
+        }
     }
 }
