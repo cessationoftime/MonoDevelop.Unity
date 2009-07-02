@@ -53,7 +53,11 @@ namespace UnityDevelop
         protected override void Run (object data)
         {
             this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Manual, Helpers.CurrentlySelectedText());
+            handler.Open(Unity.Documentation.Manual, Helpers.SelectedText());
+        }
+        protected override void Update(CommandInfo info)
+        {
+            info.Enabled = Helpers.HasSelectedText();
         }
     }
     public class SearchReferenceHandler : CommandHandler
@@ -62,7 +66,11 @@ namespace UnityDevelop
         protected override void Run (object data)
         {
             this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Reference, Helpers.CurrentlySelectedText());
+            handler.Open(Unity.Documentation.Reference, Helpers.SelectedText());
+        }
+        protected override void Update(CommandInfo info)
+        {
+            info.Enabled = Helpers.HasSelectedText();
         }
     }
     public class SearchScriptReferenceHandler : CommandHandler
@@ -71,7 +79,11 @@ namespace UnityDevelop
         protected override void Run (object data)
         {
             this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.ScriptReference, Helpers.CurrentlySelectedText());
+            handler.Open(Unity.Documentation.ScriptReference, Helpers.SelectedText());
+        }
+        protected override void Update(CommandInfo info)
+        {
+            info.Enabled = Helpers.HasSelectedText();
         }
     }
     #endregion

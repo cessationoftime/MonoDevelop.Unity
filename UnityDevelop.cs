@@ -4,19 +4,21 @@ using System.Text;
 
 
 using MonoDevelop.Core;
-using MonoDevelop.Ide.Gui;
+using MonoDevelop.Core.Gui;
 
 namespace UnityDevelop
 {
 
     public class UnityHandler
     {
+
         private bool openInBrowser = true;
 
         #region Overloaded Open
 
         public bool Open(Unity.Documentation target)
         {
+
             if ( this.openInBrowser )
             {
                 switch (target)
@@ -52,18 +54,9 @@ namespace UnityDevelop
 
         public bool Open(string address)
         {
-            /*
-            IFileService fileService = (IFileService)MonoDevelop.Core.Services.ServiceManager.GetService(typeof(IFileService));
-            fileService.OpenFile(search_url);
-            */
-            //IdeApp.Services.PlatformService
-            if ( this.openInBrowser )
+            if ( PropertyService.Get<bool>("UnityDevelop.OpenInBrowser", true))
             {
-              //  FileService.
-                //Runtime.ProcessService.StartProcess(
-                IdeApp.Workbench.OpenDocument(address);
-//                IdeApp.OpenFiles(address);
-                //System.Diagnostics.Process.Start(address);
+                Services.PlatformService.ShowUrl(address);
                 return true;
             }
             return false;
