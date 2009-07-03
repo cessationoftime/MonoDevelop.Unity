@@ -5,16 +5,16 @@
   </MonoDevelop.Ide.DebuggingService>
   <MonoDevelop.Ide.Workbench ActiveDocument="UnityDevelop.cs" ctype="Workbench">
     <Files>
-      <File FileName="UnityDevelop.cs" Line="54" Column="10" />
+      <File FileName="UnityDevelop.cs" Line="38" Column="10" />
       <File FileName="UnityDevelopCommands.cs" Line="37" Column="4" />
       <File FileName="UnityDevelopHelpers.cs" Line="1" Column="1" />
+      <File FileName="Assembly Browser" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="UnityDevelop" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="UnityDevelop.cs" selected="True" />
           </Node>
         </State>
       </Pad>

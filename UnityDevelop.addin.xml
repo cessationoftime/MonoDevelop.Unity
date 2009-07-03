@@ -12,6 +12,11 @@
 		<Import assembly="UnityDevelop.dll"/>
 	</Runtime>
 
+    <Extension path = "/MonoDevelop/Ide/StartupHandlers">
+        <Class class="UnityDevelop.FindUnityOnStartupHandler" />
+        <Class class="UnityDevelop.CheckInternetConnectionOnStartupHandler" />
+    </Extension>
+
     <Extension path = "/MonoDevelop/Ide/Commands">
 
         <Category _name = "Unity Support" id = "Unity">

@@ -37,17 +37,16 @@ namespace UnityDevelop
             }
         }
 
-
         public static bool HasActiveDocument()
         {
             Document doc = IdeApp.Workbench.ActiveDocument;
             return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
         }
-        /*
-        public static void DebugHook(string filePath, int lineNumber, int? columnNumber)
+
+        public static void DebugHook(string filePath, int lineNumber, int columnNumber)
         {
             // Load that sucker
-            //IdeApp.Workbench.OpenDocument(filePath, lineNumber, columnNumber, true);
-        }*/
+            IdeApp.Workbench.OpenDocument(filePath, lineNumber, columnNumber, true);
+        }
     }
 }
