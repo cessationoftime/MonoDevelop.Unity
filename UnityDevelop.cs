@@ -16,12 +16,23 @@ namespace UnityDevelop
 
         public bool Open(Unity.Documentation target)
         {
-
             // Currently Mono does not have System.Net.NetworkInformation.Ping Implemented so we have to assume connection
             if (
                 PropertyService.Get<bool>("UnityDevelop.ForceLocal", false) ||
                 PropertyService.Get<bool>("UnityDevelop.Connection", true) )
             {
+                switch (target)
+                {
+                    case Unity.Documentation.Manual:
+                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                            Unity.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
+                    case Unity.Documentation.Reference:
+                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                            Unity.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
+                    case Unity.Documentation.ScriptReference:
+                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                            Unity.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
+                }
 
             }
             else
@@ -49,6 +60,14 @@ namespace UnityDevelop
                     PropertyService.Get<bool>("UnityDevelop.ForceLocal", false) ||
                     PropertyService.Get<bool>("UnityDevelop.Connection", true) )
                 {
+                    switch (target)
+                    {
+                        case Unity.Documentation.ScriptReference:
+                            return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                                         Unity.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
+                                         System.Web.HttpUtility.UrlEncode(query));
+                    }
+
                 }
                 else
                 {
@@ -70,6 +89,8 @@ namespace UnityDevelop
         {
             if ( PropertyService.Get<bool>("UnityDevelop.OpenInBrowser", true))
             {
+            //    System.Diagnostics.Process.Start(address);
+//                MessageService.ShowMessage(address);
                 Services.PlatformService.ShowUrl(address);
                 return true;
             }
