@@ -5,7 +5,7 @@ using MonoDevelop.Components.Commands;
 
 using MonoDevelop.Ide.Gui;
 
-namespace UnityDevelop
+namespace MonoDevelop.Unity
 {
     public enum Commands
     {
@@ -24,8 +24,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Manual);
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.Manual);
         }
     }
     public class ViewReferenceHandler : CommandHandler
@@ -33,8 +33,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Reference);
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.Reference);
         }
     }
     public class ViewScriptReferenceHandler : CommandHandler
@@ -42,8 +42,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.ScriptReference);
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.ScriptReference);
         }
     }
 
@@ -52,8 +52,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Manual, Helpers.SelectedText());
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.Manual, Helpers.SelectedText());
         }
         protected override void Update(CommandInfo info)
         {
@@ -65,8 +65,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.Reference, Helpers.SelectedText());
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.Reference, Helpers.SelectedText());
         }
         protected override void Update(CommandInfo info)
         {
@@ -78,8 +78,8 @@ namespace UnityDevelop
         private UnityHandler handler;
         protected override void Run (object data)
         {
-            this.handler = new UnityHandler();
-            handler.Open(Unity.Documentation.ScriptReference, Helpers.SelectedText());
+            this.handler = new Base();
+            handler.Open(Settings.Documentation.ScriptReference, Helpers.SelectedText());
         }
         protected override void Update(CommandInfo info)
         {

@@ -7,7 +7,6 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D90E9472-EC02-40AC-99AE-F9C98A50E22E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>UnityDevelop</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -19,6 +18,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <AssemblyName>MonoDevelop.Unity</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -27,6 +27,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <AssemblyName>UnityDevelop</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,16 +64,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnityDevelop.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="UnityDevelopCommands.cs" />
-    <Compile Include="UnityDevelopHelpers.cs" />
-    <Compile Include="Unity.cs" />
-    <Compile Include="UnityDevelopStartupHandlers.cs" />
+    <Compile Include="MonoDevelop.Unity\Helpers.cs" />
+    <Compile Include="MonoDevelop.Unity\Commands.cs" />
+    <Compile Include="MonoDevelop.Unity\Startup.cs" />
+    <Compile Include="MonoDevelop.Unity\Settings.cs" />
+    <Compile Include="MonoDevelop.Unity\Base.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Content Include="UnityDevelop.addin.xml">
+    <Content Include="MonoDevelop.Unity.addin.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Templates\Unity iPhone\Files\Class.xft.xml">
@@ -125,5 +126,6 @@
     <Folder Include="Templates\" />
     <Folder Include="Templates\Unity iPhone\" />
     <Folder Include="Templates\Unity\" />
+    <Folder Include="MonoDevelop.Unity\" />
   </ItemGroup>
 </Project>

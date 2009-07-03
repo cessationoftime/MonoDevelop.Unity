@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDevelop", "UnityDevelop.csproj", "{D90E9472-EC02-40AC-99AE-F9C98A50E22E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelop.Unity", "MonoDevelop.Unity.csproj", "{D90E9472-EC02-40AC-99AE-F9C98A50E22E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,6 +16,6 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		version = 0.1
-		StartupItem = UnityDevelop.csproj
+		StartupItem = MonoDevelop.Unity.csproj
 	EndGlobalSection
 EndGlobal

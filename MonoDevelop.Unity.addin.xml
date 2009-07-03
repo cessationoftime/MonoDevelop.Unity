@@ -1,5 +1,5 @@
 <AddIn
-	id          = "UnityDevelop"
+	id          = "MonoDevelop.Unity"
 	name        = "Unity Support"
     author      = "dotBunny Inc."
 	copyright   = "(c) 2009 dotBunny Inc."
@@ -9,12 +9,11 @@
     version     = "0.0.8.5" >
 
 	<Runtime>
-		<Import assembly="UnityDevelop.dll"/>
+		<Import assembly="MonoDevelop.Unity.dll"/>
 	</Runtime>
 
     <Extension path = "/MonoDevelop/Ide/StartupHandlers">
-        <Class class="UnityDevelop.FindUnityOnStartupHandler" />
-        <Class class="UnityDevelop.CheckInternetConnectionOnStartupHandler" />
+        <Class class="Unity.StartupHandler" />
     </Extension>
 
     <Extension path = "/MonoDevelop/Ide/Commands">

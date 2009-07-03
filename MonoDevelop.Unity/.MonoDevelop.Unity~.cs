@@ -6,10 +6,10 @@ using System.Text;
 using MonoDevelop.Core;
 using MonoDevelop.Core.Gui;
 
-namespace UnityDevelop
+namespace MonoDevelop.Unity
 {
 
-    public class UnityHandler
+    public class Base
     {
 
         #region Overloaded Open
@@ -18,19 +18,19 @@ namespace UnityDevelop
         {
             // Currently Mono does not have System.Net.NetworkInformation.Ping Implemented so we have to assume connection
             if (
-                PropertyService.Get<bool>("UnityDevelop.ForceLocal", false) ||
-                PropertyService.Get<bool>("UnityDevelop.Connection", true) )
+                PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+                PropertyService.Get<bool>("Unity.Connection", true) )
             {
                 switch (target)
                 {
                     case Unity.Documentation.Manual:
-                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
                             Unity.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Unity.Documentation.Reference:
-                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
                             Unity.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Unity.Documentation.ScriptReference:
-                        return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
                             Unity.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                 }
 
@@ -57,13 +57,13 @@ namespace UnityDevelop
             {
                 // Currently Mono does not have System.Net.NetworkInformation.Ping Implemented so we have to assume connection
                 if (
-                    PropertyService.Get<bool>("UnityDevelop.ForceLocal", false) ||
-                    PropertyService.Get<bool>("UnityDevelop.Connection", true) )
+                    PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+                    PropertyService.Get<bool>("Unity.Connection", true) )
                 {
                     switch (target)
                     {
                         case Unity.Documentation.ScriptReference:
-                            return this.Open("file://" + PropertyService.Get<string>("UnityDevelop.UnityPath") +
+                            return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
                                          Unity.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
                                          System.Web.HttpUtility.UrlEncode(query));
                     }
@@ -87,10 +87,8 @@ namespace UnityDevelop
 
         public bool Open(string address)
         {
-            if ( PropertyService.Get<bool>("UnityDevelop.OpenInBrowser", true))
+            if ( PropertyService.Get<bool>("Unity.OpenInBrowser", true))
             {
-            //    System.Diagnostics.Process.Start(address);
-//                MessageService.ShowMessage(address);
                 Services.PlatformService.ShowUrl(address);
                 return true;
             }

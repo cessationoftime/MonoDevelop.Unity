@@ -5,7 +5,7 @@ using MonoDevelop.Components.Commands;
 using MonoDevelop.Ide.Gui;
 using MonoDevelop.Ide.Gui.Content;
 
-namespace UnityDevelop
+namespace MonoDevelop.Unity
 {
     public class Helpers
     {

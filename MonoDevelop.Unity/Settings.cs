@@ -1,9 +1,9 @@
 using System;
 
-namespace UnityDevelop
+namespace MonoDevelop.Unity
 {
 
-    public class Unity
+    public static class Settings
     {
         // 'Remote' Unity Reference Addresses
         public const string REMOTE_VIEW_MANUAL_URI = "http://unity3d.com/support/documentation/Manual/index.html";
