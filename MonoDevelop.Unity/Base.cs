@@ -39,11 +39,11 @@ namespace MonoDevelop.Unity
                 switch (target)
                 {
                     case Settings.Documentation.Manual:
-                        return this.Open(Unity.REMOTE_VIEW_MANUAL_URI);
+                        return this.Open(Settings.REMOTE_VIEW_MANUAL_URI);
                     case Settings.Documentation.Reference:
-                        return this.Open(Unity.REMOTE_VIEW_REFERENCE_URI);
+                        return this.Open(Settings.REMOTE_VIEW_REFERENCE_URI);
                     case Settings.Documentation.ScriptReference:
-                        return this.Open(Unity.REMOTE_VIEW_SCRIPT_REFERENCE_URI);
+                        return this.Open(Settings.REMOTE_VIEW_SCRIPT_REFERENCE_URI);
                 }
             }
             return false;

@@ -21,7 +21,7 @@ namespace MonoDevelop.Unity
     #region Documentation Handlers
     public class ViewManualHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
@@ -30,7 +30,7 @@ namespace MonoDevelop.Unity
     }
     public class ViewReferenceHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
@@ -39,7 +39,7 @@ namespace MonoDevelop.Unity
     }
     public class ViewScriptReferenceHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
@@ -49,7 +49,7 @@ namespace MonoDevelop.Unity
 
     public class SearchManualHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
@@ -62,7 +62,7 @@ namespace MonoDevelop.Unity
     }
     public class SearchReferenceHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
@@ -75,7 +75,7 @@ namespace MonoDevelop.Unity
     }
     public class SearchScriptReferenceHandler : CommandHandler
     {
-        private UnityHandler handler;
+        private Base handler;
         protected override void Run (object data)
         {
             this.handler = new Base();
