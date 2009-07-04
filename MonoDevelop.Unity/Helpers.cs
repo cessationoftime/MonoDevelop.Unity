@@ -40,7 +40,12 @@ namespace MonoDevelop.Unity
         public static bool HasActiveDocument()
         {
             Document doc = IdeApp.Workbench.ActiveDocument;
-            return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
+                return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
+        }
+
+        public static void ShowMessage(string title, string message)
+        {
+            MessageService.ShowError(title, message);
         }
 
         public static void DebugHook(string filePath, int lineNumber, int columnNumber)

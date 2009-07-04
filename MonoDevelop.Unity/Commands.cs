@@ -57,7 +57,16 @@ namespace MonoDevelop.Unity
         }
         protected override void Update(CommandInfo info)
         {
-            info.Enabled = Helpers.HasSelectedText();
+            // Disable searching of Local Manual
+            if ( PropertyService.Get<bool>("Unity.ForceLocal") ||
+                !PropertyService.Get<bool>("Unity.Connection", false))
+            {
+                info.Enabled = false;
+            }
+            else
+            {
+                info.Enabled = Helpers.HasSelectedText();
+            }
         }
     }
     public class SearchReferenceHandler : CommandHandler
@@ -70,7 +79,16 @@ namespace MonoDevelop.Unity
         }
         protected override void Update(CommandInfo info)
         {
-            info.Enabled = Helpers.HasSelectedText();
+            // Disable searching of local Reference Manual
+            if ( PropertyService.Get<bool>("Unity.ForceLocal") ||
+                !PropertyService.Get<bool>("Unity.Connection", false))
+            {
+                info.Enabled = false;
+            }
+            else
+            {
+                info.Enabled = Helpers.HasSelectedText();
+            }
         }
     }
     public class SearchScriptReferenceHandler : CommandHandler

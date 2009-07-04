@@ -6,7 +6,7 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "0.0.9.1" >
+    version     = "0.1.5.2" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
@@ -64,6 +64,10 @@
             <CommandItem id="MonoDevelop.Unity.Commands.SearchReference" />
             <CommandItem id="MonoDevelop.Unity.Commands.SearchScriptReference" />
         </ItemSet>
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog/Preferences">
+        <Section id = "UnityPreferences" _label = "Unity" fill="true" class = "MonoDevelop.Unity.PreferencesPanel" />
     </Extension>
 
 </AddIn>

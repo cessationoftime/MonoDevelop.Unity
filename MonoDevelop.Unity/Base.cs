@@ -5,20 +5,26 @@ using System.Text;
 
 using MonoDevelop.Core;
 using MonoDevelop.Core.Gui;
+using MonoDevelop.Core.Gui.WebBrowser;
 
 namespace MonoDevelop.Unity
 {
 
+
     public class Base
     {
+        private static IWebBrowser browser;
         #region Overloaded Open
 
         public bool Open(Settings.Documentation target)
         {
-            // Currently Mono does not have System.Net.NetworkInformation.Ping Implemented so we have to assume connection
-            if (
-                PropertyService.Get<bool>("Unity.ForceLocal", false) ||
-                PropertyService.Get<bool>("Unity.Connection", true) )
+            if ((PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+                !PropertyService.Get<bool>("Unity.Connection", false) )
+
+                &&
+
+                (PropertyService.Get<string>("Unity.Path", "Not Found") != "Not Found" ||
+                PropertyService.Get<string>("Unity.Path.iPhone", "Not Found") != "Not Found"))
             {
                 switch (target)
                 {
@@ -54,9 +60,13 @@ namespace MonoDevelop.Unity
             // Searching
             if (query != null && query.Length > 0)
             {
-                if (
-                    PropertyService.Get<bool>("Unity.ForceLocal", false) ||
-                    PropertyService.Get<bool>("Unity.Connection", true) )
+                if ((PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+                    !PropertyService.Get<bool>("Unity.Connection", false) )
+
+                    &&
+
+                    (PropertyService.Get<string>("Unity.Path", "Not Found") != "Not Found" ||
+                     PropertyService.Get<string>("Unity.Path.iPhone", "Not Found") != "Not Found"))
                 {
                     switch (target)
                     {
@@ -90,7 +100,24 @@ namespace MonoDevelop.Unity
                 Services.PlatformService.ShowUrl(address);
                 return true;
             }
-            return false;
+            else
+            {
+                if (MonoDevelop.Core.Gui.WebBrowserService.CanGetWebBrowser)
+                {
+
+                    browser = WebBrowserService.GetWebBrowser();
+                    browser.LoadUrl(address);
+                    return true;
+                }
+                else
+                {
+                    Helpers.ShowMessage(GettextCatalog.GetString("Missing Extension"),
+                        GettextCatalog.GetString("The Mono.WebBrowser Extension (part of Mono) is required for this functionality to work. We'll set your \"Open In Browser\" setting back to open with your default browser."));
+                    PropertyService.Set("Unity.OpenInBrowser", true);
+                    return false;
+                }
+
+            }
         }
 
         #endregion

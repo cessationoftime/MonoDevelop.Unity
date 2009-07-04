@@ -5,10 +5,7 @@
   </MonoDevelop.Ide.DebuggingService>
   <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity.addin.xml" ctype="Workbench">
     <Files>
-      <File FileName="MonoDevelop.Unity/Commands.cs" Line="6" Column="17" />
-      <File FileName="MonoDevelop.Unity/Base.cs" Line="87" Column="10" />
-      <File FileName="MonoDevelop.Unity/Startup.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity.addin.xml" Line="9" Column="27" />
+      <File FileName="MonoDevelop.Unity.addin.xml" Line="62" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
