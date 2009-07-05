@@ -43,6 +43,10 @@ namespace MonoDevelop.Unity
                 return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
         }
 
+        public static void ShowMessage(string message)
+        {
+            MessageService.ShowMessage(message);
+        }
         public static void ShowMessage(string title, string message)
         {
             MessageService.ShowError(title, message);

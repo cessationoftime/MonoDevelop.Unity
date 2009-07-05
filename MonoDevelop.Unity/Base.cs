@@ -18,24 +18,24 @@ namespace MonoDevelop.Unity
 
         public bool Open(Settings.Documentation target)
         {
-            if ((PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+            if ((PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                 !PropertyService.Get<bool>("Unity.Connection", false) )
 
                 &&
 
-                (PropertyService.Get<string>("Unity.Path", "Not Found") != "Not Found" ||
-                PropertyService.Get<string>("Unity.Path.iPhone", "Not Found") != "Not Found"))
+                (PropertyService.Get<string>("Unity.Base.Documentation.Path", "Not Found") != "Not Found" ||
+                PropertyService.Get<string>("Unity.iPhone.Documentation.Path", "Not Found") != "Not Found"))
             {
                 switch (target)
                 {
                     case Settings.Documentation.Manual:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
                             Settings.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.Reference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
                             Settings.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.ScriptReference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
                             Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                 }
 
@@ -60,18 +60,18 @@ namespace MonoDevelop.Unity
             // Searching
             if (query != null && query.Length > 0)
             {
-                if ((PropertyService.Get<bool>("Unity.ForceLocal", false) ||
+                if ((PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                     !PropertyService.Get<bool>("Unity.Connection", false) )
 
                     &&
 
-                    (PropertyService.Get<string>("Unity.Path", "Not Found") != "Not Found" ||
-                     PropertyService.Get<string>("Unity.Path.iPhone", "Not Found") != "Not Found"))
+                    (PropertyService.Get<string>("Unity.Base.Documentation.Path", "Not Found") != "Not Found" ||
+                     PropertyService.Get<string>("Unity.iPhone.Documentation.Path", "Not Found") != "Not Found"))
                 {
                     switch (target)
                     {
                         case Settings.Documentation.ScriptReference:
-                            return this.Open("file://" + PropertyService.Get<string>("Unity.Path") +
+                            return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
                                 Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
                                 System.Web.HttpUtility.UrlEncode(query));
                     }
@@ -95,7 +95,7 @@ namespace MonoDevelop.Unity
 
         public bool Open(string address)
         {
-            if ( PropertyService.Get<bool>("Unity.OpenInBrowser", true))
+            if ( PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowser", true))
             {
                 Services.PlatformService.ShowUrl(address);
                 return true;
@@ -113,7 +113,7 @@ namespace MonoDevelop.Unity
                 {
                     Helpers.ShowMessage(GettextCatalog.GetString("Missing Extension"),
                         GettextCatalog.GetString("The Mono.WebBrowser Extension (part of Mono) is required for this functionality to work. We'll set your \"Open In Browser\" setting back to open with your default browser."));
-                    PropertyService.Set("Unity.OpenInBrowser", true);
+                    PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", true);
                     return false;
                 }
 

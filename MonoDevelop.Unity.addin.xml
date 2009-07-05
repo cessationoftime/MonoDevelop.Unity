@@ -6,15 +6,27 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "0.1.5.2" >
+    version     = "0.1.6.0.9" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
+        <Impoty file="unity-icon.png" />
 	</Runtime>
 
-    <Extension path = "/MonoDevelop/Ide/StartupHandlers">
-        <Class class="MonoDevelop.Unity.StartupHandler" />
+    <Dependencies>
+        <Addin id="MonoDevelop.Core" version="2.1.0"/>
+        <Addin id="MonoDevelop.Core.Gui" version="2.1.0"/>
+        <Addin id="MonoDevelop.Ide" version="2.1.0"/>
+        <Addin id="MonoDevelop.Components" version="2.1.0"/>
+    </Dependencies>
+
+    <!-- Resources -->
+    <Extension path = "/MonoDevelop/Core/StockIcons">
+        <StockIcon stockid = "unity-icon" resource = "unity-icon-16.png" size="Menu"/>
+        <StockIcon stockid = "unity-icon" resource = "unity-icon-24.png" />
     </Extension>
+
+    <!-- Command Declarations -->
 
     <Extension path = "/MonoDevelop/Ide/Commands">
 
@@ -54,6 +66,19 @@
 
     </Extension>
 
+
+
+
+    <!-- FUTURE UNITY MENU
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu">
+        <ItemSet id = "UnityMenu" insertafter = "Tools" insertbefore = "Window" _label = "_Unity" >
+        </ItemSet>
+    </Extension>
+
+    -->
+
+    <!-- Help Menu Addition -->
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
         <ItemSet id = "UnityHelpMenu" _label = "Unity">
             <CommandItem id="MonoDevelop.Unity.Commands.ViewManual" />
@@ -66,8 +91,16 @@
         </ItemSet>
     </Extension>
 
+
+    <!-- Startup Initialization "Stuff" -->
+    <Extension path = "/MonoDevelop/Ide/StartupHandlers">
+        <Class class="MonoDevelop.Unity.StartupHandler" />
+    </Extension>
+
+
+    <!-- Preferences -->
     <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog/Preferences">
-        <Section id = "UnityPreferences" _label = "Unity" fill="true" class = "MonoDevelop.Unity.PreferencesPanel" />
+        <Section id = "UnityPreferences" _label = "Unity" insertafter="KeyBindings" icon="unity-icon" fill="true" class = "MonoDevelop.Unity.PreferencesPanel" />
     </Extension>
 
 </AddIn>

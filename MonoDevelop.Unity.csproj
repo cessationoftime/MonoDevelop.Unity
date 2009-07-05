@@ -8,6 +8,7 @@
     <ProjectGuid>{D90E9472-EC02-40AC-99AE-F9C98A50E22E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <AssemblyName>MonoDevelop.Unity</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -18,7 +19,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <AssemblyName>MonoDevelop.Unity</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -27,7 +27,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <AssemblyName>UnityDevelop</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +66,11 @@
       <HintPath>..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\gtk-sharp-2.0\gtk-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\gtk-sharp-2.0\gdk-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
@@ -76,49 +80,10 @@
     <Compile Include="MonoDevelop.Unity\Settings.cs" />
     <Compile Include="MonoDevelop.Unity\Base.cs" />
     <Compile Include="MonoDevelop.Unity\PreferencesPanel.cs" />
+    <Compile Include="MonoDevelop.Unity\CommandHandlers.cs" />
+    <Compile Include="MonoDevelop.Unity\generated.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Content Include="MonoDevelop.Unity.addin.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Files\Class.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Files\Empty.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Files\Interface.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Projects\Default.xpt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Projects\Empty.xpt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Files\Class.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Files\Empty.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Files\Interface.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity\Files\MonoBehaviour.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Files\MonoBehaviour.xft.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Projects\Default.xpt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\Unity iPhone\Projects\Empty.xpt.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
       <Properties>
@@ -130,8 +95,52 @@
   </ProjectExtensions>
   <ItemGroup>
     <Folder Include="Templates\" />
-    <Folder Include="Templates\Unity iPhone\" />
-    <Folder Include="Templates\Unity\" />
     <Folder Include="MonoDevelop.Unity\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\Unity.Files.Interface.xft.xml">
+      <LogicalName>Unity.Files.Interface.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.Files.MonoBehaviour.xft.xml">
+      <LogicalName>Unity.Files.MonoBehaviour.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.Project.Default.xpt.xml">
+      <LogicalName>Unity.Project.Default.xpt.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.Project.Empty.xpt.xml">
+      <LogicalName>Unity.Project.Empty.xpt.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Files.MonoBehaviour.xft.xml">
+      <LogicalName>Unity.iPhone.Files.MonoBehaviour.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Empty.xft.xml">
+      <LogicalName>Unity.iPhone.Files.Empty.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Interface.xft.xml">
+      <LogicalName>Unity.iPhone.Files.Interface.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Class.xft.xml">
+      <LogicalName>Unity.iPhone.Files.Class.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Project.Empty.xpt.xml">
+      <LogicalName>Unity.iPhone.Project.Empty.xpt.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.iPhone.Project.Default.xpt.xml">
+      <LogicalName>Unity.iPhone.Project.Default.xpt.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonoDevelop.Unity.addin.xml" />
+    <EmbeddedResource Include="Images\unity-icon-16.png">
+      <LogicalName>unity-icon-16.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-icon-24.png">
+      <LogicalName>unity-icon-24.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.Files.Class.xft.xml">
+      <LogicalName>Unity.Files.Class.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\Unity.Files.Empty.xft.xml">
+      <LogicalName>Unity.Files.Empty.xft.xml</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
