@@ -3,20 +3,18 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/PreferencesPanel.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/Panels/DocumentationPanel.cs" ctype="Workbench">
     <Files>
-      <File FileName="MonoDevelop.Unity/PreferencesPanel.cs" Line="134" Column="97" />
-      <File FileName="MonoDevelop.Unity/Settings.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity.addin.xml" Line="9" Column="29" />
+      <File FileName="MonoDevelop.Unity/Panels/DocumentationPanel.cs" Line="108" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="MonoDevelop.Unity" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="Images" expanded="True" />
             <Node name="MonoDevelop.Unity" expanded="True">
-              <Node name="PreferencesPanel.cs" selected="True" />
+              <Node name="Panels" expanded="True">
+                <Node name="DocumentationPanel.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

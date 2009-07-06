@@ -79,9 +79,11 @@
     <Compile Include="MonoDevelop.Unity\StartupHandler.cs" />
     <Compile Include="MonoDevelop.Unity\Settings.cs" />
     <Compile Include="MonoDevelop.Unity\Base.cs" />
-    <Compile Include="MonoDevelop.Unity\PreferencesPanel.cs" />
     <Compile Include="MonoDevelop.Unity\CommandHandlers.cs" />
     <Compile Include="MonoDevelop.Unity\generated.cs" />
+    <Compile Include="MonoDevelop.Unity\Panels\DocumentationPanel.cs" />
+    <Compile Include="MonoDevelop.Unity\Panels\TemplatesPanel.cs" />
+    <Compile Include="MonoDevelop.Unity\Panels\SetupPanel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -97,6 +99,7 @@
     <Folder Include="Templates\" />
     <Folder Include="MonoDevelop.Unity\" />
     <Folder Include="Images\" />
+    <Folder Include="MonoDevelop.Unity\Panels\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Templates\Unity.Files.Interface.xft.xml">
@@ -141,6 +144,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Templates\Unity.Files.Empty.xft.xml">
       <LogicalName>Unity.Files.Empty.xft.xml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-file-16.png">
+      <LogicalName>unity-file-16.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-file-24.png">
+      <LogicalName>unity-file-24.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-file-32.png">
+      <LogicalName>unity-file-32.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-file-48.png">
+      <LogicalName>unity-file-48.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-icon-32.png">
+      <LogicalName>unity-icon-32.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-icon-48.png">
+      <LogicalName>unity-icon-48.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-lerpz-16.png">
+      <LogicalName>unity-lerpz-16.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-lerpz-24.png">
+      <LogicalName>unity-lerpz-24.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-lerpz-32.png">
+      <LogicalName>unity-lerpz-32.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\unity-lerpz-48.png">
+      <LogicalName>unity-lerpz-48.png</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

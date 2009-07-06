@@ -6,11 +6,10 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "0.1.6.0.9" >
+    version     = "1.0.0" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
-        <Impoty file="unity-icon.png" />
 	</Runtime>
 
     <Dependencies>
@@ -24,6 +23,13 @@
     <Extension path = "/MonoDevelop/Core/StockIcons">
         <StockIcon stockid = "unity-icon" resource = "unity-icon-16.png" size="Menu"/>
         <StockIcon stockid = "unity-icon" resource = "unity-icon-24.png" />
+        <StockIcon stockid = "unity-icon" resource = "unity-icon-32.png" size = "Dnd" />
+        <StockIcon stockid = "unity-file" resource = "unity-file-16.png" size="Menu"/>
+        <StockIcon stockid = "unity-file" resource = "unity-file-24.png" />
+        <StockIcon stockid = "unity-file" resource = "unity-file-32.png" size = "Dnd" />
+        <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-16.png" size="Menu"/>
+        <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-24.png" />
+        <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-32.png" size = "Dnd" />
     </Extension>
 
     <!-- Command Declarations -->
@@ -99,8 +105,12 @@
 
 
     <!-- Preferences -->
-    <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog/Preferences">
-        <Section id = "UnityPreferences" _label = "Unity" insertafter="KeyBindings" icon="unity-icon" fill="true" class = "MonoDevelop.Unity.PreferencesPanel" />
+    <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog">
+        <Section id="Unity" insertafter="Preferences" _label="Unity">
+            <Section id = "UnitySetup" _label = "Setup" icon="unity-icon" fill="true" class = "MonoDevelop.Unity.SetupPanel" />
+            <Section id = "UnityDocumentation" _label = "Documentation" icon="unity-lerpz" fill="true" class = "MonoDevelop.Unity.DocumentationPanel" />
+            <Section id = "UnityTemplates" _label = "Templates" icon="unity-file" fill="true" class = "MonoDevelop.Unity.TemplatesPanel" />
+        </Section>
     </Extension>
 
 </AddIn>

@@ -1,0 +1,186 @@
+using System;
+using System.Collections.Generic;
+
+using Gtk;
+
+using MonoDevelop.Core;
+using MonoDevelop.Core.Gui.Dialogs;
+
+namespace MonoDevelop.Unity
+{
+    public class SetupPanel : OptionsPanel
+    {
+        SetupPanelWidget widget;
+        
+        public override Widget CreatePanelWidget ()
+        {
+            this.widget = new SetupPanelWidget();
+            return widget;
+        }
+
+        public override void ApplyChanges ()
+        {
+            this.widget.Save();
+        }
+    }
+
+    public partial class SetupPanelWidget : Gtk.Bin
+    {
+
+        public SetupPanelWidget()
+        {
+            this.Build();
+        }
+
+        public string BasePath
+        {
+            get
+            {
+                return this.folderBasePath.Path;
+            }
+            set
+            {
+                this.folderBasePath.Path = value;
+            }
+        }
+
+        public string iPhonePath
+        {
+            get
+            {
+                return this.folderiPhonePath.Path;
+            }
+            set
+            {
+                this.folderiPhonePath.Path = value;
+            }
+        }
+     }
+
+    public partial class SetupPanelWidget
+    {
+
+        private Gtk.VBox boxPreferences;
+
+        private Gtk.Label labelBasePath;
+        private MonoDevelop.Components.FolderEntry folderBasePath;
+        private Gtk.Label labeliPhonePath;
+        private MonoDevelop.Components.FolderEntry folderiPhonePath;
+        private Gtk.Button buttonReset;
+
+        protected virtual void Build()
+        {
+            Stetic.Gui.Initialize(this);
+            Stetic.BinContainer.Attach(this);
+
+            this.Name = "MonoDevelop.Unity.SetupPanelWidget";
+
+            // Create Boxes
+            this.boxPreferences = new Gtk.VBox();
+            this.boxPreferences.Name = "boxPreferences";
+            this.boxPreferences.Spacing = 6;
+
+
+            // Base Path
+            this.labelBasePath = new Gtk.Label();
+            this.labelBasePath.Name = "labelBasePath";
+            this.labelBasePath.Xalign = 0F;
+            this.labelBasePath.Yalign = 0F;
+            this.labelBasePath.LabelProp = GettextCatalog.GetString("Unity Path");
+            this.boxPreferences.Add(this.labelBasePath);
+
+            Gtk.Box.BoxChild setupLabelBasePath = ((Gtk.Box.BoxChild)(this.boxPreferences[this.labelBasePath]));
+            setupLabelBasePath.Position = 0;
+            setupLabelBasePath.Expand = false;
+            setupLabelBasePath.Fill = false;
+
+            this.folderBasePath = new MonoDevelop.Components.FolderEntry();
+            this.folderBasePath.Name = "folderBasePath";
+            this.folderBasePath.Path = PropertyService.Get<string>("Unity.Base.Path");
+            this.boxPreferences.Add(this.folderBasePath);
+
+            Gtk.Box.BoxChild setupFolderBasePath = ((Gtk.Box.BoxChild)(this.boxPreferences[this.folderBasePath]));
+            setupFolderBasePath.Position = 1;
+            setupFolderBasePath.Expand = false;
+            setupFolderBasePath.Fill = false;
+
+
+            // iPhone Path
+            this.labeliPhonePath = new Gtk.Label();
+            this.labeliPhonePath.Name = "labeliPhonePath";
+            this.labeliPhonePath.Xalign = 0F;
+            this.labeliPhonePath.Yalign = 0F;
+            this.labeliPhonePath.LabelProp = GettextCatalog.GetString("Unity iPhone Path");
+            this.boxPreferences.Add(this.labeliPhonePath);
+
+            Gtk.Box.BoxChild setupLabeliPhonePath = ((Gtk.Box.BoxChild)(this.boxPreferences[this.labeliPhonePath]));
+            setupLabeliPhonePath.Position = 2;
+            setupLabeliPhonePath.Expand = false;
+            setupLabeliPhonePath.Fill = false;
+
+            this.folderiPhonePath = new MonoDevelop.Components.FolderEntry();
+            this.folderiPhonePath.Name = "folderiPhonePath";
+            this.folderiPhonePath.Path = PropertyService.Get<string>("Unity.iPhone.Path");
+
+            this.boxPreferences.Add(this.folderiPhonePath);
+
+
+
+            Gtk.Box.BoxChild setupFolderiPhonePath = ((Gtk.Box.BoxChild)(this.boxPreferences[this.folderiPhonePath]));
+            setupFolderiPhonePath.Position = 3;
+            setupFolderiPhonePath.Expand = false;
+            setupFolderiPhonePath.Fill = false;
+
+            this.buttonReset = new Gtk.Button();
+            this.buttonReset.Clicked += ResetAddInClicked;
+            this.buttonReset.Label = GettextCatalog.GetString("Reset Add-In Settings");
+            this.boxPreferences.Add(this.buttonReset);
+
+
+            Gtk.Box.BoxChild setupButtonReset = ((Gtk.Box.BoxChild)(this.boxPreferences[this.buttonReset]));
+            setupButtonReset.Position = 4;
+            setupButtonReset.Expand = false;
+            setupButtonReset.Fill = false;
+
+
+
+
+            this.Add(this.boxPreferences);
+
+
+            if ((this.Child != null)) {
+                this.Child.ShowAll();
+            }
+
+            this.Show();
+        }
+
+
+        public void Save ()
+        {
+            PropertyService.Set ("Unity.Base.Documentation.Path", this.folderBasePath.Path);
+            PropertyService.Set ("Unity.iPhone.Documentation.Path", this.folderiPhonePath.Path);
+        }
+
+        void ResetAddInClicked (object sender, EventArgs e)
+        {
+            if (Helpers.AskYesNoQuestion("Clear Settings", "Are you sure you want us to clear all of the Unity related settings?") )
+            {
+                PropertyService.Set("Unity.Base.Path", null);
+                PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", null);
+                PropertyService.Set("Unity.iPhone.Path", null);
+                PropertyService.Set("Unity.Base.Documentation.ForceLocal", null);
+                PropertyService.Set("Unity.OS", null);
+                PropertyService.Set("Unity.Connection", null);
+    
+                Helpers.FindUnity();
+                Helpers.FindUnityiPhone();
+    
+                this.folderBasePath.Path = PropertyService.Get<string>("Unity.Base.Path", null);
+                this.folderiPhonePath.Path = PropertyService.Get<string>("Unity.iPhone.Path", null);
+            }
+
+        }
+
+    }
+}

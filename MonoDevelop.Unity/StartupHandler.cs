@@ -11,43 +11,20 @@ namespace MonoDevelop.Unity
         {
             // Internet Connection
             PropertyService.Set("Unity.Connection", true);
-            
+
            //System.Net.NetworkInformation.Ping("reaper.ca");
 
             #region First Time
-            // Find Regular Unity
-            if (PropertyService.Get<string>("Unity.Base.Documentation.Path") == null)
+
+            if (PropertyService.Get<string>("Unity.Base.Path", null) == null)
             {
-                // Default Mac Install
-                if(FileService.IsValidPath("/Applications/Unity/Unity.app/"))
-                {
-                    PropertyService.Set("Unity.Base.Documentation.Path", "/Applications/Unity/");
-                    PropertyService.Set("Unity.OS", "OSX");
-                }
-
-                // Default x64 Windows Install
-                else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity\\"))
-                {
-                    PropertyService.Set("Unity.Base.Documentation.Path", "c:\\Program Files (x86)\\Unity\\Editor\\Data\\");
-                    PropertyService.Set("Unity.OS", "WIN");
-                }
-
-                // Default x86 Windows Install
-                else if(FileService.IsValidPath("c:\\Program Files\\Unity\\"))
-                {
-                    PropertyService.Set("Unity.Base.Documentation.Path", "c:\\Program Files\\Unity\\Editor\\Data\\");
-                    PropertyService.Set("Unity.OS", "WIN");
-                }
+                Helpers.FindUnity();
             }
 
             // Find IPhone Unity
-            if (PropertyService.Get<string>("Unity.iPhone.Documentation.Path") == null && PropertyService.Get<string>("Unity.OS") == "OSX")
+            if (PropertyService.Get<string>("Unity.iPhone.Path", null) == null && PropertyService.Get<string>("Unity.OS", null) == "OSX")
             {
-                // Default Mac Install
-                if(FileService.IsValidPath("/Applications/Unity iPhone/Unity iPhone.app/"))
-                {
-                    PropertyService.Set("Unity.iPhone.Documentation.Path", "/Applications/Unity iPhone/");
-                }
+                Helpers.FindUnityiPhone();
             }
             #endregion
         }

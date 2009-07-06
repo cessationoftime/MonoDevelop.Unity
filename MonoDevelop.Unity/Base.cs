@@ -23,19 +23,19 @@ namespace MonoDevelop.Unity
 
                 &&
 
-                (PropertyService.Get<string>("Unity.Base.Documentation.Path", "Not Found") != "Not Found" ||
-                PropertyService.Get<string>("Unity.iPhone.Documentation.Path", "Not Found") != "Not Found"))
+                (PropertyService.Get<string>("Unity.Base.Path", null) != null ||
+                PropertyService.Get<string>("Unity.iPhone.Path", null) != null))
             {
                 switch (target)
                 {
                     case Settings.Documentation.Manual:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
                             Settings.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.Reference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
                             Settings.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.ScriptReference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
+                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
                             Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                 }
 
@@ -65,13 +65,13 @@ namespace MonoDevelop.Unity
 
                     &&
 
-                    (PropertyService.Get<string>("Unity.Base.Documentation.Path", "Not Found") != "Not Found" ||
-                     PropertyService.Get<string>("Unity.iPhone.Documentation.Path", "Not Found") != "Not Found"))
+                    (PropertyService.Get<string>("Unity.Base.Path", null) != null ||
+                     PropertyService.Get<string>("Unity.iPhone.Path", null) != null))
                 {
                     switch (target)
                     {
                         case Settings.Documentation.ScriptReference:
-                            return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Documentation.Path") +
+                            return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
                                 Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
                                 System.Web.HttpUtility.UrlEncode(query));
                     }

@@ -48,7 +48,7 @@ namespace MonoDevelop.Unity
         protected override void Update(CommandInfo info)
         {
             // Disable searching of Local Manual
-            if ( PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal") ||
+            if ( PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                 !PropertyService.Get<bool>("Unity.Connection", false))
             {
                 info.Enabled = false;
@@ -70,7 +70,7 @@ namespace MonoDevelop.Unity
         protected override void Update(CommandInfo info)
         {
             // Disable searching of local Reference Manual
-            if ( PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal") ||
+            if ( PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                 !PropertyService.Get<bool>("Unity.Connection", false))
             {
                 info.Enabled = false;

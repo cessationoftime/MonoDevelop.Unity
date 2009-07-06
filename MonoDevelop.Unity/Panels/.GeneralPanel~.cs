@@ -5,13 +5,13 @@ using MonoDevelop.Core.Gui.Dialogs;
 
 namespace MonoDevelop.Unity
 {
-    public class PreferencesPanel : OptionsPanel
+    public class SetupPanel : OptionsPanel
     {
-        PreferencesPanelWidget widget;
+        SetupPanelWidget widget;
         
         public override Widget CreatePanelWidget ()
         {
-            this.widget = new PreferencesPanelWidget();
+            this.widget = new SetupPanelWidget();
             return widget;
         }
 
@@ -21,14 +21,10 @@ namespace MonoDevelop.Unity
         }
     }
 
-
-
-
-
-    public partial class PreferencesPanelWidget : Gtk.Bin
+    public partial class SetupPanelWidget : Gtk.Bin
     {
 
-        public PreferencesPanelWidget()
+        public SetupPanelWidget()
         {
             this.Build();
         }
@@ -60,11 +56,10 @@ namespace MonoDevelop.Unity
     // Add dropdown to select documentation override (if you have both iphone and reg)
     // Add path to both docs
 
-    public partial class PreferencesPanelWidget
+    public partial class SetupPanelWidget
     {
 
         private Gtk.VBox boxPreferences;
-        private Gtk.VBox boxDocumentation;
 
         private Gtk.Label labelDocumentation;
         private Gtk.CheckButton checkForceLocal;
@@ -78,18 +73,14 @@ namespace MonoDevelop.Unity
             Stetic.Gui.Initialize(this);
             Stetic.BinContainer.Attach(this);
 
-            this.Name = "MonoDevelop.Unity.PreferencesPanelWidget";
+            this.Name = "MonoDevelop.Unity.SetupPanelWidget";
 
             // Create Boxes
             this.boxPreferences = new Gtk.VBox();
             this.boxPreferences.Name = "boxPreferences";
             this.boxPreferences.Spacing = 6;
 
-            this.boxDocumentation = new Gtk.VBox();
-            this.boxDocumentation.Name = "boxDocumentation";
-            this.boxDocumentation.Spacing = 6;
-
-
+            /*
             // Create Documentation Label
             this.labelDocumentation = new Gtk.Label();
             this.labelDocumentation.Name = "labelDocumentation";
@@ -102,7 +93,7 @@ namespace MonoDevelop.Unity
             Gtk.Box.BoxChild setupLabelDocumentation = ((Gtk.Box.BoxChild)(this.boxPreferences[this.labelDocumentation]));
             setupLabelDocumentation.Position = 0;
             setupLabelDocumentation.Expand = false;
-            setupLabelDocumentation.Fill = false;
+            setupLabelDocumentation.Fill = false;*/
 
 
             // Force Local Content
@@ -113,31 +104,27 @@ namespace MonoDevelop.Unity
             this.checkForceLocal.Name = "checkForceLocal";
             this.checkForceLocal.DrawIndicator = true;
             this.checkForceLocal.UseUnderline = true;
-            this.boxDocumentation.Add(this.checkForceLocal);
+            this.boxPreferences.Add(this.checkForceLocal);
 
-            Gtk.Box.BoxChild setupCheckForceLocal = ((Gtk.Box.BoxChild)(this.boxDocumentation[this.checkForceLocal]));
-            setupCheckForceLocal.Position = 1;
+            Gtk.Box.BoxChild setupCheckForceLocal = ((Gtk.Box.BoxChild)(this.boxPreferences[this.checkForceLocal]));
+            setupCheckForceLocal.Position = 0;
             setupCheckForceLocal.Expand = false;
             setupCheckForceLocal.Fill = false;
 
-            // Container child vbox1.Gtk.Box+BoxChild
             this.checkOpenInBrowser = new Gtk.CheckButton();
             this.checkOpenInBrowser.Sensitive = false;
             this.checkOpenInBrowser.CanFocus = true;
             this.checkOpenInBrowser.Name = "checkOpenInBrowser";
             this.checkOpenInBrowser.Label = GettextCatalog.GetString("Open Documentation in a Web Browser");
-            this.checkOpenInBrowser.Active = PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowse", true);
+            this.checkOpenInBrowser.Active = PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowser", true);
             this.checkOpenInBrowser.DrawIndicator = true;
             this.checkOpenInBrowser.UseUnderline = true;
-            this.boxDocumentation.Add(this.checkOpenInBrowser);
+            this.boxPreferences.Add(this.checkOpenInBrowser);
 
-            Gtk.Box.BoxChild setupCheckOpenInBrowser = ((Gtk.Box.BoxChild)(this.boxDocumentation[this.checkOpenInBrowser]));
-            setupCheckOpenInBrowser.Position = 2;
+            Gtk.Box.BoxChild setupCheckOpenInBrowser = ((Gtk.Box.BoxChild)(this.boxPreferences[this.checkOpenInBrowser]));
+            setupCheckOpenInBrowser.Position = 1;
             setupCheckOpenInBrowser.Expand = false;
             setupCheckOpenInBrowser.Fill = false;
-
-            // Add to parent
-            this.boxPreferences.Add(this.boxDocumentation);
 
             this.Add(this.boxPreferences);
 
@@ -153,7 +140,7 @@ namespace MonoDevelop.Unity
         public void Save ()
         {
             PropertyService.Set ("Unity.Base.Documentation.ForceLocal", this.checkForceLocal.Active);
-            PropertyService.Set ("Unity.Base.Documentation.OpenInBrowse", this.checkOpenInBrowser.Active);
+            PropertyService.Set ("Unity.Base.Documentation.OpenInBrowser", this.checkOpenInBrowser.Active);
         }
     }
 }
