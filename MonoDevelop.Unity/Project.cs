@@ -65,7 +65,6 @@ namespace MonoDevelop.Unity
 		
 		void Init ()
 		{
-			
 		}
 		
 		public override SolutionItemConfiguration CreateConfiguration (string name)

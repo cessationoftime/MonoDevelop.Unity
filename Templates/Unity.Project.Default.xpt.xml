@@ -10,6 +10,7 @@
         <Icon>unity-icon</Icon>
         <LanguageName>C#</LanguageName>
         <_Description>Creates a new Unity based project.</_Description>
+        <Type>Unity</Type>
     </TemplateConfiguration>
     
     <!-- Actions -->
@@ -26,10 +27,10 @@
             <Options/>
             <References>
                 <Reference type="Gac" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-                <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+                <!-- THIS BREAKS THE PROJECT <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       				<SpecificVersion>False</SpecificVersion>
       				<HintPath>${UnityEngineDLL}</HintPath>
-    			</Reference>
+    			</Reference>-->
             </References>
             
             <Files>

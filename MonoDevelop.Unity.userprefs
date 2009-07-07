@@ -3,24 +3,23 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Templates/Unity.Project.Default.xpt.xml" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/Project.cs" ctype="Workbench">
     <Files>
-      <File FileName="Templates/Unity.Project.Default.xpt.xml" Line="24" Column="19" />
-      <File FileName="MonoDevelop.Unity.addin.xml" Line="107" Column="40" />
-      <File FileName="MonoDevelop.Unity/BuildExtension.cs" Line="65" Column="5" />
-      <File FileName="MonoDevelop.Unity/Project.cs" Line="63" Column="12" />
-      <File FileName="Templates/Unity.Files.Interface.xft.xml" Line="24" Column="29" />
-      <File FileName="Templates/Unity.Files.MonoBehaviour.xft.xml" Line="13" Column="1" />
-      <File FileName="Templates/Unity.Files.Class.xft.xml" Line="13" Column="9" />
+      <File FileName="Templates/Unity.Files.Class.xft.xml" Line="13" Column="27" />
+      <File FileName="Templates/Unity.Project.Default.xpt.xml" Line="20" Column="5" />
+      <File FileName="Templates/Unity.Files.MonoBehaviour.xft.xml" Line="18" Column="18" />
+      <File FileName="MonoDevelop.Unity.addin.xml" Line="28" Column="40" />
+      <File FileName="MonoDevelop.Unity/Project.cs" Line="64" Column="4" />
+      <File FileName="Templates/Unity.Files.Interface.xft.xml" Line="13" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="MonoDevelop.Unity" expanded="True">
-            <Node name="MonoDevelop.Unity" expanded="True" />
-            <Node name="Templates" expanded="True">
-              <Node name="Unity.Project.Default.xpt.xml" selected="True" />
+            <Node name="MonoDevelop.Unity" expanded="True">
+              <Node name="Project.cs" selected="True" />
             </Node>
+            <Node name="Templates" expanded="True" />
           </Node>
         </State>
       </Pad>

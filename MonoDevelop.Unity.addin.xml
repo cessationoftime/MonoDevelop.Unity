@@ -2,11 +2,11 @@
 	id          = "MonoDevelop.Unity"
 	name        = "Unity Support"
     author      = "dotBunny Inc."
-	copyright   = "(c) 2009 dotBunny Inc."
+	copyright   = "MIT X11"
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "1.0.0" >
+    version     = "1.0.0-PREVEIW" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
@@ -92,7 +92,7 @@
 	</Extension>
 	
 	<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
-		<ProjectBinding id = "UnityProject" class = "MonoDevelop.Unity.ProjectBinding" />
+		<ProjectBinding id = "UnityBinding" class = "MonoDevelop.Unity.ProjectBinding" />
 	</Extension>
 	
 	<!--
