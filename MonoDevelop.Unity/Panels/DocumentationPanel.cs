@@ -53,41 +53,6 @@ namespace MonoDevelop.Unity
     public partial class DocumentationPanelWidget : Gtk.Bin
     {
 
-        public DocumentationPanelWidget()
-        {
-            this.Build();
-        }
-
-        public bool ForceLocal
-        {
-            get
-            {
-                return this.checkForceLocal.Active;
-            }
-            set
-            {
-                this.checkForceLocal.Active = value;
-            }
-        }
-        public bool OpenInBrowser
-        {
-            get
-            {
-                return this.checkOpenInBrowser.Active;
-            }
-            set
-            {
-                this.checkOpenInBrowser.Active = value;
-            }
-        }
-    }
-
-    // Add dropdown to select documentation override (if you have both iphone and reg)
-    // Add path to both docs
-
-    public partial class DocumentationPanelWidget
-    {
-
         private Gtk.VBox boxPreferences;
 		private Gtk.HBox boxDocumentationPreference;
 
@@ -96,7 +61,10 @@ namespace MonoDevelop.Unity
         private Gtk.CheckButton checkForceLocal;
         private Gtk.CheckButton checkOpenInBrowser;
 
-
+		public DocumentationPanelWidget()
+        {
+            this.Build();
+        }
 
 
         protected virtual void Build()

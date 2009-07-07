@@ -56,39 +56,6 @@ namespace MonoDevelop.Unity
     public partial class SetupPanelWidget : Gtk.Bin
     {
 
-        public SetupPanelWidget()
-        {
-            this.Build();
-        }
-
-        public string BasePath
-        {
-            get
-            {
-                return this.folderBasePath.Path;
-            }
-            set
-            {
-                this.folderBasePath.Path = value;
-            }
-        }
-
-        public string iPhonePath
-        {
-            get
-            {
-                return this.folderiPhonePath.Path;
-            }
-            set
-            {
-                this.folderiPhonePath.Path = value;
-            }
-        }
-     }
-
-    public partial class SetupPanelWidget
-    {
-
         private Gtk.VBox boxPreferences;
 		private Gtk.HBox boxReset;
 
@@ -97,8 +64,13 @@ namespace MonoDevelop.Unity
         private Gtk.Label labeliPhonePath;
         private MonoDevelop.Components.FolderEntry folderiPhonePath;
         private Gtk.Button buttonReset;
-
-        protected virtual void Build()
+        
+		public SetupPanelWidget()
+        {
+            this.Build();
+        }
+        
+		protected virtual void Build()
         {
             Stetic.Gui.Initialize(this);
             Stetic.BinContainer.Attach(this);

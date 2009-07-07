@@ -24,16 +24,16 @@
         <StockIcon stockid = "unity-icon" resource = "unity-icon-16.png" size="Menu"/>
         <StockIcon stockid = "unity-icon" resource = "unity-icon-24.png" />
         <StockIcon stockid = "unity-icon" resource = "unity-icon-32.png" size = "Dnd" />
-        <StockIcon stockid = "unity-file" resource = "unity-file-16.png" size="Menu"/>
+        <StockIcon stockid = "unity-file" resource = "unity-file-16.png" size = "Menu" />
         <StockIcon stockid = "unity-file" resource = "unity-file-24.png" />
-        <StockIcon stockid = "unity-file" resource = "unity-file-32.png" size = "Dnd" />
+        <StockIcon stockid = "unity-file" resource = "unity-file-32.png" size="Dnd" />
+        <StockIcon stockid = "unity-file" icon = "unity-file|res:unity-file-32.png" size="Dnd"/>
         <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-16.png" size="Menu"/>
         <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-24.png" />
         <StockIcon stockid = "unity-lerpz" resource = "unity-lerpz-32.png" size = "Dnd" />
     </Extension>
 
     <!-- Command Declarations -->
-
     <Extension path = "/MonoDevelop/Ide/Commands">
 
         <Category _name = "Unity Support" id = "Unity">
@@ -72,14 +72,15 @@
 
     </Extension>
 
-    <!-- FUTURE UNITY MENU
-
-    <Extension path = "/MonoDevelop/Ide/MainMenu">
-        <ItemSet id = "UnityMenu" insertafter = "Tools" insertbefore = "Window" _label = "_Unity" >
-        </ItemSet>
-    </Extension>
-
-    -->
+	<!-- File Templates -->
+	<Extension path = "/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id       = "Unity.Files.MonoBehaviour"
+		              resource = "Unity.Files.MonoBehaviour.xft.xml"/>
+		<FileTemplate id       = "Unity.Files.Class"
+		              resource = "Unity.Files.Class.xft.xml"/>
+		<FileTemplate id       = "Unity.Files.Interface"
+		              resource = "Unity.Files.Interface.xft.xml"/>		              		              
+	</Extension>
 
     <!-- Help Menu Addition -->
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
@@ -94,19 +95,16 @@
         </ItemSet>
     </Extension>
 
-
     <!-- Startup Initialization "Stuff" -->
     <Extension path = "/MonoDevelop/Ide/StartupHandlers">
         <Class class="MonoDevelop.Unity.StartupHandler" />
     </Extension>
-
 
     <!-- Preferences -->
     <Extension path = "/MonoDevelop/Ide/GlobalOptionsDialog">
         <Section id="Unity" insertafter="Preferences" _label="Unity">
             <Section id = "UnitySetup" _label = "Setup" icon="unity-icon" fill="true" class = "MonoDevelop.Unity.SetupPanel" />
             <Section id = "UnityDocumentation" _label = "Documentation" icon="unity-lerpz" fill="true" class = "MonoDevelop.Unity.DocumentationPanel" />
-            <Section id = "UnityTemplates" _label = "Templates" icon="unity-file" fill="true" class = "MonoDevelop.Unity.TemplatesPanel" />
         </Section>
     </Extension>
 

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Template Originator   = "dotBunny Inc."
+          Language     = "C#"
+          Created      = "2009/07/01"
+          LastModified = "2009/07/01">
+    
+    <TemplateConfiguration>
+        <_Name>Empty MonoBehaviour Class</_Name>
+        <Icon>unity-file</Icon>
+        <_Category>Unity</_Category>
+        <LanguageName>C#</LanguageName>
+        <_Description>The standard "expensive" MonoBehaviour class.</_Description>
+    </TemplateConfiguration>
+    
+    <Conditions>
+        <ParentProject PermittedCreationPaths="" ExcludedFiles="/Class.cs" />
+    </Conditions>
+
+    <TemplateFiles>
+        <File Name="NewBehaviourScript.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
+using System.Collections;
+
+public class NewBehaviourScript : MonoBehaviour 
+{
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}]]>
+        </File>
+    </TemplateFiles>
+    
+    <FileOptions/>
+
+</Template>

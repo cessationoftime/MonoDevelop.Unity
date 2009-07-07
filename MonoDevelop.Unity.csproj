@@ -82,7 +82,6 @@
     <Compile Include="MonoDevelop.Unity\CommandHandlers.cs" />
     <Compile Include="MonoDevelop.Unity\generated.cs" />
     <Compile Include="MonoDevelop.Unity\Panels\DocumentationPanel.cs" />
-    <Compile Include="MonoDevelop.Unity\Panels\TemplatesPanel.cs" />
     <Compile Include="MonoDevelop.Unity\Panels\SetupPanel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -90,7 +89,7 @@
     <MonoDevelop>
       <Properties>
         <Policies>
-          <TextStylePolicy FileWidth="120" TabWidth="4" TabsToSpaces="True" NoTabsAfterNonTabs="False" RemoveTrailingWhitespace="True" EolMarker="Native" />
+          <TextStylePolicy FileWidth="120" RemoveTrailingWhitespace="True" inheritsSet="VisualStudio" inheritsScope="text/plain" />
         </Policies>
       </Properties>
     </MonoDevelop>
@@ -114,24 +113,6 @@
     <EmbeddedResource Include="Templates\Unity.Project.Empty.xpt.xml">
       <LogicalName>Unity.Project.Empty.xpt.xml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Files.MonoBehaviour.xft.xml">
-      <LogicalName>Unity.iPhone.Files.MonoBehaviour.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Empty.xft.xml">
-      <LogicalName>Unity.iPhone.Files.Empty.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Interface.xft.xml">
-      <LogicalName>Unity.iPhone.Files.Interface.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Files.Class.xft.xml">
-      <LogicalName>Unity.iPhone.Files.Class.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Project.Empty.xpt.xml">
-      <LogicalName>Unity.iPhone.Project.Empty.xpt.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.iPhone.Project.Default.xpt.xml">
-      <LogicalName>Unity.iPhone.Project.Default.xpt.xml</LogicalName>
-    </EmbeddedResource>
     <EmbeddedResource Include="MonoDevelop.Unity.addin.xml" />
     <EmbeddedResource Include="Images\unity-icon-16.png">
       <LogicalName>unity-icon-16.png</LogicalName>
@@ -141,9 +122,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Templates\Unity.Files.Class.xft.xml">
       <LogicalName>Unity.Files.Class.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.Files.Empty.xft.xml">
-      <LogicalName>Unity.Files.Empty.xft.xml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\unity-file-16.png">
       <LogicalName>unity-file-16.png</LogicalName>
