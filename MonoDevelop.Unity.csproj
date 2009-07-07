@@ -78,11 +78,11 @@
     <Compile Include="MonoDevelop.Unity\Commands.cs" />
     <Compile Include="MonoDevelop.Unity\StartupHandler.cs" />
     <Compile Include="MonoDevelop.Unity\Settings.cs" />
-    <Compile Include="MonoDevelop.Unity\Base.cs" />
     <Compile Include="MonoDevelop.Unity\CommandHandlers.cs" />
-    <Compile Include="MonoDevelop.Unity\generated.cs" />
-    <Compile Include="MonoDevelop.Unity\Panels\DocumentationPanel.cs" />
-    <Compile Include="MonoDevelop.Unity\Panels\SetupPanel.cs" />
+    <Compile Include="MonoDevelop.Unity\DocumentationPanel.cs" />
+    <Compile Include="MonoDevelop.Unity\SetupPanel.cs" />
+    <Compile Include="generated.cs" />
+    <Compile Include="MonoDevelop.Unity\Base.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -98,7 +98,6 @@
     <Folder Include="Templates\" />
     <Folder Include="MonoDevelop.Unity\" />
     <Folder Include="Images\" />
-    <Folder Include="MonoDevelop.Unity\Panels\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Templates\Unity.Files.Interface.xft.xml">
@@ -109,9 +108,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Templates\Unity.Project.Default.xpt.xml">
       <LogicalName>Unity.Project.Default.xpt.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.Project.Empty.xpt.xml">
-      <LogicalName>Unity.Project.Empty.xpt.xml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="MonoDevelop.Unity.addin.xml" />
     <EmbeddedResource Include="Images\unity-icon-16.png">

@@ -40,56 +40,6 @@ namespace MonoDevelop.Unity
     public class Helpers
     {
 
-        #region Initilization
-		
-		/// <summary>
-		/// Attempts to find the location of Unity and record its path to the property 
-		/// "Unity.Base.Path".
-		/// </summary>
-        public static void FindUnity()
-        {
-            // Default Mac Install
-            if(FileService.IsValidPath("/Applications/Unity/Unity.app"))
-            {
-                PropertyService.Set("Unity.Base.Path", "/Applications/Unity");
-
-            }
-
-            // Default x64 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity"))
-            {
-                PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor");
-				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
-
-            }
-
-            // Default x86 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files\\Unity"))
-            {
-                PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
-				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
-            }
-        }
-
-		/// <summary>
-		/// Attempts to fine the location of Unity iPhone and record its path to the 
-		/// property "Unity.iPhone.Path".
-		/// </summary>
-        public static void FindUnityiPhone()
-        {
-            // Default Mac Install
-            if(FileService.IsValidPath("/Applications/Unity iPhone/Unity iPhone.app"))
-            {
-                PropertyService.Set("Unity.iPhone.Path", "/Applications/Unity iPhone");
-            }
-            else
-            {
-                PropertyService.Set("Unity.iPhone.Path", null);
-            }
-        }
-
-        #endregion
-
 		/// <summary>
 		/// Returns  the currently selected text within the current IDE content window.
 		/// </summary>
@@ -142,8 +92,6 @@ namespace MonoDevelop.Unity
             return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
         }
 
-
-
         #region Alert/Error Handling
 
         public static void ShowMessage(string message)
@@ -167,11 +115,5 @@ namespace MonoDevelop.Unity
         }
 
         #endregion
-
-        public static void DebugHook(string filePath, int lineNumber, int columnNumber)
-        {
-            // Load that sucker
-            IdeApp.Workbench.OpenDocument(filePath, lineNumber, columnNumber, true);
-        }
     }
 }

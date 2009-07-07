@@ -2,7 +2,7 @@
 <Template Originator   = "dotBunny Inc."
           Language     = "C#"
           Created      = "2009/07/01"
-          LastModified = "2009/07/01">
+          LastModified = "2009/07/06">
     
     <TemplateConfiguration>
         <_Name>Empty MonoBehaviour Class</_Name>

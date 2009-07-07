@@ -41,7 +41,7 @@ namespace MonoDevelop.Unity
 
     public class Base
     {
-        private static IWebBrowser browser;
+        private IWebBrowser browser;
 		
         #region Overloaded Open
 
@@ -52,8 +52,8 @@ namespace MonoDevelop.Unity
 
                 &&
 
-                (PropertyService.Get<string>("Unity.Base.Path", null) != null ||
-                PropertyService.Get<string>("Unity.iPhone.Path", null) != null))
+                (PropertyService.Get<string>("Unity.Base.Path", "") != "" ||
+                PropertyService.Get<string>("Unity.iPhone.Path", "") != ""))
             {
                 switch (target)
                 {
@@ -97,8 +97,8 @@ namespace MonoDevelop.Unity
 
                     &&
 
-                    (PropertyService.Get<string>("Unity.Base.Path", null) != null ||
-                     PropertyService.Get<string>("Unity.iPhone.Path", null) != null))
+                    (PropertyService.Get<string>("Unity.Base.Path", "") != "" ||
+                     PropertyService.Get<string>("Unity.iPhone.Path", "") != ""))
                 {
                     switch (target)
                     {
@@ -150,6 +150,56 @@ namespace MonoDevelop.Unity
                     return false;
                 }
 
+            }
+        }
+
+        #endregion
+		
+		 #region Initilization
+		
+		/// <summary>
+		/// Attempts to find the location of Unity and record its path to the property 
+		/// "Unity.Base.Path".
+		/// </summary>
+        public void FindUnity()
+        {
+            // Default Mac Install
+            if(FileService.IsValidPath("/Applications/Unity/Unity.app"))
+            {
+                PropertyService.Set("Unity.Base.Path", "/Applications/Unity");
+
+            }
+
+            // Default x64 Windows Install
+            else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity"))
+            {
+                PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor");
+				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
+
+            }
+
+            // Default x86 Windows Install
+            else if(FileService.IsValidPath("c:\\Program Files\\Unity"))
+            {
+                PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
+				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
+            }
+        }
+
+		/// <summary>
+		/// Attempts to fine the location of Unity iPhone and record its path to the 
+		/// property "Unity.iPhone.Path".
+		/// </summary>
+        public void FindUnityiPhone()
+        {
+            // Default Mac Install
+            if(FileService.IsValidPath("/Applications/Unity iPhone/Unity iPhone.app"))
+            {
+                PropertyService.Set("Unity.iPhone.Path", "/Applications/Unity iPhone");
+            }
+            else
+            {
+                PropertyService.Set("Unity.iPhone.Path", "");
             }
         }
 

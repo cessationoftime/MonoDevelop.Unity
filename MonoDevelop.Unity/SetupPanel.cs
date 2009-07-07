@@ -1,5 +1,5 @@
 //
-// MonoDevelop.Unity/Panels/SetupPanel.cs
+// MonoDevelop.Unity/SetupPanel.cs
 //
 // Author:
 //   Matthew Davey <matthew.davey@dotbunny.com>
@@ -55,7 +55,7 @@ namespace MonoDevelop.Unity
 
     public partial class SetupPanelWidget : Gtk.Bin
     {
-
+		private Base handler;
         private Gtk.VBox boxPreferences;
 		private Gtk.HBox boxReset;
 
@@ -176,21 +176,23 @@ namespace MonoDevelop.Unity
 
         void ResetAddInClicked (object sender, EventArgs e)
         {
-            if (Helpers.AskYesNoQuestion("Clear Settings", "Are you sure you want us to clear all of the Unity related settings?") )
+            if (Helpers.AskYesNoQuestion("Reset Settings", "Are you sure you want us to clear all of your Unity related settings?") )
             {
-                PropertyService.Set("Unity.Base.Path", null);
-				PropertyService.Set("Unity.Base.Documentation.Path", null);
-                PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", null);
-                PropertyService.Set("Unity.Base.Documentation.ForceLocal", null);
-                PropertyService.Set("Unity.iPhone.Path", null);
-                PropertyService.Set("Unity.Connection", null);
+				// Default Everything
+                PropertyService.Set("Unity.Base.Path", "");
+				PropertyService.Set("Unity.Base.Documentation.Path", "");
+                PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", true);
+                PropertyService.Set("Unity.Base.Documentation.ForceLocal", false);
+                PropertyService.Set("Unity.iPhone.Path", "");
+                PropertyService.Set("Unity.Connection", false);
 				PropertyService.Set("Unity.DocumentationPreference", "Unity");
 
-                Helpers.FindUnity();
-                Helpers.FindUnityiPhone();
+				this.handler = new Base();
+				this.handler.FindUnity();
+				this.handler.FindUnityiPhone();
     
-                this.folderBasePath.Path = PropertyService.Get<string>("Unity.Base.Path", null);
-                this.folderiPhonePath.Path = PropertyService.Get<string>("Unity.iPhone.Path", null);
+                this.folderBasePath.Path = PropertyService.Get<string>("Unity.Base.Path", "");
+                this.folderiPhonePath.Path = PropertyService.Get<string>("Unity.iPhone.Path", "");
             }
 
         }

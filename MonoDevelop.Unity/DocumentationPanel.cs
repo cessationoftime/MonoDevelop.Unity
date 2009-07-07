@@ -1,5 +1,5 @@
 //
-// MonoDevelop.Unity/Panels/DocumentationPanel.cs
+// MonoDevelop.Unity/DocumentationPanel.cs
 //
 // Author:
 //   Matthew Davey <matthew.davey@dotbunny.com>

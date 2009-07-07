@@ -82,6 +82,15 @@
 		              resource = "Unity.Files.Interface.xft.xml"/>		              		              
 	</Extension>
 
+	<!-- Project Templates -->
+	<Extension path = "/MonoDevelop/Ide/ProjectTemplates">
+		<ProjectTemplate id = "UnityProjectDefault" resource = "Unity.Project.Default.xpt.xml"/>
+	</Extension>
+	
+	<!--<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
+		<ProjectBinding id = "UnityApplication" class = "MonoDevelop.Unity.ProjectBinding" />
+	</Extension>-->
+    
     <!-- Help Menu Addition -->
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
         <ItemSet id = "UnityHelpMenu" _label = "Unity">

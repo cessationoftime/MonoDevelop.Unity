@@ -38,10 +38,12 @@ namespace MonoDevelop.Unity
     public class StartupHandler : CommandHandler
     {
 		private System.OperatingSystem OS;
+		private Base handler;
         protected override void Run()
         {
 
 			this.OS = System.Environment.OSVersion;
+			this.handler = new Base();
 			
             // Internet Connection
             // TODO: Add pinging of something when Mono is fixed for Mac
@@ -52,17 +54,17 @@ namespace MonoDevelop.Unity
             #region First Time Initialization
 
             // Find Unity
-            if (PropertyService.Get<string>("Unity.Base.Path", null) == null)
+            if (PropertyService.Get<string>("Unity.Base.Path", "" ) == "")
             {
-                Helpers.FindUnity();
+				handler.FindUnity();
             }
 
             // Find IPhone Unity (so far Mac Only)
-            if (PropertyService.Get<string>("Unity.iPhone.Path", null) == null 
+            if (PropertyService.Get<string>("Unity.iPhone.Path", "") == "" 
 			    && OS.Platform == PlatformID.MacOSX)
 
             {
-                Helpers.FindUnityiPhone();
+                handler.FindUnityiPhone();
             }
 
             #endregion
