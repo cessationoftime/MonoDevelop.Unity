@@ -56,17 +56,14 @@ namespace MonoDevelop.Unity
         public const string MAC_VIEW_SCRIPT_REFERENCE = "../Documentation|ScriptReference/index.html";
         public const string MAC_SEARCH_SCRIPT_REFERENCE = "../Documentation/ScriptReference/30_search.html?q="; 
 		public const string MAC_UNITY_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
-		public const string MAC_UNITY_ENGINE_DEBUG = "/Contents/Frameworks/UnityEngine-Debug.dll";
-		public const string MAC_UNITY_EDITOR = "/Contents/Frameworks/UnityEditor.dll";
 		
 		// PC Configuration
 		public const string WIN_VIEW_MANUAL = "\\Data\\Documentation\\Manual\\index.html";
         public const string WIN_VIEW_REFERENCE = "\\Data\\Documentation\\Components\\index.html";
         public const string WIN_VIEW_SCRIPT_REFERENCE = "\\Data\\Documentation\\ScriptReference\\index.html";
         public const string WIN_SEARCH_SCRIPT_REFERENCE = "\\Data\\Documentation\\ScriptReference\\30_search.html?q=";	
-		public const string WIN_UNITY_ENGINE = "\\Editor\\UnityEngine.dll";
-		public const string WIN_UNITY_ENGINE_DEBUG = "\\Editor\\UnityEngine-Debug.dll";
-		public const string WIN_UNITY_EDITOR = "\\Editor\\UnityEditor.dll";
+		public const string WIN_UNITY_ENGINE = "\\Data\\Frameworks\\UnityEngine.dll";
+
 
     }
 }

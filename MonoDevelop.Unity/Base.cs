@@ -196,7 +196,7 @@ namespace MonoDevelop.Unity
             }
 
             // Default x64 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity"))
+            else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity\\Editor"))
             {
                 PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor");
 				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
@@ -204,7 +204,7 @@ namespace MonoDevelop.Unity
             }
 
             // Default x86 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files\\Unity"))
+            else if(FileService.IsValidPath("c:\\Program Files\\Unity\\Editor"))
             {
                 PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
             }
