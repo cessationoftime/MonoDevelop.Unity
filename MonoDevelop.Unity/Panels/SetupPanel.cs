@@ -90,6 +90,7 @@ namespace MonoDevelop.Unity
     {
 
         private Gtk.VBox boxPreferences;
+		private Gtk.HBox boxReset;
 
         private Gtk.Label labelBasePath;
         private MonoDevelop.Components.FolderEntry folderBasePath;
@@ -108,7 +109,9 @@ namespace MonoDevelop.Unity
             this.boxPreferences = new Gtk.VBox();
             this.boxPreferences.Name = "boxPreferences";
             this.boxPreferences.Spacing = 6;
-
+			this.boxReset = new Gtk.HBox();
+			this.boxReset.Name = "boxReset";
+			this.boxReset.Spacing = 6;
 
             // Base Path
             this.labelBasePath = new Gtk.Label();
@@ -163,13 +166,21 @@ namespace MonoDevelop.Unity
             this.buttonReset = new Gtk.Button();
             this.buttonReset.Clicked += ResetAddInClicked;
             this.buttonReset.Label = GettextCatalog.GetString("Reset Add-In Settings");
-            this.boxPreferences.Add(this.buttonReset);
-
-
-            Gtk.Box.BoxChild setupButtonReset = ((Gtk.Box.BoxChild)(this.boxPreferences[this.buttonReset]));
-            setupButtonReset.Position = 4;
+			
+			this.boxReset.Add(this.buttonReset);
+			
+			Gtk.Box.BoxChild setupButtonReset = ((Gtk.Box.BoxChild)(this.boxReset[this.buttonReset]));
+            setupButtonReset.Position = 1;
             setupButtonReset.Expand = false;
             setupButtonReset.Fill = false;
+            
+			this.boxPreferences.Add(this.boxReset);
+
+
+            Gtk.Box.BoxChild setupBoxReset = ((Gtk.Box.BoxChild)(this.boxPreferences[this.boxReset]));
+            setupBoxReset.Position = 4;
+            setupBoxReset.Expand = false;
+            setupBoxReset.Fill = false;
 
 
 
@@ -196,13 +207,13 @@ namespace MonoDevelop.Unity
             if (Helpers.AskYesNoQuestion("Clear Settings", "Are you sure you want us to clear all of the Unity related settings?") )
             {
                 PropertyService.Set("Unity.Base.Path", null);
+				PropertyService.Set("Unity.Base.Documentation.Path", null);
                 PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", null);
                 PropertyService.Set("Unity.Base.Documentation.ForceLocal", null);
                 PropertyService.Set("Unity.iPhone.Path", null);
-                PropertyService.Set("Unity.OS", null);
                 PropertyService.Set("Unity.Connection", null);
+				PropertyService.Set("Unity.DocumentationPreference", "Unity");
 
-                Helpers.DetermineOS();
                 Helpers.FindUnity();
                 Helpers.FindUnityiPhone();
     

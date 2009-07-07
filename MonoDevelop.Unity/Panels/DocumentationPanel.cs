@@ -89,6 +89,7 @@ namespace MonoDevelop.Unity
     {
 
         private Gtk.VBox boxPreferences;
+		private Gtk.HBox boxDocumentationPreference;
 
         private Gtk.Label labelDocumentationPreference;
         private Gtk.ComboBox comboDocumentationPreference;
@@ -109,6 +110,10 @@ namespace MonoDevelop.Unity
             this.boxPreferences = new Gtk.VBox();
             this.boxPreferences.Name = "boxPreferences";
             this.boxPreferences.Spacing = 6;
+			
+			this.boxDocumentationPreference = new Gtk.HBox();
+			this.boxDocumentationPreference.Name = "boxDocumentationPreference";
+			this.boxDocumentationPreference.Spacing = 6;
 
             // Documentation Preference
             this.labelDocumentationPreference = new Gtk.Label();
@@ -122,26 +127,39 @@ namespace MonoDevelop.Unity
             setupLabelDocumentationPreference.Position = 0;
             setupLabelDocumentationPreference.Expand = false;
             setupLabelDocumentationPreference.Fill = false;
-
-
-            this.comboDocumentationPreference = new Gtk.ComboBox();
+				
+            this.comboDocumentationPreference = Gtk.ComboBox.NewText();
             this.comboDocumentationPreference.Name = "comboDocumentationPreference";
-            this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity"));
-            this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity iPhone"));
-            if ( PropertyService.Get<string>("Unity.DocumentationPreference", "Unity") == "Unity" )
-            {
-                this.comboDocumentationPreference.Active = 0;
-            }
-            else
-            {
-                this.comboDocumentationPreference.Active = 1;
-            }
-            this.boxPreferences.Add(this.comboDocumentationPreference);
-
-            Gtk.Box.BoxChild setupComboDocumentation = ((Gtk.Box.BoxChild)(this.boxPreferences[this.comboDocumentationPreference]));
-            setupComboDocumentation.Position = 1;
+			this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity"));
+			if ( PropertyService.Get<string>("Unity.iPhone.Path", null) != null )
+			{
+            	this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity iPhone"));
+				if ( PropertyService.Get<string>("Unity.DocumentationPreference", "Unity") == "Unity" )
+	            {
+	                this.comboDocumentationPreference.Active = 0;
+	            }
+	            else
+	            {
+	                this.comboDocumentationPreference.Active = 1;
+	            }
+			}
+			else
+			{
+				this.comboDocumentationPreference.Sensitive = false;
+			}
+			this.boxDocumentationPreference.Add(this.comboDocumentationPreference);
+			
+			Gtk.Box.BoxChild setupComboDocumentation = ((Gtk.Box.BoxChild)(this.boxDocumentationPreference[this.comboDocumentationPreference]));
+            setupComboDocumentation.Position = 0;
             setupComboDocumentation.Expand = false;
             setupComboDocumentation.Fill = false;
+			
+            this.boxPreferences.Add(this.boxDocumentationPreference);
+
+            Gtk.Box.BoxChild setupBoxDocumentationPreference = ((Gtk.Box.BoxChild)(this.boxPreferences[this.boxDocumentationPreference]));
+            setupBoxDocumentationPreference.Position = 1;
+            setupBoxDocumentationPreference.Expand = false;
+            setupBoxDocumentationPreference.Fill = false;
 
 
             // Force Local Content
@@ -160,7 +178,12 @@ namespace MonoDevelop.Unity
             setupCheckForceLocal.Fill = false;
 
             this.checkOpenInBrowser = new Gtk.CheckButton();
-            this.checkOpenInBrowser.Sensitive = false;
+
+			if (!MonoDevelop.Core.Gui.WebBrowserService.CanGetWebBrowser)
+			{
+				this.checkOpenInBrowser.Sensitive = false;
+			}
+
             this.checkOpenInBrowser.CanFocus = true;
             this.checkOpenInBrowser.Name = "checkOpenInBrowser";
             this.checkOpenInBrowser.Label = GettextCatalog.GetString("Open Documentation in a Web Browser");

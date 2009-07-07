@@ -42,6 +42,7 @@ namespace MonoDevelop.Unity
     public class Base
     {
         private static IWebBrowser browser;
+		
         #region Overloaded Open
 
         public bool Open(Settings.Documentation target)
@@ -58,12 +59,15 @@ namespace MonoDevelop.Unity
                 {
                     case Settings.Documentation.Manual:
                         return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
                             Settings.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.Reference:
                         return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
                             Settings.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                     case Settings.Documentation.ScriptReference:
                         return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
                             Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
                 }
 
@@ -100,6 +104,7 @@ namespace MonoDevelop.Unity
                     {
                         case Settings.Documentation.ScriptReference:
                             return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+						        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
                                 Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
                                 System.Web.HttpUtility.UrlEncode(query));
                     }
@@ -125,8 +130,8 @@ namespace MonoDevelop.Unity
         {
             if ( PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowser", true))
             {
-                Services.PlatformService.ShowUrl(address);
-                return true;
+				DesktopService.ShowUrl(address);
+				return true;
             }
             else
             {

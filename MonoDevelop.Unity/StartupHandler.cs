@@ -37,22 +37,19 @@ namespace MonoDevelop.Unity
 {
     public class StartupHandler : CommandHandler
     {
+		private System.OperatingSystem OS;
         protected override void Run()
         {
 
+			this.OS = System.Environment.OSVersion;
+			
             // Internet Connection
             // TODO: Add pinging of something when Mono is fixed for Mac
             //       http://bugs.dotbunny.com/view.php?id=31
             PropertyService.Set("Unity.Connection", true);
-
+			
 
             #region First Time Initialization
-
-            // Determine Operating System
-            if (PropertyService.Get<string>("Unity.OS", null) == null)
-            {
-                Helpers.DetermineOS();
-            }
 
             // Find Unity
             if (PropertyService.Get<string>("Unity.Base.Path", null) == null)
@@ -61,8 +58,9 @@ namespace MonoDevelop.Unity
             }
 
             // Find IPhone Unity (so far Mac Only)
-            if (PropertyService.Get<string>("Unity.iPhone.Path", null) == null
-                && PropertyService.Get<string>("Unity.OS", null) == "OSX")
+            if (PropertyService.Get<string>("Unity.iPhone.Path", null) == null 
+			    && OS.Platform == PlatformID.MacOSX)
+
             {
                 Helpers.FindUnityiPhone();
             }

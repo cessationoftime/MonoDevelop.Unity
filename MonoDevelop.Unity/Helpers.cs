@@ -41,7 +41,11 @@ namespace MonoDevelop.Unity
     {
 
         #region Initilization
-
+		
+		/// <summary>
+		/// Attempts to find the location of Unity and record its path to the property 
+		/// "Unity.Base.Path".
+		/// </summary>
         public static void FindUnity()
         {
             // Default Mac Install
@@ -54,17 +58,23 @@ namespace MonoDevelop.Unity
             // Default x64 Windows Install
             else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity"))
             {
-                PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor\\Dat");
+                PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor");
+				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
 
             }
 
             // Default x86 Windows Install
             else if(FileService.IsValidPath("c:\\Program Files\\Unity"))
             {
-                PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor\\Data");
+                PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
+				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
             }
         }
 
+		/// <summary>
+		/// Attempts to fine the location of Unity iPhone and record its path to the 
+		/// property "Unity.iPhone.Path".
+		/// </summary>
         public static void FindUnityiPhone()
         {
             // Default Mac Install
@@ -78,31 +88,14 @@ namespace MonoDevelop.Unity
             }
         }
 
-        public static void DetermineOS()
-        {
-            switch (Environment.OSVersion.Platform.ToString())
-            {
-                case "Windows":
-                    PropertyService.Set("Unity.OS", "WIN");
-                    break;
-
-                case "Unix":
-                default:
-                    if(FileService.IsValidPath("/Applications/"))
-                    {
-                        PropertyService.Set("Unity.OS", "OSX");
-                    }
-                    else
-                    {
-                        PropertyService.Set("Unity.OS", "NIX");
-                    }
-                    break;
-
-            }
-        }
-
         #endregion
 
+		/// <summary>
+		/// Returns  the currently selected text within the current IDE content window.
+		/// </summary>
+		/// <returns>
+		/// A <see cref="System.String"/>
+		/// </returns>
         public static string SelectedText()
         {
             // Get active documents text buffer
@@ -112,6 +105,12 @@ namespace MonoDevelop.Unity
             return editor.SelectedText.Trim();
         }
 
+		/// <summary>
+		/// Is there currently selected text within the current IDE content window.
+		/// </summary>
+		/// <returns>
+		/// A <see cref="System.Boolean"/>
+		/// </returns>
         public static bool HasSelectedText()
         {
             if ( Helpers.HasActiveDocument() )
@@ -131,6 +130,12 @@ namespace MonoDevelop.Unity
             }
         }
 
+		/// <summary>
+		/// Is there an active document in the current IDE content window.
+		/// </summary>
+		/// <returns>
+		/// A <see cref="System.Boolean"/>
+		/// </returns>
         public static bool HasActiveDocument()
         {
             Document doc = IdeApp.Workbench.ActiveDocument;
