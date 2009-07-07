@@ -71,6 +71,9 @@
       <HintPath>..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\gtk-sharp-2.0\gdk-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Xml">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
@@ -83,6 +86,10 @@
     <Compile Include="MonoDevelop.Unity\SetupPanel.cs" />
     <Compile Include="generated.cs" />
     <Compile Include="MonoDevelop.Unity\Base.cs" />
+    <Compile Include="MonoDevelop.Unity\BuildExtension.cs" />
+    <Compile Include="MonoDevelop.Unity\Project.cs" />
+    <Compile Include="MonoDevelop.Unity\ProjectBinding.cs" />
+    <Compile Include="MonoDevelop.Unity\ProjectConfiguration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

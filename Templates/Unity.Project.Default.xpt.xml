@@ -22,14 +22,13 @@
         <Options>
             <StartupProject>${ProjectName}</StartupProject>
         </Options>
-        
-        <Project name = "${ProjectName}" directory = ".">
+        <Project name = "${ProjectName}" directory = "." type="Unity">
             <Options/>
             <References>
                 <Reference type="Gac" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
                 <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       				<SpecificVersion>False</SpecificVersion>
-      				<HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\UnityEngine.dll</HintPath>
+      				<HintPath>${UnityEngineDLL}</HintPath>
     			</Reference>
             </References>
             

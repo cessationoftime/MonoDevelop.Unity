@@ -10,6 +10,7 @@
         <_Category>Unity</_Category>
         <LanguageName>C#</LanguageName>
         <_Description>The standard "expensive" MonoBehaviour class.</_Description>
+        <ProjectType>Unity</ProjectType>
     </TemplateConfiguration>
     
     <Conditions>

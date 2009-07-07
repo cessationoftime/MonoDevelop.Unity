@@ -17,6 +17,9 @@
         <Addin id="MonoDevelop.Core.Gui" version="2.1.0"/>
         <Addin id="MonoDevelop.Ide" version="2.1.0"/>
         <Addin id="MonoDevelop.Components" version="2.1.0"/>
+  		<Addin id="MonoDevelop.Projects" version="2.1.0"/>
+		<Addin id="MonoDevelop.Projects.Gui" version="2.1.0"/>     
+		<Addin id="MonoDevelop.Deployment" version="2.1.0"/> 
     </Dependencies>
 
     <!-- Resources -->
@@ -24,6 +27,7 @@
         <StockIcon stockid = "unity-icon" resource = "unity-icon-16.png" size="Menu"/>
         <StockIcon stockid = "unity-icon" resource = "unity-icon-24.png" />
         <StockIcon stockid = "unity-icon" resource = "unity-icon-32.png" size = "Dnd" />
+        <StockIcon stockid = "unity-icon" icon="unity-icon|res:unity-icon-32.png" size = "Dnd" />
         <StockIcon stockid = "unity-file" resource = "unity-file-16.png" size = "Menu" />
         <StockIcon stockid = "unity-file" resource = "unity-file-24.png" />
         <StockIcon stockid = "unity-file" resource = "unity-file-32.png" size="Dnd" />
@@ -84,12 +88,27 @@
 
 	<!-- Project Templates -->
 	<Extension path = "/MonoDevelop/Ide/ProjectTemplates">
-		<ProjectTemplate id = "UnityProjectDefault" resource = "Unity.Project.Default.xpt.xml"/>
+		<ProjectTemplate id = "UnityDefault" resource = "Unity.Project.Default.xpt.xml"/>
 	</Extension>
 	
-	<!--<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
-		<ProjectBinding id = "UnityApplication" class = "MonoDevelop.Unity.ProjectBinding" />
-	</Extension>-->
+	<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
+		<ProjectBinding id = "UnityProject" class = "MonoDevelop.Unity.ProjectBinding" />
+	</Extension>
+	
+	<!--
+	<Extension path = "/MonoDevelop/ProjectModel/Gui/ItemOptionPanels/Build">
+		<Condition id="ItemType" value="MonoDevelop.Unity.Project" />
+	</Extension>
+	-->
+	
+	<Extension path = "/MonoDevelop/ProjectModel/ProjectServiceExtensions">
+		<Class class = "MonoDevelop.Unity.BuildExtension" insertafter="MidStep" />
+	</Extension>
+
+	<Extension path = "/MonoDevelop/ProjectModel/SerializableClasses">
+		<DataType class = "MonoDevelop.Unity.Project" />
+		<DataType class = "MonoDevelop.Unity.ProjectConfiguration" />
+	</Extension>
     
     <!-- Help Menu Addition -->
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
