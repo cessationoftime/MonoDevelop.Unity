@@ -27,10 +27,6 @@
             <Options/>
             <References>
                 <Reference type="Gac" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-                <!-- THIS BREAKS THE PROJECT <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      				<SpecificVersion>False</SpecificVersion>
-      				<HintPath>${UnityEngineDLL}</HintPath>
-    			</Reference>-->
             </References>
             
             <Files>

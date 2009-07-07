@@ -67,7 +67,6 @@ namespace MonoDevelop.Unity
 		public const string WIN_UNITY_ENGINE = "\\Editor\\UnityEngine.dll";
 		public const string WIN_UNITY_ENGINE_DEBUG = "\\Editor\\UnityEngine-Debug.dll";
 		public const string WIN_UNITY_EDITOR = "\\Editor\\UnityEditor.dll";
-		
 
     }
 }
