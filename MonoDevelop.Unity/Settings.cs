@@ -43,17 +43,31 @@ namespace MonoDevelop.Unity
         }
 
         // Remote URIs for Unity Documentation
-        public const string REMOTE_VIEW_MANUAL_URI = "http://unity3d.com/support/documentation/Manual/index.html";
-        public const string REMOTE_VIEW_REFERENCE_URI = "http://unity3d.com/support/documentation/Components/index.html";
-        public const string REMOTE_VIEW_SCRIPT_REFERENCE_URI = "http://unity3d.com/support/documentation/ScriptReference/index.html";
-        public const string REMOTE_SEARCH_MANUAL_URI = "http://www.google.ca/search?hl=en&q=site%3Ahttp%3A%2F%2Funity3d.com%2Fsupport%2Fdocumentation%2FManual%2F+";
-        public const string REMOTE_SEARCH_REFERENCE_URI = "http://www.google.com/search?hl=en&q=site%3Ahttp%3A%2F%2Funity3d.com%2Fsupport%2Fdocumentation%2FComponents%2F+";
-        public const string REMOTE_SEARCH_SCRIPT_REFERENCE_URI = "http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=";
+        public const string REMOTE_VIEW_MANUAL = "http://unity3d.com/support/documentation/Manual/index.html";
+        public const string REMOTE_VIEW_REFERENCE = "http://unity3d.com/support/documentation/Components/index.html";
+        public const string REMOTE_VIEW_SCRIPT_REFERENCE = "http://unity3d.com/support/documentation/ScriptReference/index.html";
+        public const string REMOTE_SEARCH_MANUAL = "http://www.google.ca/search?hl=en&q=site%3Ahttp%3A%2F%2Funity3d.com%2Fsupport%2Fdocumentation%2FManual%2F+";
+        public const string REMOTE_SEARCH_REFERENCE = "http://www.google.com/search?hl=en&q=site%3Ahttp%3A%2F%2Funity3d.com%2Fsupport%2Fdocumentation%2FComponents%2F+";
+        public const string REMOTE_SEARCH_SCRIPT_REFERENCE = "http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=";
 
-        // Local URIs for Unity Documentation (Relative to Install)
-        public const string LOCAL_VIEW_MANUAL_URI = "|Documentation|Manual|index.html";
-        public const string LOCAL_VIEW_REFERENCE_URI = "|Documentation|Components|index.html";
-        public const string LOCAL_VIEW_SCRIPT_REFERENCE = "|Documentation|ScriptReference|index.html";
-        public const string LOCAL_SEARCH_SCRIPT_REFERENCE_URI = "|Documentation|ScriptReference|30_search.html?q=";
+		// Mac Configuration
+		public const string MAC_VIEW_MANUAL = "../Documentation/Manual/index.html";
+        public const string MAC_VIEW_REFERENCE = "../Documentation/Components/index.html";
+        public const string MAC_VIEW_SCRIPT_REFERENCE = "../Documentation|ScriptReference/index.html";
+        public const string MAC_SEARCH_SCRIPT_REFERENCE = "../Documentation/ScriptReference/30_search.html?q="; 
+		public const string MAC_UNITY_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
+		public const string MAC_UNITY_ENGINE_DEBUG = "/Contents/Frameworks/UnityEngine-Debug.dll";
+		public const string MAC_UNITY_EDITOR = "/Contents/Frameworks/UnityEditor.dll";
+		
+		// PC Configuration
+		public const string WIN_VIEW_MANUAL = "\\Data\\Documentation\\Manual\\index.html";
+        public const string WIN_VIEW_REFERENCE = "\\Data\\Documentation\\Components\\index.html";
+        public const string WIN_VIEW_SCRIPT_REFERENCE = "\\Data\\Documentation\\ScriptReference\\index.html";
+        public const string WIN_SEARCH_SCRIPT_REFERENCE = "\\Data\\Documentation\\ScriptReference\\30_search.html?q=";	
+		public const string WIN_UNITY_ENGINE = "\\Editor\\UnityEngine.dll";
+		public const string WIN_UNITY_ENGINE_DEBUG = "\\Editor\\UnityEngine-Debug.dll";
+		public const string WIN_UNITY_EDITOR = "\\Editor\\UnityEditor.dll";
+		
+
     }
 }

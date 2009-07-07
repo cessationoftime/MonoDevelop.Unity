@@ -39,6 +39,26 @@ namespace MonoDevelop.Unity
 {
     public class Helpers
     {
+		public enum OS
+		{
+			Mac,
+			Windows
+		}
+		public static OS WhatOS()
+		{
+			System.OperatingSystem OpSys;
+			OpSys = System.Environment.OSVersion;
+			
+			// Current Mac Response
+			if (OpSys.Platform == PlatformID.Unix)
+			{
+				return OS.Mac;
+			}
+			else
+			{
+				return OS.Windows;
+			}
+		}
 
 		/// <summary>
 		/// Returns  the currently selected text within the current IDE content window.

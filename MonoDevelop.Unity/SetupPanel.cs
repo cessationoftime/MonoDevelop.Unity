@@ -180,7 +180,6 @@ namespace MonoDevelop.Unity
             {
 				// Default Everything
                 PropertyService.Set("Unity.Base.Path", "");
-				PropertyService.Set("Unity.Base.Documentation.Path", "");
                 PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", true);
                 PropertyService.Set("Unity.Base.Documentation.ForceLocal", false);
                 PropertyService.Set("Unity.iPhone.Path", "");

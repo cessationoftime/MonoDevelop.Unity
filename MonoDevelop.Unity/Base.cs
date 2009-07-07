@@ -55,21 +55,36 @@ namespace MonoDevelop.Unity
                 (PropertyService.Get<string>("Unity.Base.Path", "") != "" ||
                 PropertyService.Get<string>("Unity.iPhone.Path", "") != ""))
             {
-                switch (target)
-                {
-                    case Settings.Documentation.Manual:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
-					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
-                            Settings.LOCAL_VIEW_MANUAL_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
-                    case Settings.Documentation.Reference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
-					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
-                            Settings.LOCAL_VIEW_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
-                    case Settings.Documentation.ScriptReference:
-                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
-					        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
-                            Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar));
-                }
+				if ( Helpers.WhatOS() == Helpers.OS.Mac )
+				{
+	                switch (target)
+	                {
+	                    case Settings.Documentation.Manual:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.MAC_VIEW_MANUAL);
+	                    case Settings.Documentation.Reference:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.MAC_VIEW_REFERENCE);
+	                    case Settings.Documentation.ScriptReference:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.MAC_SEARCH_SCRIPT_REFERENCE);
+	                }
+				}
+				else if (Helpers.WhatOS() == Helpers.OS.Windows)
+				{
+					switch (target)
+	                {
+	                    case Settings.Documentation.Manual:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.WIN_VIEW_MANUAL);
+	                    case Settings.Documentation.Reference:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.WIN_VIEW_REFERENCE);
+	                    case Settings.Documentation.ScriptReference:
+	                        return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+	                            Settings.WIN_SEARCH_SCRIPT_REFERENCE);
+	                }
+				}
 
             }
             else
@@ -77,11 +92,11 @@ namespace MonoDevelop.Unity
                 switch (target)
                 {
                     case Settings.Documentation.Manual:
-                        return this.Open(Settings.REMOTE_VIEW_MANUAL_URI);
+                        return this.Open(Settings.REMOTE_VIEW_MANUAL);
                     case Settings.Documentation.Reference:
-                        return this.Open(Settings.REMOTE_VIEW_REFERENCE_URI);
+                        return this.Open(Settings.REMOTE_VIEW_REFERENCE);
                     case Settings.Documentation.ScriptReference:
-                        return this.Open(Settings.REMOTE_VIEW_SCRIPT_REFERENCE_URI);
+                        return this.Open(Settings.REMOTE_VIEW_SCRIPT_REFERENCE);
                 }
             }
             return false;
@@ -103,10 +118,20 @@ namespace MonoDevelop.Unity
                     switch (target)
                     {
                         case Settings.Documentation.ScriptReference:
-                            return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
-						        PropertyService.Get<string>("Unity.Base.Documentation.Path", "") + 
-                                Settings.LOCAL_SEARCH_SCRIPT_REFERENCE_URI.Replace('|', System.IO.Path.DirectorySeparatorChar) +
+							if ( Helpers.WhatOS() == Helpers.OS.Mac )
+							{
+							    return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+                                Settings.MAC_SEARCH_SCRIPT_REFERENCE +
                                 System.Web.HttpUtility.UrlEncode(query));
+							}
+							else if ( Helpers.WhatOS() == Helpers.OS.Windows)
+							{
+							    return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
+                                Settings.WIN_SEARCH_SCRIPT_REFERENCE +
+                                System.Web.HttpUtility.UrlEncode(query));
+							}
+							break;
+
                     }
 
                 }
@@ -115,11 +140,11 @@ namespace MonoDevelop.Unity
                     switch (target)
                     {
                         case Settings.Documentation.Manual:
-                            return this.Open(Settings.REMOTE_SEARCH_MANUAL_URI + System.Web.HttpUtility.UrlEncode(query));
+                            return this.Open(Settings.REMOTE_SEARCH_MANUAL + System.Web.HttpUtility.UrlEncode(query));
                         case Settings.Documentation.Reference:
-                            return this.Open(Settings.REMOTE_SEARCH_REFERENCE_URI + System.Web.HttpUtility.UrlEncode(query));
+                            return this.Open(Settings.REMOTE_SEARCH_REFERENCE + System.Web.HttpUtility.UrlEncode(query));
                         case Settings.Documentation.ScriptReference:
-                            return this.Open(Settings.REMOTE_SEARCH_SCRIPT_REFERENCE_URI + System.Web.HttpUtility.UrlEncode(query));
+                            return this.Open(Settings.REMOTE_SEARCH_SCRIPT_REFERENCE + System.Web.HttpUtility.UrlEncode(query));
                     }
                 }
             }
@@ -166,7 +191,7 @@ namespace MonoDevelop.Unity
             // Default Mac Install
             if(FileService.IsValidPath("/Applications/Unity/Unity.app"))
             {
-                PropertyService.Set("Unity.Base.Path", "/Applications/Unity");
+                PropertyService.Set("Unity.Base.Path", "/Applications/Unity/Unity.app");
 
             }
 
@@ -182,7 +207,6 @@ namespace MonoDevelop.Unity
             else if(FileService.IsValidPath("c:\\Program Files\\Unity"))
             {
                 PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
-				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
             }
         }
 
@@ -195,7 +219,7 @@ namespace MonoDevelop.Unity
             // Default Mac Install
             if(FileService.IsValidPath("/Applications/Unity iPhone/Unity iPhone.app"))
             {
-                PropertyService.Set("Unity.iPhone.Path", "/Applications/Unity iPhone");
+                PropertyService.Set("Unity.iPhone.Path", "/Applications/Unity iPhone/Unity iPhone.app");
             }
             else
             {
