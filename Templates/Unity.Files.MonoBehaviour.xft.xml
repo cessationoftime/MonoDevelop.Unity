@@ -14,14 +14,14 @@
     </TemplateConfiguration>
     
     <Conditions>
-        <ParentProject PermittedCreationPaths="" ExcludedFiles="/Class.cs" />
+        <ParentProject PermittedCreationPaths="" ExcludedFiles="/${Name}.cs" />
     </Conditions>
 
     <TemplateFiles>
-        <File Name="NewBehaviourScript.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
+        <File Name="${Name}.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour 
+public class ${Name} : MonoBehaviour 
 {
 	// Use this for initialization
 	void Start () {

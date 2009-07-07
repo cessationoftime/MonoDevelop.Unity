@@ -37,7 +37,7 @@
                 <File name="Main.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour 
+public class Main : MonoBehaviour 
 {
 	// Use this for initialization
 	void Start () {

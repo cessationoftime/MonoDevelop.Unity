@@ -6,7 +6,7 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "1.0.0-PREVEIW" >
+    version     = "1.0.0-BETA" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
@@ -21,7 +21,14 @@
 		<Addin id="MonoDevelop.Projects.Gui" version="2.1.0"/>     
 		<Addin id="MonoDevelop.Deployment" version="2.1.0"/> 
     </Dependencies>
-
+	
+	<Extension path = "/MonoDevelop/ProjectModel/MSBuildItemTypes">
+		<DotNetProjectSubtype
+			guid="{B0E57834-6AAE-11DE-BDE9-DDF655D89593}" 
+			type="MonoDevelop.Unity.UnityProject"
+			/>
+	</Extension>
+    
     <!-- Resources -->
     <Extension path = "/MonoDevelop/Core/StockIcons">
         <StockIcon stockid = "unity-icon" resource = "unity-icon-16.png" size="Menu"/>
@@ -92,22 +99,16 @@
 	</Extension>
 	
 	<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
-		<ProjectBinding id = "UnityBinding" class = "MonoDevelop.Unity.ProjectBinding" />
+		<ProjectBinding id = "UnityBinding" class = "MonoDevelop.Unity.UnityProjectBinding" />
 	</Extension>
-	
-	<!--
-	<Extension path = "/MonoDevelop/ProjectModel/Gui/ItemOptionPanels/Build">
-		<Condition id="ItemType" value="MonoDevelop.Unity.Project" />
-	</Extension>
-	-->
 	
 	<Extension path = "/MonoDevelop/ProjectModel/ProjectServiceExtensions">
 		<Class class = "MonoDevelop.Unity.BuildExtension" insertafter="MidStep" />
 	</Extension>
 
 	<Extension path = "/MonoDevelop/ProjectModel/SerializableClasses">
-		<DataType class = "MonoDevelop.Unity.Project" />
-		<DataType class = "MonoDevelop.Unity.ProjectConfiguration" />
+		<DataType class = "MonoDevelop.Unity.UnityProject" />
+		<DataType class = "MonoDevelop.Unity.UnityProjectConfiguration" />
 	</Extension>
     
     <!-- Help Menu Addition -->

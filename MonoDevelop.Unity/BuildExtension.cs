@@ -44,21 +44,21 @@ namespace MonoDevelop.Unity
 	public class BuildExtension : ProjectServiceExtension
 	{
 		protected override BuildResult Compile (IProgressMonitor monitor, SolutionEntityItem item, BuildData buildData)
-		{
-			Project proj = item as Project;
+		{	
+			UnityProject proj = item as UnityProject;
 			if (proj == null)
 			{
 				return base.Compile (monitor, item, buildData);
 			}
 			else
 			{
-				return null;
+				return new BuildResult("Go play it in Unity!", 1, 1);	
 			}
 		}
 		
 		protected override void Clean (IProgressMonitor monitor, SolutionEntityItem item, string configuration)
 		{
-			Project proj = item as Project;
+			UnityProject proj = item as UnityProject;
 			if (proj == null)
 			{
 				base.Clean(monitor, item, configuration);
@@ -67,27 +67,28 @@ namespace MonoDevelop.Unity
 		
 		protected override bool GetNeedsBuilding (SolutionEntityItem item, string configuration)
 		{
-			Project proj = item as Project;
-			if (proj == null)
+			UnityProject proj = item as UnityProject;
+			if ( proj == null)				
 			{
 				return base.GetNeedsBuilding(item, configuration);
+				
 			}
 			else
 			{
-				return false;
+				return false;	
 			}
 		}		
 		
 		protected override BuildResult Build (IProgressMonitor monitor, SolutionEntityItem item, string configuration)
 		{
-			Project proj = item as Project;
-			if (proj == null)
+			UnityProject proj = item as UnityProject;
+			if(proj == null)
 			{
-				return base.Build(monitor, item, configuration);
+				return base.Build(monitor, item, configuration);				
 			}
 			else
 			{
-				return null;
+				return new BuildResult("Go play it in Unity!", 1, 1);
 			}
 		}
 

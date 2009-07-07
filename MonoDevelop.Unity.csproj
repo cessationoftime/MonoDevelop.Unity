@@ -87,9 +87,9 @@
     <Compile Include="generated.cs" />
     <Compile Include="MonoDevelop.Unity\Base.cs" />
     <Compile Include="MonoDevelop.Unity\BuildExtension.cs" />
-    <Compile Include="MonoDevelop.Unity\Project.cs" />
-    <Compile Include="MonoDevelop.Unity\ProjectBinding.cs" />
-    <Compile Include="MonoDevelop.Unity\ProjectConfiguration.cs" />
+    <Compile Include="MonoDevelop.Unity\UnityProject.cs" />
+    <Compile Include="MonoDevelop.Unity\UnityProjectBinding.cs" />
+    <Compile Include="MonoDevelop.Unity\UnityProjectConfiguration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

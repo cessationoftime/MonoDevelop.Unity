@@ -14,16 +14,16 @@
     </TemplateConfiguration>
     
     <Conditions>
-        <ParentProject PermittedCreationPaths="" ExcludedFiles="/Class.cs" />
+        <ParentProject PermittedCreationPaths="" ExcludedFiles="/${Name}.cs" />
     </Conditions>
 
     <TemplateFiles>
-        <File Name="NewInterface.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
+        <File Name="${Name}.cs" AddStandardHeader="False"><![CDATA[using UnityEngine;
 using System.Collections;
 
-public interface NewInterface
+public interface ${Name}
 {
-	public bool NewInterface();
+	public bool${Name}();
 }
 ]]>
         </File>
