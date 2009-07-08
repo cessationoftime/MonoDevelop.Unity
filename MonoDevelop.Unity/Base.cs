@@ -29,6 +29,7 @@
 //
 
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using MonoDevelop.Core;
@@ -156,8 +157,10 @@ namespace MonoDevelop.Unity
         {
             if ( PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowser", true))
             {
-				// TODO: PlatformService is the old way, no longer compatible -- Windows isnt updated
-				DesktopService.ShowUrl(address);
+				// TODO: 	Change back to using DesktopService.ShowUrl(address)
+				// 			PlatformService was replaced with DesktopService
+				// 			Windows MonoDevelop is not updated with this change yet.
+				System.Diagnostics.Process.Start(address);
 				return true;
             }
             else
@@ -191,22 +194,21 @@ namespace MonoDevelop.Unity
         public void FindUnity()
         {
             // Default Mac Install
-            if(FileService.IsValidPath("/Applications/Unity/Unity.app"))
+            if(File.Exists("/Applications/Unity/Unity.app/Contents/MacOS/Unity"))
             {
                 PropertyService.Set("Unity.Base.Path", "/Applications/Unity/Unity.app");
 
             }
 
             // Default x64 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files (x86)\\Unity\\Editor"))
+            else if(File.Exists("c:\\Program Files (x86)\\Unity\\Editor\\Unity.exe"))
             {
                 PropertyService.Set("Unity.Base.Path", "c:\\Program Files (x86)\\Unity\\Editor");
-				PropertyService.Set("Unity.Base.Documentation.Path", "\\Data");
 
             }
 
             // Default x86 Windows Install
-            else if(FileService.IsValidPath("c:\\Program Files\\Unity\\Editor"))
+        	else if(File.Exists("c:\\Program Files\\Unity\\Editor\\Unity.exe"))
             {
                 PropertyService.Set("Unity.Base.Path", "c:\\Program Files\\Unity\\Editor");
             }
@@ -219,7 +221,7 @@ namespace MonoDevelop.Unity
         public void FindUnityiPhone()
         {
             // Default Mac Install
-            if(FileService.IsValidPath("/Applications/Unity iPhone/Unity iPhone.app"))
+            if(File.Exists("/Applications/Unity iPhone/Unity iPhone.app/Contents/MacOS/Unity"))
             {
                 PropertyService.Set("Unity.iPhone.Path", "/Applications/Unity iPhone/Unity iPhone.app");
             }

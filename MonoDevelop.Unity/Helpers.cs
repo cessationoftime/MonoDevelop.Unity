@@ -54,9 +54,13 @@ namespace MonoDevelop.Unity
 			{
 				return OS.Mac;
 			}
-			else
+			else if (OpSys.Platform == PlatformID.Win32NT || OpSys.Platform == PlatformID.Win32Windows )
 			{
 				return OS.Windows;
+			}
+			else
+			{
+				return OS.Mac;
 			}
 		}
 
