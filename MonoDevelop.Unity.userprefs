@@ -3,13 +3,13 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/Settings.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/UnityProjectBinding.cs" ctype="Workbench">
     <Files>
-      <File FileName="MonoDevelop.Unity/Settings.cs" Line="35" Column="33" />
-      <File FileName="MonoDevelop.Unity/Base.cs" Line="133" Column="70" />
-      <File FileName="MonoDevelop.Unity/SetupPanel.cs" Line="174" Column="48" />
+      <File FileName="MonoDevelop.Unity/Settings.cs" Line="48" Column="38" />
+      <File FileName="MonoDevelop.Unity/Base.cs" Line="216" Column="59" />
+      <File FileName="MonoDevelop.Unity/SetupPanel.cs" Line="174" Column="90" />
       <File FileName="MonoDevelop.Unity/Helpers.cs" Line="45" Column="11" />
-      <File FileName="MonoDevelop.Unity/UnityProjectBinding.cs" Line="66" Column="4" />
+      <File FileName="MonoDevelop.Unity/UnityProjectBinding.cs" Line="54" Column="5" />
       <File FileName="MonoDevelop.Unity/StartupHandler.cs" Line="1" Column="1" />
       <File FileName="MonoDevelop.Unity/CommandHandlers.cs" Line="121" Column="4" />
     </Files>
@@ -18,7 +18,7 @@
         <State expanded="True">
           <Node name="MonoDevelop.Unity" expanded="True">
             <Node name="MonoDevelop.Unity" expanded="True">
-              <Node name="Settings.cs" selected="True" />
+              <Node name="UnityProjectBinding.cs" selected="True" />
             </Node>
             <Node name="Templates" expanded="True" />
           </Node>

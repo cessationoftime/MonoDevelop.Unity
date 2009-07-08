@@ -99,7 +99,7 @@ namespace MonoDevelop.Unity
             this.comboDocumentationPreference = Gtk.ComboBox.NewText();
             this.comboDocumentationPreference.Name = "comboDocumentationPreference";
 			this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity"));
-			if ( PropertyService.Get<string>("Unity.iPhone.Path", null) != null )
+			if ( PropertyService.Get<string>("Unity.iPhone.Path", "") != "" )
 			{
             	this.comboDocumentationPreference.AppendText(GettextCatalog.GetString("Unity iPhone"));
 				if ( PropertyService.Get<string>("Unity.DocumentationPreference", "Unity") == "Unity" )
