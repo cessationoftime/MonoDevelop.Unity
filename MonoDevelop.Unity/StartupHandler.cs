@@ -36,13 +36,10 @@ using MonoDevelop.Components.Commands;
 namespace MonoDevelop.Unity
 {
     public class StartupHandler : CommandHandler
-    {
-		private System.OperatingSystem OS;
+	{
 		private Base handler;
         protected override void Run()
         {
-
-			this.OS = System.Environment.OSVersion;
 			this.handler = new Base();
 			
             // Internet Connection
@@ -61,7 +58,7 @@ namespace MonoDevelop.Unity
 
             // Find IPhone Unity (so far Mac Only)
             if (PropertyService.Get<string>("Unity.iPhone.Path", "") == "" 
-			    && OS.Platform == PlatformID.MacOSX)
+			    && Helpers.WhatOS() == Helpers.OS.Mac)
 
             {
                 handler.FindUnityiPhone();

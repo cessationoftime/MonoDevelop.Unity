@@ -6,7 +6,7 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "1.0.0-PRERELEASE" >
+    version     = "1.0.0" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>

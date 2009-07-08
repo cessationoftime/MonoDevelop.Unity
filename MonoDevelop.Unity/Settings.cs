@@ -51,11 +51,12 @@ namespace MonoDevelop.Unity
         public const string REMOTE_SEARCH_SCRIPT_REFERENCE = "http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=";
 
 		// Mac Configuration
-		public const string MAC_VIEW_MANUAL = "../Documentation/Manual/index.html";
-        public const string MAC_VIEW_REFERENCE = "../Documentation/Components/index.html";
-        public const string MAC_VIEW_SCRIPT_REFERENCE = "../Documentation|ScriptReference/index.html";
-        public const string MAC_SEARCH_SCRIPT_REFERENCE = "../Documentation/ScriptReference/30_search.html?q="; 
+		public const string MAC_VIEW_MANUAL = "/../Documentation/Manual/index.html";
+        public const string MAC_VIEW_REFERENCE = "/../Documentation/Components/index.html";
+        public const string MAC_VIEW_SCRIPT_REFERENCE = "/../Documentation|ScriptReference/index.html";
+        public const string MAC_SEARCH_SCRIPT_REFERENCE = "/../Documentation/ScriptReference/30_search.html?q="; 
 		public const string MAC_UNITY_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
+		public const string MAC_UNITY_IPHONE_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
 		
 		// PC Configuration
 		public const string WIN_VIEW_MANUAL = "\\Data\\Documentation\\Manual\\index.html";

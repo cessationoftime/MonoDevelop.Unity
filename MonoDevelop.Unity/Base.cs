@@ -47,6 +47,7 @@ namespace MonoDevelop.Unity
 
         public bool Open(Settings.Documentation target)
         {
+			// TODO : THIS REALLLY REALLY NEEDS CLEANING UP
             if ((PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                 !PropertyService.Get<bool>("Unity.Connection", false) )
 
@@ -155,6 +156,7 @@ namespace MonoDevelop.Unity
         {
             if ( PropertyService.Get<bool>("Unity.Base.Documentation.OpenInBrowser", true))
             {
+				// TODO: PlatformService is the old way, no longer compatible -- Windows isnt updated
 				DesktopService.ShowUrl(address);
 				return true;
             }

@@ -3,20 +3,20 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/UnityProjectBinding.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/Settings.cs" ctype="Workbench">
     <Files>
-      <File FileName="Assembly Browser" />
-      <File FileName="MonoDevelop.Unity/UnityProjectBinding.cs" Line="43" Column="3" />
-      <File FileName="MonoDevelop.Unity/Settings.cs" Line="69" Column="70" />
-      <File FileName="MonoDevelop.Unity/Helpers.cs" Line="35" Column="2" />
+      <File FileName="MonoDevelop.Unity/UnityProjectBinding.cs" Line="60" Column="6" />
+      <File FileName="MonoDevelop.Unity/Settings.cs" Line="44" Column="1" />
+      <File FileName="MonoDevelop.Unity/StartupHandler.cs" Line="70" Column="2" />
+      <File FileName="MonoDevelop.Unity/Base.cs" Line="152" Column="26" />
+      <File FileName="MonoDevelop.Unity.addin.xml" Line="18" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="MonoDevelop.Unity" expanded="True">
-            <Node name="References" expanded="True" />
             <Node name="MonoDevelop.Unity" expanded="True">
-              <Node name="UnityProjectBinding.cs" selected="True" />
+              <Node name="Settings.cs" selected="True" />
             </Node>
             <Node name="Templates" expanded="True" />
           </Node>
