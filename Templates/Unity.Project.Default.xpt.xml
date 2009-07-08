@@ -5,8 +5,8 @@
     
     <!-- Template Header -->
     <TemplateConfiguration>
-        <_Name>Default Project</_Name>
-        <_Category>C#/Unity</_Category>
+        <_Name>Default Project (C#)</_Name>
+        <_Category>Unity</_Category>
         <Icon>unity-icon</Icon>
         <LanguageName>C#</LanguageName>
         <_Description>Creates a new Unity based project.</_Description>
