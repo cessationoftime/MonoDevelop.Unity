@@ -170,8 +170,8 @@ namespace MonoDevelop.Unity
 
         public void Save ()
         {
-            PropertyService.Set ("Unity.Base.Path", this.folderBasePath.Path);
-            PropertyService.Set ("Unity.iPhone.Path", this.folderiPhonePath.Path);
+            PropertyService.Set ("Unity.Base.Path", this.folderBasePath.Path.Trim());
+            PropertyService.Set ("Unity.iPhone.Path", this.folderiPhonePath.Path.Trim());
         }
 
         void ResetAddInClicked (object sender, EventArgs e)

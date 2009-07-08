@@ -118,9 +118,18 @@ namespace MonoDevelop.Unity
             this.handler = new Base();
             handler.Open(Settings.Documentation.ScriptReference, Helpers.SelectedText());
         }
-        protected override void Update(CommandInfo info)
+ 		protected override void Update(CommandInfo info)
         {
-            info.Enabled = Helpers.HasSelectedText();
+            // Disable searching of local Reference Manual
+            if ( PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
+                !PropertyService.Get<bool>("Unity.Connection", false))
+            {
+                info.Enabled = false;
+            }
+            else
+            {
+                info.Enabled = Helpers.HasSelectedText();
+            }
         }
     }
     #endregion

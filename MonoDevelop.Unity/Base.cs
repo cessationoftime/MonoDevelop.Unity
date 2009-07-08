@@ -117,6 +117,8 @@ namespace MonoDevelop.Unity
                     (PropertyService.Get<string>("Unity.Base.Path", "") != "" ||
                      PropertyService.Get<string>("Unity.iPhone.Path", "") != ""))
                 {
+					// TODO: It cant accept queries
+					/*
                     switch (target)
                     {
                         case Settings.Documentation.ScriptReference:
@@ -129,12 +131,13 @@ namespace MonoDevelop.Unity
 							else if ( Helpers.WhatOS() == Helpers.OS.Windows)
 							{
 							    return this.Open("file://" + PropertyService.Get<string>("Unity.Base.Path") +
-                                Settings.WIN_SEARCH_SCRIPT_REFERENCE +
+                                 Settings.WIN_SEARCH_SCRIPT_REFERENCE +
                                 System.Web.HttpUtility.UrlEncode(query));
 							}
 							break;
 
                     }
+            		        */
 
                 }
                 else
@@ -160,14 +163,14 @@ namespace MonoDevelop.Unity
 				// TODO: 	Change back to using DesktopService.ShowUrl(address)
 				// 			PlatformService was replaced with DesktopService
 				// 			Windows MonoDevelop is not updated with this change yet.
+				
 				System.Diagnostics.Process.Start(address);
 				return true;
             }
             else
             {
                 if (MonoDevelop.Core.Gui.WebBrowserService.CanGetWebBrowser)
-                {
-
+				{
                     browser = WebBrowserService.GetWebBrowser();
                     browser.LoadUrl(address);
                     return true;
