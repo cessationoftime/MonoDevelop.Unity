@@ -58,7 +58,7 @@ namespace MonoDevelop.Unity
 		private Base handler;
         private Gtk.VBox boxPreferences;
 		private Gtk.HBox boxReset;
-
+		
         private Gtk.Label labelBasePath;
         private MonoDevelop.Components.FolderEntry folderBasePath;
         private Gtk.Label labeliPhonePath;

@@ -105,6 +105,8 @@
     <Folder Include="Templates\" />
     <Folder Include="MonoDevelop.Unity\" />
     <Folder Include="Images\" />
+    <Folder Include="Documentation\" />
+    <Folder Include="Documentation\Release\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Templates\Unity.Files.Interface.xft.xml">
@@ -156,5 +158,17 @@
     <EmbeddedResource Include="Images\unity-lerpz-48.png">
       <LogicalName>unity-lerpz-48.png</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Include="Documentation\Release\Unity.source">
+      <LogicalName>Unity.source</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentation\Release\Unity.tree">
+      <LogicalName>Unity.tree</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentation\Release\Unity.zip">
+      <LogicalName>Unity.zip</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\create.php" />
   </ItemGroup>
 </Project>

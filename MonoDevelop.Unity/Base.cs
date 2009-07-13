@@ -48,6 +48,7 @@ namespace MonoDevelop.Unity
 
         public bool Open(Settings.Documentation target)
         {
+			
 			// TODO : THIS REALLLY REALLY NEEDS CLEANING UP
             if ((PropertyService.Get<bool>("Unity.Base.Documentation.ForceLocal", false) ||
                 !PropertyService.Get<bool>("Unity.Connection", false) )
