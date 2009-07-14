@@ -5,7 +5,6 @@
 //
 // Author(s):
 //   Matthew Davey <matthew.davey@dotbunny.com>
-//   Matthew Wegner <matthew@flashbangstudios.com>
 //
 // Copyright (c) 2009 dotBunny Inc. (http://www.dotbunny.com)
 //
@@ -30,9 +29,9 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 //
-// NOTE: 	I took Matt's wonderful work and adapted it a bit to fit
-// 			what we needed for MonoDevelop. Cheers to him for making
-//			this process easier on everyone.
+// NOTE: 	Special credit to Matthew Wegner, as it was his work
+// 			with UnityDevelop that spawned how I took my stab
+//			at this parsing system.
 // 
 // REQS:	You need to have PHP 5+ installed, as well as the mdoc tool
 //			set from Mono. It's available from their SVN trunk, under
@@ -46,7 +45,6 @@ define("DOC_OVERWRITE", true);
 
 // Our Paths
 define("SOURCE_PATH", "Source/");
-define("STUBS_PATH", "Stubs/");
 define("LOG_PATH", "Logs/");
 define("RELEASE_PATH", "Release/");
 
@@ -86,7 +84,6 @@ $remove_links = array ('GUI Scripting Guide');
 
 // Create Directories
 if (!is_dir(SOURCE_PATH) ) { mkdir(SOURCE_PATH); }
-if (!is_dir(STUBS_PATH) ) { mkdir(STUBS_PATH); }
 if (!is_dir(LOG_PATH) ) { mkdir(LOG_PATH); }
 if (!is_dir(RELEASE_PATH) ) { mkdir(RELEASE_PATH); }
 
@@ -119,7 +116,7 @@ file_put_contents(RELEASE_PATH . "Unity.source", $monodoc_source_file);
 
 
 // =================================================================================
-//                     Functions --- Oh aren't they pretty?
+//                     First Pass Functions --- Oh aren't they pretty?
 // =================================================================================
 function updateDocumentationSource()
 {
@@ -148,7 +145,6 @@ function updateDocumentationSource()
 		}
 	}
 }
-
 
 function updateForLinks($namespace, $type, $text)
 {
@@ -290,20 +286,11 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 	file_put_contents(SOURCE_PATH . $namespace . "/" . $type . ".xml",  simpleXMLHack(trim($objectXML->asXML())));
 }
 
+// =================================================================================
+//                 Second Pass Functions --- Because we want it all!
+// =================================================================================
 
 
-function simpleXMLHack($xml)
-{
-	$xml = str_replace("DOTBUNNY&lt;", "<", $xml);
-	$xml = str_replace("&gt;DOTBUNNY", ">", $xml);
-	
-	return $xml;	
-}		
-			
-	
-	
-	
-	
 	
 			
 /// REFERENCE BELOW		
@@ -389,75 +376,18 @@ function GenerateClasses()
 
 function GenerateEnums()
 {	
-	$fp = fopen(SCRIPTREFERENCE_PATH . '20_class_hierarchy.Enumerations.html', "r");
-	while($line = fgets($fp))
-	{
-		if(preg_match("/<li><a href=\"(.*)\.html\" class=\"classlink\">.*<\/a><\/li>/", $line, $matches))
-		{
-			$enums[] = $matches[1];
-		}
-	}
-
-	// iterate our class
-	foreach($enums as $enum)
-	{			
-		// our header
-		$out =  "// intrinsic (fake enum)\nintrinsic class $enum";
-
-		// start braces
-		$out .= "\n{\n";
-
-		// open up the class and extract its line
-		$file = file_get_contents(SCRIPTREFERENCE_PATH . "$enum.html");
-
-		// skip if file is dead
-		if(empty($file))
-			continue;
-
-		// strip newlines
-		$file = str_replace("\n", "", $file);
-
-		$file = preg_replace("/>\s*</", "><", $file);
-
-		// get all of our members
-		if(preg_match_all("/<tr><td class=\"class-member-list-name\"><a href=\".*\.html\">(.*)<\/a><\/td><td>\s*<p class=\"class-member-description\">(.*)<\/p><\/td><\/tr>/U", $file, $matches, PREG_SET_ORDER))
-		{
-			foreach($matches as $match)
-			{
-				$out .= "\t/**\n\t* " . strip_tags($match[2]) . "\n\t**/\n";
-				$out .= "\tstatic var $match[1]:int;\n\n";
-			}
-		}
-
-		// closing brace
-		$out .= "}\n";
-
-		// open up for writing
-		$fp = fopen(STUBS_PATH . "$enum.cs", "w+");
-		fwrite($fp, $out);
-		fclose($fp);
-	}	
-}
-
-// does a class inherit from something?
-function checkClassInherit($class)
-{
-	
-	$file = file_get_contents(SCRIPTREFERENCE_PATH . "$class.html");
-	
-	if(preg_match("/Class, inherits from <a href=\"(.*)\.html\" class=\"classlink\">/", $file, $matches))
-		return $matches[1];
-	else
-		return null;
-}
-
-
-
-
 
 // =================================================================================
 //                    Helper Functions --- Mostly from PHPDoc
 // =================================================================================
+function simpleXMLHack($xml)
+{
+	$xml = str_replace("DOTBUNNY&lt;", "<", $xml);
+	$xml = str_replace("&gt;DOTBUNNY", ">", $xml);
+	
+	return $xml;	
+}
+
 function real_strip_tags($i_html, $i_allowedtags = array(), $i_trimtext = FALSE) {
   if (!is_array($i_allowedtags))
     $i_allowedtags = !empty($i_allowedtags) ? array($i_allowedtags) : array();
