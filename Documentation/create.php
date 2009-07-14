@@ -98,6 +98,7 @@ if (!is_dir(SCRIPTREFERENCE_PATH)) { die("Unity Script Reference Not Found"); }
 // Remove Old Logs & Misc
 @unlink(LOG_PATH . "monodocer.log");
 @unlink(LOG_PATH . "mdassembler.log");
+@unlink(LOG_PATH . "updateDocumentation.log");
 @unlink(RELEASE_PATH . "Unity.source");
 
 // Execute Parse/Update of Actual Libraries
@@ -169,11 +170,14 @@ function updateForLinks($namespace, $type, $text)
 		{
 			// TODO : Check if file exists? 
 			case "classlink":
-				$text = str_replace($matches[0], "DOTBUNNY<see cref=\"T:" . $namespace . "." . $matches_item[1] . "\" />DOTBUNNY", $text);
+				$text = str_replace($matches[0], "DOTBUNNY<see cref=\"T:" . $namespace . "." . 
+					$matches_item[1] . "\" />DOTBUNNY", $text);
 				break;
 			case "itemlink":
-				//$text = str_replace($matches[0], "<see cref=\"P:" . $namespace . "." . $type . "." . $matches_item[1] . "\" />", $text);
-				$text = str_replace($matches[0], "DOTBUNNY<see cref=\"P:" . $namespace . "." . $matches_item[1] . "\" />DOTBUNNY", $text);
+				//$text = str_replace($matches[0], "<see cref=\"P:" . $namespace . "." . $type . 
+				// 	"." . $matches_item[1] . "\" />", $text);
+				$text = str_replace($matches[0], "DOTBUNNY<see cref=\"P:" . $namespace . "." . 
+					$matches_item[1] . "\" />DOTBUNNY", $text);
 				break;
 			default:
 				die("No class for: " . $matches_class[1]);
@@ -238,6 +242,11 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 			$objectXML->Docs->remarks = trim(updateForLinks($namespace, $type, $matches[1]));
 		}
 	}
+	else
+	{
+		file_put_contents(LOG_PATH . "updateDocumentation.log", "ERROR: No enumeration file  found (" . 
+			SCRIPTREFERENCE_PATH . $type . ".html)" . "\n", FILE_APPEND | LOCK_EX);
+	}
 	
 	// Make sure we have nothing kickin' around
 	$file = null;
@@ -253,7 +262,12 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 			$file = @file_get_contents(SCRIPTREFERENCE_PATH . $type . "." . $MemberObject["MemberName"] . ".html", "r");
 			
 			// No joy, no luv
-			if(empty($file)) { continue; }
+			if(empty($file)) 
+			{
+				file_put_contents(LOG_PATH . "updateDocumentation.log", "ERROR: No enumeration member file found (" . 
+					SCRIPTREFERENCE_PATH . $type . "." . $MemberObject["MemberName"] . ".html)" . "\n", FILE_APPEND | LOCK_EX); 
+				continue; 
+			}
 						
 			// Strip Newlines
 			$file = str_replace("\n", "", $file);
@@ -272,6 +286,7 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 		}
 	}
 
+	// Save File
 	file_put_contents(SOURCE_PATH . $namespace . "/" . $type . ".xml",  simpleXMLHack(trim($objectXML->asXML())));
 }
 
@@ -282,10 +297,14 @@ function simpleXMLHack($xml)
 	$xml = str_replace("DOTBUNNY&lt;", "<", $xml);
 	$xml = str_replace("&gt;DOTBUNNY", ">", $xml);
 	
-	return $xml;
-	
+	return $xml;	
 }		
 			
+	
+	
+	
+	
+	
 			
 /// REFERENCE BELOW		
 			
