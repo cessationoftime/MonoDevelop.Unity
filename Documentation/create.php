@@ -76,17 +76,24 @@ $hot_links = array (
 	'character controller' => "UnityEngine.CharacterController",
 	'rigidbody' => "UnityEngine.Rigidbody",
 	'rigidbodies' => "UnityEngine.Rigidbody",
+	'MonoBehaviour' => "UnityEngine.MonoBehaviour",
 	);
 $external_links = array (
 	
 	);
-$remove_links = array ('GUI Scripting Guide', 'Character animation examples', 'Character Controller component');
+$remove_links = array (
+	'GUI Scripting Guide', 
+	'Character animation examples', 
+	'Character Controller component');
 
 
 
 // =================================================================================
 //            No Settings Below This Line --- Change At Your Own Risk
 // =================================================================================
+
+// Link Map
+$unity = array();
 
 // Counters
 $warnings['enumeration'] = 0;
@@ -139,13 +146,23 @@ print "\n";
 // =================================================================================
 function updateDocumentationSource()
 {
+	global $unity;
 	$XML = simplexml_load_file(SOURCE_PATH . "index.xml");
-
+	
+	// Create Link Map before going through documentation
 	foreach( $XML->Types->Namespace as $NamespaceObject)
 	{
-		//$NamespaceObject['Name'];
 		foreach ($NamespaceObject->Type as $TypeObject)
 		{		
+			$unity[strtolower((string)$NamespaceObject['Name'])][strtolower((string)$TypeObject['Name'])] = (string)$TypeObject['Kind'];
+		}
+	}
+	
+	foreach( $XML->Types->Namespace as $NamespaceObject)
+	{
+		foreach ($NamespaceObject->Type as $TypeObject)
+		{		
+			
 			// Because each type of file is a bit different, lets just make specific
 			// calls to update each one differently.
 			switch($TypeObject['Kind'])
@@ -171,7 +188,8 @@ function updateForLinks($namespace, $type, $text, $include_type = false)
 	global $allowed_tags;
 	global $remove_links;
 	global $hot_links;
-	
+	global $unity;
+
 	while (preg_match("/<a(.*)<\/a>/U", $text, $matches))
 	{
 		preg_match("/class=\"(.*)\"/U", $matches[0], $matches_class);
@@ -182,64 +200,54 @@ function updateForLinks($namespace, $type, $text, $include_type = false)
 			$text = str_replace($matches[0], "", $text);
 		} 
 		
-		
-		// TODO : ADD BETTER LINKING
-		
-		// What type of link are we looking at
 		switch ($matches_class[1])
 		{
-			// TODO : Check if file exists? 
+			case "itemlink":
+				$tag = "P";
+				break;
 			case "classlink":
-				if ( $include_type)
-				{
-					$text = str_replace($matches[0], "DOTBUNNY<see cref=\"T:" . $namespace . "." . 
-						$type . "." . $matches_item[1] . "\" />DOTBUNNY", $text);
-				}
-				else
-				{
-					$text = str_replace($matches[0], "DOTBUNNY<see cref=\"T:" . $namespace . "." . 
-						$matches_item[1] . "\" />DOTBUNNY", $text);
-				}
-				break;
-			case "itemlink":				
-				if ( $include_type)
-				{
-					$text = str_replace($matches[0], "DOTBUNNY<see cref=\"P:" . $namespace . "." . 
-						$type . "." . $matches_item[1] . "\" />DOTBUNNY", $text);
-				}
-				else
-				{
-					$text = str_replace($matches[0], "DOTBUNNY<see cref=\"P:" . $namespace . "." . 
-						$matches_item[1] . "\" />DOTBUNNY", $text);
-				}
-				break;
 			default:
-				print("No class for: " . $matches_class[1] . " in " . $matches_class[0] . " from " . $text . "\n");
+				$tag = "T";
 				break;
+		}
+		
+		if ( !empty($unity[strtolower($namespace)][strtolower($type)]) )
+		{
+			//die($namespace . $type);
+			$text = str_replace($matches[0], "DOTBUNNY<see cref=\"" . $tag . ":" . $namespace . "." . 
+				 $matches_item[1] . "\" />DOTBUNNY", $text);
+		}
+		else
+		{
+			$text = str_replace($matches[0], "DOTBUNNY<see cref=\"" . $tag . ":" . $namespace . "." . 
+				 $type . "." . $matches_item[1] . "\" />DOTBUNNY", $text);
+				
 		}
 	}
 	
 	// Remove
 	foreach ( $remove_links as $key)
 	{
-		$text = str_replace("DOTBUNNY<see cref=\"T:" . $namespace . "." . $key. "\" />DOTBUNNY", "", $text);
-		$text = str_replace("DOTBUNNY<see cref=\"P:" . $namespace . "." . $key. "\" />DOTBUNNY", "", $text);
+		$text = str_ireplace("DOTBUNNY<see cref=\"T:" . $namespace . "." . $key. "\" />DOTBUNNY", "", $text);
+		$text = str_ireplace("DOTBUNNY<see cref=\"P:" . $namespace . "." . $key. "\" />DOTBUNNY", "", $text);
 	}
 	
-	// Hotlinks
-	foreach ( $hot_links as $key => $url )
+	// Hotlinks -- need some way to detect if they are <cref'd already>
+	/*foreach ( $hot_links as $key => $url )
 	{
-		$text = str_replace($key, "DOTBUNNY<see cref=\"T:" . $url . "\" />DOTBUNNY", $text);
-	}
+		$text = str_ireplace($key, "DOTBUNNY<see cref=\"T:" . $url . "\" />DOTBUNNY", $text);
+	}*/
+	
+	
 	// Left overs from removing items
-	$text = str_replace(", .", ".", $text);
-	$text = str_replace(", ,", ",", $text);
-	$text = str_replace(",,", ",", $text);
-	$text = str_replace("</span>", "", $text);
-	$text = str_replace("<span class=\"note\">", "", $text);
-	$text = str_replace("<span class=\"variable\">", "", $text);
-	$text = str_replace("<tt>", "", $text);
-	$text = str_replace("</tt>", "", $text);
+	$text = str_ireplace(", .", ".", $text);
+	$text = str_ireplace(", ,", ",", $text);
+	$text = str_ireplace(",,", ",", $text);
+	$text = str_ireplace("</span>", "", $text);
+	$text = str_ireplace("<span class=\"note\">", "", $text);
+	$text = str_ireplace("<span class=\"variable\">", "", $text);
+	$text = str_ireplace("<tt>", "", $text);
+	$text = str_ireplace("</tt>", "", $text);
 	
 	if ( trim($text) == "See Also:  and" )
 	{
@@ -267,6 +275,10 @@ function updateForLinks($namespace, $type, $text, $include_type = false)
 	return trim(real_strip_tags($text, $allowed_tags));
 }
 
+
+
+
+
 function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class")
 {
 	global $warnings;
@@ -275,7 +287,9 @@ function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class"
 	$objectXML = simplexml_load_file(SOURCE_PATH . $namespace . "/" . $type . ".xml");
 
 	// Find base summary
-	$file = @file_get_contents(SCRIPTREFERENCE_PATH . $type . ".html", "r");
+	$file = scrubFile(@file_get_contents(SCRIPTREFERENCE_PATH . $type . ".html", "r"));
+	
+
 	if (!empty($file))
 	{
 		if(preg_match("/<p class=\"first\">(.*)<\/p>/U", $file, $matches))
@@ -338,17 +352,7 @@ function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class"
 				$file_name = str_replace("_Subtraction.html", "_subtract.html", $file_name);
 				$file_name = str_replace("_Division.html", "_divide.html", $file_name);
 				$file_name = str_replace("_Multiply.html", "_multiply.html", $file_name);
-				
-				
-				
-				/*$file_name = str_replace("_Inequality.html", "_ne.html", $file_name);
-				$file_name = str_replace("_Equality.html", "_eq.html", $file_name);								
-				*/
-				/*
-	ERROR: No Structure Method file found (/Applications/Unity/Documentation/ScriptReference/Vector2-operator_Implicit.html
-	ERROR: No Structure Method file found (/Applications/Unity/Documentation/ScriptReference/Vector2-operator_Implicit.html
-	ERROR: No Structure Method file found (/Applications/Unity/Documentation/ScriptReference/Vector2-operator_UnaryNegation.html
-				*/												
+											
 				$file_type = $doc_type . " Method";
 				break;
 				
@@ -363,11 +367,13 @@ function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class"
 				break;
 				
 			default: 
-				die("No definition for " . $namespace . "." . $type . "." . $MemberObject['MemberName'] . "->" . $MemberObject->MemberType . "\n");
+				die("No definition for " . $namespace . "." . $type . "." 
+					. $MemberObject['MemberName'] . "->" . $MemberObject->MemberType . "\n");
 		}
 		
 		// Load File
-		$file = @file_get_contents(SCRIPTREFERENCE_PATH . $file_name, "r");
+		$file = scrubFile(@file_get_contents(SCRIPTREFERENCE_PATH . $file_name, "r"));	
+	
 	
 		// No joy, no luv
 		if(empty($file)) 
@@ -378,40 +384,130 @@ function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class"
 			continue; 
 		}		
 		
-		if ( $MemberObject->Docs->summary == DOC_EMPTY || DOC_OVERWRITE)
-		{			
-			// Get first <p> details for the description
-			if(preg_match("/<p class=\"details\">(.*)<\/p>/U", $file, $matches))
-			{
-				$updated_text = updateForLinks($namespace, $type, $matches[1], true);
-				if ( !empty($updated_text) )
-				{
-					$MemberObject->Docs->summary = $updated_text;
-				}
-			}
-			else
-			{
-				$warnings[$doc_type]++;
-				if ( SHOW_WARNINGS )
-				{
-					file_put_contents(LOG_PATH . "updateDocumentation.log", "WARNING: No " . $file_type . " summary in " . 
-						SCRIPTREFERENCE_PATH . $file_name . "\n", FILE_APPEND | LOCK_EX);
-				}
-			}	
-		}
-		if ( $MemberObject->Docs->remarks == DOC_EMPTY || DOC_OVERWRITE )
-		{
-			$matches = null;
-			if (preg_match("/<span class=\"note\">(.*)<\/p>/U", $file, $matches))
-			{
-				$updated_text = updateForLinks($namespace, $type, $matches[1], true);
-				if ( !empty($updated_text) )
-				{
-					$MemberObject->Docs->remarks = $updated_text;
-				}
-			}
-		}
 		
+		switch ($MemberObject->MemberType)
+		{
+			
+			case "Method":
+			
+				// Do we have a description field for Summary
+				if ( $MemberObject->Docs->summary == DOC_EMPTY || DOC_OVERWRITE)
+				{
+					if (stristr($file,'<h3 class="soft">Description</h3>'))
+					{
+						$matches = null;
+						if (preg_match("/<p class=\"details\">(.*)<\/p>/U", substr($file, 
+								strpos($file,'<h3 class="soft">Description</h3>') + 
+								strlen('<h3 class="soft">Description</h3>')), $matches))
+						{
+							$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+							if ( !empty($updated_text))
+							{
+								$MemberObject->Docs->summary = $updated_text;
+							}
+						}
+					}
+					else
+					{
+						// Fail Safe Method 
+						
+						// Get first <p> details for the description
+						$matches = null;
+						if(preg_match("/<p class=\"details\">(.*)<\/p>/U", $file, $matches))
+						{
+							$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+							if ( !empty($updated_text) )
+							{
+								$MemberObject->Docs->summary = $updated_text;
+							}
+						}
+						else
+						{
+							$warnings[$doc_type]++;
+							if ( SHOW_WARNINGS )
+							{
+								file_put_contents(LOG_PATH . "updateDocumentation.log", "WARNING: No " . $file_type . " summary in " . 
+									SCRIPTREFERENCE_PATH . $file_name . "\n", FILE_APPEND | LOCK_EX);
+							}
+						}	
+					}
+				}
+				
+				// Do we have a return field
+				if (($MemberObject->Docs->returns == DOC_EMPTY || DOC_OVERWRITE) &&
+				  	stristr($file, '<h3 class="soft">Returns</h3>'))
+				{
+					$matches = null;
+					if (preg_match("/<p class=\"details\">(.*)<\/p>/U", substr($file, strpos($file,'<h3 class="soft">Returns</h3>') 
+						+ strlen('<h3 class="soft">Returns</h3>')), $matches))
+					{
+						$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+						if ( !empty($updated_text))
+						{
+							$MemberObject->Docs->returns = $updated_text;
+						}
+					}
+				}
+
+			
+			//Remarks?\
+			/*
+				if ( $MemberObject->Docs->remarks == DOC_EMPTY || DOC_OVERWRITE )
+				{
+					$matches = null;
+					if (preg_match("/<span class=\"note\">(.*)<\/p>/U", $file, $matches))
+					{
+						$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+						if ( !empty($updated_text) )
+						{
+							$MemberObject->Docs->remarks = $updated_text;
+						}
+					}
+				}
+			*/
+				
+				break;
+			case "Constructor":
+			case "Field":
+			case "Property":
+			default:
+				if ( $MemberObject->Docs->summary == DOC_EMPTY || DOC_OVERWRITE)
+				{			
+				
+					// Get first <p> details for the description
+					$matches = null;
+					if(preg_match("/<p class=\"details\">(.*)<\/p>/U", $file, $matches))
+					{
+						$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+						if ( !empty($updated_text) )
+						{
+							$MemberObject->Docs->summary = $updated_text;
+						}
+					}
+					else
+					{
+						$warnings[$doc_type]++;
+						if ( SHOW_WARNINGS )
+						{
+							file_put_contents(LOG_PATH . "updateDocumentation.log", "WARNING: No " . $file_type . " summary in " . 
+								SCRIPTREFERENCE_PATH . $file_name . "\n", FILE_APPEND | LOCK_EX);
+						}
+					}	
+				}
+				if ( $MemberObject->Docs->remarks == DOC_EMPTY || DOC_OVERWRITE )
+				{
+					$matches = null;
+					if (preg_match("/<span class=\"note\">(.*)<\/p>/U", $file, $matches))
+					{
+						$updated_text = updateForLinks($namespace, $type, $matches[1], true);
+						if ( !empty($updated_text) )
+						{
+							$MemberObject->Docs->remarks = $updated_text;
+						}
+					}
+				}
+				break;
+		}		
 	}
 	
 	// Save File
@@ -427,7 +523,7 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 	$objectXML = simplexml_load_file(SOURCE_PATH . $namespace . "/" . $type . ".xml");
 	
 	// Find base summary
-	$file = @file_get_contents(SCRIPTREFERENCE_PATH . $type . ".html", "r");
+	$file = scrubFile(@file_get_contents(SCRIPTREFERENCE_PATH . $type . ".html", "r"));
 	if (!empty($file))
 	{
 		if(preg_match("/<p class=\"first\">(.*)<\/p>/U", $file, $matches))
@@ -447,7 +543,6 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 					SCRIPTREFERENCE_PATH . $type . ".html" . "\n", FILE_APPEND | LOCK_EX);
 			}
 		}
-		
 		$matches = null;
 		if (preg_match("/<span class=\"note\">(.*)<\/p>/U", $file, $matches))
 		{
@@ -476,7 +571,7 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 		if ( $MemberObject->Docs->summary == DOC_EMPTY || DOC_OVERWRITE)
 		{			
 			// Open Documentation File
-			$file = @file_get_contents(SCRIPTREFERENCE_PATH . $type . "." . $MemberObject["MemberName"] . ".html", "r");
+			$file = scrubFile(@file_get_contents(SCRIPTREFERENCE_PATH . $type . "." . $MemberObject["MemberName"] . ".html", "r"));
 			
 			// No joy, no luv
 			if(empty($file)) 
@@ -540,6 +635,17 @@ function simpleXMLHack($xml)
 	$xml = str_replace("&gt;DOTBUNNY", ">", $xml);
 	
 	return $xml;	
+}
+
+function scrubFile($file)
+{
+	// Strip Newlines
+	$file = str_replace("\n", "", $file);
+	
+	$file = strip_tags($file, '<p><span><a><h3>');
+
+	
+	return $file;
 }
 
 function real_strip_tags($i_html, $i_allowedtags = array(), $i_trimtext = FALSE) 
