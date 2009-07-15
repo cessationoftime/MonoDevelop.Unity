@@ -3,19 +3,25 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity.addin.xml" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Documentation/create.php" ctype="Workbench">
     <Files>
-      <File FileName="MonoDevelop.Unity.addin.xml" Line="63" Column="60" />
-      <File FileName="Documentation/Release/Unity.source" Line="4" Column="42" />
-      <File FileName="Documentation/Release/Unity.tree" Line="1" Column="1" />
+      <File FileName="MonoDevelop.Unity/DocumentationPanel.cs" Line="132" Column="1" />
+      <File FileName="MonoDevelop.Unity/Base.cs" Line="85" Column="81" />
+      <File FileName="MonoDevelop.Unity/Helpers.cs" Line="161" Column="55" />
+      <File FileName="MonoDevelop.Unity/StartupHandler.cs" Line="59" Column="43" />
+      <File FileName="MonoDevelop.Unity/Settings.cs" Line="70" Column="49" />
+      <File FileName="Documentation/create.php" Line="497" Column="11" />
+      <File FileName="Documentation/Release/Unity.xml" Line="15" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="MonoDevelop.Unity" expanded="True">
-            <Node name="Documentation" expanded="True" />
+            <Node name="Documentation" expanded="True">
+              <Node name="Release" expanded="True" />
+              <Node name="create.php" selected="True" />
+            </Node>
             <Node name="MonoDevelop.Unity" expanded="True" />
-            <Node name="MonoDevelop.Unity.addin.xml" selected="True" />
           </Node>
         </State>
       </Pad>

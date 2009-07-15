@@ -29,6 +29,8 @@
 //
 
 using System;
+using System.IO;
+using System.Reflection;
 using MonoDevelop.Core;
 using MonoDevelop.Core.Gui;
 using MonoDevelop.Components.Commands;
@@ -115,6 +117,23 @@ namespace MonoDevelop.Unity
             Document doc = IdeApp.Workbench.ActiveDocument;
             return doc != null && doc.GetContent<IEditableTextBuffer> () != null;
         }
+		
+		public static void WriteResourceToFile(string resourceName, string fileName)
+		{
+			
+			Assembly Assem = Assembly.GetExecutingAssembly();
+			Stream str = Assem.GetManifestResourceStream(resourceName);
+			BinaryReader br = new BinaryReader(str);
+			FileStream fs = new FileStream(fileName, FileMode.Create);
+			BinaryWriter bw = new BinaryWriter(fs);
+			byte[] ba = new byte[str.Length];
+			str.Read(ba, 0, ba.Length);
+			bw.Write(ba);
+			br.Close();
+			bw.Close(); 
+			
+			
+		}
 
         #region Alert/Error Handling
 
@@ -137,6 +156,10 @@ namespace MonoDevelop.Unity
                 return false;
             }
         }
+		public static string AskForPassword(string title, string question)
+		{
+			return MessageService.GetPassword(title, question);
+		}
 
         #endregion
     }

@@ -42,6 +42,62 @@ namespace MonoDevelop.Unity
 
     public class Base
     {
+		
+	
+		public bool InstallDocumentation()
+		{	
+			
+			PropertyService.Set("Unity.MonoDoc.PromptUser", true);
+			
+			if ( Helpers.AskYesNoQuestion("Install Documentation", "Would you like to install the Unity documentation?") )
+			{
+
+				
+				if ( Helpers.WhatOS() == Helpers.OS.Mac )
+				{
+					Directory.CreateDirectory("/MonoDevelop.Unity/");
+					
+					Helpers.WriteResourceToFile("Unity.source", "/MonoDevelop.Unity/Unity.source");
+					Helpers.WriteResourceToFile("Unity.tree", "/MonoDevelop.Unity/Unity.tree");
+					Helpers.WriteResourceToFile("Unity.zip", "/MonoDevelop.Unity/Unity.zip");
+					
+					string password = Helpers.AskForPassword("Please enter your account password. It will NOT be saved.", "SUDO Password Required");
+					if ( password.Length > 0 )
+					{
+						System.Diagnostics.Process p = new System.Diagnostics.Process();
+						p.StartInfo.RedirectStandardError = true;
+						p.StartInfo.RedirectStandardOutput = true;		
+						p.StartInfo.RedirectStandardInput = true;
+						p.StartInfo.FileName ="/bin/bash";
+						p.StartInfo.UseShellExecute = false;
+						p.Start();
+						p.StandardInput.WriteLine("/usr/bin/sudo -S -- cp -f /MonoDevelop.Unity/* " + Settings.MAC_MONODOC_SOURCES + "/");
+						p.StandardInput.WriteLine(password);
+						p.StandardInput.WriteLine("exit");
+						p.WaitForExit();
+						string output = p.StandardError.ReadToEnd();
+						if ( !empty(output))
+						{
+							Helpers.ShowMessage(output);
+						}
+						else
+						{
+							PropertyService.Set("Unity.MonoDoc.Installed", Settings.MONODOC_VERSION);
+						}
+					}
+					
+					Directory.Delete("/MonoDevelop.Unity/", true);
+				}
+				else if ( Helpers.WhatOS() == Helpers.OS.Mac )
+				{
+				}
+				
+				
+				return true;
+			}
+			return false;
+		}
+		
         private IWebBrowser browser;
 		
         #region Overloaded Open

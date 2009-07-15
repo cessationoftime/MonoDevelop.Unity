@@ -64,6 +64,11 @@ namespace MonoDevelop.Unity
                 handler.FindUnityiPhone();
             }
 
+			
+			if (!PropertyService.Get<bool>("Unity.MonoDoc.PromptUser", false))
+			{
+				handler.InstallDocumentation();
+			}
             #endregion
         }
     }

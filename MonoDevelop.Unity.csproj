@@ -170,5 +170,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Documentation\create.php" />
+    <None Include="Documentation\Release\Unity.xml" />
   </ItemGroup>
 </Project>

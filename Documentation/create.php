@@ -63,7 +63,7 @@ $mdassembler_command = 	MONODOC_PATH . "mdassembler --ecma " . SOURCE_PATH .
 						"mdassembler.log";
 
 // MonoDoc to VS
-$mdocexport_command = MONODOC_PATH . "mdoc-export-msxoc " . SOURCE_PATH;
+$mdocexport_command = MONODOC_PATH . "mdoc-export-msxoc " . SOURCE_PATH . " --out=" . RELEASE_PATH . "Unity.xml";
 
 $monodoc_source_file = '<?xml version="1.0"?>
 <monodoc>
@@ -121,7 +121,7 @@ if (!is_dir(SCRIPTREFERENCE_PATH)) { die("Unity Script Reference Not Found"); }
 @unlink(RELEASE_PATH . "Unity.source");
 
 // Execute Parse/Update of Actual Libraries
-exec($monodoc_command);
+//exec($monodoc_command);
 
 // Generate Content from Documentation
 updateDocumentationSource();
@@ -131,6 +131,10 @@ exec($mdassembler_command);
 
 // Create Source File
 file_put_contents(RELEASE_PATH . "Unity.source", $monodoc_source_file);
+
+// Export VS Compatible Docs
+exec($mdocexport_command);
+
 print "\nErrors\n";
 print_r($errors);
 print "\nWarnings\n";
@@ -174,6 +178,7 @@ function updateDocumentationSource()
 					updateDocumentationSourceEnumeration($NamespaceObject['Name'], $TypeObject['Name']);
 					break;
 				case "Delegate":
+					print $NamespaceObject['Name'] . "." . $TypeObject['Name'] . "\n";
 					break;
 				case "Structure":
 					updateDocumentationSourceDynamic($NamespaceObject['Name'], $TypeObject['Name'], "structure");
@@ -448,23 +453,6 @@ function updateDocumentationSourceDynamic($namespace, $type, $doc_type = "class"
 						}
 					}
 				}
-
-			
-			//Remarks?\
-			/*
-				if ( $MemberObject->Docs->remarks == DOC_EMPTY || DOC_OVERWRITE )
-				{
-					$matches = null;
-					if (preg_match("/<span class=\"note\">(.*)<\/p>/U", $file, $matches))
-					{
-						$updated_text = updateForLinks($namespace, $type, $matches[1], true);
-						if ( !empty($updated_text) )
-						{
-							$MemberObject->Docs->remarks = $updated_text;
-						}
-					}
-				}
-			*/
 				
 				break;
 			case "Constructor":
