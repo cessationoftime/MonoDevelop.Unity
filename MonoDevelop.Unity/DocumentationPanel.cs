@@ -213,8 +213,7 @@ namespace MonoDevelop.Unity
 		
 		void InstallDocsClicked (object sender, EventArgs e)
         {
-            Base handler = new Base();
-			handler.InstallDocumentation();
+            Helpers.InstallDocumentation();
         }
 
         public void Save ()

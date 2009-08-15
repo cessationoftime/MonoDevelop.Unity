@@ -3,16 +3,16 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/StartupHandler.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoDevelop.Unity/Helpers.cs" ctype="Workbench">
     <Files>
-      <File FileName="MonoDevelop.Unity/Base.cs" Line="127" Column="52" />
-      <File FileName="MonoDevelop.Unity/BuildExtension.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity/Helpers.cs" Line="143" Column="39" />
+      <File FileName="MonoDevelop.Unity/Base.cs" Line="1" Column="1" />
+      <File FileName="MonoDevelop.Unity/Helpers.cs" Line="221" Column="17" />
+      <File FileName="MonoDevelop.Unity/DocumentationPanel.cs" Line="109" Column="2" />
+      <File FileName="MonoDevelop.Unity/SetupPanel.cs" Line="1" Column="1" />
       <File FileName="MonoDevelop.Unity/UnityProjectConfiguration.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity/UnityProjectBinding.cs" Line="1" Column="1" />
+      <File FileName="MonoDevelop.Unity/UnityProject.cs" Line="1" Column="1" />
+      <File FileName="MonoDevelop.Unity/StartupHandler.cs" Line="1" Column="1" />
       <File FileName="MonoDevelop.Unity/Settings.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity/DocumentationPanel.cs" Line="1" Column="1" />
-      <File FileName="MonoDevelop.Unity/StartupHandler.cs" Line="71" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +23,7 @@
               <Node name="Release" expanded="True" />
             </Node>
             <Node name="MonoDevelop.Unity" expanded="True">
-              <Node name="StartupHandler.cs" selected="True" />
+              <Node name="Helpers.cs" selected="True" />
             </Node>
           </Node>
         </State>

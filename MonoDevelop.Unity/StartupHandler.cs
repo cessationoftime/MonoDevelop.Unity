@@ -42,10 +42,7 @@ namespace MonoDevelop.Unity
         {
 			this.handler = new Base();
 			
-            Helpers.CheckConnection();
-			
-
-            #region First Time Initialization
+           	Helpers.CheckConnection();
 
             // Find Unity
             if (PropertyService.Get<string>("Unity.Base.Path", "" ) == "")
@@ -61,12 +58,16 @@ namespace MonoDevelop.Unity
                 handler.FindUnityiPhone();
             }
 
-			if (!PropertyService.Get<bool>("Unity.MonoDoc.PromptUser", false) && Helpers.WhatOS() == Helpers.OS.Mac)
+			if (PropertyService.Get<bool>("Unity.MonoDoc.PromptUser", false) == false && 
+			    Helpers.WhatOS() == Helpers.OS.Mac)
 			{
 				PropertyService.Set("Unity.MonoDoc.PromptUser", true);
-				handler.InstallDocumentation();
+				if (MessageService.AskQuestion("Would you like to install the Unity documentation?","Install Documentation", new AlertButton[] { AlertButton.Ok, AlertButton.Cancel } ) == AlertButton.Ok )
+				{
+					Helpers.InstallDocumentation();
+				}
 			}
-            #endregion
+           
         }
     }
 }

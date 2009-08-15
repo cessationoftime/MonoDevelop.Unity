@@ -144,24 +144,79 @@ namespace MonoDevelop.Unity
             // but change the fragmentation behavior.
             pingOptions.DontFragment = true;
 
+			
             // Create a buffer of 32 bytes of data to be transmitted.
             string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
             byte[] buffer = System.Text.Encoding.ASCII.GetBytes (data);
             int timeout = 120;
-			
-            System.Net.NetworkInformation.PingReply reply = pingSender.Send (Settings.NETWORK_PING_HOST, timeout, buffer, pingOptions);
-            if (reply.Status == System.Net.NetworkInformation.IPStatus.Success)
-            {
-				MessageService.ShowMessage("PINGED!");
-				PropertyService.Set("Unity.Connection", true);
-				return true;
-			}
-			else
+			 
+			try
 			{
-				MessageService.ShowMessage("NO PING!");
-				PropertyService.Set("Unity.Connection", false);
+				System.Net.NetworkInformation.PingReply reply = pingSender.Send (Settings.NETWORK_PING_HOST, timeout, buffer, pingOptions);
+				if (reply.Status == System.Net.NetworkInformation.IPStatus.Success)
+	            {
+					PropertyService.Set("Unity.Connection", true);
+					return true;
+				}
+				else
+				{
+					PropertyService.Set("Unity.Connection", false);
+					return false;
+				}
+			}
+			catch
+			{
+				PropertyService.Set("Unity.Connection", true);
 				return false;
 			}
+
 		}
+		
+		public static bool InstallDocumentation()
+		{		
+			PropertyService.Set("Unity.MonoDoc.PromptUser", true);
+			string password = "";
+			if ( Helpers.WhatOS() == Helpers.OS.Mac )
+			{
+				Directory.CreateDirectory("/MonoDevelop.Unity/");
+				
+				Helpers.WriteResourceToFile("Unity.source", "/MonoDevelop.Unity/Unity.source");
+				Helpers.WriteResourceToFile("Unity.tree", "/MonoDevelop.Unity/Unity.tree");
+				Helpers.WriteResourceToFile("Unity.zip", "/MonoDevelop.Unity/Unity.zip");
+				
+				password = MessageService.GetPassword("Please enter your account password, it will NOT be saved", "SUDO Password Required");
+					
+				
+				System.Diagnostics.Process p = new System.Diagnostics.Process();
+				p.StartInfo.RedirectStandardError = true;
+				p.StartInfo.RedirectStandardOutput = true;	
+				p.StartInfo.RedirectStandardInput = true;
+				p.StartInfo.FileName ="/bin/bash";
+				p.StartInfo.UseShellExecute = false;
+				p.Start();
+				p.StandardInput.WriteLine("/usr/bin/sudo -S cp -f /MonoDevelop.Unity/* " + Settings.MAC_MONODOC_SOURCES + "/");
+				p.StandardInput.WriteLine(password);
+				p.StandardInput.WriteLine("exit");
+				p.WaitForExit(500);
+				
+		
+				
+				Directory.Delete("/MonoDevelop.Unity/", true);
+				
+				if ( File.Exists(Settings.MAC_MONODOC_SOURCES + "/Unity.source") ) 
+				{
+					PropertyService.Set("Unity.MonoDoc.Installed", Settings.MONODOC_VERSION);
+					PropertyService.Set("Unity.MonoDoc.Version", Settings.MONODOC_VERSION);
+					MessageService.ShowWarning("Installation Complete", "MonoDevelop needs to be restarted.\n\nUnfortunately your going to have to do that yourself,\nso save your work, and restart it.");
+				}
+				else
+				{
+					MessageService.ShowError("An error occured while trying to install the documentation.\n\nPlease try again.");
+				}
+				return true;
+			}
+			return false;
+		}
+		
     }
 }

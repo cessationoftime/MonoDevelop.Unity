@@ -40,59 +40,6 @@ namespace MonoDevelop.Unity
 {
     public class Base 
 	{
-		public bool InstallDocumentation()
-		{		
-			PropertyService.Set("Unity.MonoDoc.PromptUser", true);
-			
-			if (MessageService.AskQuestion("Would you like to install the Unity documentation?","Install Documentation", new AlertButton[] { AlertButton.Ok, AlertButton.Cancel } ) == AlertButton.Ok )
-			{
-				if ( Helpers.WhatOS() == Helpers.OS.Mac )
-				{
-					Directory.CreateDirectory("/MonoDevelop.Unity/");
-					
-					Helpers.WriteResourceToFile("Unity.source", "/MonoDevelop.Unity/Unity.source");
-					Helpers.WriteResourceToFile("Unity.tree", "/MonoDevelop.Unity/Unity.tree");
-					Helpers.WriteResourceToFile("Unity.zip", "/MonoDevelop.Unity/Unity.zip");
-					
-					string password = MessageService.GetPassword("Please enter your account password, it will NOT be saved", "SUDO Password Required");
-						
-					
-					System.Diagnostics.Process p = new System.Diagnostics.Process();
-					p.StartInfo.RedirectStandardError = true;
-					p.StartInfo.RedirectStandardOutput = true;	
-					p.StartInfo.RedirectStandardInput = true;
-					p.StartInfo.FileName ="/bin/bash";
-					p.StartInfo.UseShellExecute = false;
-					p.Start();
-					p.StandardInput.WriteLine("/usr/bin/sudo -S cp -f /MonoDevelop.Unity/* " + Settings.MAC_MONODOC_SOURCES + "/");
-					if ( password.Length > 0 )
-					{	
-						p.StandardInput.WriteLine(password);
-					}
-					p.StandardInput.WriteLine("exit");
-					p.WaitForExit(500);
-					
-					
-					Directory.Delete("/MonoDevelop.Unity/", true);
-					
-					if ( File.Exists(Settings.MAC_MONODOC_SOURCES + "/Unity.source") ) 
-					{
-						PropertyService.Set("Unity.MonoDoc.Installed", Settings.MONODOC_VERSION);
-						PropertyService.Set("Unity.MonoDoc.Version", Settings.MONODOC_VERSION);
-					}
-					else
-					{
-						MessageService.ShowError("An error occured while trying to install the documentation.\n\nPlease try again.");
-					}
-				}
-				
-				
-				
-				return true;
-			}
-			return false;
-		}
-		
         private IWebBrowser browser;
 		
         #region Overloaded Open
