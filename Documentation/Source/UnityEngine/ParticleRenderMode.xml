@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="ParticleRenderMode" FullName="UnityEngine.ParticleRenderMode">
+  <TypeSignature Language="C#" Value="public enum ParticleRenderMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The rendering mode for particle systems.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Billboard">
+      <MemberSignature Language="C#" Value="Billboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render the particles as billboards facing the player. (Default)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalBillboard">
+      <MemberSignature Language="C#" Value="HorizontalBillboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render the particles as billboards always facing up along the y-Axis.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SortedBillboard">
+      <MemberSignature Language="C#" Value="SortedBillboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sort the particles back-to-front and render as billboards.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Stretch">
+      <MemberSignature Language="C#" Value="Stretch"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stretch particles in the direction of motion.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalBillboard">
+      <MemberSignature Language="C#" Value="VerticalBillboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render the particles as billboards always facing the player, but not pitching along the x-Axis.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

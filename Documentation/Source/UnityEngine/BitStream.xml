@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<Type Name="BitStream" FullName="UnityEngine.BitStream">
+  <TypeSignature Language="C#" Value="public class BitStream"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The BitStream class represents seralized variables, packed into a stream.</summary>
+    <remarks>(Read Only)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BitStream ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isReading">
+      <MemberSignature Language="C#" Value="public bool isReading { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the BitStream currently being read? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isWriting">
+      <MemberSignature Language="C#" Value="public bool isWriting { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the BitStream currently being written? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref bool value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref char value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Char&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref short value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int16&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref int value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int32&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref float value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.NetworkPlayer value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="UnityEngine.NetworkPlayer&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.NetworkViewID viewID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="viewID" Type="UnityEngine.NetworkViewID&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="viewID">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.Quaternion value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="UnityEngine.Quaternion&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.Vector3 value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="UnityEngine.Vector3&amp;" RefType="ref"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref float value, float maxDelta);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single&amp;" RefType="ref"/>
+        <Parameter Name="maxDelta" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="maxDelta">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.Quaternion value, float maxDelta);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="UnityEngine.Quaternion&amp;" RefType="ref"/>
+        <Parameter Name="maxDelta" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="maxDelta">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Serialize">
+      <MemberSignature Language="C#" Value="public void Serialize (ref UnityEngine.Vector3 value, float maxDelta);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="UnityEngine.Vector3&amp;" RefType="ref"/>
+        <Parameter Name="maxDelta" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="maxDelta">To be added.</param>
+        <summary>Serializes different types of variables.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

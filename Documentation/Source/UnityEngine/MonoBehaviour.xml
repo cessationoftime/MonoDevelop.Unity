@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<Type Name="MonoBehaviour" FullName="UnityEngine.MonoBehaviour">
+  <TypeSignature Language="C#" Value="public class MonoBehaviour : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>MonoBehaviour is the base class every script derives from.</summary>
+    <remarks>See Also: The <see cref="T:UnityEngine.chapter on scripting" /> in the manual.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonoBehaviour ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelInvoke">
+      <MemberSignature Language="C#" Value="public void CancelInvoke ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Cancels all Invoke calls on this MonoBehaviour.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelInvoke">
+      <MemberSignature Language="C#" Value="public void CancelInvoke (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Cancels all Invoke calls on this MonoBehaviour.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Invoke">
+      <MemberSignature Language="C#" Value="public void Invoke (string methodName, float time);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="time" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="time">To be added.</param>
+        <summary>Invokes the method methodName in time seconds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeRepeating">
+      <MemberSignature Language="C#" Value="public void InvokeRepeating (string methodName, float time, float repeatRate);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="time" Type="System.Single"/>
+        <Parameter Name="repeatRate" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="time">To be added.</param>
+        <param name="repeatRate">To be added.</param>
+        <summary>Invokes the method methodName in time seconds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInvoking">
+      <MemberSignature Language="C#" Value="public bool IsInvoking ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Is any invoke on methodName pending?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInvoking">
+      <MemberSignature Language="C#" Value="public bool IsInvoking (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Is any invoke on methodName pending?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="kDefaultRaycastLayers">
+      <MemberSignature Language="C#" Value="public const int kDefaultRaycastLayers = -5;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>-5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="kIgnoreRaycastLayer">
+      <MemberSignature Language="C#" Value="public const int kIgnoreRaycastLayer = 4;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="print">
+      <MemberSignature Language="C#" Value="public static void print (object o);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="o" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="o">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCoroutine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Coroutine StartCoroutine (System.Collections.IEnumerator routine);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Coroutine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="routine" Type="System.Collections.IEnumerator"/>
+      </Parameters>
+      <Docs>
+        <param name="routine">To be added.</param>
+        <summary>Starts a coroutine.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCoroutine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Coroutine StartCoroutine (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Coroutine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Starts a coroutine.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCoroutine">
+      <MemberSignature Language="C#" Value="public UnityEngine.Coroutine StartCoroutine (string methodName, object value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Coroutine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Starts a coroutine.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StartCoroutine_Auto">
+      <MemberSignature Language="C#" Value="public UnityEngine.Coroutine StartCoroutine_Auto (System.Collections.IEnumerator routine);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Coroutine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="routine" Type="System.Collections.IEnumerator"/>
+      </Parameters>
+      <Docs>
+        <param name="routine">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAllCoroutines">
+      <MemberSignature Language="C#" Value="public void StopAllCoroutines ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stops all coroutines running on this behaviour.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StopCoroutine">
+      <MemberSignature Language="C#" Value="public void StopCoroutine (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Stops all coroutines named methodName running on this behaviour.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

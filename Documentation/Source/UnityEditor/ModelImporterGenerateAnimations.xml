@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterGenerateAnimations" FullName="UnityEditor.ModelImporterGenerateAnimations">
+  <TypeSignature Language="C#" Value="public enum ModelImporterGenerateAnimations"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Animation generation options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateAnimations" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="InNodes">
+      <MemberSignature Language="C#" Value="InNodes"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate animations in the objects that animate.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateAnimations" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="InOriginalRoots">
+      <MemberSignature Language="C#" Value="InOriginalRoots"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate animations in the root objects of the animation package.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateAnimations" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="InRoot">
+      <MemberSignature Language="C#" Value="InRoot"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate animations in the transform root objects.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateAnimations" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not generate animations.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateAnimations" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

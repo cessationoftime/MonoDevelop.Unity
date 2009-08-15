@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="FontRenderMode" FullName="UnityEditor.FontRenderMode">
+  <TypeSignature Language="C#" Value="public enum FontRenderMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Render mode constants for TrueTypeFontImporter</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="LightAntialiasing">
+      <MemberSignature Language="C#" Value="LightAntialiasing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NoAntialiasing">
+      <MemberSignature Language="C#" Value="NoAntialiasing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StrongAntialiasing">
+      <MemberSignature Language="C#" Value="StrongAntialiasing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="AudioImporterChannels" FullName="UnityEditor.AudioImporterChannels">
+  <TypeSignature Language="C#" Value="public enum AudioImporterChannels"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Imported audio channels for <see cref="T:UnityEditor.AudioImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.channels" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="Automatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterChannels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use channels as supplied by the file.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.channels" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Mono">
+      <MemberSignature Language="C#" Value="Mono"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterChannels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import as Mono (1 channel) sound.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.channels" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Stereo">
+      <MemberSignature Language="C#" Value="Stereo"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterChannels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import as Stereo (2 channels) sound.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.channels" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

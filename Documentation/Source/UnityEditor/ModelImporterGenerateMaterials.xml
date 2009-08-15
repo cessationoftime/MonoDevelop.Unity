@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterGenerateMaterials" FullName="UnityEditor.ModelImporterGenerateMaterials">
+  <TypeSignature Language="C#" Value="public enum ModelImporterGenerateMaterials"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Material generation options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateMaterials" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateMaterials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not generate materials.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateMaterials" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="PerSourceMaterial">
+      <MemberSignature Language="C#" Value="PerSourceMaterial"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateMaterials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate a material for each material in the source asset.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateMaterials" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="PerTexture">
+      <MemberSignature Language="C#" Value="PerTexture"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateMaterials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate a material for each texture used.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.generateMaterials" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

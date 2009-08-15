@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Type Name="LensFlare" FullName="UnityEngine.LensFlare">
+  <TypeSignature Language="C#" Value="public class LensFlare : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Script interface for a <see cref="T:UnityEngine.Lens flare component" />.</summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LensFlare ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="brightness">
+      <MemberSignature Language="C#" Value="public float brightness { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The strength of the flare.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color color { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The color of the flare.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="flare">
+      <MemberSignature Language="C#" Value="public UnityEngine.Flare flare { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Flare</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.flare asset" /> to use.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

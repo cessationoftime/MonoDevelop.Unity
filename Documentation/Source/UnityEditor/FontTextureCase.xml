@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="FontTextureCase" FullName="UnityEditor.FontTextureCase">
+  <TypeSignature Language="C#" Value="public enum FontTextureCase"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Texture case constants for TrueTypeFontImporter</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="ASCII">
+      <MemberSignature Language="C#" Value="ASCII"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontTextureCase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import basic ASCII character set</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ASCIILowerCase">
+      <MemberSignature Language="C#" Value="ASCIILowerCase"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontTextureCase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only import lower case ASCII character set</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ASCIIUpperCase">
+      <MemberSignature Language="C#" Value="ASCIIUpperCase"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontTextureCase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only import upper case ASCII character set</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Unicode">
+      <MemberSignature Language="C#" Value="Unicode"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontTextureCase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import a set of Unicode characters common for latin scripts</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

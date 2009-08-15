@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Type Name="Collider" FullName="UnityEngine.Collider">
+  <TypeSignature Language="C#" Value="public class Collider : UnityEngine.Component"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Component</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>A base class of all colliders.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.BoxCollider" />, <see cref="T:UnityEngine.SphereCollider" />, <see cref="T:UnityEngine.CapsuleCollider" />, <see cref="T:UnityEngine.MeshCollider" />, <see cref="T:UnityEngine.PhysicMaterial" />, <see cref="T:UnityEngine.Rigidbody" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Collider ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="attachedRigidbody">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rigidbody attachedRigidbody { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rigidbody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rigidbody the collider is attached to.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="bounds">
+      <MemberSignature Language="C#" Value="public UnityEngine.Bounds bounds { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Bounds</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The world space bounding volume of the collider.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPointOnBounds">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 ClosestPointOnBounds (UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>The closest point to the bounding box of the attached collider.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isTrigger">
+      <MemberSignature Language="C#" Value="public bool isTrigger { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the collider a trigger?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="material">
+      <MemberSignature Language="C#" Value="public UnityEngine.PhysicMaterial material { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterial</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The material used by the collider.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public bool Raycast (UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a <see cref="T:UnityEngine.Ray" /> that ignores all Colliders except this one.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sharedMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.PhysicMaterial sharedMaterial { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterial</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The shared physic material of this collider.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

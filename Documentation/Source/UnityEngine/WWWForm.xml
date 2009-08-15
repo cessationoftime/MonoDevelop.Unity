@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<Type Name="WWWForm" FullName="UnityEngine.WWWForm">
+  <TypeSignature Language="C#" Value="public class WWWForm"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Helper class to generate form data to post to web servers using the <see cref="T:UnityEngine.WWW" /> class.</summary>
+    <remarks>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WWWForm ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>Creates an empty WWWForm object.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.WWW" /> class.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBinaryData">
+      <MemberSignature Language="C#" Value="public void AddBinaryData (string fieldName, byte[] contents);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="contents" Type="System.Byte[]"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="contents">To be added.</param>
+        <summary>Add binary data to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBinaryData">
+      <MemberSignature Language="C#" Value="public void AddBinaryData (string fieldName, byte[] contents, string fileName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="contents" Type="System.Byte[]"/>
+        <Parameter Name="fileName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="contents">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <summary>Add binary data to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddBinaryData">
+      <MemberSignature Language="C#" Value="public void AddBinaryData (string fieldName, byte[] contents, string fileName, string mimeType);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="contents" Type="System.Byte[]"/>
+        <Parameter Name="fileName" Type="System.String"/>
+        <Parameter Name="mimeType" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="contents">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="mimeType">To be added.</param>
+        <summary>Add binary data to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddField">
+      <MemberSignature Language="C#" Value="public void AddField (string fieldName, int i);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="i" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="i">To be added.</param>
+        <summary>Add a simple field to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddField">
+      <MemberSignature Language="C#" Value="public void AddField (string fieldName, string value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="value" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Add a simple field to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddField">
+      <MemberSignature Language="C#" Value="public void AddField (string fieldName, string value, System.Text.Encoding e);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="value" Type="System.String"/>
+        <Parameter Name="e" Type="System.Text.Encoding"/>
+      </Parameters>
+      <Docs>
+        <param name="fieldName">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>Add a simple field to the form.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="data">
+      <MemberSignature Language="C#" Value="public byte[] data { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>(Read Only) The raw data to pass as the POST request body when sending the form.</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only) The raw data to pass as the POST request body when sending the form.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="headers">
+      <MemberSignature Language="C#" Value="public System.Collections.Hashtable headers { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Hashtable</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

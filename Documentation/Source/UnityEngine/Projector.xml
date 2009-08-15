@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<Type Name="Projector" FullName="UnityEngine.Projector">
+  <TypeSignature Language="C#" Value="public class Projector : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>A script interface for a <see cref="T:UnityEngine.projector component" />.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Projector ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="aspectRatio">
+      <MemberSignature Language="C#" Value="public float aspectRatio { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The aspect ratio of the projection.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="farClipPlane">
+      <MemberSignature Language="C#" Value="public float farClipPlane { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The far clipping plane distance.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fieldOfView">
+      <MemberSignature Language="C#" Value="public float fieldOfView { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The field of view of the projection in degrees.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ignoreLayers">
+      <MemberSignature Language="C#" Value="public int ignoreLayers { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Which object layers are ignored by the projector.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />, <see cref="T:UnityEngine.Layers" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isOrthoGraphic">
+      <MemberSignature Language="C#" Value="public bool isOrthoGraphic { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="material">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material material { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The material that will be projected onto every object.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />, <see cref="T:UnityEngine.Material" /> class.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="nearClipPlane">
+      <MemberSignature Language="C#" Value="public float nearClipPlane { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The near clipping plane distance.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="orthographic">
+      <MemberSignature Language="C#" Value="public bool orthographic { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the projection orthographic (true) or perspective (false)?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="orthographicSize">
+      <MemberSignature Language="C#" Value="public float orthographicSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Projection's half-size when in orthographic mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="orthoGraphicSize">
+      <MemberSignature Language="C#" Value="public float orthoGraphicSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Projection's half-size when in orthographic mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.projector component" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -135,32 +135,33 @@ namespace MonoDevelop.Unity
 			
 		}
 
-        #region Alert/Error Handling
-
-        public static void ShowMessage(string message)
-        {
-            MessageService.ShowMessage(message);
-        }
-        public static void ShowMessage(string title, string message)
-        {
-            MessageService.ShowError(title, message);
-        }
-        public static bool AskYesNoQuestion(string title, string question)
-        {
-            if ( MessageService.AskQuestion(title, question, AlertButton.Proceed, AlertButton.Cancel) == AlertButton.Proceed)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-		public static string AskForPassword(string title, string question)
+		public static bool CheckConnection()
 		{
-			return MessageService.GetPassword(title, question);
-		}
+			System.Net.NetworkInformation.Ping pingSender = new System.Net.NetworkInformation.Ping();
+			System.Net.NetworkInformation.PingOptions pingOptions = new System.Net.NetworkInformation.PingOptions();
+			
+			// Use the default Ttl value which is 128,
+            // but change the fragmentation behavior.
+            pingOptions.DontFragment = true;
 
-        #endregion
+            // Create a buffer of 32 bytes of data to be transmitted.
+            string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+            byte[] buffer = System.Text.Encoding.ASCII.GetBytes (data);
+            int timeout = 120;
+			
+            System.Net.NetworkInformation.PingReply reply = pingSender.Send (Settings.NETWORK_PING_HOST, timeout, buffer, pingOptions);
+            if (reply.Status == System.Net.NetworkInformation.IPStatus.Success)
+            {
+				MessageService.ShowMessage("PINGED!");
+				PropertyService.Set("Unity.Connection", true);
+				return true;
+			}
+			else
+			{
+				MessageService.ShowMessage("NO PING!");
+				PropertyService.Set("Unity.Connection", false);
+				return false;
+			}
+		}
     }
 }

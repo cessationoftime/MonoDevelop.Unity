@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="SendMessageOptions" FullName="UnityEngine.SendMessageOptions">
+  <TypeSignature Language="C#" Value="public enum SendMessageOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Options for how to send a message.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="DontRequireReceiver">
+      <MemberSignature Language="C#" Value="DontRequireReceiver"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SendMessageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No receiver is required for SendMessage.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RequireReceiver">
+      <MemberSignature Language="C#" Value="RequireReceiver"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SendMessageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A receiver is required for SendMessage.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

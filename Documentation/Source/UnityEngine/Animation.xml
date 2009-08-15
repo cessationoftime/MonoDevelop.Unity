@@ -1,0 +1,831 @@
+<?xml version="1.0"?>
+<Type Name="Animation" FullName="UnityEngine.Animation">
+  <TypeSignature Language="C#" Value="public class Animation : UnityEngine.Behaviour, System.Collections.IEnumerable"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>The animation component is used to play back animations.</summary>
+    <remarks>See Also: An overview of Character animation in unity is <see cref="T:UnityEngine.here" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Animation ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddClip">
+      <MemberSignature Language="C#" Value="public void AddClip (UnityEngine.AnimationClip clip, string newName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip"/>
+        <Parameter Name="newName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="newName">To be added.</param>
+        <summary>Adds a clip to the animation with name newName.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddClip">
+      <MemberSignature Language="C#" Value="public void AddClip (UnityEngine.AnimationClip clip, string newName, int firstFrame, int lastFrame);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip"/>
+        <Parameter Name="newName" Type="System.String"/>
+        <Parameter Name="firstFrame" Type="System.Int32"/>
+        <Parameter Name="lastFrame" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="newName">To be added.</param>
+        <param name="firstFrame">To be added.</param>
+        <param name="lastFrame">To be added.</param>
+        <summary>Adds a clip to the animation with name newName.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddClip">
+      <MemberSignature Language="C#" Value="public void AddClip (UnityEngine.AnimationClip clip, string newName, int firstFrame, int lastFrame, bool addLoopFrame);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip"/>
+        <Parameter Name="newName" Type="System.String"/>
+        <Parameter Name="firstFrame" Type="System.Int32"/>
+        <Parameter Name="lastFrame" Type="System.Int32"/>
+        <Parameter Name="addLoopFrame" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="newName">To be added.</param>
+        <param name="firstFrame">To be added.</param>
+        <param name="lastFrame">To be added.</param>
+        <param name="addLoopFrame">To be added.</param>
+        <summary>Adds a clip to the animation with name newName.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="animatePhysics">
+      <MemberSignature Language="C#" Value="public bool animatePhysics { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When turned on, animations will be executed in the physics loop. This is only useful in conjunction with kinematic rigidbodies.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Blend">
+      <MemberSignature Language="C#" Value="public void Blend (string animation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Blend">
+      <MemberSignature Language="C#" Value="public void Blend (string animation, float targetWeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="targetWeight" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="targetWeight">To be added.</param>
+        <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Blend">
+      <MemberSignature Language="C#" Value="public void Blend (string animation, float targetWeight, float fadeLength);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="targetWeight" Type="System.Single"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="targetWeight">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="clip">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationClip clip { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationClip</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default animation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFade">
+      <MemberSignature Language="C#" Value="public void CrossFade (string animation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFade">
+      <MemberSignature Language="C#" Value="public void CrossFade (string animation, float fadeLength);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFade">
+      <MemberSignature Language="C#" Value="public void CrossFade (string animation, float fadeLength, UnityEngine.PlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.PlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFadeQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState CrossFadeQueued (string animation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <summary>Cross fades an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFadeQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState CrossFadeQueued (string animation, float fadeLength);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <summary>Cross fades an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFadeQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState CrossFadeQueued (string animation, float fadeLength, UnityEngine.QueueMode queue);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+        <Parameter Name="queue" Type="UnityEngine.QueueMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <param name="queue">To be added.</param>
+        <summary>Cross fades an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossFadeQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState CrossFadeQueued (string animation, float fadeLength, UnityEngine.QueueMode queue, UnityEngine.PlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="fadeLength" Type="System.Single"/>
+        <Parameter Name="queue" Type="UnityEngine.QueueMode"/>
+        <Parameter Name="mode" Type="UnityEngine.PlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="fadeLength">To be added.</param>
+        <param name="queue">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Cross fades an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClip">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationClip GetClip (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationClip</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClipCount">
+      <MemberSignature Language="C#" Value="public int GetClipCount ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Get the number of clips currently assigned to this animation</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator GetEnumerator ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isPlaying">
+      <MemberSignature Language="C#" Value="public bool isPlaying { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Are we playing any animations?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPlaying">
+      <MemberSignature Language="C#" Value="public bool IsPlaying (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Is the animation named name playing?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState this[string name] { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play (string animation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play (UnityEngine.AnimationPlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mode" Type="UnityEngine.AnimationPlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="mode">To be added.</param>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play (UnityEngine.PlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mode" Type="UnityEngine.PlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="mode">To be added.</param>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play (string animation, UnityEngine.AnimationPlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="mode" Type="UnityEngine.AnimationPlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public bool Play (string animation, UnityEngine.PlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="mode" Type="UnityEngine.PlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Plays the default animation. The animation will be played abruptly without any blending.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="playAutomatically">
+      <MemberSignature Language="C#" Value="public bool playAutomatically { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should the default animation clip (<see cref="P:UnityEngine.Animation.clip" />) automatically start playing on startup.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState PlayQueued (string animation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <summary>Plays an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState PlayQueued (string animation, UnityEngine.QueueMode queue);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="queue" Type="UnityEngine.QueueMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="queue">To be added.</param>
+        <summary>Plays an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayQueued">
+      <MemberSignature Language="C#" Value="public UnityEngine.AnimationState PlayQueued (string animation, UnityEngine.QueueMode queue, UnityEngine.PlayMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationState</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animation" Type="System.String"/>
+        <Parameter Name="queue" Type="UnityEngine.QueueMode"/>
+        <Parameter Name="mode" Type="UnityEngine.PlayMode"/>
+      </Parameters>
+      <Docs>
+        <param name="animation">To be added.</param>
+        <param name="queue">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Plays an animation after previous animations has finished playing.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveClip">
+      <MemberSignature Language="C#" Value="public void RemoveClip (string clipName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clipName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clipName">To be added.</param>
+        <summary>Remove clip from the animation list.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveClip">
+      <MemberSignature Language="C#" Value="public void RemoveClip (UnityEngine.AnimationClip clip);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip"/>
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <summary>Remove clip from the animation list.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rewind">
+      <MemberSignature Language="C#" Value="public void Rewind ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Rewinds the animation named name.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rewind">
+      <MemberSignature Language="C#" Value="public void Rewind (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Rewinds the animation named name.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Sample">
+      <MemberSignature Language="C#" Value="public void Sample ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Samples animations at the current state.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stops all playing animations that were started with this Animation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Stops all playing animations that were started with this Animation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncLayer">
+      <MemberSignature Language="C#" Value="public void SyncLayer (int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="layer">To be added.</param>
+        <summary>Synchronizes playback speed of all animations in the layer.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="wrapMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.WrapMode wrapMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How should time beyond the playback range of the clip be treated?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

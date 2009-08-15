@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="TextureImporterNPOTScale" FullName="UnityEditor.TextureImporterNPOTScale">
+  <TypeSignature Language="C#" Value="public enum TextureImporterNPOTScale"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Scaling mode for non power of two textures in <see cref="T:UnityEditor.TextureImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.npotScale" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNPOTScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keep non power of two textures as is.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.npotScale" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ToLarger">
+      <MemberSignature Language="C#" Value="ToLarger"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNPOTScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale to larger power of two.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.npotScale" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ToNearest">
+      <MemberSignature Language="C#" Value="ToNearest"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNPOTScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale to nearest power of two.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.npotScale" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ToSmaller">
+      <MemberSignature Language="C#" Value="ToSmaller"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNPOTScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale to smaller power of two.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.npotScale" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

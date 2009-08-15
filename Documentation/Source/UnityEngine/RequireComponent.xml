@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Type Name="RequireComponent" FullName="UnityEngine.RequireComponent">
+  <TypeSignature Language="C#" Value="public class RequireComponent : Attribute"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.AttributeUsage(System.AttributeTargets.Class, AllowMultiple=true)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The RequireComponent attribute lets automatically add required component as a dependency.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RequireComponent (Type requiredComponent);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requiredComponent" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="requiredComponent">To be added.</param>
+        <summary>Require a single component</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RequireComponent (Type requiredComponent, Type requiredComponent2);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requiredComponent" Type="System.Type"/>
+        <Parameter Name="requiredComponent2" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="requiredComponent">To be added.</param>
+        <param name="requiredComponent2">To be added.</param>
+        <summary>Require a single component</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RequireComponent (Type requiredComponent, Type requiredComponent2, Type requiredComponent3);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requiredComponent" Type="System.Type"/>
+        <Parameter Name="requiredComponent2" Type="System.Type"/>
+        <Parameter Name="requiredComponent3" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="requiredComponent">To be added.</param>
+        <param name="requiredComponent2">To be added.</param>
+        <param name="requiredComponent3">To be added.</param>
+        <summary>Require a single component</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="m_Type0">
+      <MemberSignature Language="C#" Value="public Type m_Type0;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="m_Type1">
+      <MemberSignature Language="C#" Value="public Type m_Type1;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="m_Type2">
+      <MemberSignature Language="C#" Value="public Type m_Type2;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

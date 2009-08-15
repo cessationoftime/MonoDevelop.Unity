@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<Type Name="Input" FullName="UnityEngine.Input">
+  <TypeSignature Language="C#" Value="public class Input"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Interface into the Input system.</summary>
+    <remarks>(Read Only)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Input ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="anyKey">
+      <MemberSignature Language="C#" Value="public static bool anyKey { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is any key or mouse button currently held down? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="anyKeyDown">
+      <MemberSignature Language="C#" Value="public static bool anyKeyDown { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true the first frame the user hits any key or mouse button (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAxis">
+      <MemberSignature Language="C#" Value="public static float GetAxis (string axisName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axisName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="axisName">To be added.</param>
+        <summary>Returns the value of the virtual axis identified by axisName.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAxisRaw">
+      <MemberSignature Language="C#" Value="public static float GetAxisRaw (string axisName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axisName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="axisName">To be added.</param>
+        <summary>Returns the value of the virtual axis identified by axisName with no smoothing filtering applied.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetButton">
+      <MemberSignature Language="C#" Value="public static bool GetButton (string buttonName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buttonName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="buttonName">To be added.</param>
+        <summary>Returns true while the virtual button identified by buttonName is held down.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetButtonDown">
+      <MemberSignature Language="C#" Value="public static bool GetButtonDown (string buttonName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buttonName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="buttonName">To be added.</param>
+        <summary>Returns true during the frame the user pressed down the virtual button identified by buttonName.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetButtonUp">
+      <MemberSignature Language="C#" Value="public static bool GetButtonUp (string buttonName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buttonName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="buttonName">To be added.</param>
+        <summary>Returns true the first frame the user releases the virtual button identified by buttonName.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKey">
+      <MemberSignature Language="C#" Value="public static bool GetKey (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Returns true while the user holds down the key identified by name. Think auto fire.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKey">
+      <MemberSignature Language="C#" Value="public static bool GetKey (UnityEngine.KeyCode key);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="UnityEngine.KeyCode"/>
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>Returns true while the user holds down the key identified by name. Think auto fire.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyDown">
+      <MemberSignature Language="C#" Value="public static bool GetKeyDown (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Returns true during the frame the user starts pressing down the key identified by name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyDown">
+      <MemberSignature Language="C#" Value="public static bool GetKeyDown (UnityEngine.KeyCode key);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="UnityEngine.KeyCode"/>
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>Returns true during the frame the user starts pressing down the key identified by name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyUp">
+      <MemberSignature Language="C#" Value="public static bool GetKeyUp (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Returns true during the frame the user releases the key identified by name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKeyUp">
+      <MemberSignature Language="C#" Value="public static bool GetKeyUp (UnityEngine.KeyCode key);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="UnityEngine.KeyCode"/>
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>Returns true during the frame the user releases the key identified by name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMouseButton">
+      <MemberSignature Language="C#" Value="public static bool GetMouseButton (int button);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="button" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="button">To be added.</param>
+        <summary>Returns whether the the given mouse button is held down.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMouseButtonDown">
+      <MemberSignature Language="C#" Value="public static bool GetMouseButtonDown (int button);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="button" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="button">To be added.</param>
+        <summary>Returns true during the frame the user pressed the given mouse button.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMouseButtonUp">
+      <MemberSignature Language="C#" Value="public static bool GetMouseButtonUp (int button);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="button" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="button">To be added.</param>
+        <summary>Returns true during the frame the user releases the given mouse button.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="inputString">
+      <MemberSignature Language="C#" Value="public static string inputString { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the keyboard input entered this frame (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mousePosition">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 mousePosition { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current mouse position in pixel coordinates. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetInputAxes">
+      <MemberSignature Language="C#" Value="public static void ResetInputAxes ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Resets all input. After ResetInputAxes all axes return to 0 and all buttons return to 0 for one frame.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

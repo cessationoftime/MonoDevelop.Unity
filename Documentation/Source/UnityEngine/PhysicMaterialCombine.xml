@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="PhysicMaterialCombine" FullName="UnityEngine.PhysicMaterialCombine">
+  <TypeSignature Language="C#" Value="public enum PhysicMaterialCombine"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes how physic materials of colliding objects are combined.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.PhysicMaterial.frictionCombine" />, <see cref="P:UnityEngine.PhysicMaterial.bounceCombine" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Average">
+      <MemberSignature Language="C#" Value="Average"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterialCombine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Averages the friction/bounce of the two colliding materials.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Maximum">
+      <MemberSignature Language="C#" Value="Maximum"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterialCombine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Uses the larger friction/bounce of the two colliding materials.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Minimum">
+      <MemberSignature Language="C#" Value="Minimum"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterialCombine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Uses the smaller friction/bounce of the two colliding materials.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Multiply">
+      <MemberSignature Language="C#" Value="Multiply"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PhysicMaterialCombine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Multiplies the friction/bounce of the two colliding materials.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

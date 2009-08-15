@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Type Name="CollisionFlags" FullName="UnityEngine.CollisionFlags">
+  <TypeSignature Language="C#" Value="public enum CollisionFlags"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>CollisionFlags is a bitmask returned by <see cref="P:UnityEngine.CharacterController.Move" />.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Above">
+      <MemberSignature Language="C#" Value="Above"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>CollisionFlags is a bitmask returned by <see cref="P:UnityEngine.CharacterController.Move" />.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Below">
+      <MemberSignature Language="C#" Value="Below"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>CollisionFlags is a bitmask returned by <see cref="P:UnityEngine.CharacterController.Move" />.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CollidedAbove">
+      <MemberSignature Language="C#" Value="CollidedAbove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CollidedBelow">
+      <MemberSignature Language="C#" Value="CollidedBelow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CollidedSides">
+      <MemberSignature Language="C#" Value="CollidedSides"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>CollisionFlags is a bitmask returned by <see cref="P:UnityEngine.CharacterController.Move" />.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Sides">
+      <MemberSignature Language="C#" Value="Sides"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>CollisionFlags is a bitmask returned by <see cref="P:UnityEngine.CharacterController.Move" />.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

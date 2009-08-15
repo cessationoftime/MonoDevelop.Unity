@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="AudioVelocityUpdateMode" FullName="UnityEngine.AudioVelocityUpdateMode">
+  <TypeSignature Language="C#" Value="public enum AudioVelocityUpdateMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes when an <see cref="T:UnityEngine.AudioSource" /> or <see cref="T:UnityEngine.AudioListener" /> is updated.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioVelocityUpdateMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Updates the source or listener in the fixed update loop if it is attached to a <see cref="T:UnityEngine.Rigidbody" />, dynamic otherwise.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Dynamic">
+      <MemberSignature Language="C#" Value="Dynamic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioVelocityUpdateMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Updates the source or listener in the dynamic update loop.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Fixed">
+      <MemberSignature Language="C#" Value="Fixed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioVelocityUpdateMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Updates the source or listener in the fixed update loop.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Type Name="BuildOptions" FullName="UnityEditor.BuildOptions">
+  <TypeSignature Language="C#" Value="public enum BuildOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Building options.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoRunPlayer">
+      <MemberSignature Language="C#" Value="AutoRunPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Run the built player.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="BuildAdditionalStreamedScenes">
+      <MemberSignature Language="C#" Value="BuildAdditionalStreamedScenes"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a unity3d / asset bundle that contains additional streamed scenes.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="CompressTextures">
+      <MemberSignature Language="C#" Value="CompressTextures"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Compress textures when building.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ShowBuiltPlayer">
+      <MemberSignature Language="C#" Value="ShowBuiltPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Show the built player.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StripDebugSymbols">
+      <MemberSignature Language="C#" Value="StripDebugSymbols"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Remove debug symbols from standalone.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

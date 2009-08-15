@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Type Name="BuildTarget" FullName="UnityEditor.BuildTarget">
+  <TypeSignature Language="C#" Value="public enum BuildTarget"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Target build platform.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="DashboardWidget">
+      <MemberSignature Language="C#" Value="DashboardWidget"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build an OS X Dashboard widget.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="iPhone">
+      <MemberSignature Language="C#" Value="iPhone"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StandaloneOSXIntel">
+      <MemberSignature Language="C#" Value="StandaloneOSXIntel"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build an OS X standalone (Intel only).</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StandaloneOSXPPC">
+      <MemberSignature Language="C#" Value="StandaloneOSXPPC"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build an OS X standalone (PowerPC only).</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StandaloneOSXUniversal">
+      <MemberSignature Language="C#" Value="StandaloneOSXUniversal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build an OS X standalone.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StandaloneWindows">
+      <MemberSignature Language="C#" Value="StandaloneWindows"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a Windows standalone.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="WebPlayer">
+      <MemberSignature Language="C#" Value="WebPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a web player.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="WebPlayerStreamed">
+      <MemberSignature Language="C#" Value="WebPlayerStreamed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildTarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a streamed web player.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

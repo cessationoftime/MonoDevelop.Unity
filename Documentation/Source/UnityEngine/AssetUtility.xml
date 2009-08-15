@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Type Name="AssetUtility" FullName="UnityEngine.AssetUtility">
+  <TypeSignature Language="C#" Value="public class AssetUtility"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AssetUtility ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAssetToSameFile">
+      <MemberSignature Language="C#" Value="public static void AddAssetToSameFile (UnityEngine.Object newAsset, UnityEngine.Object sameAssetFile);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newAsset" Type="UnityEngine.Object"/>
+        <Parameter Name="sameAssetFile" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="newAsset">To be added.</param>
+        <param name="sameAssetFile">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsset">
+      <MemberSignature Language="C#" Value="public static void CreateAsset (UnityEngine.Object theAsset, string assetName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="theAsset" Type="UnityEngine.Object"/>
+        <Parameter Name="assetName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="theAsset">To be added.</param>
+        <param name="assetName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsset">
+      <MemberSignature Language="C#" Value="public static void CreateAsset (UnityEngine.Object theAsset, string assetName, string extension);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="theAsset" Type="UnityEngine.Object"/>
+        <Parameter Name="assetName" Type="System.String"/>
+        <Parameter Name="extension" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="theAsset">To be added.</param>
+        <param name="assetName">To be added.</param>
+        <param name="extension">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateEngineObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object CreateEngineObject (string className);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="className" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="className">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectCountAtPath">
+      <MemberSignature Language="C#" Value="public static int GetObjectCountAtPath (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadWithPathAndFileID">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadWithPathAndFileID (string path, int i);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="i" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="i">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsset">
+      <MemberSignature Language="C#" Value="public static void SaveAsset (UnityEngine.Object newAsset);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newAsset" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="newAsset">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

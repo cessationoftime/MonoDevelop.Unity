@@ -44,7 +44,7 @@ namespace MonoDevelop.Unity
 	public class BuildExtension : ProjectServiceExtension
 	{
 		protected override BuildResult Compile (IProgressMonitor monitor, SolutionEntityItem item, BuildData buildData)
-		{	
+		{
 			UnityProject proj = item as UnityProject;
 			if (proj == null)
 			{

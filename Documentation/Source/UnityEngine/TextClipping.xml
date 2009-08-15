@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="TextClipping" FullName="UnityEngine.TextClipping">
+  <TypeSignature Language="C#" Value="public enum TextClipping"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Different methods for how the GUI system handles text being too large to fit the rectangle allocated.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Clip">
+      <MemberSignature Language="C#" Value="Clip"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextClipping</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text gets clipped to be inside the element.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Overflow">
+      <MemberSignature Language="C#" Value="Overflow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextClipping</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text flows freely outside the element.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

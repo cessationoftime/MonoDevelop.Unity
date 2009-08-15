@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<Type Name="Resources" FullName="UnityEngine.Resources">
+  <TypeSignature Language="C#" Value="public class Resources"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The Resources class allows you to Find and Load Objects by their path name.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Resources ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBuiltinResource">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object GetBuiltinResource (Type type, string path, UnityEngine.HideFlags flags);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type"/>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="flags" Type="UnityEngine.HideFlags"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="flags">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object Load (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Loads an asset stored at path in the Resources folder.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object Load (string path, Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>Loads an asset stored at path in the Resources folder.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object[] LoadAll (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Loads all assets in a folder or file at path in the Resources folder.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object[] LoadAll (string path, Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>Loads all assets in a folder or file at path in the Resources folder.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAssetAtPath">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadAssetAtPath (string assetPath, Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetPath" Type="System.String"/>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="assetPath">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>Returns a resource at an asset path (Editor Only).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

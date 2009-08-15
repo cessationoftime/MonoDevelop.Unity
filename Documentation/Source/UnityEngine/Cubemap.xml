@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Type Name="Cubemap" FullName="UnityEngine.Cubemap">
+  <TypeSignature Language="C#" Value="public class Cubemap : UnityEngine.Texture"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Texture</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Class for handling cube maps, Use this to create or modify existing <see cref="T:UnityEngine.cube map assets" />.</summary>
+    <remarks>(Read Only).</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Cubemap (int size, UnityEngine.TextureFormat format, bool mipmap);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+        <Parameter Name="format" Type="UnityEngine.TextureFormat"/>
+        <Parameter Name="mipmap" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="mipmap">To be added.</param>
+        <summary>Create a new empty cubemap texture.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply (bool updateMipmaps);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="updateMipmaps" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="updateMipmaps">To be added.</param>
+        <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="format">
+      <MemberSignature Language="C#" Value="public UnityEngine.TextureFormat format { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The format of the pixel data in the texture (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixel">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetPixel (UnityEngine.CubemapFace face, int x, int y);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="face">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>Returns pixel color at coordinates (face, x, y).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (UnityEngine.CubemapFace face);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+      </Parameters>
+      <Docs>
+        <param name="face">To be added.</param>
+        <summary>Returns pixel colors of a cubemap face.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (UnityEngine.CubemapFace face, int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="face">To be added.</param>
+        <param name="miplevel">To be added.</param>
+        <summary>Returns pixel colors of a cubemap face.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixel">
+      <MemberSignature Language="C#" Value="public void SetPixel (UnityEngine.CubemapFace face, int x, int y, UnityEngine.Color color);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="color" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="face">To be added.</param>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="color">To be added.</param>
+        <summary>Sets pixel color at coordinates (face, x, y).</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (UnityEngine.Color[] colors, UnityEngine.CubemapFace face);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+      </Parameters>
+      <Docs>
+        <param name="colors">To be added.</param>
+        <param name="face">To be added.</param>
+        <summary>Sets pixel colors of a cubemap face.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (UnityEngine.Color[] colors, UnityEngine.CubemapFace face, int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+        <Parameter Name="face" Type="UnityEngine.CubemapFace"/>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="colors">To be added.</param>
+        <param name="face">To be added.</param>
+        <param name="miplevel">To be added.</param>
+        <summary>Sets pixel colors of a cubemap face.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

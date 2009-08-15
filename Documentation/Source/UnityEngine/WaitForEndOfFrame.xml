@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Type Name="WaitForEndOfFrame" FullName="UnityEngine.WaitForEndOfFrame">
+  <TypeSignature Language="C#" Value="public class WaitForEndOfFrame : UnityEngine.YieldInstruction"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.YieldInstruction</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Waits until the end of the frame after all cameras and GUI is rendered, just before displaying the frame on sceen.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WaitForEndOfFrame ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

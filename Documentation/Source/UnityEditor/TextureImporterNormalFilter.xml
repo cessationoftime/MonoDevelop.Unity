@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="TextureImporterNormalFilter" FullName="UnityEditor.TextureImporterNormalFilter">
+  <TypeSignature Language="C#" Value="public enum TextureImporterNormalFilter"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Normal map filtering mode for <see cref="T:UnityEditor.TextureImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.normalmapFilter" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Sobel">
+      <MemberSignature Language="C#" Value="Sobel"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNormalFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sobel normal map filter.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.normalmapFilter" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNormalFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Standard normal map filter.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.normalmapFilter" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

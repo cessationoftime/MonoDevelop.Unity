@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Type Name="GeometryUtility" FullName="UnityEngine.GeometryUtility">
+  <TypeSignature Language="C#" Value="public class GeometryUtility"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Utility class for common geometric functions.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GeometryUtility ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateFrustumPlanes">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Plane[] CalculateFrustumPlanes (UnityEngine.Camera camera);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Plane[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <summary>Calculates frustum planes.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateFrustumPlanes">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Plane[] CalculateFrustumPlanes (UnityEngine.Matrix4x4 worldToProjectionMatrix);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Plane[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldToProjectionMatrix" Type="UnityEngine.Matrix4x4"/>
+      </Parameters>
+      <Docs>
+        <param name="worldToProjectionMatrix">To be added.</param>
+        <summary>Calculates frustum planes.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TestPlanesAABB">
+      <MemberSignature Language="C#" Value="public static bool TestPlanesAABB (UnityEngine.Plane[] planes, UnityEngine.Bounds bounds);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="planes" Type="UnityEngine.Plane[]"/>
+        <Parameter Name="bounds" Type="UnityEngine.Bounds"/>
+      </Parameters>
+      <Docs>
+        <param name="planes">To be added.</param>
+        <param name="bounds">To be added.</param>
+        <summary>Returns true if bounds are inside the plane array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

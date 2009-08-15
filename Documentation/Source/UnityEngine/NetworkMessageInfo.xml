@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Type Name="NetworkMessageInfo" FullName="UnityEngine.NetworkMessageInfo">
+  <TypeSignature Language="C#" Value="public struct NetworkMessageInfo"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>This data structure contains information on a message just received from the network.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="networkView">
+      <MemberSignature Language="C#" Value="public UnityEngine.NetworkView networkView { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.NetworkView" /> who sent this message</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sender">
+      <MemberSignature Language="C#" Value="public UnityEngine.NetworkPlayer sender { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkPlayer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The player who sent this network message (owner)</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="timestamp">
+      <MemberSignature Language="C#" Value="public double timestamp { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The time stamp when the Message was sent in seconds.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

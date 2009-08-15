@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<Type Name="TerrainLightmapper" FullName="UnityEditor.TerrainLightmapper">
+  <TypeSignature Language="C#" Value="public class TerrainLightmapper"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TerrainLightmapper ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Generate">
+      <MemberSignature Language="C#" Value="public static void Generate (UnityEngine.Vector3 terrainPosition, UnityEngine.TerrainData terrainData, UnityEngine.TerrainCollider collider, UnityEngine.Light[] lights, UnityEngine.Color ambient, int shadowSamples, UnityEngine.Texture2D lightmap, UnityEngine.Texture2D shadowMap);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="terrainPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="terrainData" Type="UnityEngine.TerrainData"/>
+        <Parameter Name="collider" Type="UnityEngine.TerrainCollider"/>
+        <Parameter Name="lights" Type="UnityEngine.Light[]"/>
+        <Parameter Name="ambient" Type="UnityEngine.Color"/>
+        <Parameter Name="shadowSamples" Type="System.Int32"/>
+        <Parameter Name="lightmap" Type="UnityEngine.Texture2D"/>
+        <Parameter Name="shadowMap" Type="UnityEngine.Texture2D"/>
+      </Parameters>
+      <Docs>
+        <param name="terrainPosition">To be added.</param>
+        <param name="terrainData">To be added.</param>
+        <param name="collider">To be added.</param>
+        <param name="lights">To be added.</param>
+        <param name="ambient">To be added.</param>
+        <param name="shadowSamples">To be added.</param>
+        <param name="lightmap">To be added.</param>
+        <param name="shadowMap">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SuperSampleShadowJitter">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion[] SuperSampleShadowJitter (float shadowAngle, int shadowSamples);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shadowAngle" Type="System.Single"/>
+        <Parameter Name="shadowSamples" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="shadowAngle">To be added.</param>
+        <param name="shadowSamples">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SuperSampleShadowOffset">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3[] SuperSampleShadowOffset (float shadowSize, int shadowSamples);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shadowSize" Type="System.Single"/>
+        <Parameter Name="shadowSamples" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="shadowSize">To be added.</param>
+        <param name="shadowSamples">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateTreeColor">
+      <MemberSignature Language="C#" Value="public static void UpdateTreeColor (UnityEngine.Texture2D shadowMap, UnityEngine.TerrainData terrain);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shadowMap" Type="UnityEngine.Texture2D"/>
+        <Parameter Name="terrain" Type="UnityEngine.TerrainData"/>
+      </Parameters>
+      <Docs>
+        <param name="shadowMap">To be added.</param>
+        <param name="terrain">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateTreeLightmapColor">
+      <MemberSignature Language="C#" Value="public static void UpdateTreeLightmapColor (UnityEngine.Texture2D shadowMap, UnityEngine.TerrainData terrain);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="shadowMap" Type="UnityEngine.Texture2D"/>
+        <Parameter Name="terrain" Type="UnityEngine.TerrainData"/>
+      </Parameters>
+      <Docs>
+        <param name="shadowMap">To be added.</param>
+        <param name="terrain">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporter" FullName="UnityEditor.ModelImporter">
+  <TypeSignature Language="C#" Value="public class ModelImporter : UnityEditor.AssetImporter"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.AssetImporter</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Model importer lets you modify <see cref="T:UnityEditor.model" /> import settings from editor scripts.</summary>
+    <remarks>(Read Only)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModelImporter ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="addCollider">
+      <MemberSignature Language="C#" Value="public bool addCollider { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Add <see cref="T:UnityEditor.mesh colliders" /> to imported meshes.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="bakeIK">
+      <MemberSignature Language="C#" Value="public bool bakeIK { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bake IK when importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="clipAnimations">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterClipAnimation[] clipAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterClipAnimation[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation clips to split animation into.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.splitAnimations" />, <see cref="T:UnityEditor.ModelImporterClipAnimation" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="generateAnimations">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterGenerateAnimations generateAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation generation options.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterGenerateAnimations" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="generateMaterials">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterGenerateMaterials generateMaterials { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateMaterials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Material generation options.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterGenerateMaterials" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="globalScale">
+      <MemberSignature Language="C#" Value="public float globalScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Global scale factor for importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="normalSmoothingAngle">
+      <MemberSignature Language="C#" Value="public float normalSmoothingAngle { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Smoothing angle for calculating normals.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.recalculateNormals" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="recalculateNormals">
+      <MemberSignature Language="C#" Value="public bool recalculateNormals { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should normals be recalculated when importing.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.normalSmoothingAngle" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="reduceKeyframes">
+      <MemberSignature Language="C#" Value="public bool reduceKeyframes { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Perform keyframe reduction for animations?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="splitAnimations">
+      <MemberSignature Language="C#" Value="public bool splitAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should animation be split into multiple clips when importing.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.clipAnimations" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="splitTangentsAcrossSeams">
+      <MemberSignature Language="C#" Value="public bool splitTangentsAcrossSeams { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should tangents be split across UV seams.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="swapUVChannels">
+      <MemberSignature Language="C#" Value="public bool swapUVChannels { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Swap primary and secondary UV channels when importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

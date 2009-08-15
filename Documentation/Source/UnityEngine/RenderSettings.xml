@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Type Name="RenderSettings" FullName="UnityEngine.RenderSettings">
+  <TypeSignature Language="C#" Value="public class RenderSettings"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The Render Settings contain values for a range of visual elements in your scene, like fog and ambient light.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RenderSettings ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ambientLight">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color ambientLight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Color of the scene's ambient light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="flareStrength">
+      <MemberSignature Language="C#" Value="public static float flareStrength { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The intensity of all flares in the scene.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" />, <see cref="T:UnityEngine.LensFlare component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fog">
+      <MemberSignature Language="C#" Value="public static bool fog { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is fog enabled?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fogColor">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color fogColor { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The color of the fog.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fogDensity">
+      <MemberSignature Language="C#" Value="public static float fogDensity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The density of the fog.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="haloStrength">
+      <MemberSignature Language="C#" Value="public static float haloStrength { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Size of the <see cref="T:UnityEngine.Light" /> halos.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="skybox">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Material skybox { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The global skybox to use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

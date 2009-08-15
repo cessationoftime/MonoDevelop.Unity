@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="PlayMode" FullName="UnityEngine.PlayMode">
+  <TypeSignature Language="C#" Value="public enum PlayMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Used by <see cref="P:UnityEngine.Animation.Play" /> function.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="StopAll">
+      <MemberSignature Language="C#" Value="StopAll"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PlayMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Will stop all animations that were started with this component before playing</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StopSameLayer">
+      <MemberSignature Language="C#" Value="StopSameLayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PlayMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Will stop all animations that were started in the same layer. This is the default when playing animations.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

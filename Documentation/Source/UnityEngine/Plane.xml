@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<Type Name="Plane" FullName="UnityEngine.Plane">
+  <TypeSignature Language="C#" Value="public struct Plane"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Representation of planes.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Plane (UnityEngine.Vector3 inNormal, float d);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="inNormal" Type="UnityEngine.Vector3"/>
+        <Parameter Name="d" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="inNormal">To be added.</param>
+        <param name="d">To be added.</param>
+        <summary>Creates a plane.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Plane (UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="inNormal" Type="UnityEngine.Vector3"/>
+        <Parameter Name="inPoint" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="inNormal">To be added.</param>
+        <param name="inPoint">To be added.</param>
+        <summary>Creates a plane.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Plane (UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="a" Type="UnityEngine.Vector3"/>
+        <Parameter Name="b" Type="UnityEngine.Vector3"/>
+        <Parameter Name="c" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="a">To be added.</param>
+        <param name="b">To be added.</param>
+        <param name="c">To be added.</param>
+        <summary>Creates a plane.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="distance">
+      <MemberSignature Language="C#" Value="public float distance { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Distance from the origin to the plane.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.normal" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDistanceToPoint">
+      <MemberSignature Language="C#" Value="public float GetDistanceToPoint (UnityEngine.Vector3 inPt);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inPt" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="inPt">To be added.</param>
+        <summary>Distance from plane to point.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSide">
+      <MemberSignature Language="C#" Value="public bool GetSide (UnityEngine.Vector3 inPt);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inPt" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="inPt">To be added.</param>
+        <summary>Is a point on the positive side of the plane?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="normal">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 normal { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Normal vector of the plane.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.distance" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public bool Raycast (UnityEngine.Ray ray, out float enter);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="enter" Type="System.Single&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="enter">To be added.</param>
+        <summary>Intersects a ray with the plane.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SameSide">
+      <MemberSignature Language="C#" Value="public bool SameSide (UnityEngine.Vector3 inPt0, UnityEngine.Vector3 inPt1);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inPt0" Type="UnityEngine.Vector3"/>
+        <Parameter Name="inPt1" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="inPt0">To be added.</param>
+        <param name="inPt1">To be added.</param>
+        <summary>Are two points on the same side of the plane?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Set3Points">
+      <MemberSignature Language="C#" Value="public void Set3Points (UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="a" Type="UnityEngine.Vector3"/>
+        <Parameter Name="b" Type="UnityEngine.Vector3"/>
+        <Parameter Name="c" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="a">To be added.</param>
+        <param name="b">To be added.</param>
+        <param name="c">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNormalAndPosition">
+      <MemberSignature Language="C#" Value="public void SetNormalAndPosition (UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inNormal" Type="UnityEngine.Vector3"/>
+        <Parameter Name="inPoint" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="inNormal">To be added.</param>
+        <param name="inPoint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

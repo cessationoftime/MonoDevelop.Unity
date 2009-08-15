@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<Type Name="Texture2D" FullName="UnityEngine.Texture2D">
+  <TypeSignature Language="C#" Value="public class Texture2D : UnityEngine.Texture"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Texture</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Class for texture handling. Use this to create textures on the fly or to modify existing <see cref="T:UnityEngine.texture assets" />.</summary>
+    <remarks>(Read Only).</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Texture2D (int width, int height);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32"/>
+        <Parameter Name="height" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>Create a new empty texture.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.SetPixels" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Texture2D (int width, int height, UnityEngine.TextureFormat format, bool mipmap);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32"/>
+        <Parameter Name="height" Type="System.Int32"/>
+        <Parameter Name="format" Type="UnityEngine.TextureFormat"/>
+        <Parameter Name="mipmap" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="mipmap">To be added.</param>
+        <summary>Create a new empty texture.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.SetPixels" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply (bool updateMipmaps);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="updateMipmaps" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="updateMipmaps">To be added.</param>
+        <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Compress">
+      <MemberSignature Language="C#" Value="public void Compress (bool highQuality);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="highQuality" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="highQuality">To be added.</param>
+        <summary>Compress texture into DXT format.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EncodeToPNG">
+      <MemberSignature Language="C#" Value="public byte[] EncodeToPNG ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Encodes this texture into PNG format.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="format">
+      <MemberSignature Language="C#" Value="public UnityEngine.TextureFormat format { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The format of the pixel data in the texture (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixel">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetPixel (int x, int y);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>Returns pixel color at coordinates (x, y).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixelBilinear">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetPixelBilinear (float u, float v);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="u" Type="System.Single"/>
+        <Parameter Name="v" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="u">To be added.</param>
+        <param name="v">To be added.</param>
+        <summary>Returns filtered pixel color at normalized coordinates (u, v).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="miplevel">To be added.</param>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (int x, int y, int blockWidth, int blockHeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="blockWidth" Type="System.Int32"/>
+        <Parameter Name="blockHeight" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="blockWidth">To be added.</param>
+        <param name="blockHeight">To be added.</param>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (int x, int y, int blockWidth, int blockHeight, int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="blockWidth" Type="System.Int32"/>
+        <Parameter Name="blockHeight" Type="System.Int32"/>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="blockWidth">To be added.</param>
+        <param name="blockHeight">To be added.</param>
+        <param name="miplevel">To be added.</param>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadImage">
+      <MemberSignature Language="C#" Value="public bool LoadImage (byte[] data);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.Byte[]"/>
+      </Parameters>
+      <Docs>
+        <param name="data">To be added.</param>
+        <summary>Loads an image from a byte array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mipmapCount">
+      <MemberSignature Language="C#" Value="public int mipmapCount { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How many mipmap levels are in this texture (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PackTextures">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rect[] PackTextures (UnityEngine.Texture2D[] textures, int padding);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textures" Type="UnityEngine.Texture2D[]"/>
+        <Parameter Name="padding" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="textures">To be added.</param>
+        <param name="padding">To be added.</param>
+        <summary>Packs multiple textures into a texture atlas.</summary>
+        <returns><see cref="T:UnityEngine.Rect" />[] - An array of rectangles containing the UV coordinates in the atlas for each input texture, or null if packing fails.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PackTextures">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rect[] PackTextures (UnityEngine.Texture2D[] textures, int padding, int maximumAtlasSize);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="textures" Type="UnityEngine.Texture2D[]"/>
+        <Parameter Name="padding" Type="System.Int32"/>
+        <Parameter Name="maximumAtlasSize" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="textures">To be added.</param>
+        <param name="padding">To be added.</param>
+        <param name="maximumAtlasSize">To be added.</param>
+        <summary>Packs multiple textures into a texture atlas.</summary>
+        <returns><see cref="T:UnityEngine.Rect" />[] - An array of rectangles containing the UV coordinates in the atlas for each input texture, or null if packing fails.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadPixels">
+      <MemberSignature Language="C#" Value="public void ReadPixels (UnityEngine.Rect source, int destX, int destY);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Rect"/>
+        <Parameter Name="destX" Type="System.Int32"/>
+        <Parameter Name="destY" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destX">To be added.</param>
+        <param name="destY">To be added.</param>
+        <summary>Read screen pixels into the saved texture data.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadPixels">
+      <MemberSignature Language="C#" Value="public void ReadPixels (UnityEngine.Rect source, int destX, int destY, bool recalculateMipMaps);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Rect"/>
+        <Parameter Name="destX" Type="System.Int32"/>
+        <Parameter Name="destY" Type="System.Int32"/>
+        <Parameter Name="recalculateMipMaps" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="destX">To be added.</param>
+        <param name="destY">To be added.</param>
+        <param name="recalculateMipMaps">To be added.</param>
+        <summary>Read screen pixels into the saved texture data.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="public bool Resize (int width, int height);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32"/>
+        <Parameter Name="height" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>Resizes the texture.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="public bool Resize (int width, int height, UnityEngine.TextureFormat format, bool hasMipMap);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Int32"/>
+        <Parameter Name="height" Type="System.Int32"/>
+        <Parameter Name="format" Type="UnityEngine.TextureFormat"/>
+        <Parameter Name="hasMipMap" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="format">To be added.</param>
+        <param name="hasMipMap">To be added.</param>
+        <summary>Resizes the texture.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixel">
+      <MemberSignature Language="C#" Value="public void SetPixel (int x, int y, UnityEngine.Color color);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="color" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="color">To be added.</param>
+        <summary>Sets pixel color at coordinates (x,y).</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (UnityEngine.Color[] colors);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+      </Parameters>
+      <Docs>
+        <param name="colors">To be added.</param>
+        <summary>Set a block of pixel colors.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (UnityEngine.Color[] colors, int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="colors">To be added.</param>
+        <param name="miplevel">To be added.</param>
+        <summary>Set a block of pixel colors.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (int x, int y, int blockWidth, int blockHeight, UnityEngine.Color[] colors);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="blockWidth" Type="System.Int32"/>
+        <Parameter Name="blockHeight" Type="System.Int32"/>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="blockWidth">To be added.</param>
+        <param name="blockHeight">To be added.</param>
+        <param name="colors">To be added.</param>
+        <summary>Set a block of pixel colors.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPixels">
+      <MemberSignature Language="C#" Value="public void SetPixels (int x, int y, int blockWidth, int blockHeight, UnityEngine.Color[] colors, int miplevel);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="blockWidth" Type="System.Int32"/>
+        <Parameter Name="blockHeight" Type="System.Int32"/>
+        <Parameter Name="colors" Type="UnityEngine.Color[]"/>
+        <Parameter Name="miplevel" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="blockWidth">To be added.</param>
+        <param name="blockHeight">To be added.</param>
+        <param name="colors">To be added.</param>
+        <param name="miplevel">To be added.</param>
+        <summary>Set a block of pixel colors.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<Type Name="Light" FullName="UnityEngine.Light">
+  <TypeSignature Language="C#" Value="public class Light : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Script interface for <see cref="T:UnityEngine.light components" />.</summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Light ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="attenuate">
+      <MemberSignature Language="C#" Value="public bool attenuate { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should the light attenuate with distance?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color color { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The color of the light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="cookie">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture cookie { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The cookie texture projected by the light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="cullingMask">
+      <MemberSignature Language="C#" Value="public int cullingMask { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is used to lights parts of the scene selectively.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="flare">
+      <MemberSignature Language="C#" Value="public UnityEngine.Flare flare { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Flare</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.flare asset" /> to use for this light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /> and <see cref="T:UnityEngine.flare asset" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLights">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Light[] GetLights (UnityEngine.LightType type, int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Light[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="UnityEngine.LightType"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="intensity">
+      <MemberSignature Language="C#" Value="public float intensity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The Intensity of a light is multiplied with the Light color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="pixelLightCount">
+      <MemberSignature Language="C#" Value="public static int pixelLightCount { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use QualitySettings.pixelLightCount instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="range">
+      <MemberSignature Language="C#" Value="public float range { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The range of the light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="renderMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.LightRenderMode renderMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How to render the light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="shadowConstantBias">
+      <MemberSignature Language="C#" Value="public float shadowConstantBias { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Constant shadow bias</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.shadows" />, <see cref="P:UnityEngine.shadowObjectSizeBias" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="shadowObjectSizeBias">
+      <MemberSignature Language="C#" Value="public float shadowObjectSizeBias { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Shadow bias that is relative to object size</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.shadows" />, <see cref="P:UnityEngine.shadowConstantBias" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="shadows">
+      <MemberSignature Language="C#" Value="public UnityEngine.LightShadows shadows { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightShadows</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How this light casts shadows?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.LightShadows" />, <see cref="P:UnityEngine.shadowStrength" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="shadowStrength">
+      <MemberSignature Language="C#" Value="public float shadowStrength { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Strength of light's shadows</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.shadows" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="spotAngle">
+      <MemberSignature Language="C#" Value="public float spotAngle { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The light's spotlight angle in degrees.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="type">
+      <MemberSignature Language="C#" Value="public UnityEngine.LightType type { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The type of the light.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

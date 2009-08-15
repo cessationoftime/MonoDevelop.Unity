@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Type Name="MeshRenderer" FullName="UnityEngine.MeshRenderer">
+  <TypeSignature Language="C#" Value="public class MeshRenderer : UnityEngine.Renderer"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Renderer</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Renders meshes inserted by the <see cref="T:UnityEngine.MeshFilter" /> or <see cref="T:UnityEngine.TextMesh" />.</summary>
+    <remarks>(Read Only).</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MeshRenderer ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

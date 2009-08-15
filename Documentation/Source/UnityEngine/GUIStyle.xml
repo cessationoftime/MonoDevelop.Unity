@@ -1,0 +1,967 @@
+<?xml version="1.0"?>
+<Type Name="GUIStyle" FullName="UnityEngine.GUIStyle">
+  <TypeSignature Language="C#" Value="public class GUIStyle"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Attributes>
+    <Attribute>
+      <AttributeName>UnityEngine.SerializePrivateVariables</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Style settings for a GUI element.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onNormal" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" /> - these contain the background image &amp; text color properties for each state.Text rendering	The style can define a font for text rendering, as well as alignment, wordwrap and clipping settings. It also defines colors for the text in the various states of the style element		See Also: <see cref="P:UnityEngine.font" />, <see cref="P:UnityEngine.alignment" />, <see cref="P:UnityEngine.wordWrap" />, <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" />Icon Placement	GUIStyles can be rendered with either text, and icon or both. The GUIStyle defines where these two are rendered in relation to each other (or can force it to only display one of them).		See Also: <see cref="P:UnityEngine.imagePosition" />Sizing and Spacing Options	GUIStyles contain padding, margins and borders. These corresponds loosely to the similar named CSS properties. A GUIStyle can optionally define a fixed width and height.		See Also: <see cref="P:UnityEngine.margin" />, <see cref="P:UnityEngine.padding" />, <see cref="P:UnityEngine.border" />, <see cref="P:UnityEngine.fixedWidth" />, <see cref="P:UnityEngine.fixedHeight" /></remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUIStyle ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUIStyle (UnityEngine.GUIStyle other);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="other" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="active">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState active { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the control is pressed down.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="alignment">
+      <MemberSignature Language="C#" Value="public UnityEngine.TextAnchor alignment { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text alignment.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="border">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectOffset border { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The borders of all background images.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalcHeight">
+      <MemberSignature Language="C#" Value="public float CalcHeight (UnityEngine.GUIContent content, float width);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="width" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="width">To be added.</param>
+        <summary>How tall this element will be when rendered with content and a specific width.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalcMinMaxWidth">
+      <MemberSignature Language="C#" Value="public void CalcMinMaxWidth (UnityEngine.GUIContent content, out float minWidth, out float maxWidth);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="minWidth" Type="System.Single&amp;" RefType="out"/>
+        <Parameter Name="maxWidth" Type="System.Single&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="minWidth">To be added.</param>
+        <param name="maxWidth">To be added.</param>
+        <summary>Calculate the minimum and maximum widths for this style rendered with content.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalcScreenSize">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 CalcScreenSize (UnityEngine.Vector2 contentSize);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentSize" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="contentSize">To be added.</param>
+        <summary>Calculate the size of an element formatted with this style, and a given space to content.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CalcSize">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 CalcSize (UnityEngine.GUIContent content);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <summary>Calculate the size of a some content if it is rendered with this style.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="clipOffset">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 clipOffset { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Clip offset to apply to the content of this GUIstyle</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="clipping">
+      <MemberSignature Language="C#" Value="public UnityEngine.TextClipping clipping { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextClipping</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>What to do when the contents to be rendered is too large to fit within the area given.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="contentOffset">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 contentOffset { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Pixel offset to apply to the content of this GUIstyle</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, UnityEngine.GUIContent content, int controlID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, UnityEngine.GUIContent content, int controlID, bool on);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+        <Parameter Name="on" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <param name="on">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="isHover" Type="System.Boolean"/>
+        <Parameter Name="isActive" Type="System.Boolean"/>
+        <Parameter Name="on" Type="System.Boolean"/>
+        <Parameter Name="hasKeyboardFocus" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="isHover">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <param name="on">To be added.</param>
+        <param name="hasKeyboardFocus">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, string text, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="isHover" Type="System.Boolean"/>
+        <Parameter Name="isActive" Type="System.Boolean"/>
+        <Parameter Name="on" Type="System.Boolean"/>
+        <Parameter Name="hasKeyboardFocus" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="isHover">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <param name="on">To be added.</param>
+        <param name="hasKeyboardFocus">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, UnityEngine.GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="isHover" Type="System.Boolean"/>
+        <Parameter Name="isActive" Type="System.Boolean"/>
+        <Parameter Name="on" Type="System.Boolean"/>
+        <Parameter Name="hasKeyboardFocus" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="isHover">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <param name="on">To be added.</param>
+        <param name="hasKeyboardFocus">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public void Draw (UnityEngine.Rect position, UnityEngine.Texture image, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="isHover" Type="System.Boolean"/>
+        <Parameter Name="isActive" Type="System.Boolean"/>
+        <Parameter Name="on" Type="System.Boolean"/>
+        <Parameter Name="hasKeyboardFocus" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="isHover">To be added.</param>
+        <param name="isActive">To be added.</param>
+        <param name="on">To be added.</param>
+        <param name="hasKeyboardFocus">To be added.</param>
+        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCursor">
+      <MemberSignature Language="C#" Value="public void DrawCursor (UnityEngine.Rect position, UnityEngine.GUIContent content, int controlID, int Character);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+        <Parameter Name="Character" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <param name="Character">To be added.</param>
+        <summary>Draw this GUIStyle with selected content.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawWithTextSelection">
+      <MemberSignature Language="C#" Value="public void DrawWithTextSelection (UnityEngine.Rect position, UnityEngine.GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+        <Parameter Name="firstSelectedCharacter" Type="System.Int32"/>
+        <Parameter Name="lastSelectedCharacter" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <param name="firstSelectedCharacter">To be added.</param>
+        <param name="lastSelectedCharacter">To be added.</param>
+        <summary>Draw this GUIStyle with selected content.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~GUIStyle ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fixedHeight">
+      <MemberSignature Language="C#" Value="public float fixedHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If non-0, any GUI elements rendered with this style will have the height specified here.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fixedWidth">
+      <MemberSignature Language="C#" Value="public float fixedWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If non-0, any GUI elements rendered with this style will have the width specified here.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="focused">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState focused { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the element has keyboard focus.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="font">
+      <MemberSignature Language="C#" Value="public UnityEngine.Font font { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The font to use for rendering. If null, the default font for the current <see cref="T:UnityEngine.GUISkin" /> is used instead.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCursorPixelPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetCursorPixelPosition (UnityEngine.Rect position, UnityEngine.GUIContent content, int cursorStringIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="cursorStringIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="cursorStringIndex">To be added.</param>
+        <summary>Get the pixel position of a given string index.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCursorStringIndex">
+      <MemberSignature Language="C#" Value="public int GetCursorStringIndex (UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.Vector2 cursorPixelPosition);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="cursorPixelPosition" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="cursorPixelPosition">To be added.</param>
+        <summary>Get the cursor position (indexing into contents.text) when the user clicked at cursorPixelPosition</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="hover">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState hover { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the mouse is hovering over the control</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="imagePosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.ImagePosition imagePosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ImagePosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How image and text of the <see cref="T:UnityEngine.GUIContent" /> is combined.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal_CalcSize">
+      <MemberSignature Language="C#" Value="public static void Internal_CalcSize (IntPtr target, string text, UnityEngine.Texture image, out UnityEngine.Vector2 ret);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.IntPtr"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="ret" Type="UnityEngine.Vector2&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="ret">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal_GetCursorPixelPosition">
+      <MemberSignature Language="C#" Value="public static void Internal_GetCursorPixelPosition (IntPtr target, UnityEngine.Rect position, string text, UnityEngine.Texture image, int cursorStringIndex, out UnityEngine.Vector2 ret);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.IntPtr"/>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="cursorStringIndex" Type="System.Int32"/>
+        <Parameter Name="ret" Type="UnityEngine.Vector2&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="cursorStringIndex">To be added.</param>
+        <param name="ret">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal_GetCursorStringIndex">
+      <MemberSignature Language="C#" Value="public static int Internal_GetCursorStringIndex (IntPtr target, UnityEngine.Rect position, string text, UnityEngine.Texture image, UnityEngine.Vector2 cursorPixelPosition);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="System.IntPtr"/>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="cursorPixelPosition" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="cursorPixelPosition">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isHeightDependantOnWidth">
+      <MemberSignature Language="C#" Value="public bool isHeightDependantOnWidth { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="lineHeight">
+      <MemberSignature Language="C#" Value="public float lineHeight { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The height of one line of text with this style, measured in pixels. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="margin">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectOffset margin { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The margins between elements rendered in this style and any other GUI elements</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.GUILayout" />).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="name">
+      <MemberSignature Language="C#" Value="public string name { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of this GUIStyle. Used for getting them based on name....</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="none">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUIStyle none { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Shortcut for an empty GUIStyle.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="normal">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState normal { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the component is displayed normally.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="onActive">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState onActive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the element is turned on and pressed down.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="onFocused">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState onFocused { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the element has keyboard and is turned on.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="onHover">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState onHover { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the control is turned on and the mouse is hovering it.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="onNormal">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyleState onNormal { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyleState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Rendering settings for when the control is turned on.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUIStyle op_Implicit (string str);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIStyle</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="overflow">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectOffset overflow { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Extra space to be added to the background image.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="padding">
+      <MemberSignature Language="C#" Value="public UnityEngine.RectOffset padding { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RectOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Space from the edge of <see cref="T:UnityEngine.GUIStyle" /> to the start of the contents.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="stretchHeight">
+      <MemberSignature Language="C#" Value="public bool stretchHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Can GUI elements of this style be stretched vertically for better layouting?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="stretchWidth">
+      <MemberSignature Language="C#" Value="public bool stretchWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Can GUI elements of this style be stretched horizontally for better layouting?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="wordWrap">
+      <MemberSignature Language="C#" Value="public bool wordWrap { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Word wrap the text?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

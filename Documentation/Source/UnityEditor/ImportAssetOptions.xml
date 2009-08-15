@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="ImportAssetOptions" FullName="UnityEditor.ImportAssetOptions">
+  <TypeSignature Language="C#" Value="public enum ImportAssetOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Asset importing options.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ImportAssetOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default import options.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ForceSynchronousImport">
+      <MemberSignature Language="C#" Value="ForceSynchronousImport"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ImportAssetOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import all assets synchronously.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ForceUpdate">
+      <MemberSignature Language="C#" Value="ForceUpdate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ImportAssetOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>User initiated asset import.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ImportRecursive">
+      <MemberSignature Language="C#" Value="ImportRecursive"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ImportAssetOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When a folder is imported, import all its contents as well.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="TryFastReimportFromMetaData">
+      <MemberSignature Language="C#" Value="TryFastReimportFromMetaData"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ImportAssetOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow quick reimporting of assets by loading from metadata.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ImportAsset" />, <see cref="P:UnityEditor.AssetDatabase.Refresh" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

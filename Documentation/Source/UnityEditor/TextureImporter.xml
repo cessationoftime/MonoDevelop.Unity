@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<Type Name="TextureImporter" FullName="UnityEditor.TextureImporter">
+  <TypeSignature Language="C#" Value="public class TextureImporter : UnityEditor.AssetImporter"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.AssetImporter</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Texture importer lets you modify <see cref="T:UnityEditor.Texture2D" /> import settings from editor scripts.</summary>
+    <remarks>(Read Only).</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextureImporter ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="borderMipmap">
+      <MemberSignature Language="C#" Value="public bool borderMipmap { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keep texture borders the same when generating mipmaps?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="convertToNormalmap">
+      <MemberSignature Language="C#" Value="public bool convertToNormalmap { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Convert heightmap to normal map?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="correctGamma">
+      <MemberSignature Language="C#" Value="public bool correctGamma { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should mip maps be generated with gamma correction?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.mipmapEnabled" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="fadeout">
+      <MemberSignature Language="C#" Value="public bool fadeout { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Fade out mip levels to gray color?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.mipmapEnabled" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="generateCubemap">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterGenerateCubemap generateCubemap { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Cubemap generation mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.TextureImporterGenerateCubemap" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="grayscaleToAlpha">
+      <MemberSignature Language="C#" Value="public bool grayscaleToAlpha { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate alpha channel from intensity?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="heightmapScale">
+      <MemberSignature Language="C#" Value="public float heightmapScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Amount of bumpyness in the heightmap.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.convertToNormalmap" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="maxTextureSize">
+      <MemberSignature Language="C#" Value="public int maxTextureSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Maximum texture size.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mipmapEnabled">
+      <MemberSignature Language="C#" Value="public bool mipmapEnabled { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate mip maps for the texture?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mipmapFadeDistanceEnd">
+      <MemberSignature Language="C#" Value="public int mipmapFadeDistanceEnd { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mip level where texture is faded out completely.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.mipmapEnabled" />, <see cref="P:UnityEditor.fadeout" />, <see cref="P:UnityEditor.mipmapFadeDistanceStart" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mipmapFadeDistanceStart">
+      <MemberSignature Language="C#" Value="public int mipmapFadeDistanceStart { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mip level where texture begins to fade out.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.mipmapEnabled" />, <see cref="P:UnityEditor.fadeout" />, <see cref="P:UnityEditor.mipmapFadeDistanceEnd" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mipmapFilter">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterMipFilter mipmapFilter { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterMipFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mipmap filtering mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.TextureImporterMipFilter" />, <see cref="P:UnityEditor.mipmapEnabled" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="normalmapFilter">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterNormalFilter normalmapFilter { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNormalFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Normal map filtering mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.TextureImporterNormalFilter" />, <see cref="P:UnityEditor.convertToNormalmap" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="npotScale">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterNPOTScale npotScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterNPOTScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scaling mode for non power of two textures.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.TextureImporterNPOTScale" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="recommendedTextureFormat">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterFormat recommendedTextureFormat { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Automatically determined best texture format (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="textureFormat">
+      <MemberSignature Language="C#" Value="public UnityEditor.TextureImporterFormat textureFormat { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Format of imported texture.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.TextureImporterFormat" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

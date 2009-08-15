@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Type Name="LightmapData" FullName="UnityEngine.LightmapData">
+  <TypeSignature Language="C#" Value="public class LightmapData"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Data of a lightmap.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.LightmapSettings" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LightmapData ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="lightmap">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture2D lightmap { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightmap's texture.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.LightmapSettings" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

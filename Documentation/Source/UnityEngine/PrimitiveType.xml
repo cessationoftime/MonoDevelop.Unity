@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="PrimitiveType" FullName="UnityEngine.PrimitiveType">
+  <TypeSignature Language="C#" Value="public enum PrimitiveType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The various primitives that can be created using the <see cref="P:UnityEngine.GameObject.CreatePrimitive" /> function.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Capsule">
+      <MemberSignature Language="C#" Value="Capsule"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PrimitiveType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A capsule primitive</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+    </Member>
+    <Member MemberName="Cube">
+      <MemberSignature Language="C#" Value="Cube"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PrimitiveType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A cube primitive</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+    </Member>
+    <Member MemberName="Cylinder">
+      <MemberSignature Language="C#" Value="Cylinder"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PrimitiveType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A cylinder primitive</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+    </Member>
+    <Member MemberName="Plane">
+      <MemberSignature Language="C#" Value="Plane"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PrimitiveType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A plane primitive</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+    </Member>
+    <Member MemberName="Sphere">
+      <MemberSignature Language="C#" Value="Sphere"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.PrimitiveType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A sphere primitive</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+    </Member>
+  </Members>
+</Type>

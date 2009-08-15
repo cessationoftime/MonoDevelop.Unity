@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<Type Name="Material" FullName="UnityEngine.Material">
+  <TypeSignature Language="C#" Value="public class Material : UnityEngine.Object"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The material class.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Material (string contents);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="contents" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <summary>Create a temporary material from a shader source string.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Material (UnityEngine.Material source);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <summary>Create a temporary material from a shader source string.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Material (UnityEngine.Shader shader);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="shader" Type="UnityEngine.Shader"/>
+      </Parameters>
+      <Docs>
+        <param name="shader">To be added.</param>
+        <summary>Create a temporary material from a shader source string.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color color { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The main material's color.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.SetColor" />, <see cref="P:UnityEngine.GetColor" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyPropertiesFromMaterial">
+      <MemberSignature Language="C#" Value="public void CopyPropertiesFromMaterial (UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="mat">To be added.</param>
+        <summary>Copy properties from other material into this material.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Material Create (string scriptContents);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use the Material constructor instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scriptContents" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="scriptContents">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetColor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetColor (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Get a named color value.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFloat">
+      <MemberSignature Language="C#" Value="public float GetFloat (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Get a named float value.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMatrix">
+      <MemberSignature Language="C#" Value="public UnityEngine.Matrix4x4 GetMatrix (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Get a named matrix value from the shader.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTag">
+      <MemberSignature Language="C#" Value="public string GetTag (string tag, bool searchFallbacks);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tag" Type="System.String"/>
+        <Parameter Name="searchFallbacks" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="tag">To be added.</param>
+        <param name="searchFallbacks">To be added.</param>
+        <summary>Get the value of material's shader tag.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTag">
+      <MemberSignature Language="C#" Value="public string GetTag (string tag, bool searchFallbacks, string defaultValue);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tag" Type="System.String"/>
+        <Parameter Name="searchFallbacks" Type="System.Boolean"/>
+        <Parameter Name="defaultValue" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="tag">To be added.</param>
+        <param name="searchFallbacks">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>Get the value of material's shader tag.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTexture">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture GetTexture (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Get a named texture.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTextureOffset">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetTextureOffset (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Gets the placement offset of texture propertyName.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTextureScale">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetTextureScale (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Gets the placement scale of texture propertyName.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVector">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector4 GetVector (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Get a named vector value.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HasProperty">
+      <MemberSignature Language="C#" Value="public bool HasProperty (string propertyName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>Checks if material's shader has a property of a given name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Lerp">
+      <MemberSignature Language="C#" Value="public void Lerp (UnityEngine.Material start, UnityEngine.Material end, float t);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Material"/>
+        <Parameter Name="end" Type="UnityEngine.Material"/>
+        <Parameter Name="t" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="t">To be added.</param>
+        <summary>Interpolate properties between two materials.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mainTexture">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture mainTexture { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The main material's texture.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTexture" />, <see cref="P:UnityEngine.GetTexture" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mainTextureOffset">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 mainTextureOffset { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The texture offset of the main texture.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTextureOffset" />, <see cref="P:UnityEngine.GetTextureOffset" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mainTextureScale">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 mainTextureScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The texture scale of the main texture.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTextureScale" />, <see cref="P:UnityEngine.GetTextureScale" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="passCount">
+      <MemberSignature Language="C#" Value="public int passCount { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How many passes are in this material (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="renderQueue">
+      <MemberSignature Language="C#" Value="public int renderQueue { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render queue of this material</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.Shader.renderQueue" />, <see cref="T:UnityEngine.RenderQueue tag" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColor">
+      <MemberSignature Language="C#" Value="public void SetColor (string propertyName, UnityEngine.Color color);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="color" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="color">To be added.</param>
+        <summary>Set a named color value.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFloat">
+      <MemberSignature Language="C#" Value="public void SetFloat (string propertyName, float value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named float value.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMatrix">
+      <MemberSignature Language="C#" Value="public void SetMatrix (string propertyName, UnityEngine.Matrix4x4 matrix);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <summary>Set a named matrix for the shader.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPass">
+      <MemberSignature Language="C#" Value="public bool SetPass (int pass);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pass" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="pass">To be added.</param>
+        <summary>Activate the given pass for rendering.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTexture">
+      <MemberSignature Language="C#" Value="public void SetTexture (string propertyName, UnityEngine.Texture texture);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="texture">To be added.</param>
+        <summary>Set a named texture.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextureOffset">
+      <MemberSignature Language="C#" Value="public void SetTextureOffset (string propertyName, UnityEngine.Vector2 offset);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="offset" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="offset">To be added.</param>
+        <summary>Sets the placement offset of texture propertyName.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextureScale">
+      <MemberSignature Language="C#" Value="public void SetTextureScale (string propertyName, UnityEngine.Vector2 scale);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="scale" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="scale">To be added.</param>
+        <summary>Sets the placement scale of texture propertyName.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetVector">
+      <MemberSignature Language="C#" Value="public void SetVector (string propertyName, UnityEngine.Vector4 vector);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String"/>
+        <Parameter Name="vector" Type="UnityEngine.Vector4"/>
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="vector">To be added.</param>
+        <summary>Set a named vector value.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="shader">
+      <MemberSignature Language="C#" Value="public UnityEngine.Shader shader { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Shader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The shader used by the material.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.Shader.Find" /> method, <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<Type Name="Gizmos" FullName="UnityEngine.Gizmos">
+  <TypeSignature Language="C#" Value="public class Gizmos"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Gizmos are used to give visual debugging or setup aids in the scene view.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Gizmos ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color color { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets the color for the gizmos that will be drawn next.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCube">
+      <MemberSignature Language="C#" Value="public static void DrawCube (UnityEngine.Vector3 center, UnityEngine.Vector3 size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="size" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>Draw a solid box with center and size.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawFrustum">
+      <MemberSignature Language="C#" Value="public static void DrawFrustum (UnityEngine.Vector3 center, float fov, float maxRange, float minRange, float aspect);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="fov" Type="System.Single"/>
+        <Parameter Name="maxRange" Type="System.Single"/>
+        <Parameter Name="minRange" Type="System.Single"/>
+        <Parameter Name="aspect" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="fov">To be added.</param>
+        <param name="maxRange">To be added.</param>
+        <param name="minRange">To be added.</param>
+        <param name="aspect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawGUITexture">
+      <MemberSignature Language="C#" Value="public static void DrawGUITexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawGUITexture">
+      <MemberSignature Language="C#" Value="public static void DrawGUITexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawGUITexture">
+      <MemberSignature Language="C#" Value="public static void DrawGUITexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawGUITexture">
+      <MemberSignature Language="C#" Value="public static void DrawGUITexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawIcon">
+      <MemberSignature Language="C#" Value="public static void DrawIcon (UnityEngine.Vector3 center, string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>Draw an icon at world position center.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawLine">
+      <MemberSignature Language="C#" Value="public static void DrawLine (UnityEngine.Vector3 from, UnityEngine.Vector3 to);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="from" Type="UnityEngine.Vector3"/>
+        <Parameter Name="to" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="from">To be added.</param>
+        <param name="to">To be added.</param>
+        <summary>Draws a line starting at from towards to.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawRay">
+      <MemberSignature Language="C#" Value="public static void DrawRay (UnityEngine.Ray r);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="r" Type="UnityEngine.Ray"/>
+      </Parameters>
+      <Docs>
+        <param name="r">To be added.</param>
+        <summary>Draws a ray starting at from to from + direction.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawRay">
+      <MemberSignature Language="C#" Value="public static void DrawRay (UnityEngine.Vector3 from, UnityEngine.Vector3 direction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="from" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="from">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>Draws a ray starting at from to from + direction.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawSphere">
+      <MemberSignature Language="C#" Value="public static void DrawSphere (UnityEngine.Vector3 center, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Draws a solid sphere with center and radius.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawWireCube">
+      <MemberSignature Language="C#" Value="public static void DrawWireCube (UnityEngine.Vector3 center, UnityEngine.Vector3 size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="size" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>Draw a wireframe box with center and size.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawWireSphere">
+      <MemberSignature Language="C#" Value="public static void DrawWireSphere (UnityEngine.Vector3 center, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Draws a wireframe sphere with center and radius.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="matrix">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Matrix4x4 matrix { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the gizmo matrix used to draw all gizmos.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

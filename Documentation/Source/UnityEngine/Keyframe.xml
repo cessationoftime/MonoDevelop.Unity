@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Type Name="Keyframe" FullName="UnityEngine.Keyframe">
+  <TypeSignature Language="C#" Value="public struct Keyframe"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>A single keyframe that can be injected into an animation curve.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Keyframe (float time, float value);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="time" Type="System.Single"/>
+        <Parameter Name="value" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="time">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Create a keyframe.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Keyframe (float time, float value, float inTangent, float outTangent);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="time" Type="System.Single"/>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="inTangent" Type="System.Single"/>
+        <Parameter Name="outTangent" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="time">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="inTangent">To be added.</param>
+        <param name="outTangent">To be added.</param>
+        <summary>Create a keyframe.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="inTangent">
+      <MemberSignature Language="C#" Value="public float inTangent { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Describes the tangent when approaching this point from the previous point in the curve.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.outTangent" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="outTangent">
+      <MemberSignature Language="C#" Value="public float outTangent { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Describes the tangent when leaving this point towards the next point in the curve.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.inTangent" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="tangentMode">
+      <MemberSignature Language="C#" Value="public int tangentMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="time">
+      <MemberSignature Language="C#" Value="public float time { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The time of the keyframe.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.value" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="value">
+      <MemberSignature Language="C#" Value="public float value { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The value of the curve at keyframe.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.time" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

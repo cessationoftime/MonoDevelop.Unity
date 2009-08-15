@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<Type Name="EventType" FullName="UnityEngine.EventType">
+  <TypeSignature Language="C#" Value="public enum EventType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Types of UnityGUI input and processing events.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Event.type" />, <see cref="T:UnityEngine.Event" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="ContextClick">
+      <MemberSignature Language="C#" Value="ContextClick"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>User has right-clicked (or control-clicked on the mac).</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DragExited">
+      <MemberSignature Language="C#" Value="DragExited"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Editor only: drag &amp; drop operation exited.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="dragPerform">
+      <MemberSignature Language="C#" Value="dragPerform"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Editor only: drag &amp; drop operation performed.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="DragPerform">
+      <MemberSignature Language="C#" Value="DragPerform"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Editor only: drag &amp; drop operation performed.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="dragUpdated">
+      <MemberSignature Language="C#" Value="dragUpdated"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Editor only: drag &amp; drop operation updated.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="DragUpdated">
+      <MemberSignature Language="C#" Value="DragUpdated"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Editor only: drag &amp; drop operation updated.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="ExecuteCommand">
+      <MemberSignature Language="C#" Value="ExecuteCommand"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Execute a special command (eg. copy &amp; paste)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ignore">
+      <MemberSignature Language="C#" Value="ignore"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><see cref="T:UnityEngine.Event" /> should be ignored.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Ignore">
+      <MemberSignature Language="C#" Value="Ignore"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><see cref="T:UnityEngine.Event" /> should be ignored.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="keyDown">
+      <MemberSignature Language="C#" Value="keyDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A keyboard key was pressed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="KeyDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A keyboard key was pressed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="keyUp">
+      <MemberSignature Language="C#" Value="keyUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A keyboard key was released.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="KeyUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A keyboard key was released.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="layout">
+      <MemberSignature Language="C#" Value="layout"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A layout event.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="Layout"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A layout event.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mouseDown">
+      <MemberSignature Language="C#" Value="mouseDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse button was pressed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="MouseDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse button was pressed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mouseDrag">
+      <MemberSignature Language="C#" Value="mouseDrag"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse was dragged.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDrag">
+      <MemberSignature Language="C#" Value="MouseDrag"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse was dragged.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mouseMove">
+      <MemberSignature Language="C#" Value="mouseMove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse was moved.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="MouseMove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse was moved.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mouseUp">
+      <MemberSignature Language="C#" Value="mouseUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse button was released.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="MouseUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mouse button was released.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="repaint">
+      <MemberSignature Language="C#" Value="repaint"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A repaint event. One is sent every frame.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Repaint">
+      <MemberSignature Language="C#" Value="Repaint"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A repaint event. One is sent every frame.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="scrollWheel">
+      <MemberSignature Language="C#" Value="scrollWheel"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The scroll wheel was moved.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollWheel">
+      <MemberSignature Language="C#" Value="ScrollWheel"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The scroll wheel was moved.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="used">
+      <MemberSignature Language="C#" Value="used"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Already processed event.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Used">
+      <MemberSignature Language="C#" Value="Used"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Already processed event.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateCommand">
+      <MemberSignature Language="C#" Value="ValidateCommand"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.EventType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Validates a special command (eg. copy &amp; paste)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Type Name="WaitForSeconds" FullName="UnityEngine.WaitForSeconds">
+  <TypeSignature Language="C#" Value="public class WaitForSeconds : UnityEngine.YieldInstruction"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.YieldInstruction</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Suspends the coroutine execution for the given amount of seconds.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WaitForSeconds (float seconds);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="seconds" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="seconds">To be added.</param>
+        <summary>Creates a yield instruction to wait for a given number of seconds</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

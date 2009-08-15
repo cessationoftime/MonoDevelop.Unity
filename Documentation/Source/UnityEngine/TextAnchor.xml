@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Type Name="TextAnchor" FullName="UnityEngine.TextAnchor">
+  <TypeSignature Language="C#" Value="public enum TextAnchor"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Where the anchor of the text is placed.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.GUI Text component" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="LowerCenter">
+      <MemberSignature Language="C#" Value="LowerCenter"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in lower side, centered horizontally.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="LowerLeft">
+      <MemberSignature Language="C#" Value="LowerLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in lower left corner.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="LowerRight">
+      <MemberSignature Language="C#" Value="LowerRight"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in lower right corner.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="MiddleCenter">
+      <MemberSignature Language="C#" Value="MiddleCenter"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is centered both horizontally and vertically.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="MiddleLeft">
+      <MemberSignature Language="C#" Value="MiddleLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in left side, centered vertically.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="MiddleRight">
+      <MemberSignature Language="C#" Value="MiddleRight"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in right side, centered vertically.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="UpperCenter">
+      <MemberSignature Language="C#" Value="UpperCenter"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in upper side, centered horizontally.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="UpperLeft">
+      <MemberSignature Language="C#" Value="UpperLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in upper left corner.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="UpperRight">
+      <MemberSignature Language="C#" Value="UpperRight"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Text is anchored in upper right corner.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

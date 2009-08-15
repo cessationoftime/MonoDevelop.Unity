@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="RPCMode" FullName="UnityEngine.RPCMode">
+  <TypeSignature Language="C#" Value="public enum RPCMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Option for who will receive the <see cref="T:UnityEngine.RPC" /></summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RPCMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sends to everyone</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AllBuffered">
+      <MemberSignature Language="C#" Value="AllBuffered"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RPCMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sends to everyone and adds to the buffer</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Others">
+      <MemberSignature Language="C#" Value="Others"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RPCMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sends to everyone except the server</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OthersBuffered">
+      <MemberSignature Language="C#" Value="OthersBuffered"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RPCMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sends to everyone except the server and adds to the buffer</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="Server"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RPCMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sends to the server only</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

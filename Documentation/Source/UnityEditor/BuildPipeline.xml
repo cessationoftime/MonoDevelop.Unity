@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Type Name="BuildPipeline" FullName="UnityEditor.BuildPipeline">
+  <TypeSignature Language="C#" Value="public class BuildPipeline"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Lets you programmatically build players or AssetBundles which can be loaded from the web.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BuildPipeline ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object"/>
+        <Parameter Name="assets" Type="UnityEngine.Object[]"/>
+        <Parameter Name="pathName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <summary>Builds an asset bundle (Unity Pro only).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName, UnityEditor.BuildAssetBundleOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object"/>
+        <Parameter Name="assets" Type="UnityEngine.Object[]"/>
+        <Parameter Name="pathName" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEditor.BuildAssetBundleOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Builds an asset bundle (Unity Pro only).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildPlayer">
+      <MemberSignature Language="C#" Value="public static string BuildPlayer (string[] levels, string locationPathName, UnityEditor.BuildTarget target, UnityEditor.BuildOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levels" Type="System.String[]"/>
+        <Parameter Name="locationPathName" Type="System.String"/>
+        <Parameter Name="target" Type="UnityEditor.BuildTarget"/>
+        <Parameter Name="options" Type="UnityEditor.BuildOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="levels">To be added.</param>
+        <param name="locationPathName">To be added.</param>
+        <param name="target">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Builds a player (Unity Pro only).</summary>
+        <returns>string - an error message if an error occurred.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PopAssetDependencies">
+      <MemberSignature Language="C#" Value="public static void PopAssetDependencies ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Lets you manage cross-references and dependencies between different asset bundles and player builds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PushAssetDependencies">
+      <MemberSignature Language="C#" Value="public static void PushAssetDependencies ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Lets you manage cross-references and dependencies between different asset bundles and player builds.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

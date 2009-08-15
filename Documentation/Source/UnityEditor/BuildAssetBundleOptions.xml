@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Type Name="BuildAssetBundleOptions" FullName="UnityEditor.BuildAssetBundleOptions">
+  <TypeSignature Language="C#" Value="public enum BuildAssetBundleOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Asset Bundle building options.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="CollectDependencies">
+      <MemberSignature Language="C#" Value="CollectDependencies"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Includes all dependencies.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="CompleteAssets">
+      <MemberSignature Language="C#" Value="CompleteAssets"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Forces inclusion of the entire asset.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

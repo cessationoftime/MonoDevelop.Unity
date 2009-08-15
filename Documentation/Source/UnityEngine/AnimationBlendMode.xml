@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="AnimationBlendMode" FullName="UnityEngine.AnimationBlendMode">
+  <TypeSignature Language="C#" Value="public enum AnimationBlendMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Used by <see cref="P:UnityEngine.Animation.Play" /> function.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Additive">
+      <MemberSignature Language="C#" Value="Additive"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationBlendMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animations will be added</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Blend">
+      <MemberSignature Language="C#" Value="Blend"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationBlendMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animations will be blended</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

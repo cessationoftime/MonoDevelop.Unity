@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="GizmoType" FullName="UnityEditor.GizmoType">
+  <TypeSignature Language="C#" Value="public enum GizmoType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Determines how a gizmo is drawn or picked in the Unity editor.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.DrawGizmo" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the gizmo if it is active (shown in the inspector).</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSelected">
+      <MemberSignature Language="C#" Value="NotSelected"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the gizmo if it is not selected at all.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Pickable">
+      <MemberSignature Language="C#" Value="Pickable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The gizmo can be picked in the editor.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Selected">
+      <MemberSignature Language="C#" Value="Selected"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the gizmo if it is selected.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedOrChild">
+      <MemberSignature Language="C#" Value="SelectedOrChild"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the gizmo if it is selected or a child of the selection.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

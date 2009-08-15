@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="ScaleMode" FullName="UnityEngine.ScaleMode">
+  <TypeSignature Language="C#" Value="public enum ScaleMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Scaling mode to draw textures with</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="ScaleAndCrop">
+      <MemberSignature Language="C#" Value="ScaleAndCrop"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ScaleMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scales the texture, maintaining aspect ratio, so it completely covers the position rectangle passed to <see cref="P:UnityEngine.GUI.DrawTexture" />. If the texture is being draw to a rectangle with a different aspect ration than the original, the image is cropped.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleToFit">
+      <MemberSignature Language="C#" Value="ScaleToFit"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ScaleMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scales the texture, maintaining aspect ratio, so it completely fits withing the position rectangle passed to <see cref="P:UnityEngine.GUI.DrawTexture" />.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StretchToFill">
+      <MemberSignature Language="C#" Value="StretchToFill"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ScaleMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stretches the texture to fill the complete rectangle passed in to <see cref="P:UnityEngine.GUI.DrawTexture" /></summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

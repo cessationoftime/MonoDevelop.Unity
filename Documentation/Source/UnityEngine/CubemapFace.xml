@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Type Name="CubemapFace" FullName="UnityEngine.CubemapFace">
+  <TypeSignature Language="C#" Value="public enum CubemapFace"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary><see cref="T:UnityEngine.Cubemap" /> face.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="NegativeX">
+      <MemberSignature Language="C#" Value="NegativeX"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left facing side (-x)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NegativeY">
+      <MemberSignature Language="C#" Value="NegativeY"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>downward facing side (-y)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NegativeZ">
+      <MemberSignature Language="C#" Value="NegativeZ"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backward facing side (-z)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PositiveX">
+      <MemberSignature Language="C#" Value="PositiveX"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right facing side (+x)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PositiveY">
+      <MemberSignature Language="C#" Value="PositiveY"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Upwards facing side (+y)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PositiveZ">
+      <MemberSignature Language="C#" Value="PositiveZ"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CubemapFace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Forward facing side (+z)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

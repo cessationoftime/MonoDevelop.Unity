@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="SkinQuality" FullName="UnityEngine.SkinQuality">
+  <TypeSignature Language="C#" Value="public enum SkinQuality"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>/ The maximum number of bones affecting a single vertex</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.SkinnedMeshRenderer.quality" /></remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SkinQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Chooses the number of bones from the number current <see cref="T:UnityEngine.QualitySettings" /> (Default)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Bone1">
+      <MemberSignature Language="C#" Value="Bone1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SkinQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use only 1 bone to deform a single vertex. (The most important bone will be used)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Bone2">
+      <MemberSignature Language="C#" Value="Bone2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SkinQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use 2 bones to deform a single vertex. (The most important bones will be used)</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Bone4">
+      <MemberSignature Language="C#" Value="Bone4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SkinQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use 4 bones to deform a single vertex.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

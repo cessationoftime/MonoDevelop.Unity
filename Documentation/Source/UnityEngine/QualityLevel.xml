@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Type Name="QualityLevel" FullName="UnityEngine.QualityLevel">
+  <TypeSignature Language="C#" Value="public enum QualityLevel"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Graphical quality level.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Beautiful">
+      <MemberSignature Language="C#" Value="Beautiful"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "beautiful" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Fantastic">
+      <MemberSignature Language="C#" Value="Fantastic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "fantastic" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Fast">
+      <MemberSignature Language="C#" Value="Fast"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "fast" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Fastest">
+      <MemberSignature Language="C#" Value="Fastest"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "fastest" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Good">
+      <MemberSignature Language="C#" Value="Good"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "good" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Simple">
+      <MemberSignature Language="C#" Value="Simple"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.QualityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The "simple" quality level.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

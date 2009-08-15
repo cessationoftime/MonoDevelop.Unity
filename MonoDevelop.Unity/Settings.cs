@@ -57,7 +57,7 @@ namespace MonoDevelop.Unity
         public const string MAC_SEARCH_SCRIPT_REFERENCE = "/../Documentation/ScriptReference/30_search.html?q="; 
 		public const string MAC_UNITY_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
 		public const string MAC_UNITY_IPHONE_ENGINE = "/Contents/Frameworks/UnityEngine.dll";
-		public const string MAC_MONODOC_SOURCES = "/opt/local/lib/monodoc/sources";
+		public const string MAC_MONODOC_SOURCES = "/Library/Frameworks/Mono.framework/Versions/Current/lib/monodoc/sources";
 		
 		// PC Configuration
 		public const string WIN_VIEW_MANUAL = "\\Data\\Documentation\\Manual\\index.html";
@@ -68,6 +68,8 @@ namespace MonoDevelop.Unity
 
 		// MonoDoc
 		public const string MONODOC_VERSION = "2.5.1";
-
+		
+		
+		public const string NETWORK_PING_HOST = "google.com";
     }
 }

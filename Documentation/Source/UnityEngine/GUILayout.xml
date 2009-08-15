@@ -1,0 +1,2889 @@
+<?xml version="1.0"?>
+<Type Name="GUILayout" FullName="UnityEngine.GUILayout">
+  <TypeSignature Language="C#" Value="public class GUILayout"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The GUILayout class is the interface for Unity gui with automatic layouting.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.GUI Layout tutorial" /></remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUILayout ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, string text);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="text" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, UnityEngine.GUIContent content);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, UnityEngine.Texture image);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="image">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, string text, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginArea">
+      <MemberSignature Language="C#" Value="public static void BeginArea (UnityEngine.Rect screenRect, UnityEngine.Texture image, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Begin a GUILayout block of GUI controls in a fixed screen area.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginHorizontal">
+      <MemberSignature Language="C#" Value="public static void BeginHorizontal (UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>Begin a Horizontal control group.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginHorizontal">
+      <MemberSignature Language="C#" Value="public static void BeginHorizontal (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin a Horizontal control group.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="alwaysShowHorizontal" Type="System.Boolean"/>
+        <Parameter Name="alwaysShowVertical" Type="System.Boolean"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="alwaysShowHorizontal">To be added.</param>
+        <param name="alwaysShowVertical">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="horizontalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="verticalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="horizontalScrollbar">To be added.</param>
+        <param name="verticalScrollbar">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="alwaysShowHorizontal" Type="System.Boolean"/>
+        <Parameter Name="alwaysShowVertical" Type="System.Boolean"/>
+        <Parameter Name="horizontalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="verticalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="alwaysShowHorizontal">To be added.</param>
+        <param name="alwaysShowVertical">To be added.</param>
+        <param name="horizontalScrollbar">To be added.</param>
+        <param name="verticalScrollbar">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginScrollView">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 BeginScrollView (UnityEngine.Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scrollPosition" Type="UnityEngine.Vector2"/>
+        <Parameter Name="alwaysShowHorizontal" Type="System.Boolean"/>
+        <Parameter Name="alwaysShowVertical" Type="System.Boolean"/>
+        <Parameter Name="horizontalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="verticalScrollbar" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="background" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="scrollPosition">To be added.</param>
+        <param name="alwaysShowHorizontal">To be added.</param>
+        <param name="alwaysShowVertical">To be added.</param>
+        <param name="horizontalScrollbar">To be added.</param>
+        <param name="verticalScrollbar">To be added.</param>
+        <param name="background">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin an automatically layouted scrollview.</summary>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginVertical">
+      <MemberSignature Language="C#" Value="public static void BeginVertical (UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>Begin a vertical control group.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginVertical">
+      <MemberSignature Language="C#" Value="public static void BeginVertical (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Begin a vertical control group.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Box">
+      <MemberSignature Language="C#" Value="public static void Box (UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted box.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
+        <returns>bool - /true/ when the users clicks the button</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DoToggle">
+      <MemberSignature Language="C#" Value="protected static bool DoToggle (bool value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndArea">
+      <MemberSignature Language="C#" Value="public static void EndArea ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Close a GUILayout block started with BeginArea</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndHorizontal">
+      <MemberSignature Language="C#" Value="public static void EndHorizontal ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Close a group started with BeginHorizontal</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndScrollView">
+      <MemberSignature Language="C#" Value="public static void EndScrollView ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>End a scroll view begun with a call to BeginScrollView.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndVertical">
+      <MemberSignature Language="C#" Value="public static void EndVertical ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Close a group started with BeginVertical</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandHeight">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption ExpandHeight (bool expand);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expand" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="expand">To be added.</param>
+        <summary>Option passed to a control to allow or disallow vertical expansion.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandWidth">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption ExpandWidth (bool expand);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expand" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="expand">To be added.</param>
+        <summary>Option passed to a control to allow or disallow horizontal expansion.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="FlexibleSpace">
+      <MemberSignature Language="C#" Value="public static void FlexibleSpace ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Insert a flexible space element.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption Height (float height);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="height" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="height">To be added.</param>
+        <summary>Option passed to a control to give it an absolute height.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalScrollbar">
+      <MemberSignature Language="C#" Value="public static float HorizontalScrollbar (float value, float size, float leftValue, float rightValue, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="size" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a hopriztonal scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scroll views instead.</summary>
+        <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalScrollbar">
+      <MemberSignature Language="C#" Value="public static float HorizontalScrollbar (float value, float size, float leftValue, float rightValue, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="size" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a hopriztonal scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scroll views instead.</summary>
+        <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalSlider">
+      <MemberSignature Language="C#" Value="public static float HorizontalSlider (float value, float leftValue, float rightValue, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>A horizontal slider the user can drag to change a value between a min and a max.</summary>
+        <returns>float - The value that has been set by the user.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalSlider">
+      <MemberSignature Language="C#" Value="public static float HorizontalSlider (float value, float leftValue, float rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="slider" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="thumb" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="slider">To be added.</param>
+        <param name="thumb">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>A horizontal slider the user can drag to change a value between a min and a max.</summary>
+        <returns>float - The value that has been set by the user.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an auto-layouted label.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxHeight">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption MaxHeight (float maxHeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maxHeight" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="maxHeight">To be added.</param>
+        <summary>Option passed to a control to specify a maximum height.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxWidth">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption MaxWidth (float maxWidth);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maxWidth" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="maxWidth">To be added.</param>
+        <summary>Option passed to a control to specify a maximum width.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MinHeight">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption MinHeight (float minHeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minHeight" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="minHeight">To be added.</param>
+        <summary>Option passed to a control to specify a minimum height.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MinWidth">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption MinWidth (float minWidth);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minWidth" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="minWidth">To be added.</param>
+        <summary>Option passed to a control to specify a minimum width.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (string password, char maskChar, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="password" Type="System.String"/>
+        <Parameter Name="maskChar" Type="System.Char"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="password">To be added.</param>
+        <param name="maskChar">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a text field where the user can enter a password.</summary>
+        <returns>string - the edited password.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (string password, char maskChar, int maxLength, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="password" Type="System.String"/>
+        <Parameter Name="maskChar" Type="System.Char"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="password">To be added.</param>
+        <param name="maskChar">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a text field where the user can enter a password.</summary>
+        <returns>string - the edited password.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (string password, char maskChar, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="password" Type="System.String"/>
+        <Parameter Name="maskChar" Type="System.Char"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="password">To be added.</param>
+        <param name="maskChar">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a text field where the user can enter a password.</summary>
+        <returns>string - the edited password.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (string password, char maskChar, int maxLength, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="password" Type="System.String"/>
+        <Parameter Name="maskChar" Type="System.Char"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="password">To be added.</param>
+        <param name="maskChar">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a text field where the user can enter a password.</summary>
+        <returns>string - the edited password.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatButton">
+      <MemberSignature Language="C#" Value="public static bool RepeatButton (UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a repeating button. The button returns true as long as the user holds down the mouse</summary>
+        <returns>bool - /true/ when the holds down the mouse</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, string[] texts, int xCount, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="texts" Type="System.String[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="texts">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, UnityEngine.GUIContent[] content, int xCount, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, UnityEngine.Texture[] images, int xCount, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="images" Type="UnityEngine.Texture[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="images">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, string[] texts, int xCount, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="texts" Type="System.String[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="texts">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, UnityEngine.GUIContent[] contents, int xCount, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="contents" Type="UnityEngine.GUIContent[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="contents">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionGrid">
+      <MemberSignature Language="C#" Value="public static int SelectionGrid (int selected, UnityEngine.Texture[] images, int xCount, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="images" Type="UnityEngine.Texture[]"/>
+        <Parameter Name="xCount" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="images">To be added.</param>
+        <param name="xCount">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a Selection Grid</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Space">
+      <MemberSignature Language="C#" Value="public static void Space (float pixels);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pixels" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="pixels">To be added.</param>
+        <summary>Insert a space in the current layout group.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a multi-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (string text, int maxLength, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a multi-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a multi-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (string text, int maxLength, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a multi-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (string text, int maxLength, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (string text, int maxLength, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="maxLength" Type="System.Int32"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="maxLength">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a single-line text field where the user can edit a string.</summary>
+        <returns>string - the edited string.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (bool value, UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make an on/off toggle button.</summary>
+        <returns>bool - The new value of the button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, string[] texts, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="texts" Type="System.String[]"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="texts">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, UnityEngine.GUIContent[] content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent[]"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, UnityEngine.Texture[] images, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="images" Type="UnityEngine.Texture[]"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="images">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, string[] texts, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="texts" Type="System.String[]"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="texts">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, UnityEngine.GUIContent[] contents, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="contents" Type="UnityEngine.GUIContent[]"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="contents">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Toolbar">
+      <MemberSignature Language="C#" Value="public static int Toolbar (int selected, UnityEngine.Texture[] images, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="selected" Type="System.Int32"/>
+        <Parameter Name="images" Type="UnityEngine.Texture[]"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="selected">To be added.</param>
+        <param name="images">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a toolbar</summary>
+        <returns>int - The index of the selected button.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalScrollbar">
+      <MemberSignature Language="C#" Value="public static float VerticalScrollbar (float value, float size, float topValue, float bottomValue, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="size" Type="System.Single"/>
+        <Parameter Name="topValue" Type="System.Single"/>
+        <Parameter Name="bottomValue" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="topValue">To be added.</param>
+        <param name="bottomValue">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a vertical scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
+        <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalScrollbar">
+      <MemberSignature Language="C#" Value="public static float VerticalScrollbar (float value, float size, float topValue, float bottomValue, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="size" Type="System.Single"/>
+        <Parameter Name="topValue" Type="System.Single"/>
+        <Parameter Name="bottomValue" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="topValue">To be added.</param>
+        <param name="bottomValue">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a vertical scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
+        <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalSlider">
+      <MemberSignature Language="C#" Value="public static float VerticalSlider (float value, float leftValue, float rightValue, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>A vertical slider the user can drag to change a value between a min and a max.</summary>
+        <returns>float - The value that has been set by the user.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalSlider">
+      <MemberSignature Language="C#" Value="public static float VerticalSlider (float value, float leftValue, float rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single"/>
+        <Parameter Name="leftValue" Type="System.Single"/>
+        <Parameter Name="rightValue" Type="System.Single"/>
+        <Parameter Name="slider" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="thumb" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="slider">To be added.</param>
+        <param name="thumb">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>A vertical slider the user can drag to change a value between a min and a max.</summary>
+        <returns>float - The value that has been set by the user.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutOption Width (float width);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <summary>Option passed to a control to give it an absolute width.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, string text, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, string text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect Window (int id, UnityEngine.Rect screenRect, UnityEngine.GUI.WindowFunction func, UnityEngine.Texture image, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="func" Type="UnityEngine.GUI+WindowFunction"/>
+        <Parameter Name="image" Type="UnityEngine.Texture"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="screenRect">To be added.</param>
+        <param name="func">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Make a popup window that layouts its contents automatically.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at. This can be in a different position and have a different size than the one you passed in.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

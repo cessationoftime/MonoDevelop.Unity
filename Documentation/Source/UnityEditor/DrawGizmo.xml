@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Type Name="DrawGizmo" FullName="UnityEditor.DrawGizmo">
+  <TypeSignature Language="C#" Value="public class DrawGizmo : Attribute"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The DrawGizmo attribute allows you to supply a gizmo renderer for any <see cref="T:UnityEditor.Component" />.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DrawGizmo (UnityEditor.GizmoType gizmo);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="gizmo" Type="UnityEditor.GizmoType"/>
+      </Parameters>
+      <Docs>
+        <param name="gizmo">To be added.</param>
+        <summary>Defines when the gizmo should be invoked for drawing.</summary>
+        <remarks>See Also: <see cref="T:UnityEditor.GizmoType" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DrawGizmo (UnityEditor.GizmoType gizmo, Type drawnGizmoType);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="gizmo" Type="UnityEditor.GizmoType"/>
+        <Parameter Name="drawnGizmoType" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="gizmo">To be added.</param>
+        <param name="drawnGizmoType">To be added.</param>
+        <summary>Defines when the gizmo should be invoked for drawing.</summary>
+        <remarks>See Also: <see cref="T:UnityEditor.GizmoType" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="drawnType">
+      <MemberSignature Language="C#" Value="public Type drawnType;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="drawOptions">
+      <MemberSignature Language="C#" Value="public UnityEditor.GizmoType drawOptions;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.GizmoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

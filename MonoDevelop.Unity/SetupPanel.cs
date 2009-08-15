@@ -33,6 +33,7 @@ using System.Collections.Generic;
 using Gtk;
 
 using MonoDevelop.Core;
+using MonoDevelop.Core.Gui;
 using MonoDevelop.Core.Gui.Dialogs;
 
 namespace MonoDevelop.Unity
@@ -176,7 +177,7 @@ namespace MonoDevelop.Unity
 
         void ResetAddInClicked (object sender, EventArgs e)
         {
-            if (Helpers.AskYesNoQuestion("Reset Settings", "Are you sure you want us to clear all of your Unity related settings?") )
+            if(MessageService.AskQuestion("Are you sure you want us to clear all of your Unity related settings?", "Reset Unity Settings", new AlertButton[] { AlertButton.Discard, AlertButton.Cancel }) == AlertButton.Discard)
             {
 				// Default Everything
                 PropertyService.Set("Unity.Base.Path", "");
@@ -184,7 +185,11 @@ namespace MonoDevelop.Unity
                 PropertyService.Set("Unity.Base.Documentation.ForceLocal", false);
                 PropertyService.Set("Unity.iPhone.Path", "");
                 PropertyService.Set("Unity.Connection", false);
+				
 				PropertyService.Set("Unity.DocumentationPreference", "Unity");
+				PropertyService.Set("Unity.MonoDoc.Installed", false);
+				PropertyService.Set("Unity.MonoDoc.Version", "");
+				PropertyService.Set("Unity.MonoDoc.PromptUser", false);
 
 				this.handler = new Base();
 				this.handler.FindUnity();

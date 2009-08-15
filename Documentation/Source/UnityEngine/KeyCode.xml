@@ -1,0 +1,3056 @@
+<?xml version="1.0"?>
+<Type Name="KeyCode" FullName="UnityEngine.KeyCode">
+  <TypeSignature Language="C#" Value="public enum KeyCode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Key codes returned by <see cref="P:UnityEngine.Event.keyCode" />. These map directly to a physical key on the keyboard.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="A">
+      <MemberSignature Language="C#" Value="A"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'a' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha0">
+      <MemberSignature Language="C#" Value="Alpha0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '0' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha1">
+      <MemberSignature Language="C#" Value="Alpha1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '1' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha2">
+      <MemberSignature Language="C#" Value="Alpha2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '2' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha3">
+      <MemberSignature Language="C#" Value="Alpha3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '3' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha4">
+      <MemberSignature Language="C#" Value="Alpha4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '4' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha5">
+      <MemberSignature Language="C#" Value="Alpha5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '5' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha6">
+      <MemberSignature Language="C#" Value="Alpha6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '6' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha7">
+      <MemberSignature Language="C#" Value="Alpha7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '7' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha8">
+      <MemberSignature Language="C#" Value="Alpha8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '8' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Alpha9">
+      <MemberSignature Language="C#" Value="Alpha9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The '9' key on the top of the alphanumeric keyboard.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AltGr">
+      <MemberSignature Language="C#" Value="AltGr"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Alt Gr key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Ampersand">
+      <MemberSignature Language="C#" Value="Ampersand"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ampersand key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Asterisk">
+      <MemberSignature Language="C#" Value="Asterisk"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Asterisk key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="At">
+      <MemberSignature Language="C#" Value="At"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>At key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="B">
+      <MemberSignature Language="C#" Value="B"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'b' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BackQuote">
+      <MemberSignature Language="C#" Value="BackQuote"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Back quote key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Backslash">
+      <MemberSignature Language="C#" Value="Backslash"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backslash key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Backspace">
+      <MemberSignature Language="C#" Value="Backspace"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The backspace key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Break">
+      <MemberSignature Language="C#" Value="Break"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Break key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="C">
+      <MemberSignature Language="C#" Value="C"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'c' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CapsLock">
+      <MemberSignature Language="C#" Value="CapsLock"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Capslock key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Caret">
+      <MemberSignature Language="C#" Value="Caret"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Caret key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="Clear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The Clear key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Colon">
+      <MemberSignature Language="C#" Value="Colon"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Colon ',' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Comma">
+      <MemberSignature Language="C#" Value="Comma"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Comma ',' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="D">
+      <MemberSignature Language="C#" Value="D"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'d' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The forward delete key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Dollar">
+      <MemberSignature Language="C#" Value="Dollar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dollar sign key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleQuote">
+      <MemberSignature Language="C#" Value="DoubleQuote"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Double quote key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DownArrow">
+      <MemberSignature Language="C#" Value="DownArrow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Down arrow key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="E">
+      <MemberSignature Language="C#" Value="E"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'e' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="End"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>End key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="Equals"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Equals '=' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Escape">
+      <MemberSignature Language="C#" Value="Escape"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Escape key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Exclaim">
+      <MemberSignature Language="C#" Value="Exclaim"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Explaim key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F">
+      <MemberSignature Language="C#" Value="F"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'f' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F1">
+      <MemberSignature Language="C#" Value="F1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F1 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F10">
+      <MemberSignature Language="C#" Value="F10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F10 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F11">
+      <MemberSignature Language="C#" Value="F11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F11 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F12">
+      <MemberSignature Language="C#" Value="F12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F12 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F13">
+      <MemberSignature Language="C#" Value="F13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F13 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F14">
+      <MemberSignature Language="C#" Value="F14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F14 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F15">
+      <MemberSignature Language="C#" Value="F15"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F15 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F2">
+      <MemberSignature Language="C#" Value="F2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F2 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F3">
+      <MemberSignature Language="C#" Value="F3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F3 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F4">
+      <MemberSignature Language="C#" Value="F4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F4 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F5">
+      <MemberSignature Language="C#" Value="F5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F5 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F6">
+      <MemberSignature Language="C#" Value="F6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F6 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F7">
+      <MemberSignature Language="C#" Value="F7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F7 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F8">
+      <MemberSignature Language="C#" Value="F8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F8 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="F9">
+      <MemberSignature Language="C#" Value="F9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>F9 function key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="G">
+      <MemberSignature Language="C#" Value="G"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'g' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Greater">
+      <MemberSignature Language="C#" Value="Greater"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Greater '&gt;' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="H">
+      <MemberSignature Language="C#" Value="H"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'h' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Hash">
+      <MemberSignature Language="C#" Value="Hash"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Hash key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Help">
+      <MemberSignature Language="C#" Value="Help"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Help key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Home">
+      <MemberSignature Language="C#" Value="Home"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Home key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="I">
+      <MemberSignature Language="C#" Value="I"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'i' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="Insert"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Insert key key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="J">
+      <MemberSignature Language="C#" Value="J"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'j' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button0">
+      <MemberSignature Language="C#" Value="Joystick1Button0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 0 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button1">
+      <MemberSignature Language="C#" Value="Joystick1Button1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 1 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button10">
+      <MemberSignature Language="C#" Value="Joystick1Button10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 10 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button11">
+      <MemberSignature Language="C#" Value="Joystick1Button11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 11 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button12">
+      <MemberSignature Language="C#" Value="Joystick1Button12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 12 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button13">
+      <MemberSignature Language="C#" Value="Joystick1Button13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 13 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button14">
+      <MemberSignature Language="C#" Value="Joystick1Button14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 14 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button15">
+      <MemberSignature Language="C#" Value="Joystick1Button15"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 15 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button16">
+      <MemberSignature Language="C#" Value="Joystick1Button16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 16 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button17">
+      <MemberSignature Language="C#" Value="Joystick1Button17"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 17 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button18">
+      <MemberSignature Language="C#" Value="Joystick1Button18"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 18 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button19">
+      <MemberSignature Language="C#" Value="Joystick1Button19"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 19 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button2">
+      <MemberSignature Language="C#" Value="Joystick1Button2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 2 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button3">
+      <MemberSignature Language="C#" Value="Joystick1Button3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 3 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button4">
+      <MemberSignature Language="C#" Value="Joystick1Button4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 4 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button5">
+      <MemberSignature Language="C#" Value="Joystick1Button5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 5 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button6">
+      <MemberSignature Language="C#" Value="Joystick1Button6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 6 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button7">
+      <MemberSignature Language="C#" Value="Joystick1Button7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 7 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button8">
+      <MemberSignature Language="C#" Value="Joystick1Button8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 8 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick1Button9">
+      <MemberSignature Language="C#" Value="Joystick1Button9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 9 on first joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button0">
+      <MemberSignature Language="C#" Value="Joystick2Button0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 0 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button1">
+      <MemberSignature Language="C#" Value="Joystick2Button1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 1 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button10">
+      <MemberSignature Language="C#" Value="Joystick2Button10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 10 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button11">
+      <MemberSignature Language="C#" Value="Joystick2Button11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 11 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button12">
+      <MemberSignature Language="C#" Value="Joystick2Button12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 12 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button13">
+      <MemberSignature Language="C#" Value="Joystick2Button13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 13 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button14">
+      <MemberSignature Language="C#" Value="Joystick2Button14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 14 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button15">
+      <MemberSignature Language="C#" Value="Joystick2Button15"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 15 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button16">
+      <MemberSignature Language="C#" Value="Joystick2Button16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 16 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button17">
+      <MemberSignature Language="C#" Value="Joystick2Button17"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 17 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button18">
+      <MemberSignature Language="C#" Value="Joystick2Button18"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 18 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button19">
+      <MemberSignature Language="C#" Value="Joystick2Button19"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 19 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button2">
+      <MemberSignature Language="C#" Value="Joystick2Button2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 2 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button3">
+      <MemberSignature Language="C#" Value="Joystick2Button3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 3 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button4">
+      <MemberSignature Language="C#" Value="Joystick2Button4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 4 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button5">
+      <MemberSignature Language="C#" Value="Joystick2Button5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 5 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button6">
+      <MemberSignature Language="C#" Value="Joystick2Button6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 6 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button7">
+      <MemberSignature Language="C#" Value="Joystick2Button7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 7 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button8">
+      <MemberSignature Language="C#" Value="Joystick2Button8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 8 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick2Button9">
+      <MemberSignature Language="C#" Value="Joystick2Button9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 9 on second joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button0">
+      <MemberSignature Language="C#" Value="Joystick3Button0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 0 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button1">
+      <MemberSignature Language="C#" Value="Joystick3Button1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 1 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button10">
+      <MemberSignature Language="C#" Value="Joystick3Button10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 10 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button11">
+      <MemberSignature Language="C#" Value="Joystick3Button11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 11 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button12">
+      <MemberSignature Language="C#" Value="Joystick3Button12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 12 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button13">
+      <MemberSignature Language="C#" Value="Joystick3Button13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 13 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button14">
+      <MemberSignature Language="C#" Value="Joystick3Button14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 14 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button15">
+      <MemberSignature Language="C#" Value="Joystick3Button15"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 15 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button16">
+      <MemberSignature Language="C#" Value="Joystick3Button16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 16 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button17">
+      <MemberSignature Language="C#" Value="Joystick3Button17"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 17 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button18">
+      <MemberSignature Language="C#" Value="Joystick3Button18"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 18 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button19">
+      <MemberSignature Language="C#" Value="Joystick3Button19"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 19 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button2">
+      <MemberSignature Language="C#" Value="Joystick3Button2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 2 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button3">
+      <MemberSignature Language="C#" Value="Joystick3Button3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 3 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button4">
+      <MemberSignature Language="C#" Value="Joystick3Button4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 4 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button5">
+      <MemberSignature Language="C#" Value="Joystick3Button5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 5 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button6">
+      <MemberSignature Language="C#" Value="Joystick3Button6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 6 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button7">
+      <MemberSignature Language="C#" Value="Joystick3Button7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 7 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button8">
+      <MemberSignature Language="C#" Value="Joystick3Button8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 8 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Joystick3Button9">
+      <MemberSignature Language="C#" Value="Joystick3Button9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 9 on third joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton0">
+      <MemberSignature Language="C#" Value="JoystickButton0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 0 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton1">
+      <MemberSignature Language="C#" Value="JoystickButton1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 1 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton10">
+      <MemberSignature Language="C#" Value="JoystickButton10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 10 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton11">
+      <MemberSignature Language="C#" Value="JoystickButton11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 11 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton12">
+      <MemberSignature Language="C#" Value="JoystickButton12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 12 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton13">
+      <MemberSignature Language="C#" Value="JoystickButton13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 13 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton14">
+      <MemberSignature Language="C#" Value="JoystickButton14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 14 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton15">
+      <MemberSignature Language="C#" Value="JoystickButton15"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 15 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton16">
+      <MemberSignature Language="C#" Value="JoystickButton16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 16 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton17">
+      <MemberSignature Language="C#" Value="JoystickButton17"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 17 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton18">
+      <MemberSignature Language="C#" Value="JoystickButton18"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 18 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton19">
+      <MemberSignature Language="C#" Value="JoystickButton19"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 19 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton2">
+      <MemberSignature Language="C#" Value="JoystickButton2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 2 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton3">
+      <MemberSignature Language="C#" Value="JoystickButton3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 3 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton4">
+      <MemberSignature Language="C#" Value="JoystickButton4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 4 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton5">
+      <MemberSignature Language="C#" Value="JoystickButton5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 5 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton6">
+      <MemberSignature Language="C#" Value="JoystickButton6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 6 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton7">
+      <MemberSignature Language="C#" Value="JoystickButton7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 7 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton8">
+      <MemberSignature Language="C#" Value="JoystickButton8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 8 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="JoystickButton9">
+      <MemberSignature Language="C#" Value="JoystickButton9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Button 9 on any joystick</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="K">
+      <MemberSignature Language="C#" Value="K"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'k' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad0">
+      <MemberSignature Language="C#" Value="Keypad0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 0</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad1">
+      <MemberSignature Language="C#" Value="Keypad1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 1</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad2">
+      <MemberSignature Language="C#" Value="Keypad2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 2</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad3">
+      <MemberSignature Language="C#" Value="Keypad3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 3</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad4">
+      <MemberSignature Language="C#" Value="Keypad4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 4</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad5">
+      <MemberSignature Language="C#" Value="Keypad5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 5</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad6">
+      <MemberSignature Language="C#" Value="Keypad6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 6</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad7">
+      <MemberSignature Language="C#" Value="Keypad7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 7</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad8">
+      <MemberSignature Language="C#" Value="Keypad8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 8</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Keypad9">
+      <MemberSignature Language="C#" Value="Keypad9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad 9</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadDivide">
+      <MemberSignature Language="C#" Value="KeypadDivide"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '/'</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadEnter">
+      <MemberSignature Language="C#" Value="KeypadEnter"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad enter</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadEquals">
+      <MemberSignature Language="C#" Value="KeypadEquals"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '='</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadMinus">
+      <MemberSignature Language="C#" Value="KeypadMinus"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '-'</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadMultiply">
+      <MemberSignature Language="C#" Value="KeypadMultiply"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '*'</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadPeriod">
+      <MemberSignature Language="C#" Value="KeypadPeriod"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '.'</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="KeypadPlus">
+      <MemberSignature Language="C#" Value="KeypadPlus"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad '+'</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="L">
+      <MemberSignature Language="C#" Value="L"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'l' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftAlt">
+      <MemberSignature Language="C#" Value="LeftAlt"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left Alt key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftApple">
+      <MemberSignature Language="C#" Value="LeftApple"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left Apple key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftArrow">
+      <MemberSignature Language="C#" Value="LeftArrow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left arrow key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftBracket">
+      <MemberSignature Language="C#" Value="LeftBracket"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left bracket key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftControl">
+      <MemberSignature Language="C#" Value="LeftControl"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left Control key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftParen">
+      <MemberSignature Language="C#" Value="LeftParen"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left Parent key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftShift">
+      <MemberSignature Language="C#" Value="LeftShift"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left shift key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftWindows">
+      <MemberSignature Language="C#" Value="LeftWindows"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Left Windows key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Less">
+      <MemberSignature Language="C#" Value="Less"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="M">
+      <MemberSignature Language="C#" Value="M"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'m' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Minus">
+      <MemberSignature Language="C#" Value="Minus"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Minus '-' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse0">
+      <MemberSignature Language="C#" Value="Mouse0"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>First (primary) mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse1">
+      <MemberSignature Language="C#" Value="Mouse1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Second (secondary) mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse2">
+      <MemberSignature Language="C#" Value="Mouse2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Third mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse3">
+      <MemberSignature Language="C#" Value="Mouse3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Fourth mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse4">
+      <MemberSignature Language="C#" Value="Mouse4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Fifth mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse5">
+      <MemberSignature Language="C#" Value="Mouse5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sixth mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Mouse6">
+      <MemberSignature Language="C#" Value="Mouse6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Seventh mouse button</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="N">
+      <MemberSignature Language="C#" Value="N"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'n' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Numlock">
+      <MemberSignature Language="C#" Value="Numlock"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numlock key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="O">
+      <MemberSignature Language="C#" Value="O"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'o' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="P">
+      <MemberSignature Language="C#" Value="P"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'p' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PageDown">
+      <MemberSignature Language="C#" Value="PageDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Page down</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PageUp">
+      <MemberSignature Language="C#" Value="PageUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Page up</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Pause">
+      <MemberSignature Language="C#" Value="Pause"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Pause on PC machines</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Period">
+      <MemberSignature Language="C#" Value="Period"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Period '.' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Plus">
+      <MemberSignature Language="C#" Value="Plus"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Plus key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Print">
+      <MemberSignature Language="C#" Value="Print"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Print key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Q">
+      <MemberSignature Language="C#" Value="Q"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'q' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Question">
+      <MemberSignature Language="C#" Value="Question"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Question mark '?' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Quote">
+      <MemberSignature Language="C#" Value="Quote"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Quote key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="R">
+      <MemberSignature Language="C#" Value="R"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'r' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Return">
+      <MemberSignature Language="C#" Value="Return"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Return key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightAlt">
+      <MemberSignature Language="C#" Value="RightAlt"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right Alt key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightApple">
+      <MemberSignature Language="C#" Value="RightApple"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right Apple key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightArrow">
+      <MemberSignature Language="C#" Value="RightArrow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right arrow key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightBracket">
+      <MemberSignature Language="C#" Value="RightBracket"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Backslash key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightControl">
+      <MemberSignature Language="C#" Value="RightControl"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right Control key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightParen">
+      <MemberSignature Language="C#" Value="RightParen"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right Parent key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightShift">
+      <MemberSignature Language="C#" Value="RightShift"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right shift key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RightWindows">
+      <MemberSignature Language="C#" Value="RightWindows"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Right Windows key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="S">
+      <MemberSignature Language="C#" Value="S"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'s' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ScrollLock">
+      <MemberSignature Language="C#" Value="ScrollLock"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scroll lock key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Semicolon">
+      <MemberSignature Language="C#" Value="Semicolon"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Semicolon ';' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Slash">
+      <MemberSignature Language="C#" Value="Slash"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Slash '/' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Space">
+      <MemberSignature Language="C#" Value="Space"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Space key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SysReq">
+      <MemberSignature Language="C#" Value="SysReq"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sys Req key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="T">
+      <MemberSignature Language="C#" Value="T"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'t' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Tab">
+      <MemberSignature Language="C#" Value="Tab"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The tab key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="U">
+      <MemberSignature Language="C#" Value="U"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'u' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Underscore">
+      <MemberSignature Language="C#" Value="Underscore"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Underscore '_' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="UpArrow">
+      <MemberSignature Language="C#" Value="UpArrow"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Up arrow key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="V">
+      <MemberSignature Language="C#" Value="V"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'v' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="W">
+      <MemberSignature Language="C#" Value="W"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'w' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="X">
+      <MemberSignature Language="C#" Value="X"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'x' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Y">
+      <MemberSignature Language="C#" Value="Y"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'y' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Z">
+      <MemberSignature Language="C#" Value="Z"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.KeyCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>'z' key</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<Type Name="ConfigurableJoint" FullName="UnityEngine.ConfigurableJoint">
+  <TypeSignature Language="C#" Value="public class ConfigurableJoint : UnityEngine.Joint"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Joint</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The configurable joint is an extremely flexible joint giving you complete control over rotation and linear motion.</summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConfigurableJoint ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularXDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive angularXDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's rotation will behave around its local X axis. Only used if Rotation Drive Mode is Swing &amp; Twist</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularXMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion angularXMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow rotation around the X axis to be Free, completely Locked, or Limited according to Low and High Angular XLimit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularYLimit">
+      <MemberSignature Language="C#" Value="public UnityEngine.SoftJointLimit angularYLimit { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SoftJointLimit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boundary defining rotation restriction, based on delta from original rotation</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularYMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion angularYMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow rotation around the Y axis to be Free, completely Locked, or Limited according to Angular YLimit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularYZDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive angularYZDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's rotation will behave around its local Y and Z axes. Only used if Rotation Drive Mode is Swing &amp; Twist</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularZLimit">
+      <MemberSignature Language="C#" Value="public UnityEngine.SoftJointLimit angularZLimit { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SoftJointLimit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boundary defining rotation restriction, based on delta from original rotation</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularZMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion angularZMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow rotation around the Z axis to be Free, completely Locked, or Limited according to Angular ZLimit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="configuredInWorldSpace">
+      <MemberSignature Language="C#" Value="public bool configuredInWorldSpace { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If enabled, all Target values will be calculated in world space instead of the object's local space</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="highAngularXLimit">
+      <MemberSignature Language="C#" Value="public UnityEngine.SoftJointLimit highAngularXLimit { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SoftJointLimit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boundary defining upper rotation restriction, based on delta from original rotation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="linearLimit">
+      <MemberSignature Language="C#" Value="public UnityEngine.SoftJointLimit linearLimit { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SoftJointLimit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boundary defining movement restriction, based on distance from the joint's origin</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="lowAngularXLimit">
+      <MemberSignature Language="C#" Value="public UnityEngine.SoftJointLimit lowAngularXLimit { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SoftJointLimit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boundary defining lower rotation restriction, based on delta from original rotation</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="projectionAngle">
+      <MemberSignature Language="C#" Value="public float projectionAngle { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Difference in angle from the Connected Body that must be exceeded before the object snaps back to an acceptable position</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="projectionDistance">
+      <MemberSignature Language="C#" Value="public float projectionDistance { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Distance from the Connected Body that must be exceeded before the object snaps back to an acceptable position</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="projectionMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointProjectionMode projectionMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointProjectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Properties to track to snap the object back to its constrained position when it drifts off too much</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="rotationDriveMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.RotationDriveMode rotationDriveMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RotationDriveMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Control the object's rotation with either X &amp; YZ or Slerp Drive by itself</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="slerpDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive slerpDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's rotation will behave around all local axes. Only used if Rotation Drive Mode is Slerp Only</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="targetAngularVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 targetAngularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is a <see cref="T:UnityEngine.Vector3" />. It defines the desired angular velocity that the joint should rotate into.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="targetPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 targetPosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The desired position that the joint should move into</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="targetRotation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Quaternion targetRotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is a <see cref="T:UnityEngine.Quaternion" />. It defines the desired rotation that the joint should rotate into.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="targetVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 targetVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The desired velocity that the joint should move along</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="xDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive xDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's movement will behave along its local X axis</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="xMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion xMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow movement along the X axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="yDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive yDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's movement will behave along its local Y axis</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="yMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion yMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow movement along the Y axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="zDrive">
+      <MemberSignature Language="C#" Value="public UnityEngine.JointDrive zDrive { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.JointDrive</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of how the joint's movement will behave along its local Z axis</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="zMotion">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConfigurableJointMotion zMotion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConfigurableJointMotion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow movement along the Z axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

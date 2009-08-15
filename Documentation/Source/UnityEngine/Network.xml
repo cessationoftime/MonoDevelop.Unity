@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<Type Name="Network" FullName="UnityEngine.Network">
+  <TypeSignature Language="C#" Value="public class Network"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The network class is at the heart of the network implementation and provides the core functions.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Network ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocateViewID">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkViewID AllocateViewID ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkViewID</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Query for the next available network view ID number and allocate it (reserve).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseConnection">
+      <MemberSignature Language="C#" Value="public static void CloseConnection (UnityEngine.NetworkPlayer target, bool sendDisconnectionNotification);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.NetworkPlayer"/>
+        <Parameter Name="sendDisconnectionNotification" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="sendDisconnectionNotification">To be added.</param>
+        <summary>Close the connection to another system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkConnectionError Connect (string IP, int remotePort);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="IP" Type="System.String"/>
+        <Parameter Name="remotePort" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="IP">To be added.</param>
+        <param name="remotePort">To be added.</param>
+        <summary>Connect to the specified host (ip or domain name) and server port.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkConnectionError Connect (string[] IPs, int remotePort);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="IPs" Type="System.String[]"/>
+        <Parameter Name="remotePort" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="IPs">To be added.</param>
+        <param name="remotePort">To be added.</param>
+        <summary>Connect to the specified host (ip or domain name) and server port.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkConnectionError Connect (string IP, int remotePort, string password);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="IP" Type="System.String"/>
+        <Parameter Name="remotePort" Type="System.Int32"/>
+        <Parameter Name="password" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="IP">To be added.</param>
+        <param name="remotePort">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>Connect to the specified host (ip or domain name) and server port.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkConnectionError Connect (string[] IPs, int remotePort, string password);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="IPs" Type="System.String[]"/>
+        <Parameter Name="remotePort" Type="System.Int32"/>
+        <Parameter Name="password" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="IPs">To be added.</param>
+        <param name="remotePort">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>Connect to the specified host (ip or domain name) and server port.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="connections">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkPlayer[] connections { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkPlayer[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>All connected players.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="connectionTesterIP">
+      <MemberSignature Language="C#" Value="public static string connectionTesterIP { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The IP address of the connection tester used in <see cref="P:UnityEngine.Network.TestConnection" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="connectionTesterPort">
+      <MemberSignature Language="C#" Value="public static int connectionTesterPort { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The port of the connection tester used in <see cref="P:UnityEngine.Network.TestConnection" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Destroy">
+      <MemberSignature Language="C#" Value="public static void Destroy (UnityEngine.GameObject gameObject);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gameObject" Type="UnityEngine.GameObject"/>
+      </Parameters>
+      <Docs>
+        <param name="gameObject">To be added.</param>
+        <summary>Destroy the object associated with this view ID across the network.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Destroy">
+      <MemberSignature Language="C#" Value="public static void Destroy (UnityEngine.NetworkViewID viewID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="viewID" Type="UnityEngine.NetworkViewID"/>
+      </Parameters>
+      <Docs>
+        <param name="viewID">To be added.</param>
+        <summary>Destroy the object associated with this view ID across the network.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DestroyPlayerObjects">
+      <MemberSignature Language="C#" Value="public static void DestroyPlayerObjects (UnityEngine.NetworkPlayer playerID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="playerID" Type="UnityEngine.NetworkPlayer"/>
+      </Parameters>
+      <Docs>
+        <param name="playerID">To be added.</param>
+        <summary>Destroy all the objects based on view IDs belonging to this player.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnect">
+      <MemberSignature Language="C#" Value="public static void Disconnect ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Close all open connections and shuts down the network interface.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnect">
+      <MemberSignature Language="C#" Value="public static void Disconnect (int timeout);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="timeout" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="timeout">To be added.</param>
+        <summary>Close all open connections and shuts down the network interface.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAveragePing">
+      <MemberSignature Language="C#" Value="public static int GetAveragePing (UnityEngine.NetworkPlayer player);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="player" Type="UnityEngine.NetworkPlayer"/>
+      </Parameters>
+      <Docs>
+        <param name="player">To be added.</param>
+        <summary>The last average ping time to the given player in milliseconds.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLastPing">
+      <MemberSignature Language="C#" Value="public static int GetLastPing (UnityEngine.NetworkPlayer player);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="player" Type="UnityEngine.NetworkPlayer"/>
+      </Parameters>
+      <Docs>
+        <param name="player">To be added.</param>
+        <summary>The last ping time to the given player in milliseconds.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HavePublicAddress">
+      <MemberSignature Language="C#" Value="public static bool HavePublicAddress ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Check if this machine has a public IP address.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="incomingPassword">
+      <MemberSignature Language="C#" Value="public static string incomingPassword { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the password for the server (for incoming connections).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeSecurity">
+      <MemberSignature Language="C#" Value="public static void InitializeSecurity ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Initializes security layer.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InitializeServer">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkConnectionError InitializeServer (int connections, int listenPort);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connections" Type="System.Int32"/>
+        <Parameter Name="listenPort" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="connections">To be added.</param>
+        <param name="listenPort">To be added.</param>
+        <summary>Initialize the server.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Instantiate">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object Instantiate (UnityEngine.Object prefab, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, int group);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prefab" Type="UnityEngine.Object"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="group" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="prefab">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="group">To be added.</param>
+        <summary>Network instantiate a prefab.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isClient">
+      <MemberSignature Language="C#" Value="public static bool isClient { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true if your peer type is client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isMessageQueueRunning">
+      <MemberSignature Language="C#" Value="public static bool isMessageQueueRunning { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable or disable the processing of network messages.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isServer">
+      <MemberSignature Language="C#" Value="public static bool isServer { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true if your peer type is server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="maxConnections">
+      <MemberSignature Language="C#" Value="public static int maxConnections { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the maximum amount of connections/players allowed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="minimumAllocatableViewIDs">
+      <MemberSignature Language="C#" Value="public static int minimumAllocatableViewIDs { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get or set the minimum number of ViewID numbers in the ViewID pool given to clients by the server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="natFacilitatorIP">
+      <MemberSignature Language="C#" Value="public static string natFacilitatorIP { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The IP address of the NAT punchthrough facilitator.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="natFacilitatorPort">
+      <MemberSignature Language="C#" Value="public static int natFacilitatorPort { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The port of the NAT punchthrough facilitator.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="peerType">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkPeerType peerType { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkPeerType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The status of the peer type, i.e. if it is disconnected, connecting, server or client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="player">
+      <MemberSignature Language="C#" Value="public static UnityEngine.NetworkPlayer player { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkPlayer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the local <see cref="T:UnityEngine.NetworkPlayer" /> instance</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="proxyIP">
+      <MemberSignature Language="C#" Value="public static string proxyIP { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The IP address of the proxy server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="proxyPassword">
+      <MemberSignature Language="C#" Value="public static string proxyPassword { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the proxy server password.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="proxyPort">
+      <MemberSignature Language="C#" Value="public static int proxyPort { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The port of the proxy server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRPCs">
+      <MemberSignature Language="C#" Value="public static void RemoveRPCs (UnityEngine.NetworkPlayer playerID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="playerID" Type="UnityEngine.NetworkPlayer"/>
+      </Parameters>
+      <Docs>
+        <param name="playerID">To be added.</param>
+        <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRPCs">
+      <MemberSignature Language="C#" Value="public static void RemoveRPCs (UnityEngine.NetworkViewID viewID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="viewID" Type="UnityEngine.NetworkViewID"/>
+      </Parameters>
+      <Docs>
+        <param name="viewID">To be added.</param>
+        <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRPCs">
+      <MemberSignature Language="C#" Value="public static void RemoveRPCs (UnityEngine.NetworkPlayer playerID, int group);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="playerID" Type="UnityEngine.NetworkPlayer"/>
+        <Parameter Name="group" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="playerID">To be added.</param>
+        <param name="group">To be added.</param>
+        <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveRPCsInGroup">
+      <MemberSignature Language="C#" Value="public static void RemoveRPCsInGroup (int group);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to given group number.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sendRate">
+      <MemberSignature Language="C#" Value="public static float sendRate { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default send rate of network updates for all Network Views.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLevelPrefix">
+      <MemberSignature Language="C#" Value="public static void SetLevelPrefix (int prefix);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prefix" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="prefix">To be added.</param>
+        <summary>Set the level prefix which will then be prefixed to all network ViewID numbers.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReceivingEnabled">
+      <MemberSignature Language="C#" Value="public static void SetReceivingEnabled (UnityEngine.NetworkPlayer player, int group, bool enabled);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="player" Type="UnityEngine.NetworkPlayer"/>
+        <Parameter Name="group" Type="System.Int32"/>
+        <Parameter Name="enabled" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="player">To be added.</param>
+        <param name="group">To be added.</param>
+        <param name="enabled">To be added.</param>
+        <summary>Enable or disables the reception of messages in a specific group number from a specific player.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSendingEnabled">
+      <MemberSignature Language="C#" Value="public static void SetSendingEnabled (int group, bool enabled);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="System.Int32"/>
+        <Parameter Name="enabled" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <param name="enabled">To be added.</param>
+        <summary>Enables or disables transmission of messages and <see cref="T:UnityEngine.RPC" /> calls on a specific network group number.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSendingEnabled">
+      <MemberSignature Language="C#" Value="public static void SetSendingEnabled (UnityEngine.NetworkPlayer player, int group, bool enabled);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="player" Type="UnityEngine.NetworkPlayer"/>
+        <Parameter Name="group" Type="System.Int32"/>
+        <Parameter Name="enabled" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="player">To be added.</param>
+        <param name="group">To be added.</param>
+        <param name="enabled">To be added.</param>
+        <summary>Enables or disables transmission of messages and <see cref="T:UnityEngine.RPC" /> calls on a specific network group number.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TestConnection">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ConnectionTesterStatus TestConnection ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Test this machines network connection.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TestConnection">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ConnectionTesterStatus TestConnection (bool forceTest);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="forceTest" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="forceTest">To be added.</param>
+        <summary>Test this machines network connection.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TestConnectionNAT">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ConnectionTesterStatus TestConnectionNAT ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Test the connecction specifically for NAT punchthrough connectivity.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="time">
+      <MemberSignature Language="C#" Value="public static double time { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get the current network time (seconds).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="useNat">
+      <MemberSignature Language="C#" Value="public static bool useNat { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should we use NAT punchthrough when connecting (client) or accepting connections (server)?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="useProxy">
+      <MemberSignature Language="C#" Value="public static bool useProxy { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicate if proxy support is needed, in which case traffic is relayed through the proxy server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<Type Name="GUIUtility" FullName="UnityEngine.GUIUtility">
+  <TypeSignature Language="C#" Value="public class GUIUtility"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Utility class for making new GUI controls.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUIUtility ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ExitGUI">
+      <MemberSignature Language="C#" Value="public static void ExitGUI ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBuiltinSkin">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUISkin GetBuiltinSkin (int skin);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUISkin</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skin" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="skin">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (UnityEngine.FocusType focus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+      </Parameters>
+      <Docs>
+        <param name="focus">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (int hint, UnityEngine.FocusType focus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hint" Type="System.Int32"/>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+      </Parameters>
+      <Docs>
+        <param name="hint">To be added.</param>
+        <param name="focus">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (UnityEngine.FocusType focus, UnityEngine.Rect position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+      </Parameters>
+      <Docs>
+        <param name="focus">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (UnityEngine.GUIContent contents, UnityEngine.FocusType focus);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="focus">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (int hint, UnityEngine.FocusType focus, UnityEngine.Rect position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hint" Type="System.Int32"/>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+      </Parameters>
+      <Docs>
+        <param name="hint">To be added.</param>
+        <param name="focus">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetControlID">
+      <MemberSignature Language="C#" Value="public static int GetControlID (UnityEngine.GUIContent contents, UnityEngine.FocusType focus, UnityEngine.Rect position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contents" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="focus" Type="UnityEngine.FocusType"/>
+        <Parameter Name="position" Type="UnityEngine.Rect"/>
+      </Parameters>
+      <Docs>
+        <param name="contents">To be added.</param>
+        <param name="focus">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>Get a unique ID for a control.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStateObject">
+      <MemberSignature Language="C#" Value="public static object GetStateObject (Type t, int controlID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Type"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <summary>Get a state object from a controlID.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GUIToScreenPoint">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 GUIToScreenPoint (UnityEngine.Vector2 guiPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="guiPoint" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="guiPoint">To be added.</param>
+        <summary>Convert a point from GUI position to screen space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="hotControl">
+      <MemberSignature Language="C#" Value="public static int hotControl { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The controlID of the current hot control.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="keyboardControl">
+      <MemberSignature Language="C#" Value="public static int keyboardControl { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The controlID of the control that has keyboard focus.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveKeyboardFocus">
+      <MemberSignature Language="C#" Value="protected static void MoveKeyboardFocus (int ID, bool moveForward, bool sendToNextScriptIfNeeded);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ID" Type="System.Int32"/>
+        <Parameter Name="moveForward" Type="System.Boolean"/>
+        <Parameter Name="sendToNextScriptIfNeeded" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="ID">To be added.</param>
+        <param name="moveForward">To be added.</param>
+        <param name="sendToNextScriptIfNeeded">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveNextAndScroll">
+      <MemberSignature Language="C#" Value="protected static void MoveNextAndScroll (bool forward);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="forward" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="forward">To be added.</param>
+        <summary>Only allow calling GUI functions from inside OnGUI</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryStateObject">
+      <MemberSignature Language="C#" Value="public static object QueryStateObject (Type t, int controlID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Type"/>
+        <Parameter Name="controlID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="controlID">To be added.</param>
+        <summary>Get an existing state object from a controlID.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RotateAroundPivot">
+      <MemberSignature Language="C#" Value="public static void RotateAroundPivot (float angle, UnityEngine.Vector2 pivotPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="angle" Type="System.Single"/>
+        <Parameter Name="pivotPoint" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="angle">To be added.</param>
+        <param name="pivotPoint">To be added.</param>
+        <summary>Helper function to rotate the GUI around a point.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_EditorScreenPointOffset">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 s_EditorScreenPointOffset;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_HasKeyboardFocus">
+      <MemberSignature Language="C#" Value="public static bool s_HasKeyboardFocus;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_KeyboardControl">
+      <MemberSignature Language="C#" Value="protected static int s_KeyboardControl;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleAroundPivot">
+      <MemberSignature Language="C#" Value="public static void ScaleAroundPivot (UnityEngine.Vector2 scale, UnityEngine.Vector2 pivotPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scale" Type="UnityEngine.Vector2"/>
+        <Parameter Name="pivotPoint" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="scale">To be added.</param>
+        <param name="pivotPoint">To be added.</param>
+        <summary>Helper function to rotate the GUI around a point.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ScreenToGUIPoint">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 ScreenToGUIPoint (UnityEngine.Vector2 screenPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenPoint" Type="UnityEngine.Vector2"/>
+      </Parameters>
+      <Docs>
+        <param name="screenPoint">To be added.</param>
+        <summary>Convert a point from screen space to GUI position.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipToControlID">
+      <MemberSignature Language="C#" Value="protected static void SkipToControlID (int id);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

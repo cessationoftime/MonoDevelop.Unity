@@ -42,10 +42,7 @@ namespace MonoDevelop.Unity
         {
 			this.handler = new Base();
 			
-            // Internet Connection
-            // TODO: Add pinging of something when Mono is fixed for Mac
-            //       http://bugs.dotbunny.com/view.php?id=31
-            PropertyService.Set("Unity.Connection", true);
+            Helpers.CheckConnection();
 			
 
             #region First Time Initialization
@@ -64,9 +61,9 @@ namespace MonoDevelop.Unity
                 handler.FindUnityiPhone();
             }
 
-			
-			if (!PropertyService.Get<bool>("Unity.MonoDoc.PromptUser", false))
+			if (!PropertyService.Get<bool>("Unity.MonoDoc.PromptUser", false) && Helpers.WhatOS() == Helpers.OS.Mac)
 			{
+				PropertyService.Set("Unity.MonoDoc.PromptUser", true);
 				handler.InstallDocumentation();
 			}
             #endregion

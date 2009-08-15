@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<Type Name="TerrainRenderer" FullName="UnityEngineInternal.TerrainRenderer">
+  <TypeSignature Language="C#" Value="public class TerrainRenderer"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TerrainRenderer (UnityEngine.TerrainData terrainData, UnityEngine.Vector3 position);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="terrainData" Type="UnityEngine.TerrainData"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="terrainData">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Cleanup">
+      <MemberSignature Language="C#" Value="public void Cleanup ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSplatBaseMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material GetSplatBaseMaterial (UnityEngine.TerrainLighting renderMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="renderMode" Type="UnityEngine.TerrainLighting"/>
+      </Parameters>
+      <Docs>
+        <param name="renderMode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ReloadAll">
+      <MemberSignature Language="C#" Value="public void ReloadAll ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ReloadBounds">
+      <MemberSignature Language="C#" Value="public void ReloadBounds ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ReloadPrecomputedError">
+      <MemberSignature Language="C#" Value="public void ReloadPrecomputedError ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderStep1">
+      <MemberSignature Language="C#" Value="public void RenderStep1 (UnityEngine.Camera camera, UnityEngine.TerrainLighting renderMode, int maxLodLevel, float tau, float splatDistance, int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="renderMode" Type="UnityEngine.TerrainLighting"/>
+        <Parameter Name="maxLodLevel" Type="System.Int32"/>
+        <Parameter Name="tau" Type="System.Single"/>
+        <Parameter Name="splatDistance" Type="System.Single"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <param name="renderMode">To be added.</param>
+        <param name="maxLodLevel">To be added.</param>
+        <param name="tau">To be added.</param>
+        <param name="splatDistance">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderStep2">
+      <MemberSignature Language="C#" Value="public void RenderStep2 ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderStep3">
+      <MemberSignature Language="C#" Value="public void RenderStep3 (UnityEngine.Camera camera, int layer, float realtimeLightDistance, bool castShadows);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="realtimeLightDistance" Type="System.Single"/>
+        <Parameter Name="castShadows" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="realtimeLightDistance">To be added.</param>
+        <param name="castShadows">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="terrainData">
+      <MemberSignature Language="C#" Value="public UnityEngine.TerrainData terrainData { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TerrainData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

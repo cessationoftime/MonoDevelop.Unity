@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Type Name="GUILayoutOption" FullName="UnityEngine.GUILayoutOption">
+  <TypeSignature Language="C#" Value="public class GUILayoutOption"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Class internally used to pass layout options into <see cref="T:UnityEngine.GUILayout" /> functions. You don't use these directly, but construct them with the layouting functions in the <see cref="T:UnityEngine.GUILayout" /> class.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.GUILayout.Width" />, <see cref="P:UnityEngine.GUILayout.Height" />, <see cref="P:UnityEngine.GUILayout.MinWidth" />, <see cref="P:UnityEngine.GUILayout.MaxWidth" />, <see cref="P:UnityEngine.GUILayout.MinHeight" />, 		<see cref="P:UnityEngine.GUILayout.MaxHeight" />, <see cref="P:UnityEngine.GUILayout.ExpandWidth" />, <see cref="P:UnityEngine.GUILayout.ExpandHeight" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUILayoutOption (UnityEngine.GUILayoutOption.Type type, object value);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="UnityEngine.GUILayoutOption+Type"/>
+        <Parameter Name="value" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="type">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUILayoutOption.Type type;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutOption+Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="value">
+      <MemberSignature Language="C#" Value="public object value;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

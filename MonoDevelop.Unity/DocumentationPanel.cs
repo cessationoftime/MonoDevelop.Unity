@@ -27,6 +27,9 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 //
+using System;
+using System.Collections.Generic;
+
 using Gtk;
 
 using MonoDevelop.Core;
@@ -60,6 +63,10 @@ namespace MonoDevelop.Unity
         private Gtk.ComboBox comboDocumentationPreference;
         private Gtk.CheckButton checkForceLocal;
         private Gtk.CheckButton checkOpenInBrowser;
+		
+		
+		private Gtk.HBox boxInstall;
+		private Gtk.Button buttonInstall;
 
 		public DocumentationPanelWidget()
         {
@@ -82,6 +89,10 @@ namespace MonoDevelop.Unity
 			this.boxDocumentationPreference = new Gtk.HBox();
 			this.boxDocumentationPreference.Name = "boxDocumentationPreference";
 			this.boxDocumentationPreference.Spacing = 6;
+			
+			this.boxInstall = new Gtk.HBox();
+			this.boxInstall.Name = "boxInstall";
+			this.boxInstall.Spacing = 6;
 
             // Documentation Preference
             this.labelDocumentationPreference = new Gtk.Label();
@@ -165,9 +176,33 @@ namespace MonoDevelop.Unity
             setupCheckOpenInBrowser.Expand = false;
             setupCheckOpenInBrowser.Fill = false;
 
+			if ( Helpers.WhatOS() == Helpers.OS.Mac )
+			{
+				this.buttonInstall = new Gtk.Button();
+	            this.buttonInstall.Clicked += InstallDocsClicked;
+	            this.buttonInstall.Label = GettextCatalog.GetString("Install In-Line Documentation");
+				
+				this.boxInstall.Add(this.buttonInstall);
+				
+				Gtk.Box.BoxChild setupButtonInstall = ((Gtk.Box.BoxChild)(this.boxInstall[this.buttonInstall]));
+	            setupButtonInstall.Position = 1;
+	            setupButtonInstall.Expand = false;
+	            setupButtonInstall.Fill = false;
+	            
+				this.boxPreferences.Add(this.boxInstall);
+	
+	
+	            Gtk.Box.BoxChild setupBoxInstall = ((Gtk.Box.BoxChild)(this.boxPreferences[this.boxInstall]));
+	            setupBoxInstall.Position = 4;
+	            setupBoxInstall.Expand = false;
+	            setupBoxInstall.Fill = false;
+			}
+			
             this.Add(this.boxPreferences);
 
 
+			
+			
             if ((this.Child != null)) {
                 this.Child.ShowAll();
             }
@@ -175,6 +210,12 @@ namespace MonoDevelop.Unity
             this.Show();
         }
 
+		
+		void InstallDocsClicked (object sender, EventArgs e)
+        {
+            Base handler = new Base();
+			handler.InstallDocumentation();
+        }
 
         public void Save ()
         {

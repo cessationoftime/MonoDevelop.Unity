@@ -1,0 +1,22 @@
+<Type Name="EditorUtility+SelectPopupAssetsMenu" FullName="UnityEditor.EditorUtility+SelectPopupAssetsMenu">
+  <TypeSignature Language="C#" Value="public delegate void EditorUtility.SelectPopupAssetsMenu(Object target);" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="target" Type="UnityEngine.Object" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="target">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1" />
+  </Docs>
+</Type>

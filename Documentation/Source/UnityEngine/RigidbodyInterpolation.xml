@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="RigidbodyInterpolation" FullName="UnityEngine.RigidbodyInterpolation">
+  <TypeSignature Language="C#" Value="public enum RigidbodyInterpolation"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary><see cref="T:UnityEngine.Rigidbody" /> interpolation mode.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Extrapolate">
+      <MemberSignature Language="C#" Value="Extrapolate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyInterpolation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Extrapolation will predict the position of the rigidbody based on the current velocity.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+    </Member>
+    <Member MemberName="Interpolate">
+      <MemberSignature Language="C#" Value="Interpolate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyInterpolation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Interpolation will always lag a little bit behind but can be smoother than extrapolation.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyInterpolation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No Interpolation.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

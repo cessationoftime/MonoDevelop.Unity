@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Type Name="TextureImporterFormat" FullName="UnityEditor.TextureImporterFormat">
+  <TypeSignature Language="C#" Value="public enum TextureImporterFormat"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Imported texture format for <see cref="T:UnityEditor.TextureImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Alpha8">
+      <MemberSignature Language="C#" Value="Alpha8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Alpha 8 bit texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ARGB16">
+      <MemberSignature Language="C#" Value="ARGB16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>RGBA 16 bit texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ARGB32">
+      <MemberSignature Language="C#" Value="ARGB32"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>RGBA 32 bit texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="Automatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Choose format automatically.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DXT1">
+      <MemberSignature Language="C#" Value="DXT1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>DXT1 compresed texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DXT5">
+      <MemberSignature Language="C#" Value="DXT5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>DXT5 compresed texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="RGB16">
+      <MemberSignature Language="C#" Value="RGB16"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>RGB 16 bit texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="RGB24">
+      <MemberSignature Language="C#" Value="RGB24"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>RGB 24 bit texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.textureFormat" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

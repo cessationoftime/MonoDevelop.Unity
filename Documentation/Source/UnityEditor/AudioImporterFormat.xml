@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="AudioImporterFormat" FullName="UnityEditor.AudioImporterFormat">
+  <TypeSignature Language="C#" Value="public enum AudioImporterFormat"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Imported audio format for <see cref="T:UnityEditor.AudioImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.format" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="Automatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Choose format automatically.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.format" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="OggVorbis">
+      <MemberSignature Language="C#" Value="OggVorbis"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ogg Vorbis audio.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.format" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Uncompressed">
+      <MemberSignature Language="C#" Value="Uncompressed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Uncompressed raw audio.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.format" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

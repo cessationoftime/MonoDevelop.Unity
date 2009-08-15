@@ -36,23 +36,16 @@ using MonoDevelop.Core;
 using MonoDevelop.Core.Gui;
 using MonoDevelop.Core.Gui.WebBrowser;
 
-namespace MonoDevelop.Unity
+namespace MonoDevelop.Unity 
 {
-
-
-    public class Base
-    {
-		
-	
+    public class Base 
+	{
 		public bool InstallDocumentation()
-		{	
-			
+		{		
 			PropertyService.Set("Unity.MonoDoc.PromptUser", true);
 			
-			if ( Helpers.AskYesNoQuestion("Install Documentation", "Would you like to install the Unity documentation?") )
+			if (MessageService.AskQuestion("Would you like to install the Unity documentation?","Install Documentation", new AlertButton[] { AlertButton.Ok, AlertButton.Cancel } ) == AlertButton.Ok )
 			{
-
-				
 				if ( Helpers.WhatOS() == Helpers.OS.Mac )
 				{
 					Directory.CreateDirectory("/MonoDevelop.Unity/");
@@ -61,36 +54,38 @@ namespace MonoDevelop.Unity
 					Helpers.WriteResourceToFile("Unity.tree", "/MonoDevelop.Unity/Unity.tree");
 					Helpers.WriteResourceToFile("Unity.zip", "/MonoDevelop.Unity/Unity.zip");
 					
-					string password = Helpers.AskForPassword("Please enter your account password. It will NOT be saved.", "SUDO Password Required");
+					string password = MessageService.GetPassword("Please enter your account password, it will NOT be saved", "SUDO Password Required");
+						
+					
+					System.Diagnostics.Process p = new System.Diagnostics.Process();
+					p.StartInfo.RedirectStandardError = true;
+					p.StartInfo.RedirectStandardOutput = true;	
+					p.StartInfo.RedirectStandardInput = true;
+					p.StartInfo.FileName ="/bin/bash";
+					p.StartInfo.UseShellExecute = false;
+					p.Start();
+					p.StandardInput.WriteLine("/usr/bin/sudo -S cp -f /MonoDevelop.Unity/* " + Settings.MAC_MONODOC_SOURCES + "/");
 					if ( password.Length > 0 )
-					{
-						System.Diagnostics.Process p = new System.Diagnostics.Process();
-						p.StartInfo.RedirectStandardError = true;
-						p.StartInfo.RedirectStandardOutput = true;		
-						p.StartInfo.RedirectStandardInput = true;
-						p.StartInfo.FileName ="/bin/bash";
-						p.StartInfo.UseShellExecute = false;
-						p.Start();
-						p.StandardInput.WriteLine("/usr/bin/sudo -S -- cp -f /MonoDevelop.Unity/* " + Settings.MAC_MONODOC_SOURCES + "/");
+					{	
 						p.StandardInput.WriteLine(password);
-						p.StandardInput.WriteLine("exit");
-						p.WaitForExit();
-						string output = p.StandardError.ReadToEnd();
-						if ( !empty(output))
-						{
-							Helpers.ShowMessage(output);
-						}
-						else
-						{
-							PropertyService.Set("Unity.MonoDoc.Installed", Settings.MONODOC_VERSION);
-						}
 					}
+					p.StandardInput.WriteLine("exit");
+					p.WaitForExit(500);
+					
 					
 					Directory.Delete("/MonoDevelop.Unity/", true);
+					
+					if ( File.Exists(Settings.MAC_MONODOC_SOURCES + "/Unity.source") ) 
+					{
+						PropertyService.Set("Unity.MonoDoc.Installed", Settings.MONODOC_VERSION);
+						PropertyService.Set("Unity.MonoDoc.Version", Settings.MONODOC_VERSION);
+					}
+					else
+					{
+						MessageService.ShowError("An error occured while trying to install the documentation.\n\nPlease try again.");
+					}
 				}
-				else if ( Helpers.WhatOS() == Helpers.OS.Mac )
-				{
-				}
+				
 				
 				
 				return true;
@@ -234,8 +229,8 @@ namespace MonoDevelop.Unity
                 }
                 else
                 {
-                    Helpers.ShowMessage(GettextCatalog.GetString("Missing Extension"),
-                        GettextCatalog.GetString("The Mono.WebBrowser Extension (part of Mono) is required for this functionality to work. We'll set your \"Open In Browser\" setting back to open with your default browser."));
+					MessageService.ShowMessage(GettextCatalog.GetString("Missing Extension"),
+                   		GettextCatalog.GetString("The Mono.WebBrowser Extension (part of Mono) is required for this functionality to work. We'll set your \"Open In Browser\" setting back to open with your default browser."));
                     PropertyService.Set("Unity.Base.Documentation.OpenInBrowser", true);
                     return false;
                 }

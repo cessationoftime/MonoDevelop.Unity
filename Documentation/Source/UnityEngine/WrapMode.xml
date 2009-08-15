@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Type Name="WrapMode" FullName="UnityEngine.WrapMode">
+  <TypeSignature Language="C#" Value="public enum WrapMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Determines how time is treated where no keyframes are defined.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Clamp">
+      <MemberSignature Language="C#" Value="Clamp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ClampForever">
+      <MemberSignature Language="C#" Value="ClampForever"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Plays back the animation. When it reaches the end, it will keep playing the last frame and never stop playing.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reads the repeat mode from the animation curves, which can be set to Loop or PingPong.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Loop">
+      <MemberSignature Language="C#" Value="Loop"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When time reaches the end of the animation clip, time will continue at the beginning</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Once">
+      <MemberSignature Language="C#" Value="Once"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When time reaches the end of the animation clip, the clip will automatically stop playing.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PingPong">
+      <MemberSignature Language="C#" Value="PingPong"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When time reaches the end of the animation clip, time will ping pong back between beginning and end</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

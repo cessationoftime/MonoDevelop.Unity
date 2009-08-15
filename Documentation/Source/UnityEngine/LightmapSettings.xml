@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Type Name="LightmapSettings" FullName="UnityEngine.LightmapSettings">
+  <TypeSignature Language="C#" Value="public class LightmapSettings"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Stores lightmaps of the scene.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.LightmapData" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LightmapSettings ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="lightmaps">
+      <MemberSignature Language="C#" Value="public static UnityEngine.LightmapData[] lightmaps { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightmapData[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightmap array.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.LightmapData" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

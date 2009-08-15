@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="ImagePosition" FullName="UnityEngine.ImagePosition">
+  <TypeSignature Language="C#" Value="public enum ImagePosition"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>How image and text is placed inside <see cref="T:UnityEngine.GUIStyle" />.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="ImageAbove">
+      <MemberSignature Language="C#" Value="ImageAbove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ImagePosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Image is above the text.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageLeft">
+      <MemberSignature Language="C#" Value="ImageLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ImagePosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Image is to the left of the text.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageOnly">
+      <MemberSignature Language="C#" Value="ImageOnly"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ImagePosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only the image is displayed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TextOnly">
+      <MemberSignature Language="C#" Value="TextOnly"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ImagePosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only the text is displayed.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

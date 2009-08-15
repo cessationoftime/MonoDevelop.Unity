@@ -1,0 +1,937 @@
+<?xml version="1.0"?>
+<Type Name="Physics" FullName="UnityEngine.Physics">
+  <TypeSignature Language="C#" Value="public class Physics"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Global physics properties and helper methods.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Physics ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="bounceThreshold">
+      <MemberSignature Language="C#" Value="public static float bounceThreshold { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Two colliding objects with a relative velocity below this will not bounce (default 2). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="bounceTreshold">
+      <MemberSignature Language="C#" Value="public static float bounceTreshold { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Please use bounceThreshold instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckCapsule">
+      <MemberSignature Language="C#" Value="public static bool CheckCapsule (UnityEngine.Vector3 start, UnityEngine.Vector3 end, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Returns true if there are any colliders touching the capsule defined by the axis going from start and end and having radius in world coordinates</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckCapsule">
+      <MemberSignature Language="C#" Value="public static bool CheckCapsule (UnityEngine.Vector3 start, UnityEngine.Vector3 end, float radius, int layermask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+        <Parameter Name="layermask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="radius">To be added.</param>
+        <param name="layermask">To be added.</param>
+        <summary>Returns true if there are any colliders touching the capsule defined by the axis going from start and end and having radius in world coordinates</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSphere">
+      <MemberSignature Language="C#" Value="public static bool CheckSphere (UnityEngine.Vector3 position, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Returns true if there are any colliders touching the sphere defined by position and radius in world coordinates</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckSphere">
+      <MemberSignature Language="C#" Value="public static bool CheckSphere (UnityEngine.Vector3 position, float radius, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Returns true if there are any colliders touching the sphere defined by position and radius in world coordinates</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="gravity">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 gravity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The gravity applied to all rigid bodies in the scene.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCollision">
+      <MemberSignature Language="C#" Value="public static void IgnoreCollision (UnityEngine.Collider collider1, UnityEngine.Collider collider2);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider1" Type="UnityEngine.Collider"/>
+        <Parameter Name="collider2" Type="UnityEngine.Collider"/>
+      </Parameters>
+      <Docs>
+        <param name="collider1">To be added.</param>
+        <param name="collider2">To be added.</param>
+        <summary>Makes the collision detection system ignore all collisions between collider1 and collider2.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCollision">
+      <MemberSignature Language="C#" Value="public static void IgnoreCollision (UnityEngine.Collider collider1, UnityEngine.Collider collider2, bool ignore);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider1" Type="UnityEngine.Collider"/>
+        <Parameter Name="collider2" Type="UnityEngine.Collider"/>
+        <Parameter Name="ignore" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="collider1">To be added.</param>
+        <param name="collider2">To be added.</param>
+        <param name="ignore">To be added.</param>
+        <summary>Makes the collision detection system ignore all collisions between collider1 and collider2.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="kAllLayers">
+      <MemberSignature Language="C#" Value="public const int kAllLayers = -1;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="kDefaultRaycastLayers">
+      <MemberSignature Language="C#" Value="public const int kDefaultRaycastLayers = -5;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>-5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="kIgnoreRaycastLayer">
+      <MemberSignature Language="C#" Value="public const int kIgnoreRaycastLayer = 4;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Linecast">
+      <MemberSignature Language="C#" Value="public static bool Linecast (UnityEngine.Vector3 start, UnityEngine.Vector3 end);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <summary>Returns true if there is any collider intersecting the line between start and end.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Linecast">
+      <MemberSignature Language="C#" Value="public static bool Linecast (UnityEngine.Vector3 start, UnityEngine.Vector3 end, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Returns true if there is any collider intersecting the line between start and end.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Linecast">
+      <MemberSignature Language="C#" Value="public static bool Linecast (UnityEngine.Vector3 start, UnityEngine.Vector3 end, out UnityEngine.RaycastHit hitInfo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <summary>Returns true if there is any collider intersecting the line between start and end.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Linecast">
+      <MemberSignature Language="C#" Value="public static bool Linecast (UnityEngine.Vector3 start, UnityEngine.Vector3 end, out UnityEngine.RaycastHit hitInfo, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="start" Type="UnityEngine.Vector3"/>
+        <Parameter Name="end" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="start">To be added.</param>
+        <param name="end">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Returns true if there is any collider intersecting the line between start and end.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="maxAngularVelocity">
+      <MemberSignature Language="C#" Value="public static float maxAngularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default maximimum angular velocity permitted for any rigid bodies (default 7). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="minPenetrationForPenalty">
+      <MemberSignature Language="C#" Value="public static float minPenetrationForPenalty { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The minimum contact penetration value in order to apply a penalty force (default 0.05). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OverlapSphere">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Collider[] OverlapSphere (UnityEngine.Vector3 position, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Collider[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Returns an array with all colliders touching or inside the sphere.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OverlapSphere">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Collider[] OverlapSphere (UnityEngine.Vector3 position, float radius, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Collider[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Returns an array with all colliders touching or inside the sphere.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="penetrationPenaltyForce">
+      <MemberSignature Language="C#" Value="public static float penetrationPenaltyForce { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray, float distance, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, float distance, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, float distance, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, out UnityEngine.RaycastHit hitInfo, float distance, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hitInfo" Type="UnityEngine.RaycastHit&amp;" RefType="out"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="hitInfo">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Casts a ray against all colliders in the scene.</summary>
+        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Ray ray);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Ray ray, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Ray ray, float distance, int layerMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layerMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layerMask">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, float distance);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="distance" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RaycastAll">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RaycastHit[] RaycastAll (UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, float distance, int layermask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RaycastHit[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="origin" Type="UnityEngine.Vector3"/>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+        <Parameter Name="distance" Type="System.Single"/>
+        <Parameter Name="layermask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="origin">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="distance">To be added.</param>
+        <param name="layermask">To be added.</param>
+        <summary>Casts a ray through the scene and returns all hits.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sleepAngularVelocity">
+      <MemberSignature Language="C#" Value="public static float sleepAngularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default angular velocity, below which objects start sleeping (default 0.14). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sleepVelocity">
+      <MemberSignature Language="C#" Value="public static float sleepVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default linear velocity, below which objects start going to sleep (default 0.15). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="solverIterationCount">
+      <MemberSignature Language="C#" Value="public static int solverIterationCount { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default solver iteration count permitted for any rigid bodies (default 7). Must be positive.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

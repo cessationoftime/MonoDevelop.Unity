@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<Type Name="Transform" FullName="UnityEngine.Transform">
+  <TypeSignature Language="C#" Value="public class Transform : UnityEngine.Component, System.Collections.IEnumerable"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Component</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Position, rotation and scale of an object.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.The component reference" />, <see cref="T:UnityEngine.Physics" /> class.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="childCount">
+      <MemberSignature Language="C#" Value="public int childCount { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of children the Transform has.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DetachChildren">
+      <MemberSignature Language="C#" Value="public void DetachChildren ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Unparents all children.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="eulerAngles">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 eulerAngles { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation as Euler angles in degrees.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform Find (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Finds a child by name and returns it.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="FindChild">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform FindChild (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="forward">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 forward { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The blue axis of the transform in world space.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChild">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform GetChild (int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChildCount">
+      <MemberSignature Language="C#" Value="public int GetChildCount ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator GetEnumerator ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InverseTransformDirection">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 InverseTransformDirection (UnityEngine.Vector3 direction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="direction">To be added.</param>
+        <summary>Transforms a direction from world space to local space. The opposite of <see cref="P:UnityEngine.Transform.TransformDirection" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InverseTransformDirection">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 InverseTransformDirection (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Transforms a direction from world space to local space. The opposite of <see cref="P:UnityEngine.Transform.TransformDirection" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InverseTransformPoint">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 InverseTransformPoint (UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>Transforms position from world space to local space. The opposite of <see cref="P:UnityEngine.Transform.TransformPoint" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InverseTransformPoint">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 InverseTransformPoint (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Transforms position from world space to local space. The opposite of <see cref="P:UnityEngine.Transform.TransformPoint" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsChildOf">
+      <MemberSignature Language="C#" Value="public bool IsChildOf (UnityEngine.Transform parent);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="UnityEngine.Transform"/>
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <summary>Is this transform a child of parent?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="localEulerAngles">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 localEulerAngles { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation as Euler angles in degrees relative to the parent transform's rotation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="localPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 localPosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Position of the transform relative to the parent transform.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="localRotation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Quaternion localRotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation of the transform relative to the parent transform's rotation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="localScale">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 localScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The scale of the transform relative to the parent.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="localToWorldMatrix">
+      <MemberSignature Language="C#" Value="public UnityEngine.Matrix4x4 localToWorldMatrix { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Matrix that transforms a point from local space into world space (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LookAt">
+      <MemberSignature Language="C#" Value="public void LookAt (UnityEngine.Transform target);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Transform"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>Rotates the transform so the forward vector points at /target/'s current position.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LookAt">
+      <MemberSignature Language="C#" Value="public void LookAt (UnityEngine.Vector3 worldPosition);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldPosition" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="worldPosition">To be added.</param>
+        <summary>Rotates the transform so the forward vector points at /target/'s current position.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LookAt">
+      <MemberSignature Language="C#" Value="public void LookAt (UnityEngine.Transform target, UnityEngine.Vector3 worldUp);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Transform"/>
+        <Parameter Name="worldUp" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="worldUp">To be added.</param>
+        <summary>Rotates the transform so the forward vector points at /target/'s current position.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LookAt">
+      <MemberSignature Language="C#" Value="public void LookAt (UnityEngine.Vector3 worldPosition, UnityEngine.Vector3 worldUp);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="worldUp" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="worldPosition">To be added.</param>
+        <param name="worldUp">To be added.</param>
+        <summary>Rotates the transform so the forward vector points at /target/'s current position.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="lossyScale">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 lossyScale { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The global scale of the object (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="parent">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform parent { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The parent of the transform.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="position">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 position { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The position of the transform in world space.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="right">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 right { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The red axis of the transform in world space.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="root">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform root { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the topmost transform in the hierarchy.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (UnityEngine.Vector3 eulerAngles);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eulerAngles" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="eulerAngles">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (UnityEngine.Vector3 axis, float angle);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axis" Type="UnityEngine.Vector3"/>
+        <Parameter Name="angle" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="axis">To be added.</param>
+        <param name="angle">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (UnityEngine.Vector3 eulerAngles, UnityEngine.Space relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eulerAngles" Type="UnityEngine.Vector3"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Space"/>
+      </Parameters>
+      <Docs>
+        <param name="eulerAngles">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (float xAngle, float yAngle, float zAngle);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="xAngle" Type="System.Single"/>
+        <Parameter Name="yAngle" Type="System.Single"/>
+        <Parameter Name="zAngle" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="xAngle">To be added.</param>
+        <param name="yAngle">To be added.</param>
+        <param name="zAngle">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (UnityEngine.Vector3 axis, float angle, UnityEngine.Space relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axis" Type="UnityEngine.Vector3"/>
+        <Parameter Name="angle" Type="System.Single"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Space"/>
+      </Parameters>
+      <Docs>
+        <param name="axis">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="public void Rotate (float xAngle, float yAngle, float zAngle, UnityEngine.Space relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="xAngle" Type="System.Single"/>
+        <Parameter Name="yAngle" Type="System.Single"/>
+        <Parameter Name="zAngle" Type="System.Single"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Space"/>
+      </Parameters>
+      <Docs>
+        <param name="xAngle">To be added.</param>
+        <param name="yAngle">To be added.</param>
+        <param name="zAngle">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RotateAround">
+      <MemberSignature Language="C#" Value="public void RotateAround (UnityEngine.Vector3 axis, float angle);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axis" Type="UnityEngine.Vector3"/>
+        <Parameter Name="angle" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="axis">To be added.</param>
+        <param name="angle">To be added.</param>
+        <summary>Rotates the transform about axis passsing through point in world coordinates by angle degrees.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RotateAround">
+      <MemberSignature Language="C#" Value="public void RotateAround (UnityEngine.Vector3 point, UnityEngine.Vector3 axis, float angle);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector3"/>
+        <Parameter Name="axis" Type="UnityEngine.Vector3"/>
+        <Parameter Name="angle" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="axis">To be added.</param>
+        <param name="angle">To be added.</param>
+        <summary>Rotates the transform about axis passsing through point in world coordinates by angle degrees.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RotateAroundLocal">
+      <MemberSignature Language="C#" Value="public void RotateAroundLocal (UnityEngine.Vector3 axis, float angle);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="axis" Type="UnityEngine.Vector3"/>
+        <Parameter Name="angle" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="axis">To be added.</param>
+        <param name="angle">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="rotation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Quaternion rotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation of the transform in world space stored as a <see cref="T:UnityEngine.Quaternion" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TransformDirection">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 TransformDirection (UnityEngine.Vector3 direction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="direction" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="direction">To be added.</param>
+        <summary>Transforms direction from local space to world space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TransformDirection">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 TransformDirection (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Transforms direction from local space to world space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TransformPoint">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 TransformPoint (UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>Transforms position from local space to world space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TransformPoint">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 TransformPoint (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Transforms position from local space to world space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (UnityEngine.Vector3 translation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="translation" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="translation">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (UnityEngine.Vector3 translation, UnityEngine.Space relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="translation" Type="UnityEngine.Vector3"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Space"/>
+      </Parameters>
+      <Docs>
+        <param name="translation">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (UnityEngine.Vector3 translation, UnityEngine.Transform relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="translation" Type="UnityEngine.Vector3"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Transform"/>
+      </Parameters>
+      <Docs>
+        <param name="translation">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (float x, float y, float z, UnityEngine.Space relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Space"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (float x, float y, float z, UnityEngine.Transform relativeTo);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="relativeTo" Type="UnityEngine.Transform"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="relativeTo">To be added.</param>
+        <summary>Moves the transform in the direction and distance of translation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="up">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 up { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The green axis of the transform in world space.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="worldToLocalMatrix">
+      <MemberSignature Language="C#" Value="public UnityEngine.Matrix4x4 worldToLocalMatrix { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Matrix that transforms a point from world space into local space (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

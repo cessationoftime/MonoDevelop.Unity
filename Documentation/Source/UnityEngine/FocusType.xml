@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="FocusType" FullName="UnityEngine.FocusType">
+  <TypeSignature Language="C#" Value="public enum FocusType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Used by <see cref="P:UnityEngine.GUIUtility.GetcontrolID" /> to inform the UnityGUI system if a given control can get keyboard focus.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Keyboard">
+      <MemberSignature Language="C#" Value="Keyboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FocusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is a proper keyboard control. It can have input focus on all platforms. Used for TextField and TextArea controls</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Native">
+      <MemberSignature Language="C#" Value="Native"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FocusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This control can get keyboard focus on Windows, but not on Mac. Used for buttons, checkboxes and other "pressable" things.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Passive">
+      <MemberSignature Language="C#" Value="Passive"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FocusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This control can never recieve keyboard focus.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

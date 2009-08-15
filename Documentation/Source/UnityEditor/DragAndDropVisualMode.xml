@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="DragAndDropVisualMode" FullName="UnityEditor.DragAndDropVisualMode">
+  <TypeSignature Language="C#" Value="public enum DragAndDropVisualMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Visual indication mode for Drag &amp; Drop operation.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="Copy"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DragAndDropVisualMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Copy dragged objects.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="Generic">
+      <MemberSignature Language="C#" Value="Generic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DragAndDropVisualMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generic drag operation.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="Link">
+      <MemberSignature Language="C#" Value="Link"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DragAndDropVisualMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Link dragged objects to target.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="Move"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DragAndDropVisualMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Move dragged objects.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DragAndDropVisualMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No indication (drag should not be performed).</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="T:UnityEditor.DragAndDrop" /> class.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

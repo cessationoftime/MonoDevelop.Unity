@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Type Name="HideFlags" FullName="UnityEngine.HideFlags">
+  <TypeSignature Language="C#" Value="public enum HideFlags"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Bit mask that controls object destruction and visibility in inspectors</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="DontSave">
+      <MemberSignature Language="C#" Value="DontSave"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HideFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object will not be saved to the scene. It will not be destroyed when a new scene is loaded.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HideAndDontSave">
+      <MemberSignature Language="C#" Value="HideAndDontSave"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HideFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A combination of not shown in the hierarchy and not saved to to scenes.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HideInHierarchy">
+      <MemberSignature Language="C#" Value="HideInHierarchy"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HideFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object will not appear in the hierarchy and</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="HideInInspector">
+      <MemberSignature Language="C#" Value="HideInInspector"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HideFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>It is not possible to view it in the inspector</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NotEditable">
+      <MemberSignature Language="C#" Value="NotEditable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HideFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is not be editable in the inspector</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

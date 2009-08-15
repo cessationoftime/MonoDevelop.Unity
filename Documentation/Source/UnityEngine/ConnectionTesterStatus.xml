@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Type Name="ConnectionTesterStatus" FullName="UnityEngine.ConnectionTesterStatus">
+  <TypeSignature Language="C#" Value="public enum ConnectionTesterStatus"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateIPHasNATPunchThrough">
+      <MemberSignature Language="C#" Value="PrivateIPHasNATPunchThrough"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Private IP address detected which can do NAT punchthrough.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateIPNoNATPunchthrough">
+      <MemberSignature Language="C#" Value="PrivateIPNoNATPunchthrough"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Private IP address detected which cannot do NAT punchthrough.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPIsConnectable">
+      <MemberSignature Language="C#" Value="PublicIPIsConnectable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Public IP address detected and game listen port is accessible to the internet.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPNoServerStarted">
+      <MemberSignature Language="C#" Value="PublicIPNoServerStarted"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Public IP address detected but server is not initialized and no port is listening.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicIPPortBlocked">
+      <MemberSignature Language="C#" Value="PublicIPPortBlocked"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Public IP address detected but the port is not connectable from the internet.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Undetermined">
+      <MemberSignature Language="C#" Value="Undetermined"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Test result undetermined, still in progress.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1024 @@
+<?xml version="1.0"?>
+<Type Name="Rigidbody" FullName="UnityEngine.Rigidbody">
+  <TypeSignature Language="C#" Value="public class Rigidbody : UnityEngine.Component"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Component</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Control of an object's position through physics simulation.</summary>
+    <remarks>(Read Only).</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Rigidbody ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddExplosionForce">
+      <MemberSignature Language="C#" Value="public void AddExplosionForce (float explosionForce, UnityEngine.Vector3 explosionPosition, float explosionRadius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="explosionForce" Type="System.Single"/>
+        <Parameter Name="explosionPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="explosionRadius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="explosionForce">To be added.</param>
+        <param name="explosionPosition">To be added.</param>
+        <param name="explosionRadius">To be added.</param>
+        <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddExplosionForce">
+      <MemberSignature Language="C#" Value="public void AddExplosionForce (float explosionForce, UnityEngine.Vector3 explosionPosition, float explosionRadius, float upwardsModifier);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="explosionForce" Type="System.Single"/>
+        <Parameter Name="explosionPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="explosionRadius" Type="System.Single"/>
+        <Parameter Name="upwardsModifier" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="explosionForce">To be added.</param>
+        <param name="explosionPosition">To be added.</param>
+        <param name="explosionRadius">To be added.</param>
+        <param name="upwardsModifier">To be added.</param>
+        <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddExplosionForce">
+      <MemberSignature Language="C#" Value="public void AddExplosionForce (float explosionForce, UnityEngine.Vector3 explosionPosition, float explosionRadius, float upwardsModifier, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="explosionForce" Type="System.Single"/>
+        <Parameter Name="explosionPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="explosionRadius" Type="System.Single"/>
+        <Parameter Name="upwardsModifier" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="explosionForce">To be added.</param>
+        <param name="explosionPosition">To be added.</param>
+        <param name="explosionRadius">To be added.</param>
+        <param name="upwardsModifier">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForce">
+      <MemberSignature Language="C#" Value="public void AddForce (UnityEngine.Vector3 force);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForce">
+      <MemberSignature Language="C#" Value="public void AddForce (UnityEngine.Vector3 force, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForce">
+      <MemberSignature Language="C#" Value="public void AddForce (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForce">
+      <MemberSignature Language="C#" Value="public void AddForce (float x, float y, float z, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForceAtPosition">
+      <MemberSignature Language="C#" Value="public void AddForceAtPosition (UnityEngine.Vector3 force, UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>Applies force at position. As a result this will apply a torque and force on the object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForceAtPosition">
+      <MemberSignature Language="C#" Value="public void AddForceAtPosition (UnityEngine.Vector3 force, UnityEngine.Vector3 position, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Applies force at position. As a result this will apply a torque and force on the object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeForce">
+      <MemberSignature Language="C#" Value="public void AddRelativeForce (UnityEngine.Vector3 force);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeForce">
+      <MemberSignature Language="C#" Value="public void AddRelativeForce (UnityEngine.Vector3 force, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeForce">
+      <MemberSignature Language="C#" Value="public void AddRelativeForce (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeForce">
+      <MemberSignature Language="C#" Value="public void AddRelativeForce (float x, float y, float z, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeTorque">
+      <MemberSignature Language="C#" Value="public void AddRelativeTorque (UnityEngine.Vector3 torque);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="torque" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="torque">To be added.</param>
+        <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeTorque">
+      <MemberSignature Language="C#" Value="public void AddRelativeTorque (UnityEngine.Vector3 torque, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="torque" Type="UnityEngine.Vector3"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="torque">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeTorque">
+      <MemberSignature Language="C#" Value="public void AddRelativeTorque (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRelativeTorque">
+      <MemberSignature Language="C#" Value="public void AddRelativeTorque (float x, float y, float z, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTorque">
+      <MemberSignature Language="C#" Value="public void AddTorque (UnityEngine.Vector3 torque);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="torque" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="torque">To be added.</param>
+        <summary>Adds a torque to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTorque">
+      <MemberSignature Language="C#" Value="public void AddTorque (UnityEngine.Vector3 torque, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="torque" Type="UnityEngine.Vector3"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="torque">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a torque to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTorque">
+      <MemberSignature Language="C#" Value="public void AddTorque (float x, float y, float z);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <summary>Adds a torque to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTorque">
+      <MemberSignature Language="C#" Value="public void AddTorque (float x, float y, float z, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single"/>
+        <Parameter Name="y" Type="System.Single"/>
+        <Parameter Name="z" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="z">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds a torque to the rigidbody.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularDrag">
+      <MemberSignature Language="C#" Value="public float angularDrag { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The angular drag of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="angularVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 angularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The angular velocity vector of the rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="centerOfMass">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 centerOfMass { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The center of mass relative to the transform's origin.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPointOnBounds">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 ClosestPointOnBounds (UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>The closest point to the bounding box of the attached colliders.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="detectCollisions">
+      <MemberSignature Language="C#" Value="public bool detectCollisions { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should collision detection be enabled? (By default always enabled)</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="drag">
+      <MemberSignature Language="C#" Value="public float drag { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The drag of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="freezeRotation">
+      <MemberSignature Language="C#" Value="public bool freezeRotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls whether physics will change the rotation of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPointVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 GetPointVelocity (UnityEngine.Vector3 worldPoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldPoint" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="worldPoint">To be added.</param>
+        <summary>The velocity of the rigidbody at the point worldPoint in global space.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRelativePointVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 GetRelativePointVelocity (UnityEngine.Vector3 relativePoint);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="relativePoint" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="relativePoint">To be added.</param>
+        <summary>The velocity relative to the rigidbody at the point relativePoint.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="inertiaTensor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 inertiaTensor { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The diagonal inertia tensor of mass relative to the center of mass.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="inertiaTensorRotation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Quaternion inertiaTensorRotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation of the inertia tensor.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="interpolation">
+      <MemberSignature Language="C#" Value="public UnityEngine.RigidbodyInterpolation interpolation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyInterpolation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Interpolation allows you to smooth out the effect of running physics at a fixed frame rate.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isKinematic">
+      <MemberSignature Language="C#" Value="public bool isKinematic { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls whether physics affects the rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSleeping">
+      <MemberSignature Language="C#" Value="public bool IsSleeping ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Is the rigidbody sleeping?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="mass">
+      <MemberSignature Language="C#" Value="public float mass { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The mass of the rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="maxAngularVelocity">
+      <MemberSignature Language="C#" Value="public float maxAngularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximimum angular velocity of the rigidbody. (Default 7) range { 0, infinity }</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MovePosition">
+      <MemberSignature Language="C#" Value="public void MovePosition (UnityEngine.Vector3 position);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>Moves the rigidbody to position.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveRotation">
+      <MemberSignature Language="C#" Value="public void MoveRotation (UnityEngine.Quaternion rot);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rot" Type="UnityEngine.Quaternion"/>
+      </Parameters>
+      <Docs>
+        <param name="rot">To be added.</param>
+        <summary>Rotates the rigidbody to rotation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="position">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 position { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The position of the rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="rotation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Quaternion rotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotation of the rigdibody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDensity">
+      <MemberSignature Language="C#" Value="public void SetDensity (float density);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="density" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="density">To be added.</param>
+        <summary>Sets the mass based on the attached colliders assuming a constant density.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaxAngularVelocity">
+      <MemberSignature Language="C#" Value="public void SetMaxAngularVelocity (float a);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="a" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="a">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Sleep">
+      <MemberSignature Language="C#" Value="public void Sleep ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Forces a rigidbody to sleep at least one frame.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sleepAngularVelocity">
+      <MemberSignature Language="C#" Value="public float sleepAngularVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The angular velocity, below which objects start going to sleep.  (Default 0.14) range { 0, infinity }</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="sleepVelocity">
+      <MemberSignature Language="C#" Value="public float sleepVelocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The linear velocity, below which objects start going to sleep. (Default 0.14) range { 0, infinity }</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="solverIterationCount">
+      <MemberSignature Language="C#" Value="public int solverIterationCount { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows you to override the solver iteration count per rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="useConeFriction">
+      <MemberSignature Language="C#" Value="public bool useConeFriction { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Force cone friction to be used for this rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="useGravity">
+      <MemberSignature Language="C#" Value="public bool useGravity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls whether gravity affects this rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="velocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 velocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The velocity vector of the rigidbody.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="WakeUp">
+      <MemberSignature Language="C#" Value="public void WakeUp ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Forces a rigidbody to wake up.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="worldCenterOfMass">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 worldCenterOfMass { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The center of mass of the rigidbody in world space (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

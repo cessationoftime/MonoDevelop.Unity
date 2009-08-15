@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Type Name="ScriptableWizard" FullName="UnityEditor.ScriptableWizard">
+  <TypeSignature Language="C#" Value="public class ScriptableWizard : UnityEditor.EditorWindow"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.EditorWindow</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Derive from this class to create an editor wizard.</summary>
+    <remarks>(Read Only)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ScriptableWizard ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayWizard">
+      <MemberSignature Language="C#" Value="public static UnityEditor.ScriptableWizard DisplayWizard (string title, Type klass);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ScriptableWizard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="title" Type="System.String"/>
+        <Parameter Name="klass" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="title">To be added.</param>
+        <param name="klass">To be added.</param>
+        <summary>Creates a wizard.</summary>
+        <returns>ScriptableWizard - The wizard.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayWizard">
+      <MemberSignature Language="C#" Value="public static UnityEditor.ScriptableWizard DisplayWizard (string title, Type klass, string createButtonName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ScriptableWizard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="title" Type="System.String"/>
+        <Parameter Name="klass" Type="System.Type"/>
+        <Parameter Name="createButtonName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="title">To be added.</param>
+        <param name="klass">To be added.</param>
+        <param name="createButtonName">To be added.</param>
+        <summary>Creates a wizard.</summary>
+        <returns>ScriptableWizard - The wizard.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayWizard">
+      <MemberSignature Language="C#" Value="public static UnityEditor.ScriptableWizard DisplayWizard (string title, Type klass, string createButtonName, string otherButtonName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ScriptableWizard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="title" Type="System.String"/>
+        <Parameter Name="klass" Type="System.Type"/>
+        <Parameter Name="createButtonName" Type="System.String"/>
+        <Parameter Name="otherButtonName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="title">To be added.</param>
+        <param name="klass">To be added.</param>
+        <param name="createButtonName">To be added.</param>
+        <param name="otherButtonName">To be added.</param>
+        <summary>Creates a wizard.</summary>
+        <returns>ScriptableWizard - The wizard.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="errorString">
+      <MemberSignature Language="C#" Value="public string errorString { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows you to set the error text of the wizard.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.ScriptableWizard.OnWizardUpdate" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="helpString">
+      <MemberSignature Language="C#" Value="public string helpString { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows you to set the help text of the wizard.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.ScriptableWizard.OnWizardUpdate" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="isValid">
+      <MemberSignature Language="C#" Value="public bool isValid { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows you to enable and disable the wizard create button, so that the user can not click it.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.ScriptableWizard.OnWizardUpdate" /></remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

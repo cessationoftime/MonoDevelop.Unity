@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="TerrainLighting" FullName="UnityEngine.TerrainLighting">
+  <TypeSignature Language="C#" Value="public enum TerrainLighting"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary><see cref="T:UnityEngine.Terrain" /> lighting mode.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Lightmap">
+      <MemberSignature Language="C#" Value="Lightmap"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TerrainLighting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Renders terrain with lightmap.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Pixel">
+      <MemberSignature Language="C#" Value="Pixel"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TerrainLighting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Renders terrain with lights up close, and lightmap far away.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="RenderModeCount">
+      <MemberSignature Language="C#" Value="RenderModeCount"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TerrainLighting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Vertex">
+      <MemberSignature Language="C#" Value="Vertex"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TerrainLighting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Renders terrain with vertex lighting.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

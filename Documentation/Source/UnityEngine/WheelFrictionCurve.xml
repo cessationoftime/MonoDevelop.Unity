@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Type Name="WheelFrictionCurve" FullName="UnityEngine.WheelFrictionCurve">
+  <TypeSignature Language="C#" Value="public struct WheelFrictionCurve"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>WheelFrictionCurve is used by the <see cref="T:UnityEngine.WheelCollider" /> to describe friction properties of the wheel tire.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.WheelCollider.GetGroundHit" />, <see cref="T:UnityEngine.WheelHit" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="asymptoteSlip">
+      <MemberSignature Language="C#" Value="public float asymptoteSlip { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Asymptote point slip (default 2).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="asymptoteValue">
+      <MemberSignature Language="C#" Value="public float asymptoteValue { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Force at the asymptote slip (default 10000).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="extremumSlip">
+      <MemberSignature Language="C#" Value="public float extremumSlip { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Extremum point slip (default 1).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="extremumValue">
+      <MemberSignature Language="C#" Value="public float extremumValue { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Force at the extremum slip (default 20000).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="stiffness">
+      <MemberSignature Language="C#" Value="public float stiffness { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Multiplier for the <see cref="P:UnityEngine.extremumValue" /> and <see cref="P:UnityEngine.asymptoteValue" /> values (default 1).</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.WheelCollider.GetGroundHit" />.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

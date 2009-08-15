@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="ForceMode" FullName="UnityEngine.ForceMode">
+  <TypeSignature Language="C#" Value="public enum ForceMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Option for how to apply a force using <see cref="P:UnityEngine.Rigidbody.AddForce" />.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Acceleration">
+      <MemberSignature Language="C#" Value="Acceleration"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ForceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Add a newton-like force to the rigidbody, ignoring its mass.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Force">
+      <MemberSignature Language="C#" Value="Force"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ForceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Add a newton-like force to the rigidbody, using its mass.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Impulse">
+      <MemberSignature Language="C#" Value="Impulse"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ForceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Change the rigidbody's velocity, using its mass.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="VelocityChange">
+      <MemberSignature Language="C#" Value="VelocityChange"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ForceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Change the rigidbody's velocity, ignoring its mass.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
