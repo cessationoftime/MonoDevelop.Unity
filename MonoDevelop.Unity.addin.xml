@@ -6,7 +6,7 @@
 	url         = "http://www.dotbunny.com/"
 	description = "Unity integration into MonoDevelop."
 	category    = "IDE extensions"
-    version     = "1.0.0" >
+    version     = "1.5.0" >
 
 	<Runtime>
 		<Import assembly="MonoDevelop.Unity.dll"/>
@@ -21,13 +21,6 @@
 		<Addin id="MonoDevelop.Projects.Gui" version="2.1.0"/>     
 		<Addin id="MonoDevelop.Deployment" version="2.1.0"/> 
     </Dependencies>
-	
-	<Extension path = "/MonoDevelop/ProjectModel/MSBuildItemTypes">
-		<DotNetProjectSubtype
-			guid="{B0E57834-6AAE-11DE-BDE9-DDF655D89593}" 
-			type="MonoDevelop.Unity.UnityProject"
-			/>
-	</Extension>
     
     <!-- Resources -->
     <Extension path = "/MonoDevelop/Core/StockIcons">
@@ -82,35 +75,7 @@
         </Category>
 
     </Extension>
-
-	<!-- File Templates -->
-	<Extension path = "/MonoDevelop/Ide/FileTemplates">
-		<FileTemplate id       = "Unity.Files.MonoBehaviour"
-		              resource = "Unity.Files.MonoBehaviour.xft.xml"/>
-		<FileTemplate id       = "Unity.Files.Class"
-		              resource = "Unity.Files.Class.xft.xml"/>
-		<FileTemplate id       = "Unity.Files.Interface"
-		              resource = "Unity.Files.Interface.xft.xml"/>		              		              
-	</Extension>
-
-	<!-- Project Templates -->
-	<Extension path = "/MonoDevelop/Ide/ProjectTemplates">
-		<ProjectTemplate id = "UnityDefault" resource = "Unity.Project.Default.xpt.xml"/>
-	</Extension>
-	
-	<Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
-		<ProjectBinding id = "UnityBinding" class = "MonoDevelop.Unity.UnityProjectBinding" />
-	</Extension>
-	
-	<Extension path = "/MonoDevelop/ProjectModel/ProjectServiceExtensions">
-		<Class class = "MonoDevelop.Unity.BuildExtension" insertafter="MidStep" />
-	</Extension>
-
-	<Extension path = "/MonoDevelop/ProjectModel/SerializableClasses">
-		<DataType class = "MonoDevelop.Unity.UnityProject" />
-		<DataType class = "MonoDevelop.Unity.UnityProjectConfiguration" />
-	</Extension>
-    
+	  
     <!-- Help Menu Addition -->
     <Extension path = "/MonoDevelop/Ide/MainMenu/Help">
         <ItemSet id = "UnityHelpMenu" _label = "Unity">

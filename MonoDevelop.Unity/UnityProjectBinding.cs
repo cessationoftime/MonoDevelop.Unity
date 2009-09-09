@@ -35,7 +35,7 @@ using System.Xml;
 using MonoDevelop.Core;
 using MonoDevelop.Ide.Gui;
 using MonoDevelop.Projects;
-
+/*
 namespace MonoDevelop.Unity
 {
 
@@ -76,3 +76,4 @@ namespace MonoDevelop.Unity
 		}
 	}
 }
+*/

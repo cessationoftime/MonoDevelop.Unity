@@ -86,10 +86,7 @@
     <Compile Include="MonoDevelop.Unity\SetupPanel.cs" />
     <Compile Include="generated.cs" />
     <Compile Include="MonoDevelop.Unity\Base.cs" />
-    <Compile Include="MonoDevelop.Unity\BuildExtension.cs" />
-    <Compile Include="MonoDevelop.Unity\UnityProject.cs" />
     <Compile Include="MonoDevelop.Unity\UnityProjectBinding.cs" />
-    <Compile Include="MonoDevelop.Unity\UnityProjectConfiguration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -102,31 +99,18 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <Folder Include="Templates\" />
     <Folder Include="MonoDevelop.Unity\" />
     <Folder Include="Images\" />
     <Folder Include="Documentation\" />
     <Folder Include="Documentation\Release\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Templates\Unity.Files.Interface.xft.xml">
-      <LogicalName>Unity.Files.Interface.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.Files.MonoBehaviour.xft.xml">
-      <LogicalName>Unity.Files.MonoBehaviour.xft.xml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.Project.Default.xpt.xml">
-      <LogicalName>Unity.Project.Default.xpt.xml</LogicalName>
-    </EmbeddedResource>
     <EmbeddedResource Include="MonoDevelop.Unity.addin.xml" />
     <EmbeddedResource Include="Images\unity-icon-16.png">
       <LogicalName>unity-icon-16.png</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\unity-icon-24.png">
       <LogicalName>unity-icon-24.png</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Templates\Unity.Files.Class.xft.xml">
-      <LogicalName>Unity.Files.Class.xft.xml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\unity-file-16.png">
       <LogicalName>unity-file-16.png</LogicalName>
