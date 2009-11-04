@@ -328,6 +328,30 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="BeginWindows">
+      <MemberSignature Language="C#" Value="protected static void BeginWindows (UnityEngine.Event e, int skinMode, UnityEngine.IDList idlist, int editorWindowInstanceID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="UnityEngine.Event"/>
+        <Parameter Name="skinMode" Type="System.Int32"/>
+        <Parameter Name="idlist" Type="UnityEngine.IDList"/>
+        <Parameter Name="editorWindowInstanceID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <param name="skinMode">To be added.</param>
+        <param name="idlist">To be added.</param>
+        <param name="editorWindowInstanceID">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Box">
       <MemberSignature Language="C#" Value="public static void Box (UnityEngine.Rect position, string text);"/>
       <MemberType>Method</MemberType>
@@ -732,6 +756,24 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DoEndWindows">
+      <MemberSignature Language="C#" Value="protected static void DoEndWindows (UnityEngine.IDList idlist);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idlist" Type="UnityEngine.IDList"/>
+      </Parameters>
+      <Docs>
+        <param name="idlist">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DoTextField">

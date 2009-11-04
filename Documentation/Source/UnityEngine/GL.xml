@@ -245,7 +245,7 @@
       <Docs>
         <param name="unit">To be added.</param>
         <param name="v">To be added.</param>
-        <summary>Sets current texture coordinate (v.x,v.y,v.z) to the texture unit unit.</summary>
+        <summary>Sets current texture coordinate (v.x,v.y,v.z) to the actual texture unit.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -268,7 +268,7 @@
         <param name="unit">To be added.</param>
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
-        <summary>Sets current texture coordinate (x,y) for the texture unit unit.</summary>
+        <summary>Sets current texture coordinate (x,y) for the actual texture unit.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -293,7 +293,7 @@
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
         <param name="z">To be added.</param>
-        <summary>Sets current texture coordinate (x,y,z) to the texture unit unit.</summary>
+        <summary>Sets current texture coordinate (x,y,z) to the actual texture unit.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

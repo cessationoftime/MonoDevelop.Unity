@@ -10,7 +10,7 @@
   </Base>
   <Docs>
     <summary><see cref="T:UnityEngine.Terrain" /> lighting mode.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks>
+    <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Renders terrain with lightmap.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Pixel">
       <MemberSignature Language="C#" Value="Pixel"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Renders terrain with lights up close, and lightmap far away.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="RenderModeCount">
       <MemberSignature Language="C#" Value="RenderModeCount"/>
@@ -67,8 +69,9 @@
       </ReturnValue>
       <Docs>
         <summary>Renders terrain with vertex lighting.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

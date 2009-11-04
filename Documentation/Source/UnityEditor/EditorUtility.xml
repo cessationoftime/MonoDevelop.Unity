@@ -146,7 +146,7 @@
       </Parameters>
       <Docs>
         <param name="path">To be added.</param>
-        <summary>Creates an empty prefab at path. If a prefab at the path already exists it will be deleted and replaced with an empty prefab.</summary>
+        <summary>Creates an empty prefab at given path.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -176,7 +176,7 @@
         <param name="name">To be added.</param>
         <param name="flags">To be added.</param>
         <param name="components">To be added.</param>
-        <summary>Creates a game object and attaches the specified components.</summary>
+        <summary>Creates a game object with <see cref="T:UnityEditor.HideFlags" /> and specified components.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -349,7 +349,7 @@
       <Docs>
         <param name="obj">To be added.</param>
         <param name="path">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Saves an AudioClip or MovieTexture to a file.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -589,7 +589,7 @@
       </Parameters>
       <Docs>
         <param name="target">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Given an object, returns whether it's a prefab or an instance of a prefab and what kind of prefab it is.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -770,7 +770,7 @@
       </Parameters>
       <Docs>
         <param name="target">To be added.</param>
-        <summary>Determines if an object is stored on disk typically an asset like: prefabs, textures, audioclips, animationclips, materials.</summary>
+        <summary>Determines if an object is stored on disk.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -794,7 +794,7 @@
         <param name="title">To be added.</param>
         <param name="directory">To be added.</param>
         <param name="extension">To be added.</param>
-        <summary>Displays the "open file" dialog and returns the selected pathname.</summary>
+        <summary>Displays the "open file" dialog and returns the selected path name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -814,7 +814,7 @@
       </Parameters>
       <Docs>
         <param name="go">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Connects the game object to the prefab that it was last connected to.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -886,7 +886,7 @@
         <param name="directory">To be added.</param>
         <param name="defaultName">To be added.</param>
         <param name="extension">To be added.</param>
-        <summary>Displays the "save file" dialog and returns the selected pathname.</summary>
+        <summary>Displays the "save file" dialog and returns the selected path name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

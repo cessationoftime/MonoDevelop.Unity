@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="MasterServerEvent" FullName="UnityEngine.MasterServerEvent">
+  <TypeSignature Language="C#" Value="public enum MasterServerEvent"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="HostListReceived">
+      <MemberSignature Language="C#" Value="HostListReceived"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Received a host list from the master server.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistrationFailedGameName">
+      <MemberSignature Language="C#" Value="RegistrationFailedGameName"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Regisration failed because an empty game name was given.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistrationFailedGameType">
+      <MemberSignature Language="C#" Value="RegistrationFailedGameType"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Registration failed because an empty game type was given.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistrationFailedNoServer">
+      <MemberSignature Language="C#" Value="RegistrationFailedNoServer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Registration failed because no server is running.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RegistrationSucceeded">
+      <MemberSignature Language="C#" Value="RegistrationSucceeded"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Registration to master server succeeded, received confirmation.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

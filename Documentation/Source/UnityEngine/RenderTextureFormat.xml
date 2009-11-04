@@ -24,9 +24,24 @@
         <ReturnType>UnityEngine.RenderTextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A 32 bit color render texture format.</summary>
+        <summary>Color render texture format, 8 bits per channel.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks></Docs>
+      </Docs>
+    </Member>
+    <Member MemberName="ARGBHalf">
+      <MemberSignature Language="C#" Value="ARGBHalf"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Color render texture format, 16 bit floating point per channel.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks>
+      </Docs>
     </Member>
     <Member MemberName="Depth">
       <MemberSignature Language="C#" Value="Depth"/>
@@ -39,8 +54,9 @@
       </ReturnValue>
       <Docs>
         <summary>A depth render texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class, <see cref="P:UnityEngine.SystemInfo.SupportsRenderTextureFormat" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class, <see cref="P:UnityEngine.SystemInfo.SupportsRenderTextureFormat" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

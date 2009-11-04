@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>A containter for audio data.</summary>
+    <summary>A container for audio data.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.AudioClip component" /> in the Components Reference</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -26,6 +26,36 @@
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="channels">
+      <MemberSignature Language="C#" Value="public int channels { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channels in audio clip (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="frequency">
+      <MemberSignature Language="C#" Value="public int frequency { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sample frequency (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
       </Docs>
     </Member>
     <Member MemberName="isReadyToPlay">
@@ -58,6 +88,21 @@
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="samples">
+      <MemberSignature Language="C#" Value="public int samples { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The length of the audio clip in samples (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
       </Docs>
     </Member>
   </Members>

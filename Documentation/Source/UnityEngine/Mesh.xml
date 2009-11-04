@@ -108,6 +108,66 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="CombineMeshes">
+      <MemberSignature Language="C#" Value="public void CombineMeshes (UnityEngine.CombineInstance[] combine);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="combine" Type="UnityEngine.CombineInstance[]"/>
+      </Parameters>
+      <Docs>
+        <param name="combine">To be added.</param>
+        <summary>Combines several meshes into this mesh.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CombineMeshes">
+      <MemberSignature Language="C#" Value="public void CombineMeshes (UnityEngine.CombineInstance[] combine, bool mergeSubMeshes);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="combine" Type="UnityEngine.CombineInstance[]"/>
+        <Parameter Name="mergeSubMeshes" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="combine">To be added.</param>
+        <param name="mergeSubMeshes">To be added.</param>
+        <summary>Combines several meshes into this mesh.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CombineMeshes">
+      <MemberSignature Language="C#" Value="public void CombineMeshes (UnityEngine.CombineInstance[] combine, bool mergeSubMeshes, bool useMatrices);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="combine" Type="UnityEngine.CombineInstance[]"/>
+        <Parameter Name="mergeSubMeshes" Type="System.Boolean"/>
+        <Parameter Name="useMatrices" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="combine">To be added.</param>
+        <param name="mergeSubMeshes">To be added.</param>
+        <param name="useMatrices">To be added.</param>
+        <summary>Combines several meshes into this mesh.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetTriangles">
       <MemberSignature Language="C#" Value="public int[] GetTriangles (int submesh);"/>
       <MemberType>Method</MemberType>
@@ -266,7 +326,7 @@
       <Docs>
         <summary>The number of submeshes. Every material has a seperate triangle list.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEngine.GetTriangles" />, <see cref="P:UnityEngine.SetTriangles" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

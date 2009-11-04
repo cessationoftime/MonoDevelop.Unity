@@ -11,7 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Text file assets.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>(Read Only)</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -38,9 +38,9 @@
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The raw bytes of the text asset</summary>
+        <summary>The raw bytes of the text asset. (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -54,9 +54,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The text contents of the .txt file as a string.</summary>
+        <summary>The text contents of the .txt file as a string. (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

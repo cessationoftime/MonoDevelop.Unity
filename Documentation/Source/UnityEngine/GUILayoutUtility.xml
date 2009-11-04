@@ -71,6 +71,27 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="DoBeginLayoutArea">
+      <MemberSignature Language="C#" Value="protected static UnityEngine.GUILayoutGroup DoBeginLayoutArea (UnityEngine.GUIStyle style, Type LayoutType);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="LayoutType" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="style">To be added.</param>
+        <param name="LayoutType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EndGroup">
       <MemberSignature Language="C#" Value="public static void EndGroup (string groupName);"/>
       <MemberType>Method</MemberType>
@@ -120,8 +141,8 @@
       </Parameters>
       <Docs>
         <param name="aspect">To be added.</param>
-        <summary>Get a rectangle with a specific aspect ratio.</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -148,8 +169,8 @@
       <Docs>
         <param name="aspect">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle with a specific aspect ratio.</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -170,8 +191,8 @@
       <Docs>
         <param name="aspect">To be added.</param>
         <param name="style">To be added.</param>
-        <summary>Get a rectangle with a specific aspect ratio.</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -200,8 +221,8 @@
         <param name="aspect">To be added.</param>
         <param name="style">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle with a specific aspect ratio.</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -217,8 +238,8 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Get the rectangle last used by GUILayout for a control.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - The last used rectangle.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -239,8 +260,8 @@
       <Docs>
         <param name="width">To be added.</param>
         <param name="height">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -261,8 +282,8 @@
       <Docs>
         <param name="content">To be added.</param>
         <param name="style">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -291,8 +312,8 @@
         <param name="width">To be added.</param>
         <param name="height">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -315,8 +336,8 @@
         <param name="width">To be added.</param>
         <param name="height">To be added.</param>
         <param name="style">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -345,8 +366,8 @@
         <param name="content">To be added.</param>
         <param name="style">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -371,8 +392,8 @@
         <param name="maxWidth">To be added.</param>
         <param name="minHeight">To be added.</param>
         <param name="maxHeight">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -403,8 +424,8 @@
         <param name="height">To be added.</param>
         <param name="style">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -437,8 +458,8 @@
         <param name="minHeight">To be added.</param>
         <param name="maxHeight">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -465,8 +486,8 @@
         <param name="minHeight">To be added.</param>
         <param name="maxHeight">To be added.</param>
         <param name="style">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -501,8 +522,8 @@
         <param name="maxHeight">To be added.</param>
         <param name="style">To be added.</param>
         <param name="options">To be added.</param>
-        <summary>Get a rectangle for displaying some contents with a specific style</summary>
-        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -539,51 +560,6 @@
         <param name="width">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="s_Areas">
-      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutGroup s_Areas;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="s_LayoutGroups">
-      <MemberSignature Language="C#" Value="public static System.Collections.Stack s_LayoutGroups;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Stack</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="s_TopLevel">
-      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutGroup s_TopLevel;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

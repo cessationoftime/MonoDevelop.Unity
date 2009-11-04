@@ -339,7 +339,7 @@
       <Docs>
         <param name="current">To be added.</param>
         <param name="target">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Calculates the shortest difference between two given angles.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

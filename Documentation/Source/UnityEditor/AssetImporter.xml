@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Base class from which asset importers for specific asset types derive.</summary>
     <remarks>(Read Only)</remarks>
     <since version="2.5.1"/>
   </Docs>

@@ -160,6 +160,22 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="GetJoystickNames">
+      <MemberSignature Language="C#" Value="public static string[] GetJoystickNames ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Returns an array of stings describing the connected joysticks.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetKey">
       <MemberSignature Language="C#" Value="public static bool GetKey (string name);"/>
       <MemberType>Method</MemberType>

@@ -1,0 +1,757 @@
+<?xml version="1.0"?>
+<Type Name="Component" FullName="UnityEngine.Component">
+  <TypeSignature Language="C#" Value="public class Component : UnityEngine.Object"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Base class for everything attached to GameObjects.</summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Component ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="active">
+      <MemberSignature Language="C#" Value="public bool active { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("the active property is deprecated on components. Please use gameObject.active instead. If you meant to enable / disable a single component use enabled instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="animation">
+      <MemberSignature Language="C#" Value="public UnityEngine.Animation animation { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Animation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Animation" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="audio">
+      <MemberSignature Language="C#" Value="public UnityEngine.AudioSource audio { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.AudioSource" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastMessage">
+      <MemberSignature Language="C#" Value="public void BroadcastMessage (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object or any of its children.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastMessage">
+      <MemberSignature Language="C#" Value="public void BroadcastMessage (string methodName, object parameter);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="parameter" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object or any of its children.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastMessage">
+      <MemberSignature Language="C#" Value="public void BroadcastMessage (string methodName, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object or any of its children.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastMessage">
+      <MemberSignature Language="C#" Value="public void BroadcastMessage (string methodName, object parameter, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="parameter" Type="System.Object"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="parameter">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object or any of its children.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="camera">
+      <MemberSignature Language="C#" Value="public UnityEngine.Camera camera { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Camera</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Camera" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="collider">
+      <MemberSignature Language="C#" Value="public UnityEngine.Collider collider { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Collider</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Collider" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareTag">
+      <MemberSignature Language="C#" Value="public bool CompareTag (string tag);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tag" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="tag">To be added.</param>
+        <summary>Is this game object tagged tag?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="constantForce">
+      <MemberSignature Language="C#" Value="public UnityEngine.ConstantForce constantForce { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ConstantForce</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.ConstantForce" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="gameObject">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject gameObject { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The game object this component is attached to. A component is always attached to a game object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponent">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component GetComponent (string type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>Returns the component of Type type if the game object has one attached, null if it doesn't.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponent">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component GetComponent (Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>Returns the component of Type type if the game object has one attached, null if it doesn't.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponentInChildren">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component GetComponentInChildren (Type t);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <summary>Returns the component of Type type in the <see cref="T:UnityEngine.GameObject" /> or any of its children using depth first search.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponents">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component[] GetComponents (Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="type">To be added.</param>
+        <summary>Returns all components of Type type in the <see cref="T:UnityEngine.GameObject" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponentsInChildren">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component[] GetComponentsInChildren (Type t);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <summary>Returns all components of Type type in the <see cref="T:UnityEngine.GameObject" /> or any of its children.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponentsInChildren">
+      <MemberSignature Language="C#" Value="public UnityEngine.Component[] GetComponentsInChildren (Type t, bool includeInactive);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Component[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Type"/>
+        <Parameter Name="includeInactive" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="includeInactive">To be added.</param>
+        <summary>Returns all components of Type type in the <see cref="T:UnityEngine.GameObject" /> or any of its children.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="guiElement">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIElement guiElement { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("Please use guiTexture instead")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="guiText">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIText guiText { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIText</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.GUIText" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="guiTexture">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUITexture guiTexture { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUITexture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.GUITexture" /> attached to this <see cref="T:UnityEngine.GameObject" /> (Read Only). (null if there is none attached)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only). (null if there is none attached)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="hingeJoint">
+      <MemberSignature Language="C#" Value="public UnityEngine.HingeJoint hingeJoint { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.HingeJoint</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.HingeJoint" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="light">
+      <MemberSignature Language="C#" Value="public UnityEngine.Light light { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Light</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Light" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="networkView">
+      <MemberSignature Language="C#" Value="public UnityEngine.NetworkView networkView { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.NetworkView" /> attached to this <see cref="T:UnityEngine.GameObject" /> (Read Only). (null if there is none attached)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only). (null if there is none attached)</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="particleEmitter">
+      <MemberSignature Language="C#" Value="public UnityEngine.ParticleEmitter particleEmitter { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleEmitter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.ParticleEmitter" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="renderer">
+      <MemberSignature Language="C#" Value="public UnityEngine.Renderer renderer { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Renderer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Renderer" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="rigidbody">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rigidbody rigidbody { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rigidbody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Rigidbody" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessage">
+      <MemberSignature Language="C#" Value="public void SendMessage (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessage">
+      <MemberSignature Language="C#" Value="public void SendMessage (string methodName, object value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessage">
+      <MemberSignature Language="C#" Value="public void SendMessage (string methodName, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessage">
+      <MemberSignature Language="C#" Value="public void SendMessage (string methodName, object value, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Object"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessageUpwards">
+      <MemberSignature Language="C#" Value="public void SendMessageUpwards (string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object and on every ancestor of the behaviour</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessageUpwards">
+      <MemberSignature Language="C#" Value="public void SendMessageUpwards (string methodName, object value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object and on every ancestor of the behaviour</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessageUpwards">
+      <MemberSignature Language="C#" Value="public void SendMessageUpwards (string methodName, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object and on every ancestor of the behaviour</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMessageUpwards">
+      <MemberSignature Language="C#" Value="public void SendMessageUpwards (string methodName, object value, UnityEngine.SendMessageOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Object"/>
+        <Parameter Name="options" Type="UnityEngine.SendMessageOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Calls the method named methodName on every <see cref="T:UnityEngine.MonoBehaviour" /> in this game object and on every ancestor of the behaviour</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="tag">
+      <MemberSignature Language="C#" Value="public string tag { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The tag of this game object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="transform">
+      <MemberSignature Language="C#" Value="public UnityEngine.Transform transform { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Transform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:UnityEngine.Transform" /> attached to this <see cref="T:UnityEngine.GameObject" /> (null if there is none attached).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

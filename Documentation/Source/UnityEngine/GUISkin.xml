@@ -13,12 +13,9 @@
     <Attribute>
       <AttributeName>UnityEngine.ExecuteInEditMode</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName>UnityEngine.SerializePrivateVariables</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Defines how GUI looks and behaves.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -478,7 +475,7 @@
         <ReturnType>UnityEngine.GUIStyle[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Array of GUI styles for specific needs.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -581,7 +578,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -597,7 +594,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the left button on <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -613,7 +610,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the right button on <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -629,7 +626,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -693,7 +690,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the background of ScrollView controls (see <see cref="P:UnityEngine.GUI.BeginScrollView" />).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -788,7 +785,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -804,7 +801,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the down button on <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -820,7 +817,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -836,7 +833,7 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Style used by default for the up button on <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

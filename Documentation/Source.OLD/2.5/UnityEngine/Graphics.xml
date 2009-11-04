@@ -1,0 +1,879 @@
+<?xml version="1.0"?>
+<Type Name="Graphics" FullName="UnityEngine.Graphics">
+  <TypeSignature Language="C#" Value="public class Graphics"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Raw interface to Unity's drawing functions.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Graphics ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="deviceName">
+      <MemberSignature Language="C#" Value="public static string deviceName { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use SystemInfo.graphicsDeviceName instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="deviceVendor">
+      <MemberSignature Language="C#" Value="public static string deviceVendor { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use SystemInfo.graphicsDeviceVendor instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="deviceVersion">
+      <MemberSignature Language="C#" Value="public static string deviceVersion { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use SystemInfo.graphicsDeviceVersion instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Graphics.DrawMeshNow instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, int materialIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Graphics.DrawMeshNow instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="materialIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Graphics.DrawMeshNow instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, int materialIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Graphics.DrawMeshNow instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="materialIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, int layer, UnityEngine.Camera camera);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Material material, int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Material material, int layer, UnityEngine.Camera camera);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex, UnityEngine.MaterialPropertyBlock properties);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+        <Parameter Name="properties" Type="UnityEngine.MaterialPropertyBlock"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <param name="properties">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex, UnityEngine.MaterialPropertyBlock properties);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+        <Parameter Name="properties" Type="UnityEngine.MaterialPropertyBlock"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <param name="properties">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex, UnityEngine.MaterialPropertyBlock properties, bool castShadows, bool receiveShadows);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+        <Parameter Name="properties" Type="UnityEngine.MaterialPropertyBlock"/>
+        <Parameter Name="castShadows" Type="System.Boolean"/>
+        <Parameter Name="receiveShadows" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <param name="properties">To be added.</param>
+        <param name="castShadows">To be added.</param>
+        <param name="receiveShadows">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMesh">
+      <MemberSignature Language="C#" Value="public static void DrawMesh (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Material material, int layer, UnityEngine.Camera camera, int submeshIndex, UnityEngine.MaterialPropertyBlock properties, bool castShadows, bool receiveShadows);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="material" Type="UnityEngine.Material"/>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="camera" Type="UnityEngine.Camera"/>
+        <Parameter Name="submeshIndex" Type="System.Int32"/>
+        <Parameter Name="properties" Type="UnityEngine.MaterialPropertyBlock"/>
+        <Parameter Name="castShadows" Type="System.Boolean"/>
+        <Parameter Name="receiveShadows" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="submeshIndex">To be added.</param>
+        <param name="properties">To be added.</param>
+        <param name="castShadows">To be added.</param>
+        <param name="receiveShadows">To be added.</param>
+        <summary>Draws a mesh.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMeshNow">
+      <MemberSignature Language="C#" Value="public static void DrawMeshNow (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMeshNow">
+      <MemberSignature Language="C#" Value="public static void DrawMeshNow (UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, int materialIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4"/>
+        <Parameter Name="materialIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="matrix">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMeshNow">
+      <MemberSignature Language="C#" Value="public static void DrawMeshNow (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawMeshNow">
+      <MemberSignature Language="C#" Value="public static void DrawMeshNow (UnityEngine.Mesh mesh, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, int materialIndex);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mesh" Type="UnityEngine.Mesh"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion"/>
+        <Parameter Name="materialIndex" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="mesh">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="sourceRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="sourceRect">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine.Color color);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="sourceRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+        <Parameter Name="color" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="sourceRect">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <param name="color">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="sourceRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="sourceRect">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTexture">
+      <MemberSignature Language="C#" Value="public static void DrawTexture (UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine.Color color, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="screenRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="texture" Type="UnityEngine.Texture"/>
+        <Parameter Name="sourceRect" Type="UnityEngine.Rect"/>
+        <Parameter Name="leftBorder" Type="System.Int32"/>
+        <Parameter Name="rightBorder" Type="System.Int32"/>
+        <Parameter Name="topBorder" Type="System.Int32"/>
+        <Parameter Name="bottomBorder" Type="System.Int32"/>
+        <Parameter Name="color" Type="UnityEngine.Color"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="screenRect">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="sourceRect">To be added.</param>
+        <param name="leftBorder">To be added.</param>
+        <param name="rightBorder">To be added.</param>
+        <param name="topBorder">To be added.</param>
+        <param name="bottomBorder">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Draw a texture in screen coordinates.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupVertexLights">
+      <MemberSignature Language="C#" Value="public static void SetupVertexLights (UnityEngine.Light[] lights);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lights" Type="UnityEngine.Light[]"/>
+      </Parameters>
+      <Docs>
+        <param name="lights">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="supportsVertexProgram">
+      <MemberSignature Language="C#" Value="public static bool supportsVertexProgram { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use SystemInfo.supportsVertexPrograms instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

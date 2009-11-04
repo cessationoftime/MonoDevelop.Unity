@@ -10,8 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Tells an Editor class which run-time type it's an editor for.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.Editor" /> class.</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -26,8 +26,8 @@
       </Parameters>
       <Docs>
         <param name="inspectedType">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Defines which object type the custom editor class can edit.</summary>
+        <remarks>See Also: <see cref="T:UnityEditor.Editor" /> class.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

@@ -28,6 +28,102 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="Blit">
+      <MemberSignature Language="C#" Value="public static void Blit (UnityEngine.Texture source, UnityEngine.RenderTexture dest);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Texture"/>
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <summary>Copies source texture into destination render texture.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Blit">
+      <MemberSignature Language="C#" Value="public static void Blit (UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Texture"/>
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>Copies source texture into destination render texture.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Blit">
+      <MemberSignature Language="C#" Value="public static void Blit (UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat, int pass);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Texture"/>
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+        <Parameter Name="pass" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <param name="mat">To be added.</param>
+        <param name="pass">To be added.</param>
+        <summary>Copies source texture into destination render texture.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlitMultiTap">
+      <MemberSignature Language="C#" Value="public static void BlitMultiTap (UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat, UnityEngine.Vector2[] offsets);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Texture"/>
+        <Parameter Name="dest" Type="UnityEngine.RenderTexture"/>
+        <Parameter Name="mat" Type="UnityEngine.Material"/>
+        <Parameter Name="offsets" Type="UnityEngine.Vector2[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <param name="dest">To be added.</param>
+        <param name="mat">To be added.</param>
+        <param name="offsets">To be added.</param>
+        <summary>Copies source texture into destination, for multi-tap shader.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="deviceName">
       <MemberSignature Language="C#" Value="public static string deviceName { get; }"/>
       <MemberType>Property</MemberType>
@@ -112,7 +208,7 @@
       <Docs>
         <param name="mesh">To be added.</param>
         <param name="matrix">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -140,7 +236,7 @@
         <param name="mesh">To be added.</param>
         <param name="matrix">To be added.</param>
         <param name="materialIndex">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -168,7 +264,7 @@
         <param name="mesh">To be added.</param>
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -193,7 +289,7 @@
         <param name="matrix">To be added.</param>
         <param name="material">To be added.</param>
         <param name="layer">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -223,7 +319,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="materialIndex">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -250,7 +346,7 @@
         <param name="material">To be added.</param>
         <param name="layer">To be added.</param>
         <param name="camera">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -277,7 +373,7 @@
         <param name="rotation">To be added.</param>
         <param name="material">To be added.</param>
         <param name="layer">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -306,7 +402,7 @@
         <param name="layer">To be added.</param>
         <param name="camera">To be added.</param>
         <param name="submeshIndex">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -335,7 +431,7 @@
         <param name="material">To be added.</param>
         <param name="layer">To be added.</param>
         <param name="camera">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -366,7 +462,7 @@
         <param name="camera">To be added.</param>
         <param name="submeshIndex">To be added.</param>
         <param name="properties">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -397,7 +493,7 @@
         <param name="layer">To be added.</param>
         <param name="camera">To be added.</param>
         <param name="submeshIndex">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -430,7 +526,7 @@
         <param name="camera">To be added.</param>
         <param name="submeshIndex">To be added.</param>
         <param name="properties">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -465,7 +561,7 @@
         <param name="properties">To be added.</param>
         <param name="castShadows">To be added.</param>
         <param name="receiveShadows">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -502,7 +598,7 @@
         <param name="properties">To be added.</param>
         <param name="castShadows">To be added.</param>
         <param name="receiveShadows">To be added.</param>
-        <summary>Draws a mesh.</summary>
+        <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -523,7 +619,7 @@
       <Docs>
         <param name="mesh">To be added.</param>
         <param name="matrix">To be added.</param>
-        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -546,7 +642,7 @@
         <param name="mesh">To be added.</param>
         <param name="matrix">To be added.</param>
         <param name="materialIndex">To be added.</param>
-        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -569,7 +665,7 @@
         <param name="mesh">To be added.</param>
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
-        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -594,7 +690,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="materialIndex">To be added.</param>
-        <summary>Draw a mesh at a given position, with a given rotation.</summary>
+        <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

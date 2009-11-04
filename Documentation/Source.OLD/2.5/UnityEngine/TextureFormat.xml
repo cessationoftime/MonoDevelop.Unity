@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="TextureFormat" FullName="UnityEngine.TextureFormat">
+  <TypeSignature Language="C#" Value="public enum TextureFormat"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Format of a <see cref="T:UnityEngine.texture" />. Used when creating textures from scripts.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Alpha8">
+      <MemberSignature Language="C#" Value="Alpha8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An alpha-only texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ARGB32">
+      <MemberSignature Language="C#" Value="ARGB32"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A color with an alpha channel texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DXT1">
+      <MemberSignature Language="C#" Value="DXT1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A compressed color texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DXT5">
+      <MemberSignature Language="C#" Value="DXT5"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A compressed color with alpha channel texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="RGB24">
+      <MemberSignature Language="C#" Value="RGB24"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A color texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

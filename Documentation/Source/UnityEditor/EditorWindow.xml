@@ -76,7 +76,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Close the editor window</summary>
+        <summary>Close the editor window.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -342,7 +342,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Make the window repaint</summary>
+        <summary>Make the window repaint.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

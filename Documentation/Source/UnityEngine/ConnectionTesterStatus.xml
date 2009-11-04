@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>The various test results the connection tester may return with.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -24,7 +24,7 @@
         <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Some unknown error occurred.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

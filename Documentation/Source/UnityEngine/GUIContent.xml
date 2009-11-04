@@ -9,11 +9,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces/>
-  <Attributes>
-    <Attribute>
-      <AttributeName>UnityEngine.SerializePrivateVariables</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The contents of a GUI element.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.GUIStyle" /></remarks>
@@ -197,7 +192,7 @@
         <ReturnType>UnityEngine.GUIContent</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Shorthand for empty content.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

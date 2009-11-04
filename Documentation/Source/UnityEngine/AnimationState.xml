@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Type Name="AnimationState" FullName="UnityEngine.AnimationState">
-  <TypeSignature Language="C#" Value="public class AnimationState : UnityEngine.RefCounted"/>
+  <TypeSignature Language="C#" Value="public class AnimationState : UnityEngine.TrackedReference"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>UnityEngine.RefCounted</BaseTypeName>
+    <BaseTypeName>UnityEngine.TrackedReference</BaseTypeName>
   </Base>
   <Interfaces/>
   <Docs>

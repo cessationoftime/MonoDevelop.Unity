@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Lets you do move, copy, delete operations over files or directories</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -44,7 +44,7 @@
       <Docs>
         <param name="from">To be added.</param>
         <param name="to">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Copies a file or a directory.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -65,7 +65,7 @@
       <Docs>
         <param name="from">To be added.</param>
         <param name="to">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Copies the file or directory.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -84,7 +84,7 @@
       </Parameters>
       <Docs>
         <param name="path">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Deletes a file or a directory given a path.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -126,7 +126,7 @@
       <Docs>
         <param name="from">To be added.</param>
         <param name="to">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Moves a file or a directory from a given path to another path.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

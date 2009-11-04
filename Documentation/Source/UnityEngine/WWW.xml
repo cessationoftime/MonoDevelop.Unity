@@ -334,6 +334,27 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="LoadFromCacheOrDownload">
+      <MemberSignature Language="C#" Value="public static UnityEngine.WWW LoadFromCacheOrDownload (string url, int version);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WWW</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String"/>
+        <Parameter Name="version" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="url">To be added.</param>
+        <param name="version">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="LoadImageIntoTexture">
       <MemberSignature Language="C#" Value="public void LoadImageIntoTexture (UnityEngine.Texture2D tex);"/>
       <MemberType>Method</MemberType>
@@ -447,6 +468,21 @@
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="threadPriority">
+      <MemberSignature Language="C#" Value="public UnityEngine.ThreadPriority threadPriority { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ThreadPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Priority of <see cref="T:UnityEngine.AssetBundle" /> decompression thread.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="UnEscapeURL">

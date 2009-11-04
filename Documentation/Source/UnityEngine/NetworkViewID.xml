@@ -139,7 +139,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Returns a formatted string with details on this NetworkViewID.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -155,7 +155,7 @@
         <ReturnType>UnityEngine.NetworkViewID</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Represents an invalid network view ID.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

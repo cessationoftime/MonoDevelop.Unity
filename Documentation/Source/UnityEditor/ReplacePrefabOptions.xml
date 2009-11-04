@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Flags for the <see cref="P:UnityEditor.EditorUtility.ReplacePrefab" /> function.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -24,7 +24,7 @@
         <ReturnType>UnityEditor.ReplacePrefabOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Connects the passed objects to the prefab after uploading the prefab.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -38,7 +38,7 @@
         <ReturnType>UnityEditor.ReplacePrefabOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Replaces prefabs by matching pre-existing connections to the prefab.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -52,7 +52,7 @@
         <ReturnType>UnityEditor.ReplacePrefabOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Replaces the prefab using name based lookup in the transform hierarchy.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -66,7 +66,7 @@
         <ReturnType>UnityEditor.ReplacePrefabOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Automatically finds the prefab instance root of the provided game object and uses that as the root for the replaced prefab instead</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

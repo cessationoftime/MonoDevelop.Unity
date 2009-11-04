@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Bilinear filtering - texture samples are averaged.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Point">
       <MemberSignature Language="C#" Value="Point"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Point filtering - texture pixels become blocky up close.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Trilinear">
       <MemberSignature Language="C#" Value="Trilinear"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>Trilinear filtering - texture samples are averaged and also blended between mipmap levels.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

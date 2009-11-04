@@ -487,7 +487,7 @@
       </Parameters>
       <Docs>
         <param name="position">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Pick game object closest to specified position.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -569,7 +569,7 @@
       </Parameters>
       <Docs>
         <param name="ray">To be added.</param>
-        <summary>Objects to ignore when raysnapping (typically the objects being dragged by the handles)</summary>
+        <summary>Casts ray against the scene.</summary>
         <returns>object - a boxed RaycastHit, null if nothing hit it.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

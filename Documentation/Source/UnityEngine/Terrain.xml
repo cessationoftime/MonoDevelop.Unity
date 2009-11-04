@@ -13,9 +13,6 @@
     <Attribute>
       <AttributeName>UnityEngine.ExecuteInEditMode</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName>UnityEngine.SerializePrivateVariables</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
     <summary>The Terrain component renders the terrain.</summary>
@@ -233,21 +230,6 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
-    <Member MemberName="m_TreeDatabase">
-      <MemberSignature Language="C#" Value="public UnityEngineInternal.TreeDatabase m_TreeDatabase;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>UnityEngineInternal.TreeDatabase</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
     <Member MemberName="RemoveTrees">
       <MemberSignature Language="C#" Value="public void RemoveTrees (UnityEngine.Vector2 position, float radius, int prototypeIndex);"/>
       <MemberType>Method</MemberType>
@@ -285,7 +267,7 @@
       </Parameters>
       <Docs>
         <param name="worldPosition">To be added.</param>
-        <summary>Samples the height at the given position defined in world space</summary>
+        <summary>Samples the height at the given position defined in world space, relative to the terrain space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -411,7 +393,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Maximum number of trees rendered at full lod.</summary>
+        <summary>Maximum number of trees rendered at full LOD.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

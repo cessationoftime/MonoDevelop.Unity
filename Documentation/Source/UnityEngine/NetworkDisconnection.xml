@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>The reason a disconnect event occured, like in <see cref="P:UnityEngine.OnDisconnectedFromServer" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>

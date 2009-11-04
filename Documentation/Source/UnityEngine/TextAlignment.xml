@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Text lines are centered.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Left">
       <MemberSignature Language="C#" Value="Left"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Text lines are aligned on the left side.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Right">
       <MemberSignature Language="C#" Value="Right"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>Text lines are aligned on the right side.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GUIText.alignment" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

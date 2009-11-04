@@ -35,7 +35,7 @@
 //
 
 // Internal Settings
-define("DOC_SINCE", "2.5.1"); // Change this to the newest Unity version.
+define("DOC_SINCE", "2.6.0f7"); // Change this to the newest Unity version.
 define("DOC_EMPTY", "To be added.");
 define("DOC_OVERWRITE", true);
 define("SHOW_WARNINGS", false);
@@ -44,18 +44,16 @@ define("SHOW_WARNINGS", false);
 define("SOURCE_PATH", "Source/");
 define("LOG_PATH", "Logs/");
 define("RELEASE_PATH", "Release/");
+define("RTF_PATH", "RTFs/");
 
 // System Paths
-define("MONODOC_PATH", "/Users/Reaper/SVN/MonoProject/mono/scripts/");
-define("FRAMEWORKS_PATH", "/Applications/Unity/Unity.app/Contents/Frameworks/");
+define("MONODOC_PATH", "/Users/Reaper/Repositories/SVN/MonoProject/mono/scripts/");
+define("FRAMEWORKS_PATH", "Libraries/");
 define("SCRIPTREFERENCE_PATH","/Applications/Unity/Documentation/ScriptReference/");
 
 // MonoDocer Parsing Command
-$monodoc_command = 	MONODOC_PATH . "monodocer -assembly:" . FRAMEWORKS_PATH . 
-					"UnityEngine.dll " . FRAMEWORKS_PATH . 
-					"UnityEditor.dll -path:" . SOURCE_PATH . 
-					" -pretty -since:" . DOC_SINCE . " > " . LOG_PATH . 
-					"monodocer.log";
+//$monodoc_export_path = "export MONO_PATH=$MONOPATH:" . FRAMEWORKS_PATH . "/Mono.framework";
+$monodoc_command = 	MONODOC_PATH . "monodocer -assembly:" . FRAMEWORKS_PATH . "UnityEngine.dll " . FRAMEWORKS_PATH . "UnityEngine.dll " . FRAMEWORKS_PATH . "UnityEngine-Debug.dll -path:" . SOURCE_PATH . " -pretty > " . LOG_PATH . "monodocer.log";
 
 // MonoDoc Assembler Command				
 $mdassembler_command = 	MONODOC_PATH . "mdassembler --ecma " . SOURCE_PATH . 
@@ -63,7 +61,7 @@ $mdassembler_command = 	MONODOC_PATH . "mdassembler --ecma " . SOURCE_PATH .
 						"mdassembler.log";
 
 // MonoDoc to VS
-$mdocexport_command = MONODOC_PATH . "mdoc-export-msxoc " . SOURCE_PATH . " --out=" . RELEASE_PATH . "Unity.xml";
+$mdocexport_command = MONODOC_PATH . "monodocs2slashdoc " . SOURCE_PATH . " --out=" . RELEASE_PATH . "Unity.xml";
 
 $monodoc_source_file = '<?xml version="1.0"?>
 <monodoc>
@@ -121,7 +119,9 @@ if (!is_dir(SCRIPTREFERENCE_PATH)) { die("Unity Script Reference Not Found"); }
 @unlink(RELEASE_PATH . "Unity.source");
 
 // Execute Parse/Update of Actual Libraries
-//exec($monodoc_command);
+//exec($monodoc_export_path);
+exec($monodoc_command);
+//exec($monodoc_command_2);
 
 // Generate Content from Documentation
 updateDocumentationSource();
@@ -133,16 +133,21 @@ exec($mdassembler_command);
 file_put_contents(RELEASE_PATH . "Unity.source", $monodoc_source_file);
 
 // Export VS Compatible Docs
-exec($mdocexport_command);
+//exec($mdocexport_command);
+
+// Move Release to Folders
+mkdir(RELEASE_PATH . "MonoDevelop");
+mkdir(RELEASE_PATH . "VS");
+rename(RELEASE_PATH . "Unity.tree", RELEASE_PATH . "MonoDevelop/Unity.tree");
+rename(RELEASE_PATH . "Unity.source", RELEASE_PATH . "MonoDevelop/Unity.source");
+rename(RELEASE_PATH . "Unity.zip", RELEASE_PATH . "MonoDevelop/Unity.zip");
+rename(RELEASE_PATH . "Unity.xml", RELEASE_PATH . "VS/Unity.xml");
 
 print "\nErrors\n";
 print_r($errors);
 print "\nWarnings\n";
 print_r($warnings);
-print "\n";		
-				
-				
-			
+print "\n";			
 
 
 // =================================================================================
@@ -279,8 +284,6 @@ function updateForLinks($namespace, $type, $text, $include_type = false)
 
 	return trim(real_strip_tags($text, $allowed_tags));
 }
-
-
 
 
 

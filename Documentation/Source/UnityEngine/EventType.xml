@@ -39,8 +39,9 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation exited.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="dragPerform">
       <MemberSignature Language="C#" Value="dragPerform"/>
@@ -53,8 +54,9 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="DragPerform">
       <MemberSignature Language="C#" Value="DragPerform"/>
@@ -67,8 +69,9 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="dragUpdated">
       <MemberSignature Language="C#" Value="dragUpdated"/>
@@ -81,8 +84,9 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="DragUpdated">
       <MemberSignature Language="C#" Value="DragUpdated"/>
@@ -95,8 +99,9 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="ExecuteCommand">
       <MemberSignature Language="C#" Value="ExecuteCommand"/>
@@ -290,7 +295,7 @@
         <ReturnType>UnityEngine.EventType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Mouse was moved.</summary>
+        <summary>Mouse was moved (editor views only).</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -304,7 +309,7 @@
         <ReturnType>UnityEngine.EventType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Mouse was moved.</summary>
+        <summary>Mouse was moved (editor views only).</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -430,7 +435,7 @@
         <ReturnType>UnityEngine.EventType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Validates a special command (eg. copy &amp; paste)</summary>
+        <summary>Validates a special command (e.g. copy &amp; paste)</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

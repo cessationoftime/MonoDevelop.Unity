@@ -24,9 +24,10 @@
         <ReturnType>UnityEngine.TextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>An alpha-only texture format.</summary>
+        <summary>Alpha-only texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="ARGB32">
       <MemberSignature Language="C#" Value="ARGB32"/>
@@ -38,9 +39,10 @@
         <ReturnType>UnityEngine.TextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A color with an alpha channel texture format.</summary>
+        <summary>Color with an alpha channel texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="DXT1">
       <MemberSignature Language="C#" Value="DXT1"/>
@@ -52,9 +54,10 @@
         <ReturnType>UnityEngine.TextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A compressed color texture format.</summary>
+        <summary>Compressed color texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="DXT5">
       <MemberSignature Language="C#" Value="DXT5"/>
@@ -66,9 +69,138 @@
         <ReturnType>UnityEngine.TextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A compressed color with alpha channel texture format.</summary>
+        <summary>Compressed color with alpha channel texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_2BPP_RGB">
+      <MemberSignature Language="C#" Value="PVRTC_2BPP_RGB"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use PVRTC_RGB2")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_2BPP_RGBA">
+      <MemberSignature Language="C#" Value="PVRTC_2BPP_RGBA"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use PVRTC_RGBA2")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_4BPP_RGB">
+      <MemberSignature Language="C#" Value="PVRTC_4BPP_RGB"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use PVRTC_RGB4")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_4BPP_RGBA">
+      <MemberSignature Language="C#" Value="PVRTC_4BPP_RGBA"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use PVRTC_RGBA4")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_RGB2">
+      <MemberSignature Language="C#" Value="PVRTC_RGB2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PowerVR (iPhone) 2 bits/pixel compressed color texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_RGB4">
+      <MemberSignature Language="C#" Value="PVRTC_RGB4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PowerVR (iPhone) 4 bits/pixel compressed color texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_RGBA2">
+      <MemberSignature Language="C#" Value="PVRTC_RGBA2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PowerVR (iPhone) 2 bits/pixel compressed with alpha channel texture format</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PVRTC_RGBA4">
+      <MemberSignature Language="C#" Value="PVRTC_RGBA4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PowerVR (iPhone) 4 bits/pixel compressed with alpha channel texture format</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+      </Docs>
     </Member>
     <Member MemberName="RGB24">
       <MemberSignature Language="C#" Value="RGB24"/>
@@ -80,9 +212,10 @@
         <ReturnType>UnityEngine.TextureFormat</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>A color texture format.</summary>
+        <summary>Color texture format.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

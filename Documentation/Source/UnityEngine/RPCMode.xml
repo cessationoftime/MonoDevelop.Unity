@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Option for who will receive the <see cref="T:UnityEngine.RPC" /></summary>
+    <summary>Option for who will receive an <see cref="T:UnityEngine.RPC" />, used by <see cref="P:UnityEngine.NetworkView.RPC" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -52,7 +52,7 @@
         <ReturnType>UnityEngine.RPCMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Sends to everyone except the server</summary>
+        <summary>Sends to everyone except the sender</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -66,7 +66,7 @@
         <ReturnType>UnityEngine.RPCMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Sends to everyone except the server and adds to the buffer</summary>
+        <summary>Sends to everyone except the sender and adds to the buffer</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

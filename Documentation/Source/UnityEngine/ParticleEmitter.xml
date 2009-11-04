@@ -138,6 +138,21 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="enabled">
+      <MemberSignature Language="C#" Value="public bool enabled { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Turns the ParticleEmitter on or off.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="localVelocity">
       <MemberSignature Language="C#" Value="public UnityEngine.Vector3 localVelocity { set; get; }"/>
       <MemberType>Property</MemberType>
@@ -296,6 +311,24 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Simulate">
+      <MemberSignature Language="C#" Value="public void Simulate (float deltaTime);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deltaTime" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="deltaTime">To be added.</param>
+        <summary>Advance particle system simulation by given time.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="useWorldSpace">

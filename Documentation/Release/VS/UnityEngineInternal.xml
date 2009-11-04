@@ -1,0 +1,221 @@
+<doc>
+    <assembly>
+        <name>UnityEngineInternal</name>
+    </assembly>
+    <members>
+        <member name="T:UnityEngineInternal.TerrainRenderer">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="C:UnityEngineInternal.TerrainRenderer(UnityEngine.TerrainData,UnityEngine.Vector3)">
+            <param name="terrainData">To be added.</param>
+            <param name="position">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.Cleanup">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.GetSplatBaseMaterial(UnityEngine.TerrainLighting)">
+            <param name="renderMode">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.ReloadAll">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.ReloadBounds">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.ReloadPrecomputedError">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.RenderStep1(UnityEngine.Camera,UnityEngine.TerrainLighting,System.Int32,System.Single,System.Single,System.Int32)">
+            <param name="camera">To be added.</param>
+            <param name="renderMode">To be added.</param>
+            <param name="maxLodLevel">To be added.</param>
+            <param name="tau">To be added.</param>
+            <param name="splatDistance">To be added.</param>
+            <param name="layer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.RenderStep2">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TerrainRenderer.RenderStep3(UnityEngine.Camera,System.Int32,System.Single,System.Boolean)">
+            <param name="camera">To be added.</param>
+            <param name="layer">To be added.</param>
+            <param name="realtimeLightDistance">To be added.</param>
+            <param name="castShadows">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="P:UnityEngineInternal.TerrainRenderer.terrainData">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="T:UnityEngineInternal.TreeDatabase">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="C:UnityEngineInternal.TreeDatabase(UnityEngine.TerrainData)">
+            <param name="source">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.AddTree(UnityEngine.TreeInstance)">
+            <param name="tree">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.Cleanup">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.GetPosition(UnityEngine.TreeInstance)">
+            <param name="instance">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.GetPrototypeWidth(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase.m_Instances">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="P:UnityEngineInternal.TreeDatabase.prototypes">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.RefreshInstances">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.RefreshPrototypes">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase.RemoveTrees(UnityEngine.Vector2,System.Single,System.Int32)">
+            <param name="position">To be added.</param>
+            <param name="radius">To be added.</param>
+            <param name="prototypeIndex">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="P:UnityEngineInternal.TreeDatabase.terrainData">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="T:UnityEngineInternal.TreeDatabase+Prototype">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="C:UnityEngineInternal.TreeDatabase+Prototype(UnityEngine.GameObject,System.Single)">
+            <param name="source">To be added.</param>
+            <param name="inBendFactor">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.bendFactor">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.bounds">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="M:UnityEngineInternal.TreeDatabase+Prototype.Cleanup">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.imposterMaterials">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.inverseAlphaCutoff">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.materials">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.mesh">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.originalMaterialColors">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.prefab">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.treeAspectRatio">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.treeHeight">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+        <member name="F:UnityEngineInternal.TreeDatabase+Prototype.treeWidth">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+            <since version="2.5.1" />
+        </member>
+    </members>
+</doc>

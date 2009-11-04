@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Base class to derive custom Editors from. Use this to create your own custom inpsectors and editors for your objects.</summary>
+    <summary>Base class to derive custom Editors from. Use this to create your own custom inspectors and editors for your objects.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -44,7 +44,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Repaint any inspectors that shows this editor.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

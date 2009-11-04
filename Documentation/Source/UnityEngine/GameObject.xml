@@ -134,6 +134,30 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="AddComponent&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T AddComponent&lt;T&gt; () where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters/>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="animation">
       <MemberSignature Language="C#" Value="public UnityEngine.Animation animation { get; }"/>
       <MemberType>Property</MemberType>
@@ -489,6 +513,30 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="GetComponent&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T GetComponent&lt;T&gt; () where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters/>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetComponentInChildren">
       <MemberSignature Language="C#" Value="public UnityEngine.Component GetComponentInChildren (Type type);"/>
       <MemberType>Method</MemberType>
@@ -514,6 +562,30 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="GetComponentInChildren&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T GetComponentInChildren&lt;T&gt; () where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters/>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetComponents">
       <MemberSignature Language="C#" Value="public UnityEngine.Component[] GetComponents (Type type);"/>
       <MemberType>Method</MemberType>
@@ -537,6 +609,30 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponents&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T[] GetComponents&lt;T&gt; () where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T[]</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters/>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetComponentsInChildren">
@@ -586,6 +682,57 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="GetComponentsInChildren&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T[] GetComponentsInChildren&lt;T&gt; () where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T[]</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters/>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetComponentsInChildren&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T[] GetComponentsInChildren&lt;T&gt; (bool includeInactive) where T : UnityEngine.Component;"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T[]</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T">
+          <Constraints>
+            <BaseTypeName>UnityEngine.Component</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="includeInactive" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="includeInactive">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="guiElement">
       <MemberSignature Language="C#" Value="public UnityEngine.GUIElement guiElement { get; }"/>
       <MemberType>Property</MemberType>
@@ -594,10 +741,10 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+          <AttributeName>System.Obsolete("Please use guiTexture instead")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Obsolete("Please use guiTexture instead")</AttributeName>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

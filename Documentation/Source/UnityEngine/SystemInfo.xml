@@ -92,6 +92,21 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="graphicsShaderLevel">
+      <MemberSignature Language="C#" Value="public static int graphicsShaderLevel { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Graphics device shader capability level (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="operatingSystem">
       <MemberSignature Language="C#" Value="public static string operatingSystem { get; }"/>
       <MemberType>Property</MemberType>
@@ -102,9 +117,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Operating system name (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -118,9 +133,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Number of processors present (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -134,9 +149,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Processor name (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -234,9 +249,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Amount of system memory present (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

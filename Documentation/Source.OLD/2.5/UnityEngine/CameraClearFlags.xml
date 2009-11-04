@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Type Name="CameraClearFlags" FullName="UnityEngine.CameraClearFlags">
+  <TypeSignature Language="C#" Value="public enum CameraClearFlags"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Values for <see cref="P:UnityEngine.Camera.clearFlags" />, determining what to clear when rendering a <see cref="T:UnityEngine.Camera" />.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.camera component" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="Color"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CameraClearFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Depth">
+      <MemberSignature Language="C#" Value="Depth"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CameraClearFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Clear only the depth buffer.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Nothing">
+      <MemberSignature Language="C#" Value="Nothing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CameraClearFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Don't clear anything.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Skybox">
+      <MemberSignature Language="C#" Value="Skybox"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CameraClearFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Clear with the skybox.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="T:UnityEngine.Render Settings" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="SolidColor">
+      <MemberSignature Language="C#" Value="SolidColor"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CameraClearFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Clear with a background color.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.backgroundColor" /> property.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

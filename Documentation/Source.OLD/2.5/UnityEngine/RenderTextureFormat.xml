@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="RenderTextureFormat" FullName="UnityEngine.RenderTextureFormat">
+  <TypeSignature Language="C#" Value="public enum RenderTextureFormat"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Format of a <see cref="T:UnityEngine.RenderTexture" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="ARGB32">
+      <MemberSignature Language="C#" Value="ARGB32"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A 32 bit color render texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="Depth">
+      <MemberSignature Language="C#" Value="Depth"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A depth render texture format.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.format" />, <see cref="T:UnityEngine.RenderTexture" /> class, <see cref="P:UnityEngine.SystemInfo.SupportsRenderTextureFormat" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -11,7 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Stores keyframe based animations.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>(Read Only)</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -29,7 +29,7 @@
       </Docs>
     </Member>
     <Member MemberName="AddEvent">
-      <MemberSignature Language="C#" Value="public void AddEvent (UnityEngine.AnimationEvent theEvent);"/>
+      <MemberSignature Language="C#" Value="public void AddEvent (UnityEngine.AnimationEvent evt);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -38,11 +38,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="theEvent" Type="UnityEngine.AnimationEvent"/>
+        <Parameter Name="evt" Type="UnityEngine.AnimationEvent"/>
       </Parameters>
       <Docs>
-        <param name="theEvent">To be added.</param>
-        <summary>Adds an animation event to the AnimationClip</summary>
+        <param name="evt">To be added.</param>
+        <summary>Adds an animation event to the clip.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -58,7 +58,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Clears all curves from the clip</summary>
+        <summary>Clears all curves from the clip.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -89,9 +89,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The frame rate at which keyframes are sampled</summary>
+        <summary>Frame rate at which keyframes are sampled (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -105,9 +105,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The length in seconds the animation takes to play back.</summary>
+        <summary>Animation length in seconds (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -131,9 +131,24 @@
         <param name="type">To be added.</param>
         <param name="propertyName">To be added.</param>
         <param name="curve">To be added.</param>
-        <summary>Assigns the curve to animate a specific property. If curve is null the curve will be removed. If a curve already exists for that property, it will be replaced.</summary>
+        <summary>Assigns the curve to animate a specific property.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="wrapMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.WrapMode wrapMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets the default wrap mode used in the animation state.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

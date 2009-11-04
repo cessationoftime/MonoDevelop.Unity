@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Type Name="TextureWrapMode" FullName="UnityEngine.TextureWrapMode">
+  <TypeSignature Language="C#" Value="public enum TextureWrapMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Wrap mode for textures. Corresponds to the settings in a <see cref="T:UnityEngine.texture inspector" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Clamp">
+      <MemberSignature Language="C#" Value="Clamp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureWrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Clamps the texture to the last pixel at the border.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Repeat">
+      <MemberSignature Language="C#" Value="Repeat"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureWrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tiles the texture, creating a repeating pattern.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

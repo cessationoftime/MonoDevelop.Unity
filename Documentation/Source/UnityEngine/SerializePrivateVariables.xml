@@ -29,4 +29,9 @@
       </Docs>
     </Member>
   </Members>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Obsolete("Use SerializeField on the private variables that you want to be serialized instead")</AttributeName>
+    </Attribute>
+  </Attributes>
 </Type>

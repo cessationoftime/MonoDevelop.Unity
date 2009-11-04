@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Different types of synchronization for the <see cref="T:UnityEngine.NetworkView" /> component.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>

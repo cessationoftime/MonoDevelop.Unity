@@ -206,7 +206,7 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The current velocity of the Character.</summary>
+        <summary>The current relative velocity of the Character (see notes).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>

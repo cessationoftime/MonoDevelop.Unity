@@ -9,6 +9,8 @@
     <OutputType>Library</OutputType>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <AssemblyName>MonoDevelop.Unity</AssemblyName>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
+    <RootNamespace>MonoDevelop.Unity</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,60 +35,60 @@
     <Reference Include="System.Web" />
     <Reference Include="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\gtk-sharp-2.0\gtk-sharp.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\gtk-sharp-2.0\gdk-sharp.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="MonoDevelop.Components, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="MonoDevelop.Projects.Gui, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Components.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MonoDevelop.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MonoDevelop.Core.Gui, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Core.Gui.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MonoDevelop.Ide, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Ide.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Projects.Gui.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="MonoDevelop.Projects, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Projects.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Projects.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="MonoDevelop.Projects.Gui, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="MonoDevelop.Ide, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SVN\MonoDevelop\main\build\MacOSX\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Projects.Gui.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Ide.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoDevelop.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoDevelop.Core.Gui, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Core.Gui.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoDevelop.Components, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\bin\MonoDevelop.Components.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoDevelop.Deployment, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Applications\MonoDevelop.app\Contents\MacOS\lib\monodevelop\AddIns\MonoDevelop.Deployment\MonoDevelop.Deployment.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="MonoDevelop.Unity\Helpers.cs" />
-    <Compile Include="MonoDevelop.Unity\Commands.cs" />
-    <Compile Include="MonoDevelop.Unity\StartupHandler.cs" />
-    <Compile Include="MonoDevelop.Unity\Settings.cs" />
-    <Compile Include="MonoDevelop.Unity\CommandHandlers.cs" />
-    <Compile Include="MonoDevelop.Unity\DocumentationPanel.cs" />
-    <Compile Include="MonoDevelop.Unity\SetupPanel.cs" />
     <Compile Include="generated.cs" />
-    <Compile Include="MonoDevelop.Unity\Base.cs" />
-    <Compile Include="MonoDevelop.Unity\UnityProjectBinding.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="Gui\DocumentationPanel.cs" />
+    <Compile Include="Gui\SetupPanel.cs" />
+    <Compile Include="Main\Unity.cs" />
+    <Compile Include="Main\UnityCommandHandlers.cs" />
+    <Compile Include="Main\UnityCommands.cs" />
+    <Compile Include="Main\UnitySettings.cs" />
+    <Compile Include="Main\UnityStartupHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -99,13 +101,10 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <Folder Include="MonoDevelop.Unity\" />
     <Folder Include="Images\" />
-    <Folder Include="Documentation\" />
-    <Folder Include="Documentation\Release\" />
+    <Folder Include="Main\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MonoDevelop.Unity.addin.xml" />
     <EmbeddedResource Include="Images\unity-icon-16.png">
       <LogicalName>unity-icon-16.png</LogicalName>
     </EmbeddedResource>
@@ -142,18 +141,780 @@
     <EmbeddedResource Include="Images\unity-lerpz-48.png">
       <LogicalName>unity-lerpz-48.png</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Documentation\Release\Unity.source">
-      <LogicalName>Unity.source</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Documentation\Release\Unity.tree">
-      <LogicalName>Unity.tree</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Documentation\Release\Unity.zip">
-      <LogicalName>Unity.zip</LogicalName>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="MonoDevelop.Unity.addin.xml" />
+    <None Include="MonoDevelop.Unity.userprefs" />
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\index" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\objects\00\495d6b9d52543a4b937007b05da82e581234d4" />
+    <None Include=".git\objects\00\60a4f2f2e64401244ee67ed0a0a80397033be5" />
+    <None Include=".git\objects\00\800718cfbeff1ebbaa57f082477e8561b42e55" />
+    <None Include=".git\objects\00\d55239184d464519edd7dd63e08ae2c2fbb750" />
+    <None Include=".git\objects\02\475a2556fc35c3a8c56dd7ef4073c99f98ddd3" />
+    <None Include=".git\objects\02\5714ea129f89758d0969c388a0b114f873bec9" />
+    <None Include=".git\objects\02\76abc677344337082373eb2383b765ef783257" />
+    <None Include=".git\objects\03\2a64cc912a2e0f2ec0626876e799cae668ea8f" />
+    <None Include=".git\objects\03\74d5e4ef045ed8f01e184db177a98e808a5dd9" />
+    <None Include=".git\objects\05\0dddd097fcf540d05673c7a568788e9035eb52" />
+    <None Include=".git\objects\05\23d7bbd7e24917fc498593490e514f6c411c4c" />
+    <None Include=".git\objects\05\3cb0590fc27081ee2b2471001bb23cb9313697" />
+    <None Include=".git\objects\05\9106ab911d36cebd77d5fd159273f90c375111" />
+    <None Include=".git\objects\06\41954814381dce6037b8d6b78b99c95177f46d" />
+    <None Include=".git\objects\06\6080dd5110f9db876442aee165fe86ea478c0b" />
+    <None Include=".git\objects\06\d275f78d03c64ff34bb9765326f8afd384d455" />
+    <None Include=".git\objects\06\daf3b74230c125c9e5ab55aa308264816c1038" />
+    <None Include=".git\objects\06\ed2a20d32e2ba5f2368d2918dc040dc5c8cbf5" />
+    <None Include=".git\objects\06\f8cc12248eede39d6a58977e32e656fc8ed24e" />
+    <None Include=".git\objects\07\1914d636f5a77e520b3e8a73f0b0cdd2559cfa" />
+    <None Include=".git\objects\08\d6d3b99463b3eb3f2132a5d88875e4777d43ca" />
+    <None Include=".git\objects\08\e18f52d7a54ceb3f7af45d30d068db42a8d72b" />
+    <None Include=".git\objects\09\008de3cb32aa46288c18c9eb84f240bf0c9ca6" />
+    <None Include=".git\objects\0a\5af492a25e17067049e70c856141ff81c28fbb" />
+    <None Include=".git\objects\0a\e27d2c070e6dd5391f7b491cbed3d72edc2046" />
+    <None Include=".git\objects\0c\aea3f3139236e0e1ba27d19f1f89f0aaabb2a6" />
+    <None Include=".git\objects\0c\b472cae0e4c84c703de5654e4af3b0398e77a2" />
+    <None Include=".git\objects\0d\12812ae8c8fbc43d732696ceb0cd36d6f9e88f" />
+    <None Include=".git\objects\0d\aa5e964bf3527cb0125f0696fd3aa095347247" />
+    <None Include=".git\objects\0e\0b3b6c7856ded10bd9a22da91021fdb0ac77a6" />
+    <None Include=".git\objects\0e\db3e84c768864d8ab3231940a24a29e5b6cd58" />
+    <None Include=".git\objects\0e\f443f91d2edc3e0773ae2da524b6c6dcf84711" />
+    <None Include=".git\objects\0f\62b2e54cdfcf3b95bdd9d11a40b08e2345bd3b" />
+    <None Include=".git\objects\0f\8ea519b0c930040eaa99ee71e2a53f9046d7aa" />
+    <None Include=".git\objects\10\453c4054a29d5c98ac568749c16af054216f4b" />
+    <None Include=".git\objects\10\57ec8486bda98cfb330edbc18634c955b54d66" />
+    <None Include=".git\objects\10\e656429696ff98790a9c2b01c39d0311995477" />
+    <None Include=".git\objects\11\609fa496ae11383593f272da33f44e925d73f4" />
+    <None Include=".git\objects\12\dcca5e568e198aa57da50d0493d7978066e344" />
+    <None Include=".git\objects\13\4fdee2ecade9d66ad90ecc932f7b12a4357f4b" />
+    <None Include=".git\objects\13\b50889dc22bba18be843801a3c7277bc8d819b" />
+    <None Include=".git\objects\14\5ebc20bd31865f8c60b91c1f55d5adea4d4380" />
+    <None Include=".git\objects\14\d0513b96acf2646b07b1676b9a23320b7cac20" />
+    <None Include=".git\objects\15\622bd18bd45cd802db6a0f2928e12a5f0936c5" />
+    <None Include=".git\objects\17\3eb778d19283f54a6bfb7db7534b4139969f51" />
+    <None Include=".git\objects\17\502dffe891a252faa25460bcd70399a599ebb8" />
+    <None Include=".git\objects\18\8beb76fd2899c6a26da2c4bb67e0518fc16292" />
+    <None Include=".git\objects\18\e37e62702ef48ebe8911b97b4e59c73be45aad" />
+    <None Include=".git\objects\19\1def6db448733d95692c6776ea89318d52c2cc" />
+    <None Include=".git\objects\19\8f5d4218e5fffa51ad89194b97769ef12633ce" />
+    <None Include=".git\objects\1b\3b0658395adb77e8295e7a35cb06a07d3057ee" />
+    <None Include=".git\objects\1b\8697246eb8b6c9b2dddfd2da730159b1317455" />
+    <None Include=".git\objects\1b\9dd50f2cb70df3e6e03737145cdc52f17e4948" />
+    <None Include=".git\objects\1c\5fb2a5cae86ed401db98021c4c7d4a2f3e74ba" />
+    <None Include=".git\objects\1c\b69ea81535c742abccbe28a6e3a3d72f2b73a2" />
+    <None Include=".git\objects\1d\fe8cdb7e57f6e03a980b8a1f5fe214351884f6" />
+    <None Include=".git\objects\1f\2ff014c6eedf3536997ac28e5b5de3365f0847" />
+    <None Include=".git\objects\1f\59aabf81dc28220049956f8a6aeee84ad3bffd" />
+    <None Include=".git\objects\1f\a54f9a65469fbd7a1911553c583ac6293219f5" />
+    <None Include=".git\objects\1f\d22cb8c73577d5a3d27a4e369c772fd7d61e23" />
+    <None Include=".git\objects\20\55c34429de57dbfc8da22ae3bb2d2cd7b41a0a" />
+    <None Include=".git\objects\22\ba1b232271c115f3a42f1624864625f6df7929" />
+    <None Include=".git\objects\24\b1051e3ac45a14c6cc7ef8d9e889f7ae3f099d" />
+    <None Include=".git\objects\24\cf585123c81060fd3ccc827bd8878f121c32fe" />
+    <None Include=".git\objects\26\2b7516018c57dce7af16bd9f8009feeced5e80" />
+    <None Include=".git\objects\26\8a8826c907366b5842d8117a06ebbfb310c692" />
+    <None Include=".git\objects\26\b1ed87755e9473205b7c1ef50eeaddbef91f9f" />
+    <None Include=".git\objects\27\37ed65fd5a61f66d69e2daa841d9ea2a5f6e9d" />
+    <None Include=".git\objects\27\dc3a796f93828a49c8b0e489dce5abe65681e0" />
+    <None Include=".git\objects\28\e14c43b0b2dd790844c70615a005515544e31b" />
+    <None Include=".git\objects\29\15f3710fc737b9d1cf545065584d0ef90ad3bb" />
+    <None Include=".git\objects\2b\a3b5c11bb68969889e1e389b98f3b4a7191f6c" />
+    <None Include=".git\objects\2b\a9dfef83bc7f65ddb7701604edd76545150855" />
+    <None Include=".git\objects\2b\d12e4fac51eac8a3a419568d16034a9788ede3" />
+    <None Include=".git\objects\2d\2e3b097e8cc91a6545f62b55fe40e98c778d41" />
+    <None Include=".git\objects\2d\d07618ad7b546cadc13850750fb64947848bda" />
+    <None Include=".git\objects\2e\acae51ececb3ef671ea063ef59f12e34e2bfe9" />
+    <None Include=".git\objects\2f\124015b83a6ae7a4558eaef5252eee4aec7968" />
+    <None Include=".git\objects\2f\5e2f45380cc43a34e1540681b79cb07d813785" />
+    <None Include=".git\objects\30\bd5f1f4dc7136ffbe20dfff71b1d7877793275" />
+    <None Include=".git\objects\31\cfa7972430600c8d4e2dec531beabb9f34e8cb" />
+    <None Include=".git\objects\31\f3dbe7b236e2d2e8aa0ed605b0dd7770f12c09" />
+    <None Include=".git\objects\32\d20e25fe55dfaa1d7c8825c2d7918e704265d0" />
+    <None Include=".git\objects\32\fa858b12aaa270521ad5c6406f796d55d68b1f" />
+    <None Include=".git\objects\34\0897071eb13c4ce43d9e83d7a4b4578473da95" />
+    <None Include=".git\objects\35\de30a815b2784b8f288cb15fad2220a0cde87f" />
+    <None Include=".git\objects\36\dfeb307bcab0e1e56b306f0ad922e6a0ae7472" />
+    <None Include=".git\objects\37\3d4868557803e8b42113641057804aeb05282a" />
+    <None Include=".git\objects\37\bf097f19452103f013e266b37b5f8ae1fa4aa2" />
+    <None Include=".git\objects\39\4eb527e84572570c50398faaa18298624f1d36" />
+    <None Include=".git\objects\39\d98b0b3e7c91014da8064fbe5fa0613d576d3d" />
+    <None Include=".git\objects\3a\7ed1cf257af78c612dc1ee97d39c05e34f02ea" />
+    <None Include=".git\objects\3a\80797079043aeab3ca30b00726127b2191b1f5" />
+    <None Include=".git\objects\3a\82e6cfb0f7b32218ad837cee7f8551cdb8642f" />
+    <None Include=".git\objects\3b\4f8c016d514eb3db42cecf63fcc1b7f2efc96a" />
+    <None Include=".git\objects\3d\41d79eb2cb34e5b91f1dbcb3dadf269938ebea" />
+    <None Include=".git\objects\3d\42f0e7ad9b90559315461f3a0359286d88478d" />
+    <None Include=".git\objects\3e\3c8a80edfbd603e8e8082ba5dd03aa5ceb0dc4" />
+    <None Include=".git\objects\3e\61dbb0a77ea1b4f457a0321f3aefab90394ceb" />
+    <None Include=".git\objects\3e\bb8f65966574e98fa0509145e8f60dc48274f0" />
+    <None Include=".git\objects\3f\c82e989b67a2a079ef2b1887a100bce140b2e1" />
+    <None Include=".git\objects\40\b0d96ff278eba73da93649b2c5c2506d8f52bd" />
+    <None Include=".git\objects\41\26b36e50eeae2aae56877e4df8f6b4ff03adb9" />
+    <None Include=".git\objects\41\3b8d6a96c2813df779561dcb0763bf8f698e32" />
+    <None Include=".git\objects\41\8fc9cbdc9fc0eb5dcab4fdc19d858c10d9af83" />
+    <None Include=".git\objects\41\97e855a5c4cacbb120592e46bc27406d6a94f1" />
+    <None Include=".git\objects\42\6ec2a3ec5b24b5059b6f951c815c62c1ebb0e0" />
+    <None Include=".git\objects\42\d66dbd1fb5186032af7da34424cb94a081fa0b" />
+    <None Include=".git\objects\43\74565b6fca8ef39f67f42b13f7293518f43180" />
+    <None Include=".git\objects\43\74a9bddf19300a8caea600a4f89aa5a03a8a90" />
+    <None Include=".git\objects\43\8d15e0c580fbb3a3ff1b0f66a35135af7271d4" />
+    <None Include=".git\objects\43\993dae42834b41d6c673586f5aef811ff7c138" />
+    <None Include=".git\objects\43\b07d1bf47ca0b17b69a0e1ee85e7461555000a" />
+    <None Include=".git\objects\43\b90fbfa55a15dfdda00c87f5dac8ba69f1c4a6" />
+    <None Include=".git\objects\44\43fcf880029187f12517b9229e7a6fb5356c83" />
+    <None Include=".git\objects\44\5f039e7a77423d4f15ab49cc3c99539922f265" />
+    <None Include=".git\objects\44\a7409a1a067682fc8f31c69538fe74a83d0e13" />
+    <None Include=".git\objects\44\f79e3600fec4fb1d60f4b321bee36fc5818cfb" />
+    <None Include=".git\objects\45\d938b7aa95898cd93120af010069aa1f054e22" />
+    <None Include=".git\objects\46\5290e0e6c021716a26e7205942177df008975e" />
+    <None Include=".git\objects\46\e079f75d88e796af97cad55471ad06499d55d7" />
+    <None Include=".git\objects\47\1cd1b3288b378bb7ad6fcb76b7d68a128173c1" />
+    <None Include=".git\objects\49\22ddb07cfb4a944f328f7e0885d80cceb740cb" />
+    <None Include=".git\objects\49\8348dca121268ff762a55ef9d1f05169e085ac" />
+    <None Include=".git\objects\4a\0616da0460b72153aa849fcff711b45b051e78" />
+    <None Include=".git\objects\4a\4f6978741910d0d13b7d399a49b1fdea49bc84" />
+    <None Include=".git\objects\4a\6bd3d9336e58418921a23623d128630cd7a2e3" />
+    <None Include=".git\objects\4b\33173d84ff4bc50df1743a4f7fa3d852eeb3b3" />
+    <None Include=".git\objects\4c\085958f5c08d76f7b0ca41a92bcae36a8fdc4c" />
+    <None Include=".git\objects\4d\138013c5fc9f270ad1c156cf03952d515fbe5b" />
+    <None Include=".git\objects\4d\5ea028126b5c70e9177500b94bdabfd71f041a" />
+    <None Include=".git\objects\4d\8bb1ed3fcceb7dc5d0153bea9d4639e780b0fb" />
+    <None Include=".git\objects\4e\4366e755a7276cf4d37cee0d3b8f43c97dfd37" />
+    <None Include=".git\objects\4e\8dc60c664a031a5ead5005530c2fb4b4fa13e5" />
+    <None Include=".git\objects\4f\be1e3d1556af27fbed757a8eb0ae907a45fe53" />
+    <None Include=".git\objects\50\1ad186f5109b6da3d547e97c048d90f0d6e847" />
+    <None Include=".git\objects\50\975df24cb289dfce7531b3a552d4959b29c54c" />
+    <None Include=".git\objects\51\53b67a20472a867da79446f5d6eca511fd63b7" />
+    <None Include=".git\objects\52\21c3f4425b90cd5993a137a39096de36cea6a7" />
+    <None Include=".git\objects\52\2e9aa0ab6290b99b93c9ce67b2c7ca06ddd70b" />
+    <None Include=".git\objects\52\42ab41d798b534d9ce24bc18de6e74fa2aa20e" />
+    <None Include=".git\objects\53\51e6dd79f430b73dd2c91902f07191414731a9" />
+    <None Include=".git\objects\53\e598e0ba61b65e55a52d85515aa794714acc51" />
+    <None Include=".git\objects\54\268eb205e9257522046f3e88ad501d9333d91a" />
+    <None Include=".git\objects\54\62d12c0b24337bf9e9b9e21fa18406629b3ad9" />
+    <None Include=".git\objects\55\584d80d9048a5345b36886e260904d7deda7aa" />
+    <None Include=".git\objects\55\884cd97387d4849ac65cf30780ba1bd2280742" />
+    <None Include=".git\objects\55\b2dd9d6c2c7584eee81f4927fdb7f96c624076" />
+    <None Include=".git\objects\56\5f87447e1097df759660e55ee83aa92becf131" />
+    <None Include=".git\objects\56\955480027a45cd30393d3bef42c3e64a2c811a" />
+    <None Include=".git\objects\57\4ac59380cb22dbdba3e60152342433766c9994" />
+    <None Include=".git\objects\58\c7f8f7e8075ad40593d3013d089ff6deff8601" />
+    <None Include=".git\objects\59\2d9d730cb62a98bede466258fbecb1d858ea4b" />
+    <None Include=".git\objects\59\f6cf9657bed355f154d93945241c2db47f81f0" />
+    <None Include=".git\objects\5b\43d21625360470a03658541801e0bbfd97c54e" />
+    <None Include=".git\objects\5c\6144f8eb9147cfaa4c7131000814f4d35787fd" />
+    <None Include=".git\objects\5c\bc5f7c7fbb3bf5d4396ee72cd34a4f2788fd07" />
+    <None Include=".git\objects\5d\8fe0b48d497fbb3d67d308bf2a1926a1a626ba" />
+    <None Include=".git\objects\5d\b81a3a07fa5b797f7300c05acb37cda6b521ee" />
+    <None Include=".git\objects\5d\f3d4fcaaafdc7dbd4bbea6e40e9f824d580482" />
+    <None Include=".git\objects\5e\14544c1cc3f81c323d6a193f9d09f8b0a0e0c5" />
+    <None Include=".git\objects\5e\55956e386f88cd55d7bdd83ad3d79d66c40f51" />
+    <None Include=".git\objects\5e\b8e6df794e6c083091dcf3cb0e52133c684719" />
+    <None Include=".git\objects\5f\d72b9ba88701db607c5515c36a8215c91ae83c" />
+    <None Include=".git\objects\60\1faaaccc42023dd865e138c59ecae4f6c061b7" />
+    <None Include=".git\objects\61\056c00f39451d31416690edc28702e26bdd26b" />
+    <None Include=".git\objects\61\52ff81b2ceaa5a2b112618f4f6ea25c02529d5" />
+    <None Include=".git\objects\61\952cb60b71d381ea0536d4ed9e7ccac03302a0" />
+    <None Include=".git\objects\61\dfbf1cba5ef4019312e295d14d39f508622b71" />
+    <None Include=".git\objects\63\3cfb0fb52173c6cb10f5d3a3ce770ffb73f30b" />
+    <None Include=".git\objects\64\88e361fdc45a47cc334360419df2b93c27c82d" />
+    <None Include=".git\objects\65\0dce9cefc09dc01abe61b3c93978c19785b0b3" />
+    <None Include=".git\objects\65\ac2a4cd9194639d110baec410b65dcd288589f" />
+    <None Include=".git\objects\65\f5c21a76afbde3bb94b881a5b182faa3e59623" />
+    <None Include=".git\objects\66\063a32e3e04646841d38afcb677ffe47c018cb" />
+    <None Include=".git\objects\66\44654d20f448d23709260166e9a563a9cc6719" />
+    <None Include=".git\objects\69\d118c5fbcfe446696f2c86c194b0b6b96d6c8d" />
+    <None Include=".git\objects\6a\d35fa2df0b5cd3323a5ef5e4e3588ac17a6966" />
+    <None Include=".git\objects\6b\5a3432106b92edf1fd355fa145e98fb1fcdf4c" />
+    <None Include=".git\objects\6c\150539a50f5af6bd62b24d417cf2f0c87b206b" />
+    <None Include=".git\objects\6d\bc5648aff5bcc5d59d2992e1d26830a9e628e3" />
+    <None Include=".git\objects\6e\e674bd0d503fe8a38858b225b481382042d3f9" />
+    <None Include=".git\objects\6f\825fe8337e04fc4ccbc7ce031c358fb4ba87fd" />
+    <None Include=".git\objects\6f\e5b837796352c77e32eda187269c1f12adc176" />
+    <None Include=".git\objects\70\865a14706b0d5b33e61d6dc6ee2a122b420050" />
+    <None Include=".git\objects\71\66ffaefd906ccead296363a2ec1d02a88d1cac" />
+    <None Include=".git\objects\71\739b2003d4ff7b21bac238f2c15263bda3d113" />
+    <None Include=".git\objects\73\2ad5971d54535d36fea690323d9cf6974546d2" />
+    <None Include=".git\objects\73\5d5fbb50b67b08d77be3f7c4874b784c3971c2" />
+    <None Include=".git\objects\73\970a055b43644494b0dbaad37d0a85f25c433d" />
+    <None Include=".git\objects\73\a5de2abb732d30a0ed8d9217705000a49c67c9" />
+    <None Include=".git\objects\73\e4ede35a78fba6a1d4c483dec3896646f13cc5" />
+    <None Include=".git\objects\74\4b41ccfb4c10ff670d3bd71c1bc158d704e93b" />
+    <None Include=".git\objects\74\4e603894d11c10ed3b793393c444d6a1a4c3e4" />
+    <None Include=".git\objects\74\5797b9a1cca084d856e3532943c40124c1ad6f" />
+    <None Include=".git\objects\74\94697337588372dfae43c38842784e1cdea7d0" />
+    <None Include=".git\objects\75\db45968358eb71d7ade316f1fd18e4c67a8d2f" />
+    <None Include=".git\objects\76\068301e30787fc838a51b0be4e7749246cb033" />
+    <None Include=".git\objects\76\4df129ec64cc554429ae89f873f5e9039aae2f" />
+    <None Include=".git\objects\76\d24441784474052930176df6a2981e2fbe41f2" />
+    <None Include=".git\objects\77\07e04724d2fe5e178c217ada6ccffbc2cc71b2" />
+    <None Include=".git\objects\77\fc48ecb0d1c871a36de8c752d465817487f3cf" />
+    <None Include=".git\objects\78\ad8ec7063bb209252c77e1eda3395c53377aaa" />
+    <None Include=".git\objects\79\24cd2549e051086404188061e5a7c964f9b3ef" />
+    <None Include=".git\objects\79\ca2a14fe880c84adf76621c1fe6aaf8b954771" />
+    <None Include=".git\objects\79\ffc00aa8321034e20da2a9cc2bc9677027f82b" />
+    <None Include=".git\objects\7c\36a1ff43e187142b63d3d6cb52b246717f5b31" />
+    <None Include=".git\objects\7d\42d3d13bb251c4520bbd3da59bed27b03d0770" />
+    <None Include=".git\objects\7e\1cf1de489a4682865fa4417eb6f24059258efe" />
+    <None Include=".git\objects\7f\43949050f584e3b8e2070ab185e61a95abd903" />
+    <None Include=".git\objects\7f\5c1b5232c916a21e4552c238c1aba9eaf0d143" />
+    <None Include=".git\objects\7f\b0476db17b1cf96b6ff0c49b883de29869f749" />
+    <None Include=".git\objects\81\24a7388e56b3055f7b4e95a558321ac9e4100c" />
+    <None Include=".git\objects\81\53a1fc8df572d687c3da9aa78243329764e1ce" />
+    <None Include=".git\objects\81\55393192171207e6f5d859bb6ba21f8526a78d" />
+    <None Include=".git\objects\81\5a64f2ac155313c59e3f319dcbc61ebe5d2e6e" />
+    <None Include=".git\objects\81\fcd73e695e9cdf4bec3eca1d702b0ef6926ade" />
+    <None Include=".git\objects\82\04c08390bdc8dcf0a2ec5809b7ec96cc54f8c6" />
+    <None Include=".git\objects\84\8b9e7653a108df62a826fc7cc531a0e8e04cc2" />
+    <None Include=".git\objects\84\d6e31cd9943a8c2eda06e37e78ebdeeb45aeab" />
+    <None Include=".git\objects\84\efbdefc0be3239048c1381fcc3fbc552dff493" />
+    <None Include=".git\objects\84\f5587f39161638843e447b4aa013cea3a2d5e1" />
+    <None Include=".git\objects\85\2035794d2e3f66d148c5e2df4ada99bf53d728" />
+    <None Include=".git\objects\86\2cf2c8c8516139103868bf3936618ff7f7e557" />
+    <None Include=".git\objects\86\617647cab5a05b6146c7021356116dfba81f32" />
+    <None Include=".git\objects\86\bbd360ebc64faa48095dc8d38df96efa4c6ad3" />
+    <None Include=".git\objects\87\86ed787ad9f2e49671c43e19e41adc4efe0ad9" />
+    <None Include=".git\objects\87\d683cfba8009fda071742fa17576d9ea3b9e83" />
+    <None Include=".git\objects\88\8ef0ec68c9073e90377bca69ca5f58fde68b22" />
+    <None Include=".git\objects\89\ec7ac9ca1f8631cb3f98320b3e6a5daf243e47" />
+    <None Include=".git\objects\8a\99d7be97fcf643b0208b45a47e9d08df7570fe" />
+    <None Include=".git\objects\8b\3adbffac424bfdd17747184352a4701e69ffcc" />
+    <None Include=".git\objects\8b\ffc3c7fbe4a3e15a2ebb5585f4b96290c3944f" />
+    <None Include=".git\objects\8c\13e32fc07b81a1938f379ec8b2e0969ca687b5" />
+    <None Include=".git\objects\8c\281c0c45a4779a613bc3f48d111cae47372b6f" />
+    <None Include=".git\objects\8d\4fc2d1a7edce0e83b2c1f89897f230c90ffd21" />
+    <None Include=".git\objects\8d\b91be4b376ee7d9438927d519de0a5a7f4fc36" />
+    <None Include=".git\objects\8e\a17f688fd4a479fd682518fede940d95cd4c86" />
+    <None Include=".git\objects\8e\d7f67fa424722306d59ddb08789355fb6a3c36" />
+    <None Include=".git\objects\90\17ace3ecb88b7cdec00a7045ea9cfae8ce777b" />
+    <None Include=".git\objects\90\6d5accd3cf94877510aac09c15b4fc65ba198a" />
+    <None Include=".git\objects\90\c757835ff26aac44bad1fa76a66a9147c144a1" />
+    <None Include=".git\objects\90\d2136e4c7a9f782793cea1a71e8b93b70c983c" />
+    <None Include=".git\objects\93\0f1b203d3a72acac3203895ee818b741456dd7" />
+    <None Include=".git\objects\93\53e873ed71ecbf82b53677743a72a82149e75d" />
+    <None Include=".git\objects\94\937cb6302c5db3762c1a6f3e3261e20135ba52" />
+    <None Include=".git\objects\94\c59aa4f334ffa5455a1940114b9af09271dc0d" />
+    <None Include=".git\objects\95\ec16e407d86672cd6fc80fc7fd3cdf19988975" />
+    <None Include=".git\objects\98\0d2554bdcf925f3879a6e3dc86c586ccc10b4c" />
+    <None Include=".git\objects\98\cbff901fb5a38de2ba5614bf875534e4029b8e" />
+    <None Include=".git\objects\99\719164d680c35aab32caea21cf018333781d82" />
+    <None Include=".git\objects\99\74fc11ddc07bc8868331ae52155694dddb685e" />
+    <None Include=".git\objects\9a\1503244dbe2ea714ecc35e5fce06e9165673f2" />
+    <None Include=".git\objects\9a\88f7e45d5199f92fa94e590367059109a2b4c5" />
+    <None Include=".git\objects\9a\89cd426ca893f86ebd9402c292de0475f6e7fa" />
+    <None Include=".git\objects\9b\532f25de77fa566bda92d9554a3c47873bd8e9" />
+    <None Include=".git\objects\9b\807bf0febfc4b347584dc0bd1c830563ffb6f1" />
+    <None Include=".git\objects\9c\34cd15148fa53da23fc5c56081ca59f691922b" />
+    <None Include=".git\objects\9c\986bca7ca21ba78359c2dee2eb13603be765a8" />
+    <None Include=".git\objects\9d\4caa413d9b96b646e3339ffbc9376d7c9ad333" />
+    <None Include=".git\objects\9d\98734d566a2701697133605ae7d02e74fbfd79" />
+    <None Include=".git\objects\9e\75cb8178d64e11ec3dd15683f12c5fa6faf432" />
+    <None Include=".git\objects\9e\81e7045a124855bd1ba5d3c3263509ef5ea230" />
+    <None Include=".git\objects\9e\a9867cd9ec5517536180db494a3180ff4b4d55" />
+    <None Include=".git\objects\9e\aabce6613a1fedb5b3ff2ab0cf179aa5d1624c" />
+    <None Include=".git\objects\a0\c224424bdb3727bdf05449772d85013f0446cd" />
+    <None Include=".git\objects\a0\c334dde10286f59c6d442e2e16766b9dc6700a" />
+    <None Include=".git\objects\a1\0fd33a3b645e8fb7988e9a87ba0572b9f178c3" />
+    <None Include=".git\objects\a1\3326d9c129898e6eb77a142f0e1e3abe3a505e" />
+    <None Include=".git\objects\a1\bea432c6d39b6c83330b8ac4094e7ae7da9d7b" />
+    <None Include=".git\objects\a2\e17bd835e1aae372b6560007368e97edd2c5e0" />
+    <None Include=".git\objects\a2\f9535998d617afc98dc0d5081a80c4cd3b2aeb" />
+    <None Include=".git\objects\a3\4b438d48abff552d378e50fb7b6a49747f805f" />
+    <None Include=".git\objects\a3\764b3a47ef8499f472ba7f2036c10449c35a18" />
+    <None Include=".git\objects\a3\b9c2370944395aeb40ae656774d3d781600281" />
+    <None Include=".git\objects\a4\2e9e82c85f5d5ee407f09972905f42b0500032" />
+    <None Include=".git\objects\a5\ce40b70f25f184859a686b9cc0db4fe383b5d6" />
+    <None Include=".git\objects\a6\1dcd3da3651e69efff7efa5d0fcaf5febb61bc" />
+    <None Include=".git\objects\a7\38e8296a1a97e0c59eb3db3c76a6ee5fbb0499" />
+    <None Include=".git\objects\a8\b32ee2d034772f44a98e39b3551aad187309a9" />
+    <None Include=".git\objects\ac\10af69532e2e5ae8483fa32e889b124d459cbb" />
+    <None Include=".git\objects\ac\eeca0d031c48c19324d4689d931f6c8d59fbda" />
+    <None Include=".git\objects\ad\f38470aad4494e824e92564b488b49aed7c02f" />
+    <None Include=".git\objects\ae\11a83dce0110ba8ee25c2e58c528252b09a250" />
+    <None Include=".git\objects\ae\29add396ccb7ac0dd070ff48a62c950424a39c" />
+    <None Include=".git\objects\ae\5c64ac2746b6504f87537a867118b618cec96e" />
+    <None Include=".git\objects\af\1df4f091688f31b337a244752f8b8c5fefb35e" />
+    <None Include=".git\objects\af\366973d734d72e7d69610a5edeecd66222b806" />
+    <None Include=".git\objects\af\69ef7b0e2324a501c42a0abb4d368804001a4f" />
+    <None Include=".git\objects\af\c4412111646c43c5507f778beca4115b18da4b" />
+    <None Include=".git\objects\af\d2e4bd7b0332be93d114fbb64a19d56349d047" />
+    <None Include=".git\objects\b0\5499d0f7210589bd608657ed5111b6ae78e73f" />
+    <None Include=".git\objects\b0\93f58d6fd4ef2173b257ab70b315f6e5007902" />
+    <None Include=".git\objects\b0\e39a2432a8e1ee1d096486aad389e5e4457e9b" />
+    <None Include=".git\objects\b1\cae8fb465ae588cdffa4d5011dce310c8726b0" />
+    <None Include=".git\objects\b1\e1fce692b88c898a6af55cd65c0e3f36e08583" />
+    <None Include=".git\objects\b2\2647391dd92c2e0c58b2cf8401a9e1cdb80135" />
+    <None Include=".git\objects\b4\4d1219c80e6c76eb461a889b591a4979b7bc17" />
+    <None Include=".git\objects\b6\373ab1a07188b030edef2e793bf435f1588a34" />
+    <None Include=".git\objects\b6\422fe6c3a3c77a297bf18908e7a855c430ccd5" />
+    <None Include=".git\objects\b6\56f5bd64d1212795c50babddd106cdcd4b3155" />
+    <None Include=".git\objects\b6\bb41ece85af5866061acdd50f0611badb03648" />
+    <None Include=".git\objects\b6\f09b61a2f6b42410930dc15cf2a0ac3a0f11d8" />
+    <None Include=".git\objects\b7\1db694733894cced719cb2a0530ca64327c9f3" />
+    <None Include=".git\objects\b7\e4395104a442a468d87d98846e460413d950de" />
+    <None Include=".git\objects\b7\eb9b5c78fab7dff408d65e6db98b2b221ada12" />
+    <None Include=".git\objects\b8\39ace80805cb3828e0c7647ba06203c9b67f25" />
+    <None Include=".git\objects\b8\bd4be02c887ddcc9aea6b63dac19e86ebd35aa" />
+    <None Include=".git\objects\b9\4852504928b7019611e6dd2766e657b9ded738" />
+    <None Include=".git\objects\ba\15d5a79b3fc6e8163e78d59f354daf7798a223" />
+    <None Include=".git\objects\ba\7cb47b9aba622a9221694fd112c58f0f9dc17c" />
+    <None Include=".git\objects\ba\a3ee7863d0d6da361985452dab22d3c5e2dc7b" />
+    <None Include=".git\objects\bb\906d7cbbc65e6d018034c5be819cfd1e4bbf66" />
+    <None Include=".git\objects\bb\d8f145d9b33709377e64421199b26a6be39fda" />
+    <None Include=".git\objects\bb\f39a43ecfb28dd6dc7600723d96f549c38237b" />
+    <None Include=".git\objects\bc\8035e9d3c691033856e5ef707a5b9f941c427f" />
+    <None Include=".git\objects\bd\0f283f14773740b9670100158dd370bbd8a224" />
+    <None Include=".git\objects\be\6e197e09f2fcae6d3508d1764524153a78fd2d" />
+    <None Include=".git\objects\be\eff0a2bf532c038476948935ed1f37530d5554" />
+    <None Include=".git\objects\c1\0e92f21c2f943362fdf1165a1ccae85781b800" />
+    <None Include=".git\objects\c2\b2ff77e75bc8f7a52951c1badcdc0c89bcd574" />
+    <None Include=".git\objects\c3\186dfed690bd327d608b9738e4ab05e50ef71a" />
+    <None Include=".git\objects\c3\d8b5c54f451b88794879c13c6b3b575c0a9221" />
+    <None Include=".git\objects\c4\d057971b8d2c87952c6cf17eb78d77accbbc55" />
+    <None Include=".git\objects\c5\84e6b3c248e5040bbd4010b8c90e33dd0ff404" />
+    <None Include=".git\objects\c6\fd4889b9330dc381ff06509477453b5466e306" />
+    <None Include=".git\objects\c7\2579acd1b0fbf58110057ef4b2473d9ef1f989" />
+    <None Include=".git\objects\c8\47b53ddf1e8e443128b34add29e2289295f651" />
+    <None Include=".git\objects\c8\90ddcf9141a19cdc8bee97067817efc12f2ac7" />
+    <None Include=".git\objects\c8\c03aabeda08a0cd23a831d8a0d136b336e06e2" />
+    <None Include=".git\objects\c8\c196ea6dad007c261b3100fdea04cf8bcc8561" />
+    <None Include=".git\objects\c9\32281012782111ff411037144eff38e691f703" />
+    <None Include=".git\objects\c9\328261b8c64956e6178fb4fb1d0fd758033b56" />
+    <None Include=".git\objects\ca\162ec387c5f08a1f9fd5a9d495aa70ce60da7b" />
+    <None Include=".git\objects\ca\327f35d9ded541c015299e56ee0c5c960b329b" />
+    <None Include=".git\objects\ca\6b413b852f813e1d9aecdbd125f4721a99d2eb" />
+    <None Include=".git\objects\cb\25d9100b5897ce79559f090b7e94b103374f57" />
+    <None Include=".git\objects\cb\8e0876d56388c7c489aa398a5d3ed616382312" />
+    <None Include=".git\objects\cb\f09892651a5711954e1a33087afce0cf70717a" />
+    <None Include=".git\objects\ce\a04fd84f8627f63327937f99a04f4773c2e76a" />
+    <None Include=".git\objects\cf\c92055cd80dc28a311dc3b03ce6d7f08a48fa2" />
+    <None Include=".git\objects\d1\5fe883c5fbc028829d56965dbdba032dde3f3d" />
+    <None Include=".git\objects\d1\820e45168e70140e606e82b52fec5ba6116ed8" />
+    <None Include=".git\objects\d1\daa0f14002340ff604f285f17212f32e22a92e" />
+    <None Include=".git\objects\d3\0a73ba645df9ca2fbcfbf5e8e791d5ee4d03ce" />
+    <None Include=".git\objects\d6\29ee89cd8ef6f1be7c5ba53f0164d664942719" />
+    <None Include=".git\objects\d6\32374601d9530fdc79e9035f4c68c6d90d1784" />
+    <None Include=".git\objects\d6\f31e978a82cac2b555822c88b24b64cdfe3dea" />
+    <None Include=".git\objects\d7\c629f27ceee3ad5e3cac3ce22f15b95a1b1ee0" />
+    <None Include=".git\objects\d8\2e7317ce957b84039a9e85b77b03b338db9287" />
+    <None Include=".git\objects\d8\9b10c5a3f42a15b5411f046a62ebcf37fbf373" />
+    <None Include=".git\objects\d8\c2e05cf3d1f2646bc255becd4e777eabcb4ce9" />
+    <None Include=".git\objects\db\0cc952a22219d422ea25834d725c0134ba02a6" />
+    <None Include=".git\objects\db\997d1c1cd38b23e43033fc4ceda0353bb4aaa1" />
+    <None Include=".git\objects\db\d3fed5616dcc57214b9532c24d5b1eb8fd436f" />
+    <None Include=".git\objects\dc\0756e966e6176440e9e95a010d08bea7b4c955" />
+    <None Include=".git\objects\dc\5b8ed3e80902be0c938ed5887a5ffe8e0a8108" />
+    <None Include=".git\objects\dc\784b23c5e113e581d1f845843807b81d692167" />
+    <None Include=".git\objects\dc\910d778658997f7491aff4b2b008c6a8f85967" />
+    <None Include=".git\objects\dd\aed7e706d85608db0e49802f2b762333566851" />
+    <None Include=".git\objects\de\0a0a9def6f8ddbb826a6a188d88486c497a834" />
+    <None Include=".git\objects\de\39dbf24fc3121cef9e5bf28eaae7b117e42332" />
+    <None Include=".git\objects\de\9b30a42e0af792ca32d92a00485b9c02ca839f" />
+    <None Include=".git\objects\e1\6db2fe03c071b9836f623f0b98510cf3ee565c" />
+    <None Include=".git\objects\e2\9a80c46ca02129de8a9901493476742a54fb09" />
+    <None Include=".git\objects\e2\a3fed5f80a8b1fa1e88a011bf5d79b5dccf4de" />
+    <None Include=".git\objects\e3\2d28b062767465296d51866455e788026e5b76" />
+    <None Include=".git\objects\e3\5cd59dbb01711448f0d240844872e584cbb960" />
+    <None Include=".git\objects\e4\5b2cf8826ece13768b9bef496f50c5fe40eb89" />
+    <None Include=".git\objects\e6\83ae59377682a5bd99d979fd335ee74670b229" />
+    <None Include=".git\objects\e6\9cfe06196972e75b2ce8a1da7fa918508c23b5" />
+    <None Include=".git\objects\e6\aa4f9581e86121a4ff954665060c13ffc2ec39" />
+    <None Include=".git\objects\ea\3172e22158aa922811a02d256752c2a31c1663" />
+    <None Include=".git\objects\eb\686d2403e447152a7bed61af640dc68ba5e8ab" />
+    <None Include=".git\objects\ec\1fdb2cea0c79c5a18c5e534c7be9cd411c0e76" />
+    <None Include=".git\objects\ec\88d420aa2e12d969f685e36e111634f7edf26f" />
+    <None Include=".git\objects\ec\eaddc2fc6dbf0dcbe844bc8d14831364a3ab66" />
+    <None Include=".git\objects\ed\3a0caf3e9ff1900da457cb505744245e5562a8" />
+    <None Include=".git\objects\ed\9ffababba12487d6e65b73858c2059dac69579" />
+    <None Include=".git\objects\ee\162c310e4a84ed8db3dcbc31c4faed55585ef2" />
+    <None Include=".git\objects\ee\b0abb595bade8110bc785952562e2fc1586889" />
+    <None Include=".git\objects\ee\f7ad6a67917a1746849eaa454170d6505c1d93" />
+    <None Include=".git\objects\f0\617848cba37d780ef66f6370d49da18c7afd75" />
+    <None Include=".git\objects\f1\60a4031cbbeb24a889c37659649e5957bee955" />
+    <None Include=".git\objects\f1\8362c6b9d68c8fc980d8c6656cdf8b2a62bccb" />
+    <None Include=".git\objects\f1\9007deb8f719448cd60d4681d5e87fbe1c1f2b" />
+    <None Include=".git\objects\f2\35d9356565e915ba3ccca428d442398b263858" />
+    <None Include=".git\objects\f2\3d960dd38f59af74ecf15117c273561e1a8a6d" />
+    <None Include=".git\objects\f2\48135d15d4e47a3fee8d9f077c69034905f8e0" />
+    <None Include=".git\objects\f2\f2539a1237ace785f8c9c637a1dd4651a78b41" />
+    <None Include=".git\objects\f3\35347589123681da027b77872ba9d07fc98a3d" />
+    <None Include=".git\objects\f4\0e6ee697a75e8878114a937e52d52761463f56" />
+    <None Include=".git\objects\f4\95f263583f39c550fea0ba6ae415045247eedf" />
+    <None Include=".git\objects\f5\1547c4c5978849ad4967c6f20694ad2bd78ef3" />
+    <None Include=".git\objects\f5\6576d64180098535bdf4a4dd9d241a706a3b0e" />
+    <None Include=".git\objects\f6\9b46695214b3aabaf3f119c3d7119e8a3fc61e" />
+    <None Include=".git\objects\f8\b819ab128de07cfa4f8d523f00071234bdd838" />
+    <None Include=".git\objects\f9\59b5b0fd2871399068ecc885c6eb87b869ea5b" />
+    <None Include=".git\objects\f9\f485340f1d7cf8d7705f610462928e8bcc8710" />
+    <None Include=".git\objects\fa\ab1514a7c1c561a95291f04303544d8646be4e" />
+    <None Include=".git\objects\fb\169165fc2e223bd95725e2365add45cf645d02" />
+    <None Include=".git\objects\fb\639b74e696b41539c0e2dc5c8e7905f4a0981d" />
+    <None Include=".git\objects\fb\76906622d981a8a8662647ca769f90c453ccbf" />
+    <None Include=".git\objects\fb\d86ebdf26ca33605921d0646837b20ba00fa91" />
+    <None Include=".git\objects\fc\9886f158900f1c509d56fc510194f9939bd3cc" />
+    <None Include=".git\objects\fe\65e3f433405cfad7ee4a0c20332c2c74fe1d1f" />
+    <None Include=".git\objects\fe\811ac98ad0d857f55a4692475174a14b666a16" />
+    <None Include=".git\objects\fe\d0124425669b1fd70bfa0f8fdc07c121a34466" />
+    <None Include=".git\objects\fe\d79ae57624055977d587a6fe0009c34d4cc5d5" />
+    <None Include=".git\objects\ff\6870c0b088d9f26f026e413f3a6d9d7f33a98d" />
+    <None Include=".git\objects\ff\a3c5a1ecd3f148c9d489f0c0f553c7a4bf9574" />
+    <None Include=".git\objects\ff\de5b12e3546d54d0db3df497b3d17dafdd7e7b" />
+    <None Include=".git\objects\pack\pack-4b0d9d4a0c597ae910fb58bb48143c2ee7828aaa.idx" />
+    <None Include=".git\objects\pack\pack-4b0d9d4a0c597ae910fb58bb48143c2ee7828aaa.pack" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".git\refs\tags\1.0.0" />
+    <None Include="Documentation\Installer.msi" />
+    <None Include="Documentation\Installer.wsi" />
     <None Include="Documentation\create.php" />
-    <None Include="Documentation\Release\Unity.xml" />
+    <None Include="Documentation\test.xml" />
+    <None Include="Documentation\tree.tree" />
+    <None Include="Documentation\tree.zip" />
+    <None Include="Documentation\Libraries\libglib-2.0.0.dylib" />
+    <None Include="Documentation\Libraries\libgmodule-2.0.0.dylib" />
+    <None Include="Documentation\Libraries\libgthread-2.0.0.dylib" />
+    <None Include="Documentation\Libraries\libiconv.2.dylib" />
+    <None Include="Documentation\Libraries\libintl.3.dylib" />
+    <None Include="Documentation\Libraries\libmono.0.dylib" />
+    <None Include="Documentation\Libraries\mono\config" />
+    <None Include="Documentation\Libraries\mono\2.0\machine.config" />
+    <None Include="Documentation\Mac Installer.pmdoc\01mac-contents.xml" />
+    <None Include="Documentation\Mac Installer.pmdoc\01mac.xml" />
+    <None Include="Documentation\Mac Installer.pmdoc\index.xml" />
+    <None Include="Documentation\RTFs\Welcome.rtf" />
+    <None Include="Documentation\Release\mac-monodevelop-2.6.0f7.zip" />
+    <None Include="Documentation\Release\MonoDevelop\Unity.source" />
+    <None Include="Documentation\Release\MonoDevelop\Unity.tree" />
+    <None Include="Documentation\Release\MonoDevelop\Unity.zip" />
+    <None Include="Documentation\Source\index.xml" />
+    <None Include="Documentation\Source\ns-.xml" />
+    <None Include="Documentation\Source\ns-UnityEditor.xml" />
+    <None Include="Documentation\Source\ns-UnityEngine.xml" />
+    <None Include="Documentation\Source\ns-UnityEngineInternal.xml" />
+    <None Include="Documentation\Source\UnityEditor\ActiveEditorTracker.xml" />
+    <None Include="Documentation\Source\UnityEditor\AnimationClipCurveData.xml" />
+    <None Include="Documentation\Source\UnityEditor\AnimationUtility.xml" />
+    <None Include="Documentation\Source\UnityEditor\AssetDatabase.xml" />
+    <None Include="Documentation\Source\UnityEditor\AssetImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\AssetPostprocessor.xml" />
+    <None Include="Documentation\Source\UnityEditor\AudioImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\AudioImporterChannels.xml" />
+    <None Include="Documentation\Source\UnityEditor\AudioImporterFormat.xml" />
+    <None Include="Documentation\Source\UnityEditor\BuildAssetBundleOptions.xml" />
+    <None Include="Documentation\Source\UnityEditor\BuildOptions.xml" />
+    <None Include="Documentation\Source\UnityEditor\BuildPipeline.xml" />
+    <None Include="Documentation\Source\UnityEditor\BuildTarget.xml" />
+    <None Include="Documentation\Source\UnityEditor\CustomEditor.xml" />
+    <None Include="Documentation\Source\UnityEditor\DragAndDrop.xml" />
+    <None Include="Documentation\Source\UnityEditor\DragAndDropVisualMode.xml" />
+    <None Include="Documentation\Source\UnityEditor\DrawGizmo.xml" />
+    <None Include="Documentation\Source\UnityEditor\Editor.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorApplication+CallbackFunction.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorApplication.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorGUI.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorGUILayout.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorGUIUtility.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorPrefs.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorSkin.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorStyles.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorUtility+SelectMenuItemFunction.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorUtility+SelectPopupAssetsMenu.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorUtility.xml" />
+    <None Include="Documentation\Source\UnityEditor\EditorWindow.xml" />
+    <None Include="Documentation\Source\UnityEditor\FileUtil.xml" />
+    <None Include="Documentation\Source\UnityEditor\FontRenderMode.xml" />
+    <None Include="Documentation\Source\UnityEditor\FontTextureCase.xml" />
+    <None Include="Documentation\Source\UnityEditor\GizmoType.xml" />
+    <None Include="Documentation\Source\UnityEditor\HandleUtility.xml" />
+    <None Include="Documentation\Source\UnityEditor\Handles+DrawCapFunction.xml" />
+    <None Include="Documentation\Source\UnityEditor\Handles.xml" />
+    <None Include="Documentation\Source\UnityEditor\Help.xml" />
+    <None Include="Documentation\Source\UnityEditor\HierarchyProperty.xml" />
+    <None Include="Documentation\Source\UnityEditor\HierarchyType.xml" />
+    <None Include="Documentation\Source\UnityEditor\ImportAssetOptions.xml" />
+    <None Include="Documentation\Source\UnityEditor\MenuCommand.xml" />
+    <None Include="Documentation\Source\UnityEditor\MenuItem.xml" />
+    <None Include="Documentation\Source\UnityEditor\MetaFlags.xml" />
+    <None Include="Documentation\Source\UnityEditor\ModelImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\ModelImporterClipAnimation.xml" />
+    <None Include="Documentation\Source\UnityEditor\ModelImporterGenerateAnimations.xml" />
+    <None Include="Documentation\Source\UnityEditor\ModelImporterGenerateMaterials.xml" />
+    <None Include="Documentation\Source\UnityEditor\MonoScript.xml" />
+    <None Include="Documentation\Source\UnityEditor\MouseCursor.xml" />
+    <None Include="Documentation\Source\UnityEditor\MovieImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\ObjectNames.xml" />
+    <None Include="Documentation\Source\UnityEditor\PostprocessBuildPlayer.xml" />
+    <None Include="Documentation\Source\UnityEditor\PrefabType.xml" />
+    <None Include="Documentation\Source\UnityEditor\ReplacePrefabOptions.xml" />
+    <None Include="Documentation\Source\UnityEditor\SceneView.xml" />
+    <None Include="Documentation\Source\UnityEditor\ScriptableWizard.xml" />
+    <None Include="Documentation\Source\UnityEditor\Selection.xml" />
+    <None Include="Documentation\Source\UnityEditor\SelectionMode.xml" />
+    <None Include="Documentation\Source\UnityEditor\SerializedObject.xml" />
+    <None Include="Documentation\Source\UnityEditor\SerializedProperty.xml" />
+    <None Include="Documentation\Source\UnityEditor\SerializedPropertyType.xml" />
+    <None Include="Documentation\Source\UnityEditor\TerrainLightmapper.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporterFormat.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporterGenerateCubemap.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporterMipFilter.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporterNPOTScale.xml" />
+    <None Include="Documentation\Source\UnityEditor\TextureImporterNormalFilter.xml" />
+    <None Include="Documentation\Source\UnityEditor\TrueTypeFontImporter.xml" />
+    <None Include="Documentation\Source\UnityEditor\Undo.xml" />
+    <None Include="Documentation\Source\UnityEditor\UnityStats.xml" />
+    <None Include="Documentation\Source\UnityEngine\AddComponentMenu.xml" />
+    <None Include="Documentation\Source\UnityEngine\Animation.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationBlendMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationClip.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationCurve.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationEvent.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationPlayMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnimationState.xml" />
+    <None Include="Documentation\Source\UnityEngine\AnisotropicFiltering.xml" />
+    <None Include="Documentation\Source\UnityEngine\Application+LogCallback.xml" />
+    <None Include="Documentation\Source\UnityEngine\Application.xml" />
+    <None Include="Documentation\Source\UnityEngine\AssemblyHelper.xml" />
+    <None Include="Documentation\Source\UnityEngine\AssetBundle.xml" />
+    <None Include="Documentation\Source\UnityEngine\AssetBundleRequest.xml" />
+    <None Include="Documentation\Source\UnityEngine\AssetUtility.xml" />
+    <None Include="Documentation\Source\UnityEngine\AsyncOperation.xml" />
+    <None Include="Documentation\Source\UnityEngine\AudioClip.xml" />
+    <None Include="Documentation\Source\UnityEngine\AudioListener.xml" />
+    <None Include="Documentation\Source\UnityEngine\AudioSource.xml" />
+    <None Include="Documentation\Source\UnityEngine\AudioVelocityUpdateMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\Behaviour.xml" />
+    <None Include="Documentation\Source\UnityEngine\BitStream.xml" />
+    <None Include="Documentation\Source\UnityEngine\BoneWeight.xml" />
+    <None Include="Documentation\Source\UnityEngine\Bounds.xml" />
+    <None Include="Documentation\Source\UnityEngine\BoxCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\CacheIndex.xml" />
+    <None Include="Documentation\Source\UnityEngine\Caching.xml" />
+    <None Include="Documentation\Source\UnityEngine\Camera.xml" />
+    <None Include="Documentation\Source\UnityEngine\CameraClearFlags.xml" />
+    <None Include="Documentation\Source\UnityEngine\CapsuleCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\CharacterController.xml" />
+    <None Include="Documentation\Source\UnityEngine\CharacterJoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\Collider.xml" />
+    <None Include="Documentation\Source\UnityEngine\Collision.xml" />
+    <None Include="Documentation\Source\UnityEngine\CollisionFlags.xml" />
+    <None Include="Documentation\Source\UnityEngine\Color.xml" />
+    <None Include="Documentation\Source\UnityEngine\Color32.xml" />
+    <None Include="Documentation\Source\UnityEngine\CombineInstance.xml" />
+    <None Include="Documentation\Source\UnityEngine\Component.xml" />
+    <None Include="Documentation\Source\UnityEngine\ConfigurableJoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\ConfigurableJointMotion.xml" />
+    <None Include="Documentation\Source\UnityEngine\ConnectionTesterStatus.xml" />
+    <None Include="Documentation\Source\UnityEngine\ConstantForce.xml" />
+    <None Include="Documentation\Source\UnityEngine\ContactPoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\ContextMenu.xml" />
+    <None Include="Documentation\Source\UnityEngine\ControllerColliderHit.xml" />
+    <None Include="Documentation\Source\UnityEngine\ControllerControllerHit.xml" />
+    <None Include="Documentation\Source\UnityEngine\Coroutine.xml" />
+    <None Include="Documentation\Source\UnityEngine\Cubemap.xml" />
+    <None Include="Documentation\Source\UnityEngine\CubemapFace.xml" />
+    <None Include="Documentation\Source\UnityEngine\Debug.xml" />
+    <None Include="Documentation\Source\UnityEngine\DepthTextureMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\DetailPrototype.xml" />
+    <None Include="Documentation\Source\UnityEngine\DetailRenderMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\Dynamics.xml" />
+    <None Include="Documentation\Source\UnityEngine\Event.xml" />
+    <None Include="Documentation\Source\UnityEngine\EventType.xml" />
+    <None Include="Documentation\Source\UnityEngine\ExecuteInEditMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\ExitGUIException.xml" />
+    <None Include="Documentation\Source\UnityEngine\FilterMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\FixedJoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\Flare.xml" />
+    <None Include="Documentation\Source\UnityEngine\FocusType.xml" />
+    <None Include="Documentation\Source\UnityEngine\Font.xml" />
+    <None Include="Documentation\Source\UnityEngine\ForceMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\GL.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUI+WindowFunction.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUI.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIClip.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIContent.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIElement.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayer.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayout.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayoutEntry.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayoutGroup.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayoutOption+Type.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayoutOption.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUILayoutUtility.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIScrollGroup.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUISettings.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUISkin.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIStyle.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIStyleState.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIText.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUITexture.xml" />
+    <None Include="Documentation\Source\UnityEngine\GUIUtility.xml" />
+    <None Include="Documentation\Source\UnityEngine\GameObject.xml" />
+    <None Include="Documentation\Source\UnityEngine\GeometryUtility.xml" />
+    <None Include="Documentation\Source\UnityEngine\Gizmos.xml" />
+    <None Include="Documentation\Source\UnityEngine\Graphics.xml" />
+    <None Include="Documentation\Source\UnityEngine\HideFlags.xml" />
+    <None Include="Documentation\Source\UnityEngine\HideInInspector.xml" />
+    <None Include="Documentation\Source\UnityEngine\HingeJoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\HostData.xml" />
+    <None Include="Documentation\Source\UnityEngine\IDList.xml" />
+    <None Include="Documentation\Source\UnityEngine\ImagePosition.xml" />
+    <None Include="Documentation\Source\UnityEngine\Input.xml" />
+    <None Include="Documentation\Source\UnityEngine\Joint.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointDrive.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointDriveMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointLimits.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointMotor.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointProjectionMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\JointSpring.xml" />
+    <None Include="Documentation\Source\UnityEngine\KeyCode.xml" />
+    <None Include="Documentation\Source\UnityEngine\Keyframe.xml" />
+    <None Include="Documentation\Source\UnityEngine\LayerMask.xml" />
+    <None Include="Documentation\Source\UnityEngine\LensFlare.xml" />
+    <None Include="Documentation\Source\UnityEngine\Light.xml" />
+    <None Include="Documentation\Source\UnityEngine\LightRenderMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\LightShadows.xml" />
+    <None Include="Documentation\Source\UnityEngine\LightType.xml" />
+    <None Include="Documentation\Source\UnityEngine\LightmapData.xml" />
+    <None Include="Documentation\Source\UnityEngine\LightmapSettings.xml" />
+    <None Include="Documentation\Source\UnityEngine\LineRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\LogType.xml" />
+    <None Include="Documentation\Source\UnityEngine\MasterServer.xml" />
+    <None Include="Documentation\Source\UnityEngine\MasterServerEvent.xml" />
+    <None Include="Documentation\Source\UnityEngine\Material.xml" />
+    <None Include="Documentation\Source\UnityEngine\MaterialPropertyBlock.xml" />
+    <None Include="Documentation\Source\UnityEngine\Mathf.xml" />
+    <None Include="Documentation\Source\UnityEngine\Matrix4x4.xml" />
+    <None Include="Documentation\Source\UnityEngine\Mesh.xml" />
+    <None Include="Documentation\Source\UnityEngine\MeshCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\MeshFilter.xml" />
+    <None Include="Documentation\Source\UnityEngine\MeshRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\MissingComponentException.xml" />
+    <None Include="Documentation\Source\UnityEngine\MissingReferenceException.xml" />
+    <None Include="Documentation\Source\UnityEngine\MonoBehaviour.xml" />
+    <None Include="Documentation\Source\UnityEngine\MovieTexture.xml" />
+    <None Include="Documentation\Source\UnityEngine\Network.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkConnectionError.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkDisconnection.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkMessageInfo.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkPeerType.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkPlayer.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkStateSynchronization.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkView.xml" />
+    <None Include="Documentation\Source\UnityEngine\NetworkViewID.xml" />
+    <None Include="Documentation\Source\UnityEngine\Object.xml" />
+    <None Include="Documentation\Source\UnityEngine\Particle.xml" />
+    <None Include="Documentation\Source\UnityEngine\ParticleAnimator.xml" />
+    <None Include="Documentation\Source\UnityEngine\ParticleEmitter.xml" />
+    <None Include="Documentation\Source\UnityEngine\ParticleRenderMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\ParticleRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\PhysicMaterial.xml" />
+    <None Include="Documentation\Source\UnityEngine\PhysicMaterialCombine.xml" />
+    <None Include="Documentation\Source\UnityEngine\Physics.xml" />
+    <None Include="Documentation\Source\UnityEngine\Ping.xml" />
+    <None Include="Documentation\Source\UnityEngine\Plane.xml" />
+    <None Include="Documentation\Source\UnityEngine\PlatformSelection.xml" />
+    <None Include="Documentation\Source\UnityEngine\PlayMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\PlayerPrefs.xml" />
+    <None Include="Documentation\Source\UnityEngine\PlayerPrefsException.xml" />
+    <None Include="Documentation\Source\UnityEngine\PrimitiveType.xml" />
+    <None Include="Documentation\Source\UnityEngine\Profiler.xml" />
+    <None Include="Documentation\Source\UnityEngine\Projector.xml" />
+    <None Include="Documentation\Source\UnityEngine\QualityLevel.xml" />
+    <None Include="Documentation\Source\UnityEngine\QualitySettings.xml" />
+    <None Include="Documentation\Source\UnityEngine\Quaternion.xml" />
+    <None Include="Documentation\Source\UnityEngine\QueueMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\RPC.xml" />
+    <None Include="Documentation\Source\UnityEngine\RPCMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\Random.xml" />
+    <None Include="Documentation\Source\UnityEngine\Ray.xml" />
+    <None Include="Documentation\Source\UnityEngine\RaycastCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\RaycastHit.xml" />
+    <None Include="Documentation\Source\UnityEngine\Rect.xml" />
+    <None Include="Documentation\Source\UnityEngine\RectOffset.xml" />
+    <None Include="Documentation\Source\UnityEngine\RefCounted.xml" />
+    <None Include="Documentation\Source\UnityEngine\ReferenceData.xml" />
+    <None Include="Documentation\Source\UnityEngine\RenderBeforeQueues.xml" />
+    <None Include="Documentation\Source\UnityEngine\RenderSettings.xml" />
+    <None Include="Documentation\Source\UnityEngine\RenderTexture.xml" />
+    <None Include="Documentation\Source\UnityEngine\RenderTextureFormat.xml" />
+    <None Include="Documentation\Source\UnityEngine\Renderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\RequireComponent.xml" />
+    <None Include="Documentation\Source\UnityEngine\Resolution.xml" />
+    <None Include="Documentation\Source\UnityEngine\Resources.xml" />
+    <None Include="Documentation\Source\UnityEngine\Rigidbody.xml" />
+    <None Include="Documentation\Source\UnityEngine\RigidbodyInterpolation.xml" />
+    <None Include="Documentation\Source\UnityEngine\RotationDriveMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\RuntimePlatform.xml" />
+    <None Include="Documentation\Source\UnityEngine\ScaleMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\Screen.xml" />
+    <None Include="Documentation\Source\UnityEngine\ScriptableObject.xml" />
+    <None Include="Documentation\Source\UnityEngine\ScriptableShaderPass.xml" />
+    <None Include="Documentation\Source\UnityEngine\SendMessageOptions.xml" />
+    <None Include="Documentation\Source\UnityEngine\SendMouseEvents.xml" />
+    <None Include="Documentation\Source\UnityEngine\SerializeField.xml" />
+    <None Include="Documentation\Source\UnityEngine\SerializePrivateVariables.xml" />
+    <None Include="Documentation\Source\UnityEngine\SetupCoroutine.xml" />
+    <None Include="Documentation\Source\UnityEngine\Shader.xml" />
+    <None Include="Documentation\Source\UnityEngine\SkinQuality.xml" />
+    <None Include="Documentation\Source\UnityEngine\SkinnedMeshRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\Skybox.xml" />
+    <None Include="Documentation\Source\UnityEngine\SoftJointLimit.xml" />
+    <None Include="Documentation\Source\UnityEngine\Space.xml" />
+    <None Include="Documentation\Source\UnityEngine\SphereCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\SplatPrototype.xml" />
+    <None Include="Documentation\Source\UnityEngine\SpringJoint.xml" />
+    <None Include="Documentation\Source\UnityEngine\StackTraceUtility.xml" />
+    <None Include="Documentation\Source\UnityEngine\SystemInfo.xml" />
+    <None Include="Documentation\Source\UnityEngine\SystemLanguage.xml" />
+    <None Include="Documentation\Source\UnityEngine\Terrain+TerrainRenderFlags.xml" />
+    <None Include="Documentation\Source\UnityEngine\Terrain.xml" />
+    <None Include="Documentation\Source\UnityEngine\TerrainChangedFlags.xml" />
+    <None Include="Documentation\Source\UnityEngine\TerrainCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\TerrainData.xml" />
+    <None Include="Documentation\Source\UnityEngine\TerrainLighting.xml" />
+    <None Include="Documentation\Source\UnityEngine\TexGenMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextAlignment.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextAnchor.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextAsset.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextClipping.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextEditor+DblClickSnapping.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextEditor.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextMesh.xml" />
+    <None Include="Documentation\Source\UnityEngine\Texture.xml" />
+    <None Include="Documentation\Source\UnityEngine\Texture2D.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextureFormat.xml" />
+    <None Include="Documentation\Source\UnityEngine\TextureWrapMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\ThreadPriority.xml" />
+    <None Include="Documentation\Source\UnityEngine\Time.xml" />
+    <None Include="Documentation\Source\UnityEngine\TrackedReference.xml" />
+    <None Include="Documentation\Source\UnityEngine\TrailRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngine\Transform.xml" />
+    <None Include="Documentation\Source\UnityEngine\TreeInstance.xml" />
+    <None Include="Documentation\Source\UnityEngine\TreePrototype.xml" />
+    <None Include="Documentation\Source\UnityEngine\UnassignedReferenceException.xml" />
+    <None Include="Documentation\Source\UnityEngine\UnityException.xml" />
+    <None Include="Documentation\Source\UnityEngine\Vector2.xml" />
+    <None Include="Documentation\Source\UnityEngine\Vector3.xml" />
+    <None Include="Documentation\Source\UnityEngine\Vector4.xml" />
+    <None Include="Documentation\Source\UnityEngine\WWW.xml" />
+    <None Include="Documentation\Source\UnityEngine\WWWForm.xml" />
+    <None Include="Documentation\Source\UnityEngine\WWWTranscoder.xml" />
+    <None Include="Documentation\Source\UnityEngine\WaitForEndOfFrame.xml" />
+    <None Include="Documentation\Source\UnityEngine\WaitForFixedUpdate.xml" />
+    <None Include="Documentation\Source\UnityEngine\WaitForSeconds.xml" />
+    <None Include="Documentation\Source\UnityEngine\WheelCollider.xml" />
+    <None Include="Documentation\Source\UnityEngine\WheelFrictionCurve.xml" />
+    <None Include="Documentation\Source\UnityEngine\WheelHit.xml" />
+    <None Include="Documentation\Source\UnityEngine\WrapMode.xml" />
+    <None Include="Documentation\Source\UnityEngine\YieldInstruction.xml" />
+    <None Include="Documentation\Source\UnityEngineInternal\TerrainRenderer.xml" />
+    <None Include="Documentation\Source\UnityEngineInternal\TreeDatabase+Prototype.xml" />
+    <None Include="Documentation\Source\UnityEngineInternal\TreeDatabase.xml" />
   </ItemGroup>
 </Project>

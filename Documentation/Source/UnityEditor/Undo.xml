@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Lets you register undo operations on specific objects you are about to perform</summary>
+    <summary>Lets you register undo operations on specific objects you are about to perform changes on.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -39,7 +39,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Clear the snapshot target set with <see cref="P:UnityEditor.SetSnapshotTarget" />.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -74,7 +74,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Save the current state of all objects set with <see cref="P:UnityEditor.SetSnapshotTarget" /> to internal snapshot.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -125,7 +125,7 @@
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
-        <summary>Undo by saving the entire scene</summary>
+        <summary>Register the state of the entire scene so the user can later undo back to that state.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -141,7 +141,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Applies the snapshot made with <see cref="P:UnityEditor.RegisterSnapshot" /> to the undo buffer.</summary>
+        <summary>Register the snapshot state made with <see cref="P:UnityEditor.CreateSnapshot" /> so the user can later undo back to that state.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -162,7 +162,7 @@
       <Docs>
         <param name="o">To be added.</param>
         <param name="name">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Register the state of one or more objects so the user can later undo back to that state.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -185,7 +185,7 @@
         <param name="identifier">To be added.</param>
         <param name="o">To be added.</param>
         <param name="name">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Register the state of one or more objects so the user can later undo back to that state.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -206,7 +206,7 @@
       <Docs>
         <param name="undoObject">To be added.</param>
         <param name="name">To be added.</param>
-        <summary>Set the and objects modified by the GUI or Handles' so they can undo properly</summary>
+        <summary>Set the objects modified by the GUI or Handles so they can undo properly.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -227,7 +227,7 @@
       <Docs>
         <param name="objectsToUndo">To be added.</param>
         <param name="name">To be added.</param>
-        <summary>Set the and objects modified by the GUI or Handles' so they can undo properly</summary>
+        <summary>Set the objects modified by the GUI or Handles so they can undo properly.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

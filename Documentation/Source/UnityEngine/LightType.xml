@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>The light is a directional light.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Point">
       <MemberSignature Language="C#" Value="Point"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>The light is a point light.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Spot">
       <MemberSignature Language="C#" Value="Spot"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>The light is a spot light.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Light.type" />, <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

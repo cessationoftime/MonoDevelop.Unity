@@ -539,7 +539,7 @@
       </Parameters>
       <Docs>
         <param name="eulerAngles">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -560,7 +560,7 @@
       <Docs>
         <param name="axis">To be added.</param>
         <param name="angle">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -581,7 +581,7 @@
       <Docs>
         <param name="eulerAngles">To be added.</param>
         <param name="relativeTo">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -604,7 +604,7 @@
         <param name="xAngle">To be added.</param>
         <param name="yAngle">To be added.</param>
         <param name="zAngle">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -627,7 +627,7 @@
         <param name="axis">To be added.</param>
         <param name="angle">To be added.</param>
         <param name="relativeTo">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -652,7 +652,7 @@
         <param name="yAngle">To be added.</param>
         <param name="zAngle">To be added.</param>
         <param name="relativeTo">To be added.</param>
-        <summary>Applies a rotation of eulerAngles.x degrees around the x axis, eulerAngles.y degrees around the y axis and eulerAngles.z degrees around the z axis.</summary>
+        <summary>Applies a rotation of eulerAngles.z degrees around the z axis, eulerAngles.x degrees around the x axis, and eulerAngles.y degrees around the y axis (in that order).</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

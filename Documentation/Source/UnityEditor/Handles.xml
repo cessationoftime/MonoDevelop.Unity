@@ -39,7 +39,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Begin a 2D GUI block inside the 3D handle GUI</summary>
+        <summary>Begin a 2D GUI block inside the 3D handle GUI.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -58,7 +58,7 @@
       </Parameters>
       <Docs>
         <param name="position">To be added.</param>
-        <summary>Begin a 2D GUI block inside the 3D handle GUI</summary>
+        <summary>Begin a 2D GUI block inside the 3D handle GUI.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -107,7 +107,7 @@
       <Docs>
         <param name="position">To be added.</param>
         <param name="camera">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Clears the camera.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw an arrow like those used by the move tool.</summary>
+        <summary>OBSOLETE warning DrawArrow has been renamed to ArrowCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -242,7 +242,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw a Sphere. Pass this into handle functions.</summary>
+        <summary>OBSOLETE warning DrawCone has been renamed to ConeCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -267,7 +267,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw a cube. Pass this into handle functions</summary>
+        <summary>OBSOLETE warning DrawCube has been renamed to CubeCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -292,7 +292,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw a Cylinder. Pass this into handle functions.</summary>
+        <summary>OBSOLETE warning DrawCylinder has been renamed to CylinderCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -363,7 +363,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw a camera-facing Rectangle. Pass this into handle functions.</summary>
+        <summary>OBSOLETE warning DrawRectangle has been renamed to RectangleCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -438,7 +438,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>Draw a Sphere. Pass this into handle functions.</summary>
+        <summary>OBSOLETE warning DrawSphere has been renamed to SphereCap.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -504,7 +504,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>End a 2D GUI block and get back to the main 3D handles type</summary>
+        <summary>End a 2D GUI block and get back to the 3D handle GUI.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -553,7 +553,7 @@
         <param name="rotation">To be added.</param>
         <param name="position">To be added.</param>
         <param name="size">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Make an unconstrained rotation handle.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -699,7 +699,7 @@
       <Docs>
         <param name="position">To be added.</param>
         <summary>Make a 3D Scene view position handle.</summary>
-        <returns><see cref="T:UnityEditor.Vector3" /> - the modified rotation</returns>
+        <returns><see cref="T:UnityEditor.Vector3" /> - the new position. If the user has not performed any operation, it will return the same value as you passed it in postion.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -721,7 +721,7 @@
         <param name="position">To be added.</param>
         <param name="rotation">To be added.</param>
         <summary>Make a 3D Scene view position handle.</summary>
-        <returns><see cref="T:UnityEditor.Vector3" /> - the modified rotation</returns>
+        <returns><see cref="T:UnityEditor.Vector3" /> - the new position. If the user has not performed any operation, it will return the same value as you passed it in postion.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

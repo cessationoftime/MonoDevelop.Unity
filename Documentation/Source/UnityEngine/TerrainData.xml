@@ -451,22 +451,6 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
-    <Member MemberName="heightmapPatchSize">
-      <MemberSignature Language="C#" Value="public int heightmapPatchSize { get; }"/>
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
     <Member MemberName="heightmapResolution">
       <MemberSignature Language="C#" Value="public int heightmapResolution { set; get; }"/>
       <MemberType>Property</MemberType>

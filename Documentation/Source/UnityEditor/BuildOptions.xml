@@ -14,7 +14,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Building options.</summary>
+    <summary>Building options. Multiple options can be combined together.</summary>
     <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks>
     <since version="2.5.1"/>
   </Docs>

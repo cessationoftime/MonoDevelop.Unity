@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<Type Name="AssetDatabase" FullName="UnityEditor.AssetDatabase">
+  <TypeSignature Language="C#" Value="public class AssetDatabase"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>An Interface for accessing assets and performing operations on assets.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AssetDatabase ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddObjectToAsset">
+      <MemberSignature Language="C#" Value="public static void AddObjectToAsset (UnityEngine.Object objectToAdd, string assetPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objectToAdd" Type="UnityEngine.Object"/>
+        <Parameter Name="assetPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="objectToAdd">To be added.</param>
+        <param name="assetPath">To be added.</param>
+        <summary>Adds objectToAdd to an existing asset at path.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AddObjectToAsset">
+      <MemberSignature Language="C#" Value="public static void AddObjectToAsset (UnityEngine.Object objectToAdd, UnityEngine.Object assetObject);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objectToAdd" Type="UnityEngine.Object"/>
+        <Parameter Name="assetObject" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="objectToAdd">To be added.</param>
+        <param name="assetObject">To be added.</param>
+        <summary>Adds objectToAdd to an existing asset at path.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="AssetPathToGUID">
+      <MemberSignature Language="C#" Value="public static string AssetPathToGUID (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Get the GUID for the asset at path</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public static bool Contains (int instanceID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instanceID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="instanceID">To be added.</param>
+        <summary>Is object an asset?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public static bool Contains (UnityEngine.Object obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Is object an asset?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyAsset">
+      <MemberSignature Language="C#" Value="public static bool CopyAsset (string path, string newPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="newPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="newPath">To be added.</param>
+        <summary>Duplicates the asset at path and stores it at newPath</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsset">
+      <MemberSignature Language="C#" Value="public static void CreateAsset (UnityEngine.Object asset, string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asset" Type="UnityEngine.Object"/>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="asset">To be added.</param>
+        <param name="path">To be added.</param>
+        <summary>Creates a new asset at path.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsset">
+      <MemberSignature Language="C#" Value="public static bool DeleteAsset (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Deletes the asset file at path.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateUniqueAssetPath">
+      <MemberSignature Language="C#" Value="public static string GenerateUniqueAssetPath (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Creates a new unique path for an asset.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAssetPath">
+      <MemberSignature Language="C#" Value="public static string GetAssetPath (int instanceID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instanceID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="instanceID">To be added.</param>
+        <summary>Returns the path name relative to the project folder where the asset is stored</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAssetPath">
+      <MemberSignature Language="C#" Value="public static string GetAssetPath (UnityEngine.Object assetObject);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetObject" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="assetObject">To be added.</param>
+        <summary>Returns the path name relative to the project folder where the asset is stored</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedIcon">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture GetCachedIcon (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Retrieves an icon for the asset at the given asset path.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GUIDToAssetPath">
+      <MemberSignature Language="C#" Value="public static string GUIDToAssetPath (string guid);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="guid" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="guid">To be added.</param>
+        <summary>Translate a GUID to its current asset path</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportAsset">
+      <MemberSignature Language="C#" Value="public static void ImportAsset (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Import asset at path.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportAsset">
+      <MemberSignature Language="C#" Value="public static void ImportAsset (string path, UnityEditor.ImportAssetOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="options" Type="UnityEditor.ImportAssetOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Import asset at path.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMainAsset">
+      <MemberSignature Language="C#" Value="public static bool IsMainAsset (int instanceID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instanceID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="instanceID">To be added.</param>
+        <summary>Is asset a main asset in the project window?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMainAsset">
+      <MemberSignature Language="C#" Value="public static bool IsMainAsset (UnityEngine.Object obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Is asset a main asset in the project window?</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAllAssetsAtPath">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object[] LoadAllAssetsAtPath (string assetPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="assetPath">To be added.</param>
+        <summary>Returns an array of all asset objects at assetPath.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAssetAtPath">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadAssetAtPath (string assetPath, Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetPath" Type="System.String"/>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="assetPath">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>Returns the asset at the given path if it inherits from type.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadMainAssetAtPath">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadMainAssetAtPath (string assetPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assetPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="assetPath">To be added.</param>
+        <summary>Returns the main asset at assetPath.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveAsset">
+      <MemberSignature Language="C#" Value="public static string MoveAsset (string oldPath, string newPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldPath" Type="System.String"/>
+        <Parameter Name="newPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="oldPath">To be added.</param>
+        <param name="newPath">To be added.</param>
+        <summary>Move an asset file from one folder to another.</summary>
+        <returns>string - an empty string, if the asset has been successfully moved, and an error string otherwise.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveAssetToTrash">
+      <MemberSignature Language="C#" Value="public static bool MoveAssetToTrash (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Moves the asset at path to the trash.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAsset">
+      <MemberSignature Language="C#" Value="public static bool OpenAsset (int instanceID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instanceID" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="instanceID">To be added.</param>
+        <summary>Opens the asset with associated application.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAsset">
+      <MemberSignature Language="C#" Value="public static bool OpenAsset (UnityEngine.Object target);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>Opens the asset with associated application.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAsset">
+      <MemberSignature Language="C#" Value="public static bool OpenAsset (int instanceID, int lineNumber);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instanceID" Type="System.Int32"/>
+        <Parameter Name="lineNumber" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="instanceID">To be added.</param>
+        <param name="lineNumber">To be added.</param>
+        <summary>Opens the asset with associated application.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenAsset">
+      <MemberSignature Language="C#" Value="public static bool OpenAsset (UnityEngine.Object target, int lineNumber);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Object"/>
+        <Parameter Name="lineNumber" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <param name="lineNumber">To be added.</param>
+        <summary>Opens the asset with associated application.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public static void Refresh ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Import any changed assets.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public static void Refresh (UnityEditor.ImportAssetOptions options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="UnityEditor.ImportAssetOptions"/>
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>Import any changed assets.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RenameAsset">
+      <MemberSignature Language="C#" Value="public static string RenameAsset (string pathName, string newName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pathName" Type="System.String"/>
+        <Parameter Name="newName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="pathName">To be added.</param>
+        <param name="newName">To be added.</param>
+        <summary>Rename an asset file.</summary>
+        <returns>string - an empty string, if the asset has been successfully renamed, and an error string otherwise.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAssets">
+      <MemberSignature Language="C#" Value="public static void SaveAssets ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Writes all unsaved asset changes to disk.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StartAssetEditing">
+      <MemberSignature Language="C#" Value="public static void StartAssetEditing ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Begin Asset importing. This lets you group several asset imports together into one larger import.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAssetEditing">
+      <MemberSignature Language="C#" Value="public static void StopAssetEditing ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stop Asset importing. This lets you group several asset imports together into one larger import.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateMoveAsset">
+      <MemberSignature Language="C#" Value="public static string ValidateMoveAsset (string oldPath, string newPath);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldPath" Type="System.String"/>
+        <Parameter Name="newPath" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="oldPath">To be added.</param>
+        <param name="newPath">To be added.</param>
+        <summary>Checks if an asset file can be moved from one folder to another. (Without actually moving the file)</summary>
+        <returns>string - an empty string, if the asset can be moved, and an error string otherwise.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

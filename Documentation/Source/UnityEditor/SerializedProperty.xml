@@ -10,8 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>SerializedProperty and <see cref="T:UnityEditor.SerializedObject" /> are classes for editing properties on objects in a completely generic way that automatically handles undo and styling UI for prefabs.</summary>
+    <remarks>(Read Only).</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -38,9 +38,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a boolean property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Boolean" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -54,9 +54,9 @@
         <ReturnType>UnityEngine.Color</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a color property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Color" />, <see cref="T:UnityEditor.Color" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -71,7 +71,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Duplicates the SerializedProperty.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -88,7 +88,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Count remaining visible properties.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -121,9 +121,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Nesting depth of the property (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -154,9 +154,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Is this property editable? (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -170,9 +170,9 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Names of enumeration of an enum property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Enum" />, <see cref="P:UnityEditor.enumValueIndex" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -202,9 +202,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Enum index of an enum property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Enum" />, <see cref="P:UnityEditor.enumNames" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -234,9 +234,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a float property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Float" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -284,9 +284,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Does it have child properties? (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -300,9 +300,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Does it have visible child properties? (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -316,9 +316,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of an integer property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Integer" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -332,7 +332,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Is this property expanded in the inspector?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -396,9 +396,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Name of the property (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -416,7 +416,7 @@
       </Parameters>
       <Docs>
         <param name="enterChildren">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Move to next property.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -436,7 +436,7 @@
       </Parameters>
       <Docs>
         <param name="enterChildren">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Move to next visible property.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -484,9 +484,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Is property's value different from the prefab it belongs to?</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.isInstantiatedPrefab" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -500,9 +500,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Full path of the property (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -516,9 +516,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Type of this property (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -532,9 +532,9 @@
         <ReturnType>UnityEngine.Rect</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a rectangle property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Rect" />, <see cref="T:UnityEditor.Rect" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -549,7 +549,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Move to first property of the object.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -564,9 +564,9 @@
         <ReturnType>UnityEditor.SerializedObject</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary><see cref="T:UnityEditor.SerializedObject" /> this property belongs to (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -580,9 +580,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a string property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.String" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -615,9 +615,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Tooltip of the property (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -631,9 +631,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Type name of the property (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>(Read Only)</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -667,9 +667,9 @@
         <ReturnType>UnityEngine.Vector2</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a 2D vector property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Vector2" />, <see cref="T:UnityEditor.Vector2" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -683,9 +683,9 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Value of a 3D vector property.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEditor.propertyType" />, <see cref="P:UnityEditor.SerializedPropertyType.Vector3" />, <see cref="T:UnityEditor.Vector3" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

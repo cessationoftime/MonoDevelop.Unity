@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="FilterMode" FullName="UnityEngine.FilterMode">
+  <TypeSignature Language="C#" Value="public enum FilterMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Filtering mode for textures. Corresponds to the settings in a <see cref="T:UnityEngine.texture inspector" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="Bilinear">
+      <MemberSignature Language="C#" Value="Bilinear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FilterMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bilinear filtering - texture samples are averaged.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Point">
+      <MemberSignature Language="C#" Value="Point"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FilterMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Point filtering - texture pixels become blocky up close.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Trilinear">
+      <MemberSignature Language="C#" Value="Trilinear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FilterMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Trilinear filtering - texture samples are averaged and also blended between mipmap levels.</summary>
+        <since version="2.5.1"/>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture.filterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

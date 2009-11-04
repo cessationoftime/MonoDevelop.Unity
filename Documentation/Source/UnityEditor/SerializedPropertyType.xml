@@ -9,8 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Type of a <see cref="T:UnityEditor.SerializedProperty" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.SerializedProperty.propertyType" />.</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -24,9 +24,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Array size property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />.</remarks></Docs>
     </Member>
     <Member MemberName="Boolean">
       <MemberSignature Language="C#" Value="Boolean"/>
@@ -38,9 +38,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Boolean property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.boolValue" />.</remarks></Docs>
     </Member>
     <Member MemberName="Character">
       <MemberSignature Language="C#" Value="Character"/>
@@ -52,9 +52,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Character property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />.</remarks></Docs>
     </Member>
     <Member MemberName="Color">
       <MemberSignature Language="C#" Value="Color"/>
@@ -66,9 +66,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Color property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.colorValue" />.</remarks></Docs>
     </Member>
     <Member MemberName="Enum">
       <MemberSignature Language="C#" Value="Enum"/>
@@ -80,9 +80,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Enumeration property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />.</remarks></Docs>
     </Member>
     <Member MemberName="Float">
       <MemberSignature Language="C#" Value="Float"/>
@@ -94,9 +94,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Float property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.floatValue" />.</remarks></Docs>
     </Member>
     <Member MemberName="Generic">
       <MemberSignature Language="C#" Value="Generic"/>
@@ -122,9 +122,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Integer property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.intValue" />.</remarks></Docs>
     </Member>
     <Member MemberName="LayerMask">
       <MemberSignature Language="C#" Value="LayerMask"/>
@@ -136,9 +136,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary><see cref="T:UnityEditor.LayerMask" /> property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />.</remarks></Docs>
     </Member>
     <Member MemberName="PPtr">
       <MemberSignature Language="C#" Value="PPtr"/>
@@ -164,9 +164,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Rectangle property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.vector2Value" />, <see cref="T:UnityEditor.Rect" />.</remarks></Docs>
     </Member>
     <Member MemberName="String">
       <MemberSignature Language="C#" Value="String"/>
@@ -178,9 +178,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>String property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.stringValue" />.</remarks></Docs>
     </Member>
     <Member MemberName="Vector2">
       <MemberSignature Language="C#" Value="Vector2"/>
@@ -192,9 +192,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>2D vector property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.vector2Value" />, <see cref="T:UnityEditor.Vector2" />.</remarks></Docs>
     </Member>
     <Member MemberName="Vector3">
       <MemberSignature Language="C#" Value="Vector3"/>
@@ -206,9 +206,9 @@
         <ReturnType>UnityEditor.SerializedPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>3D vector property.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEditor.SerializedProperty" />, <see cref="P:UnityEditor.SerializedProperty.vector3Value" />, <see cref="T:UnityEditor.Vector3" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>

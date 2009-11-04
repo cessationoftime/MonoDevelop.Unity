@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Possible status messages returned by <see cref="P:UnityEngine.Network.Connect" /> and in <see cref="P:UnityEngine.OnFailedToConnect" /> in case the error was not immediate. Also used by the <see cref="T:UnityEngine.MasterServer" /> in <see cref="P:UnityEngine.OnFailedToConnectToMasterServer" /></summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -66,7 +66,7 @@
         <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Internal error while attempting to initalize network interface. Socket possibly already in use.</summary>
+        <summary>Internal error while attempting to initialize network interface. Socket possibly already in use.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -164,7 +164,7 @@
         <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>No error occurred.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -178,7 +178,7 @@
         <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>We preseted an RSA public key which does not match what the system we connected to is using.</summary>
+        <summary>We presented an RSA public key which does not match what the system we connected to is using.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

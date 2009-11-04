@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Cast "hard" shadows (with no shadow filtering).</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="None">
       <MemberSignature Language="C#" Value="None"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Do not cast shadows (default).</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Soft">
       <MemberSignature Language="C#" Value="Soft"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>Cast "soft" shadows (with 4x PCF filtering).</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

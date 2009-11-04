@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Describes the status of the network interface peer type as returned by <see cref="P:UnityEngine.Network.peerType" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>

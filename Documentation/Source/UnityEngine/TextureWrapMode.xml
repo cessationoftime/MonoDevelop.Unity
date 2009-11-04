@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Clamps the texture to the last pixel at the border.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Repeat">
       <MemberSignature Language="C#" Value="Repeat"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Tiles the texture, creating a repeating pattern.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

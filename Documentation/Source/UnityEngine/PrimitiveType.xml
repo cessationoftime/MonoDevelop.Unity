@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>A capsule primitive</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Cube">
       <MemberSignature Language="C#" Value="Cube"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>A cube primitive</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Cylinder">
       <MemberSignature Language="C#" Value="Cylinder"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>A cylinder primitive</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Plane">
       <MemberSignature Language="C#" Value="Plane"/>
@@ -67,8 +70,9 @@
       </ReturnValue>
       <Docs>
         <summary>A plane primitive</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Sphere">
       <MemberSignature Language="C#" Value="Sphere"/>
@@ -81,8 +85,9 @@
       </ReturnValue>
       <Docs>
         <summary>A sphere primitive</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.GameObject.CreatePrimitive" /></remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

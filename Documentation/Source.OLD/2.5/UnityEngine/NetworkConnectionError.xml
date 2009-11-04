@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<Type Name="NetworkConnectionError" FullName="UnityEngine.NetworkConnectionError">
+  <TypeSignature Language="C#" Value="public enum NetworkConnectionError"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName="AlreadyConnectedToAnotherServer">
+      <MemberSignature Language="C#" Value="AlreadyConnectedToAnotherServer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Cannot connect to two servers at once. Close the connection before connecting again.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionBanned">
+      <MemberSignature Language="C#" Value="ConnectionBanned"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>We are banned from the system we attempted to connect to (likely temporarily).</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionFailed">
+      <MemberSignature Language="C#" Value="ConnectionFailed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Connection attempt failed, possibly because of internal connectivity problems.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateSocketOrThreadFailure">
+      <MemberSignature Language="C#" Value="CreateSocketOrThreadFailure"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Internal error while attempting to initalize network interface. Socket possibly already in use.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyConnectTarget">
+      <MemberSignature Language="C#" Value="EmptyConnectTarget"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No host target given in Connect.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="IncorrectParameters">
+      <MemberSignature Language="C#" Value="IncorrectParameters"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Incorrect parameters given to Connect function.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalDirectConnectFailed">
+      <MemberSignature Language="C#" Value="InternalDirectConnectFailed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Client could not connect internally to same network NAT enabled server.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidPassword">
+      <MemberSignature Language="C#" Value="InvalidPassword"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The server is using a password and has refused our connection because we did not set the correct password.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NATTargetConnectionLost">
+      <MemberSignature Language="C#" Value="NATTargetConnectionLost"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Connection lost while attempting to connect to NAT target.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NATTargetNotConnected">
+      <MemberSignature Language="C#" Value="NATTargetNotConnected"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The NAT target we are trying to connect to is not connected to the facilitator server.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="NoError">
+      <MemberSignature Language="C#" Value="NoError"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="RSAPublicKeyMismatch">
+      <MemberSignature Language="C#" Value="RSAPublicKeyMismatch"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>We preseted an RSA public key which does not match what the system we connected to is using.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="TooManyConnectedPlayers">
+      <MemberSignature Language="C#" Value="TooManyConnectedPlayers"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkConnectionError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The server is at full capacity, failed to connect.</summary>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -11,7 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Representation of Script assets.</summary>
-    <remarks>To be added.</remarks>
+    <remarks>(Read Only)</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>

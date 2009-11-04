@@ -11,7 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>AssetBundles let you stream additional assets via the WWW class and instantiate them at runtime. AssetBundles are created via <see cref="P:UnityEngine.BuildPipeline.BuildAssetBundle" />.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.WWW.assetBundle" />, <see cref="T:UnityEngine.Loading Resources at Runtime" />.</remarks>
+    <remarks>See Also: <see cref="P:UnityEngine.WWW.assetBundle" />, <see cref="T:UnityEngine.Loading Resources at Runtime" />, <see cref="P:UnityEngine.BuildPipeline.BuildPlayer" />.</remarks>
     <since version="2.5.1"/>
   </Docs>
   <Members>
@@ -26,6 +26,25 @@
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>Check if an AssetBundle contains a specific object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Load">
@@ -125,6 +144,27 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAsync">
+      <MemberSignature Language="C#" Value="public UnityEngine.AssetBundleRequest LoadAsync (string name, Type type);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AssetBundleRequest</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="type" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>Asynchronously loads object with name of a given type from the bundle.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="mainAsset">

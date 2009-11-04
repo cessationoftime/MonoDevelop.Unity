@@ -24,9 +24,9 @@
         <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate cubemap from cylindrical texture.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.generateCubemap" />.</remarks></Docs>
     </Member>
     <Member MemberName="NiceSpheremap">
       <MemberSignature Language="C#" Value="NiceSpheremap"/>
@@ -38,9 +38,9 @@
         <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate cubemap from spheremap texture.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.generateCubemap" />.</remarks></Docs>
     </Member>
     <Member MemberName="None">
       <MemberSignature Language="C#" Value="None"/>
@@ -52,9 +52,9 @@
         <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Do not generate cubemap (default).</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.generateCubemap" />.</remarks></Docs>
     </Member>
     <Member MemberName="SimpleSpheremap">
       <MemberSignature Language="C#" Value="SimpleSpheremap"/>
@@ -66,9 +66,9 @@
         <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate cubemap from spheremap texture.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.generateCubemap" />.</remarks></Docs>
     </Member>
     <Member MemberName="Spheremap">
       <MemberSignature Language="C#" Value="Spheremap"/>
@@ -80,9 +80,9 @@
         <ReturnType>UnityEditor.TextureImporterGenerateCubemap</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate cubemap from spheremap texture.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.TextureImporter.generateCubemap" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>

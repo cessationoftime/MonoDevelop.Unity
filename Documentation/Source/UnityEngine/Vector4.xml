@@ -744,4 +744,9 @@
       </Docs>
     </Member>
   </Members>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
+    </Attribute>
+  </Attributes>
 </Type>

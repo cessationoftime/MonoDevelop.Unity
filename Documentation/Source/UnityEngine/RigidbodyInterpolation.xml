@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Extrapolation will predict the position of the rigidbody based on the current velocity.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="Interpolate">
       <MemberSignature Language="C#" Value="Interpolate"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Interpolation will always lag a little bit behind but can be smoother than extrapolation.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="None">
       <MemberSignature Language="C#" Value="None"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>No Interpolation.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

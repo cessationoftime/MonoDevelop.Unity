@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Custom mouse cursor shapes used with <see cref="P:UnityEditor.EditorGUIUtility.AddcursorRect" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -24,7 +24,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Normal pointer arrow</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -38,7 +38,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Arrow with a Link badge (for assigning pointers)</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -52,7 +52,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Horizontal resize arrows</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -66,7 +66,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Resize up-Left for window edges.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -80,7 +80,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Resize up-right for window edges</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -94,7 +94,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Vertical resize arrows</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -108,7 +108,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Arrow with small arrows for indicating sliding at number fields</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -122,7 +122,7 @@
         <ReturnType>UnityEditor.MouseCursor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Text cursor</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

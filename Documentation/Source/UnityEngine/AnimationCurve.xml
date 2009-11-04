@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>The animation curve. Lets you add keyframes and evaluate the curve at a given time.</summary>
+    <summary>An animation curve. Lets you add keyframes and evaluate the curve at a given time. A collection</summary>
     <remarks>(Read Only)</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -132,7 +132,7 @@
       </Parameters>
       <Docs>
         <param name="time">To be added.</param>
-        <summary>The value of the animation curve at time.</summary>
+        <summary>Evaluate the curve at time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
@@ -184,9 +184,9 @@
         <ReturnType>UnityEngine.Keyframe[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>All keys defined in the animation curve. This lets you clear, add or remove any keys from the array.</summary>
+        <summary>All keys defined in the animation curve.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="T:UnityEngine.Keyframe" /> struct, <see cref="P:UnityEngine.AddKey" />, <see cref="P:UnityEngine.RemoveKey" /> functions.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -327,4 +327,9 @@
       </Docs>
     </Member>
   </Members>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
+    </Attribute>
+  </Attributes>
 </Type>

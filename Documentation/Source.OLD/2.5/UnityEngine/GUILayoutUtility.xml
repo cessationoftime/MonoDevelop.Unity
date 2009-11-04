@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<Type Name="GUILayoutUtility" FullName="UnityEngine.GUILayoutUtility">
+  <TypeSignature Language="C#" Value="public class GUILayoutUtility"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Utility functions for implementing and extending the GUILayout class.</summary>
+    <remarks>To be added.</remarks>
+    <since version="2.5.1"/>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GUILayoutUtility ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGroup">
+      <MemberSignature Language="C#" Value="public static void BeginGroup (string GroupName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="GroupName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="GroupName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginLayoutGroup">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutGroup BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, Type LayoutType);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]"/>
+        <Parameter Name="LayoutType" Type="System.Type"/>
+      </Parameters>
+      <Docs>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <param name="LayoutType">To be added.</param>
+        <summary>Generic helper - use this when creating a layoutgroup. It will make sure everything is wired up correctly.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGroup">
+      <MemberSignature Language="C#" Value="public static void EndGroup (string groupName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="groupName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="groupName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="EndLayoutGroup">
+      <MemberSignature Language="C#" Value="public static void EndLayoutGroup ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAspectRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetAspectRect (float aspect);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspect" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="aspect">To be added.</param>
+        <summary>Get a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAspectRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetAspectRect (float aspect, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspect" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="aspect">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAspectRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetAspectRect (float aspect, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspect" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="aspect">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Get a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAspectRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetAspectRect (float aspect, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspect" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="aspect">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle with a specific aspect ratio.</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLastRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetLastRect ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float width, float height);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+        <Parameter Name="height" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float width, float height, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+        <Parameter Name="height" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float width, float height, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+        <Parameter Name="height" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="UnityEngine.GUIContent"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float minWidth, float maxWidth, float minHeight, float maxHeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minWidth" Type="System.Single"/>
+        <Parameter Name="maxWidth" Type="System.Single"/>
+        <Parameter Name="minHeight" Type="System.Single"/>
+        <Parameter Name="maxHeight" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="minWidth">To be added.</param>
+        <param name="maxWidth">To be added.</param>
+        <param name="minHeight">To be added.</param>
+        <param name="maxHeight">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float width, float height, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+        <Parameter Name="height" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minWidth" Type="System.Single"/>
+        <Parameter Name="maxWidth" Type="System.Single"/>
+        <Parameter Name="minHeight" Type="System.Single"/>
+        <Parameter Name="maxHeight" Type="System.Single"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="minWidth">To be added.</param>
+        <param name="maxWidth">To be added.</param>
+        <param name="minHeight">To be added.</param>
+        <param name="maxHeight">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine.GUIStyle style);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minWidth" Type="System.Single"/>
+        <Parameter Name="maxWidth" Type="System.Single"/>
+        <Parameter Name="minHeight" Type="System.Single"/>
+        <Parameter Name="maxHeight" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+      </Parameters>
+      <Docs>
+        <param name="minWidth">To be added.</param>
+        <param name="maxWidth">To be added.</param>
+        <param name="minHeight">To be added.</param>
+        <param name="maxHeight">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect GetRect (float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="minWidth" Type="System.Single"/>
+        <Parameter Name="maxWidth" Type="System.Single"/>
+        <Parameter Name="minHeight" Type="System.Single"/>
+        <Parameter Name="maxHeight" Type="System.Single"/>
+        <Parameter Name="style" Type="UnityEngine.GUIStyle"/>
+        <Parameter Name="options" Type="UnityEngine.GUILayoutOption[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="minWidth">To be added.</param>
+        <param name="maxWidth">To be added.</param>
+        <param name="minHeight">To be added.</param>
+        <param name="maxHeight">To be added.</param>
+        <param name="style">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>Get a rectangle for displaying some contents with a specific style</summary>
+        <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain /content/ when rendered in /style/.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutFromEditorWindow">
+      <MemberSignature Language="C#" Value="public static void LayoutFromEditorWindow ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutFromInspector">
+      <MemberSignature Language="C#" Value="public static float LayoutFromInspector (float width);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_Areas">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutGroup s_Areas;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_LayoutGroups">
+      <MemberSignature Language="C#" Value="public static System.Collections.Stack s_LayoutGroups;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Stack</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="s_TopLevel">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUILayoutGroup s_TopLevel;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUILayoutGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+        <since version="2.5.1"/>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

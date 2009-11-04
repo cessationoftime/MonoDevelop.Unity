@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>The type of a prefab object as returned by <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -24,9 +24,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is an instance of an imported 3D model, but the connection is broken.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="DisconnectedPrefabInstance">
       <MemberSignature Language="C#" Value="DisconnectedPrefabInstance"/>
@@ -38,9 +38,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is an instance of a user created prefab, but the connection is broken.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="MissingPrefabInstance">
       <MemberSignature Language="C#" Value="MissingPrefabInstance"/>
@@ -52,9 +52,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object was an instance of a prefab, but the original prefab could not be found.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="ModelPrefab">
       <MemberSignature Language="C#" Value="ModelPrefab"/>
@@ -66,9 +66,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is an imported 3D model asset.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="ModelPrefabInstance">
       <MemberSignature Language="C#" Value="ModelPrefabInstance"/>
@@ -80,9 +80,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is an instance of an imported 3D model.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="None">
       <MemberSignature Language="C#" Value="None"/>
@@ -94,9 +94,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is not a prefab nor an instance of a prefab.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="Prefab">
       <MemberSignature Language="C#" Value="Prefab"/>
@@ -108,9 +108,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is a user created prefab asset.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
     <Member MemberName="PrefabInstance">
       <MemberSignature Language="C#" Value="PrefabInstance"/>
@@ -122,9 +122,9 @@
         <ReturnType>UnityEditor.PrefabType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The object is an instance of a user created prefab.</summary>
         <since version="2.5.1"/>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>

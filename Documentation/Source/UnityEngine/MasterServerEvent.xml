@@ -9,7 +9,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Describes status messages from the master server as returned in <see cref="P:UnityEngine.OnMasterServerEvent" />.</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>
@@ -38,7 +38,7 @@
         <ReturnType>UnityEngine.MasterServerEvent</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Regisration failed because an empty game name was given.</summary>
+        <summary>Registration failed because an empty game name was given.</summary>
         <since version="2.5.1"/>
       </Docs>
     </Member>

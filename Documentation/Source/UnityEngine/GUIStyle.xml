@@ -9,11 +9,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces/>
-  <Attributes>
-    <Attribute>
-      <AttributeName>UnityEngine.SerializePrivateVariables</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Style settings for a GUI element.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onNormal" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" /> - these contain the background image &amp; text color properties for each state.Text rendering	The style can define a font for text rendering, as well as alignment, wordwrap and clipping settings. It also defines colors for the text in the various states of the style element		See Also: <see cref="P:UnityEngine.font" />, <see cref="P:UnityEngine.alignment" />, <see cref="P:UnityEngine.wordWrap" />, <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" />Icon Placement	GUIStyles can be rendered with either text, and icon or both. The GUIStyle defines where these two are rendered in relation to each other (or can force it to only display one of them).		See Also: <see cref="P:UnityEngine.imagePosition" />Sizing and Spacing Options	GUIStyles contain padding, margins and borders. These corresponds loosely to the similar named CSS properties. A GUIStyle can optionally define a fixed width and height.		See Also: <see cref="P:UnityEngine.margin" />, <see cref="P:UnityEngine.padding" />, <see cref="P:UnityEngine.border" />, <see cref="P:UnityEngine.fixedWidth" />, <see cref="P:UnityEngine.fixedHeight" /></remarks>
@@ -28,7 +23,7 @@
       </AssemblyInfo>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Constructor for empty GUIStyle.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -44,7 +39,7 @@
       </Parameters>
       <Docs>
         <param name="other">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Constructor for empty GUIStyle.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -197,6 +192,11 @@
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Don't use clipOffset - put things inside begingroup instead. This functionality will be removed in a later version.")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="clipping">
       <MemberSignature Language="C#" Value="public UnityEngine.TextClipping clipping { set; get; }"/>
@@ -248,7 +248,7 @@
         <param name="position">To be added.</param>
         <param name="content">To be added.</param>
         <param name="controlID">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -273,7 +273,7 @@
         <param name="content">To be added.</param>
         <param name="controlID">To be added.</param>
         <param name="on">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -300,7 +300,7 @@
         <param name="isActive">To be added.</param>
         <param name="on">To be added.</param>
         <param name="hasKeyboardFocus">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -329,7 +329,7 @@
         <param name="isActive">To be added.</param>
         <param name="on">To be added.</param>
         <param name="hasKeyboardFocus">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -358,7 +358,7 @@
         <param name="isActive">To be added.</param>
         <param name="on">To be added.</param>
         <param name="hasKeyboardFocus">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
@@ -387,7 +387,7 @@
         <param name="isActive">To be added.</param>
         <param name="on">To be added.</param>
         <param name="hasKeyboardFocus">To be added.</param>
-        <summary>Draw the GUIStyle with a text string inside.</summary>
+        <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>

@@ -65,6 +65,21 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="backgroundLoadingPriority">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ThreadPriority backgroundLoadingPriority { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ThreadPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Priority of background loading thread.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEngine.ThreadPriority" /> enum.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CancelQuit">
       <MemberSignature Language="C#" Value="public static void CancelQuit ();"/>
       <MemberType>Method</MemberType>
@@ -193,6 +208,11 @@
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Object.DontDestroyOnLoad instead")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="ExternalCall">
       <MemberSignature Language="C#" Value="public static void ExternalCall (string functionName, object[] args);"/>
@@ -327,6 +347,11 @@
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("use Application.isEditor instead")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="isPlaying">
       <MemberSignature Language="C#" Value="public static bool isPlaying { get; }"/>
@@ -468,6 +493,44 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="LoadLevelAdditiveAsync">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AsyncOperation LoadLevelAdditiveAsync (string levelName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AsyncOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levelName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="levelName">To be added.</param>
+        <summary>Loads the level additively and asynchronously in the background.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadLevelAsync">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AsyncOperation LoadLevelAsync (string levelName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AsyncOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levelName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="levelName">To be added.</param>
+        <summary>Loads the level asynchronously in the background.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OpenURL">
       <MemberSignature Language="C#" Value="public static void OpenURL (string url);"/>
       <MemberType>Method</MemberType>
@@ -519,6 +582,24 @@
         <since version="2.5.1"/>
       </Docs>
     </Member>
+    <Member MemberName="RegisterLogCallback">
+      <MemberSignature Language="C#" Value="public static void RegisterLogCallback (UnityEngine.Application.LogCallback handler);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handler" Type="UnityEngine.Application+LogCallback"/>
+      </Parameters>
+      <Docs>
+        <param name="handler">To be added.</param>
+        <summary>Register a delegate to be called on log messages.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="runInBackground">
       <MemberSignature Language="C#" Value="public static bool runInBackground { set; get; }"/>
       <MemberType>Property</MemberType>
@@ -565,6 +646,21 @@
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
         <since version="2.5.1"/>
+      </Docs>
+    </Member>
+    <Member MemberName="systemLanguage">
+      <MemberSignature Language="C#" Value="public static UnityEngine.SystemLanguage systemLanguage { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SystemLanguage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The language the user's operating system is running in.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="targetFrameRate">

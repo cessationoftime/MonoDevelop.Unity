@@ -10,7 +10,7 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Ping any given IP address (given in dot notation).</summary>
     <remarks>To be added.</remarks>
     <since version="2.5.1"/>
   </Docs>

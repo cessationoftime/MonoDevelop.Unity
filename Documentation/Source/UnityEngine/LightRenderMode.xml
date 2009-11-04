@@ -25,8 +25,9 @@
       </ReturnValue>
       <Docs>
         <summary>Automatically choose the render mode.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="ForcePixel">
       <MemberSignature Language="C#" Value="ForcePixel"/>
@@ -39,8 +40,9 @@
       </ReturnValue>
       <Docs>
         <summary>Force the <see cref="T:UnityEngine.Light" /> to be a pixel light.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
     <Member MemberName="ForceVertex">
       <MemberSignature Language="C#" Value="ForceVertex"/>
@@ -53,8 +55,9 @@
       </ReturnValue>
       <Docs>
         <summary>Force the <see cref="T:UnityEngine.Light" /> to be a vertex light.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks>
         <since version="2.5.1"/>
-      <remarks>See Also: <see cref="T:UnityEngine.light component" />.</remarks></Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

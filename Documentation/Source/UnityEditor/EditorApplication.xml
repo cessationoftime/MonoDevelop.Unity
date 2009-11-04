@@ -201,8 +201,8 @@
         <ReturnType>UnityEditor.EditorApplication+CallbackFunction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Delegate for changed keyboard modifier keys.</summary>
+        <remarks>See Also: <see cref="P:UnityEditor.EditorApplication.CallbackFunction" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -271,8 +271,8 @@
         <ReturnType>UnityEditor.EditorApplication+CallbackFunction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Delegate for play mode state changes.</summary>
+        <remarks>See Also: <see cref="P:UnityEditor.EditorApplication.CallbackFunction" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>
@@ -371,8 +371,8 @@
         <ReturnType>UnityEditor.EditorApplication+CallbackFunction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Delegate for generic updates.</summary>
+        <remarks>See Also: <see cref="P:UnityEditor.EditorApplication.CallbackFunction" />.</remarks>
         <since version="2.5.1"/>
       </Docs>
     </Member>

@@ -54,7 +54,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Bake IK when importing.</summary>
+        <summary>Bake Inverse Kinematics (IK) when importing.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <since version="2.5.1"/>
