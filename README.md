@@ -1,13 +1,16 @@
 # Parse Unity XML Documentation from the HTML Docs
 
 Install PHP 5+
+
 git clone git://github.com/mono/mono.git (need access to the mono scripts folder for monodocer scripts)
 
 ## Parse the Documentation
 
 ### Windows
 Install cygwin (need to be able to run bash scripts)
+
 Use the builddocs_win.php script
+
 
 add to PATH environment variable:
 	C:\cygwin\bin;
@@ -31,9 +34,13 @@ modify these three lines to point to the correct paths on your system
 	define("FRAMEWORKS_PATH", "c:\\Users\\cvanvranken\\gits\\MonoDevelop.Unity\\Documentation\\Libraries\\");
         define("SCRIPTREFERENCE_PATH","/Progra~2/Unity/Editor/Data/Documentation/Documentation/ScriptReference/");	
 
+
 ## Reference the dll assemblies to create the documentation stubs with monodocer
+
 monodocer needs to be able to find the assemblies and their dependencies. 
+
 these can be placed in: MonoDevelop.Unity\Documentation\Libraries
+
 better yet, reference them and their dependencies where they are installed on your system.
 
 ## Doing the Parsing
