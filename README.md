@@ -53,8 +53,12 @@ Source\ is the direct result of the parsing. Release\ is what you get when you c
     cd Documentation
     php builddocs.php
 
+make sure to run the monodocer command separately on UnityEditor.dll and UnityEngine.dll. You want to end up with two separate release files that you can rename to UnityEngine.xml and UnityEditor.xml.
+
+
 ## Installing the Documentation
 	
+just copy it alongside the .dll in Unity's managed\ folder.
 
 ## Creating the msi installer
 
