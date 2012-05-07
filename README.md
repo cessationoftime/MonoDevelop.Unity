@@ -29,7 +29,12 @@ change this line in the php script to the version of Unity that you are parsing 
 modify these three lines to point to the correct paths on your system
 	define("MONODOC_PATH", "c:\\Users\\cvanvranken\\gits\\mono\\scripts\\");
 	define("FRAMEWORKS_PATH", "c:\\Users\\cvanvranken\\gits\\MonoDevelop.Unity\\Documentation\\Libraries\\");
-	define("SCRIPTREFERENCE_PATH","/Progra~2/Unity/Editor/Data/Documentation/Documentation/ScriptReference/");	
+        define("SCRIPTREFERENCE_PATH","/Progra~2/Unity/Editor/Data/Documentation/Documentation/ScriptReference/");	
+
+## Reference the dll assemblies to create the documentation stubs with monodocer
+monodocer needs to be able to find the assemblies and their dependencies. 
+these can be placed in: MonoDevelop.Unity\Documentation\Libraries
+better yet, reference them and their dependencies where they are installed on your system.
 
 ## Doing the Parsing
 run the Documentation\builddocs.php script to parse the HTML files in SCRIPTREFERENCE_PATH.  This will create the Source\, Release\ and Logs\.
