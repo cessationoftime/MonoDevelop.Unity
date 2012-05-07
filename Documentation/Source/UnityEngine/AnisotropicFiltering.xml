@@ -24,8 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>Disable anisotropic filtering for all textures.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks></Docs>
     </Member>
     <Member MemberName="Enable">
       <MemberSignature Language="C#" Value="Enable"/>
@@ -38,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Enable anisotropic filtering, as set for each texture.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks></Docs>
     </Member>
     <Member MemberName="ForceEnable">
       <MemberSignature Language="C#" Value="ForceEnable"/>
@@ -52,8 +50,7 @@
       </ReturnValue>
       <Docs>
         <summary>Enable anisotropic filtering for all textures.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.anisotropicFiltering" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>

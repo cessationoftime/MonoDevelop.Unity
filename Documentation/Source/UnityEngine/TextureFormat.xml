@@ -24,8 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>Alpha-only texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new alpha-only texture and assign it&lt;span class="hl-comment"&gt;    &lt;span class="hl-comment"&gt;// to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new alpha-only texture and assign it&lt;span class="hl-comment"&gt;    &lt;span class="hl-comment"&gt;// to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.Alpha8" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks></Docs>
     </Member>
     <Member MemberName="ARGB32">
       <MemberSignature Language="C#" Value="ARGB32"/>
@@ -38,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Color with an alpha channel texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new ARGB texture and assign it to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new ARGB texture and assign it to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.ARGB32" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks></Docs>
     </Member>
     <Member MemberName="DXT1">
       <MemberSignature Language="C#" Value="DXT1"/>
@@ -52,8 +50,7 @@
       </ReturnValue>
       <Docs>
         <summary>Compressed color texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="DXT5">
       <MemberSignature Language="C#" Value="DXT5"/>
@@ -66,8 +63,7 @@
       </ReturnValue>
       <Docs>
         <summary>Compressed color with alpha channel texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="PVRTC_2BPP_RGB">
       <MemberSignature Language="C#" Value="PVRTC_2BPP_RGB"/>
@@ -152,8 +148,7 @@
       </ReturnValue>
       <Docs>
         <summary>PowerVR (iOS) 2 bits/pixel compressed color texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="PVRTC_RGB4">
       <MemberSignature Language="C#" Value="PVRTC_RGB4"/>
@@ -166,8 +161,7 @@
       </ReturnValue>
       <Docs>
         <summary>PowerVR (iOS) 4 bits/pixel compressed color texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="PVRTC_RGBA2">
       <MemberSignature Language="C#" Value="PVRTC_RGBA2"/>
@@ -180,8 +174,7 @@
       </ReturnValue>
       <Docs>
         <summary>PowerVR (iOS) 2 bits/pixel compressed with alpha channel texture format</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="PVRTC_RGBA4">
       <MemberSignature Language="C#" Value="PVRTC_RGBA4"/>
@@ -194,8 +187,7 @@
       </ReturnValue>
       <Docs>
         <summary>PowerVR (iOS) 4 bits/pixel compressed with alpha channel texture format</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.format" />, <see cref="T:UnityEngine.texture assets" />.</remarks></Docs>
     </Member>
     <Member MemberName="RGB24">
       <MemberSignature Language="C#" Value="RGB24"/>
@@ -208,8 +200,7 @@
       </ReturnValue>
       <Docs>
         <summary>A color texture format.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new RGB texture and assign it to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Texture2D.Texture2D" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-comment"&gt;// Create a new RGB texture and assign it to the renderer's material&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" /> (128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false);    renderer.material.mainTexture = texture;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="T:UnityEngine.Texture2D" /> texture = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false);        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        texture as <see cref="T:UnityEngine.Texture2D" /> = <see cref="T:UnityEngine.Texture2D" />(128, 128, <see cref="P:UnityEngine.TextureFormat.RGB24" />, &lt;span class="hl-keyword"&gt;false)        renderer.material.mainTexture = texture&lt;p class="details"&gt;</remarks></Docs>
     </Member>
   </Members>
 </Type>

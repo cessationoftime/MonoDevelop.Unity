@@ -134,7 +134,7 @@ exec($mdassembler_command);
 file_put_contents(RELEASE_PATH . "Unity.source", $monodoc_source_file);
 
 // Export VS Compatible Docs
-//exec($mdocexport_command);
+exec($mdocexport_command);
 
 // Move Release to Folders
 mkdir(RELEASE_PATH . "MonoDevelop");

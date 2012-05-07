@@ -24,8 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in lower side, centered horizontally.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="LowerLeft">
       <MemberSignature Language="C#" Value="LowerLeft"/>
@@ -38,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in lower left corner.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="LowerRight">
       <MemberSignature Language="C#" Value="LowerRight"/>
@@ -52,8 +50,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in lower right corner.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="MiddleCenter">
       <MemberSignature Language="C#" Value="MiddleCenter"/>
@@ -66,8 +63,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is centered both horizontally and vertically.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="MiddleLeft">
       <MemberSignature Language="C#" Value="MiddleLeft"/>
@@ -80,8 +76,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in left side, centered vertically.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="MiddleRight">
       <MemberSignature Language="C#" Value="MiddleRight"/>
@@ -94,8 +89,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in right side, centered vertically.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="UpperCenter">
       <MemberSignature Language="C#" Value="UpperCenter"/>
@@ -108,8 +102,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in upper side, centered horizontally.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="UpperLeft">
       <MemberSignature Language="C#" Value="UpperLeft"/>
@@ -122,8 +115,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in upper left corner.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
     <Member MemberName="UpperRight">
       <MemberSignature Language="C#" Value="UpperRight"/>
@@ -136,8 +128,7 @@
       </ReturnValue>
       <Docs>
         <summary>Text is anchored in upper right corner.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.GUIText.anchor" /> property, <see cref="T:UnityEngine.GUI Text component" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>

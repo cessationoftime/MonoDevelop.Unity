@@ -37,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation exited.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
     </Member>
     <Member MemberName="dragPerform">
       <MemberSignature Language="C#" Value="dragPerform"/>
@@ -51,8 +50,7 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
     </Member>
     <Member MemberName="DragPerform">
       <MemberSignature Language="C#" Value="DragPerform"/>
@@ -65,8 +63,7 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
     </Member>
     <Member MemberName="dragUpdated">
       <MemberSignature Language="C#" Value="dragUpdated"/>
@@ -79,8 +76,7 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
     </Member>
     <Member MemberName="DragUpdated">
       <MemberSignature Language="C#" Value="DragUpdated"/>
@@ -93,8 +89,7 @@
       </ReturnValue>
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks></Docs>
     </Member>
     <Member MemberName="ExecuteCommand">
       <MemberSignature Language="C#" Value="ExecuteCommand"/>

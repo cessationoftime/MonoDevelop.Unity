@@ -24,8 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>Generate a depth texture.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks></Docs>
     </Member>
     <Member MemberName="DepthNormals">
       <MemberSignature Language="C#" Value="DepthNormals"/>
@@ -38,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Generate a depth + normals texture.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks></Docs>
     </Member>
     <Member MemberName="None">
       <MemberSignature Language="C#" Value="None"/>
@@ -52,8 +50,7 @@
       </ReturnValue>
       <Docs>
         <summary>Do not generate depth texture (Default).</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
-      </Docs>
+      <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks></Docs>
     </Member>
   </Members>
 </Type>
