@@ -12,7 +12,6 @@
   <Docs>
     <summary>Script interface for <see cref="T:UnityEngine.Quality Settings" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anisotropicFiltering">
@@ -53,10 +51,9 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Current graphics quality level.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.QualityLevel" /> enumeration, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DecreaseLevel">
@@ -72,7 +69,6 @@
       <Docs>
         <summary>Decrease the current quality level.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IncreaseLevel">
@@ -88,7 +84,6 @@
       <Docs>
         <summary>Increase the current quality level.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="masterTextureLimit">
@@ -134,7 +129,6 @@
         <summary>The maximum number of pixel lights that should affect any object.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="shadowCascades">
@@ -150,7 +144,6 @@
         <summary>Number of cascades to use for directional light shadows.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="shadowDistance">
@@ -166,7 +159,6 @@
         <summary>Shadow drawing distance.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="softVegetation">
@@ -182,7 +174,6 @@
         <summary>Use a two-pass shader for the vegetation in the terrain engine.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

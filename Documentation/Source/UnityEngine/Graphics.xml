@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Raw interface to Unity's drawing functions.</summary>
-    <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
+    <remarks>(Read Only).</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Blit">
@@ -142,7 +140,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="deviceVendor">
@@ -163,7 +160,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="deviceVersion">
@@ -184,7 +180,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -210,7 +205,6 @@
         <param name="matrix">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -238,7 +232,6 @@
         <param name="materialIndex">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -266,7 +259,6 @@
         <param name="rotation">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -291,7 +283,6 @@
         <param name="layer">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -321,7 +312,6 @@
         <param name="materialIndex">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -348,7 +338,6 @@
         <param name="camera">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -375,7 +364,6 @@
         <param name="layer">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -404,7 +392,6 @@
         <param name="submeshIndex">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -433,7 +420,6 @@
         <param name="camera">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -464,7 +450,6 @@
         <param name="properties">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -495,7 +480,6 @@
         <param name="submeshIndex">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -528,7 +512,6 @@
         <param name="properties">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -563,7 +546,6 @@
         <param name="receiveShadows">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMesh">
@@ -600,7 +582,6 @@
         <param name="receiveShadows">To be added.</param>
         <summary>Draw a mesh.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMeshNow">
@@ -621,7 +602,6 @@
         <param name="matrix">To be added.</param>
         <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMeshNow">
@@ -644,7 +624,6 @@
         <param name="materialIndex">To be added.</param>
         <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMeshNow">
@@ -667,7 +646,6 @@
         <param name="rotation">To be added.</param>
         <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawMeshNow">
@@ -692,7 +670,6 @@
         <param name="materialIndex">To be added.</param>
         <summary>Draw a mesh immediately.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -713,7 +690,6 @@
         <param name="texture">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -736,7 +712,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -765,7 +740,6 @@
         <param name="bottomBorder">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -796,7 +770,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -827,7 +800,6 @@
         <param name="bottomBorder">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -860,7 +832,6 @@
         <param name="color">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -893,7 +864,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -928,7 +898,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetupVertexLights">
@@ -947,7 +916,6 @@
         <param name="lights">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="supportsVertexProgram">
@@ -968,7 +936,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

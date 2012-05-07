@@ -12,7 +12,6 @@
   <Docs>
     <summary>Script interface for <see cref="T:UnityEngine.font assets" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.GUIText" /> and <see cref="T:UnityEngine.TextMesh" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="hackedOffset">
@@ -41,7 +39,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HasCharacter">
@@ -61,7 +58,6 @@
         <summary>Does this font have a specific character?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="material">
@@ -77,7 +73,6 @@
         <summary>The material used for the font display.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

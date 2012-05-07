@@ -12,7 +12,6 @@
   <Docs>
     <summary>A Camera is a device through which the player views the world.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.camera component" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="allCameras">
@@ -41,7 +39,6 @@
         <summary>Returns all enabled cameras in the scene.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="aspect">
@@ -56,8 +53,7 @@
       <Docs>
         <summary>The aspect ratio (width divided by height).</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="T:UnityEngine.Screen" /> class.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="T:UnityEngine.Screen" /> class.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (camera.aspect &amp;gt; 1.0)    print (&lt;span class="hl-string"&gt;"<see cref="T:UnityEngine.Screen" /> is more wide than tall!");&lt;span class="hl-keyword"&gt;else    print (&lt;span class="hl-string"&gt;"<see cref="T:UnityEngine.Screen" /> is more tall than wide!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (camera.aspect &amp;gt; 1.0F)            print(&lt;span class="hl-string"&gt;"<see cref="T:UnityEngine.Screen" /> is more wide than tall!");        &lt;span class="hl-keyword"&gt;else            print(&lt;span class="hl-string"&gt;"<see cref="T:UnityEngine.Screen" /> is more tall than wide!");    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if camera.aspect &amp;gt; 1.0F:            print('<see cref="T:UnityEngine.Screen" /> is more wide than tall!')        &lt;span class="hl-keyword"&gt;else:            print('<see cref="T:UnityEngine.Screen" /> is more tall than wide!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="backgroundColor">
@@ -73,7 +69,6 @@
         <summary>The color with which the screen will be cleared.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.clearFlags" /> property.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="cameraToWorldMatrix">
@@ -89,7 +84,6 @@
         <summary>Matrix that transforms from camera space to world space (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clearFlags">
@@ -105,7 +99,6 @@
         <summary>How the camera clears the background.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CopyFrom">
@@ -124,7 +117,6 @@
         <param name="other">To be added.</param>
         <summary>Makes this camera's settings match other camera.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="cullingMask">
@@ -139,8 +131,7 @@
       <Docs>
         <summary>This is used to render parts of the scene selectively.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Only render objects in the first layer (Default layer)&lt;span class="hl-comment"&gt;camera.cullingMask = 1 &amp;lt;&amp;lt; 0;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.cullingMask = 1 &amp;lt;&amp;lt; 0;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.cullingMask = (1 &amp;lt;&amp;lt; 0)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="current">
@@ -156,7 +147,6 @@
         <summary>The camera we are currently rendering with, for low-level render control only (Read Only).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="depth">
@@ -171,8 +161,7 @@
       <Docs>
         <summary>Camera's depth in the camera rendering order.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.rect" /> property.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.rect" /> property.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set this camera to render after the main camera&lt;span class="hl-comment"&gt;camera.depth = <see cref="P:UnityEngine.Camera.main" />.depth + 1;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.depth = <see cref="P:UnityEngine.Camera.main" />.depth + 1;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.depth = (<see cref="P:UnityEngine.Camera.main" />.depth + 1)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="depthTextureMode">
@@ -187,7 +176,7 @@
       <Docs>
         <summary>How and if camera generates a depth texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.DepthTextureMode" />.</remarks>
+        <remarks>See Also: <see cref="T:UnityEngine.DepthTextureMode" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Generate a depth + normals texture&lt;span class="hl-comment"&gt;camera.depthTextureMode = <see cref="P:UnityEngine.DepthTextureMode.DepthNormals" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.depthTextureMode = <see cref="P:UnityEngine.DepthTextureMode.DepthNormals" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.depthTextureMode = <see cref="P:UnityEngine.DepthTextureMode.DepthNormals" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="DoClear">
@@ -203,7 +192,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="far">
@@ -219,7 +207,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="farClipPlane">
@@ -235,7 +222,6 @@
         <summary>The far clipping plane distance.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.layerCullDistances" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fieldOfView">
@@ -250,8 +236,7 @@
       <Docs>
         <summary>The field of view of the camera in degrees.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the camera's FOV attached to the same game object to 60&lt;span class="hl-comment"&gt;camera.fieldOfView = 60;    &lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.fieldOfView = 60;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.fieldOfView = 60&lt;p class="details"&gt;&#xD;&#xD;Another example using specifically the main camera.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the main camera's field of view to 80&lt;span class="hl-comment"&gt;<see cref="P:UnityEngine.Camera.main" />.fieldOfView = 80;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        <see cref="P:UnityEngine.Camera.main" />.fieldOfView = 80;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        <see cref="P:UnityEngine.Camera.main" />.fieldOfView = 80&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="fov">
@@ -267,7 +252,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetScreenHeight">
@@ -284,7 +268,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetScreenWidth">
@@ -301,7 +284,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isOrthoGraphic">
@@ -317,7 +299,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="layerCullDistances">
@@ -332,7 +313,7 @@
       <Docs>
         <summary>Per-layer culling distances.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.farClipPlane" />.</remarks>
+        <remarks>See Also: <see cref="P:UnityEngine.farClipPlane" />.&#xD;See Also: <see cref="P:UnityEngine.layerCullSpherical" />.</remarks>
       </Docs>
     </Member>
     <Member MemberName="main">
@@ -348,7 +329,6 @@
         <summary>The first enabled camera tagged "MainCamera" (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mainCamera">
@@ -364,7 +344,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="near">
@@ -380,7 +359,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="nearClipPlane">
@@ -396,7 +374,6 @@
         <summary>The near clipping plane distance.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.camera component" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="orthographic">
@@ -411,8 +388,7 @@
       <Docs>
         <summary>Is the camera orthographic (true) or perspective (false)?</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the camera to be orthograpghic&lt;span class="hl-comment"&gt;camera.orthographic = true;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.orthographic = true;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.orthographic = true&lt;p class="details"&gt;&#xD;&#xD;Specifically for the main camera:&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the main camera to be orthographic&lt;span class="hl-comment"&gt;<see cref="P:UnityEngine.Camera.main" />.orthographic = true;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        <see cref="P:UnityEngine.Camera.main" />.orthographic = true;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        <see cref="P:UnityEngine.Camera.main" />.orthographic = true&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="orthographicSize">
@@ -427,8 +403,7 @@
       <Docs>
         <summary>Camera's half-size when in orthographic mode.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.camera component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.camera component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the camera's ortho size to 5&lt;span class="hl-comment"&gt;camera.orthographic = true;camera.orthographicSize = 5;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.orthographic = true;        camera.orthographicSize = 5;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.orthographic = true        camera.orthographicSize = 5&lt;p class="details"&gt;&#xD;&#xD;Using specifically the main camera:&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the main camera's ortho size to 5&lt;span class="hl-comment"&gt;<see cref="P:UnityEngine.Camera.main" />.orthographic = true;<see cref="P:UnityEngine.Camera.main" />.orthographicSize = 5;    &lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        <see cref="P:UnityEngine.Camera.main" />.orthographic = true;        <see cref="P:UnityEngine.Camera.main" />.orthographicSize = 5;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        <see cref="P:UnityEngine.Camera.main" />.orthographic = true        <see cref="P:UnityEngine.Camera.main" />.orthographicSize = 5&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="pixelHeight">
@@ -444,7 +419,6 @@
         <summary>How tall is the camera in pixels (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pixelRect">
@@ -460,7 +434,6 @@
         <summary>Where on the screen is the camera rendered in pixel coordinates.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pixelWidth">
@@ -476,7 +449,6 @@
         <summary>How wide is the camera in pixels (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="projectionMatrix">
@@ -492,7 +464,6 @@
         <summary>Set a custom projection matrix.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rect">
@@ -508,7 +479,6 @@
         <summary>Where on the screen is the camera rendered in normalized coordinates.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Render">
@@ -524,7 +494,6 @@
       <Docs>
         <summary>Render the camera manually.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderDontRestore">
@@ -540,7 +509,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderToCubemap">
@@ -560,7 +528,6 @@
         <summary>Render into a cubemap from this camera.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderToCubemap">
@@ -580,7 +547,6 @@
         <summary>Render into a cubemap from this camera.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderToCubemap">
@@ -602,7 +568,6 @@
         <summary>Render into a cubemap from this camera.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderToCubemap">
@@ -624,7 +589,6 @@
         <summary>Render into a cubemap from this camera.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RenderWithShader">
@@ -645,7 +609,6 @@
         <param name="replacementTag">To be added.</param>
         <summary>Render the camera with shader replacement.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetAspect">
@@ -661,7 +624,6 @@
       <Docs>
         <summary>Revert the aspect ratio to the screen's aspect ratio.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetProjectionMatrix">
@@ -677,7 +639,6 @@
       <Docs>
         <summary>Make the projection reflect normal camera's parameters.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetReplacementShader">
@@ -693,7 +654,6 @@
       <Docs>
         <summary>Remove shader replacement from camera.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetWorldToCameraMatrix">
@@ -709,7 +669,6 @@
       <Docs>
         <summary>Make the rendering position reflect the camera's position in the scene.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScreenPointToRay">
@@ -729,7 +688,6 @@
         <summary>Returns a ray going from camera through a screen point.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScreenToViewportPoint">
@@ -749,7 +707,6 @@
         <summary>Transforms position from screen space into viewport space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScreenToWorldPoint">
@@ -769,7 +726,6 @@
         <summary>Transforms position from screen space into world space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetReplacementShader">
@@ -790,7 +746,6 @@
         <param name="replacementTag">To be added.</param>
         <summary>Make the camera render with shader replacement.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetupCurrent">
@@ -809,7 +764,6 @@
         <param name="cur">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetTexture">
@@ -825,7 +779,6 @@
         <summary>Destination render texture (Unity Pro only).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="velocity">
@@ -841,7 +794,6 @@
         <summary>Get the world-space speed of the camera (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ViewportPointToRay">
@@ -861,7 +813,6 @@
         <summary>Returns a ray going from camera through a viewport point.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ViewportToScreenPoint">
@@ -881,7 +832,6 @@
         <summary>Transforms position from viewport space into screen space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ViewportToWorldPoint">
@@ -901,7 +851,6 @@
         <summary>Transforms position from viewport space into world space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="worldToCameraMatrix">
@@ -917,7 +866,6 @@
         <summary>Matrix that transforms from world to camera space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="WorldToScreenPoint">
@@ -937,7 +885,6 @@
         <summary>Transforms position from world space into screen space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="WorldToViewportPoint">
@@ -957,7 +904,6 @@
         <summary>Transforms position from world space into viewport space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

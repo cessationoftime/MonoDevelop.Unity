@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Movie Textures are textures onto which movies are played back.</summary>
+    <summary>Movie Textures (Pro only) are textures onto which movies are played back.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="audioClip">
@@ -41,7 +39,6 @@
         <summary>Returns the <see cref="T:UnityEngine.AudioClip" /> belonging to the MovieTexture.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isPlaying">
@@ -57,7 +54,6 @@
         <summary>Returns whether the movie is playing or not</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isReadyToPlay">
@@ -73,7 +69,6 @@
         <summary>If the movie is downloading from a web site, this returns if enough data has been downloaded so playback should be able to start without interruptions.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="loop">
@@ -89,7 +84,6 @@
         <summary>Set this to true to make the movie loop.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Pause">
@@ -105,7 +99,6 @@
       <Docs>
         <summary>Pauses playing the movie.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -121,7 +114,6 @@
       <Docs>
         <summary>Starts playing the movie.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -137,7 +129,6 @@
       <Docs>
         <summary>Stops playing the movie, and rewinds it to the beginning</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

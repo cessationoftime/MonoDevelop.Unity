@@ -12,7 +12,6 @@
   <Docs>
     <summary>Class for texture handling. Use this to create textures on the fly or to modify existing <see cref="T:UnityEngine.texture assets" />.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="height">To be added.</param>
         <summary>Create a new empty texture.</summary>
         <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.SetPixels" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -52,7 +50,6 @@
         <param name="mipmap">To be added.</param>
         <summary>Create a new empty texture.</summary>
         <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.SetPixels" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Apply">
@@ -68,7 +65,6 @@
       <Docs>
         <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Apply">
@@ -87,7 +83,6 @@
         <param name="updateMipmaps">To be added.</param>
         <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Compress">
@@ -106,7 +101,6 @@
         <param name="highQuality">To be added.</param>
         <summary>Compress texture into DXT format.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EncodeToPNG">
@@ -123,7 +117,6 @@
         <summary>Encodes this texture into PNG format.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="format">
@@ -139,7 +132,6 @@
         <summary>The format of the pixel data in the texture (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixel">
@@ -161,7 +153,6 @@
         <summary>Returns pixel color at coordinates (x, y).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixelBilinear">
@@ -183,7 +174,6 @@
         <summary>Returns filtered pixel color at normalized coordinates (u, v).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -200,7 +190,6 @@
         <summary>Get a block of pixel colors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -220,7 +209,6 @@
         <summary>Get a block of pixel colors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -246,7 +234,6 @@
         <summary>Get a block of pixel colors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -274,7 +261,6 @@
         <summary>Get a block of pixel colors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadImage">
@@ -294,7 +280,6 @@
         <summary>Loads an image from a byte array.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mipmapCount">
@@ -310,7 +295,6 @@
         <summary>How many mipmap levels are in this texture (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PackTextures">
@@ -332,7 +316,6 @@
         <summary>Packs multiple textures into a texture atlas.</summary>
         <returns><see cref="T:UnityEngine.Rect" />[] - An array of rectangles containing the UV coordinates in the atlas for each input texture, or null if packing fails.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PackTextures">
@@ -356,7 +339,6 @@
         <summary>Packs multiple textures into a texture atlas.</summary>
         <returns><see cref="T:UnityEngine.Rect" />[] - An array of rectangles containing the UV coordinates in the atlas for each input texture, or null if packing fails.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ReadPixels">
@@ -379,7 +361,6 @@
         <param name="destY">To be added.</param>
         <summary>Read screen pixels into the saved texture data.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ReadPixels">
@@ -404,7 +385,6 @@
         <param name="recalculateMipMaps">To be added.</param>
         <summary>Read screen pixels into the saved texture data.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Resize">
@@ -426,7 +406,6 @@
         <summary>Resizes the texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Resize">
@@ -452,7 +431,6 @@
         <summary>Resizes the texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixel">
@@ -475,7 +453,6 @@
         <param name="color">To be added.</param>
         <summary>Sets pixel color at coordinates (x,y).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -494,7 +471,6 @@
         <param name="colors">To be added.</param>
         <summary>Set a block of pixel colors.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -515,7 +491,6 @@
         <param name="miplevel">To be added.</param>
         <summary>Set a block of pixel colors.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -542,7 +517,6 @@
         <param name="colors">To be added.</param>
         <summary>Set a block of pixel colors.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -571,7 +545,6 @@
         <param name="miplevel">To be added.</param>
         <summary>Set a block of pixel colors.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

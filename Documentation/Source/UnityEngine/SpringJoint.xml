@@ -12,7 +12,6 @@
   <Docs>
     <summary>The spring joint ties together 2 rigid bodies, spring forces will be automatically applied to keep the object at the given distance.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="damper">
@@ -41,7 +39,6 @@
         <summary>The damper force used to dampen the spring force</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxDistance">
@@ -57,7 +54,6 @@
         <summary>The maximum distance between the bodies relative to their initial distance</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minDistance">
@@ -73,7 +69,6 @@
         <summary>The minimum distance between the bodies relative to their initial distance</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="spring">
@@ -89,7 +84,6 @@
         <summary>The spring force used to keep the two objects together</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -8,12 +8,10 @@
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>
-  <Interfaces>
-  </Interfaces>
+  <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Contains information about a tree placed in the Terrain game object.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="color">
@@ -26,10 +24,9 @@
         <ReturnType>UnityEngine.Color</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Color of this instance.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightScale">
@@ -42,10 +39,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Height scale of this instance (compared to the prototype's size).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lightmapColor">
@@ -58,10 +54,9 @@
         <ReturnType>UnityEngine.Color</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Lightmap color calculated for this instance.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="position">
@@ -74,10 +69,9 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Position of the tree.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="prototypeIndex">
@@ -90,10 +84,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Index of this instance in the <see cref="P:UnityEngine.TerrainData.treePrototypes" /> array.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="temporaryDistance">
@@ -109,7 +102,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="widthScale">
@@ -122,10 +114,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Width scale of this instance (compared to the prototype's size).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

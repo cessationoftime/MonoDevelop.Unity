@@ -16,7 +16,6 @@
   <Docs>
     <summary>Simple access to web pages.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.WWWForm" /> for a way to build valid form data for the postData parameter.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -32,7 +31,6 @@
         <param name="url">To be added.</param>
         <summary>WWW - A new WWW object. When it has been downloaded, the results can be fetched from the returned object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -50,7 +48,6 @@
         <param name="postData">To be added.</param>
         <summary>WWW - A new WWW object. When it has been downloaded, the results can be fetched from the returned object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -68,7 +65,6 @@
         <param name="form">To be added.</param>
         <summary>WWW - A new WWW object. When it has been downloaded, the results can be fetched from the returned object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -88,7 +84,6 @@
         <param name="headers">To be added.</param>
         <summary>WWW - A new WWW object. When it has been downloaded, the results can be fetched from the returned object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="assetBundle">
@@ -104,7 +99,6 @@
         <summary>Streams an AssetBundle that can contain any kind of asset from the project folder.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.AssetBundle" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="audioClip">
@@ -117,10 +111,9 @@
         <ReturnType>UnityEngine.AudioClip</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns a <see cref="T:UnityEngine.AudioClip" /> generated from the downloaded data (Read Only).</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="bytes">
@@ -136,7 +129,6 @@
         <summary>Returns the contents of the fetched web page as a byte array (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="data">
@@ -149,10 +141,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns the contents of the fetched web page as a string (Read Only).</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Dispose">
@@ -168,7 +159,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="error">
@@ -184,7 +174,6 @@
         <summary>Returns an error message if there was an error during the download (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EscapeURL">
@@ -202,9 +191,8 @@
       <Docs>
         <param name="s">To be added.</param>
         <summary>Encodes string into an URL-friendly format.</summary>
-        <returns>string - A new string with all illegal characters replaced with %xx where xx is the hexadecimal code for the character code.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - A new string with all illegal characters replaced with %xx where xx is the hexadecimal code for the character code.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EscapeURL">
@@ -224,9 +212,8 @@
         <param name="s">To be added.</param>
         <param name="e">To be added.</param>
         <summary>Encodes string into an URL-friendly format.</summary>
-        <returns>string - A new string with all illegal characters replaced with %xx where xx is the hexadecimal code for the character code.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - A new string with all illegal characters replaced with %xx where xx is the hexadecimal code for the character code.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Finalize">
@@ -242,7 +229,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTextureFromURL">
@@ -267,7 +253,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetURL">
@@ -292,7 +277,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InitWWW">
@@ -315,7 +299,6 @@
         <param name="iHeaders">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isDone">
@@ -331,7 +314,6 @@
         <summary>Is the download already finished? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadFromCacheOrDownload">
@@ -350,8 +332,8 @@
       <Docs>
         <param name="url">To be added.</param>
         <param name="version">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Loads an AssetBundle with the specified version number from the cache. If the AssetBundle is not currently cached, it will automatically be downloaded and stored in the cache for future retrieval from local storage.</summary>
+        <returns>WWW - a WWW instance, which can be used to access the data once the load/download operation is completed.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -371,7 +353,6 @@
         <param name="tex">To be added.</param>
         <summary>Replaces the contents of an existing <see cref="T:UnityEngine.Texture2D" /> with an image from the downloaded data.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadUnityWeb">
@@ -387,7 +368,6 @@
       <Docs>
         <summary>Loads the new web player data file.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="movie">
@@ -403,7 +383,6 @@
         <summary>Returns a <see cref="T:UnityEngine.MovieTexture" /> generated from the downloaded data (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="oggVorbis">
@@ -416,10 +395,9 @@
         <ReturnType>UnityEngine.AudioClip</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Load an Ogg Vorbis file into the audio clip.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.AudioClip" />, <see cref="T:UnityEngine.AudioSource" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="progress">
@@ -435,7 +413,6 @@
         <summary>How far has the download progressed (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="size">
@@ -451,7 +428,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="texture">
@@ -464,10 +440,9 @@
         <ReturnType>UnityEngine.Texture2D</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns a <see cref="T:UnityEngine.Texture2D" /> generated from the downloaded data (Read Only).</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="threadPriority">
@@ -500,9 +475,8 @@
       <Docs>
         <param name="s">To be added.</param>
         <summary>Decodes string from an URL-friendly format.</summary>
-        <returns>string - A new string with all occurrences of %xx replaced with the corresponding character.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - A new string with all occurrences of %xx replaced with the corresponding character.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="UnEscapeURL">
@@ -522,9 +496,8 @@
         <param name="s">To be added.</param>
         <param name="e">To be added.</param>
         <summary>Decodes string from an URL-friendly format.</summary>
-        <returns>string - A new string with all occurrences of %xx replaced with the corresponding character.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - A new string with all occurrences of %xx replaced with the corresponding character.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="uploadProgress">
@@ -540,7 +513,6 @@
         <summary>How far has the upload progressed (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="url">
@@ -556,7 +528,6 @@
         <summary>The URL of this WWW request (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Class for handling cube maps, Use this to create or modify existing <see cref="T:UnityEngine.cube map assets" />.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -32,7 +31,6 @@
         <param name="mipmap">To be added.</param>
         <summary>Create a new empty cubemap texture.</summary>
         <remarks>See Also: <see cref="P:UnityEngine.SetPixel" />, <see cref="P:UnityEngine.Apply" /> functions.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Apply">
@@ -48,7 +46,6 @@
       <Docs>
         <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Apply">
@@ -67,7 +64,6 @@
         <param name="updateMipmaps">To be added.</param>
         <summary>Actually apply all previous <see cref="P:UnityEngine.SetPixel" /> and <see cref="P:UnityEngine.SetPixels" /> changes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="format">
@@ -83,7 +79,6 @@
         <summary>The format of the pixel data in the texture (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixel">
@@ -107,7 +102,6 @@
         <summary>Returns pixel color at coordinates (face, x, y).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -127,7 +121,6 @@
         <summary>Returns pixel colors of a cubemap face.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetPixels">
@@ -149,7 +142,6 @@
         <summary>Returns pixel colors of a cubemap face.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixel">
@@ -174,7 +166,6 @@
         <param name="color">To be added.</param>
         <summary>Sets pixel color at coordinates (face, x, y).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -195,7 +186,6 @@
         <param name="face">To be added.</param>
         <summary>Sets pixel colors of a cubemap face.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPixels">
@@ -218,7 +208,6 @@
         <param name="miplevel">To be added.</param>
         <summary>Sets pixel colors of a cubemap face.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

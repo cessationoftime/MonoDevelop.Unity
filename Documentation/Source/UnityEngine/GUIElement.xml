@@ -12,7 +12,6 @@
   <Docs>
     <summary>Base class for images &amp; text strings displayed in a GUI.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetScreenRect">
@@ -42,7 +40,6 @@
         <summary>Returns bounding rectangle of <see cref="T:UnityEngine.GUIElement" /> in screen coordinates.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetScreenRect">
@@ -62,7 +59,6 @@
         <summary>Returns bounding rectangle of <see cref="T:UnityEngine.GUIElement" /> in screen coordinates.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HitTest">
@@ -82,7 +78,6 @@
         <summary>Is a point on screen inside the element.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HitTest">
@@ -104,7 +99,6 @@
         <summary>Is a point on screen inside the element.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

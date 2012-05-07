@@ -12,7 +12,6 @@
   <Docs>
     <summary>Offsets for rectangles, borders, etc.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -23,9 +22,8 @@
       </AssemblyInfo>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Creates a new rectangle with offsets.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Add">
@@ -45,7 +43,6 @@
         <summary>Add the border offsets to a rect.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bottom">
@@ -61,7 +58,6 @@
         <summary>Bottom edge size.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontal">
@@ -77,7 +73,6 @@
         <summary>shortcut for left + right (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="left">
@@ -93,7 +88,6 @@
         <summary>Left edge size.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -113,7 +107,6 @@
         <summary>Remove the border offsets from a rect.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="right">
@@ -129,7 +122,6 @@
         <summary>Right edge size.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="top">
@@ -145,7 +137,6 @@
         <summary>Top edge size.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -162,7 +153,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="vertical">
@@ -178,7 +168,6 @@
         <summary>shortcut for top + bottom (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

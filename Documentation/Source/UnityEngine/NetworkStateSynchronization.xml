@@ -11,7 +11,6 @@
   <Docs>
     <summary>Different types of synchronization for the <see cref="T:UnityEngine.NetworkView" /> component.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Off">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>No state data will be synchronized</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ReliableDeltaCompressed">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>All packets are sent reliable and ordered.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Unreliable">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Brute force unreliable state sending</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

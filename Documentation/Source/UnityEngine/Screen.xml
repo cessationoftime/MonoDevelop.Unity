@@ -12,7 +12,6 @@
   <Docs>
     <summary>Access to display information.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="currentResolution">
@@ -38,10 +36,9 @@
         <ReturnType>UnityEngine.Resolution</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The current screen resolution.</summary>
+        <summary>The current screen resolution (Read Only).</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
+        <remarks>(Read Only).</remarks>
       </Docs>
     </Member>
     <Member MemberName="fullScreen">
@@ -57,7 +54,6 @@
         <summary>Is the game running fullscreen?</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.SetResolution" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetResolution">
@@ -73,7 +69,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="height">
@@ -89,7 +84,6 @@
         <summary>The current height of the screen window in pixels (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lockCursor">
@@ -105,7 +99,6 @@
         <summary>Should the cursor be locked?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="resolutions">
@@ -121,7 +114,6 @@
         <summary>All fullscreen resolutions supported by the monitor (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetResolution">
@@ -144,7 +136,6 @@
         <param name="fullscreen">To be added.</param>
         <summary>Switches the screen resolution.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetResolution">
@@ -169,7 +160,6 @@
         <param name="preferredRefreshRate">To be added.</param>
         <summary>Switches the screen resolution.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="showCursor">
@@ -185,7 +175,6 @@
         <summary>Should the cursor be visible?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="width">
@@ -201,7 +190,6 @@
         <summary>The current width of the screen window in pixels (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

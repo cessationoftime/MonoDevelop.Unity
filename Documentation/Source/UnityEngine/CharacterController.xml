@@ -12,7 +12,6 @@
   <Docs>
     <summary>A CharacterController allows you to easily do movement constrained by collisions without having to deal with a rigidbody.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="center">
@@ -41,7 +39,6 @@
         <summary>The center of the character's capsule relative to the transform's position.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="collisionFlags">
@@ -57,7 +54,6 @@
         <summary>What part of the capsule collided with the environment during the last <see cref="P:UnityEngine.CharacterController.Move" /> call.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detectCollisions">
@@ -70,10 +66,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Should other rigidbodies or character controllers collide with this character controller (By default always enabled)</summary>
+        <summary>Determines whether other rigidbodies or character controllers collide with this character controller (by default this is always enabled).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="height">
@@ -89,7 +84,6 @@
         <summary>The height of the character's capsule</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isGrounded">
@@ -105,7 +99,6 @@
         <summary>Was the CharacterController touching the ground during the last move?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -125,7 +118,6 @@
         <summary>A more complex move function taking absolute movement deltas.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="radius">
@@ -141,7 +133,6 @@
         <summary>The radius of the character's capsule</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SimpleMove">
@@ -161,7 +152,6 @@
         <summary>Moves the character with speed.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="slopeLimit">
@@ -177,7 +167,6 @@
         <summary>The character controllers slope limit in degrees</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stepOffset">
@@ -193,7 +182,6 @@
         <summary>The character controllers step offset in meters</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="velocity">
@@ -209,7 +197,6 @@
         <summary>The current relative velocity of the Character (see notes).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

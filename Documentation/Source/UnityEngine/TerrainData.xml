@@ -12,7 +12,6 @@
   <Docs>
     <summary>The TerrainData class stores heightmaps, detail mesh positions, tree instances, and terrain texture alpha maps.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapHeight">
@@ -38,10 +36,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Height of the alpha map.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapLayers">
@@ -54,10 +51,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Number of alpha map layers</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapResolution">
@@ -70,10 +66,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Resolution of the alpha map.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapTextureCount">
@@ -89,7 +84,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapTextures">
@@ -105,7 +99,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alphamapWidth">
@@ -118,10 +111,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Width of the alpha map.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="baseMapResolution">
@@ -134,10 +126,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Resolution of the base map used for rendering far patches on the terrain</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detailHeight">
@@ -150,10 +141,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Detail height of the TerrainData.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detailPrototypes">
@@ -166,10 +156,9 @@
         <ReturnType>UnityEngine.DetailPrototype[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Contains the detail texture/meshes that the terrain has.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detailResolution">
@@ -182,10 +171,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Detail Resolution of the TerrainData.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detailWidth">
@@ -198,10 +186,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Detail width of the TerrainData.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAdjustedSize">
@@ -221,7 +208,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAlphamaps">
@@ -244,10 +230,9 @@
         <param name="y">To be added.</param>
         <param name="width">To be added.</param>
         <param name="height">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Returns the alpha map at a position x, y given a width and height</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetBaseMap">
@@ -264,7 +249,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetDetailLayer">
@@ -289,10 +273,9 @@
         <param name="width">To be added.</param>
         <param name="height">To be added.</param>
         <param name="layer">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Returns a 2D array of the detail object density in the specific location.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHeight">
@@ -311,10 +294,9 @@
       <Docs>
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Gets the height at a certain point x,y</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHeights">
@@ -340,7 +322,6 @@
         <summary>Get an array of heightmap samples..</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetInterpolatedHeight">
@@ -359,10 +340,9 @@
       <Docs>
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Gets an interpolated height at a point x,y</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetInterpolatedNormal">
@@ -384,7 +364,6 @@
         <summary>Get an interpolated normal at a given location.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetSteepness">
@@ -403,10 +382,9 @@
       <Docs>
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Gets the gradient of the terrain at point .</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetSupportedLayers">
@@ -429,10 +407,9 @@
         <param name="yBase">To be added.</param>
         <param name="totalWidth">To be added.</param>
         <param name="totalHeight">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Returns an array of all supported detail layer indices in the area.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapHeight">
@@ -448,7 +425,6 @@
         <summary>Height of the terrain in samples (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapResolution">
@@ -461,10 +437,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Resolution of the heightmap</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapScale">
@@ -477,10 +452,9 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The size of each heightmap sample</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapWidth">
@@ -496,7 +470,6 @@
         <summary>Width of the terrain in samples (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Init">
@@ -519,7 +492,6 @@
         <param name="basemapRes">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lightmap">
@@ -535,7 +507,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mipLevels">
@@ -551,7 +522,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="patchCount">
@@ -567,7 +537,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="plantAtlasTexture">
@@ -583,7 +552,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RecalculateTreePositions">
@@ -599,7 +567,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RefreshPrototypes">
@@ -613,9 +580,8 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Reloads all the values of the available prototypes (ie, detail mesh assets) in the TerrainData Object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveDetailPrototype">
@@ -634,7 +600,6 @@
         <param name="index">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveTreePrototype">
@@ -653,7 +618,6 @@
         <param name="index">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetDirtyDetails">
@@ -669,7 +633,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetAlphamaps">
@@ -690,9 +653,8 @@
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
         <param name="map">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Assign all splat values in the given map area.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetBaseMapDirty">
@@ -708,7 +670,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetDetailLayer">
@@ -731,9 +692,8 @@
         <param name="yBase">To be added.</param>
         <param name="layer">To be added.</param>
         <param name="details">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Sets the detail layer density map.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetHeights">
@@ -756,7 +716,6 @@
         <param name="heights">To be added.</param>
         <summary>Set an array of heightmap samples.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetHeightsDelayLOD">
@@ -779,7 +738,6 @@
         <param name="heights">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="size">
@@ -795,7 +753,6 @@
         <summary>The total size in world units of the terrain</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="splatPrototypes">
@@ -808,10 +765,9 @@
         <ReturnType>UnityEngine.SplatPrototype[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Splat texture used by the terrain.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="treeInstances">
@@ -824,10 +780,9 @@
         <ReturnType>UnityEngine.TreeInstance[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Contains the current trees placed in the terrain.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="treePrototypes">
@@ -840,10 +795,9 @@
         <ReturnType>UnityEngine.TreePrototype[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The list of tree prototypes this are the ones available in the inspector.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wavingGrassAmount">
@@ -856,10 +810,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Amount of waving grass in the terrain.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wavingGrassSpeed">
@@ -872,10 +825,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Speed of the waving grass.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wavingGrassStrength">
@@ -888,10 +840,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Strength of the waving grass in the terrain.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wavingGrassTint">
@@ -904,10 +855,9 @@
         <ReturnType>UnityEngine.Color</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Color of the waving grass that the terrain has.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

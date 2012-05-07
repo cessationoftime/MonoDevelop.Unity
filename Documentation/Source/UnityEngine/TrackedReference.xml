@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="TrackedReference" FullName="UnityEngine.TrackedReference">
-  <TypeSignature Language="C#" Value="public class TrackedReference" />
+  <TypeSignature Language="C#" Value="public class TrackedReference"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -7,26 +8,26 @@
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces/>
   <Docs>
     <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected TrackedReference ();" />
+      <MemberSignature Language="C#" Value="protected TrackedReference ();"/>
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Parameters />
+      <Parameters/>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object o);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object o);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -35,7 +36,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o" Type="System.Object" />
+        <Parameter Name="o" Type="System.Object"/>
       </Parameters>
       <Docs>
         <param name="o">To be added.</param>
@@ -45,7 +46,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
-      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -53,7 +54,7 @@
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters/>
       <Docs>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
@@ -61,7 +62,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (UnityEngine.TrackedReference x, UnityEngine.TrackedReference y);" />
+      <MemberSignature Language="C#" Value="public static bool op_Equality (UnityEngine.TrackedReference x, UnityEngine.TrackedReference y);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -70,8 +71,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="x" Type="UnityEngine.TrackedReference" />
-        <Parameter Name="y" Type="UnityEngine.TrackedReference" />
+        <Parameter Name="x" Type="UnityEngine.TrackedReference"/>
+        <Parameter Name="y" Type="UnityEngine.TrackedReference"/>
       </Parameters>
       <Docs>
         <param name="x">To be added.</param>
@@ -82,7 +83,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static bool op_Implicit (UnityEngine.TrackedReference exists);" />
+      <MemberSignature Language="C#" Value="public static bool op_Implicit (UnityEngine.TrackedReference exists);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -91,7 +92,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="exists" Type="UnityEngine.TrackedReference" />
+        <Parameter Name="exists" Type="UnityEngine.TrackedReference"/>
       </Parameters>
       <Docs>
         <param name="exists">To be added.</param>
@@ -101,7 +102,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (UnityEngine.TrackedReference x, UnityEngine.TrackedReference y);" />
+      <MemberSignature Language="C#" Value="public static bool op_Inequality (UnityEngine.TrackedReference x, UnityEngine.TrackedReference y);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -110,8 +111,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="x" Type="UnityEngine.TrackedReference" />
-        <Parameter Name="y" Type="UnityEngine.TrackedReference" />
+        <Parameter Name="x" Type="UnityEngine.TrackedReference"/>
+        <Parameter Name="y" Type="UnityEngine.TrackedReference"/>
       </Parameters>
       <Docs>
         <param name="x">To be added.</param>

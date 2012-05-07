@@ -12,7 +12,6 @@
   <Docs>
     <summary>Text file assets.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bytes">
@@ -41,7 +39,6 @@
         <summary>The raw bytes of the text asset. (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="text">
@@ -57,7 +54,6 @@
         <summary>The text contents of the .txt file as a string. (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -74,7 +70,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Joint is the base class for all joints.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.CharacterJoint" />, <see cref="T:UnityEngine.HingeJoint" />, <see cref="T:UnityEngine.SpringJoint" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anchor">
@@ -41,7 +39,6 @@
         <summary>The Position of the anchor around which the joints motion is constrained.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="axis">
@@ -57,7 +54,6 @@
         <summary>The Direction of the axis around which the body is constrained.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="breakForce">
@@ -72,8 +68,7 @@
       <Docs>
         <summary>The force that needs to be applied for this joint to break.</summary>
         <value>To be added.</value>
-        <remarks>See Also: OnJointBreak</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Joint.OnJointBreak" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Makes the joint break when a force larger than 10 is applied&lt;span class="hl-comment"&gt;hingeJoint.breakForce = 10;&lt;span class="hl-comment"&gt;// Makes the joint unbreakable&lt;span class="hl-comment"&gt;hingeJoint.breakForce = <see cref="P:UnityEngine.Mathf.Infinity" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        hingeJoint.breakForce = 10;        hingeJoint.breakForce = <see cref="P:UnityEngine.Mathf.Infinity" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        hingeJoint.breakForce = 10        hingeJoint.breakForce = <see cref="P:UnityEngine.Mathf.Infinity" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="breakTorque">
@@ -88,8 +83,7 @@
       <Docs>
         <summary>The torque that needs to be applied for this joint to break.</summary>
         <value>To be added.</value>
-        <remarks>See Also: OnJointBreak</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Joint.OnJointBreak" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Makes the joint break when a torque larger than 10 is applied&lt;span class="hl-comment"&gt;hingeJoint.breakTorque = 10;&lt;span class="hl-comment"&gt;// Makes the joint unbreakable&lt;span class="hl-comment"&gt;hingeJoint.breakTorque = <see cref="P:UnityEngine.Mathf.Infinity" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        hingeJoint.breakTorque = 10;        hingeJoint.breakTorque = <see cref="P:UnityEngine.Mathf.Infinity" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        hingeJoint.breakTorque = 10        hingeJoint.breakTorque = <see cref="P:UnityEngine.Mathf.Infinity" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="connectedBody">
@@ -105,7 +99,6 @@
         <summary>A reference to another rigidbody this joint connects to.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

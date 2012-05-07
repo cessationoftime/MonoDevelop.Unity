@@ -16,7 +16,6 @@
   <Docs>
     <summary>Bit mask that controls object destruction and visibility in inspectors</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="DontSave">
@@ -30,7 +29,6 @@
       </ReturnValue>
       <Docs>
         <summary>The object will not be saved to the scene. It will not be destroyed when a new scene is loaded.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HideAndDontSave">
@@ -44,7 +42,6 @@
       </ReturnValue>
       <Docs>
         <summary>A combination of not shown in the hierarchy and not saved to to scenes.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HideInHierarchy">
@@ -57,8 +54,7 @@
         <ReturnType>UnityEngine.HideFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The object will not appear in the hierarchy and</summary>
-        <since version="2.5.1"/>
+        <summary>The object will not appear in the hierarchy and will not show up in the project view if it is stored in an asset.</summary>
       </Docs>
     </Member>
     <Member MemberName="HideInInspector">
@@ -72,7 +68,6 @@
       </ReturnValue>
       <Docs>
         <summary>It is not possible to view it in the inspector</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NotEditable">
@@ -86,7 +81,6 @@
       </ReturnValue>
       <Docs>
         <summary>The object is not be editable in the inspector</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

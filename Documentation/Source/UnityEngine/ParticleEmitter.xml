@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Script interface for particle emitters.</summary>
+    <summary>(Legacy Particles) Script interface for particle emitters.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Particles documentation" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClearParticles">
@@ -39,9 +37,8 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Removes all particles from the particle system.</summary>
+        <summary>Removes all particles from the particle emitter.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="emit">
@@ -57,7 +54,6 @@
         <summary>Should particles be automatically emitted each frame?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Emit">
@@ -73,7 +69,6 @@
       <Docs>
         <summary>Emit a number of particles.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Emit">
@@ -92,7 +87,6 @@
         <param name="count">To be added.</param>
         <summary>Emit a number of particles.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Emit">
@@ -119,7 +113,6 @@
         <param name="color">To be added.</param>
         <summary>Emit a number of particles.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="emitterVelocityScale">
@@ -135,7 +128,6 @@
         <summary>he amount of the emitter's speed that the particles inherit.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="enabled">
@@ -166,7 +158,6 @@
         <summary>The starting speed of particles along X, Y, and Z, measured in the object's orientation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxEmission">
@@ -182,7 +173,6 @@
         <summary>The maximum number of particles that will be spawned every second.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxEnergy">
@@ -198,7 +188,6 @@
         <summary>The maximum lifetime of each particle, measured in seconds.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxSize">
@@ -214,7 +203,6 @@
         <summary>The maximum size each particle can be at the time when it is spawned.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minEmission">
@@ -230,7 +218,6 @@
         <summary>The minimum number of particles that will be spawned every second.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minEnergy">
@@ -246,7 +233,6 @@
         <summary>The minimum lifetime of each particle, measured in seconds.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minSize">
@@ -262,7 +248,6 @@
         <summary>The minimum size each particle can be at the time when it is spawned.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="particleCount">
@@ -278,7 +263,6 @@
         <summary>The current number of particles (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="particles">
@@ -294,7 +278,6 @@
         <summary>Returns a copy of all particles and assigns an array of all particles to be the current particles.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rndVelocity">
@@ -310,7 +293,6 @@
         <summary>A random speed along X, Y, and Z that is added to the velocity.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Simulate">
@@ -327,7 +309,7 @@
       </Parameters>
       <Docs>
         <param name="deltaTime">To be added.</param>
-        <summary>Advance particle system simulation by given time.</summary>
+        <summary>Advance particle simulation by given time.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -344,7 +326,6 @@
         <summary>If enabled, the particles don't move when the emitter moves. If false, when you move the emitter, the particles follow it around.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="worldVelocity">
@@ -360,7 +341,6 @@
         <summary>The starting speed of particles in world space, along X, Y, and Z.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

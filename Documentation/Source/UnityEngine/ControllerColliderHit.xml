@@ -12,7 +12,6 @@
   <Docs>
     <summary>ControllerColliderHit is used by <see cref="P:UnityEngine.CharacterController.OnControllerColliderHit" /> to give detailed information about the collision and how to deal with it.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="collider">
@@ -46,7 +44,6 @@
         <summary>The collider that was hit by the controller</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="controller">
@@ -62,7 +59,6 @@
         <summary>The controller that hit the collider</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="gameObject">
@@ -78,7 +74,6 @@
         <summary>The game object that was hit by the controller.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="moveDirection">
@@ -94,7 +89,6 @@
         <summary>Approximately the direction from the center of the capsule to the point we touch.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="moveLength">
@@ -110,7 +104,6 @@
         <summary>How far the character has travelled until it hit the collider.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normal">
@@ -123,10 +116,9 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The normal of the surface we collided with in world space</summary>
+        <summary>The normal of the surface we collided with in world space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="point">
@@ -139,10 +131,9 @@
         <ReturnType>UnityEngine.Vector3</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The impact point in world space</summary>
+        <summary>The impact point in world space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rigidbody">
@@ -158,7 +149,6 @@
         <summary>The rigidbody that was hit by the controller.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="transform">
@@ -174,7 +164,6 @@
         <summary>The transform that was hit by the controller.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

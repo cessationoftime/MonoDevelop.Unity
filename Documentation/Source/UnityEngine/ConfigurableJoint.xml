@@ -12,7 +12,6 @@
   <Docs>
     <summary>The configurable joint is an extremely flexible joint giving you complete control over rotation and linear motion.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularXDrive">
@@ -41,7 +39,6 @@
         <summary>Definition of how the joint's rotation will behave around its local X axis. Only used if Rotation Drive Mode is Swing &amp; Twist</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularXMotion">
@@ -57,7 +54,6 @@
         <summary>Allow rotation around the X axis to be Free, completely Locked, or Limited according to Low and High Angular XLimit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularYLimit">
@@ -73,7 +69,6 @@
         <summary>Boundary defining rotation restriction, based on delta from original rotation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularYMotion">
@@ -89,7 +84,6 @@
         <summary>Allow rotation around the Y axis to be Free, completely Locked, or Limited according to Angular YLimit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularYZDrive">
@@ -105,7 +99,6 @@
         <summary>Definition of how the joint's rotation will behave around its local Y and Z axes. Only used if Rotation Drive Mode is Swing &amp; Twist</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularZLimit">
@@ -121,7 +114,6 @@
         <summary>Boundary defining rotation restriction, based on delta from original rotation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularZMotion">
@@ -137,7 +129,6 @@
         <summary>Allow rotation around the Z axis to be Free, completely Locked, or Limited according to Angular ZLimit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="configuredInWorldSpace">
@@ -153,7 +144,6 @@
         <summary>If enabled, all Target values will be calculated in world space instead of the object's local space</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="highAngularXLimit">
@@ -169,7 +159,6 @@
         <summary>Boundary defining upper rotation restriction, based on delta from original rotation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="linearLimit">
@@ -185,7 +174,6 @@
         <summary>Boundary defining movement restriction, based on distance from the joint's origin</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lowAngularXLimit">
@@ -201,7 +189,6 @@
         <summary>Boundary defining lower rotation restriction, based on delta from original rotation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="projectionAngle">
@@ -217,7 +204,6 @@
         <summary>Difference in angle from the Connected Body that must be exceeded before the object snaps back to an acceptable position</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="projectionDistance">
@@ -233,7 +219,6 @@
         <summary>Distance from the Connected Body that must be exceeded before the object snaps back to an acceptable position</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="projectionMode">
@@ -249,7 +234,6 @@
         <summary>Properties to track to snap the object back to its constrained position when it drifts off too much</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rotationDriveMode">
@@ -265,7 +249,6 @@
         <summary>Control the object's rotation with either X &amp; YZ or Slerp Drive by itself</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="slerpDrive">
@@ -281,7 +264,6 @@
         <summary>Definition of how the joint's rotation will behave around all local axes. Only used if Rotation Drive Mode is Slerp Only</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetAngularVelocity">
@@ -297,7 +279,6 @@
         <summary>This is a <see cref="T:UnityEngine.Vector3" />. It defines the desired angular velocity that the joint should rotate into.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetPosition">
@@ -313,7 +294,6 @@
         <summary>The desired position that the joint should move into</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetRotation">
@@ -329,7 +309,6 @@
         <summary>This is a <see cref="T:UnityEngine.Quaternion" />. It defines the desired rotation that the joint should rotate into.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetVelocity">
@@ -345,7 +324,6 @@
         <summary>The desired velocity that the joint should move along</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="xDrive">
@@ -361,7 +339,6 @@
         <summary>Definition of how the joint's movement will behave along its local X axis</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="xMotion">
@@ -377,7 +354,6 @@
         <summary>Allow movement along the X axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="yDrive">
@@ -393,7 +369,6 @@
         <summary>Definition of how the joint's movement will behave along its local Y axis</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="yMotion">
@@ -409,7 +384,6 @@
         <summary>Allow movement along the Y axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="zDrive">
@@ -425,7 +399,6 @@
         <summary>Definition of how the joint's movement will behave along its local Z axis</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="zMotion">
@@ -441,7 +414,6 @@
         <summary>Allow movement along the Z axis to be Free, completely Locked, or Limited according to Linear Limit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

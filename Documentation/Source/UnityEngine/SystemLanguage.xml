@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="SystemLanguage" FullName="UnityEngine.SystemLanguage">
-  <TypeSignature Language="C#" Value="public enum SystemLanguage" />
+  <TypeSignature Language="C#" Value="public enum SystemLanguage"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -8,12 +9,12 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>The language the user's operating system is running in. Returned by <see cref="P:UnityEngine.Application.systemLanguage" />.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName="Afrikaans">
-      <MemberSignature Language="C#" Value="Afrikaans" />
+      <MemberSignature Language="C#" Value="Afrikaans"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -22,11 +23,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Afrikaans</summary>
       </Docs>
     </Member>
     <Member MemberName="Arabic">
-      <MemberSignature Language="C#" Value="Arabic" />
+      <MemberSignature Language="C#" Value="Arabic"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -35,11 +36,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Arabic</summary>
       </Docs>
     </Member>
     <Member MemberName="Basque">
-      <MemberSignature Language="C#" Value="Basque" />
+      <MemberSignature Language="C#" Value="Basque"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -48,11 +49,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Basque</summary>
       </Docs>
     </Member>
     <Member MemberName="Belarusian">
-      <MemberSignature Language="C#" Value="Belarusian" />
+      <MemberSignature Language="C#" Value="Belarusian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -61,11 +62,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Belarusian</summary>
       </Docs>
     </Member>
     <Member MemberName="Bulgarian">
-      <MemberSignature Language="C#" Value="Bulgarian" />
+      <MemberSignature Language="C#" Value="Bulgarian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -74,11 +75,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Bulgarian</summary>
       </Docs>
     </Member>
     <Member MemberName="Catalan">
-      <MemberSignature Language="C#" Value="Catalan" />
+      <MemberSignature Language="C#" Value="Catalan"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -87,11 +88,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Catalan</summary>
       </Docs>
     </Member>
     <Member MemberName="Chinese">
-      <MemberSignature Language="C#" Value="Chinese" />
+      <MemberSignature Language="C#" Value="Chinese"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -100,11 +101,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Chinese</summary>
       </Docs>
     </Member>
     <Member MemberName="Czech">
-      <MemberSignature Language="C#" Value="Czech" />
+      <MemberSignature Language="C#" Value="Czech"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -113,11 +114,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Czech</summary>
       </Docs>
     </Member>
     <Member MemberName="Danish">
-      <MemberSignature Language="C#" Value="Danish" />
+      <MemberSignature Language="C#" Value="Danish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -126,11 +127,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Danish</summary>
       </Docs>
     </Member>
     <Member MemberName="Dutch">
-      <MemberSignature Language="C#" Value="Dutch" />
+      <MemberSignature Language="C#" Value="Dutch"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -139,11 +140,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Dutch</summary>
       </Docs>
     </Member>
     <Member MemberName="English">
-      <MemberSignature Language="C#" Value="English" />
+      <MemberSignature Language="C#" Value="English"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -152,11 +153,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>English</summary>
       </Docs>
     </Member>
     <Member MemberName="Estonian">
-      <MemberSignature Language="C#" Value="Estonian" />
+      <MemberSignature Language="C#" Value="Estonian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -165,11 +166,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Estonian</summary>
       </Docs>
     </Member>
     <Member MemberName="Faroese">
-      <MemberSignature Language="C#" Value="Faroese" />
+      <MemberSignature Language="C#" Value="Faroese"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -178,11 +179,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Faroese</summary>
       </Docs>
     </Member>
     <Member MemberName="Finnish">
-      <MemberSignature Language="C#" Value="Finnish" />
+      <MemberSignature Language="C#" Value="Finnish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -191,11 +192,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Finnish</summary>
       </Docs>
     </Member>
     <Member MemberName="Frensh">
-      <MemberSignature Language="C#" Value="Frensh" />
+      <MemberSignature Language="C#" Value="Frensh"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -208,7 +209,7 @@
       </Docs>
     </Member>
     <Member MemberName="German">
-      <MemberSignature Language="C#" Value="German" />
+      <MemberSignature Language="C#" Value="German"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -217,11 +218,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>German</summary>
       </Docs>
     </Member>
     <Member MemberName="Greek">
-      <MemberSignature Language="C#" Value="Greek" />
+      <MemberSignature Language="C#" Value="Greek"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -230,11 +231,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Greek</summary>
       </Docs>
     </Member>
     <Member MemberName="Hebrew">
-      <MemberSignature Language="C#" Value="Hebrew" />
+      <MemberSignature Language="C#" Value="Hebrew"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -243,11 +244,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Hebrew</summary>
       </Docs>
     </Member>
     <Member MemberName="Hugarian">
-      <MemberSignature Language="C#" Value="Hugarian" />
+      <MemberSignature Language="C#" Value="Hugarian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -256,11 +257,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Hugarian</summary>
       </Docs>
     </Member>
     <Member MemberName="Icelandic">
-      <MemberSignature Language="C#" Value="Icelandic" />
+      <MemberSignature Language="C#" Value="Icelandic"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -269,11 +270,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Icelandic</summary>
       </Docs>
     </Member>
     <Member MemberName="Indonesian">
-      <MemberSignature Language="C#" Value="Indonesian" />
+      <MemberSignature Language="C#" Value="Indonesian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -282,11 +283,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indonesian</summary>
       </Docs>
     </Member>
     <Member MemberName="Italian">
-      <MemberSignature Language="C#" Value="Italian" />
+      <MemberSignature Language="C#" Value="Italian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -295,11 +296,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Italian</summary>
       </Docs>
     </Member>
     <Member MemberName="Japanese">
-      <MemberSignature Language="C#" Value="Japanese" />
+      <MemberSignature Language="C#" Value="Japanese"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -308,11 +309,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Japanese</summary>
       </Docs>
     </Member>
     <Member MemberName="Korean">
-      <MemberSignature Language="C#" Value="Korean" />
+      <MemberSignature Language="C#" Value="Korean"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -321,11 +322,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Korean</summary>
       </Docs>
     </Member>
     <Member MemberName="Latvian">
-      <MemberSignature Language="C#" Value="Latvian" />
+      <MemberSignature Language="C#" Value="Latvian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -334,11 +335,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Latvian</summary>
       </Docs>
     </Member>
     <Member MemberName="Lithuanian">
-      <MemberSignature Language="C#" Value="Lithuanian" />
+      <MemberSignature Language="C#" Value="Lithuanian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -347,11 +348,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Lithuanian</summary>
       </Docs>
     </Member>
     <Member MemberName="Norwegian">
-      <MemberSignature Language="C#" Value="Norwegian" />
+      <MemberSignature Language="C#" Value="Norwegian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -360,11 +361,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Norwegian</summary>
       </Docs>
     </Member>
     <Member MemberName="Polish">
-      <MemberSignature Language="C#" Value="Polish" />
+      <MemberSignature Language="C#" Value="Polish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -373,11 +374,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Polish</summary>
       </Docs>
     </Member>
     <Member MemberName="Portuguese">
-      <MemberSignature Language="C#" Value="Portuguese" />
+      <MemberSignature Language="C#" Value="Portuguese"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -386,11 +387,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Portuguese</summary>
       </Docs>
     </Member>
     <Member MemberName="Romanian">
-      <MemberSignature Language="C#" Value="Romanian" />
+      <MemberSignature Language="C#" Value="Romanian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -399,11 +400,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Romanian</summary>
       </Docs>
     </Member>
     <Member MemberName="Russian">
-      <MemberSignature Language="C#" Value="Russian" />
+      <MemberSignature Language="C#" Value="Russian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -412,11 +413,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Russian</summary>
       </Docs>
     </Member>
     <Member MemberName="SerboCroatian">
-      <MemberSignature Language="C#" Value="SerboCroatian" />
+      <MemberSignature Language="C#" Value="SerboCroatian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -425,11 +426,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Serbo-Croatian</summary>
       </Docs>
     </Member>
     <Member MemberName="Slovak">
-      <MemberSignature Language="C#" Value="Slovak" />
+      <MemberSignature Language="C#" Value="Slovak"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -438,11 +439,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Slovak</summary>
       </Docs>
     </Member>
     <Member MemberName="Slovenian">
-      <MemberSignature Language="C#" Value="Slovenian" />
+      <MemberSignature Language="C#" Value="Slovenian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -451,11 +452,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Slovenian</summary>
       </Docs>
     </Member>
     <Member MemberName="Spanish">
-      <MemberSignature Language="C#" Value="Spanish" />
+      <MemberSignature Language="C#" Value="Spanish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -464,11 +465,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Spanish</summary>
       </Docs>
     </Member>
     <Member MemberName="Swedish">
-      <MemberSignature Language="C#" Value="Swedish" />
+      <MemberSignature Language="C#" Value="Swedish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -477,11 +478,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Swedish</summary>
       </Docs>
     </Member>
     <Member MemberName="Thai">
-      <MemberSignature Language="C#" Value="Thai" />
+      <MemberSignature Language="C#" Value="Thai"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -490,11 +491,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Thai</summary>
       </Docs>
     </Member>
     <Member MemberName="Turkish">
-      <MemberSignature Language="C#" Value="Turkish" />
+      <MemberSignature Language="C#" Value="Turkish"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -503,11 +504,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Turkish</summary>
       </Docs>
     </Member>
     <Member MemberName="Ukrainian">
-      <MemberSignature Language="C#" Value="Ukrainian" />
+      <MemberSignature Language="C#" Value="Ukrainian"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -516,11 +517,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Ukrainian</summary>
       </Docs>
     </Member>
     <Member MemberName="Unknown">
-      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="C#" Value="Unknown"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -529,11 +530,11 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Unknown</summary>
       </Docs>
     </Member>
     <Member MemberName="Vietnamese">
-      <MemberSignature Language="C#" Value="Vietnamese" />
+      <MemberSignature Language="C#" Value="Vietnamese"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -542,7 +543,7 @@
         <ReturnType>UnityEngine.SystemLanguage</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Vietnamese</summary>
       </Docs>
     </Member>
   </Members>

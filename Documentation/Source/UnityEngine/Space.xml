@@ -11,7 +11,6 @@
   <Docs>
     <summary>The coordinate space in which to operate.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Transform" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Self">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Applies transformation relative to the local coordinate system</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="World">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Applies transformation relative to the world coordinate system</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

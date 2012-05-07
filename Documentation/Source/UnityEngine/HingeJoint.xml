@@ -12,7 +12,6 @@
   <Docs>
     <summary>The HingeJoint groups together 2 rigid bodies, constraining them to move like connected by a hinge.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angle">
@@ -41,7 +39,6 @@
         <summary>The current angle in degrees of the joint relative to its rest position. (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="limits">
@@ -57,7 +54,6 @@
         <summary>The limits of the hinge joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="motor">
@@ -73,7 +69,6 @@
         <summary>The motor will apply a force up to a maximum force to achieve the target velocity in degrees per second.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="spring">
@@ -89,7 +84,6 @@
         <summary>The spring attempts to reach a target angle by adding spring and damping forces.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useLimits">
@@ -105,7 +99,6 @@
         <summary>Enables the joint's limits.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useMotor">
@@ -121,7 +114,6 @@
         <summary>Enables the joint's motor.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useSpring">
@@ -137,7 +129,6 @@
         <summary>Enables the joint's spring.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="velocity">
@@ -153,7 +144,6 @@
         <summary>The angular velocity of the joint in degrees per second.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

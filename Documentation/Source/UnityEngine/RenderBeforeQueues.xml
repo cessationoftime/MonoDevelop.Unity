@@ -15,9 +15,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Attribute defining in which render queues <see cref="P:UnityEngine.OnRenderObject" /> will be called.</summary>
-    <remarks>See Also: <see cref="T:UnityEngine.Render queues" />, <see cref="P:UnityEngine.MonoBehaviour.OnRenderObject" />.</remarks>
-    <since version="2.5.1"/>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -37,9 +36,8 @@
       </Parameters>
       <Docs>
         <param name="args">To be added.</param>
-        <summary>Define in which render queues <see cref="P:UnityEngine.OnRenderObject" /> will be called.</summary>
-        <remarks>See Also: <see cref="T:UnityEngine.Render queues" />, <see cref="P:UnityEngine.MonoBehaviour.OnRenderObject" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

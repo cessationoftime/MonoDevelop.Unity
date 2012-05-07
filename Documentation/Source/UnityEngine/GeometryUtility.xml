@@ -12,7 +12,6 @@
   <Docs>
     <summary>Utility class for common geometric functions.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalculateFrustumPlanes">
@@ -45,7 +43,6 @@
         <summary>Calculates frustum planes.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalculateFrustumPlanes">
@@ -65,7 +62,6 @@
         <summary>Calculates frustum planes.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TestPlanesAABB">
@@ -87,7 +83,6 @@
         <summary>Returns true if bounds are inside the plane array.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

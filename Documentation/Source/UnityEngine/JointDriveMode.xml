@@ -16,7 +16,6 @@
   <Docs>
     <summary>The <see cref="T:UnityEngine.ConfigurableJoint" /> attempts to attain position / velocity targets based on this flag</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="None">
@@ -30,7 +29,6 @@
       </ReturnValue>
       <Docs>
         <summary>Don't apply any forces to reach the target</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -44,7 +42,6 @@
       </ReturnValue>
       <Docs>
         <summary>Try to reach the specified target position</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositionAndVelocity">
@@ -58,7 +55,6 @@
       </ReturnValue>
       <Docs>
         <summary>Try to reach the specified target position and the velocity</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Velocity">
@@ -72,7 +68,6 @@
       </ReturnValue>
       <Docs>
         <summary>Try to reach the specified target position and velocity</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

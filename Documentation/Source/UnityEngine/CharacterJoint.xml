@@ -12,7 +12,6 @@
   <Docs>
     <summary>Character Joints are mainly used for Ragdoll effects. They are an extended ball-socket joint which allows you to limit the joint on each axis.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="highTwistLimit">
@@ -41,7 +39,6 @@
         <summary>The upper limit around the primary axis of the character joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lowTwistLimit">
@@ -57,7 +54,6 @@
         <summary>The lower limit around the primary axis of the character joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rotationDrive">
@@ -73,7 +69,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="swing1Limit">
@@ -89,7 +84,6 @@
         <summary>The limit around the primary axis of the character joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="swing2Limit">
@@ -105,7 +99,6 @@
         <summary>The limit around the primary axis of the character joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="swingAxis">
@@ -121,7 +114,6 @@
         <summary>The secondary axis around which the joint can rotate</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetAngularVelocity">
@@ -137,7 +129,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetRotation">
@@ -153,7 +144,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

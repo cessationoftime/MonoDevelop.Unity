@@ -11,7 +11,6 @@
   <Docs>
     <summary>The platform application is running. Returned by <see cref="P:UnityEngine.Application.platform" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="OSXDashboardPlayer">
@@ -25,7 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the Dashboard widget on Mac OS X.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXDashboardPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXDashboardPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXDashboardPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="OSXEditor">
@@ -39,7 +38,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the Unity editor on Mac OS X.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXEditor" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXEditor" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXEditor" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="OSXPlayer">
@@ -53,7 +52,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the player on Mac OS X.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="OSXWebPlayer">
@@ -67,7 +66,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the web player on Mac OS X.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXWebPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXWebPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.OSXWebPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="WiiPlayer">
@@ -80,8 +79,8 @@
         <ReturnType>UnityEngine.RuntimePlatform</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <since version="2.5.1"/>
+        <summary>In the player on Nintendo Wii.</summary>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WiiPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WiiPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WiiPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="WindowsEditor">
@@ -95,7 +94,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the Unity editor on Windows.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsEditor" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsEditor" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsEditor" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="WindowsPlayer">
@@ -109,7 +108,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the player on Windows.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="WindowsWebPlayer">
@@ -123,7 +122,7 @@
       </ReturnValue>
       <Docs>
         <summary>In the web player on Windows.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: Platform dependent Compilation.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsWebPlayer" />)    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsWebPlayer" />)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Do something special here!");            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Application.platform" /> == <see cref="P:UnityEngine.RuntimePlatform.WindowsWebPlayer" />:            <see cref="P:UnityEngine.Debug.Log" />('Do something special here!')&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Represents an axis aligned bounding box.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="size">To be added.</param>
         <summary>Creates new Bounds with a given center and total size. Bound <see cref="P:UnityEngine.extents" /> will be half the given size.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="center">
@@ -46,7 +44,6 @@
         <summary>The center of the bounding box.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Contains">
@@ -66,7 +63,6 @@
         <summary>Is point contained in the bounding box?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Encapsulate">
@@ -85,7 +81,6 @@
         <param name="bounds">To be added.</param>
         <summary>Grows the Bounds to include the point.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Encapsulate">
@@ -104,7 +99,6 @@
         <param name="point">To be added.</param>
         <summary>Grows the Bounds to include the point.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -124,7 +118,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Expand">
@@ -143,7 +136,6 @@
         <param name="amount">To be added.</param>
         <summary>Expand the bounds by increasing its size by amount along each side.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Expand">
@@ -162,7 +154,6 @@
         <param name="amount">To be added.</param>
         <summary>Expand the bounds by increasing its size by amount along each side.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="extents">
@@ -178,7 +169,6 @@
         <summary>The extents of the box. This is always half of the <see cref="P:UnityEngine.size" />.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -195,7 +185,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IntersectRay">
@@ -215,7 +204,6 @@
         <summary>Does ray intersect this bounding box?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IntersectRay">
@@ -237,7 +225,6 @@
         <summary>Does ray intersect this bounding box?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="max">
@@ -253,7 +240,6 @@
         <summary>The maximal point of the box. This is always equal to center+extents.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="min">
@@ -269,7 +255,6 @@
         <summary>The minimal point of the box. This is always equal to center-extents.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -291,7 +276,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -313,7 +297,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetMinMax">
@@ -334,7 +317,6 @@
         <param name="max">To be added.</param>
         <summary>Sets the bounds to the min and max value of the box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="size">
@@ -350,7 +332,6 @@
         <summary>The total size of the box. This is always twice as large as the <see cref="P:UnityEngine.extents" />.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SqrDistance">
@@ -370,7 +351,6 @@
         <summary>The smallest squared distance between the point and this bounding box.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -387,7 +367,6 @@
         <summary>Returns a nicely formatted string for the bounds.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

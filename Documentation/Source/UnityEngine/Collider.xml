@@ -12,7 +12,6 @@
   <Docs>
     <summary>A base class of all colliders.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.BoxCollider" />, <see cref="T:UnityEngine.SphereCollider" />, <see cref="T:UnityEngine.CapsuleCollider" />, <see cref="T:UnityEngine.MeshCollider" />, <see cref="T:UnityEngine.PhysicMaterial" />, <see cref="T:UnityEngine.Rigidbody" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="attachedRigidbody">
@@ -41,7 +39,6 @@
         <summary>The rigidbody the collider is attached to.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bounds">
@@ -57,7 +54,6 @@
         <summary>The world space bounding volume of the collider.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClosestPointOnBounds">
@@ -77,7 +73,6 @@
         <summary>The closest point to the bounding box of the attached collider.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isTrigger">
@@ -93,7 +88,6 @@
         <summary>Is the collider a trigger?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="material">
@@ -109,7 +103,6 @@
         <summary>The material used by the collider.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Raycast">
@@ -131,9 +124,8 @@
         <param name="hitInfo">To be added.</param>
         <param name="distance">To be added.</param>
         <summary>Casts a <see cref="T:UnityEngine.Ray" /> that ignores all Colliders except this one.</summary>
-        <returns>bool - True when the ray intersects any collider, otherwise false.</returns>
+        <returns>boolean - True when the ray intersects any collider, otherwise false.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sharedMaterial">
@@ -149,7 +141,6 @@
         <summary>The shared physic material of this collider.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

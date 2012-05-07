@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Waits until the end of the frame after all cameras and GUI is rendered, just before displaying the frame on sceen.</summary>
+    <summary>Waits until the end of the frame after all cameras and GUI is rendered, just before displaying the frame on screen.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

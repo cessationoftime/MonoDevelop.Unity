@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="CacheIndex" FullName="UnityEngine.CacheIndex">
-  <TypeSignature Language="C#" Value="public struct CacheIndex" />
+  <TypeSignature Language="C#" Value="public struct CacheIndex"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -7,7 +8,7 @@
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces/>
   <Attributes>
     <Attribute>
       <AttributeName>System.Obsolete("this API is for not for public use.")</AttributeName>
@@ -19,7 +20,7 @@
   </Docs>
   <Members>
     <Member MemberName="bytesUsed">
-      <MemberSignature Language="C#" Value="public int bytesUsed;" />
+      <MemberSignature Language="C#" Value="public int bytesUsed;"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -33,7 +34,7 @@
       </Docs>
     </Member>
     <Member MemberName="expires">
-      <MemberSignature Language="C#" Value="public int expires;" />
+      <MemberSignature Language="C#" Value="public int expires;"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -47,7 +48,7 @@
       </Docs>
     </Member>
     <Member MemberName="name">
-      <MemberSignature Language="C#" Value="public string name;" />
+      <MemberSignature Language="C#" Value="public string name;"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>

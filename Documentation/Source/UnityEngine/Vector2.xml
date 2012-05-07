@@ -12,7 +12,6 @@
   <Docs>
     <summary>Representation of 2D vectors and points.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="y">To be added.</param>
         <summary>Constructs a new vector with given x, y components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Distance">
@@ -52,7 +50,6 @@
         <summary>Returns the distance between a and b.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Dot">
@@ -74,7 +71,6 @@
         <summary>Dot Product of two vectors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -94,7 +90,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -111,7 +106,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -131,7 +125,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="kEpsilon">
@@ -147,7 +140,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="magnitude">
@@ -163,7 +155,6 @@
         <summary>Returns the length of this vector (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
@@ -185,7 +176,6 @@
         <summary>Adds two vectors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Division">
@@ -204,10 +194,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="d">To be added.</param>
-        <summary>Divides a vectory by a number.</summary>
+        <summary>Divides a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -229,7 +218,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -249,7 +237,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -269,7 +256,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -291,7 +277,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -313,7 +298,6 @@
         <summary>Multiplies a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -335,7 +319,6 @@
         <summary>Multiplies a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
@@ -357,7 +340,6 @@
         <summary>Subtracts one vector from another.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_UnaryNegation">
@@ -377,7 +359,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="right">
@@ -393,7 +374,6 @@
         <summary>Shorthand for writing Vector2(1, 0)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Scale">
@@ -412,10 +392,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
-        <summary>Multiplies two vectors component-wise.</summary>
+        <summary>Multiplies every component of this vector by the same component of scale.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sqrMagnitude">
@@ -431,7 +410,6 @@
         <summary>Returns the squared length of this vector (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SqrMagnitude">
@@ -448,7 +426,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SqrMagnitude">
@@ -468,7 +445,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -485,7 +461,6 @@
         <summary>Returns a nicely formatted string for this vector.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="up">
@@ -501,7 +476,6 @@
         <summary>Shorthand for writing Vector2(0, 1)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="x">
@@ -516,7 +490,6 @@
       <Docs>
         <summary>X component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="y">
@@ -531,7 +504,6 @@
       <Docs>
         <summary>Y component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="zero">
@@ -547,13 +519,7 @@
         <summary>Shorthand for writing Vector2(0, 0)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

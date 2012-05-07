@@ -11,7 +11,6 @@
   <Docs>
     <summary><see cref="T:UnityEngine.Cubemap" /> face.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="NegativeX">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left facing side (-x)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NegativeY">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>downward facing side (-y)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NegativeZ">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Backward facing side (-z)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositiveX">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right facing side (+x)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositiveY">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>Upwards facing side (+y)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositiveZ">
@@ -95,7 +89,6 @@
       </ReturnValue>
       <Docs>
         <summary>Forward facing side (+z)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Graphical quality level.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-    <since version="2.5.1"/>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName="Beautiful">
@@ -24,9 +23,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "beautiful" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Fantastic">
@@ -39,9 +36,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "fantastic" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Fast">
@@ -54,9 +49,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "fast" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Fastest">
@@ -69,9 +62,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "fastest" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Good">
@@ -84,9 +75,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "good" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Simple">
@@ -99,9 +88,7 @@
         <ReturnType>UnityEngine.QualityLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The "simple" quality level.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.currentLevel" />, <see cref="T:UnityEngine.Quality Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
   </Members>

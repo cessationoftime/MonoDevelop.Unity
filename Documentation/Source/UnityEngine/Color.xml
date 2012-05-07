@@ -12,7 +12,6 @@
   <Docs>
     <summary>Representation of RGBA colors.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -32,7 +31,6 @@
         <param name="b">To be added.</param>
         <summary>Constructs a new Color with given r,g,b,a components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -54,7 +52,6 @@
         <param name="a">To be added.</param>
         <summary>Constructs a new Color with given r,g,b,a components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="a">
@@ -69,7 +66,6 @@
       <Docs>
         <summary>Alpha component of the color.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="b">
@@ -84,7 +80,6 @@
       <Docs>
         <summary>Blue component of the color.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="black">
@@ -100,7 +95,6 @@
         <summary>Solid black. RGBA is (0, 0, 0, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="blue">
@@ -116,7 +110,6 @@
         <summary>Solid blue. RGBA is (0, 0, 1, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clear">
@@ -132,7 +125,6 @@
         <summary>Completely transparent. RGBA is (0, 0, 0, 0).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="cyan">
@@ -148,7 +140,6 @@
         <summary>Cyan. RGBA is (0, 1, 1, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -168,7 +159,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="g">
@@ -183,7 +173,6 @@
       <Docs>
         <summary>Green component of the color.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -200,7 +189,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="gray">
@@ -216,7 +204,6 @@
         <summary>Gray. RGBA is (0.5, 0.5, 0.5, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="grayscale">
@@ -232,7 +219,6 @@
         <summary>The grayscale value of the color (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="green">
@@ -248,7 +234,6 @@
         <summary>Solid green. RGBA is (0, 1, 0, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="grey">
@@ -264,7 +249,6 @@
         <summary>English spelling for <see cref="P:UnityEngine.gray" />. RGBA is the same (0.5, 0.5, 0.5, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -284,7 +268,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Lerp">
@@ -308,7 +291,6 @@
         <summary>Interpolates between colors a and b by t.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="magenta">
@@ -324,7 +306,6 @@
         <summary>Magenta. RGBA is (1, 0, 1, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
@@ -346,7 +327,6 @@
         <summary>Adds two colors together. Each component is added separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Division">
@@ -368,7 +348,6 @@
         <summary>Divides color a by the float b. Each color component is scaled separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -390,7 +369,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -410,7 +388,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -430,7 +407,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -452,7 +428,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -474,7 +449,6 @@
         <summary>Multiplies two colors together. Each component is multiplied separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -496,7 +470,6 @@
         <summary>Multiplies two colors together. Each component is multiplied separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -518,7 +491,6 @@
         <summary>Multiplies two colors together. Each component is multiplied separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
@@ -540,7 +512,6 @@
         <summary>Subtracts color b from color a. Each component is subtracted separately.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="r">
@@ -555,7 +526,6 @@
       <Docs>
         <summary>Red component of the color.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="red">
@@ -571,7 +541,6 @@
         <summary>Solid red. RGBA is (1, 0, 0, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -588,7 +557,6 @@
         <summary>Returns a nicely formatted string of this color.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="white">
@@ -604,7 +572,6 @@
         <summary>Solid white. RGBA is (1, 1, 1, 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="yellow">
@@ -617,16 +584,10 @@
         <ReturnType>UnityEngine.Color</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Yellow. RGBA is weird (1, 235/255, 4/255, 1), but the color is nice to look at!</summary>
+        <summary>Yellow. RGBA is (1, 0.92, 0.016, 1), but the color is nice to look at!</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

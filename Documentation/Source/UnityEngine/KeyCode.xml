@@ -11,7 +11,6 @@
   <Docs>
     <summary>Key codes returned by <see cref="P:UnityEngine.Event.keyCode" />. These map directly to a physical key on the keyboard.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="A">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>'a' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha0">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '0' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha1">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '1' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha2">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '2' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha3">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '3' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha4">
@@ -95,7 +89,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '4' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha5">
@@ -109,7 +102,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '5' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha6">
@@ -123,7 +115,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '6' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha7">
@@ -137,7 +128,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '7' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha8">
@@ -151,7 +141,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '8' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Alpha9">
@@ -165,7 +154,6 @@
       </ReturnValue>
       <Docs>
         <summary>The '9' key on the top of the alphanumeric keyboard.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AltGr">
@@ -179,7 +167,6 @@
       </ReturnValue>
       <Docs>
         <summary>Alt Gr key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Ampersand">
@@ -192,8 +179,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ampersand key</summary>
-        <since version="2.5.1"/>
+        <summary>Ampersand key '&amp;'</summary>
       </Docs>
     </Member>
     <Member MemberName="Asterisk">
@@ -206,8 +192,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Asterisk key</summary>
-        <since version="2.5.1"/>
+        <summary>Asterisk key '*'</summary>
       </Docs>
     </Member>
     <Member MemberName="At">
@@ -220,8 +205,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>At key</summary>
-        <since version="2.5.1"/>
+        <summary>At key '@'</summary>
       </Docs>
     </Member>
     <Member MemberName="B">
@@ -235,7 +219,6 @@
       </ReturnValue>
       <Docs>
         <summary>'b' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BackQuote">
@@ -248,8 +231,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Back quote key</summary>
-        <since version="2.5.1"/>
+        <summary>Back quote key '`'</summary>
       </Docs>
     </Member>
     <Member MemberName="Backslash">
@@ -262,8 +244,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backslash key</summary>
-        <since version="2.5.1"/>
+        <summary>Backslash key '\'</summary>
       </Docs>
     </Member>
     <Member MemberName="Backspace">
@@ -277,7 +258,6 @@
       </ReturnValue>
       <Docs>
         <summary>The backspace key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Break">
@@ -291,7 +271,6 @@
       </ReturnValue>
       <Docs>
         <summary>Break key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="C">
@@ -305,7 +284,6 @@
       </ReturnValue>
       <Docs>
         <summary>'c' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CapsLock">
@@ -319,7 +297,6 @@
       </ReturnValue>
       <Docs>
         <summary>Capslock key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Caret">
@@ -332,8 +309,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Caret key</summary>
-        <since version="2.5.1"/>
+        <summary>Caret key '^'</summary>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -347,7 +323,6 @@
       </ReturnValue>
       <Docs>
         <summary>The Clear key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Colon">
@@ -360,8 +335,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Colon ',' key</summary>
-        <since version="2.5.1"/>
+        <summary>Colon ':' key</summary>
       </Docs>
     </Member>
     <Member MemberName="Comma">
@@ -375,7 +349,6 @@
       </ReturnValue>
       <Docs>
         <summary>Comma ',' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="D">
@@ -389,7 +362,6 @@
       </ReturnValue>
       <Docs>
         <summary>'d' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -403,7 +375,6 @@
       </ReturnValue>
       <Docs>
         <summary>The forward delete key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Dollar">
@@ -416,8 +387,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Dollar sign key</summary>
-        <since version="2.5.1"/>
+        <summary>Dollar sign key '$'</summary>
       </Docs>
     </Member>
     <Member MemberName="DoubleQuote">
@@ -430,8 +400,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Double quote key</summary>
-        <since version="2.5.1"/>
+        <summary>Double quote key '"'</summary>
       </Docs>
     </Member>
     <Member MemberName="DownArrow">
@@ -445,7 +414,6 @@
       </ReturnValue>
       <Docs>
         <summary>Down arrow key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="E">
@@ -459,7 +427,6 @@
       </ReturnValue>
       <Docs>
         <summary>'e' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="End">
@@ -473,7 +440,6 @@
       </ReturnValue>
       <Docs>
         <summary>End key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -487,7 +453,6 @@
       </ReturnValue>
       <Docs>
         <summary>Equals '=' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Escape">
@@ -501,7 +466,6 @@
       </ReturnValue>
       <Docs>
         <summary>Escape key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Exclaim">
@@ -514,8 +478,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Explaim key</summary>
-        <since version="2.5.1"/>
+        <summary>Exclamation mark key '!'</summary>
       </Docs>
     </Member>
     <Member MemberName="F">
@@ -529,7 +492,6 @@
       </ReturnValue>
       <Docs>
         <summary>'f' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F1">
@@ -543,7 +505,6 @@
       </ReturnValue>
       <Docs>
         <summary>F1 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F10">
@@ -557,7 +518,6 @@
       </ReturnValue>
       <Docs>
         <summary>F10 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F11">
@@ -571,7 +531,6 @@
       </ReturnValue>
       <Docs>
         <summary>F11 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F12">
@@ -585,7 +544,6 @@
       </ReturnValue>
       <Docs>
         <summary>F12 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F13">
@@ -599,7 +557,6 @@
       </ReturnValue>
       <Docs>
         <summary>F13 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F14">
@@ -613,7 +570,6 @@
       </ReturnValue>
       <Docs>
         <summary>F14 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F15">
@@ -627,7 +583,6 @@
       </ReturnValue>
       <Docs>
         <summary>F15 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F2">
@@ -641,7 +596,6 @@
       </ReturnValue>
       <Docs>
         <summary>F2 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F3">
@@ -655,7 +609,6 @@
       </ReturnValue>
       <Docs>
         <summary>F3 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F4">
@@ -669,7 +622,6 @@
       </ReturnValue>
       <Docs>
         <summary>F4 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F5">
@@ -683,7 +635,6 @@
       </ReturnValue>
       <Docs>
         <summary>F5 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F6">
@@ -697,7 +648,6 @@
       </ReturnValue>
       <Docs>
         <summary>F6 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F7">
@@ -711,7 +661,6 @@
       </ReturnValue>
       <Docs>
         <summary>F7 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F8">
@@ -725,7 +674,6 @@
       </ReturnValue>
       <Docs>
         <summary>F8 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="F9">
@@ -739,7 +687,6 @@
       </ReturnValue>
       <Docs>
         <summary>F9 function key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="G">
@@ -753,7 +700,6 @@
       </ReturnValue>
       <Docs>
         <summary>'g' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Greater">
@@ -766,8 +712,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Greater '&gt;' key</summary>
-        <since version="2.5.1"/>
+        <summary>Greater than '&gt;' key</summary>
       </Docs>
     </Member>
     <Member MemberName="H">
@@ -781,7 +726,6 @@
       </ReturnValue>
       <Docs>
         <summary>'h' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Hash">
@@ -794,8 +738,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Hash key</summary>
-        <since version="2.5.1"/>
+        <summary>Hash key '#'</summary>
       </Docs>
     </Member>
     <Member MemberName="Help">
@@ -809,7 +752,6 @@
       </ReturnValue>
       <Docs>
         <summary>Help key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Home">
@@ -823,7 +765,6 @@
       </ReturnValue>
       <Docs>
         <summary>Home key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="I">
@@ -837,7 +778,6 @@
       </ReturnValue>
       <Docs>
         <summary>'i' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Insert">
@@ -851,7 +791,6 @@
       </ReturnValue>
       <Docs>
         <summary>Insert key key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="J">
@@ -865,7 +804,6 @@
       </ReturnValue>
       <Docs>
         <summary>'j' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button0">
@@ -879,7 +817,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 0 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button1">
@@ -893,7 +830,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 1 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button10">
@@ -907,7 +843,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 10 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button11">
@@ -921,7 +856,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 11 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button12">
@@ -935,7 +869,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 12 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button13">
@@ -949,7 +882,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 13 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button14">
@@ -963,7 +895,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 14 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button15">
@@ -977,7 +908,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 15 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button16">
@@ -991,7 +921,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 16 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button17">
@@ -1005,7 +934,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 17 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button18">
@@ -1019,7 +947,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 18 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button19">
@@ -1033,7 +960,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 19 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button2">
@@ -1047,7 +973,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 2 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button3">
@@ -1061,7 +986,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 3 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button4">
@@ -1075,7 +999,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 4 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button5">
@@ -1089,7 +1012,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 5 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button6">
@@ -1103,7 +1025,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 6 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button7">
@@ -1117,7 +1038,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 7 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button8">
@@ -1131,7 +1051,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 8 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick1Button9">
@@ -1145,7 +1064,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 9 on first joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button0">
@@ -1159,7 +1077,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 0 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button1">
@@ -1173,7 +1090,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 1 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button10">
@@ -1187,7 +1103,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 10 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button11">
@@ -1201,7 +1116,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 11 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button12">
@@ -1215,7 +1129,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 12 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button13">
@@ -1229,7 +1142,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 13 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button14">
@@ -1243,7 +1155,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 14 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button15">
@@ -1257,7 +1168,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 15 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button16">
@@ -1271,7 +1181,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 16 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button17">
@@ -1285,7 +1194,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 17 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button18">
@@ -1299,7 +1207,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 18 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button19">
@@ -1313,7 +1220,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 19 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button2">
@@ -1327,7 +1233,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 2 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button3">
@@ -1341,7 +1246,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 3 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button4">
@@ -1355,7 +1259,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 4 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button5">
@@ -1369,7 +1272,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 5 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button6">
@@ -1383,7 +1285,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 6 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button7">
@@ -1397,7 +1298,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 7 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button8">
@@ -1411,7 +1311,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 8 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick2Button9">
@@ -1425,7 +1324,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 9 on second joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button0">
@@ -1439,7 +1337,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 0 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button1">
@@ -1453,7 +1350,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 1 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button10">
@@ -1467,7 +1363,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 10 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button11">
@@ -1481,7 +1376,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 11 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button12">
@@ -1495,7 +1389,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 12 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button13">
@@ -1509,7 +1402,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 13 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button14">
@@ -1523,7 +1415,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 14 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button15">
@@ -1537,7 +1428,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 15 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button16">
@@ -1551,7 +1441,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 16 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button17">
@@ -1565,7 +1454,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 17 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button18">
@@ -1579,7 +1467,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 18 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button19">
@@ -1593,7 +1480,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 19 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button2">
@@ -1607,7 +1493,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 2 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button3">
@@ -1621,7 +1506,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 3 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button4">
@@ -1635,7 +1519,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 4 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button5">
@@ -1649,7 +1532,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 5 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button6">
@@ -1663,7 +1545,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 6 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button7">
@@ -1677,7 +1558,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 7 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button8">
@@ -1691,7 +1571,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 8 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Joystick3Button9">
@@ -1705,7 +1584,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 9 on third joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton0">
@@ -1719,7 +1597,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 0 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton1">
@@ -1733,7 +1610,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 1 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton10">
@@ -1747,7 +1623,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 10 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton11">
@@ -1761,7 +1636,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 11 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton12">
@@ -1775,7 +1649,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 12 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton13">
@@ -1789,7 +1662,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 13 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton14">
@@ -1803,7 +1675,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 14 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton15">
@@ -1817,7 +1688,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 15 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton16">
@@ -1831,7 +1701,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 16 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton17">
@@ -1845,7 +1714,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 17 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton18">
@@ -1859,7 +1727,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 18 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton19">
@@ -1873,7 +1740,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 19 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton2">
@@ -1887,7 +1753,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 2 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton3">
@@ -1901,7 +1766,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 3 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton4">
@@ -1915,7 +1779,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 4 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton5">
@@ -1929,7 +1792,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 5 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton6">
@@ -1943,7 +1805,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 6 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton7">
@@ -1957,7 +1818,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 7 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton8">
@@ -1971,7 +1831,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 8 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="JoystickButton9">
@@ -1985,7 +1844,6 @@
       </ReturnValue>
       <Docs>
         <summary>Button 9 on any joystick</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="K">
@@ -1999,7 +1857,6 @@
       </ReturnValue>
       <Docs>
         <summary>'k' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad0">
@@ -2013,7 +1870,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 0</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad1">
@@ -2027,7 +1883,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 1</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad2">
@@ -2041,7 +1896,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 2</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad3">
@@ -2055,7 +1909,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 3</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad4">
@@ -2069,7 +1922,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 4</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad5">
@@ -2083,7 +1935,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 5</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad6">
@@ -2097,7 +1948,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 6</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad7">
@@ -2111,7 +1961,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 7</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad8">
@@ -2125,7 +1974,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 8</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Keypad9">
@@ -2139,7 +1987,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad 9</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadDivide">
@@ -2153,7 +2000,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '/'</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadEnter">
@@ -2167,7 +2013,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad enter</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadEquals">
@@ -2181,7 +2026,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '='</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadMinus">
@@ -2195,7 +2039,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '-'</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadMultiply">
@@ -2209,7 +2052,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '*'</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadPeriod">
@@ -2223,7 +2065,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '.'</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeypadPlus">
@@ -2237,7 +2078,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numeric keypad '+'</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="L">
@@ -2251,7 +2091,6 @@
       </ReturnValue>
       <Docs>
         <summary>'l' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftAlt">
@@ -2265,7 +2104,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left Alt key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftApple">
@@ -2279,7 +2117,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left Apple key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftArrow">
@@ -2293,7 +2130,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left arrow key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftBracket">
@@ -2306,8 +2142,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Left bracket key</summary>
-        <since version="2.5.1"/>
+        <summary>Left square bracket key '['</summary>
       </Docs>
     </Member>
     <Member MemberName="LeftControl">
@@ -2321,7 +2156,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left Control key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftParen">
@@ -2334,8 +2168,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Left Parent key</summary>
-        <since version="2.5.1"/>
+        <summary>Left Parenthesis key '('</summary>
       </Docs>
     </Member>
     <Member MemberName="LeftShift">
@@ -2349,7 +2182,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left shift key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LeftWindows">
@@ -2363,7 +2195,6 @@
       </ReturnValue>
       <Docs>
         <summary>Left Windows key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Less">
@@ -2377,7 +2208,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="M">
@@ -2391,7 +2221,6 @@
       </ReturnValue>
       <Docs>
         <summary>'m' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Minus">
@@ -2405,7 +2234,6 @@
       </ReturnValue>
       <Docs>
         <summary>Minus '-' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse0">
@@ -2419,7 +2247,6 @@
       </ReturnValue>
       <Docs>
         <summary>First (primary) mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse1">
@@ -2433,7 +2260,6 @@
       </ReturnValue>
       <Docs>
         <summary>Second (secondary) mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse2">
@@ -2447,7 +2273,6 @@
       </ReturnValue>
       <Docs>
         <summary>Third mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse3">
@@ -2461,7 +2286,6 @@
       </ReturnValue>
       <Docs>
         <summary>Fourth mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse4">
@@ -2475,7 +2299,6 @@
       </ReturnValue>
       <Docs>
         <summary>Fifth mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse5">
@@ -2489,7 +2312,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sixth mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Mouse6">
@@ -2503,7 +2325,6 @@
       </ReturnValue>
       <Docs>
         <summary>Seventh mouse button</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="N">
@@ -2517,7 +2338,6 @@
       </ReturnValue>
       <Docs>
         <summary>'n' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -2530,7 +2350,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Not assigned (never is pressed)</summary>
+        <summary>Not assigned (never returned as the result of a keystroke)</summary>
       </Docs>
     </Member>
     <Member MemberName="Numlock">
@@ -2544,7 +2364,6 @@
       </ReturnValue>
       <Docs>
         <summary>Numlock key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="O">
@@ -2558,7 +2377,6 @@
       </ReturnValue>
       <Docs>
         <summary>'o' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="P">
@@ -2572,7 +2390,6 @@
       </ReturnValue>
       <Docs>
         <summary>'p' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PageDown">
@@ -2586,7 +2403,6 @@
       </ReturnValue>
       <Docs>
         <summary>Page down</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PageUp">
@@ -2600,7 +2416,6 @@
       </ReturnValue>
       <Docs>
         <summary>Page up</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Pause">
@@ -2614,7 +2429,6 @@
       </ReturnValue>
       <Docs>
         <summary>Pause on PC machines</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Period">
@@ -2628,7 +2442,6 @@
       </ReturnValue>
       <Docs>
         <summary>Period '.' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Plus">
@@ -2641,8 +2454,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Plus key</summary>
-        <since version="2.5.1"/>
+        <summary>Plus key '+'</summary>
       </Docs>
     </Member>
     <Member MemberName="Print">
@@ -2656,7 +2468,6 @@
       </ReturnValue>
       <Docs>
         <summary>Print key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Q">
@@ -2670,7 +2481,6 @@
       </ReturnValue>
       <Docs>
         <summary>'q' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Question">
@@ -2684,7 +2494,6 @@
       </ReturnValue>
       <Docs>
         <summary>Question mark '?' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Quote">
@@ -2697,8 +2506,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Quote key</summary>
-        <since version="2.5.1"/>
+        <summary>Quote key '</summary>
       </Docs>
     </Member>
     <Member MemberName="R">
@@ -2712,7 +2520,6 @@
       </ReturnValue>
       <Docs>
         <summary>'r' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Return">
@@ -2726,7 +2533,6 @@
       </ReturnValue>
       <Docs>
         <summary>Return key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightAlt">
@@ -2740,7 +2546,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right Alt key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightApple">
@@ -2754,7 +2559,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right Apple key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightArrow">
@@ -2768,7 +2572,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right arrow key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightBracket">
@@ -2781,8 +2584,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backslash key</summary>
-        <since version="2.5.1"/>
+        <summary>Right square bracket key ']'</summary>
       </Docs>
     </Member>
     <Member MemberName="RightControl">
@@ -2796,7 +2598,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right Control key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightParen">
@@ -2809,8 +2610,7 @@
         <ReturnType>UnityEngine.KeyCode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Right Parent key</summary>
-        <since version="2.5.1"/>
+        <summary>Right Parenthesis key ')'</summary>
       </Docs>
     </Member>
     <Member MemberName="RightShift">
@@ -2824,7 +2624,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right shift key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RightWindows">
@@ -2838,7 +2637,6 @@
       </ReturnValue>
       <Docs>
         <summary>Right Windows key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="S">
@@ -2852,7 +2650,6 @@
       </ReturnValue>
       <Docs>
         <summary>'s' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScrollLock">
@@ -2866,7 +2663,6 @@
       </ReturnValue>
       <Docs>
         <summary>Scroll lock key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Semicolon">
@@ -2880,7 +2676,6 @@
       </ReturnValue>
       <Docs>
         <summary>Semicolon ';' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Slash">
@@ -2894,7 +2689,6 @@
       </ReturnValue>
       <Docs>
         <summary>Slash '/' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Space">
@@ -2908,7 +2702,6 @@
       </ReturnValue>
       <Docs>
         <summary>Space key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SysReq">
@@ -2922,7 +2715,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sys Req key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="T">
@@ -2936,7 +2728,6 @@
       </ReturnValue>
       <Docs>
         <summary>'t' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Tab">
@@ -2950,7 +2741,6 @@
       </ReturnValue>
       <Docs>
         <summary>The tab key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="U">
@@ -2964,7 +2754,6 @@
       </ReturnValue>
       <Docs>
         <summary>'u' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Underscore">
@@ -2978,7 +2767,6 @@
       </ReturnValue>
       <Docs>
         <summary>Underscore '_' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="UpArrow">
@@ -2992,7 +2780,6 @@
       </ReturnValue>
       <Docs>
         <summary>Up arrow key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="V">
@@ -3006,7 +2793,6 @@
       </ReturnValue>
       <Docs>
         <summary>'v' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="W">
@@ -3020,7 +2806,6 @@
       </ReturnValue>
       <Docs>
         <summary>'w' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="X">
@@ -3034,7 +2819,6 @@
       </ReturnValue>
       <Docs>
         <summary>'x' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Y">
@@ -3048,7 +2832,6 @@
       </ReturnValue>
       <Docs>
         <summary>'y' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Z">
@@ -3062,7 +2845,6 @@
       </ReturnValue>
       <Docs>
         <summary>'z' key</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>A script interface for the <see cref="T:UnityEngine.text mesh component" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.text mesh component" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="font">
@@ -40,8 +38,7 @@
       <Docs>
         <summary>The <see cref="T:UnityEngine.Font" /> used.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.text mesh component" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.text mesh component" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the text of the attached Text mesh&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var newFont : <see cref="T:UnityEngine.Font" />;GetComponent(TextMesh).font = newFont;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Font" /> newFont;    &lt;span class="hl-keyword"&gt;void Example() {        GetComponent&amp;lt;TextMesh&amp;gt;().font = newFont;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public newFont as <see cref="T:UnityEngine.Font" />    def Example():        GetComponent[of TextMesh]().font = newFont&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="text">
@@ -56,8 +53,7 @@
       <Docs>
         <summary>The text that is displayed.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.text mesh component" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.text mesh component" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Set the text of the attached Text mesh&lt;span class="hl-comment"&gt;GetComponent(TextMesh).text = &lt;span class="hl-string"&gt;"Hello World";&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        GetComponent&amp;lt;TextMesh&amp;gt;().text = &lt;span class="hl-string"&gt;"Hello World";    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        GetComponent[of TextMesh]().text = 'Hello World'&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

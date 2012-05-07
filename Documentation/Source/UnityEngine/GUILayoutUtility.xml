@@ -12,7 +12,6 @@
   <Docs>
     <summary>Utility functions for implementing and extending the GUILayout class.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -44,7 +42,6 @@
         <param name="GroupName">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginLayoutGroup">
@@ -65,10 +62,9 @@
         <param name="style">To be added.</param>
         <param name="options">To be added.</param>
         <param name="LayoutType">To be added.</param>
-        <summary>Generic helper - use this when creating a layoutgroup. It will make sure everything is wired up correctly.</summary>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DoBeginLayoutArea">
@@ -108,7 +104,6 @@
         <param name="groupName">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EndLayoutGroup">
@@ -124,7 +119,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAspectRect">
@@ -144,7 +138,6 @@
         <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAspectRect">
@@ -172,7 +165,6 @@
         <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAspectRect">
@@ -194,7 +186,6 @@
         <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAspectRect">
@@ -224,7 +215,6 @@
         <summary>Reserve layout space for a rectangle with a specific aspect ratio.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rect for the control.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetLastRect">
@@ -241,7 +231,6 @@
         <summary>Get the rectangle last used by GUILayout for a control.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - The last used rectangle.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -263,7 +252,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -285,7 +273,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -315,7 +302,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -339,7 +325,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -369,7 +354,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -395,7 +379,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -427,7 +410,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -461,7 +443,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -489,7 +470,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRect">
@@ -525,7 +505,6 @@
         <summary>Reserve layout space for a rectangle for displaying some contents with a specific style.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - A rectangle that is large enough to contain content when rendered in style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LayoutFromEditorWindow">
@@ -541,7 +520,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LayoutFromInspector">
@@ -561,7 +539,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Representation of four-dimensional vectors.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="y">To be added.</param>
         <summary>Creates a new vector with given x, y, z, w components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -50,7 +48,6 @@
         <param name="z">To be added.</param>
         <summary>Creates a new vector with given x, y, z, w components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -72,7 +69,6 @@
         <param name="w">To be added.</param>
         <summary>Creates a new vector with given x, y, z, w components.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Distance">
@@ -94,7 +90,6 @@
         <summary>Returns the distance between a and b.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Dot">
@@ -116,7 +111,6 @@
         <summary>Dot Product of two vectors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -136,7 +130,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -153,7 +146,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -173,7 +165,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="kEpsilon">
@@ -189,7 +180,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Lerp">
@@ -213,7 +203,6 @@
         <summary>Linearly interpolates between two vectors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="magnitude">
@@ -229,7 +218,6 @@
         <summary>Returns the length of this vector (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Magnitude">
@@ -249,7 +237,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Normalize">
@@ -265,7 +252,6 @@
       <Docs>
         <summary>Makes this vector have a <see cref="P:UnityEngine.magnitude" /> of 1.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Normalize">
@@ -285,7 +271,6 @@
         <summary>Makes this vector have a <see cref="P:UnityEngine.magnitude" /> of 1.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normalized">
@@ -301,7 +286,6 @@
         <summary>Returns this vector with a <see cref="P:UnityEngine.magnitude" /> of 1 (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="one">
@@ -317,7 +301,6 @@
         <summary>Shorthand for writing Vector4(1,1,1,1)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
@@ -339,7 +322,6 @@
         <summary>Adds two vectors.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Division">
@@ -361,7 +343,6 @@
         <summary>Divides a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -383,7 +364,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -403,7 +383,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -423,7 +402,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -445,7 +423,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -467,7 +444,6 @@
         <summary>Multiplies a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
@@ -489,7 +465,6 @@
         <summary>Multiplies a vector by a number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
@@ -511,7 +486,6 @@
         <summary>Subtracts one vector from another.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_UnaryNegation">
@@ -531,7 +505,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Project">
@@ -553,7 +526,6 @@
         <summary>Projects a vector onto another vector.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Scale">
@@ -572,7 +544,6 @@
         <param name="scale">To be added.</param>
         <summary>Multiplies every component of this vector by the same component of scale.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Scale">
@@ -594,7 +565,6 @@
         <summary>Multiplies every component of this vector by the same component of scale.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sqrMagnitude">
@@ -610,7 +580,6 @@
         <summary>Returns the squared length of this vector (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SqrMagnitude">
@@ -627,7 +596,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SqrMagnitude">
@@ -647,7 +615,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -664,7 +631,6 @@
         <summary>Returns a nicely formatted string for this vector.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="w">
@@ -679,7 +645,6 @@
       <Docs>
         <summary>W component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="x">
@@ -694,7 +659,6 @@
       <Docs>
         <summary>X component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="y">
@@ -709,7 +673,6 @@
       <Docs>
         <summary>Y component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="z">
@@ -724,7 +687,6 @@
       <Docs>
         <summary>Z component of the vector.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="zero">
@@ -740,13 +702,7 @@
         <summary>Shorthand for writing Vector4(0,0,0,0)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

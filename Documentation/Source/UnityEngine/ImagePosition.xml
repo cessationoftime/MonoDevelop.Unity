@@ -11,7 +11,6 @@
   <Docs>
     <summary>How image and text is placed inside <see cref="T:UnityEngine.GUIStyle" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="ImageAbove">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Image is above the text.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ImageLeft">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Image is to the left of the text.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ImageOnly">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Only the image is displayed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextOnly">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Only the text is displayed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

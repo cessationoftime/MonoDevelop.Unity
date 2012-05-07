@@ -12,7 +12,6 @@
   <Docs>
     <summary>WheelFrictionCurve is used by the <see cref="T:UnityEngine.WheelCollider" /> to describe friction properties of the wheel tire.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.WheelCollider.GetGroundHit" />, <see cref="T:UnityEngine.WheelHit" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="asymptoteSlip">
@@ -28,7 +27,6 @@
         <summary>Asymptote point slip (default 2).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="asymptoteValue">
@@ -44,7 +42,6 @@
         <summary>Force at the asymptote slip (default 10000).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="extremumSlip">
@@ -60,7 +57,6 @@
         <summary>Extremum point slip (default 1).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="extremumValue">
@@ -76,7 +72,6 @@
         <summary>Force at the extremum slip (default 20000).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stiffness">
@@ -92,7 +87,6 @@
         <summary>Multiplier for the <see cref="P:UnityEngine.extremumValue" /> and <see cref="P:UnityEngine.asymptoteValue" /> values (default 1).</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.WheelCollider.GetGroundHit" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

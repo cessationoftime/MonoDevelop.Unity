@@ -12,7 +12,6 @@
   <Docs>
     <summary>Interface into the Input system.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anyKey">
@@ -41,7 +39,6 @@
         <summary>Is any key or mouse button currently held down? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anyKeyDown">
@@ -54,10 +51,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns true the first frame the user hits any key or mouse button (Read Only).</summary>
+        <summary>Returns true the first frame the user hits any key or mouse button. (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
+        <remarks>(Read Only)</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAxis">
@@ -77,7 +73,6 @@
         <summary>Returns the value of the virtual axis identified by axisName.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAxisRaw">
@@ -97,7 +92,6 @@
         <summary>Returns the value of the virtual axis identified by axisName with no smoothing filtering applied.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetButton">
@@ -117,7 +111,6 @@
         <summary>Returns true while the virtual button identified by buttonName is held down.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetButtonDown">
@@ -137,7 +130,6 @@
         <summary>Returns true during the frame the user pressed down the virtual button identified by buttonName.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetButtonUp">
@@ -157,7 +149,6 @@
         <summary>Returns true the first frame the user releases the virtual button identified by buttonName.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetJoystickNames">
@@ -171,7 +162,7 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Returns an array of stings describing the connected joysticks.</summary>
+        <summary>Returns an array of strings describing the connected joysticks.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,7 +184,6 @@
         <summary>Returns true while the user holds down the key identified by name. Think auto fire.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetKey">
@@ -213,7 +203,6 @@
         <summary>Returns true while the user holds down the key identified by name. Think auto fire.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetKeyDown">
@@ -233,7 +222,6 @@
         <summary>Returns true during the frame the user starts pressing down the key identified by name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetKeyDown">
@@ -253,7 +241,6 @@
         <summary>Returns true during the frame the user starts pressing down the key identified by name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetKeyUp">
@@ -273,7 +260,6 @@
         <summary>Returns true during the frame the user releases the key identified by name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetKeyUp">
@@ -293,7 +279,6 @@
         <summary>Returns true during the frame the user releases the key identified by name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetMouseButton">
@@ -310,10 +295,9 @@
       </Parameters>
       <Docs>
         <param name="button">To be added.</param>
-        <summary>Returns whether the the given mouse button is held down.</summary>
+        <summary>Returns whether the given mouse button is held down.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetMouseButtonDown">
@@ -333,7 +317,6 @@
         <summary>Returns true during the frame the user pressed the given mouse button.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetMouseButtonUp">
@@ -353,7 +336,6 @@
         <summary>Returns true during the frame the user releases the given mouse button.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="inputString">
@@ -366,10 +348,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns the keyboard input entered this frame (Read Only).</summary>
+        <summary>Returns the keyboard input entered this frame. (Read Only)</summary>
         <value>To be added.</value>
-        <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
+        <remarks>(Read Only)</remarks>
       </Docs>
     </Member>
     <Member MemberName="mousePosition">
@@ -385,7 +366,6 @@
         <summary>The current mouse position in pixel coordinates. (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ResetInputAxes">
@@ -401,7 +381,6 @@
       <Docs>
         <summary>Resets all input. After ResetInputAxes all axes return to 0 and all buttons return to 0 for one frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

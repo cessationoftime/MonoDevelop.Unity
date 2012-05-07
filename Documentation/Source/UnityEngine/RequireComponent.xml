@@ -17,7 +17,6 @@
   <Docs>
     <summary>The RequireComponent attribute lets automatically add required component as a dependency.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -33,7 +32,6 @@
         <param name="requiredComponent">To be added.</param>
         <summary>Require a single component</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -51,7 +49,6 @@
         <param name="requiredComponent2">To be added.</param>
         <summary>Require a single component</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -71,7 +68,6 @@
         <param name="requiredComponent3">To be added.</param>
         <summary>Require a single component</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="m_Type0">
@@ -86,7 +82,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="m_Type1">
@@ -101,7 +96,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="m_Type2">
@@ -116,7 +110,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

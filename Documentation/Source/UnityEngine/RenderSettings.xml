@@ -12,7 +12,6 @@
   <Docs>
     <summary>The Render Settings contain values for a range of visual elements in your scene, like fog and ambient light.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ambientLight">
@@ -41,7 +39,6 @@
         <summary>Color of the scene's ambient light.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="flareStrength">
@@ -57,7 +54,6 @@
         <summary>The intensity of all flares in the scene.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" />, <see cref="T:UnityEngine.LensFlare component" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fog">
@@ -72,8 +68,7 @@
       <Docs>
         <summary>Is fog enabled?</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" /></remarks>
       </Docs>
     </Member>
     <Member MemberName="fogColor">
@@ -89,7 +84,6 @@
         <summary>The color of the fog.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fogDensity">
@@ -102,10 +96,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The density of the fog.</summary>
+        <summary>The density of the exponential fog.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" /></remarks>
       </Docs>
     </Member>
     <Member MemberName="haloStrength">
@@ -121,7 +114,6 @@
         <summary>Size of the <see cref="T:UnityEngine.Light" /> halos.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Render Settings manager" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="skybox">
@@ -137,7 +129,6 @@
         <summary>The global skybox to use.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

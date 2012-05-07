@@ -12,7 +12,6 @@
   <Docs>
     <summary>A texture image used in a 2D GUI.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -41,7 +39,6 @@
         <summary>The color of the GUI texture.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pixelInset">
@@ -57,7 +54,6 @@
         <summary>Pixel inset used for pixel adjustments for size and position.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="texture">
@@ -78,7 +74,6 @@
         <summary>The texture used for drawing.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Class for generating random data.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="insideUnitCircle">
@@ -41,7 +39,6 @@
         <summary>Returns a random point inside a circle with radius 1 (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="insideUnitSphere">
@@ -57,7 +54,6 @@
         <summary>Returns a random point inside a sphere with radius 1 (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="onUnitSphere">
@@ -73,7 +69,6 @@
         <summary>Returns a random point on the surface of a sphere with radius 1 (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RandomRange">
@@ -82,6 +77,11 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Random.Range instead")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -95,13 +95,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("Use Random.Range instead")</AttributeName>
-        </Attribute>
-      </Attributes>
     </Member>
     <Member MemberName="RandomRange">
       <MemberSignature Language="C#" Value="public static float RandomRange (float min, float max);"/>
@@ -109,6 +103,11 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Random.Range instead")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
@@ -122,13 +121,7 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("Use Random.Range instead")</AttributeName>
-        </Attribute>
-      </Attributes>
     </Member>
     <Member MemberName="Range">
       <MemberSignature Language="C#" Value="public static int Range (int min, int max);"/>
@@ -149,7 +142,6 @@
         <summary>Returns a random float number between and min [inclusive] and max [inclusive] (Read Only).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Range">
@@ -171,7 +163,6 @@
         <summary>Returns a random float number between and min [inclusive] and max [inclusive] (Read Only).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rotation">
@@ -187,7 +178,6 @@
         <summary>Returns a random rotation (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="seed">
@@ -203,7 +193,6 @@
         <summary>Sets the seed for the random number generator.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="value">
@@ -219,7 +208,6 @@
         <summary>Returns a random number between 0.0 [inclusive] and 1.0 [inclusive] (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>The GUI class is the interface for Unity's GUI with manual positioning.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.GUI tutorial" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="backgroundColor">
@@ -41,7 +39,6 @@
         <summary>Global tinting color for all background elements rendered by the GUI.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.contentColor" />, <see cref="P:UnityEngine.color" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -60,7 +57,6 @@
         <param name="position">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -81,7 +77,6 @@
         <param name="text">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -102,7 +97,6 @@
         <param name="content">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -123,7 +117,6 @@
         <param name="style">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -144,7 +137,6 @@
         <param name="image">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -167,7 +159,6 @@
         <param name="style">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -190,7 +181,6 @@
         <param name="style">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginGroup">
@@ -213,7 +203,6 @@
         <param name="style">To be added.</param>
         <summary>Begin a group. Must be matched with a call to <see cref="P:UnityEngine.EndGroup" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginScrollView">
@@ -237,7 +226,6 @@
         <summary>Begin a scrolling view inside your GUI.</summary>
         <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginScrollView">
@@ -265,7 +253,6 @@
         <summary>Begin a scrolling view inside your GUI.</summary>
         <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginScrollView">
@@ -293,7 +280,6 @@
         <summary>Begin a scrolling view inside your GUI.</summary>
         <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginScrollView">
@@ -325,7 +311,6 @@
         <summary>Begin a scrolling view inside your GUI.</summary>
         <returns><see cref="T:UnityEngine.Vector2" /> - The modified scrollPosition. Feed this back into the variable you pass in, as shown in the example.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BeginWindows">
@@ -370,7 +355,6 @@
         <param name="text">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Box">
@@ -391,7 +375,6 @@
         <param name="content">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Box">
@@ -412,7 +395,6 @@
         <param name="image">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Box">
@@ -435,7 +417,6 @@
         <param name="style">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Box">
@@ -458,7 +439,6 @@
         <param name="style">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Box">
@@ -481,7 +461,6 @@
         <param name="style">To be added.</param>
         <summary>Make a graphical box.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BringWindowToBack">
@@ -500,7 +479,6 @@
         <param name="windowID">To be added.</param>
         <summary>Bring a specific window to back of the floating windows.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="BringWindowToFront">
@@ -519,7 +497,6 @@
         <param name="windowID">To be added.</param>
         <summary>Bring a specific window to front of the floating windows.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -539,9 +516,8 @@
         <param name="position">To be added.</param>
         <param name="text">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -561,9 +537,8 @@
         <param name="position">To be added.</param>
         <param name="content">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -583,9 +558,8 @@
         <param name="position">To be added.</param>
         <param name="image">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -607,9 +581,8 @@
         <param name="text">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -631,9 +604,8 @@
         <param name="content">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Button">
@@ -655,9 +627,8 @@
         <param name="image">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a single press button. The user clicks them and something happens immediately.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - /true/ when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="changed">
@@ -670,10 +641,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Have any controls changed the value of input data?</summary>
+        <summary>Returns true if any controls changed the value of the input data.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -689,7 +659,6 @@
         <summary>Global tinting color for the GUI.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.backgroundColor" />, <see cref="P:UnityEngine.contentColor" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="contentColor">
@@ -705,7 +674,6 @@
         <summary>Tinting color for all text rendered by the GUI.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.backgroundColor" />, <see cref="P:UnityEngine.color" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="depth">
@@ -721,7 +689,6 @@
         <summary>The sorting depth of the currently executing GUI behaviour.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DoBeginScrollView">
@@ -755,7 +722,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DoEndWindows">
@@ -802,7 +768,6 @@
         <param name="style">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DoToggle">
@@ -830,7 +795,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DragWindow">
@@ -846,7 +810,6 @@
       <Docs>
         <summary>Make a window draggable.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DragWindow">
@@ -865,7 +828,6 @@
         <param name="position">To be added.</param>
         <summary>Make a window draggable.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -886,7 +848,6 @@
         <param name="image">To be added.</param>
         <summary>Draw a texture within a rectangle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -909,7 +870,6 @@
         <param name="scaleMode">To be added.</param>
         <summary>Draw a texture within a rectangle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -934,7 +894,6 @@
         <param name="alphaBlend">To be added.</param>
         <summary>Draw a texture within a rectangle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawTexture">
@@ -961,7 +920,6 @@
         <param name="imageAspect">To be added.</param>
         <summary>Draw a texture within a rectangle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="enabled">
@@ -977,7 +935,6 @@
         <summary>Is the GUI enabled?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EndGroup">
@@ -993,7 +950,6 @@
       <Docs>
         <summary>End a group.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EndScrollView">
@@ -1009,7 +965,6 @@
       <Docs>
         <summary>Ends a scrollview started with a call to BeginScrollView.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FocusControl">
@@ -1028,7 +983,6 @@
         <param name="name">To be added.</param>
         <summary>Move keyboard focus to a named control.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FocusWindow">
@@ -1047,7 +1001,6 @@
         <param name="windowID">To be added.</param>
         <summary>Make a window become the active window.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetNameOfFocusedControl">
@@ -1064,7 +1017,6 @@
         <summary>Get the name of named control that has focus.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HorizontalScrollbar">
@@ -1092,7 +1044,6 @@
         <summary>Make a horizontal scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
         <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HorizontalScrollbar">
@@ -1122,7 +1073,6 @@
         <summary>Make a horizontal scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
         <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HorizontalSlider">
@@ -1148,7 +1098,6 @@
         <summary>A horizontal slider the user can drag to change a value between a min and a max.</summary>
         <returns>float - The value that has been set by the user.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HorizontalSlider">
@@ -1178,7 +1127,6 @@
         <summary>A horizontal slider the user can drag to change a value between a min and a max.</summary>
         <returns>float - The value that has been set by the user.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1199,7 +1147,6 @@
         <param name="text">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1220,7 +1167,6 @@
         <param name="content">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1241,7 +1187,6 @@
         <param name="image">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1264,7 +1209,6 @@
         <param name="style">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1287,7 +1231,6 @@
         <param name="style">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -1310,7 +1253,6 @@
         <param name="style">To be added.</param>
         <summary>Make a text or texture label on screen.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="matrix">
@@ -1326,7 +1268,6 @@
         <summary>The GUI transform matrix.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mouseTooltip">
@@ -1342,7 +1283,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PasswordField">
@@ -1364,9 +1304,8 @@
         <param name="password">To be added.</param>
         <param name="maskChar">To be added.</param>
         <summary>Make a text field where the user can enter a password.</summary>
-        <returns>string - the edited password.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited password.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PasswordField">
@@ -1390,9 +1329,8 @@
         <param name="maskChar">To be added.</param>
         <param name="maxLength">To be added.</param>
         <summary>Make a text field where the user can enter a password.</summary>
-        <returns>string - the edited password.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited password.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PasswordField">
@@ -1416,9 +1354,8 @@
         <param name="maskChar">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a text field where the user can enter a password.</summary>
-        <returns>string - the edited password.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited password.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PasswordField">
@@ -1444,9 +1381,8 @@
         <param name="maxLength">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a text field where the user can enter a password.</summary>
-        <returns>string - the edited password.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited password.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PasswordFieldGetStrToShow">
@@ -1468,7 +1404,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1488,9 +1423,8 @@
         <param name="position">To be added.</param>
         <param name="text">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1510,9 +1444,8 @@
         <param name="position">To be added.</param>
         <param name="content">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1532,9 +1465,8 @@
         <param name="position">To be added.</param>
         <param name="image">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1556,9 +1488,8 @@
         <param name="text">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1580,9 +1511,8 @@
         <param name="content">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RepeatButton">
@@ -1604,9 +1534,8 @@
         <param name="image">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a button that is active as long as the user holds it down.</summary>
-        <returns>bool - /true/ when the users clicks the button</returns>
+        <returns>boolean - true when the users clicks the button</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScrollTo">
@@ -1625,7 +1554,6 @@
         <param name="position">To be added.</param>
         <summary>Scrolls all enclosing scrollviews so they try to make position visible.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1651,7 +1579,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1677,7 +1604,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1703,7 +1629,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1731,7 +1656,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1759,7 +1683,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SelectionGrid">
@@ -1787,7 +1710,6 @@
         <summary>Make a grid of buttons.</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetNextControlName">
@@ -1806,7 +1728,6 @@
         <param name="name">To be added.</param>
         <summary>Set the name of the next control.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="skin">
@@ -1822,7 +1743,6 @@
         <summary>The global skin to use.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Slider">
@@ -1858,7 +1778,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextArea">
@@ -1878,9 +1797,8 @@
         <param name="position">To be added.</param>
         <param name="text">To be added.</param>
         <summary>Make a Multi-line text area where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextArea">
@@ -1902,9 +1820,8 @@
         <param name="text">To be added.</param>
         <param name="maxLength">To be added.</param>
         <summary>Make a Multi-line text area where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextArea">
@@ -1926,9 +1843,8 @@
         <param name="text">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a Multi-line text area where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextArea">
@@ -1952,9 +1868,8 @@
         <param name="maxLength">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a Multi-line text area where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextField">
@@ -1974,9 +1889,8 @@
         <param name="position">To be added.</param>
         <param name="text">To be added.</param>
         <summary>Make a single-line text field where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextField">
@@ -1998,9 +1912,8 @@
         <param name="text">To be added.</param>
         <param name="maxLength">To be added.</param>
         <summary>Make a single-line text field where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextField">
@@ -2022,9 +1935,8 @@
         <param name="text">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a single-line text field where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TextField">
@@ -2048,9 +1960,8 @@
         <param name="maxLength">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make a single-line text field where the user can edit a string.</summary>
-        <returns>string - the edited string.</returns>
+        <returns><see cref="T:UnityEngine.String" /> - the edited string.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2072,9 +1983,8 @@
         <param name="value">To be added.</param>
         <param name="text">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2096,9 +2006,8 @@
         <param name="value">To be added.</param>
         <param name="content">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2120,9 +2029,8 @@
         <param name="value">To be added.</param>
         <param name="image">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2146,9 +2054,8 @@
         <param name="text">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2172,9 +2079,8 @@
         <param name="content">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toggle">
@@ -2198,9 +2104,8 @@
         <param name="image">To be added.</param>
         <param name="style">To be added.</param>
         <summary>Make an on/off toggle button.</summary>
-        <returns>bool - The new value of the button.</returns>
+        <returns>boolean - The new value of the button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2224,7 +2129,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2248,7 +2152,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2272,7 +2175,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2298,7 +2200,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2324,7 +2225,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Toolbar">
@@ -2350,7 +2250,6 @@
         <summary>Make a toolbar</summary>
         <returns>int - The index of the selected button.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tooltip">
@@ -2366,7 +2265,6 @@
         <summary>The tooltip of the control the mouse is currently over, or which has keyboard focus. (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tooltipRect">
@@ -2382,7 +2280,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="UnfocusWindow">
@@ -2398,7 +2295,6 @@
       <Docs>
         <summary>Remove focus from all windows.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="VerticalScrollbar">
@@ -2426,7 +2322,6 @@
         <summary>Make a vertiical scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
         <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="VerticalScrollbar">
@@ -2456,7 +2351,6 @@
         <summary>Make a vertiical scrollbar. Scrollbars are what you use to scroll through a document. Most likely, you want to use scrollViews instead.</summary>
         <returns>float - the modified value. This can be changed by the user by dragging the scrollbar, or clicking the arrows at the end.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="VerticalSlider">
@@ -2482,7 +2376,6 @@
         <summary>A vertical slider the user can drag to change a value between a min and a max.</summary>
         <returns>float - The value that has been set by the user.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="VerticalSlider">
@@ -2512,7 +2405,6 @@
         <summary>A vertical slider the user can drag to change a value between a min and a max.</summary>
         <returns>float - The value that has been set by the user.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2538,7 +2430,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2564,7 +2455,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2590,7 +2480,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2618,7 +2507,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2646,7 +2534,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Window">
@@ -2674,7 +2561,6 @@
         <summary>Make a popup window.</summary>
         <returns><see cref="T:UnityEngine.Rect" /> - the rectangle the window is at.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

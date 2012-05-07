@@ -12,7 +12,6 @@
   <Docs>
     <summary>Stores lightmaps of the scene.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.LightmapData" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lightmaps">
@@ -41,7 +39,6 @@
         <summary>Lightmap array.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.LightmapData" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

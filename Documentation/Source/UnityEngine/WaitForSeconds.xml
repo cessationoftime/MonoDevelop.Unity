@@ -12,7 +12,6 @@
   <Docs>
     <summary>Suspends the coroutine execution for the given amount of seconds.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -28,7 +27,6 @@
         <param name="seconds">To be added.</param>
         <summary>Creates a yield instruction to wait for a given number of seconds</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

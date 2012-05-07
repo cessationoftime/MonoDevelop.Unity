@@ -11,7 +11,6 @@
   <Docs>
     <summary>Used by <see cref="P:UnityEngine.Animation.Play" /> function.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Additive">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Animations will be added</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Blend">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Animations will be blended</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

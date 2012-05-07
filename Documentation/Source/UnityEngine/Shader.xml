@@ -12,7 +12,6 @@
   <Docs>
     <summary>Shader scripts used for all rendering.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Material" /> class, <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClearAll">
@@ -46,7 +44,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DisableKeyword">
@@ -65,7 +62,6 @@
         <param name="keyword">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EnableKeyword">
@@ -84,7 +80,6 @@
         <param name="keyword">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Find">
@@ -104,7 +99,6 @@
         <summary>Finds a shader with the given name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStaticColor">
@@ -124,7 +118,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStaticFloat">
@@ -144,7 +137,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStaticTexture">
@@ -164,7 +156,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="globalMaximumLOD">
@@ -180,7 +171,6 @@
         <summary>Shader LOD level for all shaders.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Shader Level of Detail" />, <see cref="P:UnityEngine.Shader.maximumLOD" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isSupported">
@@ -196,7 +186,6 @@
         <summary>Can this shader run on the end-users graphics card? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maximumLOD">
@@ -212,7 +201,6 @@
         <summary>Shader LOD level for this shader.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Shader Level of Detail" />, <see cref="P:UnityEngine.Shader.globalMaximumLOD" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PropertyToID">
@@ -232,7 +220,6 @@
         <summary>Gets unique identifier for a shader property name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="renderQueue">
@@ -248,7 +235,6 @@
         <summary>Render queue of this shader (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalColor">
@@ -269,7 +255,6 @@
         <param name="color">To be added.</param>
         <summary>Sets a global color property for all shaders.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalFloat">
@@ -290,7 +275,6 @@
         <param name="value">To be added.</param>
         <summary>Sets a global float property for all shaders.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalMatrix">
@@ -311,7 +295,6 @@
         <param name="mat">To be added.</param>
         <summary>Sets a global matrix property for all shaders.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalTexGenMode">
@@ -332,7 +315,6 @@
         <param name="mode">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalTexture">
@@ -353,7 +335,6 @@
         <param name="tex">To be added.</param>
         <summary>Sets a global texture property for all shaders.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalTextureMatrixName">
@@ -374,7 +355,6 @@
         <param name="matrixName">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalVector">
@@ -395,7 +375,6 @@
         <param name="vec">To be added.</param>
         <summary>Sets a global vector property for all shaders.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetStaticColor">
@@ -416,7 +395,6 @@
         <param name="color">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetStaticFloat">
@@ -437,7 +415,6 @@
         <param name="value">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetStaticTexture">
@@ -458,7 +435,6 @@
         <param name="texture">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

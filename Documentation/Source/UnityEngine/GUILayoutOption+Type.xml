@@ -11,7 +11,6 @@
   <Docs>
     <summary>To be added.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="alignEnd">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alignJustify">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alignMiddle">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alignStart">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="equalSize">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedHeight">
@@ -95,7 +89,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedWidth">
@@ -109,7 +102,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxHeight">
@@ -123,7 +115,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxWidth">
@@ -137,7 +128,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minHeight">
@@ -151,7 +141,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minWidth">
@@ -165,7 +154,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="spacing">
@@ -179,7 +167,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stretchHeight">
@@ -193,7 +180,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stretchWidth">
@@ -207,7 +193,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>A class to access the <see cref="T:UnityEngine.Mesh" /> of the <see cref="T:UnityEngine.mesh filter" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Mesh" /> class.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mesh">
@@ -41,7 +39,6 @@
         <summary>Returns the instantiated <see cref="T:UnityEngine.Mesh" /> assigned to the mesh filter.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Mesh" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sharedMesh">
@@ -57,7 +54,6 @@
         <summary>Returns the shared mesh of the mesh filter.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

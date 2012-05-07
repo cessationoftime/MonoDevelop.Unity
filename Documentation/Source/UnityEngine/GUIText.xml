@@ -12,7 +12,6 @@
   <Docs>
     <summary>A text string displayed in a GUI.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alignment">
@@ -41,7 +39,6 @@
         <summary>The alignment of the text.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anchor">
@@ -57,7 +54,6 @@
         <summary>The anchor of the text.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="font">
@@ -73,7 +69,6 @@
         <summary>The font used for the text.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lineSpacing">
@@ -89,7 +84,6 @@
         <summary>The line spacing multiplier.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="material">
@@ -105,7 +99,6 @@
         <summary>The <see cref="T:UnityEngine.Material" /> to use for rendering.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.font" /> variable.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pixelOffset">
@@ -121,7 +114,6 @@
         <summary>The pixel offset of the text.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tabSize">
@@ -137,7 +129,6 @@
         <summary>The tab width multiplier.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="text">
@@ -153,7 +144,6 @@
         <summary>The text to display.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

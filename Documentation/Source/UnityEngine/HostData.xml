@@ -12,7 +12,6 @@
   <Docs>
     <summary>This is the data structure for holding individual host information.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="comment">
@@ -41,7 +39,6 @@
         <summary>A miscellaneous comment (can hold data)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="connectedPlayers">
@@ -57,7 +54,6 @@
         <summary>Currently connected players</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="gameName">
@@ -73,7 +69,6 @@
         <summary>The name of the game (like John Doe's Game)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="gameType">
@@ -86,10 +81,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The type of the game (like MyUniqueGameType)</summary>
+        <summary>The type of the game (like "MyUniqueGameType")</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ip">
@@ -105,7 +99,6 @@
         <summary>Server IP address</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="passwordProtected">
@@ -121,7 +114,6 @@
         <summary>Does the server require a password?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="playerLimit">
@@ -137,7 +129,6 @@
         <summary>Maximum players limit</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="port">
@@ -153,7 +144,6 @@
         <summary>Server port</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useNat">
@@ -169,7 +159,6 @@
         <summary>Does this server require NAT punchthrough?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

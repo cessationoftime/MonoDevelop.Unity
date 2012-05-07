@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="Profiler" FullName="UnityEngine.Profiler">
-  <TypeSignature Language="C#" Value="public class Profiler" />
+  <TypeSignature Language="C#" Value="public class Profiler"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -7,26 +8,26 @@
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Controls the <see cref="T:UnityEngine.Profiler" /> from script.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Profiler ();" />
+      <MemberSignature Language="C#" Value="public Profiler ();"/>
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Parameters />
+      <Parameters/>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BeginSample">
-      <MemberSignature Language="C#" Value="public static void BeginSample (string name);" />
+      <MemberSignature Language="C#" Value="public static void BeginSample (string name);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -35,16 +36,16 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="name" Type="System.String"/>
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Begin profiling a piece of code with a custom label.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="enabled">
-      <MemberSignature Language="C#" Value="public static bool enabled { set; get; }" />
+      <MemberSignature Language="C#" Value="public static bool enabled { set; get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -53,13 +54,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Enables the Profiler.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEngine.Profiler.logFile" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    <see cref="P:UnityEngine.Profiler.logFile" /> = &lt;span class="hl-string"&gt;"mylog.log";    <see cref="P:UnityEngine.Profiler.enabled" /> = true;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="P:UnityEngine.Profiler.logFile" /> = &lt;span class="hl-string"&gt;"mylog.log";        <see cref="P:UnityEngine.Profiler.enabled" /> = true;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        <see cref="P:UnityEngine.Profiler.logFile" /> = 'mylog.log'        <see cref="P:UnityEngine.Profiler.enabled" /> = true&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="EndSample">
-      <MemberSignature Language="C#" Value="public static void EndSample ();" />
+      <MemberSignature Language="C#" Value="public static void EndSample ();"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -67,14 +68,14 @@
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>End profiling a piece of code with a custom label.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="logFile">
-      <MemberSignature Language="C#" Value="public static string logFile { set; get; }" />
+      <MemberSignature Language="C#" Value="public static string logFile { set; get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -83,9 +84,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Sets profiler output file in built players.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>See Also: <see cref="P:UnityEngine.Profiler.enabled" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    <see cref="P:UnityEngine.Profiler.logFile" /> = &lt;span class="hl-string"&gt;"mylog.log";    <see cref="P:UnityEngine.Profiler.enabled" /> = true;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="P:UnityEngine.Profiler.logFile" /> = &lt;span class="hl-string"&gt;"mylog.log";        <see cref="P:UnityEngine.Profiler.enabled" /> = true;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        <see cref="P:UnityEngine.Profiler.logFile" /> = 'mylog.log'        <see cref="P:UnityEngine.Profiler.enabled" /> = true&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>A Splat prototype is just a texture that is used by the TerrainData</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="texture">
@@ -38,10 +36,9 @@
         <ReturnType>UnityEngine.Texture2D</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Texture of the splat applied to the Terrain</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tileSize">
@@ -54,10 +51,9 @@
         <ReturnType>UnityEngine.Vector2</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Size of the tile used in the texture of the SplatPrototype.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

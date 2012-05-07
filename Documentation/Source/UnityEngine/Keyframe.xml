@@ -12,7 +12,6 @@
   <Docs>
     <summary>A single keyframe that can be injected into an animation curve.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="value">To be added.</param>
         <summary>Create a keyframe.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -52,7 +50,6 @@
         <param name="outTangent">To be added.</param>
         <summary>Create a keyframe.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="inTangent">
@@ -67,8 +64,7 @@
       <Docs>
         <summary>Describes the tangent when approaching this point from the previous point in the curve.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.outTangent" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.outTangent" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Make an object follow a line among the X axis&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// Notice how the tangents modify the behaviour of the animation&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var anim : <see cref="T:UnityEngine.AnimationCurve" /> = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.AnimationCurve" />();&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start() {    &lt;span class="hl-keyword"&gt;var ks : Keyframe[] = &lt;span class="hl-keyword"&gt;new Keyframe[3];    ks[0] = Keyframe(0, 0);    ks[0].inTangent = 0;    ks[1] = Keyframe(4, 0);    ks[1].inTangent = 45;    ks[2] = Keyframe(8, 0);    ks[2].inTangent = 90;    anim = <see cref="T:UnityEngine.AnimationCurve" />(ks);}&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    transform.position = <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />,anim.Evaluate(<see cref="P:UnityEngine.Time.time" />),0); }&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.AnimationCurve" /> anim = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.AnimationCurve" />();    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        Keyframe[] ks = &lt;span class="hl-keyword"&gt;new Keyframe[3];        ks[0] = &lt;span class="hl-keyword"&gt;new Keyframe(0, 0);        ks[0].inTangent = 0;        ks[1] = &lt;span class="hl-keyword"&gt;new Keyframe(4, 0);        ks[1].inTangent = 45;        ks[2] = &lt;span class="hl-keyword"&gt;new Keyframe(8, 0);        ks[2].inTangent = 90;        anim = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.AnimationCurve" />(ks);    }    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        transform.position = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />, anim.Evaluate(<see cref="P:UnityEngine.Time.time" />), 0);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public anim as <see cref="T:UnityEngine.AnimationCurve" /> = <see cref="T:UnityEngine.AnimationCurve" />()    def &lt;span class="hl-operator"&gt;Start():        ks as (Keyframe) = array[of Keyframe](3)        ks[0] = Keyframe(0, 0)        ks[0].inTangent = 0        ks[1] = Keyframe(4, 0)        ks[1].inTangent = 45        ks[2] = Keyframe(8, 0)        ks[2].inTangent = 90        anim = <see cref="T:UnityEngine.AnimationCurve" />(*ks)    def &lt;span class="hl-operator"&gt;Update():        transform.position = <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />, anim.Evaluate(<see cref="P:UnityEngine.Time.time" />), 0)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="outTangent">
@@ -83,8 +79,7 @@
       <Docs>
         <summary>Describes the tangent when leaving this point towards the next point in the curve.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.inTangent" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.inTangent" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Make an object follow a line among the X axis&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// Notice how the tangents modify the behaviour of the animation&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;private &lt;span class="hl-keyword"&gt;var ks : Keyframe[] = &lt;span class="hl-keyword"&gt;new Keyframe[3];&lt;span class="hl-keyword"&gt;private &lt;span class="hl-keyword"&gt;var anim : <see cref="T:UnityEngine.AnimationCurve" /> ;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start() {    ks[0] = Keyframe(0, 0);    ks[0].outTangent = 0;    ks[1] = Keyframe(4, 0);    ks[1].outTangent = 45;    ks[2] = Keyframe(8, 0);    ks[2].outTangent = 90;    anim = <see cref="T:UnityEngine.AnimationCurve" />(ks);}&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    transform.position = <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />,anim.Evaluate(<see cref="P:UnityEngine.Time.time" />),0); }&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;private Keyframe[] ks = &lt;span class="hl-keyword"&gt;new Keyframe[3];    &lt;span class="hl-keyword"&gt;private <see cref="T:UnityEngine.AnimationCurve" /> anim;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        ks[0] = &lt;span class="hl-keyword"&gt;new Keyframe(0, 0);        ks[0].outTangent = 0;        ks[1] = &lt;span class="hl-keyword"&gt;new Keyframe(4, 0);        ks[1].outTangent = 45;        ks[2] = &lt;span class="hl-keyword"&gt;new Keyframe(8, 0);        ks[2].outTangent = 90;        anim = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.AnimationCurve" />(ks);    }    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        transform.position = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />, anim.Evaluate(<see cref="P:UnityEngine.Time.time" />), 0);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;private ks as (Keyframe) = array[of Keyframe](3)    &lt;span class="hl-keyword"&gt;private anim as <see cref="T:UnityEngine.AnimationCurve" />    def &lt;span class="hl-operator"&gt;Start():        ks[0] = Keyframe(0, 0)        ks[0].outTangent = 0        ks[1] = Keyframe(4, 0)        ks[1].outTangent = 45        ks[2] = Keyframe(8, 0)        ks[2].outTangent = 90        anim = <see cref="T:UnityEngine.AnimationCurve" />(*ks)    def &lt;span class="hl-operator"&gt;Update():        transform.position = <see cref="T:UnityEngine.Vector3" />(<see cref="P:UnityEngine.Time.time" />, anim.Evaluate(<see cref="P:UnityEngine.Time.time" />), 0)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="tangentMode">
@@ -100,7 +95,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -115,8 +109,7 @@
       <Docs>
         <summary>The time of the keyframe.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.value" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.value" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;var curve : <see cref="T:UnityEngine.AnimationCurve" /> = <see cref="P:UnityEngine.AnimationCurve.Linear" /> (0, 0, 5, 5);&lt;span class="hl-comment"&gt;// Extract the time from the first keyframe of a curve&lt;span class="hl-comment"&gt;<see cref="P:UnityEngine.Debug.Log" />(curve[0].time);&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.AnimationCurve" /> curve = <see cref="P:UnityEngine.AnimationCurve.Linear" />(0, 0, 5, 5);    &lt;span class="hl-keyword"&gt;void Example() {        <see cref="P:UnityEngine.Debug.Log" />(curve[0].time);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public curve as <see cref="T:UnityEngine.AnimationCurve" /> = <see cref="P:UnityEngine.AnimationCurve.Linear" />(0, 0, 5, 5)    def Example():        <see cref="P:UnityEngine.Debug.Log" />(curve[0].time)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="value">
@@ -131,8 +124,7 @@
       <Docs>
         <summary>The value of the curve at keyframe.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.time" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.time" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;var curve : <see cref="T:UnityEngine.AnimationCurve" /> = <see cref="P:UnityEngine.AnimationCurve.Linear" /> (0, 0, 5, 5);&lt;span class="hl-comment"&gt;// Extract the value from the first keyframe of a curve&lt;span class="hl-comment"&gt;<see cref="P:UnityEngine.Debug.Log" />(curve[0].value);&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.AnimationCurve" /> curve = <see cref="P:UnityEngine.AnimationCurve.Linear" />(0, 0, 5, 5);    &lt;span class="hl-keyword"&gt;void Example() {        <see cref="P:UnityEngine.Debug.Log" />(curve[0].value);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public curve as <see cref="T:UnityEngine.AnimationCurve" /> = <see cref="P:UnityEngine.AnimationCurve.Linear" />(0, 0, 5, 5)    def Example():        <see cref="P:UnityEngine.Debug.Log" />(curve[0].value)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

@@ -11,7 +11,6 @@
   <Docs>
     <summary>The various test results the connection tester may return with.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Error">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Some unknown error occurred.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PrivateIPHasNATPunchThrough">
@@ -38,8 +36,7 @@
         <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Private IP address detected which can do NAT punchthrough.</summary>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="PrivateIPNoNATPunchthrough">
@@ -52,8 +49,7 @@
         <ReturnType>UnityEngine.ConnectionTesterStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Private IP address detected which cannot do NAT punchthrough.</summary>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="PublicIPIsConnectable">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Public IP address detected and game listen port is accessible to the internet.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PublicIPNoServerStarted">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>Public IP address detected but server is not initialized and no port is listening.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PublicIPPortBlocked">
@@ -95,7 +89,6 @@
       </ReturnValue>
       <Docs>
         <summary>Public IP address detected but the port is not connectable from the internet.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Undetermined">
@@ -109,7 +102,6 @@
       </ReturnValue>
       <Docs>
         <summary>Test result undetermined, still in progress.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

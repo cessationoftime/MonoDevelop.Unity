@@ -12,7 +12,6 @@
   <Docs>
     <summary>Script interface for <see cref="T:UnityEngine.light components" />.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="attenuate">
@@ -38,10 +36,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Should the light attenuate with distance?</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -56,8 +53,7 @@
       <Docs>
         <summary>The color of the light.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Darken the light completely over a period of 2 seconds.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update () {    light.color -= <see cref="P:UnityEngine.Color.white" /> / 2.0 * <see cref="P:UnityEngine.Time.deltaTime" />;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        light.color -= <see cref="P:UnityEngine.Color.white" /> / 2.0F * <see cref="P:UnityEngine.Time.deltaTime" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Update():        light.color -= ((<see cref="P:UnityEngine.Color.white" /> / 2.0F) * <see cref="P:UnityEngine.Time.deltaTime" />)&lt;p class="details"&gt;&#xD;&#xD;Another example:</remarks>
       </Docs>
     </Member>
     <Member MemberName="cookie">
@@ -77,8 +73,7 @@
       <Docs>
         <summary>The cookie texture projected by the light.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Expose a reference to a texture in the inspector&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var newCookie : <see cref="T:UnityEngine.Texture2D" />;    &lt;span class="hl-comment"&gt;// Assign the cookie&lt;span class="hl-comment"&gt;light.cookie = newCookie;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Texture2D" /> newCookie;    &lt;span class="hl-keyword"&gt;void Example() {        light.cookie = newCookie;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public newCookie as <see cref="T:UnityEngine.Texture2D" />    def Example():        light.cookie = newCookie&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="cullingMask">
@@ -93,8 +88,7 @@
       <Docs>
         <summary>This is used to lights parts of the scene selectively.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Only light objects in the first layer (Default layer)&lt;span class="hl-comment"&gt;light.cullingMask = 1 &amp;lt;&amp;lt; 0;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        light.cullingMask = 1 &amp;lt;&amp;lt; 0;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        light.cullingMask = (1 &amp;lt;&amp;lt; 0)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="flare">
@@ -109,8 +103,7 @@
       <Docs>
         <summary>The <see cref="T:UnityEngine.flare asset" /> to use for this light.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /> and <see cref="T:UnityEngine.flare asset" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.LensFlare.flare" />, <see cref="T:UnityEngine.Light component" /> and <see cref="T:UnityEngine.flare asset" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Expose a reference to a flare in the inspector&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var newFlare : <see cref="T:UnityEngine.Flare" />;&lt;span class="hl-comment"&gt;// Assign the flare&lt;span class="hl-comment"&gt;light.flare = newFlare;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Flare" /> newFlare;    &lt;span class="hl-keyword"&gt;void Example() {        light.flare = newFlare;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public newFlare as <see cref="T:UnityEngine.Flare" />    def Example():        light.flare = newFlare&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLights">
@@ -132,7 +125,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="intensity">
@@ -148,7 +140,6 @@
         <summary>The Intensity of a light is multiplied with the Light color.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pixelLightCount">
@@ -169,7 +160,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="range">
@@ -184,8 +174,7 @@
       <Docs>
         <summary>The range of the light.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Pulse light's range between original range&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// and half of the original one&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var duration : &lt;span class="hl-datatype"&gt;float = 3.0;&lt;span class="hl-keyword"&gt;private &lt;span class="hl-keyword"&gt;var originalRange : &lt;span class="hl-datatype"&gt;float;originalRange = light.range;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;var amplitude : &lt;span class="hl-datatype"&gt;float = <see cref="P:UnityEngine.Mathf.PingPong" />( <see cref="P:UnityEngine.Time.time" />, duration );    &lt;span class="hl-comment"&gt;// transform from 0..duration to 0.5..1 range&lt;span class="hl-comment"&gt;    amplitude = amplitude / duration * 0.5 + 0.5;    &lt;span class="hl-comment"&gt;// set light range&lt;span class="hl-comment"&gt;    light.range = originalRange * amplitude;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float duration = 3.0F;    &lt;span class="hl-keyword"&gt;private &lt;span class="hl-datatype"&gt;float originalRange;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-datatype"&gt;float amplitude = <see cref="P:UnityEngine.Mathf.PingPong" />(<see cref="P:UnityEngine.Time.time" />, duration);        amplitude = amplitude / duration * 0.5F + 0.5F;        light.range = originalRange * amplitude;    }    &lt;span class="hl-keyword"&gt;void Example() {        originalRange = light.range;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public duration as single = 3.0F    &lt;span class="hl-keyword"&gt;private originalRange as single    def &lt;span class="hl-operator"&gt;Update():        amplitude as single = <see cref="P:UnityEngine.Mathf.PingPong" />(<see cref="P:UnityEngine.Time.time" />, duration)        amplitude = (((amplitude / duration) * 0.5F) + 0.5F)        light.range = (originalRange * amplitude)    def Example():        originalRange = light.range&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="renderMode">
@@ -200,8 +189,7 @@
       <Docs>
         <summary>How to render the light.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Make the light only render with vertex lighting&lt;span class="hl-comment"&gt;light.renderMode = <see cref="P:UnityEngine.LightRenderMode.ForceVertex" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        light.renderMode = <see cref="P:UnityEngine.LightRenderMode.ForceVertex" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        light.renderMode = <see cref="P:UnityEngine.LightRenderMode.ForceVertex" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="shadowConstantBias">
@@ -214,10 +202,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Constant shadow bias</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.shadows" />, <see cref="P:UnityEngine.shadowObjectSizeBias" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="shadowObjectSizeBias">
@@ -230,10 +217,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Shadow bias that is relative to object size</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.shadows" />, <see cref="P:UnityEngine.shadowConstantBias" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="shadows">
@@ -248,8 +234,7 @@
       <Docs>
         <summary>How this light casts shadows?</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.LightShadows" />, <see cref="P:UnityEngine.shadowStrength" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.LightShadows" />, <see cref="P:UnityEngine.shadowStrength" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// make the light cast hard shadows&lt;span class="hl-comment"&gt;light.shadows = <see cref="P:UnityEngine.LightShadows.Hard" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        light.shadows = <see cref="P:UnityEngine.LightShadows.Hard" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        light.shadows = <see cref="P:UnityEngine.LightShadows.Hard" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="shadowStrength">
@@ -264,8 +249,7 @@
       <Docs>
         <summary>Strength of light's shadows</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.shadows" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.shadows" /> property, <see cref="P:UnityEngine.Renderer.castShadows" />, <see cref="P:UnityEngine.Renderer.receiveShadows" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// make light's shadows very faint&lt;span class="hl-comment"&gt;light.shadowStrength = 0.3;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        light.shadowStrength = 0.3F;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        light.shadowStrength = 0.3F&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="spotAngle">
@@ -278,10 +262,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The light's spotlight angle in degrees.</summary>
+        <summary>The angle of the light's spotlight cone in degrees.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Light component" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Change spot angle randomly between 'minAngle' and 'maxAngle'&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// each 'interval' seconds.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var interval : &lt;span class="hl-datatype"&gt;float = 0.3;&lt;span class="hl-keyword"&gt;var minAngle : &lt;span class="hl-datatype"&gt;float = 10;&lt;span class="hl-keyword"&gt;var maxAngle : &lt;span class="hl-datatype"&gt;float = 90;&lt;span class="hl-keyword"&gt;private &lt;span class="hl-keyword"&gt;var timeLeft : &lt;span class="hl-datatype"&gt;float;timeLeft = interval;light.type = <see cref="P:UnityEngine.LightType.Spot" />;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update () {    timeLeft -= <see cref="P:UnityEngine.Time.deltaTime" />;    &lt;span class="hl-keyword"&gt;if (timeLeft &amp;lt; 0.0) {        &lt;span class="hl-comment"&gt;// time to change!&lt;span class="hl-comment"&gt;        timeLeft = interval;        light.spotAngle = <see cref="P:UnityEngine.Random.Range" />( minAngle, maxAngle );    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float interval = 0.3F;    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float minAngle = 10;    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float maxAngle = 90;    &lt;span class="hl-keyword"&gt;private &lt;span class="hl-datatype"&gt;float timeLeft;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        timeLeft -= <see cref="P:UnityEngine.Time.deltaTime" />;        &lt;span class="hl-keyword"&gt;if (timeLeft &amp;lt; 0.0F) {            timeLeft = interval;            light.spotAngle = <see cref="P:UnityEngine.Random.Range" />(minAngle, maxAngle);        }    }    &lt;span class="hl-keyword"&gt;void Example() {        timeLeft = interval;        light.type = <see cref="P:UnityEngine.LightType.Spot" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public interval as single = 0.3F    &lt;span class="hl-keyword"&gt;public minAngle as single = 10    &lt;span class="hl-keyword"&gt;public maxAngle as single = 90    &lt;span class="hl-keyword"&gt;private timeLeft as single    def &lt;span class="hl-operator"&gt;Update():        timeLeft -= <see cref="P:UnityEngine.Time.deltaTime" />        &lt;span class="hl-keyword"&gt;if timeLeft &amp;lt; 0.0F:            timeLeft = interval            light.spotAngle = <see cref="P:UnityEngine.Random.Range" />(minAngle, maxAngle)    def Example():        timeLeft = interval        light.type = <see cref="P:UnityEngine.LightType.Spot" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="type">
@@ -297,7 +280,6 @@
         <summary>The type of the light.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Light component" /></remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

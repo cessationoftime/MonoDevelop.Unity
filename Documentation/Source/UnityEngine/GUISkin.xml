@@ -17,7 +17,6 @@
   <Docs>
     <summary>Defines how GUI looks and behaves.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="box">
@@ -46,7 +44,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.Box" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="button">
@@ -62,407 +59,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.Button" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom1">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom1;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom10">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom10;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom11">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom11;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom12">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom12;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom13">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom13;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom14">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom14;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom15">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom15;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom16">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom16;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom17">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom17;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom18">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom18;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom19">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom19;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom2">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom2;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom20">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom20;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom3">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom3;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom4">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom4;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom5">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom5;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom6">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom6;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom7">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom7;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom8">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom8;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
-    </Member>
-    <Member MemberName="custom9">
-      <MemberSignature Language="C#" Value="public UnityEngine.GUIStyle custom9;"/>
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>UnityEngine.HideInInspector</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>UnityEngine.GUIStyle</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="customStyles">
@@ -477,7 +73,6 @@
       <Docs>
         <summary>Array of GUI styles for specific needs.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="error">
@@ -492,7 +87,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindStyle">
@@ -509,10 +103,9 @@
       </Parameters>
       <Docs>
         <param name="styleName">To be added.</param>
-        <summary>Try to search for a <see cref="T:UnityEngine.GUIStyle" />. This functions returns NULL and does not give an error.</summary>
+        <summary>Try to search for a <see cref="T:UnityEngine.GUIStyle" />. This functions returns null and does not give an error.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="font">
@@ -528,7 +121,6 @@
         <summary>The default font to use for all styles.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -545,7 +137,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStyle">
@@ -563,9 +154,8 @@
       <Docs>
         <param name="styleName">To be added.</param>
         <summary>Get a named <see cref="T:UnityEngine.GUIStyle" />.</summary>
-        <returns>To be added.</returns>
+        <returns><see cref="T:UnityEngine.GUIStyle" /> - The requested GUIStyle.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalScrollbar">
@@ -581,7 +171,6 @@
         <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalScrollbarLeftButton">
@@ -597,7 +186,6 @@
         <summary>Style used by default for the left button on <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalScrollbarRightButton">
@@ -613,7 +201,6 @@
         <summary>Style used by default for the right button on <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalScrollbarThumb">
@@ -629,7 +216,6 @@
         <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.HorizontalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalSlider">
@@ -645,7 +231,6 @@
         <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.HorizontalSlider" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="horizontalSliderThumb">
@@ -661,7 +246,6 @@
         <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.HorizontalSlider" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="label">
@@ -677,7 +261,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.Label" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="scrollView">
@@ -693,7 +276,6 @@
         <summary>Style used by default for the background of ScrollView controls (see <see cref="P:UnityEngine.GUI.BeginScrollView" />).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="settings">
@@ -709,7 +291,6 @@
         <summary>Generic settings for how controls should behave with this skin.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="styles">
@@ -724,7 +305,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="textArea">
@@ -740,7 +320,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.TextArea" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="textField">
@@ -756,7 +335,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.TextField" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="toggle">
@@ -772,7 +350,6 @@
         <summary>Style used by default for <see cref="P:UnityEngine.GUI.Toggle" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalScrollbar">
@@ -788,7 +365,6 @@
         <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalScrollbarDownButton">
@@ -804,7 +380,6 @@
         <summary>Style used by default for the down button on <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalScrollbarThumb">
@@ -820,7 +395,6 @@
         <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalScrollbarUpButton">
@@ -836,7 +410,6 @@
         <summary>Style used by default for the up button on <see cref="P:UnityEngine.GUI.VerticalScrollbar" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalSlider">
@@ -852,7 +425,6 @@
         <summary>Style used by default for the background part of <see cref="P:UnityEngine.GUI.VerticalSlider" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="verticalSliderThumb">
@@ -868,7 +440,6 @@
         <summary>Style used by default for the thumb that is dragged in <see cref="P:UnityEngine.GUI.VerticalSlider" /> controls.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="window">
@@ -884,7 +455,6 @@
         <summary>Style used by default for Window controls (SA <see cref="P:UnityEngine.GUI.Window" />).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

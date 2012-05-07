@@ -12,7 +12,6 @@
   <Docs>
     <summary>Access to application run-time data.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="absoluteUrl">
@@ -46,7 +44,6 @@
         <summary>The absolute path to the web player data file (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="absoluteURL">
@@ -62,7 +59,6 @@
         <summary>The absolute path to the web player data file (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="backgroundLoadingPriority">
@@ -93,7 +89,6 @@
       <Docs>
         <summary>Cancels quitting the application. This is useful for showing a splash screen at the end of a game.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CanStreamedLevelBeLoaded">
@@ -113,7 +108,6 @@
         <summary>Can the streamed level be loaded?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CanStreamedLevelBeLoaded">
@@ -133,7 +127,6 @@
         <summary>Can the streamed level be loaded?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CaptureScreenshot">
@@ -152,7 +145,6 @@
         <param name="filename">To be added.</param>
         <summary>Captures a screenshot at path filename as a PNG file.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CommitSuicide">
@@ -171,7 +163,6 @@
         <param name="mode">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dataPath">
@@ -187,7 +178,6 @@
         <summary>Contains the path to the game data folder (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DontDestroyOnLoad">
@@ -196,6 +186,11 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use Object.DontDestroyOnLoad instead")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -206,13 +201,7 @@
         <param name="mono">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("Use Object.DontDestroyOnLoad instead")</AttributeName>
-        </Attribute>
-      </Attributes>
     </Member>
     <Member MemberName="ExternalCall">
       <MemberSignature Language="C#" Value="public static void ExternalCall (string functionName, object[] args);"/>
@@ -238,7 +227,6 @@
         <param name="args">To be added.</param>
         <summary>Calls a function in the containing web page (Web Player only).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ExternalEval">
@@ -257,7 +245,6 @@
         <param name="script">To be added.</param>
         <summary>Evaluates script snippet in the containing web page (Web Player only).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStreamProgressForLevel">
@@ -277,7 +264,6 @@
         <summary>How far has the download progressed? [0...1]</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStreamProgressForLevel">
@@ -297,7 +283,6 @@
         <summary>How far has the download progressed? [0...1]</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isEditor">
@@ -313,7 +298,6 @@
         <summary>Are we running inside the Unity editor? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isLoadingLevel">
@@ -329,7 +313,6 @@
         <summary>Is some level being loaded? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isPlayer">
@@ -338,6 +321,11 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("use Application.isEditor instead")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -345,13 +333,7 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("use Application.isEditor instead")</AttributeName>
-        </Attribute>
-      </Attributes>
     </Member>
     <Member MemberName="isPlaying">
       <MemberSignature Language="C#" Value="public static bool isPlaying { get; }"/>
@@ -366,7 +348,6 @@
         <summary>Returns true when in any kind of player (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="levelCount">
@@ -382,7 +363,6 @@
         <summary>The total number of levels available (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="loadedLevel">
@@ -398,7 +378,6 @@
         <summary>The level index that was last loaded (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="loadedLevelName">
@@ -414,7 +393,6 @@
         <summary>The name of the level that was last loaded (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadLevel">
@@ -431,9 +409,8 @@
       </Parameters>
       <Docs>
         <param name="index">To be added.</param>
-        <summary>Loads the level.</summary>
+        <summary>Loads the level by its name or index.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadLevel">
@@ -450,9 +427,8 @@
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
-        <summary>Loads the level.</summary>
+        <summary>Loads the level by its name or index.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadLevelAdditive">
@@ -471,7 +447,6 @@
         <param name="index">To be added.</param>
         <summary>Loads a level additively.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadLevelAdditive">
@@ -490,7 +465,6 @@
         <param name="name">To be added.</param>
         <summary>Loads a level additively.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadLevelAdditiveAsync">
@@ -547,7 +521,6 @@
         <param name="url">To be added.</param>
         <summary>Opens the url in a browser.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="platform">
@@ -563,7 +536,6 @@
         <summary>Returns the platform the game is running (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Quit">
@@ -579,7 +551,6 @@
       <Docs>
         <summary>Quits the player application. Quit is ignored in the editor or the web player.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RegisterLogCallback">
@@ -613,7 +584,6 @@
         <summary>Should the player be running when the application is in the background?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="srcValue">
@@ -629,7 +599,6 @@
         <summary>The path to the web player data file relative to the html file (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="streamedBytes">
@@ -645,7 +614,6 @@
         <summary>How many bytes have we downloaded from the main unity web stream (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="systemLanguage">
@@ -676,7 +644,6 @@
         <summary>Instructs game to try to render at a specified frame rate.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="unityVersion">
@@ -692,7 +659,6 @@
         <summary>The version of the Unity runtime used to play the content.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

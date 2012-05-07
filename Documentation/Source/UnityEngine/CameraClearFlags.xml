@@ -11,7 +11,6 @@
   <Docs>
     <summary>Values for <see cref="P:UnityEngine.Camera.clearFlags" />, determining what to clear when rendering a <see cref="T:UnityEngine.Camera" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.camera component" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Color">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Depth">
@@ -39,8 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Clear only the depth buffer.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Clear only the depth buffer&lt;span class="hl-comment"&gt;camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Depth" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Depth" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Depth" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Nothing">
@@ -54,8 +51,7 @@
       </ReturnValue>
       <Docs>
         <summary>Don't clear anything.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Don't clear anything&lt;span class="hl-comment"&gt;camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Nothing" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Nothing" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Nothing" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Skybox">
@@ -69,8 +65,7 @@
       </ReturnValue>
       <Docs>
         <summary>Clear with the skybox.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="T:UnityEngine.Render Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="T:UnityEngine.Render Settings" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Clear with a skybox&lt;span class="hl-comment"&gt;camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Skybox" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Skybox" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.Skybox" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="SolidColor">
@@ -84,8 +79,7 @@
       </ReturnValue>
       <Docs>
         <summary>Clear with a background color.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.backgroundColor" /> property.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.clearFlags" /> property, <see cref="T:UnityEngine.camera component" />, <see cref="P:UnityEngine.Camera.backgroundColor" /> property.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.SolidColor" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.SolidColor" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        camera.clearFlags = <see cref="P:UnityEngine.CameraClearFlags.SolidColor" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

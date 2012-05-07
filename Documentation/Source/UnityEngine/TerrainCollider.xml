@@ -12,7 +12,6 @@
   <Docs>
     <summary>A heightmap based collider.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.SphereCollider" />, <see cref="T:UnityEngine.CapsuleCollider" />, <see cref="T:UnityEngine.PhysicMaterial" />, <see cref="T:UnityEngine.Rigidbody" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="terrainData">
@@ -41,7 +39,6 @@
         <summary>The terrain that stores the heightmap</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

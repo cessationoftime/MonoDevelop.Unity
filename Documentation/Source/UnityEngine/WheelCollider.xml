@@ -12,7 +12,6 @@
   <Docs>
     <summary>A special collider for vehicle wheels.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.GetGroundHit" /> and <see cref="T:UnityEngine.WheelFrictionCurve" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="brakeTorque">
@@ -41,7 +39,6 @@
         <summary>Brake torque. Must be positive.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="center">
@@ -57,7 +54,6 @@
         <summary>The center of the wheel, measured in the object's local space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="forwardFriction">
@@ -73,7 +69,6 @@
         <summary>Properties of tire friction in the direction the wheel is pointing in.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetGroundHit">
@@ -93,7 +88,6 @@
         <summary>Gets ground collision data for the wheel.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isGrounded">
@@ -109,7 +103,6 @@
         <summary>Indicates whether the wheel currently collides with something (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mass">
@@ -125,7 +118,6 @@
         <summary>The mass of the wheel. Must be larger than zero.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="motorTorque">
@@ -141,7 +133,6 @@
         <summary>Motor torque on the wheel axle. Positive or negative depending on direction.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="radius">
@@ -157,7 +148,6 @@
         <summary>The radius of the wheel, measured in local space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rpm">
@@ -173,7 +163,6 @@
         <summary>Current wheel axle rotation speed, in rotations per minute (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sidewaysFriction">
@@ -189,7 +178,6 @@
         <summary>Properties of tire friction in the sideways direction.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="steerAngle">
@@ -205,7 +193,6 @@
         <summary>Steering angle in degrees, always around the local y-axis.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="suspensionDistance">
@@ -221,7 +208,6 @@
         <summary>Maximum extension distance of wheel suspension, measured in local space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="suspensionSpring">
@@ -237,7 +223,6 @@
         <summary>The parameters of wheel's suspension. The suspension attempts to reach a target position</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

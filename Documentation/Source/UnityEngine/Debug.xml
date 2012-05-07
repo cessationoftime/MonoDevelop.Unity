@@ -12,7 +12,6 @@
   <Docs>
     <summary>Class containing methods to ease debugging while developing a game.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Break">
@@ -41,7 +39,6 @@
       <Docs>
         <summary>Pauses the editor.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DebugBreak">
@@ -75,9 +72,8 @@
       <Docs>
         <param name="start">To be added.</param>
         <param name="end">To be added.</param>
-        <summary>Draws a line from the point start to end with color.</summary>
+        <summary>Draws a line from the point start to end with color for a duration of time and with or without depth testing. If duration is 0 then the line is rendered 1 frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawLine">
@@ -98,9 +94,8 @@
         <param name="start">To be added.</param>
         <param name="end">To be added.</param>
         <param name="color">To be added.</param>
-        <summary>Draws a line from the point start to end with color.</summary>
+        <summary>Draws a line from the point start to end with color for a duration of time and with or without depth testing. If duration is 0 then the line is rendered 1 frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawRay">
@@ -119,9 +114,8 @@
       <Docs>
         <param name="start">To be added.</param>
         <param name="dir">To be added.</param>
-        <summary>Draws a line from start to start + dir with color.</summary>
+        <summary>Draws a line from start to start + dir with color for a duration of time and with or without depth testing. If duration is 0 then the line is rendered 1 frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawRay">
@@ -142,9 +136,8 @@
         <param name="start">To be added.</param>
         <param name="dir">To be added.</param>
         <param name="color">To be added.</param>
-        <summary>Draws a line from start to start + dir with color.</summary>
+        <summary>Draws a line from start to start + dir with color for a duration of time and with or without depth testing. If duration is 0 then the line is rendered 1 frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isDebugBuild">
@@ -157,10 +150,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>In the Build Settings ... dialog there is a check box called "strip debug symbols".</summary>
+        <summary>In the Build Settings dialog there is a check box called "Development Build".</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Log">
@@ -179,7 +171,6 @@
         <param name="message">To be added.</param>
         <summary>Logs message to the Unity Console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Log">
@@ -200,7 +191,6 @@
         <param name="context">To be added.</param>
         <summary>Logs message to the Unity Console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LogError">
@@ -219,7 +209,6 @@
         <param name="message">To be added.</param>
         <summary>A variant of <see cref="P:UnityEngine.Debug.Log" /> that logs an error message to the console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LogError">
@@ -240,7 +229,6 @@
         <param name="context">To be added.</param>
         <summary>A variant of <see cref="P:UnityEngine.Debug.Log" /> that logs an error message to the console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LogWarning">
@@ -259,7 +247,6 @@
         <param name="message">To be added.</param>
         <summary>A variant of <see cref="P:UnityEngine.Debug.Log" /> that logs a warning message to the console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LogWarning">
@@ -280,7 +267,6 @@
         <param name="context">To be added.</param>
         <summary>A variant of <see cref="P:UnityEngine.Debug.Log" /> that logs a warning message to the console.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

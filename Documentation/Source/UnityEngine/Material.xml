@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>The material class.</summary>
-    <remarks>See Also: <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-    <since version="2.5.1"/>
+    <remarks>See Also: <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;renderer.material.color = <see cref="P:UnityEngine.Color.red" />;&lt;p class="basic"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.color = <see cref="P:UnityEngine.Color.red" />;    }}&lt;p class="basic"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        renderer.material.color = <see cref="P:UnityEngine.Color.red" />&lt;p class="basic"&gt;</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -28,7 +27,6 @@
         <param name="contents">To be added.</param>
         <summary>Create a temporary material from a shader source string.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -44,7 +42,6 @@
         <param name="source">To be added.</param>
         <summary>Create a temporary material from a shader source string.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -60,7 +57,6 @@
         <param name="shader">To be added.</param>
         <summary>Create a temporary material from a shader source string.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -75,8 +71,7 @@
       <Docs>
         <summary>The main material's color.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.SetColor" />, <see cref="P:UnityEngine.GetColor" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.SetColor" />, <see cref="P:UnityEngine.GetColor" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Fade the color from red to green&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// back and forth over the defined duration&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var colorStart : <see cref="T:UnityEngine.Color" /> = <see cref="P:UnityEngine.Color.red" />;&lt;span class="hl-keyword"&gt;var colorEnd : <see cref="T:UnityEngine.Color" /> = <see cref="P:UnityEngine.Color.green" />;&lt;span class="hl-keyword"&gt;var duration : &lt;span class="hl-datatype"&gt;float = 1.0;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update () {    &lt;span class="hl-keyword"&gt;var lerp : &lt;span class="hl-datatype"&gt;float = <see cref="P:UnityEngine.Mathf.PingPong" /> (<see cref="P:UnityEngine.Time.time" />, duration) / duration;    renderer.material.color = <see cref="P:UnityEngine.Color.Lerp" /> (colorStart, colorEnd, lerp);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Color" /> colorStart = <see cref="P:UnityEngine.Color.red" />;    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Color" /> colorEnd = <see cref="P:UnityEngine.Color.green" />;    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float duration = 1.0F;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-datatype"&gt;float lerp = <see cref="P:UnityEngine.Mathf.PingPong" />(<see cref="P:UnityEngine.Time.time" />, duration) / duration;        renderer.material.color = <see cref="P:UnityEngine.Color.Lerp" />(colorStart, colorEnd, lerp);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public colorStart as <see cref="T:UnityEngine.Color" /> = <see cref="P:UnityEngine.Color.red" />    &lt;span class="hl-keyword"&gt;public colorEnd as <see cref="T:UnityEngine.Color" /> = <see cref="P:UnityEngine.Color.green" />    &lt;span class="hl-keyword"&gt;public duration as single = 1.0F    def &lt;span class="hl-operator"&gt;Update():        lerp as single = (<see cref="P:UnityEngine.Mathf.PingPong" />(<see cref="P:UnityEngine.Time.time" />, duration) / duration)        renderer.material.color = <see cref="P:UnityEngine.Color.Lerp" />(colorStart, colorEnd, lerp)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyPropertiesFromMaterial">
@@ -95,7 +90,6 @@
         <param name="mat">To be added.</param>
         <summary>Copy properties from other material into this material.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -120,7 +114,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetColor">
@@ -140,7 +133,6 @@
         <summary>Get a named color value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetFloat">
@@ -160,7 +152,6 @@
         <summary>Get a named float value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetMatrix">
@@ -180,7 +171,6 @@
         <summary>Get a named matrix value from the shader.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTag">
@@ -202,7 +192,6 @@
         <summary>Get the value of material's shader tag.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTag">
@@ -226,7 +215,6 @@
         <summary>Get the value of material's shader tag.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTexture">
@@ -246,7 +234,6 @@
         <summary>Get a named texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTextureOffset">
@@ -266,7 +253,6 @@
         <summary>Gets the placement offset of texture propertyName.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTextureScale">
@@ -286,7 +272,6 @@
         <summary>Gets the placement scale of texture propertyName.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetVector">
@@ -306,7 +291,6 @@
         <summary>Get a named vector value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HasProperty">
@@ -326,7 +310,6 @@
         <summary>Checks if material's shader has a property of a given name.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Lerp">
@@ -349,7 +332,6 @@
         <param name="t">To be added.</param>
         <summary>Interpolate properties between two materials.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mainTexture">
@@ -369,8 +351,7 @@
       <Docs>
         <summary>The main material's texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.SetTexture" />, <see cref="P:UnityEngine.GetTexture" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTexture" />, <see cref="P:UnityEngine.GetTexture" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Assign the texture exposed in the inspector the renderer's material&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var texture : <see cref="T:UnityEngine.Texture" />;renderer.material.mainTexture = texture;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Texture" /> texture;    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public texture as <see cref="T:UnityEngine.Texture" />    def Example():        renderer.material.mainTexture = texture&lt;p class="details"&gt;&#xD;&#xD;Another example:&lt;span class="hl-comment"&gt;// Change renderer's texture each changeInterval&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// seconds from the texture array defined in the inspector.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var textures : <see cref="T:UnityEngine.Texture" />[];&lt;span class="hl-keyword"&gt;var changeInterval : &lt;span class="hl-datatype"&gt;float = 0.33;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;if( textures.length == 0 ) &lt;span class="hl-comment"&gt;// nothing if no textures&lt;span class="hl-comment"&gt;        &lt;span class="hl-keyword"&gt;return;    &lt;span class="hl-comment"&gt;// we want this texture index now&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var index : &lt;span class="hl-datatype"&gt;int = <see cref="P:UnityEngine.Time.time" /> / changeInterval;    &lt;span class="hl-comment"&gt;// take a modulo with size so that animation repeats&lt;span class="hl-comment"&gt;    index = index % textures.length;    &lt;span class="hl-comment"&gt;// assign it&lt;span class="hl-comment"&gt;    renderer.material.mainTexture = textures[index];}&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="mainTextureOffset">
@@ -385,8 +366,7 @@
       <Docs>
         <summary>The texture offset of the main texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.SetTextureOffset" />, <see cref="P:UnityEngine.GetTextureOffset" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTextureOffset" />, <see cref="P:UnityEngine.GetTextureOffset" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Scroll main texture based on time&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var scrollSpeed : &lt;span class="hl-datatype"&gt;float = 0.5;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;var offset : &lt;span class="hl-datatype"&gt;float = <see cref="P:UnityEngine.Time.time" /> * scrollSpeed;    renderer.material.mainTextureOffset = <see cref="T:UnityEngine.Vector2" /> (offset, 0);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public &lt;span class="hl-datatype"&gt;float scrollSpeed = 0.5F;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-datatype"&gt;float offset = <see cref="P:UnityEngine.Time.time" /> * scrollSpeed;        renderer.material.mainTextureOffset = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector2" />(offset, 0);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public scrollSpeed as single = 0.5F    def &lt;span class="hl-operator"&gt;Update():        offset as single = (<see cref="P:UnityEngine.Time.time" /> * scrollSpeed)        renderer.material.mainTextureOffset = <see cref="T:UnityEngine.Vector2" />(offset, 0)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="mainTextureScale">
@@ -401,8 +381,7 @@
       <Docs>
         <summary>The texture scale of the main texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.SetTextureScale" />, <see cref="P:UnityEngine.GetTextureScale" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.SetTextureScale" />, <see cref="P:UnityEngine.GetTextureScale" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update () {    &lt;span class="hl-comment"&gt;// Animates main texture scale in a funky way!&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var scaleX : &lt;span class="hl-datatype"&gt;float = <see cref="P:UnityEngine.Mathf.Cos" /> (<see cref="P:UnityEngine.Time.time" />) * 0.5 + 1;    &lt;span class="hl-keyword"&gt;var scaleY : &lt;span class="hl-datatype"&gt;float = <see cref="P:UnityEngine.Mathf.Sin" /> (<see cref="P:UnityEngine.Time.time" />) * 0.5 + 1;    renderer.material.mainTextureScale = <see cref="T:UnityEngine.Vector2" /> (scaleX,scaleY);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-datatype"&gt;float scaleX = <see cref="P:UnityEngine.Mathf.Cos" />(<see cref="P:UnityEngine.Time.time" />) * 0.5F + 1;        &lt;span class="hl-datatype"&gt;float scaleY = <see cref="P:UnityEngine.Mathf.Sin" />(<see cref="P:UnityEngine.Time.time" />) * 0.5F + 1;        renderer.material.mainTextureScale = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector2" />(scaleX, scaleY);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Update():        scaleX as single = ((<see cref="P:UnityEngine.Mathf.Cos" />(<see cref="P:UnityEngine.Time.time" />) * 0.5F) + 1)        scaleY as single = ((<see cref="P:UnityEngine.Mathf.Sin" />(<see cref="P:UnityEngine.Time.time" />) * 0.5F) + 1)        renderer.material.mainTextureScale = <see cref="T:UnityEngine.Vector2" />(scaleX, scaleY)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="passCount">
@@ -418,7 +397,6 @@
         <summary>How many passes are in this material (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="renderQueue">
@@ -434,7 +412,6 @@
         <summary>Render queue of this material</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Shader.renderQueue" />, <see cref="T:UnityEngine.RenderQueue tag" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetColor">
@@ -455,7 +432,6 @@
         <param name="color">To be added.</param>
         <summary>Set a named color value.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetFloat">
@@ -476,7 +452,6 @@
         <param name="value">To be added.</param>
         <summary>Set a named float value.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetMatrix">
@@ -497,7 +472,6 @@
         <param name="matrix">To be added.</param>
         <summary>Set a named matrix for the shader.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetPass">
@@ -517,7 +491,6 @@
         <summary>Activate the given pass for rendering.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetTexture">
@@ -538,7 +511,6 @@
         <param name="texture">To be added.</param>
         <summary>Set a named texture.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetTextureOffset">
@@ -559,7 +531,6 @@
         <param name="offset">To be added.</param>
         <summary>Sets the placement offset of texture propertyName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetTextureScale">
@@ -580,7 +551,6 @@
         <param name="scale">To be added.</param>
         <summary>Sets the placement scale of texture propertyName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetVector">
@@ -601,7 +571,6 @@
         <param name="vector">To be added.</param>
         <summary>Set a named vector value.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="shader">
@@ -616,8 +585,7 @@
       <Docs>
         <summary>The shader used by the material.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Shader.Find" /> method, <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Shader.Find" /> method, <see cref="T:UnityEngine.Materials" />, <see cref="T:UnityEngine.ShaderLab documentation" />.ad&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Toggle between Diffuse and Transparent/Diffuse shaders&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// when space key is pressed&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var shader1 : <see cref="T:UnityEngine.Shader" /> = <see cref="P:UnityEngine.Shader.Find" />( &lt;span class="hl-string"&gt;"Diffuse" );&lt;span class="hl-keyword"&gt;var shader2 : <see cref="T:UnityEngine.Shader" /> = <see cref="P:UnityEngine.Shader.Find" />( &lt;span class="hl-string"&gt;"Transparent/Diffuse" );&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;if( <see cref="P:UnityEngine.Input.GetButtonDown" />(&lt;span class="hl-string"&gt;"Jump") ) {        &lt;span class="hl-keyword"&gt;if( renderer.material.shader == shader1 )            renderer.material.shader = shader2;        &lt;span class="hl-keyword"&gt;else            renderer.material.shader = shader1;    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Shader" /> shader1 = <see cref="P:UnityEngine.Shader.Find" />(&lt;span class="hl-string"&gt;"Diffuse");    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Shader" /> shader2 = <see cref="P:UnityEngine.Shader.Find" />(&lt;span class="hl-string"&gt;"Transparent/Diffuse");    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Input.GetButtonDown" />(&lt;span class="hl-string"&gt;"Jump"))            &lt;span class="hl-keyword"&gt;if (renderer.material.shader == shader1)                renderer.material.shader = shader2;            &lt;span class="hl-keyword"&gt;else                renderer.material.shader = shader1;            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public shader1 as <see cref="T:UnityEngine.Shader" /> = <see cref="P:UnityEngine.Shader.Find" />('Diffuse')    &lt;span class="hl-keyword"&gt;public shader2 as <see cref="T:UnityEngine.Shader" /> = <see cref="P:UnityEngine.Shader.Find" />('Transparent/Diffuse')    def &lt;span class="hl-operator"&gt;Update():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Input.GetButtonDown" />('Jump'):            &lt;span class="hl-keyword"&gt;if renderer.material.shader == shader1:                renderer.material.shader = shader2            &lt;span class="hl-keyword"&gt;else:                renderer.material.shader = shader1&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

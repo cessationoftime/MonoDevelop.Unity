@@ -12,7 +12,6 @@
   <Docs>
     <summary>Representation of planes.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
         <param name="d">To be added.</param>
         <summary>Creates a plane.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -48,7 +46,6 @@
         <param name="inPoint">To be added.</param>
         <summary>Creates a plane.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -68,7 +65,6 @@
         <param name="c">To be added.</param>
         <summary>Creates a plane.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="distance">
@@ -84,7 +80,6 @@
         <summary>Distance from the origin to the plane.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.normal" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetDistanceToPoint">
@@ -104,7 +99,6 @@
         <summary>Distance from plane to point.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetSide">
@@ -124,7 +118,6 @@
         <summary>Is a point on the positive side of the plane?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normal">
@@ -140,7 +133,6 @@
         <summary>Normal vector of the plane.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.distance" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Raycast">
@@ -162,7 +154,6 @@
         <summary>Intersects a ray with the plane.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SameSide">
@@ -184,7 +175,6 @@
         <summary>Are two points on the same side of the plane?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Set3Points">
@@ -205,9 +195,8 @@
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
         <param name="c">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Sets a plane using three points that lie within it.  The points go around clockwise as you look down on the top surface of the plane.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetNormalAndPosition">
@@ -226,9 +215,8 @@
       <Docs>
         <param name="inNormal">To be added.</param>
         <param name="inPoint">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Sets a plane using a point that lies within it plus a normal to orient it (note that the normal must be a normalised vector).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

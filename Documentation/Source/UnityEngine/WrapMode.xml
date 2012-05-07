@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Determines how time is treated where no keyframes are defined.</summary>
+    <summary>Determines how time is treated outside of the keyframed range of an <see cref="T:UnityEngine.AnimationClip" /> or <see cref="T:UnityEngine.AnimationCurve" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Clamp">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClampForever">
@@ -39,7 +37,7 @@
       </ReturnValue>
       <Docs>
         <summary>Plays back the animation. When it reaches the end, it will keep playing the last frame and never stop playing.</summary>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.AnimationState.wrapMode" />, <see cref="P:UnityEngine.AnimationState.time" />, <see cref="P:UnityEngine.AnimationState.speed" /> properties.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -52,8 +50,8 @@
         <ReturnType>UnityEngine.WrapMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Reads the repeat mode from the animation curves, which can be set to Loop or PingPong.</summary>
-        <since version="2.5.1"/>
+        <summary>Reads the default repeat mode set higher up.</summary>
+        <remarks>See Also: <see cref="T:UnityEngine.WrapMode" /> for me details.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Loop">
@@ -66,8 +64,8 @@
         <ReturnType>UnityEngine.WrapMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When time reaches the end of the animation clip, time will continue at the beginning</summary>
-        <since version="2.5.1"/>
+        <summary>When time reaches the end of the animation clip, time will continue at the beginning.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.AnimationState.wrapMode" />, <see cref="P:UnityEngine.AnimationState.time" />, <see cref="P:UnityEngine.AnimationState.speed" /> properties.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Once">
@@ -80,8 +78,8 @@
         <ReturnType>UnityEngine.WrapMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When time reaches the end of the animation clip, the clip will automatically stop playing.</summary>
-        <since version="2.5.1"/>
+        <summary>When time reaches the end of the animation clip, the clip will automatically stop playing and time will be reset to beginning of the clip.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.AnimationState.wrapMode" />, <see cref="P:UnityEngine.AnimationState.time" />, <see cref="P:UnityEngine.AnimationState.speed" /> properties.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PingPong">
@@ -94,8 +92,8 @@
         <ReturnType>UnityEngine.WrapMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When time reaches the end of the animation clip, time will ping pong back between beginning and end</summary>
-        <since version="2.5.1"/>
+        <summary>When time reaches the end of the animation clip, time will ping pong back between beginning and end.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.AnimationState.wrapMode" />, <see cref="P:UnityEngine.AnimationState.time" />, <see cref="P:UnityEngine.AnimationState.speed" /> properties.</remarks>
       </Docs>
     </Member>
   </Members>

@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary><see cref="T:UnityEngine.Terrain" /> lighting mode.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
-    <since version="2.5.1"/>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName="Lightmap">
@@ -24,9 +23,7 @@
         <ReturnType>UnityEngine.TerrainLighting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Renders terrain with lightmap.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Pixel">
@@ -39,9 +36,7 @@
         <ReturnType>UnityEngine.TerrainLighting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Renders terrain with lights up close, and lightmap far away.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="RenderModeCount">
@@ -55,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Vertex">
@@ -68,9 +62,7 @@
         <ReturnType>UnityEngine.TerrainLighting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Renders terrain with vertex lighting.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Terrain.lighting" />.</remarks>
-        <since version="2.5.1"/>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
   </Members>

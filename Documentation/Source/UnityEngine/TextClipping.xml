@@ -11,7 +11,6 @@
   <Docs>
     <summary>Different methods for how the GUI system handles text being too large to fit the rectangle allocated.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Clip">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Text gets clipped to be inside the element.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Overflow">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Text flows freely outside the element.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

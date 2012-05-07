@@ -12,7 +12,6 @@
   <Docs>
     <summary>A collection of common math functions.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Abs">
@@ -32,7 +31,6 @@
         <summary>Returns the absolute value of f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Abs">
@@ -52,7 +50,6 @@
         <summary>Returns the absolute value of f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Acos">
@@ -72,7 +69,6 @@
         <summary>Returns the arc-cosine of f - the angle in radians whose cosine is f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Approximately">
@@ -94,7 +90,6 @@
         <summary>Compares two floating point values if they are similar.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Asin">
@@ -114,7 +109,6 @@
         <summary>Returns the arc-sine of f - the angle in radians whose sine is f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Atan">
@@ -134,7 +128,6 @@
         <summary>Returns the arc-tangent of f - the angle in radians whose tangent is f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Atan2">
@@ -156,7 +149,6 @@
         <summary>Returns the angle in radians whose <see cref="P:UnityEngine.Tan" /> is y/x.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Ceil">
@@ -173,10 +165,9 @@
       </Parameters>
       <Docs>
         <param name="f">To be added.</param>
-        <summary>Rounds f to the next (larger) integer value.</summary>
+        <summary>Returns the smallest integer greater to or equal to f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CeilToInt">
@@ -196,7 +187,6 @@
         <summary>Returns the smallest integer greater to or equal to f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Clamp">
@@ -220,7 +210,6 @@
         <summary>Clamps a value between a minimum float and maximum float value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Clamp">
@@ -244,7 +233,6 @@
         <summary>Clamps a value between a minimum float and maximum float value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Clamp01">
@@ -264,7 +252,6 @@
         <summary>Clamps value between 0 and 1 and returns value</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClosestPowerOfTwo">
@@ -284,7 +271,6 @@
         <summary>Returns the closest power of two value.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Cos">
@@ -304,7 +290,6 @@
         <summary>Returns the cosine of angle f in radians.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Deg2Rad">
@@ -320,7 +305,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DeltaAngle">
@@ -342,7 +326,6 @@
         <summary>Calculates the shortest difference between two given angles.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Epsilon">
@@ -358,7 +341,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Exp">
@@ -378,7 +360,6 @@
         <summary>Returns e raised to the specified power.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Floor">
@@ -395,10 +376,9 @@
       </Parameters>
       <Docs>
         <param name="f">To be added.</param>
-        <summary>Rounds f to the previous (smaller) integer value.</summary>
+        <summary>Returns the largest integer smaller to or equal to f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FloorToInt">
@@ -418,7 +398,6 @@
         <summary>Returns the largest integer smaller to or equal to f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Gamma">
@@ -442,7 +421,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Infinity">
@@ -458,7 +436,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InverseLerp">
@@ -482,7 +459,6 @@
         <summary>Calculates the <see cref="P:UnityEngine.Lerp" /> parameter between of two values.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Lerp">
@@ -503,10 +479,9 @@
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
         <param name="t">To be added.</param>
-        <summary>Interpolates a towards b by t. t is clamped between 0 and 1.</summary>
+        <summary>Interpolates between a and b by t. t is clamped between 0 and 1.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LerpAngle">
@@ -530,7 +505,6 @@
         <summary>Same as <see cref="P:UnityEngine.Lerp" /> but makes sure the values interpolate correctly when they wrap around 360 degrees.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Log">
@@ -550,7 +524,6 @@
         <summary>Returns the logarithm of a specified number in a specified base.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Log">
@@ -572,7 +545,6 @@
         <summary>Returns the logarithm of a specified number in a specified base.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Log10">
@@ -592,7 +564,6 @@
         <summary>Returns the base 10 logarithm of a specified number.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Max">
@@ -611,10 +582,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
-        <summary>Returns larger of the two values.</summary>
+        <summary>Returns largest of two or more values.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Max">
@@ -633,10 +603,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
-        <summary>Returns larger of the two values.</summary>
+        <summary>Returns largest of two or more values.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Min">
@@ -655,10 +624,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
-        <summary>Returns smaller of the two values.</summary>
+        <summary>Returns the smallest of two or more values.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Min">
@@ -677,10 +645,9 @@
       <Docs>
         <param name="a">To be added.</param>
         <param name="b">To be added.</param>
-        <summary>Returns smaller of the two values.</summary>
+        <summary>Returns the smallest of two or more values.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NegativeInfinity">
@@ -696,7 +663,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PerlinNoise">
@@ -715,10 +681,9 @@
       <Docs>
         <param name="x">To be added.</param>
         <param name="y">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Generate 2D Perlin noise.</summary>
+        <returns>float - value between 0.0 and 1.0.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PI">
@@ -734,7 +699,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PingPong">
@@ -756,7 +720,6 @@
         <summary>PingPongs the value t, so that it is never larger than length and never smaller than 0.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Pow">
@@ -778,7 +741,6 @@
         <summary>Returns f raised to power p.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Rad2Deg">
@@ -794,7 +756,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Repeat">
@@ -816,7 +777,6 @@
         <summary>Loops the value t, so that it is never larger than length and never smaller than 0.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Round">
@@ -836,7 +796,6 @@
         <summary>Returns f rounded to the nearest integer.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RoundToInt">
@@ -856,7 +815,6 @@
         <summary>Returns f rounded to the nearest integer.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Sign">
@@ -876,7 +834,6 @@
         <summary>Returns the sign of f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Sin">
@@ -896,7 +853,6 @@
         <summary>Returns the sine of angle f in radians.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDamp">
@@ -922,7 +878,6 @@
         <summary>Gradually changes a value towards a desired goal over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDamp">
@@ -950,7 +905,6 @@
         <summary>Gradually changes a value towards a desired goal over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDamp">
@@ -980,7 +934,6 @@
         <summary>Gradually changes a value towards a desired goal over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDampAngle">
@@ -1003,10 +956,9 @@
         <param name="target">To be added.</param>
         <param name="currentVelocity">To be added.</param>
         <param name="smoothTime">To be added.</param>
-        <summary>Based on Game Programming Gems 4 Chapter 1.10</summary>
+        <summary>Gradually changes an angle given in degrees towards a desired goal angle over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDampAngle">
@@ -1031,10 +983,9 @@
         <param name="currentVelocity">To be added.</param>
         <param name="smoothTime">To be added.</param>
         <param name="maxSpeed">To be added.</param>
-        <summary>Based on Game Programming Gems 4 Chapter 1.10</summary>
+        <summary>Gradually changes an angle given in degrees towards a desired goal angle over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothDampAngle">
@@ -1061,10 +1012,9 @@
         <param name="smoothTime">To be added.</param>
         <param name="maxSpeed">To be added.</param>
         <param name="deltaTime">To be added.</param>
-        <summary>Based on Game Programming Gems 4 Chapter 1.10</summary>
+        <summary>Gradually changes an angle given in degrees towards a desired goal angle over time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothStep">
@@ -1085,10 +1035,9 @@
         <param name="from">To be added.</param>
         <param name="to">To be added.</param>
         <param name="t">To be added.</param>
-        <summary>Interpolates between min and max and eases in and out at the limits.</summary>
+        <summary>Interpolates between min and max and creates smoothing at the limits.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Sqrt">
@@ -1108,7 +1057,6 @@
         <summary>Returns square root of f.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Tan">
@@ -1128,7 +1076,6 @@
         <summary>Returns the tangent of angle f in radians.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

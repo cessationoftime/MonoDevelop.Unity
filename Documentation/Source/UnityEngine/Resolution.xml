@@ -12,7 +12,6 @@
   <Docs>
     <summary>Represents a display resolution.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="height">
@@ -28,7 +27,6 @@
         <summary>Resolution height in pixels.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="refreshRate">
@@ -44,7 +42,6 @@
         <summary>Resolution's vertical refresh rate in Hz.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="width">
@@ -60,7 +57,6 @@
         <summary>Resolution width in pixels.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

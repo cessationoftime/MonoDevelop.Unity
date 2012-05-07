@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>The JointMotor is used to motorize a joint.</summary>
-    <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
+    <remarks>See Also: <see cref="T:UnityEngine.HingeJoint" /></remarks>
   </Docs>
   <Members>
     <Member MemberName="force">
@@ -25,10 +24,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The motor will apply a force up to force to achieve targetVelocity.</summary>
+        <summary>The motor will apply a force.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="freeSpin">
@@ -44,7 +42,6 @@
         <summary>If freeSpin is enabled the motor will only accelerate but never slow down.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetVelocity">
@@ -60,7 +57,6 @@
         <summary>The motor will apply a force up to force to achieve targetVelocity.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

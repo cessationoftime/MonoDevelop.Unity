@@ -12,7 +12,6 @@
   <Docs>
     <summary>The trail renderer is used to make trails behind objects in the scene as they move about.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="autodestruct">
@@ -41,7 +39,6 @@
         <summary>Does the <see cref="T:UnityEngine.GameObject" /> of this trail renderer auto destructs?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="endWidth">
@@ -57,7 +54,6 @@
         <summary>The width of the trail at the end of the trail.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.startWidth" /> variable.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="startWidth">
@@ -73,7 +69,6 @@
         <summary>The width of the trail at the spawning point.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.endWidth" /> variable.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -89,7 +84,6 @@
         <summary>How long does the trail take to fade out.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

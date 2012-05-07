@@ -12,7 +12,6 @@
   <Docs>
     <summary>Describes a contact point where the collision occurs.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Collision" />, <see cref="P:UnityEngine.Collider.OnCollisionEnter" />, <see cref="P:UnityEngine.Collider.OnCollisionStay" />, <see cref="P:UnityEngine.Collider.OnCollisionExit" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="normal">
@@ -28,7 +27,6 @@
         <summary>Normal of the contact point.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="otherCollider">
@@ -49,7 +47,6 @@
         <summary>The other collider in contact.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="point">
@@ -65,7 +62,6 @@
         <summary>The point of contact.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="thisCollider">
@@ -86,7 +82,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -11,7 +11,6 @@
   <Docs>
     <summary>Describes the status of the network interface peer type as returned by <see cref="P:UnityEngine.Network.peerType" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Client">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Running as client.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Connecting">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Attempting to connect to a server.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Disconnected">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>No client connection running. Server not initialized.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Server">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Running as server.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

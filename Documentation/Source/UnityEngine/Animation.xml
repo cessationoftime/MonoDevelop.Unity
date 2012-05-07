@@ -15,8 +15,7 @@
   </Interfaces>
   <Docs>
     <summary>The animation component is used to play back animations.</summary>
-    <remarks>See Also: An overview of Character animation in unity is <see cref="T:UnityEngine.here" />.</remarks>
-    <since version="2.5.1"/>
+    <remarks>See Also: An overview of animation scripting in Unity is <see cref="T:UnityEngine.here" />.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -29,7 +28,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddClip">
@@ -50,7 +48,6 @@
         <param name="newName">To be added.</param>
         <summary>Adds a clip to the animation with name newName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddClip">
@@ -75,7 +72,6 @@
         <param name="lastFrame">To be added.</param>
         <summary>Adds a clip to the animation with name newName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddClip">
@@ -102,7 +98,6 @@
         <param name="addLoopFrame">To be added.</param>
         <summary>Adds a clip to the animation with name newName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="animateOnlyIfVisible">
@@ -115,7 +110,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When turned on, Unity might stop animating if it thinks that the results of the animation won't be visible to the user.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -133,7 +128,6 @@
         <summary>When turned on, animations will be executed in the physics loop. This is only useful in conjunction with kinematic rigidbodies.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Blend">
@@ -152,7 +146,6 @@
         <param name="animation">To be added.</param>
         <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Blend">
@@ -173,7 +166,6 @@
         <param name="targetWeight">To be added.</param>
         <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Blend">
@@ -196,7 +188,6 @@
         <param name="fadeLength">To be added.</param>
         <summary>Blends the animation named animation towards targetWeight over the next time seconds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clip">
@@ -212,7 +203,6 @@
         <summary>The default animation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFade">
@@ -231,7 +221,6 @@
         <param name="animation">To be added.</param>
         <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFade">
@@ -252,7 +241,6 @@
         <param name="fadeLength">To be added.</param>
         <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFade">
@@ -275,7 +263,6 @@
         <param name="mode">To be added.</param>
         <summary>Fades the animation with name animation in over a period of time seconds and fades other animations out.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFadeQueued">
@@ -295,7 +282,6 @@
         <summary>Cross fades an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFadeQueued">
@@ -317,7 +303,6 @@
         <summary>Cross fades an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFadeQueued">
@@ -341,7 +326,6 @@
         <summary>Cross fades an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CrossFadeQueued">
@@ -367,7 +351,6 @@
         <summary>Cross fades an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetClip">
@@ -387,7 +370,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetClipCount">
@@ -404,7 +386,6 @@
         <summary>Get the number of clips currently assigned to this animation</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -421,7 +402,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isPlaying">
@@ -437,7 +417,6 @@
         <summary>Are we playing any animations?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IsPlaying">
@@ -457,7 +436,6 @@
         <summary>Is the animation named name playing?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -477,7 +455,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -494,7 +471,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -514,7 +490,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -534,7 +509,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -554,7 +528,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -576,7 +549,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -598,7 +570,6 @@
         <summary>Plays animation without any blending.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="playAutomatically">
@@ -614,7 +585,6 @@
         <summary>Should the default animation clip (<see cref="P:UnityEngine.Animation.clip" />) automatically start playing on startup.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayQueued">
@@ -634,7 +604,6 @@
         <summary>Plays an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayQueued">
@@ -656,7 +625,6 @@
         <summary>Plays an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayQueued">
@@ -680,7 +648,6 @@
         <summary>Plays an animation after previous animations has finished playing.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveClip">
@@ -699,7 +666,6 @@
         <param name="clipName">To be added.</param>
         <summary>Remove clip from the animation list.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveClip">
@@ -718,7 +684,6 @@
         <param name="clip">To be added.</param>
         <summary>Remove clip from the animation list.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Rewind">
@@ -734,7 +699,6 @@
       <Docs>
         <summary>Rewinds the animation named name.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Rewind">
@@ -753,7 +717,6 @@
         <param name="name">To be added.</param>
         <summary>Rewinds the animation named name.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Sample">
@@ -769,7 +732,6 @@
       <Docs>
         <summary>Samples animations at the current state.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -785,7 +747,6 @@
       <Docs>
         <summary>Stops all playing animations that were started with this Animation.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -804,7 +765,6 @@
         <param name="name">To be added.</param>
         <summary>Stops all playing animations that were started with this Animation.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SyncLayer">
@@ -823,7 +783,6 @@
         <param name="layer">To be added.</param>
         <summary>Synchronizes playback speed of all animations in the layer.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wrapMode">
@@ -839,13 +798,7 @@
         <summary>How should time beyond the playback range of the clip be treated?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

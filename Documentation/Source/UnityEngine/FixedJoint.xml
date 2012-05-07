@@ -12,7 +12,6 @@
   <Docs>
     <summary>The Fixed joint groups together 2 rigidbodies, making them stick together in their bound position.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.CharacterJoint" />, <see cref="T:UnityEngine.HingeJoint" />, <see cref="T:UnityEngine.SpringJoint" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

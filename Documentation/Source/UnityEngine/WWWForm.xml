@@ -12,7 +12,6 @@
   <Docs>
     <summary>Helper class to generate form data to post to web servers using the <see cref="T:UnityEngine.WWW" /> class.</summary>
     <remarks>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Creates an empty WWWForm object.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.WWW" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddBinaryData">
@@ -46,7 +44,6 @@
         <param name="contents">To be added.</param>
         <summary>Add binary data to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddBinaryData">
@@ -69,7 +66,6 @@
         <param name="fileName">To be added.</param>
         <summary>Add binary data to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddBinaryData">
@@ -94,7 +90,6 @@
         <param name="mimeType">To be added.</param>
         <summary>Add binary data to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddField">
@@ -115,7 +110,6 @@
         <param name="i">To be added.</param>
         <summary>Add a simple field to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddField">
@@ -136,7 +130,6 @@
         <param name="value">To be added.</param>
         <summary>Add a simple field to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddField">
@@ -159,7 +152,6 @@
         <param name="e">To be added.</param>
         <summary>Add a simple field to the form.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="data">
@@ -175,7 +167,6 @@
         <summary>(Read Only) The raw data to pass as the POST request body when sending the form.</summary>
         <value>To be added.</value>
         <remarks>(Read Only) The raw data to pass as the POST request body when sending the form.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="headers">
@@ -191,7 +182,6 @@
         <summary>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</summary>
         <value>To be added.</value>
         <remarks>(Read Only) Returns the correct request headers for posting the form using the <see cref="T:UnityEngine.WWW" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

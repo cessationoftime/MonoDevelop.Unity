@@ -12,7 +12,6 @@
   <Docs>
     <summary>A flare asset. Read more about flares in the <see cref="T:UnityEngine.components reference" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Flare assets" />, <see cref="T:UnityEngine.LensFlare" /> class.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

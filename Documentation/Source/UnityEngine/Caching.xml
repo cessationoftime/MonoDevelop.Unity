@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="Caching" FullName="UnityEngine.Caching">
-  <TypeSignature Language="C#" Value="public class Caching" />
+  <TypeSignature Language="C#" Value="public class Caching"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -7,26 +8,26 @@
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces/>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>The Caching class lets you manage cached AssetBundles, downloaded using <see cref="P:UnityEngine.WWW.LoadFromCacheOrDownload" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.WWW.LoadFromCacheOrDownload" /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Caching ();" />
+      <MemberSignature Language="C#" Value="public Caching ();"/>
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Parameters />
+      <Parameters/>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Authorize">
-      <MemberSignature Language="C#" Value="public static bool Authorize (string name, string domain, int size, string signature);" />
+      <MemberSignature Language="C#" Value="public static bool Authorize (string name, string domain, int size, string signature);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -35,23 +36,23 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="domain" Type="System.String" />
-        <Parameter Name="size" Type="System.Int32" />
-        <Parameter Name="signature" Type="System.String" />
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="domain" Type="System.String"/>
+        <Parameter Name="size" Type="System.Int32"/>
+        <Parameter Name="signature" Type="System.String"/>
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
         <param name="domain">To be added.</param>
         <param name="size">To be added.</param>
         <param name="signature">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>(This is a WebPlayer-only function)</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CleanCache">
-      <MemberSignature Language="C#" Value="public static void CleanCache ();" />
+      <MemberSignature Language="C#" Value="public static void CleanCache ();"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -59,14 +60,14 @@
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Delete all AssetBundle content that has been cached by the current application.</summary>
         <remarks>To be added.</remarks>
-      </Docs>
+      <returns>boolean - True when cache cleaning succeeded, false if cache was in use. * if (<see cref="P:UnityEngine.GUILayout.Button" />("Uninstall Game")) * <see cref="P:UnityEngine.Caching.CleanCache" /> ();</returns></Docs>
     </Member>
     <Member MemberName="CleanNamedCache">
-      <MemberSignature Language="C#" Value="public static void CleanNamedCache (string name);" />
+      <MemberSignature Language="C#" Value="public static void CleanNamedCache (string name);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -80,7 +81,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="name" Type="System.String"/>
       </Parameters>
       <Docs>
         <param name="name">To be added.</param>
@@ -89,7 +90,7 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteFromCache">
-      <MemberSignature Language="C#" Value="public static bool DeleteFromCache (string url);" />
+      <MemberSignature Language="C#" Value="public static bool DeleteFromCache (string url);"/>
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -98,7 +99,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="url" Type="System.String" />
+        <Parameter Name="url" Type="System.String"/>
       </Parameters>
       <Docs>
         <param name="url">To be added.</param>
@@ -108,7 +109,7 @@
       </Docs>
     </Member>
     <Member MemberName="enabled">
-      <MemberSignature Language="C#" Value="public static bool enabled { set; get; }" />
+      <MemberSignature Language="C#" Value="public static bool enabled { set; get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -117,13 +118,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Is Caching enabled?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="expirationDelay">
-      <MemberSignature Language="C#" Value="public static int expirationDelay { set; get; }" />
+      <MemberSignature Language="C#" Value="public static int expirationDelay { set; get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -132,13 +133,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The number of seconds that an AssetBundle may remain unused in the cache before it is automatically deleted.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="index">
-      <MemberSignature Language="C#" Value="public static UnityEngine.CacheIndex[] index { get; }" />
+      <MemberSignature Language="C#" Value="public static UnityEngine.CacheIndex[] index { get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -158,7 +159,7 @@
       </Docs>
     </Member>
     <Member MemberName="spaceAvailable">
-      <MemberSignature Language="C#" Value="public static int spaceAvailable { get; }" />
+      <MemberSignature Language="C#" Value="public static int spaceAvailable { get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -173,7 +174,7 @@
       </Docs>
     </Member>
     <Member MemberName="spaceUsed">
-      <MemberSignature Language="C#" Value="public static int spaceUsed { get; }" />
+      <MemberSignature Language="C#" Value="public static int spaceUsed { get; }"/>
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>

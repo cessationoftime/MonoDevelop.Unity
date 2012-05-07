@@ -11,7 +11,6 @@
   <Docs>
     <summary>Describes when an <see cref="T:UnityEngine.AudioSource" /> or <see cref="T:UnityEngine.AudioListener" /> is updated.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Auto">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Updates the source or listener in the fixed update loop if it is attached to a <see cref="T:UnityEngine.Rigidbody" />, dynamic otherwise.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Dynamic">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Updates the source or listener in the dynamic update loop.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Fixed">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Updates the source or listener in the fixed update loop.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

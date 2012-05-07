@@ -12,7 +12,6 @@
   <Docs>
     <summary>This exception is thrown by the <see cref="T:UnityEngine.PlayerPrefs" /> class in the Web player if the preference file would exceed the allotted storage space when setting a value.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -28,7 +27,6 @@
         <param name="error">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

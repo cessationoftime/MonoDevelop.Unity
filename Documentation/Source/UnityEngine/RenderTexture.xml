@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Render textures are textures that can be rendered to.</summary>
-    <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
+    <remarks>(Read Only).</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -31,8 +30,7 @@
         <param name="height">To be added.</param>
         <param name="depth">To be added.</param>
         <summary>Creates a new RenderTexture object.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.isPowerOfTwo" /> variable, <see cref="P:UnityEngine.format" /> variable.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.format" /> variable.</remarks>
       </Docs>
     </Member>
     <Member MemberName="active">
@@ -48,7 +46,6 @@
         <summary>The active render texture.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -65,7 +62,6 @@
         <summary>Actually creates the RenderTexture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="depth">
@@ -81,7 +77,6 @@
         <summary>The precision of the render texture's depth buffer in bits (0, 16, 24 are supported)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="enabled">
@@ -102,7 +97,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="format">
@@ -118,7 +112,6 @@
         <summary>The format of the render texture.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.RenderTextureFormat" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTemporary">
@@ -140,7 +133,6 @@
         <summary>Allocate a temporary render texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTemporary">
@@ -164,7 +156,6 @@
         <summary>Allocate a temporary render texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTemporary">
@@ -190,7 +181,6 @@
         <summary>Allocate a temporary render texture.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTexelOffset">
@@ -207,7 +197,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="height">
@@ -223,7 +212,6 @@
         <summary>The height of the render texture in pixels.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IsCreated">
@@ -240,7 +228,6 @@
         <summary>Is the render texture actually created?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isCubemap">
@@ -256,7 +243,6 @@
         <summary>If enabled, this Render Texture will be used as a <see cref="T:UnityEngine.Cubemap" /></summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Camera.RenderToCubemap" />, <see cref="T:UnityEngine.Reflective shaders" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isPowerOfTwo">
@@ -269,10 +255,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Is the size of the render texture constrained to power of two sizes?</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Release">
@@ -288,7 +273,6 @@
       <Docs>
         <summary>Releases the RenderTexture.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ReleaseTemporary">
@@ -307,7 +291,6 @@
         <param name="temp">To be added.</param>
         <summary>Release a temporary texture allocated with <see cref="P:UnityEngine.GetTemporary" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetBorderColor">
@@ -324,9 +307,8 @@
       </Parameters>
       <Docs>
         <param name="color">To be added.</param>
-        <summary>Sets the border color for this render texture.</summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetGlobalShaderProperty">
@@ -345,7 +327,6 @@
         <param name="propertyName">To be added.</param>
         <summary>Assigns this RenderTexture as a global shader property named propertyName.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useMipMap">
@@ -361,7 +342,6 @@
         <summary>Generate mipmap levels?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="width">
@@ -377,7 +357,6 @@
         <summary>The width of the render texture in pixels.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>The network class is at the heart of the network implementation and provides the core functions.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AllocateViewID">
@@ -42,7 +40,6 @@
         <summary>Query for the next available network view ID number and allocate it (reserve).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CloseConnection">
@@ -63,7 +60,6 @@
         <param name="sendDisconnectionNotification">To be added.</param>
         <summary>Close the connection to another system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -85,7 +81,6 @@
         <summary>Connect to the specified host (ip or domain name) and server port.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -107,7 +102,6 @@
         <summary>Connect to the specified host (ip or domain name) and server port.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -131,7 +125,6 @@
         <summary>Connect to the specified host (ip or domain name) and server port.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -155,7 +148,6 @@
         <summary>Connect to the specified host (ip or domain name) and server port.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="connections">
@@ -171,7 +163,6 @@
         <summary>All connected players.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="connectionTesterIP">
@@ -187,7 +178,6 @@
         <summary>The IP address of the connection tester used in <see cref="P:UnityEngine.Network.TestConnection" />.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="connectionTesterPort">
@@ -203,7 +193,6 @@
         <summary>The port of the connection tester used in <see cref="P:UnityEngine.Network.TestConnection" />.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Destroy">
@@ -222,7 +211,6 @@
         <param name="gameObject">To be added.</param>
         <summary>Destroy the object associated with this view ID across the network.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Destroy">
@@ -241,7 +229,6 @@
         <param name="viewID">To be added.</param>
         <summary>Destroy the object associated with this view ID across the network.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyPlayerObjects">
@@ -260,7 +247,6 @@
         <param name="playerID">To be added.</param>
         <summary>Destroy all the objects based on view IDs belonging to this player.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Disconnect">
@@ -276,7 +262,6 @@
       <Docs>
         <summary>Close all open connections and shuts down the network interface.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Disconnect">
@@ -295,7 +280,6 @@
         <param name="timeout">To be added.</param>
         <summary>Close all open connections and shuts down the network interface.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetAveragePing">
@@ -315,7 +299,6 @@
         <summary>The last average ping time to the given player in milliseconds.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetLastPing">
@@ -335,7 +318,6 @@
         <summary>The last ping time to the given player in milliseconds.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HavePublicAddress">
@@ -352,7 +334,6 @@
         <summary>Check if this machine has a public IP address.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="incomingPassword">
@@ -368,7 +349,6 @@
         <summary>Set the password for the server (for incoming connections).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InitializeSecurity">
@@ -384,7 +364,6 @@
       <Docs>
         <summary>Initializes security layer.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InitializeServer">
@@ -406,7 +385,6 @@
         <summary>Initialize the server.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Instantiate">
@@ -437,7 +415,6 @@
         <summary>Network instantiate a prefab.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isClient">
@@ -453,7 +430,6 @@
         <summary>Returns true if your peer type is client.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isMessageQueueRunning">
@@ -469,7 +445,6 @@
         <summary>Enable or disable the processing of network messages.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isServer">
@@ -485,7 +460,6 @@
         <summary>Returns true if your peer type is server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxConnections">
@@ -501,7 +475,6 @@
         <summary>Set the maximum amount of connections/players allowed.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minimumAllocatableViewIDs">
@@ -517,7 +490,6 @@
         <summary>Get or set the minimum number of ViewID numbers in the ViewID pool given to clients by the server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="natFacilitatorIP">
@@ -533,7 +505,6 @@
         <summary>The IP address of the NAT punchthrough facilitator.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="natFacilitatorPort">
@@ -549,7 +520,6 @@
         <summary>The port of the NAT punchthrough facilitator.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="peerType">
@@ -565,7 +535,6 @@
         <summary>The status of the peer type, i.e. if it is disconnected, connecting, server or client.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="player">
@@ -581,7 +550,6 @@
         <summary>Get the local <see cref="T:UnityEngine.NetworkPlayer" /> instance</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="proxyIP">
@@ -597,7 +565,6 @@
         <summary>The IP address of the proxy server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="proxyPassword">
@@ -613,7 +580,6 @@
         <summary>Set the proxy server password.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="proxyPort">
@@ -629,7 +595,6 @@
         <summary>The port of the proxy server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveRPCs">
@@ -648,7 +613,6 @@
         <param name="playerID">To be added.</param>
         <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveRPCs">
@@ -667,7 +631,6 @@
         <param name="viewID">To be added.</param>
         <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveRPCs">
@@ -688,7 +651,6 @@
         <param name="group">To be added.</param>
         <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to this player ID.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveRPCsInGroup">
@@ -707,7 +669,6 @@
         <param name="group">To be added.</param>
         <summary>Remove all <see cref="T:UnityEngine.RPC" /> functions which belong to given group number.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sendRate">
@@ -723,7 +684,6 @@
         <summary>The default send rate of network updates for all Network Views.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetLevelPrefix">
@@ -742,7 +702,6 @@
         <param name="prefix">To be added.</param>
         <summary>Set the level prefix which will then be prefixed to all network ViewID numbers.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetReceivingEnabled">
@@ -765,7 +724,6 @@
         <param name="enabled">To be added.</param>
         <summary>Enable or disables the reception of messages in a specific group number from a specific player.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetSendingEnabled">
@@ -786,7 +744,6 @@
         <param name="enabled">To be added.</param>
         <summary>Enables or disables transmission of messages and <see cref="T:UnityEngine.RPC" /> calls on a specific network group number.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetSendingEnabled">
@@ -809,7 +766,6 @@
         <param name="enabled">To be added.</param>
         <summary>Enables or disables transmission of messages and <see cref="T:UnityEngine.RPC" /> calls on a specific network group number.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TestConnection">
@@ -826,7 +782,6 @@
         <summary>Test this machines network connection.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TestConnection">
@@ -846,7 +801,6 @@
         <summary>Test this machines network connection.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TestConnectionNAT">
@@ -863,7 +817,6 @@
         <summary>Test the connecction specifically for NAT punchthrough connectivity.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -879,7 +832,6 @@
         <summary>Get the current network time (seconds).</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useNat">
@@ -892,10 +844,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Should we use NAT punchthrough when connecting (client) or accepting connections (server)?</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useProxy">
@@ -911,7 +862,6 @@
         <summary>Indicate if proxy support is needed, in which case traffic is relayed through the proxy server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

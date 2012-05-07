@@ -12,7 +12,6 @@
   <Docs>
     <summary><see cref="P:UnityEngine.MonoBehaviour.StartCoroutine" /> returns a Coroutine. Instances of this class are only used to reference these coroutines and do not hold any exposed properties or functions.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Finalize">
@@ -28,7 +27,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>The interface to get time information from Unity.</summary>
     <remarks>(Read Only). This is the time in seconds since the start of the game.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="captureFramerate">
@@ -41,7 +39,6 @@
         <summary>If captureFramerate is set to a value larger than 0, time will advance in</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="deltaTime">
@@ -57,7 +54,6 @@
         <summary>The time in seconds it took to complete the last frame (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedDeltaTime">
@@ -73,7 +69,6 @@
         <summary>The interval in seconds at which physics and other fixed frame rate updates (like MonoBehaviour's <see cref="P:UnityEngine.FixedUpdate" />) are performed.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedTime">
@@ -89,7 +84,6 @@
         <summary>The time the latest <see cref="P:UnityEngine.FixedUpdate" /> has started (Read Only). This is the time in seconds since the start of the game.</summary>
         <value>To be added.</value>
         <remarks>(Read Only). This is the time in seconds since the start of the game.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="frameCount">
@@ -105,7 +99,6 @@
         <summary>The total number of frames that have passed (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="realtimeSinceStartup">
@@ -121,7 +114,6 @@
         <summary>The real time in seconds since the game started (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="renderedFrameCount">
@@ -137,7 +129,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="smoothDeltaTime">
@@ -153,7 +144,6 @@
         <summary>A smoothed out <see cref="P:UnityEngine.Time.deltaTime" /> (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -169,7 +159,6 @@
         <summary>The time this frame has started (Read Only). This is the time in seconds since the start of the game.</summary>
         <value>To be added.</value>
         <remarks>(Read Only). This is the time in seconds since the start of the game.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="timeScale">
@@ -185,7 +174,6 @@
         <summary>The scale at which the time is passing. This can be used for slow motion effects.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="timeSinceLevelLoad">
@@ -201,7 +189,6 @@
         <summary>The time this frame has started (Read Only). This is the time in seconds since the last level has been loaded.</summary>
         <value>To be added.</value>
         <remarks>(Read Only). This is the time in seconds since the last level has been loaded.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

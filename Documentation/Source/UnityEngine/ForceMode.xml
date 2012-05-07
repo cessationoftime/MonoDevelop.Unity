@@ -11,7 +11,6 @@
   <Docs>
     <summary>Option for how to apply a force using <see cref="P:UnityEngine.Rigidbody.AddForce" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Acceleration">
@@ -24,8 +23,7 @@
         <ReturnType>UnityEngine.ForceMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Add a newton-like force to the rigidbody, ignoring its mass.</summary>
-        <since version="2.5.1"/>
+        <summary>Add a continuous acceleration to the rigidbody, ignoring its mass.</summary>
       </Docs>
     </Member>
     <Member MemberName="Force">
@@ -38,8 +36,7 @@
         <ReturnType>UnityEngine.ForceMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Add a newton-like force to the rigidbody, using its mass.</summary>
-        <since version="2.5.1"/>
+        <summary>Add a continuous force to the rigidbody, using its mass.</summary>
       </Docs>
     </Member>
     <Member MemberName="Impulse">
@@ -52,8 +49,7 @@
         <ReturnType>UnityEngine.ForceMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Change the rigidbody's velocity, using its mass.</summary>
-        <since version="2.5.1"/>
+        <summary>Add an instant force impulse to the rigidbody, using its mass.</summary>
       </Docs>
     </Member>
     <Member MemberName="VelocityChange">
@@ -66,8 +62,7 @@
         <ReturnType>UnityEngine.ForceMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Change the rigidbody's velocity, ignoring its mass.</summary>
-        <since version="2.5.1"/>
+        <summary>Add an instant velocity change to the rigidbody, ignoring its mass.</summary>
       </Docs>
     </Member>
   </Members>

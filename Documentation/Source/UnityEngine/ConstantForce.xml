@@ -12,7 +12,6 @@
   <Docs>
     <summary>A force applied constantly.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Rigidbody" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="force">
@@ -41,7 +39,6 @@
         <summary>The force applied to the rigidbody every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="relativeForce">
@@ -57,7 +54,6 @@
         <summary>The force - relative to the rigid bodies coordinate system - applied every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="relativeTorque">
@@ -73,7 +69,6 @@
         <summary>The torque - relative to the rigid bodies coordinate system - applied every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="torque">
@@ -89,7 +84,6 @@
         <summary>The torque applied to the rigidbody every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

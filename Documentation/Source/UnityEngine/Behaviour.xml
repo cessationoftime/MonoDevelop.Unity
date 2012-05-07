@@ -12,7 +12,6 @@
   <Docs>
     <summary>Behaviours are Components that can be enabled or disabled.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.MonoBehaviour" /> and <see cref="T:UnityEngine.Component" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="enabled">
@@ -41,7 +39,6 @@
         <summary>Enabled Behaviours are Updated, disabled Behaviours are not.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

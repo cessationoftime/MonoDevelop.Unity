@@ -12,7 +12,6 @@
   <Docs>
     <summary>A script interface for the <see cref="T:UnityEngine.skybox component" />.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.skybox component" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="material">
@@ -41,7 +39,6 @@
         <summary>The material used by the skybox.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.skybox component" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

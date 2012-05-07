@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>AssetBundles let you stream additional assets via the WWW class and instantiate them at runtime. AssetBundles are created via <see cref="P:UnityEngine.BuildPipeline.BuildAssetBundle" />.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.WWW.assetBundle" />, <see cref="T:UnityEngine.Loading Resources at Runtime" />, <see cref="P:UnityEngine.BuildPipeline.BuildPlayer" />.</remarks>
-    <since version="2.5.1"/>
+    <remarks>See Also: <see cref="P:UnityEngine.WWW.assetBundle" />, <see cref="T:UnityEngine.Loading Resources at Runtime" />, <see cref="P:UnityEngine.BuildPipeline.BuildAssetBundle" />.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Contains">
@@ -69,7 +67,6 @@
         <summary>Loads object with name from the bundle.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Load">
@@ -96,7 +93,6 @@
         <summary>Loads object with name from the bundle.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAll">
@@ -118,7 +114,6 @@
         <summary>Loads all objects contained in the asset bundle that inherit from type.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAll">
@@ -143,7 +138,6 @@
         <summary>Loads all objects contained in the asset bundle that inherit from type.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAsync">
@@ -180,7 +174,6 @@
         <summary>Main asset that was supplied when building the asset bundle (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Unload">
@@ -199,7 +192,6 @@
         <param name="unloadAllLoadedObjects">To be added.</param>
         <summary>Unloads all assets in the bundle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

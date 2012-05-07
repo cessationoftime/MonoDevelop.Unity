@@ -12,7 +12,6 @@
   <Docs>
     <summary>Data of a lightmap.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.LightmapSettings" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lightmap">
@@ -38,10 +36,9 @@
         <ReturnType>UnityEngine.Texture2D</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Lightmap's texture.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.LightmapSettings" /> class, <see cref="P:UnityEngine.Renderer.lightmapIndex" /> property.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

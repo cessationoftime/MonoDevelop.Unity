@@ -17,7 +17,6 @@
   <Docs>
     <summary>The Terrain component renders the terrain.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="activeTerrain">
@@ -46,7 +44,6 @@
         <summary>The active terrain. This is a convenience function to get to the main terrain in the scene.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddTreeInstance">
@@ -63,9 +60,8 @@
       </Parameters>
       <Docs>
         <param name="instance">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>Adds a tree instance to the terrain</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="basemapDistance">
@@ -81,7 +77,6 @@
         <summary>Heightmap patches beyond basemap distance will use a precomputed low res basemap.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="castShadows">
@@ -97,7 +92,6 @@
         <summary>Should terrain cast shadows?.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CreateTerrainGameObject">
@@ -117,7 +111,6 @@
         <summary>Creates a Terrain including collider from <see cref="T:UnityEngine.TerrainData" /></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detailObjectDistance">
@@ -130,10 +123,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Details will be displayed up to this distance.</summary>
+        <summary>Detail objects will be displayed up to this distance.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.detailObjectDensity" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    <see cref="P:UnityEngine.Terrain.activeTerrain" />.detailObjectDistance = 40;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="P:UnityEngine.Terrain.activeTerrain" />.detailObjectDistance = 40;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        <see cref="P:UnityEngine.Terrain.activeTerrain" />.detailObjectDistance = 40&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Flush">
@@ -147,9 +139,8 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Flushes any change done in the terrain so it takes effect.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapMaximumLOD">
@@ -165,7 +156,6 @@
         <summary>Lets you essentially lower the heightmap resolution used for rendering</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="heightmapPixelError">
@@ -181,7 +171,6 @@
         <summary>An approximation of how many pixels the terrain will pop in the worst case when switching lod.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lighting">
@@ -194,10 +183,9 @@
         <ReturnType>UnityEngine.TerrainLighting</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Terrain lighting mode.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.TerrainLighting" /> enum, <see cref="T:UnityEngine.Terrain Lightmaps" />, <see cref="T:UnityEngine.Terrain Settings" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="m_DrawTreesAndFoliage">
@@ -212,7 +200,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="m_EditorRenderFlags">
@@ -227,7 +214,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveTrees">
@@ -250,7 +236,6 @@
         <param name="prototypeIndex">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SampleHeight">
@@ -270,7 +255,6 @@
         <summary>Samples the height at the given position defined in world space, relative to the terrain space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetNeighbors">
@@ -295,7 +279,6 @@
         <param name="bottom">To be added.</param>
         <summary>Lets you setup the connection between neighboring Terrains.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="splatmapDistance">
@@ -316,7 +299,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="terrainData">
@@ -332,7 +314,6 @@
         <summary>The Terrain Data that stores heightmaps, terrain textures, detail meshes and trees.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="treeBillboardDistance">
@@ -348,7 +329,6 @@
         <summary>Distance from the camera where trees will be rendered as billboards only.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="treeCrossFadeLength">
@@ -364,7 +344,6 @@
         <summary>Total distance delta that trees will use to transition from billboard orientation to mesh orientation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="treeDistance">
@@ -379,8 +358,7 @@
       <Docs>
         <summary>The maximum distance at which trees are rendered</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Terrain.treeBillboardDistance" /></remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Terrain.treeBillboardDistance" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    <see cref="P:UnityEngine.Terrain.activeTerrain" />.treeDistance = 2000;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        <see cref="P:UnityEngine.Terrain.activeTerrain" />.treeDistance = 2000;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        <see cref="P:UnityEngine.Terrain.activeTerrain" />.treeDistance = 2000&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="treeMaximumFullLODCount">
@@ -396,7 +374,6 @@
         <summary>Maximum number of trees rendered at full LOD.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useLightmap">
@@ -417,7 +394,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

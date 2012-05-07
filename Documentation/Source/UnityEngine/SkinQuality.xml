@@ -11,7 +11,6 @@
   <Docs>
     <summary>/ The maximum number of bones affecting a single vertex</summary>
     <remarks>See Also: <see cref="P:UnityEngine.SkinnedMeshRenderer.quality" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Auto">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Chooses the number of bones from the number current <see cref="T:UnityEngine.QualitySettings" /> (Default)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Bone1">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Use only 1 bone to deform a single vertex. (The most important bone will be used)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Bone2">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Use 2 bones to deform a single vertex. (The most important bones will be used)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Bone4">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Use 4 bones to deform a single vertex.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

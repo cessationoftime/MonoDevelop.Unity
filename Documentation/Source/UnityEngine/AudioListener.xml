@@ -12,7 +12,6 @@
   <Docs>
     <summary>Representation of a listener in 3D space.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.AudioSource" />, <see cref="T:UnityEngine.AudioListener component" /> in the Components Reference.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pause">
@@ -41,7 +39,6 @@
         <summary>The paused state of the audio. If set to True, the listener will not generate sound.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="velocityUpdateMode">
@@ -57,7 +54,6 @@
         <summary>This lets you set whether the Audio Listener should be updated in the fixed or dynamic update.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="volume">
@@ -73,7 +69,6 @@
         <summary>Controls the game sound volume.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

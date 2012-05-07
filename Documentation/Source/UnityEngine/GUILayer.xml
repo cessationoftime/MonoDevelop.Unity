@@ -12,7 +12,6 @@
   <Docs>
     <summary><see cref="T:UnityEngine.Component" /> added to a camera to make it render 2D GUI elements.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HitTest">
@@ -45,7 +43,6 @@
         <summary>Get the GUI element at a specific screen position.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

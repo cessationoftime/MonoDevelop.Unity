@@ -12,7 +12,6 @@
   <Docs>
     <summary>A container for audio data.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.AudioClip component" /> in the Components Reference</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="channels">
@@ -71,7 +69,6 @@
         <summary>Is a streamed audio clip ready to play? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="length">
@@ -87,7 +84,6 @@
         <summary>The length of the audio clip in seconds (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="samples">

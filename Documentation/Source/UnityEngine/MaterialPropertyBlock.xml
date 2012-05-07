@@ -12,7 +12,6 @@
   <Docs>
     <summary>A block of material values to apply.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.Graphics.DrawMesh" />, <see cref="T:UnityEngine.Material" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddColor">
@@ -46,7 +44,6 @@
         <param name="value">To be added.</param>
         <summary>Add a color material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddColor">
@@ -67,7 +64,6 @@
         <param name="value">To be added.</param>
         <summary>Add a color material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddFloat">
@@ -88,7 +84,6 @@
         <param name="value">To be added.</param>
         <summary>Add a float material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddFloat">
@@ -109,7 +104,6 @@
         <param name="value">To be added.</param>
         <summary>Add a float material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddMatrix">
@@ -130,7 +124,6 @@
         <param name="value">To be added.</param>
         <summary>Add a matrix material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddMatrix">
@@ -151,7 +144,6 @@
         <param name="value">To be added.</param>
         <summary>Add a matrix material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddVector">
@@ -172,7 +164,6 @@
         <param name="value">To be added.</param>
         <summary>Add a vector material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddVector">
@@ -193,7 +184,6 @@
         <param name="value">To be added.</param>
         <summary>Add a vector material property.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -209,7 +199,6 @@
       <Docs>
         <summary>Clear material property values.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyBlock">
@@ -225,7 +214,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Finalize">
@@ -241,7 +229,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InitBlock">
@@ -257,7 +244,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>The Master Server is used to make matchmaking between servers and clients easy.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClearHostList">
@@ -41,7 +39,6 @@
       <Docs>
         <summary>Clear the host list which was received by <see cref="P:UnityEngine.MasterServer.PollHostList" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dedicatedServer">
@@ -57,7 +54,6 @@
         <summary>Report this machine as a dedicated server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ipAddress">
@@ -73,7 +69,6 @@
         <summary>The IP address of the master server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PollHostList">
@@ -90,7 +85,6 @@
         <summary>Check for the latest host list received by using <see cref="P:UnityEngine.MasterServer.RequestHostList" />.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="port">
@@ -106,7 +100,6 @@
         <summary>The connection port of the master server.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RegisterHost">
@@ -127,7 +120,6 @@
         <param name="gameName">To be added.</param>
         <summary>Register this server on the master server.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RegisterHost">
@@ -150,7 +142,6 @@
         <param name="comment">To be added.</param>
         <summary>Register this server on the master server.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RequestHostList">
@@ -169,7 +160,6 @@
         <param name="gameTypeName">To be added.</param>
         <summary>Request a host list from the master server.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="UnregisterHost">
@@ -185,7 +175,6 @@
       <Docs>
         <summary>Unregister this server from the master server.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="updateRate">
@@ -201,7 +190,6 @@
         <summary>Set the minimum update rate for master server host information update.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

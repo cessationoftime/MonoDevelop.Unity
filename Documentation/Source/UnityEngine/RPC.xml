@@ -17,7 +17,6 @@
   <Docs>
     <summary>Attribute for setting up RPC functions.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.NetworkView.RPC" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,7 +29,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

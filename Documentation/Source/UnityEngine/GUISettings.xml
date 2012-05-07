@@ -12,7 +12,6 @@
   <Docs>
     <summary>General settings for how the GUI behaves</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="cursorColor">
@@ -41,7 +39,6 @@
         <summary>The color of the cursor in text fields.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="cursorFlashSpeed">
@@ -57,7 +54,6 @@
         <summary>The speed of text field cursor flashes.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="doubleClickSelectsWord">
@@ -73,7 +69,6 @@
         <summary>Should double-clicking select words in text fields.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="selectionColor">
@@ -89,7 +84,6 @@
         <summary>The color of the selection rect in text fields.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tripleClickSelectsLine">
@@ -105,7 +99,6 @@
         <summary>Should triple-clicking select whole text in text fields.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

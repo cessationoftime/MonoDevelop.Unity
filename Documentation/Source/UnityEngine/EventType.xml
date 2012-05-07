@@ -11,7 +11,6 @@
   <Docs>
     <summary>Types of UnityGUI input and processing events.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.Event.type" />, <see cref="T:UnityEngine.Event" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="ContextClick">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>User has right-clicked (or control-clicked on the mac).</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DragExited">
@@ -40,7 +38,6 @@
       <Docs>
         <summary>Editor only: drag &amp; drop operation exited.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dragPerform">
@@ -55,7 +52,6 @@
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DragPerform">
@@ -70,7 +66,6 @@
       <Docs>
         <summary>Editor only: drag &amp; drop operation performed.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dragUpdated">
@@ -85,7 +80,6 @@
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DragUpdated">
@@ -100,7 +94,6 @@
       <Docs>
         <summary>Editor only: drag &amp; drop operation updated.</summary>
         <remarks>See Also: <see cref="T:UnityEngine.DragAndDrop" /> class.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ExecuteCommand">
@@ -114,7 +107,6 @@
       </ReturnValue>
       <Docs>
         <summary>Execute a special command (eg. copy &amp; paste)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ignore">
@@ -128,7 +120,6 @@
       </ReturnValue>
       <Docs>
         <summary><see cref="T:UnityEngine.Event" /> should be ignored.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Ignore">
@@ -142,7 +133,6 @@
       </ReturnValue>
       <Docs>
         <summary><see cref="T:UnityEngine.Event" /> should be ignored.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="keyDown">
@@ -156,7 +146,6 @@
       </ReturnValue>
       <Docs>
         <summary>A keyboard key was pressed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeyDown">
@@ -170,7 +159,6 @@
       </ReturnValue>
       <Docs>
         <summary>A keyboard key was pressed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="keyUp">
@@ -184,7 +172,6 @@
       </ReturnValue>
       <Docs>
         <summary>A keyboard key was released.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -198,7 +185,6 @@
       </ReturnValue>
       <Docs>
         <summary>A keyboard key was released.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="layout">
@@ -212,7 +198,6 @@
       </ReturnValue>
       <Docs>
         <summary>A layout event.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Layout">
@@ -226,7 +211,6 @@
       </ReturnValue>
       <Docs>
         <summary>A layout event.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mouseDown">
@@ -240,7 +224,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse button was pressed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -254,7 +237,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse button was pressed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mouseDrag">
@@ -268,7 +250,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse was dragged.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MouseDrag">
@@ -282,7 +263,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse was dragged.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mouseMove">
@@ -296,7 +276,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse was moved (editor views only).</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MouseMove">
@@ -310,7 +289,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse was moved (editor views only).</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mouseUp">
@@ -324,7 +302,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse button was released.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">
@@ -338,7 +315,6 @@
       </ReturnValue>
       <Docs>
         <summary>Mouse button was released.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="repaint">
@@ -352,7 +328,6 @@
       </ReturnValue>
       <Docs>
         <summary>A repaint event. One is sent every frame.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Repaint">
@@ -366,7 +341,6 @@
       </ReturnValue>
       <Docs>
         <summary>A repaint event. One is sent every frame.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="scrollWheel">
@@ -380,7 +354,6 @@
       </ReturnValue>
       <Docs>
         <summary>The scroll wheel was moved.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScrollWheel">
@@ -394,7 +367,6 @@
       </ReturnValue>
       <Docs>
         <summary>The scroll wheel was moved.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="used">
@@ -408,7 +380,6 @@
       </ReturnValue>
       <Docs>
         <summary>Already processed event.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Used">
@@ -422,7 +393,6 @@
       </ReturnValue>
       <Docs>
         <summary>Already processed event.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ValidateCommand">
@@ -436,7 +406,6 @@
       </ReturnValue>
       <Docs>
         <summary>Validates a special command (e.g. copy &amp; paste)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

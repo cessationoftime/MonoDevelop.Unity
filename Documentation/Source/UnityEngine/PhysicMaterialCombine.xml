@@ -11,7 +11,6 @@
   <Docs>
     <summary>Describes how physic materials of colliding objects are combined.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.PhysicMaterial.frictionCombine" />, <see cref="P:UnityEngine.PhysicMaterial.bounceCombine" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Average">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Averages the friction/bounce of the two colliding materials.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Maximum">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Uses the larger friction/bounce of the two colliding materials.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Minimum">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Uses the smaller friction/bounce of the two colliding materials.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Multiply">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Multiplies the friction/bounce of the two colliding materials.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

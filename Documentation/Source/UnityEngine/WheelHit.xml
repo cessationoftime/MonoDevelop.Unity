@@ -12,7 +12,6 @@
   <Docs>
     <summary>Contact information for the wheel, reported by <see cref="T:UnityEngine.WheelCollider" />.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.WheelCollider.GetGroundHit" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="collider">
@@ -28,7 +27,6 @@
         <summary>The other <see cref="T:UnityEngine.Collider" /> the wheel is hitting.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="force">
@@ -44,7 +42,6 @@
         <summary>The magnitude of the force being applied for the contact.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="forwardDir">
@@ -60,7 +57,6 @@
         <summary>The direction the wheel is pointing in.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="forwardSlip">
@@ -76,7 +72,6 @@
         <summary>Tire slip in the rolling direction. Acceleration slip is negative, braking slip is positive.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normal">
@@ -92,7 +87,6 @@
         <summary>The normal at the point of contact.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="point">
@@ -108,7 +102,6 @@
         <summary>The point of contact between the wheel and the ground.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sidewaysDir">
@@ -124,7 +117,6 @@
         <summary>The sideways direction of the wheel.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sidewaysSlip">
@@ -140,7 +132,6 @@
         <summary>Tire slip in the sideways direction.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

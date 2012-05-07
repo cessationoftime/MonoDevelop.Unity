@@ -11,8 +11,7 @@
   <Interfaces/>
   <Docs>
     <summary>Style settings for a GUI element.</summary>
-    <remarks>See Also: <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onNormal" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" /> - these contain the background image &amp; text color properties for each state.Text rendering	The style can define a font for text rendering, as well as alignment, wordwrap and clipping settings. It also defines colors for the text in the various states of the style element		See Also: <see cref="P:UnityEngine.font" />, <see cref="P:UnityEngine.alignment" />, <see cref="P:UnityEngine.wordWrap" />, <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" />Icon Placement	GUIStyles can be rendered with either text, and icon or both. The GUIStyle defines where these two are rendered in relation to each other (or can force it to only display one of them).		See Also: <see cref="P:UnityEngine.imagePosition" />Sizing and Spacing Options	GUIStyles contain padding, margins and borders. These corresponds loosely to the similar named CSS properties. A GUIStyle can optionally define a fixed width and height.		See Also: <see cref="P:UnityEngine.margin" />, <see cref="P:UnityEngine.padding" />, <see cref="P:UnityEngine.border" />, <see cref="P:UnityEngine.fixedWidth" />, <see cref="P:UnityEngine.fixedHeight" /></remarks>
-    <since version="2.5.1"/>
+    <remarks>See Also: <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onNormal" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" /> - these contain the background image &amp; text color properties for each state.&#xD;Text rendering&#xD;	The style can define a font for text rendering, as well as alignment, wordwrap and clipping settings. It also defines colors for the text in the various states of the style element&#xD;		See Also: <see cref="P:UnityEngine.font" />, <see cref="P:UnityEngine.alignment" />, <see cref="P:UnityEngine.wordWrap" />, <see cref="P:UnityEngine.normal" />, <see cref="P:UnityEngine.hover" />, <see cref="P:UnityEngine.active" />, <see cref="P:UnityEngine.onHover" />, <see cref="P:UnityEngine.onActive" />&#xD;Icon Placement&#xD;	GUIStyles can be rendered with either text, and icon or both. The GUIStyle defines where these two are rendered in relation to each other (or can force it to only display one of them).&#xD;		See Also: <see cref="P:UnityEngine.imagePosition" />&#xD;Sizing and Spacing Options&#xD;	GUIStyles contain padding, margins and borders. These corresponds loosely to the similar named CSS properties. A GUIStyle can optionally define a fixed width and height.&#xD;		See Also: <see cref="P:UnityEngine.margin" />, <see cref="P:UnityEngine.padding" />, <see cref="P:UnityEngine.border" />, <see cref="P:UnityEngine.fixedWidth" />, <see cref="P:UnityEngine.fixedHeight" /></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Constructor for empty GUIStyle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -41,7 +39,6 @@
         <param name="other">To be added.</param>
         <summary>Constructor for empty GUIStyle.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="active">
@@ -57,7 +54,6 @@
         <summary>Rendering settings for when the control is pressed down.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alignment">
@@ -73,7 +69,6 @@
         <summary>Text alignment.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="border">
@@ -89,7 +84,6 @@
         <summary>The borders of all background images.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalcHeight">
@@ -111,7 +105,6 @@
         <summary>How tall this element will be when rendered with content and a specific width.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalcMinMaxWidth">
@@ -134,7 +127,6 @@
         <param name="maxWidth">To be added.</param>
         <summary>Calculate the minimum and maximum widths for this style rendered with content.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalcScreenSize">
@@ -154,7 +146,6 @@
         <summary>Calculate the size of an element formatted with this style, and a given space to content.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CalcSize">
@@ -172,9 +163,8 @@
       <Docs>
         <param name="content">To be added.</param>
         <summary>Calculate the size of a some content if it is rendered with this style.</summary>
-        <returns>To be added.</returns>
+        <returns><see cref="T:UnityEngine.Vector2" /> - The size of the content rendered with this style.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clipOffset">
@@ -183,20 +173,19 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>UnityEngine.Vector2</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Clip offset to apply to the content of this GUIstyle</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
-      </Docs>
       <Attributes>
         <Attribute>
           <AttributeName>System.Obsolete("Don't use clipOffset - put things inside begingroup instead. This functionality will be removed in a later version.")</AttributeName>
         </Attribute>
       </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
     </Member>
     <Member MemberName="clipping">
       <MemberSignature Language="C#" Value="public UnityEngine.TextClipping clipping { set; get; }"/>
@@ -211,7 +200,6 @@
         <summary>What to do when the contents to be rendered is too large to fit within the area given.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="contentOffset">
@@ -227,7 +215,6 @@
         <summary>Pixel offset to apply to the content of this GUIstyle</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -250,7 +237,6 @@
         <param name="controlID">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -275,7 +261,6 @@
         <param name="on">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -302,7 +287,6 @@
         <param name="hasKeyboardFocus">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -331,7 +315,6 @@
         <param name="hasKeyboardFocus">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -360,7 +343,6 @@
         <param name="hasKeyboardFocus">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Draw">
@@ -389,7 +371,6 @@
         <param name="hasKeyboardFocus">To be added.</param>
         <summary>Draw plain GUIStyle without text nor image.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawCursor">
@@ -414,7 +395,6 @@
         <param name="Character">To be added.</param>
         <summary>Draw this GUIStyle with selected content.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawWithTextSelection">
@@ -441,7 +421,6 @@
         <param name="lastSelectedCharacter">To be added.</param>
         <summary>Draw this GUIStyle with selected content.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Finalize">
@@ -457,7 +436,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedHeight">
@@ -473,7 +451,6 @@
         <summary>If non-0, any GUI elements rendered with this style will have the height specified here.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="fixedWidth">
@@ -489,7 +466,6 @@
         <summary>If non-0, any GUI elements rendered with this style will have the width specified here.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="focused">
@@ -505,7 +481,6 @@
         <summary>Rendering settings for when the element has keyboard focus.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="font">
@@ -521,7 +496,6 @@
         <summary>The font to use for rendering. If null, the default font for the current <see cref="T:UnityEngine.GUISkin" /> is used instead.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetCursorPixelPosition">
@@ -542,10 +516,9 @@
         <param name="position">To be added.</param>
         <param name="content">To be added.</param>
         <param name="cursorStringIndex">To be added.</param>
-        <summary>Get the pixel position of a given string index.</summary>
+        <summary>Shortcut for an empty GUIStyle.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetCursorStringIndex">
@@ -569,7 +542,6 @@
         <summary>Get the cursor position (indexing into contents.text) when the user clicked at cursorPixelPosition</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="hover">
@@ -585,7 +557,6 @@
         <summary>Rendering settings for when the mouse is hovering over the control</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="imagePosition">
@@ -601,7 +572,6 @@
         <summary>How image and text of the <see cref="T:UnityEngine.GUIContent" /> is combined.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Internal_CalcSize">
@@ -626,7 +596,6 @@
         <param name="ret">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Internal_GetCursorPixelPosition">
@@ -655,7 +624,6 @@
         <param name="ret">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Internal_GetCursorStringIndex">
@@ -683,7 +651,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isHeightDependantOnWidth">
@@ -699,7 +666,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="lineHeight">
@@ -715,7 +681,6 @@
         <summary>The height of one line of text with this style, measured in pixels. (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="margin">
@@ -730,8 +695,7 @@
       <Docs>
         <summary>The margins between elements rendered in this style and any other GUI elements</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.GUILayout" />).</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.GUILayout" />).&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Prints the left, right, top and down values of the GUIStyle margin&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;private &lt;span class="hl-keyword"&gt;var rctOff : <see cref="T:UnityEngine.RectOffset" />;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI() {    &lt;span class="hl-keyword"&gt;if(<see cref="P:UnityEngine.GUI.skin" />.customStyles.Length &amp;gt; 0) {        rctOff = <see cref="P:UnityEngine.GUI.skin" />.customStyles[0].margin;        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Left: " + rctOff.left + &lt;span class="hl-string"&gt;" Right: " + rctOff.right);        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Top: " + rctOff.top + &lt;span class="hl-string"&gt;" Bottom: " + rctOff.bottom);    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;private <see cref="T:UnityEngine.RectOffset" /> rctOff;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.GUI.skin" />.customStyles.Length &amp;gt; 0) {            rctOff = <see cref="P:UnityEngine.GUI.skin" />.customStyles[0].margin;            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Left: " + rctOff.left + &lt;span class="hl-string"&gt;" Right: " + rctOff.right);            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Top: " + rctOff.top + &lt;span class="hl-string"&gt;" Bottom: " + rctOff.bottom);        }    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;private rctOff as <see cref="T:UnityEngine.RectOffset" />    def &lt;span class="hl-operator"&gt;OnGUI():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.GUI.skin" />.customStyles.Length &amp;gt; 0:            rctOff = <see cref="P:UnityEngine.GUI.skin" />.customStyles[0].margin            <see cref="P:UnityEngine.Debug.Log" />(((('Left: ' + rctOff.left) + ' Right: ') + rctOff.right))            <see cref="P:UnityEngine.Debug.Log" />(((('Top: ' + rctOff.top) + ' Bottom: ') + rctOff.bottom))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="name">
@@ -747,7 +711,6 @@
         <summary>The name of this GUIStyle. Used for getting them based on name....</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="none">
@@ -760,10 +723,9 @@
         <ReturnType>UnityEngine.GUIStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Shortcut for an empty GUIStyle.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normal">
@@ -779,7 +741,6 @@
         <summary>Rendering settings for when the component is displayed normally.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="onActive">
@@ -795,7 +756,6 @@
         <summary>Rendering settings for when the element is turned on and pressed down.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="onFocused">
@@ -811,7 +771,6 @@
         <summary>Rendering settings for when the element has keyboard and is turned on.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="onHover">
@@ -827,7 +786,6 @@
         <summary>Rendering settings for when the control is turned on and the mouse is hovering it.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="onNormal">
@@ -843,7 +801,6 @@
         <summary>Rendering settings for when the control is turned on.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -863,7 +820,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="overflow">
@@ -879,7 +835,6 @@
         <summary>Extra space to be added to the background image.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="padding">
@@ -895,7 +850,6 @@
         <summary>Space from the edge of <see cref="T:UnityEngine.GUIStyle" /> to the start of the contents.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stretchHeight">
@@ -911,7 +865,6 @@
         <summary>Can GUI elements of this style be stretched vertically for better layouting?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stretchWidth">
@@ -927,7 +880,6 @@
         <summary>Can GUI elements of this style be stretched horizontally for better layouting?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -944,7 +896,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wordWrap">
@@ -960,7 +911,6 @@
         <summary>Word wrap the text?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Particle animators move your particles over time, you use them to apply wind, drag &amp; color cycling to your particle systems.</summary>
+    <summary>(Legacy Particles) Particle animators move your particles over time, you use them to apply wind, drag &amp; color cycling to your particle emitters.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="autodestruct">
@@ -41,7 +39,6 @@
         <summary>Does the <see cref="T:UnityEngine.GameObject" /> of this particle animator auto destructs?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="colorAnimation">
@@ -57,7 +54,6 @@
         <summary>Colors the particles will cycle through over their lifetime.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="damping">
@@ -73,7 +69,6 @@
         <summary>How much particles are slowed down every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="doesAnimateColor">
@@ -89,7 +84,6 @@
         <summary>Do particles cycle their color over their lifetime?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="force">
@@ -105,7 +99,6 @@
         <summary>The force being applied to particles every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="localRotationAxis">
@@ -121,7 +114,6 @@
         <summary>Local space axis the particles rotate around.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rndForce">
@@ -137,7 +129,6 @@
         <summary>A random force added to particles every frame.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sizeGrow">
@@ -153,7 +144,6 @@
         <summary>How the particle sizes grow over their lifetime.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="worldRotationAxis">
@@ -169,7 +159,6 @@
         <summary>World space axis the particles rotate around.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

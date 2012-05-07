@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>The Resources class allows you to Find and Load Objects by their path name.</summary>
+    <summary>The Resources class allows you to find and access Objects including assets.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetBuiltinResource">
@@ -68,10 +66,9 @@
       </Parameters>
       <Docs>
         <param name="path">To be added.</param>
-        <summary>Loads an asset stored at path in the Resources folder.</summary>
+        <summary>Loads an asset stored at path in a Resources folder.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Load">
@@ -95,10 +92,9 @@
       <Docs>
         <param name="path">To be added.</param>
         <param name="type">To be added.</param>
-        <summary>Loads an asset stored at path in the Resources folder.</summary>
+        <summary>Loads an asset stored at path in a Resources folder.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAll">
@@ -120,10 +116,9 @@
       </Parameters>
       <Docs>
         <param name="path">To be added.</param>
-        <summary>Loads all assets in a folder or file at path in the Resources folder.</summary>
+        <summary>Loads all assets in a folder or file at path in a Resources folder.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAll">
@@ -147,10 +142,9 @@
       <Docs>
         <param name="path">To be added.</param>
         <param name="type">To be added.</param>
-        <summary>Loads all assets in a folder or file at path in the Resources folder.</summary>
+        <summary>Loads all assets in a folder or file at path in a Resources folder.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadAssetAtPath">
@@ -172,7 +166,6 @@
         <summary>Returns a resource at an asset path (Editor Only).</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="UnloadUnusedAssets">
@@ -186,8 +179,8 @@
       </ReturnValue>
       <Parameters/>
       <Docs>
-        <summary>Unload unused Assets from memory.</summary>
-        <returns>To be added.</returns>
+        <summary>Unloads assets that are not used.</summary>
+        <returns><see cref="T:UnityEngine.AsyncOperation" /> - object on which you can yield to wait until the operation completes.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

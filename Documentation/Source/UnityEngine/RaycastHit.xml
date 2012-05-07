@@ -12,7 +12,6 @@
   <Docs>
     <summary>Structure used to get information back from a raycast.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="barycentricCoordinate">
@@ -28,7 +27,6 @@
         <summary>The barycentric coordinate of the triangle we hit.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="collider">
@@ -49,7 +47,6 @@
         <summary>The <see cref="T:UnityEngine.Collider" /> that was hit.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="distance">
@@ -65,7 +62,6 @@
         <summary>The distance from the ray's origin to the impact point.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normal">
@@ -81,7 +77,6 @@
         <summary>The normal of the surface the ray hit.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="point">
@@ -97,7 +92,6 @@
         <summary>The impact point in world space where the ray hit the collider.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rigidbody">
@@ -113,7 +107,6 @@
         <summary>The <see cref="T:UnityEngine.Rigidbody" /> of the collider that was hit. If the collider is not attached to a rigidbody then it is null.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="textureCoord">
@@ -129,7 +122,6 @@
         <summary>The uv texture coordinate at the impact point.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="textureCoord1">
@@ -150,7 +142,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="textureCoord2">
@@ -166,7 +157,6 @@
         <summary>The secondary uv texture coordinate at the impact point.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="transform">
@@ -182,7 +172,6 @@
         <summary>The <see cref="T:UnityEngine.Transform" /> of the rigidbody or collider that was hit.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="triangleIndex">
@@ -198,7 +187,6 @@
         <summary>The index of the triangle that was hit.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

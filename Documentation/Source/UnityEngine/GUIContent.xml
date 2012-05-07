@@ -12,7 +12,6 @@
   <Docs>
     <summary>The contents of a GUI element.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.GUIStyle" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -41,7 +39,6 @@
         <param name="text">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -57,7 +54,6 @@
         <param name="src">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -73,7 +69,6 @@
         <param name="image">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -91,7 +86,6 @@
         <param name="tooltip">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -109,7 +103,6 @@
         <param name="image">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -127,7 +120,6 @@
         <param name="tooltip">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -147,7 +139,6 @@
         <param name="tooltip">To be added.</param>
         <summary>Constructor for GUIContent in all shapes and sizes</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="hash">
@@ -163,7 +154,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="image">
@@ -179,7 +169,6 @@
         <summary>The icon image contained.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="none">
@@ -194,7 +183,6 @@
       <Docs>
         <summary>Shorthand for empty content.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="text">
@@ -210,7 +198,6 @@
         <summary>The text contained.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="tooltip">
@@ -226,7 +213,6 @@
         <summary>The tooltip of this element.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -11,7 +11,6 @@
   <Docs>
     <summary>Option for who will receive an <see cref="T:UnityEngine.RPC" />, used by <see cref="P:UnityEngine.NetworkView.RPC" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="All">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sends to everyone</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AllBuffered">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sends to everyone and adds to the buffer</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Others">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sends to everyone except the sender</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="OthersBuffered">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sends to everyone except the sender and adds to the buffer</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Server">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sends to the server only</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

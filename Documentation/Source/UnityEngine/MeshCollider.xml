@@ -12,7 +12,6 @@
   <Docs>
     <summary>A mesh collider allows you to do <see cref="T:UnityEngine.collision detection" /> between meshes and primitives.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.BoxCollider" />, <see cref="T:UnityEngine.CapsuleCollider" />, <see cref="T:UnityEngine.PhysicMaterial" />, <see cref="T:UnityEngine.Rigidbody" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="convex">
@@ -41,7 +39,6 @@
         <summary>Use a convex collider from the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mesh">
@@ -62,7 +59,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sharedMesh">
@@ -78,7 +74,6 @@
         <summary>The mesh object used for collision detection</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="smoothSphereCollisions">
@@ -94,7 +89,6 @@
         <summary>Uses interpolated normals for sphere collisions instead of flat polygonal normals.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

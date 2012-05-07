@@ -11,7 +11,6 @@
   <Docs>
     <summary><see cref="T:UnityEngine.Rigidbody" /> interpolation mode.</summary>
     <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Extrapolate">
@@ -25,8 +24,7 @@
       </ReturnValue>
       <Docs>
         <summary>Extrapolation will predict the position of the rigidbody based on the current velocity.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Extrapolate" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Extrapolate" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Extrapolate" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Interpolate">
@@ -40,8 +38,7 @@
       </ReturnValue>
       <Docs>
         <summary>Interpolation will always lag a little bit behind but can be smoother than extrapolation.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Interpolate" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Interpolate" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.Interpolate" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -55,8 +52,7 @@
       </ReturnValue>
       <Docs>
         <summary>No Interpolation.</summary>
-        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.interpolation" /> variable.	&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.None" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.None" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        rigidbody.interpolation = <see cref="P:UnityEngine.RigidbodyInterpolation.None" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

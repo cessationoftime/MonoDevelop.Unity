@@ -12,7 +12,6 @@
   <Docs>
     <summary>Low-level graphics library.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Begin">
@@ -44,7 +42,6 @@
         <param name="mode">To be added.</param>
         <summary>Begin drawing 3D primitives.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -67,7 +64,6 @@
         <param name="backgroundColor">To be added.</param>
         <summary>Clear the current render buffer.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Color">
@@ -86,7 +82,6 @@
         <param name="c">To be added.</param>
         <summary>Sets current vertex color.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="End">
@@ -102,7 +97,6 @@
       <Docs>
         <summary>End drawing 3D primitives.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LINES">
@@ -118,7 +112,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadIdentity">
@@ -134,7 +127,6 @@
       <Docs>
         <summary>Load the identity matrix to the current modelview matrix.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadOrtho">
@@ -150,7 +142,6 @@
       <Docs>
         <summary>Helper function to set up an ortho perspective transform.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadPixelMatrix">
@@ -166,7 +157,6 @@
       <Docs>
         <summary>Setup a matrix for pixel-correct rendering.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadPixelMatrix">
@@ -191,7 +181,6 @@
         <param name="top">To be added.</param>
         <summary>Setup a matrix for pixel-correct rendering.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LoadProjectionMatrix">
@@ -210,7 +199,6 @@
         <param name="mat">To be added.</param>
         <summary>Load an arbitrary matrix to the current projection matrix.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="modelview">
@@ -226,7 +214,6 @@
         <summary>The current modelview matrix.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MultiTexCoord">
@@ -247,7 +234,6 @@
         <param name="v">To be added.</param>
         <summary>Sets current texture coordinate (v.x,v.y,v.z) to the actual texture unit.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MultiTexCoord2">
@@ -270,7 +256,6 @@
         <param name="y">To be added.</param>
         <summary>Sets current texture coordinate (x,y) for the actual texture unit.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MultiTexCoord3">
@@ -295,7 +280,6 @@
         <param name="z">To be added.</param>
         <summary>Sets current texture coordinate (x,y,z) to the actual texture unit.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MultMatrix">
@@ -314,7 +298,6 @@
         <param name="mat">To be added.</param>
         <summary>Multiplies the current modelview matrix with the one specified.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PopMatrix">
@@ -330,7 +313,6 @@
       <Docs>
         <summary>Restores both projection and modelview matrices off the top of the matrix stack.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PushMatrix">
@@ -346,7 +328,6 @@
       <Docs>
         <summary>Saves both projection and modelview matrices to the matrix stack.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="QUADS">
@@ -362,7 +343,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetRevertBackfacing">
@@ -381,7 +361,6 @@
         <param name="revertBackFaces">To be added.</param>
         <summary>Select whether to invert the backface culling (true) or not (false).</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TexCoord">
@@ -400,7 +379,6 @@
         <param name="v">To be added.</param>
         <summary>Sets current texture coordinate (v.x,v.y,v.z) for all texture units.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TexCoord2">
@@ -421,7 +399,6 @@
         <param name="y">To be added.</param>
         <summary>Sets current texture coordinate (x,y) for all texture units.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TexCoord3">
@@ -444,7 +421,6 @@
         <param name="z">To be added.</param>
         <summary>Sets current texture coordinate (x,y,z) for all texture units.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TRIANGLE_STRIP">
@@ -460,7 +436,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TRIANGLES">
@@ -476,7 +451,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Vertex">
@@ -495,7 +469,6 @@
         <param name="v">To be added.</param>
         <summary>Submit a vertex.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Vertex3">
@@ -518,7 +491,6 @@
         <param name="z">To be added.</param>
         <summary>Submit a vertex.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Viewport">
@@ -537,7 +509,6 @@
         <param name="pixelRect">To be added.</param>
         <summary>Set the rendering viewport.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

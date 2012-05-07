@@ -12,7 +12,6 @@
   <Docs>
     <summary>JointLimits is used by the <see cref="T:UnityEngine.HingeJoint" /> to limit the joints angle.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.HingeJoint" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="max">
@@ -28,7 +27,6 @@
         <summary>The upper limit of the joint. When the joint angle or position is above it,</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxBounce">
@@ -41,10 +39,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The bouncyness of the joint when hitting the upper limit of the joint.</summary>
+        <summary>The bounciness of the joint when hitting the upper limit of the joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="min">
@@ -60,7 +57,6 @@
         <summary>The lower limit of the joint. When the joint angle or position is below it,</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="minBounce">
@@ -73,10 +69,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The bouncyness of the joint when hitting the lower limit of the joint.</summary>
+        <summary>The bounciness of the joint when hitting the lower limit of the joint.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>The rendering mode for particle systems.</summary>
+    <summary>The rendering mode for legacy particles.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Billboard">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Render the particles as billboards facing the player. (Default)</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="HorizontalBillboard">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Render the particles as billboards always facing up along the y-Axis.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SortedBillboard">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Sort the particles back-to-front and render as billboards.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Stretch">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Stretch particles in the direction of motion.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="VerticalBillboard">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>Render the particles as billboards always facing the player, but not pitching along the x-Axis.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

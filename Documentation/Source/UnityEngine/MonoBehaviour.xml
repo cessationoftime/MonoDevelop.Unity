@@ -12,7 +12,6 @@
   <Docs>
     <summary>MonoBehaviour is the base class every script derives from.</summary>
     <remarks>See Also: The <see cref="T:UnityEngine.chapter on scripting" /> in the manual.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CancelInvoke">
@@ -41,7 +39,6 @@
       <Docs>
         <summary>Cancels all Invoke calls on this MonoBehaviour.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CancelInvoke">
@@ -60,7 +57,6 @@
         <param name="methodName">To be added.</param>
         <summary>Cancels all Invoke calls on this MonoBehaviour.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Invoke">
@@ -81,7 +77,6 @@
         <param name="time">To be added.</param>
         <summary>Invokes the method methodName in time seconds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InvokeRepeating">
@@ -104,7 +99,6 @@
         <param name="repeatRate">To be added.</param>
         <summary>Invokes the method methodName in time seconds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IsInvoking">
@@ -121,7 +115,6 @@
         <summary>Is any invoke on methodName pending?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IsInvoking">
@@ -141,7 +134,6 @@
         <summary>Is any invoke on methodName pending?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="kDefaultRaycastLayers">
@@ -157,7 +149,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="kIgnoreRaycastLayer">
@@ -173,7 +164,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="print">
@@ -192,7 +182,6 @@
         <param name="o">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StartCoroutine">
@@ -212,7 +201,6 @@
         <summary>Starts a coroutine.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StartCoroutine">
@@ -232,7 +220,6 @@
         <summary>Starts a coroutine.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StartCoroutine">
@@ -254,7 +241,6 @@
         <summary>Starts a coroutine.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StartCoroutine_Auto">
@@ -274,7 +260,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StopAllCoroutines">
@@ -290,7 +275,6 @@
       <Docs>
         <summary>Stops all coroutines running on this behaviour.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="StopCoroutine">
@@ -309,7 +293,6 @@
         <param name="methodName">To be added.</param>
         <summary>Stops all coroutines named methodName running on this behaviour.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

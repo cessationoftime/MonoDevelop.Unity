@@ -12,7 +12,6 @@
   <Docs>
     <summary>JointSpring is used add a spring force to <see cref="T:UnityEngine.HingeJoint" /> and <see cref="T:UnityEngine.PhysicMaterial" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="damper">
@@ -27,7 +26,6 @@
       <Docs>
         <summary>The damper force uses to dampen the spring</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="spring">
@@ -42,7 +40,6 @@
       <Docs>
         <summary>The spring forces used to reach the target position</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="targetPosition">
@@ -57,7 +54,6 @@
       <Docs>
         <summary>The target position the joint attempts to reach.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

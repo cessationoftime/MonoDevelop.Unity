@@ -9,10 +9,14 @@
     <BaseTypeName>System.Attribute</BaseTypeName>
   </Base>
   <Interfaces/>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Obsolete("Use SerializeField on the private variables that you want to be serialized instead")</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>To be added.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,13 +29,7 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Obsolete("Use SerializeField on the private variables that you want to be serialized instead")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

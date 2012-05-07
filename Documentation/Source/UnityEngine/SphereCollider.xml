@@ -12,7 +12,6 @@
   <Docs>
     <summary>A sphere-shaped primitive collider.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.BoxCollider" />, <see cref="T:UnityEngine.CapsuleCollider" />, <see cref="T:UnityEngine.PhysicMaterial" />, <see cref="T:UnityEngine.Rigidbody" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="center">
@@ -41,7 +39,6 @@
         <summary>The center of the sphere, measured in the object's local space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="radius">
@@ -57,7 +54,6 @@
         <summary>The radius of the sphere, measured in the object's local space.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

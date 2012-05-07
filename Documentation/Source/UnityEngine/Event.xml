@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>A UnityGUI event.</summary>
-    <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
+    <summary>Types of modifier key that can be active during a keystroke event.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.Event" />.&#xD;Shift key&#xD;Control key&#xD;Alt key&#xD;Command key (Mac)&#xD;Num lock key&#xD;Caps lock key&#xD;Function key&#xD;A UnityGUI event.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -41,7 +39,6 @@
         <param name="other">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="alt">
@@ -57,7 +54,6 @@
         <summary>Is Alt/Option key held down? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="button">
@@ -73,7 +69,6 @@
         <summary>Which mouse button was pressed.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="camera">
@@ -89,7 +84,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="capsLock">
@@ -105,7 +99,6 @@
         <summary>Is Caps Lock on? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="character">
@@ -120,8 +113,7 @@
       <Docs>
         <summary>The character typed.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Event.keyCode" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Event.keyCode" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI() {    &lt;span class="hl-keyword"&gt;var e : Event = <see cref="P:UnityEngine.Event.current" />;    &lt;span class="hl-keyword"&gt;if (e.isKey) {        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Detected character: " + e.character);    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        Event e = <see cref="P:UnityEngine.Event.current" />;        &lt;span class="hl-keyword"&gt;if (e.isKey)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Detected character: " + e.character);            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;OnGUI():        e as Event = <see cref="P:UnityEngine.Event.current" />        &lt;span class="hl-keyword"&gt;if e.isKey:            <see cref="P:UnityEngine.Debug.Log" />(('Detected character: ' + e.character))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="clickCount">
@@ -137,7 +129,6 @@
         <summary>How many consecutive mouse clicks have we received.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="command">
@@ -153,7 +144,6 @@
         <summary>Is Command/Windows key held down? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="commandName">
@@ -169,7 +159,6 @@
         <summary>The name of an ExecuteCommand or ValidateCommand Event</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="control">
@@ -185,7 +174,6 @@
         <summary>Is Control key held down? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="current">
@@ -201,7 +189,6 @@
         <summary>The current event that's being processed right now.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="delta">
@@ -216,8 +203,7 @@
       <Docs>
         <summary>The relative movement of the mouse compared to last event.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Event.mousePosition" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Event.mousePosition" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Move the scroll wheel to determine&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// the X &amp;amp; Y scrolling amount.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI() {    &lt;span class="hl-keyword"&gt;var e : Event = <see cref="P:UnityEngine.Event.current" />;    &lt;span class="hl-keyword"&gt;if (e.isMouse) {        <see cref="P:UnityEngine.Debug.Log" />(e.delta);    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        Event e = <see cref="P:UnityEngine.Event.current" />;        &lt;span class="hl-keyword"&gt;if (e.isMouse)            <see cref="P:UnityEngine.Debug.Log" />(e.delta);            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;OnGUI():        e as Event = <see cref="P:UnityEngine.Event.current" />        &lt;span class="hl-keyword"&gt;if e.isMouse:            <see cref="P:UnityEngine.Debug.Log" />(e.delta)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -237,7 +223,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="functionKey">
@@ -253,7 +238,6 @@
         <summary>Is the current keypress a function key? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -270,7 +254,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTypeForControl">
@@ -290,7 +273,6 @@
         <summary>Get a filtered event type for a give control ID.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isKey">
@@ -306,7 +288,6 @@
         <summary>Is this event a keyboard event? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isMouse">
@@ -322,7 +303,6 @@
         <summary>Is this event a mouse event? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="KeyboardEvent">
@@ -342,7 +322,6 @@
         <summary>Create a keyboard event.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="keyCode">
@@ -357,8 +336,7 @@
       <Docs>
         <summary>The raw key code for keyboard events.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Event.character" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Event.character" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Detects keys pressed and prints their keycode&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI() {    &lt;span class="hl-keyword"&gt;var e : Event = <see cref="P:UnityEngine.Event.current" />;    &lt;span class="hl-keyword"&gt;if (e.isKey) {        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Detected key code: " + e.keyCode);    }}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        Event e = <see cref="P:UnityEngine.Event.current" />;        &lt;span class="hl-keyword"&gt;if (e.isKey)            <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Detected key code: " + e.keyCode);            }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;OnGUI():        e as Event = <see cref="P:UnityEngine.Event.current" />        &lt;span class="hl-keyword"&gt;if e.isKey:            <see cref="P:UnityEngine.Debug.Log" />(('Detected key code: ' + e.keyCode))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="mousePosition">
@@ -373,8 +351,7 @@
       <Docs>
         <summary>The mouse position.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Event.delta" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Event.delta" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Prints the current mouse position&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI () {    &lt;span class="hl-keyword"&gt;var e : Event = <see cref="P:UnityEngine.Event.current" />;    <see cref="P:UnityEngine.Debug.Log" />(e.mousePosition);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        Event e = <see cref="P:UnityEngine.Event.current" />;        <see cref="P:UnityEngine.Debug.Log" />(e.mousePosition);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;OnGUI():        e as Event = <see cref="P:UnityEngine.Event.current" />        <see cref="P:UnityEngine.Debug.Log" />(e.mousePosition)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="mouseRay">
@@ -390,7 +367,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="numeric">
@@ -406,7 +382,6 @@
         <summary>Is the current keypress on the numeric keyboard? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pressure">
@@ -422,7 +397,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rawType">
@@ -438,7 +412,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="shift">
@@ -454,7 +427,6 @@
         <summary>Is Shift held down? (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -471,7 +443,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="type">
@@ -486,8 +457,7 @@
       <Docs>
         <summary>The type of event.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.EventType" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.EventType" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Prints the current event detected.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;OnGUI () {    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Current event detected: " + <see cref="P:UnityEngine.Event.current" />.type);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;OnGUI() {        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Current event detected: " + <see cref="P:UnityEngine.Event.current" />.type);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;OnGUI():        <see cref="P:UnityEngine.Debug.Log" />(('Current event detected: ' + <see cref="P:UnityEngine.Event.current" />.type))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Use">
@@ -503,7 +473,6 @@
       <Docs>
         <summary>Use this event.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

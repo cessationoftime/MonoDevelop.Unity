@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Render mode for detail prototypes.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Grass">
@@ -24,8 +23,7 @@
         <ReturnType>UnityEngine.DetailRenderMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <since version="2.5.1"/>
+        <summary>The detail prototype will use the grass shader. When using custom</summary>
       </Docs>
     </Member>
     <Member MemberName="GrassBillboard">
@@ -38,8 +36,7 @@
         <ReturnType>UnityEngine.DetailRenderMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <since version="2.5.1"/>
+        <summary>The detail prototype will be rendered as billboards, so always facing</summary>
       </Docs>
     </Member>
     <Member MemberName="VertexLit">
@@ -52,8 +49,7 @@
         <ReturnType>UnityEngine.DetailRenderMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <since version="2.5.1"/>
+        <summary>Will show the prototype using diffuse shading.</summary>
       </Docs>
     </Member>
   </Members>

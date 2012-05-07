@@ -12,7 +12,6 @@
   <Docs>
     <summary>The AnimationState gives full control over animation blending.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddMixingTransform">
@@ -44,7 +42,6 @@
         <param name="mix">To be added.</param>
         <summary>Adds a transform which should be animated. This allows you to reduce the number of animations you have to create.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddMixingTransform">
@@ -65,7 +62,6 @@
         <param name="recursive">To be added.</param>
         <summary>Adds a transform which should be animated. This allows you to reduce the number of animations you have to create.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="blendMode">
@@ -81,7 +77,6 @@
         <summary>Which blend mode should be used?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clip">
@@ -97,7 +92,6 @@
         <summary>The clip that is being played by this animation state.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="enabled">
@@ -113,7 +107,6 @@
         <summary>Enables / disables the animation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="layer">
@@ -129,7 +122,6 @@
         <summary>The layer of the animation. When calculating the final blend weights, animations in higher layers will get their weights</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="length">
@@ -145,7 +137,6 @@
         <summary>The length of the animation clip in seconds.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="name">
@@ -161,7 +152,6 @@
         <summary>The name of the animation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normalizedSpeed">
@@ -177,7 +167,6 @@
         <summary>The normalized playback speed.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normalizedTime">
@@ -193,7 +182,6 @@
         <summary>The normalized time of the animation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="speed">
@@ -208,8 +196,7 @@
       <Docs>
         <summary>The playback speed of the animation. 1 is normal playback speed.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.AnimationState.time" />, <see cref="P:UnityEngine.AnimationState.wrapMode" /> properties and <see cref="T:UnityEngine.WrapMode" /> enum.</remarks>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -225,7 +212,6 @@
         <summary>The current time of the animation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="weight">
@@ -241,7 +227,6 @@
         <summary>The weight of animation</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wrapMode">
@@ -257,7 +242,6 @@
         <summary>Wrapping mode of the animation.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

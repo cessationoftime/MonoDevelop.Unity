@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <Type Name="DepthTextureMode" FullName="UnityEngine.DepthTextureMode">
-  <TypeSignature Language="C#" Value="public enum DepthTextureMode" />
+  <TypeSignature Language="C#" Value="public enum DepthTextureMode"/>
   <AssemblyInfo>
     <AssemblyName>UnityEngine</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -8,12 +9,12 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Depth texture generation mode for <see cref="T:UnityEngine.Camera" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
   </Docs>
   <Members>
     <Member MemberName="Depth">
-      <MemberSignature Language="C#" Value="Depth" />
+      <MemberSignature Language="C#" Value="Depth"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -22,11 +23,12 @@
         <ReturnType>UnityEngine.DepthTextureMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate a depth texture.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DepthNormals">
-      <MemberSignature Language="C#" Value="DepthNormals" />
+      <MemberSignature Language="C#" Value="DepthNormals"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -35,11 +37,12 @@
         <ReturnType>UnityEngine.DepthTextureMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generate a depth + normals texture.</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
       </Docs>
     </Member>
     <Member MemberName="None">
-      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="C#" Value="None"/>
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -48,7 +51,8 @@
         <ReturnType>UnityEngine.DepthTextureMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Do not generate depth texture (Default).</summary>
+        <remarks>See Also: <see cref="P:UnityEngine.Camera.depthTextureMode" />.</remarks>
       </Docs>
     </Member>
   </Members>

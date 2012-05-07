@@ -11,7 +11,6 @@
   <Docs>
     <summary>Determines how to snap physics joints back to its constrained position when it drifts off too much</summary>
     <remarks>See Also: <see cref="T:UnityEngine.ConfigurableJoint" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="None">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Don't snap at all</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositionAndRotation">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Snap both position and rotation</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PositionOnly">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Snap Position only</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

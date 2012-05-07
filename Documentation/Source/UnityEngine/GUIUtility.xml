@@ -12,7 +12,6 @@
   <Docs>
     <summary>Utility class for making new GUI controls.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ExitGUI">
@@ -41,7 +39,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetBuiltinSkin">
@@ -61,7 +58,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -81,7 +77,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -103,7 +98,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -125,7 +119,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -147,7 +140,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -171,7 +163,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetControlID">
@@ -195,7 +186,6 @@
         <summary>Get a unique ID for a control.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetStateObject">
@@ -217,7 +207,6 @@
         <summary>Get a state object from a controlID.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GUIToScreenPoint">
@@ -237,7 +226,6 @@
         <summary>Convert a point from GUI position to screen space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="hotControl">
@@ -253,7 +241,6 @@
         <summary>The controlID of the current hot control.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="keyboardControl">
@@ -269,7 +256,6 @@
         <summary>The controlID of the control that has keyboard focus.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MoveKeyboardFocus">
@@ -292,7 +278,6 @@
         <param name="sendToNextScriptIfNeeded">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MoveNextAndScroll">
@@ -309,9 +294,8 @@
       </Parameters>
       <Docs>
         <param name="forward">To be added.</param>
-        <summary>Only allow calling GUI functions from inside OnGUI</summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="QueryStateObject">
@@ -333,7 +317,6 @@
         <summary>Get an existing state object from a controlID.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RotateAroundPivot">
@@ -354,7 +337,6 @@
         <param name="pivotPoint">To be added.</param>
         <summary>Helper function to rotate the GUI around a point.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="s_EditorScreenPointOffset">
@@ -369,7 +351,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="s_HasKeyboardFocus">
@@ -384,7 +365,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="s_KeyboardControl">
@@ -399,7 +379,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScaleAroundPivot">
@@ -418,9 +397,8 @@
       <Docs>
         <param name="scale">To be added.</param>
         <param name="pivotPoint">To be added.</param>
-        <summary>Helper function to rotate the GUI around a point.</summary>
+        <summary>Helper function to scale the GUI around a point.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ScreenToGUIPoint">
@@ -440,7 +418,6 @@
         <summary>Convert a point from screen space to GUI position.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SkipToControlID">
@@ -459,7 +436,6 @@
         <param name="id">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

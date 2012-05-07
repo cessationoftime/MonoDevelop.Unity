@@ -12,7 +12,6 @@
   <Docs>
     <summary>A class that allows creating or modifying meshes from scripts.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Creates an empty mesh</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bindposes">
@@ -41,7 +39,6 @@
         <summary>The bind poses. The bind pose at each index refers to the bone with the same index.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="boneWeights">
@@ -57,7 +54,6 @@
         <summary>The bone weights of each vertex</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bounds">
@@ -72,8 +68,7 @@
       <Docs>
         <summary>The bounding volume of the mesh.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Bounds" /> class, <see cref="P:UnityEngine.Renderer.bounds" /> property.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Bounds" /> class, <see cref="P:UnityEngine.Renderer.bounds" /> property.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Generates planar UV coordinates independent of mesh size&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// by scaling vertices by the bounding box size&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start () {    &lt;span class="hl-keyword"&gt;var mesh : Mesh = GetComponent(<see cref="T:UnityEngine.MeshFilter" />).mesh;    &lt;span class="hl-keyword"&gt;var vertices : <see cref="T:UnityEngine.Vector3" />[] = mesh.vertices;    &lt;span class="hl-keyword"&gt;var uvs : <see cref="T:UnityEngine.Vector2" />[]  = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector2" />[vertices.Length];    &lt;span class="hl-keyword"&gt;var bounds : <see cref="T:UnityEngine.Bounds" /> = mesh.bounds;    &lt;span class="hl-keyword"&gt;for (&lt;span class="hl-keyword"&gt;var i = 0; i &amp;lt; uvs.Length; i++)        uvs[i] = <see cref="T:UnityEngine.Vector2" /> (vertices[i].x / bounds.size.x                         ,vertices[i].z / bounds.size.x);    mesh.uv = uvs;}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        Mesh mesh = GetComponent&amp;lt;<see cref="T:UnityEngine.MeshFilter" />&amp;gt;().mesh;        <see cref="T:UnityEngine.Vector3" />[] vertices = mesh.vertices;        <see cref="T:UnityEngine.Vector2" />[] uvs = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector2" />[vertices.Length];        <see cref="T:UnityEngine.Bounds" /> bounds = mesh.bounds;        &lt;span class="hl-datatype"&gt;int i = 0;        &lt;span class="hl-keyword"&gt;while (i &amp;lt; uvs.Length) {            uvs[i] = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector2" />(vertices[i].x / bounds.size.x, vertices[i].z / bounds.size.x);            i++;        }        mesh.uv = uvs;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        mesh as Mesh = GetComponent[of <see cref="T:UnityEngine.MeshFilter" />]().mesh        vertices as (<see cref="T:UnityEngine.Vector3" />) = mesh.vertices        uvs as (<see cref="T:UnityEngine.Vector2" />) = array[of <see cref="T:UnityEngine.Vector2" />](vertices.Length)        bounds as <see cref="T:UnityEngine.Bounds" /> = mesh.bounds        i as &lt;span class="hl-datatype"&gt;int = 0        &lt;span class="hl-keyword"&gt;while i &amp;lt; uvs.Length:            uvs[i] = <see cref="T:UnityEngine.Vector2" />((vertices[i].x / bounds.size.x), (vertices[i].z / bounds.size.x))            i++        mesh.uv = uvs&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -89,7 +84,6 @@
       <Docs>
         <summary>Clears all vertex data and all triangle indices.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="colors">
@@ -105,7 +99,6 @@
         <summary>Returns the vertex colors of the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CombineMeshes">
@@ -185,7 +178,6 @@
         <summary>Returns the triangle list for the submesh.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetTriangleStrip">
@@ -205,7 +197,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="normals">
@@ -221,7 +212,6 @@
         <summary>The normals of the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Optimize">
@@ -237,7 +227,6 @@
       <Docs>
         <summary>Optimizes the mesh for display.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RecalculateBounds">
@@ -253,7 +242,6 @@
       <Docs>
         <summary>Recalculate the bounding volume of the mesh from the vertices.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RecalculateNormals">
@@ -269,7 +257,6 @@
       <Docs>
         <summary>Recalculates the normals of the mesh from the triangles and vertices.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetTriangles">
@@ -290,7 +277,6 @@
         <param name="submesh">To be added.</param>
         <summary>Sets the triangle list for the submesh</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetTriangleStrip">
@@ -311,7 +297,6 @@
         <param name="submesh">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="subMeshCount">
@@ -324,10 +309,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The number of submeshes. Every material has a seperate triangle list.</summary>
+        <summary>The number of submeshes. Every material has a separate triangle list.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.GetTriangles" />, <see cref="P:UnityEngine.SetTriangles" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.GetTriangles" />, <see cref="P:UnityEngine.SetTriangles" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Start() {    &lt;span class="hl-keyword"&gt;var mesh : Mesh = GetComponent(<see cref="T:UnityEngine.MeshFilter" />).mesh;    <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Submeshes: " + mesh.subMeshCount);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Start() {        Mesh mesh = GetComponent&amp;lt;<see cref="T:UnityEngine.MeshFilter" />&amp;gt;().mesh;        <see cref="P:UnityEngine.Debug.Log" />(&lt;span class="hl-string"&gt;"Submeshes: " + mesh.subMeshCount);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Start():        mesh as Mesh = GetComponent[of <see cref="T:UnityEngine.MeshFilter" />]().mesh        <see cref="P:UnityEngine.Debug.Log" />(('Submeshes: ' + mesh.subMeshCount))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="tangents">
@@ -343,7 +327,6 @@
         <summary>The tangents of the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="triangles">
@@ -359,7 +342,6 @@
         <summary>An array containing all triangles in the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="uv">
@@ -375,7 +357,6 @@
         <summary>The base texture coordinates of the mesh.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="uv1">
@@ -391,7 +372,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="uv2">
@@ -407,7 +387,6 @@
         <summary>The second texture coordinate set of the mesh, if present.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="vertexCount">
@@ -423,7 +402,6 @@
         <summary>Returns the number of vertices in the mesh (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="vertices">
@@ -439,7 +417,6 @@
         <summary>Returns a copy of the vertex positions or assigns a new vertex positions array.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

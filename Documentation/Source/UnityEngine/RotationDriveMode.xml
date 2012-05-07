@@ -11,7 +11,6 @@
   <Docs>
     <summary>Control <see cref="T:UnityEngine.ConfigurableJoint" />'s rotation with either X &amp; YZ or Slerp Drive</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Slerp">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Use Slerp drive</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="XYAndZ">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>Use XY &amp; Z Drive</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

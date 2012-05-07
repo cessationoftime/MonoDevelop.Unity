@@ -12,7 +12,6 @@
   <Docs>
     <summary>A representation of audio sources in 3D.</summary>
     <remarks>See Also: <see cref="T:UnityEngine.AudioListener" />, <see cref="T:UnityEngine.AudioClip" />, <see cref="T:UnityEngine.AudioSource component" />.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="clip">
@@ -41,7 +39,6 @@
         <summary>The default <see cref="T:UnityEngine.AudioClip" /> to play</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ignoreListenerVolume">
@@ -57,7 +54,6 @@
         <summary>This makes the audio source not take into account the volume of the audio listener.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isPlaying">
@@ -73,7 +69,6 @@
         <summary>Is the <see cref="P:UnityEngine.clip" /> playing right now (Read Only)?</summary>
         <value>To be added.</value>
         <remarks>(Read Only)?</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="loop">
@@ -89,7 +84,6 @@
         <summary>Is the audio clip looping?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxVolume">
@@ -102,10 +96,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The maximum volume the audio source will play at.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.minVolume" />, <see cref="P:UnityEngine.rolloffFactor" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="minVolume">
@@ -118,10 +111,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The minimal volume the audio source will play at.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.maxVolume" />, <see cref="P:UnityEngine.rolloffFactor" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Pause">
@@ -137,7 +129,6 @@
       <Docs>
         <summary>Pauses playing the <see cref="P:UnityEngine.clip" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="pitch">
@@ -153,7 +144,6 @@
         <summary>The pitch of the audio source.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Play">
@@ -169,7 +159,6 @@
       <Docs>
         <summary>Plays the <see cref="P:UnityEngine.clip" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayClipAtPoint">
@@ -190,7 +179,6 @@
         <param name="position">To be added.</param>
         <summary>Plays the clip at position. Automatically cleans up the audio source after it has finished playing.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayClipAtPoint">
@@ -213,7 +201,6 @@
         <param name="volume">To be added.</param>
         <summary>Plays the clip at position. Automatically cleans up the audio source after it has finished playing.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="playOnAwake">
@@ -229,7 +216,6 @@
         <summary>If set to true, the audio source will automatically start playing on awake</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayOneShot">
@@ -248,7 +234,6 @@
         <param name="clip">To be added.</param>
         <summary>Plays an <see cref="T:UnityEngine.AudioClip" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="PlayOneShot">
@@ -269,7 +254,6 @@
         <param name="volumeScale">To be added.</param>
         <summary>Plays an <see cref="T:UnityEngine.AudioClip" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rolloffFactor">
@@ -282,10 +266,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>How fast the sound fades.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.minVolume" />, <see cref="P:UnityEngine.maxVolume" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -301,7 +284,6 @@
       <Docs>
         <summary>Stops playing the <see cref="P:UnityEngine.clip" />.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="time">
@@ -316,8 +298,7 @@
       <Docs>
         <summary>Playback position in seconds.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.timeSamples" /> variable.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.timeSamples" /> variable.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Prints the elapsed time in seconds the audio&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// source has been playing.&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// Press "Return" to start the song and see how the &lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// time gets restarted..&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;if(<see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return)) {        audio.Stop();        audio.Play();    }    <see cref="P:UnityEngine.Debug.Log" />(audio.time);    }&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return)) {            audio.Stop();            audio.Play();        }        <see cref="P:UnityEngine.Debug.Log" />(audio.time);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Update():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return):            audio.Stop()            audio.Play()        <see cref="P:UnityEngine.Debug.Log" />(audio.time)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="timeSamples">
@@ -330,9 +311,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Use this to read current playback time or to seek to a new playback time in samples,if you want more precise timing than what <see cref="P:UnityEngine.time" /> variable allows.</summary>
+        <summary>Playback position in PCM samples.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.time" /> variable.</remarks>
+        <remarks>See Also: <see cref="P:UnityEngine.time" /> variable.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Prints the elapsed time in samples the audio&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// source has been playing.&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// Press "Return" to start the song and see how the &lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// time sample gets restarted..&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;if(<see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return)) {        audio.Stop();        audio.Play();    }    <see cref="P:UnityEngine.Debug.Log" />(audio.timeSamples);    }&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-keyword"&gt;if (<see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return)) {            audio.Stop();            audio.Play();        }        <see cref="P:UnityEngine.Debug.Log" />(audio.timeSamples);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def &lt;span class="hl-operator"&gt;Update():        &lt;span class="hl-keyword"&gt;if <see cref="P:UnityEngine.Input.GetKeyDown" />(<see cref="T:UnityEngine.KeyCode" />.&lt;span class="hl-keyword"&gt;Return):            audio.Stop()            audio.Play()        <see cref="P:UnityEngine.Debug.Log" />(audio.timeSamples)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="velocityUpdateMode">
@@ -348,7 +329,6 @@
         <summary>Whether the Audio Source should be updated in the fixed or dynamic update.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="volume">
@@ -364,7 +344,6 @@
         <summary>The volume of the audio source.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

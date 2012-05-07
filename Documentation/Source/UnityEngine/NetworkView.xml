@@ -12,7 +12,6 @@
   <Docs>
     <summary>The network view is the binding material of multiplayer games.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Find">
@@ -45,7 +43,6 @@
         <summary>Find a network view based on a <see cref="T:UnityEngine.NetworkViewID" />.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="group">
@@ -61,7 +58,6 @@
         <summary>The network group number of this network view.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isMine">
@@ -77,7 +73,6 @@
         <summary>Is the network view controlled by this object?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="observed">
@@ -93,7 +88,6 @@
         <summary>The component the network view is observing.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="owner">
@@ -109,7 +103,6 @@
         <summary>The <see cref="T:UnityEngine.NetworkPlayer" /> who owns this network view.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RPC">
@@ -138,7 +131,6 @@
         <param name="args">To be added.</param>
         <summary>Call a <see cref="T:UnityEngine.RPC" /> function on all connected peers.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RPC">
@@ -167,7 +159,6 @@
         <param name="args">To be added.</param>
         <summary>Call a <see cref="T:UnityEngine.RPC" /> function on all connected peers.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetScope">
@@ -189,7 +180,6 @@
         <summary>Set the scope of the network view in relation to a specific network player.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="stateSynchronization">
@@ -205,7 +195,6 @@
         <summary>The type of <see cref="T:UnityEngine.NetworkStateSynchronization" /> set for this network view.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="viewID">
@@ -221,7 +210,6 @@
         <summary>The ViewID of this network view.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

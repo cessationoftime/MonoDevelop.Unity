@@ -12,7 +12,6 @@
   <Docs>
     <summary>Control of an object's position through physics simulation.</summary>
     <remarks>(Read Only).</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddExplosionForce">
@@ -48,7 +46,6 @@
         <param name="explosionRadius">To be added.</param>
         <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddExplosionForce">
@@ -73,7 +70,6 @@
         <param name="upwardsModifier">To be added.</param>
         <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddExplosionForce">
@@ -100,7 +96,6 @@
         <param name="mode">To be added.</param>
         <summary>Applies a force to the rigidbody that simulates explosion effects. The explosion force will fall off linearly with distance to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForce">
@@ -119,7 +114,6 @@
         <param name="force">To be added.</param>
         <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForce">
@@ -140,7 +134,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForce">
@@ -163,7 +156,6 @@
         <param name="z">To be added.</param>
         <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForce">
@@ -188,7 +180,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a force to the rigidbody. As a result the rigidbody will start moving.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForceAtPosition">
@@ -209,7 +200,6 @@
         <param name="position">To be added.</param>
         <summary>Applies force at position. As a result this will apply a torque and force on the object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddForceAtPosition">
@@ -232,7 +222,6 @@
         <param name="mode">To be added.</param>
         <summary>Applies force at position. As a result this will apply a torque and force on the object.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeForce">
@@ -251,7 +240,6 @@
         <param name="force">To be added.</param>
         <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeForce">
@@ -272,7 +260,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeForce">
@@ -295,7 +282,6 @@
         <param name="z">To be added.</param>
         <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeForce">
@@ -320,7 +306,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a force to the rigidbody relative to its coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeTorque">
@@ -339,7 +324,6 @@
         <param name="torque">To be added.</param>
         <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeTorque">
@@ -360,7 +344,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeTorque">
@@ -383,7 +366,6 @@
         <param name="z">To be added.</param>
         <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddRelativeTorque">
@@ -408,7 +390,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a torque to the rigidbody relative to the rigidbodie's own coordinate system.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddTorque">
@@ -427,7 +408,6 @@
         <param name="torque">To be added.</param>
         <summary>Adds a torque to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddTorque">
@@ -448,7 +428,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a torque to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddTorque">
@@ -471,7 +450,6 @@
         <param name="z">To be added.</param>
         <summary>Adds a torque to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddTorque">
@@ -496,7 +474,6 @@
         <param name="mode">To be added.</param>
         <summary>Adds a torque to the rigidbody.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularDrag">
@@ -512,7 +489,6 @@
         <summary>The angular drag of the object.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="angularVelocity">
@@ -528,7 +504,6 @@
         <summary>The angular velocity vector of the rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="centerOfMass">
@@ -544,7 +519,6 @@
         <summary>The center of mass relative to the transform's origin.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ClosestPointOnBounds">
@@ -564,7 +538,6 @@
         <summary>The closest point to the bounding box of the attached colliders.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="detectCollisions">
@@ -580,7 +553,6 @@
         <summary>Should collision detection be enabled? (By default always enabled)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="drag">
@@ -596,7 +568,6 @@
         <summary>The drag of the object.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="freezeRotation">
@@ -611,8 +582,7 @@
       <Docs>
         <summary>Controls whether physics will change the rotation of the object.</summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: [[Rigidbody.constraints]&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Freeze the rotation&lt;span class="hl-comment"&gt;rigidbody.freezeRotation = true;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        rigidbody.freezeRotation = true;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        rigidbody.freezeRotation = true&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPointVelocity">
@@ -632,7 +602,6 @@
         <summary>The velocity of the rigidbody at the point worldPoint in global space.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetRelativePointVelocity">
@@ -652,7 +621,6 @@
         <summary>The velocity relative to the rigidbody at the point relativePoint.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="inertiaTensor">
@@ -668,7 +636,6 @@
         <summary>The diagonal inertia tensor of mass relative to the center of mass.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="inertiaTensorRotation">
@@ -684,7 +651,6 @@
         <summary>The rotation of the inertia tensor.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="interpolation">
@@ -700,7 +666,6 @@
         <summary>Interpolation allows you to smooth out the effect of running physics at a fixed frame rate.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="isKinematic">
@@ -716,7 +681,6 @@
         <summary>Controls whether physics affects the rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IsSleeping">
@@ -733,7 +697,6 @@
         <summary>Is the rigidbody sleeping?</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mass">
@@ -749,7 +712,6 @@
         <summary>The mass of the rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="maxAngularVelocity">
@@ -765,7 +727,6 @@
         <summary>The maximimum angular velocity of the rigidbody. (Default 7) range { 0, infinity }</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MovePosition">
@@ -784,7 +745,6 @@
         <param name="position">To be added.</param>
         <summary>Moves the rigidbody to position.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MoveRotation">
@@ -803,7 +763,6 @@
         <param name="rot">To be added.</param>
         <summary>Rotates the rigidbody to rotation.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="position">
@@ -819,7 +778,6 @@
         <summary>The position of the rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="rotation">
@@ -835,7 +793,6 @@
         <summary>The rotation of the rigdibody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetDensity">
@@ -854,7 +811,6 @@
         <param name="density">To be added.</param>
         <summary>Sets the mass based on the attached colliders assuming a constant density.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SetMaxAngularVelocity">
@@ -873,7 +829,6 @@
         <param name="a">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Sleep">
@@ -889,7 +844,6 @@
       <Docs>
         <summary>Forces a rigidbody to sleep at least one frame.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sleepAngularVelocity">
@@ -905,7 +859,6 @@
         <summary>The angular velocity, below which objects start going to sleep.  (Default 0.14) range { 0, infinity }</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sleepVelocity">
@@ -921,7 +874,6 @@
         <summary>The linear velocity, below which objects start going to sleep. (Default 0.14) range { 0, infinity }</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="solverIterationCount">
@@ -937,7 +889,6 @@
         <summary>Allows you to override the solver iteration count per rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useConeFriction">
@@ -953,7 +904,6 @@
         <summary>Force cone friction to be used for this rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="useGravity">
@@ -969,7 +919,6 @@
         <summary>Controls whether gravity affects this rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="velocity">
@@ -985,7 +934,6 @@
         <summary>The velocity vector of the rigidbody.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="WakeUp">
@@ -1001,7 +949,6 @@
       <Docs>
         <summary>Forces a rigidbody to wake up.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="worldCenterOfMass">
@@ -1017,7 +964,6 @@
         <summary>The center of mass of the rigidbody in world space (Read Only).</summary>
         <value>To be added.</value>
         <remarks>(Read Only).</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

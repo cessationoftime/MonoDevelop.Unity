@@ -12,7 +12,6 @@
   <Docs>
     <summary>Script interface for a <see cref="T:UnityEngine.Lens flare component" />.</summary>
     <remarks>(Read Only). (null if there is none attached)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="brightness">
@@ -40,8 +38,7 @@
       <Docs>
         <summary>The strength of the flare.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Increments the strenght of the Lensflare lf when the <see cref="T:UnityEngine.Transform" /> tr&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// gets closer to the Lens flare&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var lf : LensFlare;&lt;span class="hl-keyword"&gt;var tr : <see cref="T:UnityEngine.Transform" />;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    lf.brightness = 1/<see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public LensFlare lf;    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Transform" /> tr;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        lf.brightness = 1 / <see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public lf as LensFlare    &lt;span class="hl-keyword"&gt;public tr as <see cref="T:UnityEngine.Transform" />    def &lt;span class="hl-operator"&gt;Update():        lf.brightness = (1 / <see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position))&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -56,8 +53,7 @@
       <Docs>
         <summary>The color of the flare.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Changes the color of the LensFlare (on a gray scale) from black to white.&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// More white when tr gets near the LensFlare, and darker when the transform goes away.&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// Remember that the color works on elements that have adlight color enabled.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var lf : LensFlare;&lt;span class="hl-keyword"&gt;var tr : <see cref="T:UnityEngine.Transform" />;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;var percentage : &lt;span class="hl-datatype"&gt;float = 1/<see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position);    lf.color = <see cref="T:UnityEngine.Color" />(percentage, percentage, percentage);}&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public LensFlare lf;    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Transform" /> tr;    &lt;span class="hl-keyword"&gt;void &lt;span class="hl-operator"&gt;Update() {        &lt;span class="hl-datatype"&gt;float percentage = 1 / <see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position);        lf.color = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Color" />(percentage, percentage, percentage);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public lf as LensFlare    &lt;span class="hl-keyword"&gt;public tr as <see cref="T:UnityEngine.Transform" />    def &lt;span class="hl-operator"&gt;Update():        percentage as single = (1 / <see cref="P:UnityEngine.Vector3.Distance" />(lf.transform.position, tr.position))        lf.color = <see cref="T:UnityEngine.Color" />(percentage, percentage, percentage)&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="flare">
@@ -72,8 +68,7 @@
       <Docs>
         <summary>The <see cref="T:UnityEngine.flare asset" /> to use.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.Lens flare component" />, <see cref="T:UnityEngine.flare assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Assigns the flare of lf to this transforms light flare&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var lf : LensFlare;light.flare = lf.flare;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public LensFlare lf;    &lt;span class="hl-keyword"&gt;void Example() {        light.flare = lf.flare;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public lf as LensFlare    def Example():        light.flare = lf.flare&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>Base class for all objects Unity can reference.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Destroy">
@@ -44,7 +42,6 @@
         <param name="obj">To be added.</param>
         <summary>Removes a gameobject, component or asset.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Destroy">
@@ -65,7 +62,6 @@
         <param name="t">To be added.</param>
         <summary>Removes a gameobject, component or asset.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyImmediate">
@@ -84,7 +80,6 @@
         <param name="obj">To be added.</param>
         <summary>Destroys the object obj immediately. It is strongly recommended to use Destroy instead.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyImmediate">
@@ -105,7 +100,6 @@
         <param name="allowDestroyingAssets">To be added.</param>
         <summary>Destroys the object obj immediately. It is strongly recommended to use Destroy instead.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyObject">
@@ -124,7 +118,6 @@
         <param name="obj">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DestroyObject">
@@ -145,7 +138,6 @@
         <param name="t">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DontDestroyOnLoad">
@@ -164,7 +156,6 @@
         <param name="target">To be added.</param>
         <summary>Makes the object target not be destroyed automatically when loading a new scene.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -184,7 +175,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindObjectOfType">
@@ -209,7 +199,6 @@
         <summary>Returns the first active loaded object of Type type.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindObjectsOfType">
@@ -234,7 +223,6 @@
         <summary>Returns a list of all active loaded objects of Type type.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindObjectsOfTypeAll">
@@ -254,7 +242,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindObjectsOfTypeIncludingAssets">
@@ -274,7 +261,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="FindSceneObjectsOfType">
@@ -294,7 +280,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -311,7 +296,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="GetInstanceID">
@@ -328,7 +312,6 @@
         <summary>Returns the instance id of the object.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="hideFlags">
@@ -341,10 +324,9 @@
         <ReturnType>UnityEngine.HideFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Should the object be hidden, saved with the scene or modifyable by the user?</summary>
+        <summary>Should the object be hidden, saved with the scene or modifiable by the user?</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Instantiate">
@@ -369,7 +351,6 @@
         <summary>Clones the object original and returns the clone.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Instantiate">
@@ -398,7 +379,6 @@
         <summary>Clones the object original and returns the clone.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="name">
@@ -414,7 +394,6 @@
         <summary>The name of the object.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -436,7 +415,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -456,7 +434,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -478,7 +455,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

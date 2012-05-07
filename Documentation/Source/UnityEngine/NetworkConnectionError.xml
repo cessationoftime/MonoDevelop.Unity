@@ -9,9 +9,8 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>Possible status messages returned by <see cref="P:UnityEngine.Network.Connect" /> and in <see cref="P:UnityEngine.OnFailedToConnect" /> in case the error was not immediate. Also used by the <see cref="T:UnityEngine.MasterServer" /> in <see cref="P:UnityEngine.OnFailedToConnectToMasterServer" /></summary>
+    <summary>Possible status messages returned by <see cref="P:UnityEngine.Network.Connect" /> and in <see cref="P:UnityEngine.OnFailedToConnect" /></summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="AlreadyConnectedToAnotherServer">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>Cannot connect to two servers at once. Close the connection before connecting again.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ConnectionBanned">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>We are banned from the system we attempted to connect to (likely temporarily).</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="ConnectionFailed">
@@ -53,7 +50,6 @@
       </ReturnValue>
       <Docs>
         <summary>Connection attempt failed, possibly because of internal connectivity problems.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="CreateSocketOrThreadFailure">
@@ -67,7 +63,6 @@
       </ReturnValue>
       <Docs>
         <summary>Internal error while attempting to initialize network interface. Socket possibly already in use.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EmptyConnectTarget">
@@ -81,7 +76,6 @@
       </ReturnValue>
       <Docs>
         <summary>No host target given in Connect.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="IncorrectParameters">
@@ -95,7 +89,6 @@
       </ReturnValue>
       <Docs>
         <summary>Incorrect parameters given to Connect function.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InternalDirectConnectFailed">
@@ -109,7 +102,6 @@
       </ReturnValue>
       <Docs>
         <summary>Client could not connect internally to same network NAT enabled server.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="InvalidPassword">
@@ -123,7 +115,6 @@
       </ReturnValue>
       <Docs>
         <summary>The server is using a password and has refused our connection because we did not set the correct password.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NATTargetConnectionLost">
@@ -137,7 +128,6 @@
       </ReturnValue>
       <Docs>
         <summary>Connection lost while attempting to connect to NAT target.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NATTargetNotConnected">
@@ -151,7 +141,6 @@
       </ReturnValue>
       <Docs>
         <summary>The NAT target we are trying to connect to is not connected to the facilitator server.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NoError">
@@ -165,7 +154,6 @@
       </ReturnValue>
       <Docs>
         <summary>No error occurred.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RSAPublicKeyMismatch">
@@ -179,7 +167,6 @@
       </ReturnValue>
       <Docs>
         <summary>We presented an RSA public key which does not match what the system we connected to is using.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="TooManyConnectedPlayers">
@@ -193,7 +180,6 @@
       </ReturnValue>
       <Docs>
         <summary>The server is at full capacity, failed to connect.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

@@ -12,7 +12,6 @@
   <Docs>
     <summary>This data structure contains information on a message just received from the network.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="networkView">
@@ -25,10 +24,9 @@
         <ReturnType>UnityEngine.NetworkView</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The <see cref="T:UnityEngine.NetworkView" /> who sent this message</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="sender">
@@ -44,7 +42,6 @@
         <summary>The player who sent this network message (owner)</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="timestamp">
@@ -60,7 +57,6 @@
         <summary>The time stamp when the Message was sent in seconds.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

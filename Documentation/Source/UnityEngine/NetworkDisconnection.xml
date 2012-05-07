@@ -11,7 +11,6 @@
   <Docs>
     <summary>The reason a disconnect event occured, like in <see cref="P:UnityEngine.OnDisconnectedFromServer" />.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="Disconnected">
@@ -25,7 +24,6 @@
       </ReturnValue>
       <Docs>
         <summary>The connection to the system has been closed.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="LostConnection">
@@ -39,7 +37,6 @@
       </ReturnValue>
       <Docs>
         <summary>The connection to the system has been lost, no reliable packets could be delivered.</summary>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

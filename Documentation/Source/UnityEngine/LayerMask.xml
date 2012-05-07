@@ -12,7 +12,6 @@
   <Docs>
     <summary>LayerMask allow you to display the LayerMask popup menu in the inspector</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName="LayerToName">
@@ -32,7 +31,6 @@
         <summary>Given a layer number, returns the name of the layer as defined in either a Builtin or a User Layer in the <see cref="T:UnityEngine.Tag Manager" /></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="NameToLayer">
@@ -52,7 +50,6 @@
         <summary>Given a layer name, returns the layer index as defined by either a Builtin or a User Layer in the <see cref="T:UnityEngine.Tag Manager" /></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -72,7 +69,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
@@ -92,7 +88,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="value">
@@ -108,7 +103,6 @@
         <summary>Converts a layer mask value to an integer value.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

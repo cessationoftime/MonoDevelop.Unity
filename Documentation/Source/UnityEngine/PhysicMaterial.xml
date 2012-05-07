@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>Physics material describes how to handle colliding objects (friction, bouncyness).</summary>
+    <summary>Physics material describes how to handle colliding objects (friction, bounciness).</summary>
     <remarks>See Also: <see cref="T:UnityEngine.Collider" /></remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Creates a new material.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -41,7 +39,6 @@
         <param name="name">To be added.</param>
         <summary>Creates a new material.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bounceCombine">
@@ -54,10 +51,9 @@
         <ReturnType>UnityEngine.PhysicMaterialCombine</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Determines how the bouncyness is combined.</summary>
+        <summary>Determines how the bounciness is combined.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="bouncyness">
@@ -70,10 +66,9 @@
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>How bouncy is the surface? A value of 0 will not bounce. A value of 1 will bounce without any loss of energy.</summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dynamicFriction">
@@ -89,7 +84,6 @@
         <summary>The friction used when already moving.  This value has to be between 0 and 1.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="dynamicFriction2">
@@ -105,7 +99,6 @@
         <summary>If anisotropic friction is enabled, dynamicFriction2 will be applied along frictionDirection2.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="frictionCombine">
@@ -121,7 +114,6 @@
         <summary>Determines how the friction is combined.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="frictionDirection">
@@ -137,7 +129,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="frictionDirection2">
@@ -153,7 +144,6 @@
         <summary>The direction of anisotropy. Anisotropic friction is enabled if the vector is not zero.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="staticFriction">
@@ -169,7 +159,6 @@
         <summary>The friction used when an object is lying on a surface. Usually a value from 0 to 1.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="staticFriction2">
@@ -185,7 +174,6 @@
         <summary>If anisotropic friction is enabled, staticFriction2 will be applied along frictionDirection2.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

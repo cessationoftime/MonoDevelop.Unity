@@ -10,9 +10,8 @@
   </Base>
   <Interfaces/>
   <Docs>
-    <summary>An animation curve. Lets you add keyframes and evaluate the curve at a given time. A collection</summary>
+    <summary>An animation curve. Lets you add keyframes and evaluate the curve at a given time.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>Creates an animation curve from arbitrary number of keyframes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -47,7 +45,6 @@
         <param name="keys">To be added.</param>
         <summary>Creates an animation curve from arbitrary number of keyframes.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddKey">
@@ -67,7 +64,6 @@
         <summary>Add a new key to the curve.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="AddKey">
@@ -89,7 +85,6 @@
         <summary>Add a new key to the curve.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="EaseInOut">
@@ -115,7 +110,6 @@
         <summary>An ease-in and out curve starting at timeStart, valueStart and ending at timeEnd, valueEnd.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Evaluate">
@@ -135,7 +129,6 @@
         <summary>Evaluate the curve at time.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Finalize">
@@ -151,7 +144,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -171,7 +163,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="keys">
@@ -187,7 +178,6 @@
         <summary>All keys defined in the animation curve.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.Keyframe" /> struct, <see cref="P:UnityEngine.AddKey" />, <see cref="P:UnityEngine.RemoveKey" /> functions.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="length">
@@ -203,7 +193,6 @@
         <summary>The number of keys in the curve (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="Linear">
@@ -229,7 +218,6 @@
         <summary>A straight Line starting at timeStart, valueStart and ending at timeEnd, valueEnd</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="MoveKey">
@@ -251,7 +239,6 @@
         <summary>Removes the keyframe at index and inserts key.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="postWrapMode">
@@ -267,7 +254,6 @@
         <summary>The behaviour of the animation after the last keyframe</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="preWrapMode">
@@ -283,7 +269,6 @@
         <summary>The behaviour of the animation before the first keyframe</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="RemoveKey">
@@ -302,7 +287,6 @@
         <param name="index">To be added.</param>
         <summary>Removes a key</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="SmoothTangents">
@@ -323,13 +307,7 @@
         <param name="weight">To be added.</param>
         <summary>Smooth the in and out tangents of the keyframe at index.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Reflection.DefaultMember("Item")</AttributeName>
-    </Attribute>
-  </Attributes>
 </Type>

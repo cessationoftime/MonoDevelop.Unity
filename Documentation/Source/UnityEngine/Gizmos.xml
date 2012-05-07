@@ -12,7 +12,6 @@
   <Docs>
     <summary>Gizmos are used to give visual debugging or setup aids in the scene view.</summary>
     <remarks>To be added.</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="color">
@@ -41,7 +39,6 @@
         <summary>Sets the color for the gizmos that will be drawn next.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawCube">
@@ -62,7 +59,6 @@
         <param name="size">To be added.</param>
         <summary>Draw a solid box with center and size.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawFrustum">
@@ -89,7 +85,6 @@
         <param name="aspect">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawGUITexture">
@@ -110,7 +105,6 @@
         <param name="texture">To be added.</param>
         <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawGUITexture">
@@ -133,7 +127,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawGUITexture">
@@ -162,7 +155,6 @@
         <param name="bottomBorder">To be added.</param>
         <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawGUITexture">
@@ -193,7 +185,6 @@
         <param name="mat">To be added.</param>
         <summary>Draw a texture in screen coordinates. Useful for GUI backgrounds.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawIcon">
@@ -212,9 +203,8 @@
       <Docs>
         <param name="center">To be added.</param>
         <param name="name">To be added.</param>
-        <summary>Draw an icon at world position center.</summary>
+        <summary>Draw an icon at a position in the scene view.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawLine">
@@ -235,7 +225,6 @@
         <param name="to">To be added.</param>
         <summary>Draws a line starting at from towards to.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawRay">
@@ -254,7 +243,6 @@
         <param name="r">To be added.</param>
         <summary>Draws a ray starting at from to from + direction.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawRay">
@@ -275,7 +263,6 @@
         <param name="direction">To be added.</param>
         <summary>Draws a ray starting at from to from + direction.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawSphere">
@@ -296,7 +283,6 @@
         <param name="radius">To be added.</param>
         <summary>Draws a solid sphere with center and radius.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawWireCube">
@@ -317,7 +303,6 @@
         <param name="size">To be added.</param>
         <summary>Draw a wireframe box with center and size.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="DrawWireSphere">
@@ -338,7 +323,6 @@
         <param name="radius">To be added.</param>
         <summary>Draws a wireframe sphere with center and radius.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="matrix">
@@ -354,7 +338,6 @@
         <summary>Set the gizmo matrix used to draw all gizmos.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
   </Members>

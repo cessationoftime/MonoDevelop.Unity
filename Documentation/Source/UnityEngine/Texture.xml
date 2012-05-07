@@ -12,7 +12,6 @@
   <Docs>
     <summary>Base class for texture handling. Contains functionality that is common to both <see cref="T:UnityEngine.Texture2D" /> and <see cref="T:UnityEngine.RenderTexture" /> classes.</summary>
     <remarks>(Read Only)</remarks>
-    <since version="2.5.1"/>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -25,7 +24,6 @@
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="anisoLevel">
@@ -40,8 +38,7 @@
       <Docs>
         <summary>Anisotropic filtering level of the texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="T:UnityEngine.texture assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;renderer.material.mainTexture.anisoLevel = 2;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.mainTexture.anisoLevel = 2;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        renderer.material.mainTexture.anisoLevel = 2&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="anisotropicFiltering">
@@ -57,7 +54,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="filterMode">
@@ -73,7 +69,6 @@
         <summary>Filtering mode of the texture.</summary>
         <value>To be added.</value>
         <remarks>See Also: <see cref="T:UnityEngine.FilterMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="height">
@@ -89,7 +84,6 @@
         <summary>Height of the texture in pixels (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="masterTextureLimit">
@@ -105,7 +99,6 @@
         <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="mipMapBias">
@@ -120,8 +113,7 @@
       <Docs>
         <summary>Mip map bias of the texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture.anisoLevel" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.anisoLevel" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;renderer.material.mainTexture.mipMapBias = 0.5;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.mainTexture.mipMapBias = 0.5F;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        renderer.material.mainTexture.mipMapBias = 0.5F&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
     <Member MemberName="texelSize">
@@ -152,7 +144,6 @@
         <summary>Width of the texture in pixels (Read Only)</summary>
         <value>To be added.</value>
         <remarks>(Read Only)</remarks>
-        <since version="2.5.1"/>
       </Docs>
     </Member>
     <Member MemberName="wrapMode">
@@ -167,8 +158,7 @@
       <Docs>
         <summary>Wrap mode (Repeat or Clamp) of the texture.</summary>
         <value>To be added.</value>
-        <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.</remarks>
-        <since version="2.5.1"/>
+        <remarks>See Also: <see cref="P:UnityEngine.Texture.wrapMode" />, <see cref="T:UnityEngine.texture assets" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;renderer.material.mainTexture.wrapMode = <see cref="P:UnityEngine.TextureWrapMode.Clamp" />;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.mainTexture.wrapMode = <see cref="P:UnityEngine.TextureWrapMode.Clamp" />;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        renderer.material.mainTexture.wrapMode = <see cref="P:UnityEngine.TextureWrapMode.Clamp" />&lt;p class="details"&gt;</remarks>
       </Docs>
     </Member>
   </Members>
