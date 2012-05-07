@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Type Name="iPhoneNetworkReachability" FullName="UnityEngine.iPhoneNetworkReachability">
+  <TypeSignature Language="C#" Value="public enum iPhoneNetworkReachability"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Obsolete("iPhoneNetworkReachability enumeration is deprecated. Please use NetworkReachability instead.")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NotReachable">
+      <MemberSignature Language="C#" Value="NotReachable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.iPhoneNetworkReachability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReachableViaCarrierDataNetwork">
+      <MemberSignature Language="C#" Value="ReachableViaCarrierDataNetwork"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.iPhoneNetworkReachability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReachableViaWiFiNetwork">
+      <MemberSignature Language="C#" Value="ReachableViaWiFiNetwork"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.iPhoneNetworkReachability</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="FogMode" FullName="UnityEngine.FogMode">
+  <TypeSignature Language="C#" Value="public enum FogMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Fog mode to use.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exponential">
+      <MemberSignature Language="C#" Value="Exponential"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FogMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exponential fog.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ExponentialSquared">
+      <MemberSignature Language="C#" Value="ExponentialSquared"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FogMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exponential squared fog (default).</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Linear">
+      <MemberSignature Language="C#" Value="Linear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FogMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Linear fog.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderSettings.fogMode" />, <see cref="T:UnityEngine.Render Settings manager" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

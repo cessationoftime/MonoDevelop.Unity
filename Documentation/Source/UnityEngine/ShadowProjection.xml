@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Type Name="ShadowProjection" FullName="UnityEngine.ShadowProjection">
+  <TypeSignature Language="C#" Value="public enum ShadowProjection"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Shadow projection type for <see cref="T:UnityEngine.Quality Settings" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CloseFit">
+      <MemberSignature Language="C#" Value="CloseFit"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ShadowProjection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Close fit shadow maps with linear fadeout.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StableFit">
+      <MemberSignature Language="C#" Value="StableFit"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ShadowProjection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stable shadow maps with spherical fadeout.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

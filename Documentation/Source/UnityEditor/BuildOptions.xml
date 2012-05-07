@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<Type Name="BuildOptions" FullName="UnityEditor.BuildOptions">
+  <TypeSignature Language="C#" Value="public enum BuildOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Building options. Multiple options can be combined together.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcceptExternalModificationsToPlayer">
+      <MemberSignature Language="C#" Value="AcceptExternalModificationsToPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not overwrite player directory, but accept user's modifications.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" /></remarks></Docs>
+    </Member>
+    <Member MemberName="AllowDebugging">
+      <MemberSignature Language="C#" Value="AllowDebugging"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allow script debuggers to attach to the player remotely.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="AutoRunPlayer">
+      <MemberSignature Language="C#" Value="AutoRunPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Run the built player.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="BuildAdditionalStreamedScenes">
+      <MemberSignature Language="C#" Value="BuildAdditionalStreamedScenes"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a compressed asset bundle that contains streamed scenes loadable with the WWW class.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="CompressTextures">
+      <MemberSignature Language="C#" Value="CompressTextures"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Texture Compression is now always enabled")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectToHost">
+      <MemberSignature Language="C#" Value="ConnectToHost"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectWithProfiler">
+      <MemberSignature Language="C#" Value="ConnectWithProfiler"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Start the player with a connection to the profiler in the editor</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DeployOnline">
+      <MemberSignature Language="C#" Value="DeployOnline"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Publish Web Player online</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Development">
+      <MemberSignature Language="C#" Value="Development"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a development version of the standalone player.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="InstallInBuildFolder">
+      <MemberSignature Language="C#" Value="InstallInBuildFolder"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Perform the specified build without any special settings or extra tasks.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowBuiltPlayer">
+      <MemberSignature Language="C#" Value="ShowBuiltPlayer"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Show the built player.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StripDebugSymbols">
+      <MemberSignature Language="C#" Value="StripDebugSymbols"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use BuildOptions.Development instead")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StripPhysics">
+      <MemberSignature Language="C#" Value="StripPhysics"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Remove Physics code from player to save build size (Flash and NaCl only).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SymlinkLibraries">
+      <MemberSignature Language="C#" Value="SymlinkLibraries"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Symlink runtime libraries when generating iOS XCode project. (Faster iteration time).</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="UncompressedAssetBundle">
+      <MemberSignature Language="C#" Value="UncompressedAssetBundle"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Don't compress the data when creating the asset bundle.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WebPlayerOfflineDeployment">
+      <MemberSignature Language="C#" Value="WebPlayerOfflineDeployment"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Copy UnityObject.js alongside Web Player so it wouldn't have to be downloaded from internet.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildPlayer" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

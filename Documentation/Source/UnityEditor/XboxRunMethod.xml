@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="XboxRunMethod" FullName="UnityEditor.XboxRunMethod">
+  <TypeSignature Language="C#" Value="public enum XboxRunMethod"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Xbox 360 run method.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.xboxRunMethod" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DiscEmuAccurate">
+      <MemberSignature Language="C#" Value="DiscEmuAccurate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.XboxRunMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Disc emulation (Accurate)</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.xboxRunMethod" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DiscEmuFast">
+      <MemberSignature Language="C#" Value="DiscEmuFast"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.XboxRunMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Disc emulation (Fast)</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.xboxRunMethod" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="HDD">
+      <MemberSignature Language="C#" Value="HDD"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.XboxRunMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Copy to hard drive.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.xboxRunMethod" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

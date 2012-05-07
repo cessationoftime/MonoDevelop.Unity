@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="MessageType" FullName="UnityEditor.MessageType">
+  <TypeSignature Language="C#" Value="public enum MessageType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>User message types.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorGUI.HelpBox" />, <see cref="P:UnityEditor.EditorGUILayout.HelpBox" /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.MessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Error message</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Info">
+      <MemberSignature Language="C#" Value="Info"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.MessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Info message</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.MessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Neutral message</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="Warning"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.MessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Warning message</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

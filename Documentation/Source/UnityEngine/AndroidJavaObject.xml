@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<Type Name="AndroidJavaObject" FullName="UnityEngine.AndroidJavaObject">
+  <TypeSignature Language="C#" Value="public class AndroidJavaObject : UnityEngine.AndroidJNIHelper, IDisposable"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.AndroidJNIHelper</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>AndroidJavaObject is the Unity representation of a generic instance of java.lang.Object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AndroidJavaObject ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>Construct an AndroidJavaObject based on the name of the class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidJavaObject (IntPtr jobject);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="jobject" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="jobject">To be added.</param>
+        <summary>Construct an AndroidJavaObject based on the name of the class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidJavaObject (string className, object[] args);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="className" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="className">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Construct an AndroidJavaObject based on the name of the class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Call">
+      <MemberSignature Language="C#" Value="protected void _Call (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Call&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="protected ReturnType _Call&lt;ReturnType&gt; (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ReturnType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_CallStatic">
+      <MemberSignature Language="C#" Value="protected void _CallStatic (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_CallStatic&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="protected ReturnType _CallStatic&lt;ReturnType&gt; (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ReturnType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Dispose">
+      <MemberSignature Language="C#" Value="protected void _Dispose ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Get&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="protected FieldType _Get&lt;FieldType&gt; (string fieldName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>FieldType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetRawClass">
+      <MemberSignature Language="C#" Value="protected IntPtr _GetRawClass ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetRawObject">
+      <MemberSignature Language="C#" Value="protected IntPtr _GetRawObject ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_GetStatic&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="protected FieldType _GetStatic&lt;FieldType&gt; (string fieldName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>FieldType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Set&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="protected void _Set&lt;FieldType&gt; (string fieldName, FieldType val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="val" Type="FieldType"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_SetStatic&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="protected void _SetStatic&lt;FieldType&gt; (string fieldName, FieldType val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="val" Type="FieldType"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Call">
+      <MemberSignature Language="C#" Value="public void Call (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls a Java method on an object (non-static).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Call&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="public ReturnType Call&lt;ReturnType&gt; (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ReturnType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStatic">
+      <MemberSignature Language="C#" Value="public void CallStatic (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Call a static Java method on a class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStatic&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="public ReturnType CallStatic&lt;ReturnType&gt; (string methodName, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ReturnType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>IDisposable callback</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>IDisposable callback</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~AndroidJavaObject ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="public FieldType Get&lt;FieldType&gt; (string fieldName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>FieldType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedFieldID&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="protected IntPtr GetCachedFieldID&lt;FieldType&gt; (string fieldName, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedMethodID">
+      <MemberSignature Language="C#" Value="protected IntPtr GetCachedMethodID (string methodName, object[] args, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedMethodID&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="protected IntPtr GetCachedMethodID&lt;ReturnType&gt; (string methodName, object[] args, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRawClass">
+      <MemberSignature Language="C#" Value="public IntPtr GetRawClass ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Retrieve the raw jclass pointer to the Java class;</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRawObject">
+      <MemberSignature Language="C#" Value="public IntPtr GetRawObject ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Retrieve the raw jobject pointer to the Java object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignatureHash">
+      <MemberSignature Language="C#" Value="protected static int GetSignatureHash (object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignatureHash&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="protected static int GetSignatureHash&lt;ReturnType&gt; (object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStatic&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="public FieldType GetStatic&lt;FieldType&gt; (string fieldName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>FieldType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_fieldIDs">
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;int,IntPtr&gt; m_fieldIDs;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Int32,System.IntPtr&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_jclass">
+      <MemberSignature Language="C#" Value="protected IntPtr m_jclass;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_jobject">
+      <MemberSignature Language="C#" Value="protected IntPtr m_jobject;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_methodIDs">
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;int,IntPtr&gt; m_methodIDs;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Int32,System.IntPtr&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Set&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="public void Set&lt;FieldType&gt; (string fieldName, FieldType val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="val" Type="FieldType"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStatic&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="public void SetStatic&lt;FieldType&gt; (string fieldName, FieldType val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="val" Type="FieldType"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="fieldName">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

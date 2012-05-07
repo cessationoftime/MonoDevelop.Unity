@@ -1,0 +1,1299 @@
+<?xml version="1.0"?>
+<Type Name="PlayerSettings" FullName="UnityEditor.PlayerSettings">
+  <TypeSignature Language="C#" Value="public sealed class PlayerSettings : UnityEngine.Object"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Player Settings is where you define various parameters for the final game that you will build in Unity. Some of these values are used in the Resolution Dialog that launches when you open a standalone game.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PlayerSettings ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accelerometerFrequency">
+      <MemberSignature Language="C#" Value="public static int accelerometerFrequency { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Accelerometer update frequency</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="advancedLicense">
+      <MemberSignature Language="C#" Value="public static bool advancedLicense { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the advanced version being used?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="allowedAutorotateToLandscapeLeft">
+      <MemberSignature Language="C#" Value="public static bool allowedAutorotateToLandscapeLeft { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is auto-rotation to landscape left supported?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="allowedAutorotateToLandscapeRight">
+      <MemberSignature Language="C#" Value="public static bool allowedAutorotateToLandscapeRight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is auto-rotation to landscape right supported?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="allowedAutorotateToPortrait">
+      <MemberSignature Language="C#" Value="public static bool allowedAutorotateToPortrait { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is auto-rotation to portrait supported?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="allowedAutorotateToPortraitUpsideDown">
+      <MemberSignature Language="C#" Value="public static bool allowedAutorotateToPortraitUpsideDown { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is auto-rotation to portrait upside-down supported?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="alwaysDisplayWatermark">
+      <MemberSignature Language="C#" Value="public static bool alwaysDisplayWatermark { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("The option alwaysDisplayWatermark is deprecated and is always false.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="aotOptions">
+      <MemberSignature Language="C#" Value="public static string aotOptions { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Additional AOT compilation options. Shared by AOT platforms.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="apiCompatibilityLevel">
+      <MemberSignature Language="C#" Value="public static UnityEditor.ApiCompatibilityLevel apiCompatibilityLevel { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ApiCompatibilityLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>.NET API compatibility level</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bundleIdentifier">
+      <MemberSignature Language="C#" Value="public static string bundleIdentifier { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Application bundle identifier shared between iOS &amp; Android platforms</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bundleVersion">
+      <MemberSignature Language="C#" Value="public static string bundleVersion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Application bundle version shared between iOS &amp; Android platforms</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="captureSingleScreen">
+      <MemberSignature Language="C#" Value="public static bool captureSingleScreen { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Defines if fullscreen games should darken secondary displays.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="colorSpace">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ColorSpace colorSpace { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ColorSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the color space for the current project</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="companyName">
+      <MemberSignature Language="C#" Value="public static string companyName { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of your company.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultInterfaceOrientation">
+      <MemberSignature Language="C#" Value="public static UnityEditor.UIOrientation defaultInterfaceOrientation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default screen orientation for mobiles</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultIsFullScreen">
+      <MemberSignature Language="C#" Value="public static bool defaultIsFullScreen { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If enabled, the game will default to fullscreen mode.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultScreenHeight">
+      <MemberSignature Language="C#" Value="public static int defaultScreenHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default vertical dimension of stand-alone player window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultScreenWidth">
+      <MemberSignature Language="C#" Value="public static int defaultScreenWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default horizontal dimension of stand-alone player window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultWebScreenHeight">
+      <MemberSignature Language="C#" Value="public static int defaultWebScreenHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default vertical dimension of web player window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="defaultWebScreenWidth">
+      <MemberSignature Language="C#" Value="public static int defaultWebScreenWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default horizontal dimension of web player window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="displayResolutionDialog">
+      <MemberSignature Language="C#" Value="public static UnityEditor.ResolutionDialogSetting displayResolutionDialog { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ResolutionDialogSetting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Defines the behaviour of the Resolution Dialog on product launch.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="firstStreamedLevelWithResources">
+      <MemberSignature Language="C#" Value="public static int firstStreamedLevelWithResources { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIconsForTargetGroup">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D[] GetIconsForTargetGroup (UnityEditor.BuildTargetGroup platform);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="platform" Type="UnityEditor.BuildTargetGroup"/>
+      </Parameters>
+      <Docs>
+        <param name="platform">To be added.</param>
+        <summary>Returns the list of assigned icons for the specified platform.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIconSizesForTargetGroup">
+      <MemberSignature Language="C#" Value="public static int[] GetIconSizesForTargetGroup (UnityEditor.BuildTargetGroup platform);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="platform" Type="UnityEditor.BuildTargetGroup"/>
+      </Parameters>
+      <Docs>
+        <param name="platform">To be added.</param>
+        <summary>Returns a list of icon sizes for the specified platform.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAspectRatio">
+      <MemberSignature Language="C#" Value="public static bool HasAspectRatio (UnityEditor.AspectRatio aspectRatio);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspectRatio" Type="UnityEditor.AspectRatio"/>
+      </Parameters>
+      <Docs>
+        <param name="aspectRatio">To be added.</param>
+        <summary>Returns whether or not the specified aspect ratio is enabled.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="iPhoneBundleIdentifier">
+      <MemberSignature Language="C#" Value="public static string iPhoneBundleIdentifier { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The bundle identifier of the iPhone application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="keyaliasPass">
+      <MemberSignature Language="C#" Value="public static string keyaliasPass { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Password for the key used for signing an Android application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="keystorePass">
+      <MemberSignature Language="C#" Value="public static string keystorePass { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Password used for interacting with the Android Keystore.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MTRendering">
+      <MemberSignature Language="C#" Value="public static bool MTRendering { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="productName">
+      <MemberSignature Language="C#" Value="public static string productName { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of your product.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3BackgroundPath">
+      <MemberSignature Language="C#" Value="public static string ps3BackgroundPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Background Image</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3DLCConfigPath">
+      <MemberSignature Language="C#" Value="public static string ps3DLCConfigPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 DLC Config file</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3ReservedMemorySizeMB">
+      <MemberSignature Language="C#" Value="public static int ps3ReservedMemorySizeMB { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Reserved Memory Size</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3SoundPath">
+      <MemberSignature Language="C#" Value="public static string ps3SoundPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Background Sound</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3ThumbnailPath">
+      <MemberSignature Language="C#" Value="public static string ps3ThumbnailPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Thumbnail Image</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3TitleConfigPath">
+      <MemberSignature Language="C#" Value="public static string ps3TitleConfigPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Title Config file</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3TrophyCommId">
+      <MemberSignature Language="C#" Value="public static string ps3TrophyCommId { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Trophy Communication ID</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ps3TrophyPackagePath">
+      <MemberSignature Language="C#" Value="public static string ps3TrophyPackagePath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PS3 Trophy Package</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="resolutionDialogBanner">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D resolutionDialogBanner { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The image to display in the Resolution Dialog window.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="runInBackground">
+      <MemberSignature Language="C#" Value="public static bool runInBackground { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If enabled, your game will continue to run after lost focus.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAspectRatio">
+      <MemberSignature Language="C#" Value="public static void SetAspectRatio (UnityEditor.AspectRatio aspectRatio, bool enable);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aspectRatio" Type="UnityEditor.AspectRatio"/>
+        <Parameter Name="enable" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="aspectRatio">To be added.</param>
+        <param name="enable">To be added.</param>
+        <summary>Enables the specified aspect ratio.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIconsForTargetGroup">
+      <MemberSignature Language="C#" Value="public static void SetIconsForTargetGroup (UnityEditor.BuildTargetGroup platform, UnityEngine.Texture2D[] icons);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="platform" Type="UnityEditor.BuildTargetGroup"/>
+        <Parameter Name="icons" Type="UnityEngine.Texture2D[]"/>
+      </Parameters>
+      <Docs>
+        <param name="platform">To be added.</param>
+        <param name="icons">To be added.</param>
+        <summary>Assign a list of icons for the specified platform.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="statusBarHidden">
+      <MemberSignature Language="C#" Value="public static bool statusBarHidden { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should status bar be hidden. Shared between iOS &amp; Android platforms</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="strippingLevel">
+      <MemberSignature Language="C#" Value="public static UnityEditor.StrippingLevel strippingLevel { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StrippingLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Managed code stripping level</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="use32BitDisplayBuffer">
+      <MemberSignature Language="C#" Value="public static bool use32BitDisplayBuffer { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>32-bit Display Buffer is used</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useMacAppStoreValidation">
+      <MemberSignature Language="C#" Value="public static bool useMacAppStoreValidation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable receipt validation for the Mac App Store.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useOSAutorotation">
+      <MemberSignature Language="C#" Value="public static bool useOSAutorotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Let the OS autorotate the screen as the device orientation changes.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="usePlayerLog">
+      <MemberSignature Language="C#" Value="public static bool usePlayerLog { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Write a log file with debugging information.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxDeployKinectResources">
+      <MemberSignature Language="C#" Value="public static bool xboxDeployKinectResources { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 Kinect resource file deployment</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxEnableAvatar">
+      <MemberSignature Language="C#" Value="public static bool xboxEnableAvatar { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxEnableKinect">
+      <MemberSignature Language="C#" Value="public static bool xboxEnableKinect { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 Kinect title flag - if false Kinect APIs don't happen.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxEnableKinectAutoTracking">
+      <MemberSignature Language="C#" Value="public static bool xboxEnableKinectAutoTracking { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 Kinect automatic skeleton tracking.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxGenerateSpa">
+      <MemberSignature Language="C#" Value="public static bool xboxGenerateSpa { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 _SPAConfig.cs auto-generation</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxImageXexFilePath">
+      <MemberSignature Language="C#" Value="public static string xboxImageXexFilePath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 ImageXex override configuration file path</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxSkinOnGPU">
+      <MemberSignature Language="C#" Value="public static bool xboxSkinOnGPU { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 GPU skinning</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxSpaFilePath">
+      <MemberSignature Language="C#" Value="public static string xboxSpaFilePath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 SPA file path</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxSplashScreen">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D xboxSplashScreen { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="xboxTitleId">
+      <MemberSignature Language="C#" Value="public static string xboxTitleId { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox 360 title id</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

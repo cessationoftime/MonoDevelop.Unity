@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Type Name="CalendarUnit" FullName="UnityEngine.CalendarUnit">
+  <TypeSignature Language="C#" Value="public enum CalendarUnit"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specify calendrical units.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="Day"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the day unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Era">
+      <MemberSignature Language="C#" Value="Era"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the era unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hour">
+      <MemberSignature Language="C#" Value="Hour"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the hour unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Minute">
+      <MemberSignature Language="C#" Value="Minute"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the minute unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="Month"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the month unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Quarter">
+      <MemberSignature Language="C#" Value="Quarter"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the quarter of the calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Second">
+      <MemberSignature Language="C#" Value="Second"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the second unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Week">
+      <MemberSignature Language="C#" Value="Week"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the week unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Weekday">
+      <MemberSignature Language="C#" Value="Weekday"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the weekday unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WeekdayOrdinal">
+      <MemberSignature Language="C#" Value="WeekdayOrdinal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the ordinal weekday unit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Year">
+      <MemberSignature Language="C#" Value="Year"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the year unit.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

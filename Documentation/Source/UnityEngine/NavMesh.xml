@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Type Name="NavMesh" FullName="UnityEngine.NavMesh">
+  <TypeSignature Language="C#" Value="public sealed class NavMesh : UnityEngine.Object"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Navigation mesh.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NavMesh ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatePath">
+      <MemberSignature Language="C#" Value="public static bool CalculatePath (UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, int passableMask, UnityEngine.NavMeshPath path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourcePosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="targetPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="passableMask" Type="System.Int32"/>
+        <Parameter Name="path" Type="UnityEngine.NavMeshPath"/>
+      </Parameters>
+      <Docs>
+        <param name="sourcePosition">To be added.</param>
+        <param name="targetPosition">To be added.</param>
+        <param name="passableMask">To be added.</param>
+        <param name="path">To be added.</param>
+        <summary>Calculate a path between two points and store the resulting path.</summary>
+        <returns>boolean - True if a path is found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindClosestEdge">
+      <MemberSignature Language="C#" Value="public static bool FindClosestEdge (UnityEngine.Vector3 sourcePosition, out UnityEngine.NavMeshHit hit, int passableMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourcePosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+        <Parameter Name="passableMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="sourcePosition">To be added.</param>
+        <param name="hit">To be added.</param>
+        <param name="passableMask">To be added.</param>
+        <summary>Locate the closest NavMesh edge from a point on the NavMesh.</summary>
+        <returns>boolean - True if a nearest edge is found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLayerCost">
+      <MemberSignature Language="C#" Value="public static float GetLayerCost (int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="layer">To be added.</param>
+        <summary>Gets the cost for traversing over geometry of the layer type on all agents.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNavMeshLayerFromName">
+      <MemberSignature Language="C#" Value="public static int GetNavMeshLayerFromName (string layerName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layerName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="layerName">To be added.</param>
+        <summary>Returns the layer index for a named layer.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public static bool Raycast (UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, out UnityEngine.NavMeshHit hit, int passableMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourcePosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="targetPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+        <Parameter Name="passableMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="sourcePosition">To be added.</param>
+        <param name="targetPosition">To be added.</param>
+        <param name="hit">To be added.</param>
+        <param name="passableMask">To be added.</param>
+        <summary>Trace a ray between two points on the NavMesh.</summary>
+        <returns>boolean - True if the ray is terminated before reaching target position. Otherwise returns false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SamplePosition">
+      <MemberSignature Language="C#" Value="public static bool SamplePosition (UnityEngine.Vector3 sourcePosition, out UnityEngine.NavMeshHit hit, float maxDistance, int allowedMask);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourcePosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+        <Parameter Name="maxDistance" Type="System.Single"/>
+        <Parameter Name="allowedMask" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="sourcePosition">To be added.</param>
+        <param name="hit">To be added.</param>
+        <param name="maxDistance">To be added.</param>
+        <param name="allowedMask">To be added.</param>
+        <summary>Sample the NavMesh closest to the point specified.</summary>
+        <returns>boolean - True if a nearest point is found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLayerCost">
+      <MemberSignature Language="C#" Value="public static void SetLayerCost (int layer, float cost);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="cost" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="layer">To be added.</param>
+        <param name="cost">To be added.</param>
+        <summary>Sets the cost for traversing over geometry of the layer type on all agents.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

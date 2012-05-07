@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Type Name="AudioSettings" FullName="UnityEngine.AudioSettings">
+  <TypeSignature Language="C#" Value="public sealed class AudioSettings"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Controls the global audio settings from script.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AudioSettings ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="driverCaps">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AudioSpeakerMode driverCaps { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the speaker mode capability of the current audio driver. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDSPBufferSize">
+      <MemberSignature Language="C#" Value="public static void GetDSPBufferSize (out int bufferLength, out int numBuffers);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bufferLength" Type="System.Int32&amp;" RefType="out"/>
+        <Parameter Name="numBuffers" Type="System.Int32&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="bufferLength">To be added.</param>
+        <param name="numBuffers">To be added.</param>
+        <summary>Get or set the mixer's buffer size in samples.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="outputSampleRate">
+      <MemberSignature Language="C#" Value="public static int outputSampleRate { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Get and set the mixer's current output rate.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDSPBufferSize">
+      <MemberSignature Language="C#" Value="public static void SetDSPBufferSize (int bufferLength, int numBuffers);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bufferLength" Type="System.Int32"/>
+        <Parameter Name="numBuffers" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="bufferLength">To be added.</param>
+        <param name="numBuffers">To be added.</param>
+        <summary>Get or set the mixer's buffer size in samples.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="speakerMode">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AudioSpeakerMode speakerMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or gets the current speaker mode. Default is 2 channel stereo.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

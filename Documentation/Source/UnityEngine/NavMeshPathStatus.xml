@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="NavMeshPathStatus" FullName="UnityEngine.NavMeshPathStatus">
+  <TypeSignature Language="C#" Value="public enum NavMeshPathStatus"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Status of path.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PathComplete">
+      <MemberSignature Language="C#" Value="PathComplete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NavMeshPathStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The path terminates at the destination.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PathInvalid">
+      <MemberSignature Language="C#" Value="PathInvalid"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NavMeshPathStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The path is invalid.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PathPartial">
+      <MemberSignature Language="C#" Value="PathPartial"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NavMeshPathStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The path cannot reach the destination.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

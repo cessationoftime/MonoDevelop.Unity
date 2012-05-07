@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="Tool" FullName="UnityEditor.Tool">
+  <TypeSignature Language="C#" Value="public enum Tool"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Which tool is active in the editor</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="Move"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.Tool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The move tool is active.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.Tool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No tool is active. Set <see cref="P:UnityEditor.Tools.current" /> to this to implement your own in-inspector toolbar (like the terrain editor does).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rotate">
+      <MemberSignature Language="C#" Value="Rotate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.Tool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rotate tool is active.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Scale">
+      <MemberSignature Language="C#" Value="Scale"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.Tool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The scale tool is active.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="View"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.Tool</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The view tool is active - Use <see cref="P:UnityEditor.Tools.viewTool" /> to find out which view tool we're talking about.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

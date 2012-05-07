@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="LightmapsMode" FullName="UnityEngine.LightmapsMode">
+  <TypeSignature Language="C#" Value="public enum LightmapsMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Dual or single lightmaps rendering mode.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.lightmapsMode" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Directional">
+      <MemberSignature Language="C#" Value="Directional"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightmapsMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Directional rendering mode.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.lightmapsMode" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Dual">
+      <MemberSignature Language="C#" Value="Dual"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightmapsMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dual lightmap rendering mode.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.lightmapsMode" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Single">
+      <MemberSignature Language="C#" Value="Single"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LightmapsMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Single, traditional lightmap rendering mode.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.lightmapsMode" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<Type Name="WebCamTexture" FullName="UnityEngine.WebCamTexture">
+  <TypeSignature Language="C#" Value="public sealed class WebCamTexture : UnityEngine.Texture"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Texture</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>WebCam Textures are textures onto which the live video input is rendered</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture (string deviceName);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="deviceName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="deviceName">To be added.</param>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture (int requestedWidth, int requestedHeight);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requestedWidth" Type="System.Int32"/>
+        <Parameter Name="requestedHeight" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="requestedWidth">To be added.</param>
+        <param name="requestedHeight">To be added.</param>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture (int requestedWidth, int requestedHeight, int requestedFPS);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requestedWidth" Type="System.Int32"/>
+        <Parameter Name="requestedHeight" Type="System.Int32"/>
+        <Parameter Name="requestedFPS" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="requestedWidth">To be added.</param>
+        <param name="requestedHeight">To be added.</param>
+        <param name="requestedFPS">To be added.</param>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture (string deviceName, int requestedWidth, int requestedHeight);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="deviceName" Type="System.String"/>
+        <Parameter Name="requestedWidth" Type="System.Int32"/>
+        <Parameter Name="requestedHeight" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="deviceName">To be added.</param>
+        <param name="requestedWidth">To be added.</param>
+        <param name="requestedHeight">To be added.</param>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebCamTexture (string deviceName, int requestedWidth, int requestedHeight, int requestedFPS);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="deviceName" Type="System.String"/>
+        <Parameter Name="requestedWidth" Type="System.Int32"/>
+        <Parameter Name="requestedHeight" Type="System.Int32"/>
+        <Parameter Name="requestedFPS" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="deviceName">To be added.</param>
+        <param name="requestedWidth">To be added.</param>
+        <param name="requestedHeight">To be added.</param>
+        <param name="requestedFPS">To be added.</param>
+        <summary>Create a WebCamTexture</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="deviceName">
+      <MemberSignature Language="C#" Value="public string deviceName { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set this to specify the name of the device to use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="devices">
+      <MemberSignature Language="C#" Value="public static UnityEngine.WebCamDevice[] devices { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WebCamDevice[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Return a list of available devices.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="didUpdateThisFrame">
+      <MemberSignature Language="C#" Value="public bool didUpdateThisFrame { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Did the video buffer update this frame?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixel">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetPixel (int x, int y);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>Returns pixel color at coordinates (x, y).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color[] GetPixels (int x, int y, int blockWidth, int blockHeight);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32"/>
+        <Parameter Name="y" Type="System.Int32"/>
+        <Parameter Name="blockWidth" Type="System.Int32"/>
+        <Parameter Name="blockHeight" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="blockWidth">To be added.</param>
+        <param name="blockHeight">To be added.</param>
+        <summary>Get a block of pixel colors.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels32">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color32[] GetPixels32 ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color32[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Returns the pixels data in raw format</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPixels32">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color32[] GetPixels32 (UnityEngine.Color32[] colors);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color32[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="colors" Type="UnityEngine.Color32[]"/>
+      </Parameters>
+      <Docs>
+        <param name="colors">To be added.</param>
+        <summary>Returns the pixels data in raw format</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isPlaying">
+      <MemberSignature Language="C#" Value="public bool isPlaying { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns if the camera is currently playing</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pause">
+      <MemberSignature Language="C#" Value="public void Pause ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Pauses the camera.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Play">
+      <MemberSignature Language="C#" Value="public void Play ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Starts the camera</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="requestedFPS">
+      <MemberSignature Language="C#" Value="public float requestedFPS { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the requested frame rate of the camera device (in frames per second).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="requestedHeight">
+      <MemberSignature Language="C#" Value="public int requestedHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the requested height of the camera device.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="requestedWidth">
+      <MemberSignature Language="C#" Value="public int requestedWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the requested width of the camera device.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stops the camera</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

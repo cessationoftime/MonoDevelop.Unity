@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="FullScreenMovieControlMode" FullName="UnityEngine.FullScreenMovieControlMode">
+  <TypeSignature Language="C#" Value="public enum FullScreenMovieControlMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes options for displaying movie playback controls.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CancelOnInput">
+      <MemberSignature Language="C#" Value="CancelOnInput"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieControlMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not display any controls, but cancel movie playback if input occurs.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Full">
+      <MemberSignature Language="C#" Value="Full"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieControlMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Display the standard controls for controlling movie playback. This</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hidden">
+      <MemberSignature Language="C#" Value="Hidden"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieControlMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not display any controls. This mode prevents the user from</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Minimal">
+      <MemberSignature Language="C#" Value="Minimal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieControlMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Display minimal set of controls controlling movie playback. Set of</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

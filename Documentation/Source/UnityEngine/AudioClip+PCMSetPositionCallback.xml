@@ -1,0 +1,21 @@
+<Type Name="AudioClip+PCMSetPositionCallback" FullName="UnityEngine.AudioClip+PCMSetPositionCallback">
+  <TypeSignature Language="C#" Value="public delegate void AudioClip.PCMSetPositionCallback(int position);" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="position" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="position">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

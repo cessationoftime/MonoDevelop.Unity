@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="TextureCompressionQuality" FullName="UnityEngine.TextureCompressionQuality">
+  <TypeSignature Language="C#" Value="public enum TextureCompressionQuality"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Compression Quality. Corresponds to the settings in a <see cref="T:UnityEngine.texture inspector" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Best">
+      <MemberSignature Language="C#" Value="Best"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureCompressionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Best compression</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fast">
+      <MemberSignature Language="C#" Value="Fast"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureCompressionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Fast compression</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TextureCompressionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Normal compression (default)</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

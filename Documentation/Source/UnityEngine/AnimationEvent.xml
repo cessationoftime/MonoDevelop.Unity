@@ -47,11 +47,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("Use stringParameter instead")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -60,6 +55,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use stringParameter instead")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="Finalize">
       <MemberSignature Language="C#" Value="~AnimationEvent ();"/>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Type Name="RigidbodyConstraints" FullName="UnityEngine.RigidbodyConstraints">
+  <TypeSignature Language="C#" Value="public enum RigidbodyConstraints"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Use these flags to constrain motion of Rigidbodies.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.Rigidbody.constraints" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FreezeAll">
+      <MemberSignature Language="C#" Value="FreezeAll"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze rotation and motion along all axes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezePosition">
+      <MemberSignature Language="C#" Value="FreezePosition"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze motion along all axes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezePositionX">
+      <MemberSignature Language="C#" Value="FreezePositionX"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze motion along the X-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezePositionY">
+      <MemberSignature Language="C#" Value="FreezePositionY"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze motion along the Y-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezePositionZ">
+      <MemberSignature Language="C#" Value="FreezePositionZ"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze motion along the Z-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezeRotation">
+      <MemberSignature Language="C#" Value="FreezeRotation"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze rotation along all axes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezeRotationX">
+      <MemberSignature Language="C#" Value="FreezeRotationX"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze rotation along the X-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezeRotationY">
+      <MemberSignature Language="C#" Value="FreezeRotationY"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze rotation along the Y-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreezeRotationZ">
+      <MemberSignature Language="C#" Value="FreezeRotationZ"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Freeze rotation along the Z-axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RigidbodyConstraints</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No constraints</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

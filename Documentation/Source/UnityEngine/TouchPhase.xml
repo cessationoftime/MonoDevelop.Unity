@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="TouchPhase" FullName="UnityEngine.TouchPhase">
+  <TypeSignature Language="C#" Value="public enum TouchPhase"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes phase of a finger touch.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Began">
+      <MemberSignature Language="C#" Value="Began"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A finger touched the screen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Canceled">
+      <MemberSignature Language="C#" Value="Canceled"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The system cancelled tracking for the touch, as when (for example) the user puts the device to her face or more than five touches happened simultaneously. This is the final phase of a touch.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Ended">
+      <MemberSignature Language="C#" Value="Ended"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A finger was lifted from the screen. This is the final phase of a touch.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Moved">
+      <MemberSignature Language="C#" Value="Moved"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A finger moved on the screen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stationary">
+      <MemberSignature Language="C#" Value="Stationary"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchPhase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A finger is touching the screen but hasn't moved.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

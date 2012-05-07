@@ -32,11 +32,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("the active property is deprecated on components. Please use gameObject.active instead. If you meant to enable / disable a single component use enabled instead.")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -45,6 +40,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("the active property is deprecated on components. Please use gameObject.active instead. If you meant to enable / disable a single component use enabled instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="animation">
       <MemberSignature Language="C#" Value="public UnityEngine.Animation animation { get; }"/>
@@ -177,11 +177,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Collider</ReturnType>
       </ReturnValue>
@@ -190,6 +185,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="CompareTag">
       <MemberSignature Language="C#" Value="public bool CompareTag (string tag);"/>
@@ -246,11 +246,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Component</ReturnType>
       </ReturnValue>
@@ -263,6 +258,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="GetComponent">
       <MemberSignature Language="C#" Value="public UnityEngine.Component GetComponent (Type type);"/>
@@ -366,11 +366,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Component[]</ReturnType>
       </ReturnValue>
@@ -383,6 +378,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="GetComponents&lt;T&gt;">
       <MemberSignature Language="C#" Value="public T[] GetComponents&lt;T&gt; () where T : UnityEngine.Component;"/>
@@ -414,11 +414,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Component[]</ReturnType>
       </ReturnValue>
@@ -431,6 +426,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="GetComponentsInChildren">
       <MemberSignature Language="C#" Value="public UnityEngine.Component[] GetComponentsInChildren (Type t, bool includeInactive);"/>
@@ -510,14 +510,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Obsolete("Please use guiTexture instead")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.GUIElement</ReturnType>
       </ReturnValue>
@@ -526,6 +518,14 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("Please use guiTexture instead")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="guiText">
       <MemberSignature Language="C#" Value="public UnityEngine.GUIText guiText { get; }"/>

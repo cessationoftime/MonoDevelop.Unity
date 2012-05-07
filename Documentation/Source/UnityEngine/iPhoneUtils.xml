@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<Type Name="iPhoneUtils" FullName="UnityEngine.iPhoneUtils">
+  <TypeSignature Language="C#" Value="public sealed class iPhoneUtils"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Interface into iPhone miscellaneous functionality.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public iPhoneUtils ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isApplicationGenuine">
+      <MemberSignature Language="C#" Value="public static bool isApplicationGenuine { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isApplicationGenuineAvailable">
+      <MemberSignature Language="C#" Value="public static bool isApplicationGenuineAvailable { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovie">
+      <MemberSignature Language="C#" Value="public static void PlayMovie (string path, UnityEngine.Color bgColor);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovie method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovie">
+      <MemberSignature Language="C#" Value="public static void PlayMovie (string path, UnityEngine.Color bgColor, UnityEngine.iPhoneMovieControlMode controlMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovie method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="UnityEngine.iPhoneMovieControlMode"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovie">
+      <MemberSignature Language="C#" Value="public static void PlayMovie (string path, UnityEngine.Color bgColor, int controlMode, int scalingMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovie method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="System.Int32"/>
+        <Parameter Name="scalingMode" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <param name="scalingMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovie">
+      <MemberSignature Language="C#" Value="public static void PlayMovie (string path, UnityEngine.Color bgColor, UnityEngine.iPhoneMovieControlMode controlMode, UnityEngine.iPhoneMovieScalingMode scalingMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovie method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="UnityEngine.iPhoneMovieControlMode"/>
+        <Parameter Name="scalingMode" Type="UnityEngine.iPhoneMovieScalingMode"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <param name="scalingMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovieURL">
+      <MemberSignature Language="C#" Value="public static void PlayMovieURL (string url, UnityEngine.Color bgColor);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovieURL method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="url">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovieURL">
+      <MemberSignature Language="C#" Value="public static void PlayMovieURL (string url, UnityEngine.Color bgColor, UnityEngine.iPhoneMovieControlMode controlMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovieURL method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="UnityEngine.iPhoneMovieControlMode"/>
+      </Parameters>
+      <Docs>
+        <param name="url">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovieURL">
+      <MemberSignature Language="C#" Value="public static void PlayMovieURL (string url, UnityEngine.Color bgColor, int controlMode, int scalingMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovieURL method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="System.Int32"/>
+        <Parameter Name="scalingMode" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="url">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <param name="scalingMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayMovieURL">
+      <MemberSignature Language="C#" Value="public static void PlayMovieURL (string url, UnityEngine.Color bgColor, UnityEngine.iPhoneMovieControlMode controlMode, UnityEngine.iPhoneMovieScalingMode scalingMode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("PlayMovieURL method is deprecated. Please use Handheld.PlayFullScreenMovie instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String"/>
+        <Parameter Name="bgColor" Type="UnityEngine.Color"/>
+        <Parameter Name="controlMode" Type="UnityEngine.iPhoneMovieControlMode"/>
+        <Parameter Name="scalingMode" Type="UnityEngine.iPhoneMovieScalingMode"/>
+      </Parameters>
+      <Docs>
+        <param name="url">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="controlMode">To be added.</param>
+        <param name="scalingMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vibrate">
+      <MemberSignature Language="C#" Value="public static void Vibrate ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Vibrate method is deprecated. Please use Handheld.Vibrate instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

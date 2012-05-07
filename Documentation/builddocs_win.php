@@ -54,8 +54,7 @@ define("SCRIPTREFERENCE_PATH","/Progra~2/Unity/Editor/Data/Documentation/Documen
 
 // MonoDocer Parsing Command
 //$monodoc_export_path = "export MONO_PATH=$MONOPATH:" . FRAMEWORKS_PATH . "/Mono.framework";
-$monodoc_command = "bash " . MONODOC_PATH . "monodocer -assembly:" . FRAMEWORKS_PATH . "UnityEngine.dll " . FRAMEWORKS_PATH . "UnityEngine.dll " . FRAMEWORKS_PATH . "UnityEngine-Debug.dll -path:" . SOURCE_PATH . " -pretty > " . LOG_PATH . "monodocer.log";
-
+$monodoc_command = "bash " . MONODOC_PATH . "monodocer -assembly:" . FRAMEWORKS_PATH . "UnityEngine.dll " . FRAMEWORKS_PATH . "UnityEditor.dll " . FRAMEWORKS_PATH . "UnityEngine-Debug.dll -path:" . SOURCE_PATH . " -pretty > " . LOG_PATH . "monodocer.log";
 // MonoDoc Assembler Command				
 $mdassembler_command = "bash " . MONODOC_PATH . "mdassembler --ecma " . SOURCE_PATH . 
 						" --out " . RELEASE_PATH . "Unity > " . LOG_PATH . 
@@ -121,6 +120,7 @@ if (!is_dir(SCRIPTREFERENCE_PATH)) { die("Unity Script Reference Not Found"); }
 
 // Execute Parse/Update of Actual Libraries
 //exec($monodoc_export_path);
+echo $monodoc_command;
 exec($monodoc_command);
 //exec($monodoc_command_2);
 
@@ -609,11 +609,8 @@ function updateDocumentationSourceEnumeration($namespace, $type)
 		}
 	}
 
-	$hacks = simpleXMLHack(trim($objectXML->asXML()));
-	//$hacks = simpleXMLHack(trim($objectXML->asXML()));
-	//$hacks = str_replace("<p class=\"details\"&gt;", "", $hacks);
 	// Save File
-	file_put_contents(SOURCE_PATH . $namespace . "/" . $type . ".xml",  $hacks);
+	file_put_contents(SOURCE_PATH . $namespace . "/" . $type . ".xml", simpleXMLHack(trim($objectXML->asXML())));
 }
 
 // =================================================================================

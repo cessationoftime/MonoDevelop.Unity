@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="AudioRolloffMode" FullName="UnityEngine.AudioRolloffMode">
+  <TypeSignature Language="C#" Value="public enum AudioRolloffMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Rolloff modes that a 3D sound can have in an audio source.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioRolloffMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use this when you want to use a custom rolloff.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Linear">
+      <MemberSignature Language="C#" Value="Linear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioRolloffMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use this mode when you want to lower the volume of your sound over the distance</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Logarithmic">
+      <MemberSignature Language="C#" Value="Logarithmic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioRolloffMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use this mode when you want a real-world rolloff.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

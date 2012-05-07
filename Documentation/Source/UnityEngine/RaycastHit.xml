@@ -35,11 +35,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Collider</ReturnType>
       </ReturnValue>
@@ -48,6 +43,11 @@
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.Physics.Raycast" />, <see cref="P:UnityEngine.Physics.Linecast" />, <see cref="P:UnityEngine.Physics.RaycastAll" />.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="distance">
       <MemberSignature Language="C#" Value="public float distance { set; get; }"/>

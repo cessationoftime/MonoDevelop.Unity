@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Type Name="SleepTimeout" FullName="UnityEngine.SleepTimeout">
+  <TypeSignature Language="C#" Value="public enum SleepTimeout"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Constants for special values of <see cref="P:UnityEngine.Screen.sleepTimeout" />. Use them to</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NeverSleep">
+      <MemberSignature Language="C#" Value="NeverSleep"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SleepTimeout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Prevent screen dimming.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemSetting">
+      <MemberSignature Language="C#" Value="SystemSetting"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SleepTimeout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set the sleep timeout to whatever user has specified in the system</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

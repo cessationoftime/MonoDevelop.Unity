@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="AndroidBuildSubtarget" FullName="UnityEditor.AndroidBuildSubtarget">
+  <TypeSignature Language="C#" Value="public enum AndroidBuildSubtarget"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Target Android build platform.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ATC">
+      <MemberSignature Language="C#" Value="ATC"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ATI texture compression. Available on devices running Adreno GPU, including HTC Nexus One, Droid Incredible, EVO, and others.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DXT">
+      <MemberSignature Language="C#" Value="DXT"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>S3 texture compression, nonspecific to DXT variant. Supported on devices running Nvidia Tegra2 platform, including Motorala Xoom, Motorola Atrix, Droid Bionic, and others.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ETC">
+      <MemberSignature Language="C#" Value="ETC"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ETC1 texture compression (or RGBA16 for textures with alpha), supported by all devices.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Generic">
+      <MemberSignature Language="C#" Value="Generic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Don't override texture compression.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="PVRTC">
+      <MemberSignature Language="C#" Value="PVRTC"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>PowerVR texture compression. Available in devices running PowerVR SGX530/540 GPU, such as Motorola DROID series; Samsung Galaxy S, Nexus S, and Galaxy Tab; and others.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

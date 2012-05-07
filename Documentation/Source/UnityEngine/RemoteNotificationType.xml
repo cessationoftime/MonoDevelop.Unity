@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="RemoteNotificationType" FullName="UnityEngine.RemoteNotificationType">
+  <TypeSignature Language="C#" Value="public enum RemoteNotificationType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specify remote notification types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alert">
+      <MemberSignature Language="C#" Value="Alert"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotificationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The application accepts alert messages as notifications.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Badge">
+      <MemberSignature Language="C#" Value="Badge"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotificationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The application accepts notifications that badge the application icon.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotificationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The application accepts no notifications.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sound">
+      <MemberSignature Language="C#" Value="Sound"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotificationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The application accepts alert sounds as notifications.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

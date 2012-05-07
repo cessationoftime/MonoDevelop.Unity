@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="ADSizeIdentifier" FullName="UnityEngine.ADSizeIdentifier">
+  <TypeSignature Language="C#" Value="public enum ADSizeIdentifier"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>This enumeration is used to identify the size of an advertisement.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Landscape">
+      <MemberSignature Language="C#" Value="Landscape"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADSizeIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the banner view is in landscape mode.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Portrait">
+      <MemberSignature Language="C#" Value="Portrait"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADSizeIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the banner view is in portait mode.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADSizeIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the banner view is in unknown mode.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

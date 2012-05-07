@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="ColorSpace" FullName="UnityEngine.ColorSpace">
+  <TypeSignature Language="C#" Value="public enum ColorSpace"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Valid color spaces</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.bakedColorSpace" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Gamma">
+      <MemberSignature Language="C#" Value="Gamma"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ColorSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightmap has been baked for gamma rendering</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.bakedColorSpace" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Linear">
+      <MemberSignature Language="C#" Value="Linear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ColorSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightmap has been baked for linear rendering</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.bakedColorSpace" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Uninitialized">
+      <MemberSignature Language="C#" Value="Uninitialized"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ColorSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Uninitialized colorspace</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.LightmapSettings.bakedColorSpace" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<Type Name="Social" FullName="UnityEngine.Social">
+  <TypeSignature Language="C#" Value="public static class Social"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Generic access to the Social API.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.GameCenterPlatform" /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="public static UnityEngine.SocialPlatforms.ISocialPlatform Active { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.ISocialPlatform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAchievement">
+      <MemberSignature Language="C#" Value="public static UnityEngine.SocialPlatforms.IAchievement CreateAchievement ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.IAchievement</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Create an IAchievement instance</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateLeaderboard">
+      <MemberSignature Language="C#" Value="public static UnityEngine.SocialPlatforms.ILeaderboard CreateLeaderboard ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.ILeaderboard</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Create an ILeaderboard instance</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAchievementDescriptions">
+      <MemberSignature Language="C#" Value="public static void LoadAchievementDescriptions (Action&lt;UnityEngine.SocialPlatforms.IAchievementDescription[]&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.Action&lt;UnityEngine.SocialPlatforms.IAchievementDescription[]&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <summary>The local user (potentially not logged in).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadAchievements">
+      <MemberSignature Language="C#" Value="public static void LoadAchievements (Action&lt;UnityEngine.SocialPlatforms.IAchievement[]&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.Action&lt;UnityEngine.SocialPlatforms.IAchievement[]&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <summary>Load the achievements the logged in user has already achieved or reported progress on.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadScores">
+      <MemberSignature Language="C#" Value="public static void LoadScores (string leaderboardID, Action&lt;UnityEngine.SocialPlatforms.IScore[]&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="leaderboardID" Type="System.String"/>
+        <Parameter Name="callback" Type="System.Action&lt;UnityEngine.SocialPlatforms.IScore[]&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="leaderboardID">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>Load a default set of scores from the given leaderboard.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadUsers">
+      <MemberSignature Language="C#" Value="public static void LoadUsers (string[] userIDs, Action&lt;UnityEngine.SocialPlatforms.IUserProfile[]&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userIDs" Type="System.String[]"/>
+        <Parameter Name="callback" Type="System.Action&lt;UnityEngine.SocialPlatforms.IUserProfile[]&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="userIDs">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>Load the user profiles accociated with the given array of user IDs.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="localUser">
+      <MemberSignature Language="C#" Value="public static UnityEngine.SocialPlatforms.ILocalUser localUser { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.ILocalUser</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReportProgress">
+      <MemberSignature Language="C#" Value="public static void ReportProgress (string achievementID, double progress, Action&lt;bool&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="achievementID" Type="System.String"/>
+        <Parameter Name="progress" Type="System.Double"/>
+        <Parameter Name="callback" Type="System.Action&lt;System.Boolean&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="achievementID">To be added.</param>
+        <param name="progress">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>Reports the progress of an achievement.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReportScore">
+      <MemberSignature Language="C#" Value="public static void ReportScore (long score, string board, Action&lt;bool&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="score" Type="System.Int64"/>
+        <Parameter Name="board" Type="System.String"/>
+        <Parameter Name="callback" Type="System.Action&lt;System.Boolean&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="score">To be added.</param>
+        <param name="board">To be added.</param>
+        <param name="callback">To be added.</param>
+        <summary>Report a score to a specific leaderboard.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAchievementsUI">
+      <MemberSignature Language="C#" Value="public static void ShowAchievementsUI ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Show a default/system view of the games achievements.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowLeaderboardUI">
+      <MemberSignature Language="C#" Value="public static void ShowLeaderboardUI ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Show a default/system view of the games leaderboards.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

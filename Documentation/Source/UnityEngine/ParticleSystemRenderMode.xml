@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="ParticleSystemRenderMode" FullName="UnityEngine.ParticleSystemRenderMode">
+  <TypeSignature Language="C#" Value="public enum ParticleSystemRenderMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The rendering mode for particle systems (Shuriken).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Billboard">
+      <MemberSignature Language="C#" Value="Billboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleSystemRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render particles as billboards facing the player. (Default)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalBillboard">
+      <MemberSignature Language="C#" Value="HorizontalBillboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleSystemRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render particles as billboards always facing up along the y-Axis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mesh">
+      <MemberSignature Language="C#" Value="Mesh"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleSystemRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render particles as meshes.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stretch">
+      <MemberSignature Language="C#" Value="Stretch"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleSystemRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stretch particles in the direction of motion.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalBillboard">
+      <MemberSignature Language="C#" Value="VerticalBillboard"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ParticleSystemRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Render particles as billboards always facing the player, but not pitching along the x-Axis.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

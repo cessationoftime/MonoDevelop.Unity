@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="LocationServiceStatus" FullName="UnityEngine.LocationServiceStatus">
+  <TypeSignature Language="C#" Value="public enum LocationServiceStatus"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes location service status.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocationServiceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Location service failed (user denied access to location service).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Initializing">
+      <MemberSignature Language="C#" Value="Initializing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocationServiceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Location service is initializing, some time later it will switch to</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Running">
+      <MemberSignature Language="C#" Value="Running"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocationServiceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Location service is running and locations could be queried.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stopped">
+      <MemberSignature Language="C#" Value="Stopped"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocationServiceStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Location service is stopped.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Type Name="UserAuthorization" FullName="UnityEngine.UserAuthorization">
+  <TypeSignature Language="C#" Value="public enum UserAuthorization"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Constants to pass to <see cref="P:UnityEngine.Application.RequestUserAuthorization" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Microphone">
+      <MemberSignature Language="C#" Value="Microphone"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UserAuthorization</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Request permission to use any audio input sources attached to the computer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WebCam">
+      <MemberSignature Language="C#" Value="WebCam"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.UserAuthorization</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Request permission to use any video input sources attached to the computer.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

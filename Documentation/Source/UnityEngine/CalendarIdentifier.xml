@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Type Name="CalendarIdentifier" FullName="UnityEngine.CalendarIdentifier">
+  <TypeSignature Language="C#" Value="public enum CalendarIdentifier"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specify calendar types.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BuddhistCalendar">
+      <MemberSignature Language="C#" Value="BuddhistCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Buddhist calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ChineseCalendar">
+      <MemberSignature Language="C#" Value="ChineseCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Chinese calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GregorianCalendar">
+      <MemberSignature Language="C#" Value="GregorianCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Gregorian calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HebrewCalendar">
+      <MemberSignature Language="C#" Value="HebrewCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Hebrew calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IndianCalendar">
+      <MemberSignature Language="C#" Value="IndianCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Indian calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IslamicCalendar">
+      <MemberSignature Language="C#" Value="IslamicCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Islamic calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IslamicCivilCalendar">
+      <MemberSignature Language="C#" Value="IslamicCivilCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Islamic civil calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ISO8601Calendar">
+      <MemberSignature Language="C#" Value="ISO8601Calendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the ISO8601.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JapaneseCalendar">
+      <MemberSignature Language="C#" Value="JapaneseCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Japanese calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PersianCalendar">
+      <MemberSignature Language="C#" Value="PersianCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Persian calendar.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RepublicOfChinaCalendar">
+      <MemberSignature Language="C#" Value="RepublicOfChinaCalendar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CalendarIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifies the Republic of China (Taiwan) calendar.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

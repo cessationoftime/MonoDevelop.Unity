@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Type Name="FFTWindow" FullName="UnityEngine.FFTWindow">
+  <TypeSignature Language="C#" Value="public enum FFTWindow"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Spectrum analysis windowing types</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Blackman">
+      <MemberSignature Language="C#" Value="Blackman"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = 0.42 - (0.5 * COS(n/N) ) + (0.08 * COS(2.0 * n/N) )</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BlackmanHarris">
+      <MemberSignature Language="C#" Value="BlackmanHarris"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = 0.35875 - (0.48829 * COS(1.0 * n/N)) + (0.14128 * COS(2.0 * n/N)) - (0.01168 * COS(3.0 * n/N))</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hamming">
+      <MemberSignature Language="C#" Value="Hamming"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = 0.54 - (0.46 * COS(n/N) )</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hanning">
+      <MemberSignature Language="C#" Value="Hanning"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = 0.5 * (1.0 - COS(n/N) )</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rectangular">
+      <MemberSignature Language="C#" Value="Rectangular"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = 1.0</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Triangle">
+      <MemberSignature Language="C#" Value="Triangle"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FFTWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>w[n] = TRI(2n/N)</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporter" FullName="UnityEditor.ModelImporter">
+  <TypeSignature Language="C#" Value="public sealed class ModelImporter : UnityEditor.AssetImporter"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.AssetImporter</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Model importer lets you modify <see cref="T:UnityEditor.model" /> import settings from editor scripts.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModelImporter ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="addCollider">
+      <MemberSignature Language="C#" Value="public bool addCollider { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Add <see cref="T:UnityEditor.mesh colliders" /> to imported meshes.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationCompression">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterAnimationCompression animationCompression { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterAnimationCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation compression setting.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterAnimationCompression" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationPositionError">
+      <MemberSignature Language="C#" Value="public float animationPositionError { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allowed error of animation position compression.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.animationCompression" />, <see cref="T:UnityEditor.ModelImporterAnimationCompression" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationRotationError">
+      <MemberSignature Language="C#" Value="public float animationRotationError { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allowed error of animation rotation compression.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.animationCompression" />, <see cref="T:UnityEditor.ModelImporterAnimationCompression" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationScaleError">
+      <MemberSignature Language="C#" Value="public float animationScaleError { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allowed error of animation scale compression.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.animationCompression" />, <see cref="T:UnityEditor.ModelImporterAnimationCompression" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationWrapMode">
+      <MemberSignature Language="C#" Value="public UnityEngine.WrapMode animationWrapMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.WrapMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The default wrap mode for the generated animation clips.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: WrapMode, <see cref="P:UnityEditor.AnimationClip.wrapMode" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bakeIK">
+      <MemberSignature Language="C#" Value="public bool bakeIK { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bake Inverse Kinematics (IK) when importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="clipAnimations">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterClipAnimation[] clipAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterClipAnimation[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation clips to split animation into.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.splitAnimations" />, <see cref="T:UnityEditor.ModelImporterClipAnimation" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="generateAnimations">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterGenerateAnimations generateAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateAnimations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation generation options.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterGenerateAnimations" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="generateMaterials">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterGenerateMaterials generateMaterials { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use importMaterials, materialName and materialSearch instead")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterGenerateMaterials</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="generateSecondaryUV">
+      <MemberSignature Language="C#" Value="public bool generateSecondaryUV { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generate secondary UV set for lightmapping.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="globalScale">
+      <MemberSignature Language="C#" Value="public float globalScale { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Global scale factor for importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="importMaterials">
+      <MemberSignature Language="C#" Value="public bool importMaterials { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import materials from file.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.materialName" />, <see cref="P:UnityEditor.materialSearch" /> options.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isBakeIKSupported">
+      <MemberSignature Language="C#" Value="public bool isBakeIKSupported { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is Bake Inverse Kinematics (IK) supported by this importer.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isTangentImportSupported">
+      <MemberSignature Language="C#" Value="public bool isTangentImportSupported { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is import of tangents supported by this importer.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.tangentImportMode" />, <see cref="T:UnityEditor.ModelImporterTangentSpaceMode" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isUseFileUnitsSupported">
+      <MemberSignature Language="C#" Value="public bool isUseFileUnitsSupported { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is useFileUnits supported for this asset.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.useFileUnits" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="materialName">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterMaterialName materialName { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Material naming setting.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterMaterialName" />, <see cref="P:UnityEditor.materialSearch" />, <see cref="P:UnityEditor.importMaterials" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="materialSearch">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterMaterialSearch materialSearch { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialSearch</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Existing material search setting.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterMaterialSearch" />, <see cref="P:UnityEditor.materialName" />, <see cref="P:UnityEditor.importMaterials" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="meshCompression">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterMeshCompression meshCompression { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMeshCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mesh compression setting.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterMeshCompression" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="normalImportMode">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterTangentSpaceMode normalImportMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterTangentSpaceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Normals import mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterTangentSpaceMode" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="normalSmoothingAngle">
+      <MemberSignature Language="C#" Value="public float normalSmoothingAngle { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Smoothing angle for calculating normals.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.normalImportMode" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="optimizeMesh">
+      <MemberSignature Language="C#" Value="public bool optimizeMesh { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Vertex optimization setting</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryUVAngleDistortion">
+      <MemberSignature Language="C#" Value="public float secondaryUVAngleDistortion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Threshold for angle distortion when generating secondary UV</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryUVAreaDistortion">
+      <MemberSignature Language="C#" Value="public float secondaryUVAreaDistortion { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Threshold for area distortion when generating secondary UV</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryUVHardAngle">
+      <MemberSignature Language="C#" Value="public float secondaryUVHardAngle { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Hard angle for generating secondary UV</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryUVPackMargin">
+      <MemberSignature Language="C#" Value="public float secondaryUVPackMargin { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Margin to be left between charts when packing secondary UV</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="splitAnimations">
+      <MemberSignature Language="C#" Value="public bool splitAnimations { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should animation be split into multiple clips when importing.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.clipAnimations" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="splitTangentsAcrossSeams">
+      <MemberSignature Language="C#" Value="public bool splitTangentsAcrossSeams { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should tangents be split across UV seams.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.tangentImportMode" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="swapUVChannels">
+      <MemberSignature Language="C#" Value="public bool swapUVChannels { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Swap primary and secondary UV channels when importing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="tangentImportMode">
+      <MemberSignature Language="C#" Value="public UnityEditor.ModelImporterTangentSpaceMode tangentImportMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterTangentSpaceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tangents import mode.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="T:UnityEditor.ModelImporterTangentSpaceMode" />.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useFileUnits">
+      <MemberSignature Language="C#" Value="public bool useFileUnits { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Detect file units and import as 1FileUnit=1UnityUnit, otherwise it will import as 1cm=1UnityUnit.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEditor.isUseFileUnitsSupported" />.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

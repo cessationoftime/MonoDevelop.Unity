@@ -62,11 +62,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Texture</ReturnType>
       </ReturnValue>
@@ -75,6 +70,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
   </Members>
 </Type>

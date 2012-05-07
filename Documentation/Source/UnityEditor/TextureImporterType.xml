@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Type Name="TextureImporterType" FullName="UnityEditor.TextureImporterType">
+  <TypeSignature Language="C#" Value="public enum TextureImporterType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Select this to set basic parameters depending on the purpose of your texture.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Advanced">
+      <MemberSignature Language="C#" Value="Advanced"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Select this when you want to have specific parameters on your texture and you want to have total control over your texture.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Bump">
+      <MemberSignature Language="C#" Value="Bump"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Select this to turn the color channels into a format suitable for real-time normal mapping.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cookie">
+      <MemberSignature Language="C#" Value="Cookie"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This sets up your texture with the basic parameters used for the Cookies of your lights.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GUI">
+      <MemberSignature Language="C#" Value="GUI"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use this if your texture is going to be used on any HUD/GUI Controls.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Image">
+      <MemberSignature Language="C#" Value="Image"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is the most common setting used for all the textures in general.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Lightmap">
+      <MemberSignature Language="C#" Value="Lightmap"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This sets up your texture with the parameters used by the lightmap.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reflection">
+      <MemberSignature Language="C#" Value="Reflection"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.TextureImporterType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Also known as Cube Maps, used to create reflections on textures.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterMaterialName" FullName="UnityEditor.ModelImporterMaterialName">
+  <TypeSignature Language="C#" Value="public enum ModelImporterMaterialName"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Material naming options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialName" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BasedOnMaterialName">
+      <MemberSignature Language="C#" Value="BasedOnMaterialName"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>.mat material name.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialName" /></remarks></Docs>
+    </Member>
+    <Member MemberName="BasedOnModelNameAndMaterialName">
+      <MemberSignature Language="C#" Value="BasedOnModelNameAndMaterialName"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>-.mat material name.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialName" /></remarks></Docs>
+    </Member>
+    <Member MemberName="BasedOnTextureName">
+      <MemberSignature Language="C#" Value="BasedOnTextureName"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>.mat material name.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialName" /></remarks></Docs>
+    </Member>
+    <Member MemberName="BasedOnTextureName_Or_ModelNameAndMaterialName">
+      <MemberSignature Language="C#" Value="BasedOnTextureName_Or_ModelNameAndMaterialName"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("You should use ModelImporterMaterialName.BasedOnTextureName instead, because it it less complicated and behaves in more consistent way.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialName</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

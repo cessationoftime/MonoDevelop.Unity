@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="UIOrientation" FullName="UnityEditor.UIOrientation">
+  <TypeSignature Language="C#" Value="public enum UIOrientation"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Default mobile device orientation</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoRotation">
+      <MemberSignature Language="C#" Value="AutoRotation"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable Auto Rotation</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapeLeft">
+      <MemberSignature Language="C#" Value="LandscapeLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Landscape : counter-clockwise from Portrait</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapeRight">
+      <MemberSignature Language="C#" Value="LandscapeRight"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Landscape: clockwise from Portrait</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Portrait">
+      <MemberSignature Language="C#" Value="Portrait"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Portrait</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PortraitUpsideDown">
+      <MemberSignature Language="C#" Value="PortraitUpsideDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.UIOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Portrait upside down</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

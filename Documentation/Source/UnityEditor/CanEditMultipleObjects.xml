@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Type Name="CanEditMultipleObjects" FullName="UnityEditor.CanEditMultipleObjects">
+  <TypeSignature Language="C#" Value="public sealed class CanEditMultipleObjects : Attribute"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Attribute used to make a custom editor support multi-object editing.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.Editor" /> class</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CanEditMultipleObjects ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

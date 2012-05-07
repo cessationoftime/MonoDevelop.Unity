@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Type Name="GameCenterPlatform" FullName="UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform">
+  <TypeSignature Language="C#" Value="public class GameCenterPlatform : UnityEngine.SocialPlatforms.Local"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.SocialPlatforms.Local</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>iOS GameCenter implementation for network services.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GameCenterPlatform ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetAllAchievements">
+      <MemberSignature Language="C#" Value="public static void ResetAllAchievements (Action&lt;bool&gt; callback);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.Action&lt;System.Boolean&gt;"/>
+      </Parameters>
+      <Docs>
+        <param name="callback">To be added.</param>
+        <summary>Reset all the achievements for the local user.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowDefaultAchievementCompletionBanner">
+      <MemberSignature Language="C#" Value="public static void ShowDefaultAchievementCompletionBanner (bool value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>Show the default iOS banner when achievements are completed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,482 @@
+<?xml version="1.0"?>
+<Type Name="LightmapEditorSettings" FullName="UnityEditor.LightmapEditorSettings">
+  <TypeSignature Language="C#" Value="public sealed class LightmapEditorSettings"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Various settings for the bake.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.Lightmapping" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LightmapEditorSettings ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="aoAmount">
+      <MemberSignature Language="C#" Value="public static float aoAmount { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls how much Ambient Occlusion to blend into the Final Gather solution.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="aoContrast">
+      <MemberSignature Language="C#" Value="public static float aoContrast { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls the look of the transition from black to white.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="aoMaxDistance">
+      <MemberSignature Language="C#" Value="public static float aoMaxDistance { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Beyond this distance a ray is considered to be unoccluded.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bounceBoost">
+      <MemberSignature Language="C#" Value="public static float bounceBoost { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Boosts indirect light (Beast's diffuseBoost property, pow(colorComponent, (1.0 / diffuseBoost))).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bounceIntensity">
+      <MemberSignature Language="C#" Value="public static float bounceIntensity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indirect light intensity multiplier.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bounces">
+      <MemberSignature Language="C#" Value="public static int bounces { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Number of light bounces in the global illumination computation (with 0 meaning direct light only).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="finalGatherContrastThreshold">
+      <MemberSignature Language="C#" Value="public static float finalGatherContrastThreshold { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Contrast threshold between neighbouring surface points.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="finalGatherGradientThreshold">
+      <MemberSignature Language="C#" Value="public static float finalGatherGradientThreshold { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Controls how the irradiance gradient is used in the interpolation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="finalGatherInterpolationPoints">
+      <MemberSignature Language="C#" Value="public static int finalGatherInterpolationPoints { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of final gather points to interpolate between.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="finalGatherRays">
+      <MemberSignature Language="C#" Value="public static int finalGatherRays { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Number of rays used in the final gather integrator.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lastUsedResolution">
+      <MemberSignature Language="C#" Value="public static float lastUsedResolution { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Last used lightmap resolution (i.e. resolution of the lightmaps currently in the scene) in texels per world unit.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lockAtlas">
+      <MemberSignature Language="C#" Value="public static bool lockAtlas { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If enabled, Beast atlasing won't be run and lightmap indices, tiling and offset won't be modified on Mesh Renderers.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxAtlasHeight">
+      <MemberSignature Language="C#" Value="public static int maxAtlasHeight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum height of an individual lightmap texture.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxAtlasWidth">
+      <MemberSignature Language="C#" Value="public static int maxAtlasWidth { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The maximum width of an individual lightmap texture.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="padding">
+      <MemberSignature Language="C#" Value="public static int padding { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Texel separation between shapes.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="quality">
+      <MemberSignature Language="C#" Value="public static UnityEditor.LightmapBakeQuality quality { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.LightmapBakeQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Quality of the bake.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="resolution">
+      <MemberSignature Language="C#" Value="public static float resolution { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightmap resolution in texels per world unit.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="skyLightColor">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color skyLightColor { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sky light color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="skyLightIntensity">
+      <MemberSignature Language="C#" Value="public static float skyLightIntensity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sky light intensity.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="textureCompression">
+      <MemberSignature Language="C#" Value="public static bool textureCompression { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Whether to use DXT1 compression on the generated lightmaps.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

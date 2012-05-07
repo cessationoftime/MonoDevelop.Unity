@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Type Name="ProceduralPropertyType" FullName="UnityEngine.ProceduralPropertyType">
+  <TypeSignature Language="C#" Value="public enum ProceduralPropertyType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The type of a Procedural property.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Boolean">
+      <MemberSignature Language="C#" Value="Boolean"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural boolean property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralBoolean" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Color3">
+      <MemberSignature Language="C#" Value="Color3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Color property without alpha. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralColor" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Color4">
+      <MemberSignature Language="C#" Value="Color4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Color property with alpha. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralColor" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enum">
+      <MemberSignature Language="C#" Value="Enum"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Enum property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralEnum" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Float">
+      <MemberSignature Language="C#" Value="Float"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural float property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralFloat" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Texture">
+      <MemberSignature Language="C#" Value="Texture"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Texture property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralTexture" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector2">
+      <MemberSignature Language="C#" Value="Vector2"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Vector2 property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralVector" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector3">
+      <MemberSignature Language="C#" Value="Vector3"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Vector3 property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralVector" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector4">
+      <MemberSignature Language="C#" Value="Vector4"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Procedural Vector4 property. Use with <see cref="P:UnityEngine.ProceduralMaterial.GetProceduralVector" />.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

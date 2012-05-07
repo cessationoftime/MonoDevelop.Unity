@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Type Name="StaticBatchingUtility" FullName="UnityEngine.StaticBatchingUtility">
+  <TypeSignature Language="C#" Value="public sealed class StaticBatchingUtility"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>StaticBatchingUtility can prepare your objects to take advantage of Unity's static batching.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StaticBatchingUtility ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Combine">
+      <MemberSignature Language="C#" Value="public static void Combine (UnityEngine.GameObject staticBatchRoot);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="staticBatchRoot" Type="UnityEngine.GameObject"/>
+      </Parameters>
+      <Docs>
+        <param name="staticBatchRoot">To be added.</param>
+        <summary>Combine will prepare all children of the staticBatchRoot for static batching.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Combine">
+      <MemberSignature Language="C#" Value="public static void Combine (UnityEngine.GameObject[] gos, UnityEngine.GameObject staticBatchRoot);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="gos" Type="UnityEngine.GameObject[]"/>
+        <Parameter Name="staticBatchRoot" Type="UnityEngine.GameObject"/>
+      </Parameters>
+      <Docs>
+        <param name="gos">To be added.</param>
+        <param name="staticBatchRoot">To be added.</param>
+        <summary>Combine will prepare all children of the staticBatchRoot for static batching.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<Type Name="ADBannerView" FullName="UnityEngine.ADBannerView">
+  <TypeSignature Language="C#" Value="public sealed class ADBannerView"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>ADBannerView is a wrapper around the ADBannerView class found in the Apple iAd framework and is only available on iPhone/iPad/iPod Touch.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ADBannerView ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>Creates a banner view.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="actionInProgress">
+      <MemberSignature Language="C#" Value="public bool actionInProgress { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the banner currently executing a user-triggered action? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autoPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.ADPosition autoPosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enables the banner view to be positioned automatically.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autoSize">
+      <MemberSignature Language="C#" Value="public bool autoSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If enabled, current banner's size is set automatically according to current screen orientation. It is disabled by default.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelAction">
+      <MemberSignature Language="C#" Value="public void CancelAction ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Cancels an executing banner view action.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="currentSizeIdentifier">
+      <MemberSignature Language="C#" Value="public UnityEngine.ADSizeIdentifier currentSizeIdentifier { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADSizeIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current size of the advertisement displayed in the banner view.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="error">
+      <MemberSignature Language="C#" Value="public UnityEngine.ADError error { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An advertisement error. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~ADBannerView ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSizeFromSizeIdentifier">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 GetSizeFromSizeIdentifier (UnityEngine.ADSizeIdentifier identifier);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="identifier" Type="UnityEngine.ADSizeIdentifier"/>
+      </Parameters>
+      <Docs>
+        <param name="identifier">To be added.</param>
+        <summary>Converts a banner content size identifier into its physical size.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hide">
+      <MemberSignature Language="C#" Value="public void Hide ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Hides the banner view.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitWrapper">
+      <MemberSignature Language="C#" Value="public void InitWrapper ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="loaded">
+      <MemberSignature Language="C#" Value="public bool loaded { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Has the banner view downloaded an advertisement? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="position">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 position { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The position of the banner view.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="requiredSizeIdentifiers">
+      <MemberSignature Language="C#" Value="public UnityEngine.ADSizeIdentifier[] requiredSizeIdentifiers { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADSizeIdentifier[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Identifiers for the sizes of advertisements that the banner view can display.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public void Show ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Shows the banner view.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="visible">
+      <MemberSignature Language="C#" Value="public bool visible { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the banner view visible? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

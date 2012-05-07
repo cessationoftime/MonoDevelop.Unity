@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Type Name="TrueTypeFontImporter" FullName="UnityEditor.TrueTypeFontImporter">
+  <TypeSignature Language="C#" Value="public sealed class TrueTypeFontImporter : UnityEditor.AssetImporter"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.AssetImporter</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>AssetImporter for importing Fonts</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TrueTypeFontImporter ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="customCharacters">
+      <MemberSignature Language="C#" Value="public string customCharacters { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A custom set of characters to be included in the Font Texture.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fontNames">
+      <MemberSignature Language="C#" Value="public string[] fontNames { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An array of font names, to be used when includeFontData is set to false.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fontRenderMode">
+      <MemberSignature Language="C#" Value="public UnityEditor.FontRenderMode fontRenderMode { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontRenderMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How to render the font when generating the font Texture</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fontSize">
+      <MemberSignature Language="C#" Value="public int fontSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Font size to use for importing the characters.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fontTextureCase">
+      <MemberSignature Language="C#" Value="public UnityEditor.FontTextureCase fontTextureCase { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.FontTextureCase</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Use this to adjust which characters should be imported.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="fontTTFName">
+      <MemberSignature Language="C#" Value="public string fontTTFName { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The internal font name of the TTF file.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="includeFontData">
+      <MemberSignature Language="C#" Value="public bool includeFontData { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If this is enabled, the actual font will be embedded into the asset for Dynamic fonts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="style">
+      <MemberSignature Language="C#" Value="public UnityEngine.FontStyle style { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FontStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default style to use for dynamic fonts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="use2xBehaviour">
+      <MemberSignature Language="C#" Value="public bool use2xBehaviour { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If this is enabled, font layouting will be the same as in Unity 2.x.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

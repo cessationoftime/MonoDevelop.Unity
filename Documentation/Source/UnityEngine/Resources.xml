@@ -53,11 +53,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Object</ReturnType>
       </ReturnValue>
@@ -70,6 +65,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="Load">
       <MemberSignature Language="C#" Value="public static UnityEngine.Object Load (string path, Type type);"/>
@@ -103,11 +103,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Object[]</ReturnType>
       </ReturnValue>
@@ -120,6 +115,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="LoadAll">
       <MemberSignature Language="C#" Value="public static UnityEngine.Object[] LoadAll (string path, Type type);"/>
@@ -127,11 +127,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Object[]</ReturnType>
       </ReturnValue>
@@ -146,6 +141,11 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="LoadAssetAtPath">
       <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadAssetAtPath (string assetPath, Type type);"/>

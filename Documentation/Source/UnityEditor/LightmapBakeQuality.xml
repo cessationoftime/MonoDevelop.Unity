@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Type Name="LightmapBakeQuality" FullName="UnityEditor.LightmapBakeQuality">
+  <TypeSignature Language="C#" Value="public enum LightmapBakeQuality"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Bake quality setting for <see cref="T:UnityEditor.LightmapEditorSettings" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.LightmapEditorSettings.quality" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="High">
+      <MemberSignature Language="C#" Value="High"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.LightmapBakeQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>High quality bake for final renderings.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.LightmapEditorSettings.quality" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Low">
+      <MemberSignature Language="C#" Value="Low"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.LightmapBakeQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Low quality bake for preview renderings.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.LightmapEditorSettings.quality" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -340,11 +340,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.Texture</ReturnType>
       </ReturnValue>
@@ -353,6 +348,11 @@
         <value>To be added.</value>
         <remarks>See Also: <see cref="P:UnityEngine.SetTexture" />, <see cref="P:UnityEngine.GetTexture" />.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Assign the texture exposed in the inspector the renderer's material&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var texture : <see cref="T:UnityEngine.Texture" />;renderer.material.mainTexture = texture;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;public <see cref="T:UnityEngine.Texture" /> texture;    &lt;span class="hl-keyword"&gt;void Example() {        renderer.material.mainTexture = texture;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    &lt;span class="hl-keyword"&gt;public texture as <see cref="T:UnityEngine.Texture" />    def Example():        renderer.material.mainTexture = texture&lt;p class="details"&gt;&#xD;&#xD;Another example:&lt;span class="hl-comment"&gt;// Change renderer's texture each changeInterval&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// seconds from the texture array defined in the inspector.&lt;span class="hl-comment"&gt;&lt;span class="hl-keyword"&gt;var textures : <see cref="T:UnityEngine.Texture" />[];&lt;span class="hl-keyword"&gt;var changeInterval : &lt;span class="hl-datatype"&gt;float = 0.33;&lt;span class="hl-keyword"&gt;function &lt;span class="hl-operator"&gt;Update() {    &lt;span class="hl-keyword"&gt;if( textures.length == 0 ) &lt;span class="hl-comment"&gt;// nothing if no textures&lt;span class="hl-comment"&gt;        &lt;span class="hl-keyword"&gt;return;    &lt;span class="hl-comment"&gt;// we want this texture index now&lt;span class="hl-comment"&gt;    &lt;span class="hl-keyword"&gt;var index : &lt;span class="hl-datatype"&gt;int = <see cref="P:UnityEngine.Time.time" /> / changeInterval;    &lt;span class="hl-comment"&gt;// take a modulo with size so that animation repeats&lt;span class="hl-comment"&gt;    index = index % textures.length;    &lt;span class="hl-comment"&gt;// assign it&lt;span class="hl-comment"&gt;    renderer.material.mainTexture = textures[index];}&lt;p class="details"&gt;</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Boo.Lang.DuckTyped</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="mainTextureOffset">
       <MemberSignature Language="C#" Value="public UnityEngine.Vector2 mainTextureOffset { set; get; }"/>

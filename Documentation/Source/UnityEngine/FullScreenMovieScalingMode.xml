@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="FullScreenMovieScalingMode" FullName="UnityEngine.FullScreenMovieScalingMode">
+  <TypeSignature Language="C#" Value="public enum FullScreenMovieScalingMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes scaling modes for displaying movies.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AspectFill">
+      <MemberSignature Language="C#" Value="AspectFill"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieScalingMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale the movie until the movie fills the entire screen. Content at</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AspectFit">
+      <MemberSignature Language="C#" Value="AspectFit"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieScalingMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale the movie until one dimension fits on the screen exactly. In</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill">
+      <MemberSignature Language="C#" Value="Fill"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieScalingMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Scale the movie until both dimensions fit the screen exactly. The</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FullScreenMovieScalingMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not scale the movie.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="ProceduralCacheSize" FullName="UnityEngine.ProceduralCacheSize">
+  <TypeSignature Language="C#" Value="public enum ProceduralCacheSize"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Substance memory budget.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Heavy">
+      <MemberSignature Language="C#" Value="Heavy"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A limit of 512MB for the cache or the working memory.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Medium">
+      <MemberSignature Language="C#" Value="Medium"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A limit of 256MB for the cache or the working memory.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoLimit">
+      <MemberSignature Language="C#" Value="NoLimit"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No limit for the cache or the working memory.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A limit of 1B (one byte) for the cache or the working memory.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tiny">
+      <MemberSignature Language="C#" Value="Tiny"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A limit of 128MB for the cache or the working memory.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Type Name="Cloth" FullName="UnityEngine.Cloth">
+  <TypeSignature Language="C#" Value="public class Cloth : UnityEngine.Component"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Component</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Base class used to simulate cloth physics - shared by both <see cref="T:UnityEngine.InteractiveCloth" /> and <see cref="T:UnityEngine.SkinnedCloth" /></summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Cloth ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bendingStiffness">
+      <MemberSignature Language="C#" Value="public float bendingStiffness { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bending stiffness of the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="damping">
+      <MemberSignature Language="C#" Value="public float damping { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Damp cloth motion.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="enabled">
+      <MemberSignature Language="C#" Value="public bool enabled { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is this cloth enabled?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="externalAcceleration">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 externalAcceleration { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A constant, external acceleration applied to the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.Cloth.randomAcceleration" />, <see cref="P:UnityEngine.InteractiveCloth.AddForceAtPosition" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Make this cloth fall at half speed (if is affected by gravity).&lt;span class="hl-comment"&gt;transform.GetComponent(Cloth).externalAcceleration =  -Physics.gravity/2;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        transform.GetComponent&amp;lt;Cloth&amp;gt;().externalAcceleration = -Physics.gravity / 2;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        transform.GetComponent[of Cloth]().externalAcceleration = ((-Physics.gravity) / 2)&lt;p class="details"&gt;</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="normals">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3[] normals { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current normals of the cloth object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="randomAcceleration">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 randomAcceleration { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A random, external acceleration applied to the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.Cloth.externalAcceleration" />, <see cref="P:UnityEngine.InteractiveCloth.AddForceAtPosition" />&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Simulate wind going trough the X axis.    &lt;span class="hl-comment"&gt;transform.GetComponent(Cloth).randomAcceleration = <see cref="T:UnityEngine.Vector3" />(10, 0, 0);&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        transform.GetComponent&amp;lt;Cloth&amp;gt;().randomAcceleration = &lt;span class="hl-keyword"&gt;new <see cref="T:UnityEngine.Vector3" />(10, 0, 0);    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        transform.GetComponent[of Cloth]().randomAcceleration = <see cref="T:UnityEngine.Vector3" />(10, 0, 0)&lt;p class="details"&gt;</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="selfCollision">
+      <MemberSignature Language="C#" Value="public bool selfCollision { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Will the cloth collide with itself?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="stretchingStiffness">
+      <MemberSignature Language="C#" Value="public float stretchingStiffness { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stretching stiffness of the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="thickness">
+      <MemberSignature Language="C#" Value="public float thickness { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The thickness of the cloth surface.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="useGravity">
+      <MemberSignature Language="C#" Value="public bool useGravity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should gravity affect the cloth simulation?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="vertices">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3[] vertices { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current vertex positions of the cloth object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

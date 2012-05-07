@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="RenderTextureReadWrite" FullName="UnityEngine.RenderTextureReadWrite">
+  <TypeSignature Language="C#" Value="public enum RenderTextureReadWrite"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Read write mode of a <see cref="T:UnityEngine.RenderTexture" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.sRGB" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureReadWrite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The correct color space for the current position in the rendering pipeline</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.sRGB" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="Linear">
+      <MemberSignature Language="C#" Value="Linear"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureReadWrite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No sRGB reads or writes to this render texture</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.sRGB" />, <see cref="T:UnityEngine.RenderTexture" /> class.</remarks></Docs>
+    </Member>
+    <Member MemberName="sRGB">
+      <MemberSignature Language="C#" Value="sRGB"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RenderTextureReadWrite</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

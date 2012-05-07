@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<Type Name="Lightmapping" FullName="UnityEditor.Lightmapping">
+  <TypeSignature Language="C#" Value="public sealed class Lightmapping"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Allows to control the lightmapping job.</summary>
+    <remarks>See Also: <see cref="T:UnityEditor.LightmapEditorSettings" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Lightmapping ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bake">
+      <MemberSignature Language="C#" Value="public static bool Bake ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stars a synchronous bake job.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BakeAsync">
+      <MemberSignature Language="C#" Value="public static bool BakeAsync ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Starts an asynchronous bake job.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BakeLightProbesOnly">
+      <MemberSignature Language="C#" Value="public static bool BakeLightProbesOnly ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Starts a synchronous bake job, but only bakes light probes.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BakeLightProbesOnlyAsync">
+      <MemberSignature Language="C#" Value="public static bool BakeLightProbesOnlyAsync ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Starts an asynchronous bake job, but only bakes light probes.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BakeSelected">
+      <MemberSignature Language="C#" Value="public static bool BakeSelected ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stars a synchronous bake job for the selected objects.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BakeSelectedAsync">
+      <MemberSignature Language="C#" Value="public static bool BakeSelectedAsync ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Starts an asynchronous bake job for the selected objects.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancel">
+      <MemberSignature Language="C#" Value="public static void Cancel ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Cancels the currently running asynchronous bake job.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public static void Clear ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Deletes all lightmap assets and makes all lights behave as if they weren't baked yet.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isRunning">
+      <MemberSignature Language="C#" Value="public static bool isRunning { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true when the bake job is running, false otherwise (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tetrahedralize">
+      <MemberSignature Language="C#" Value="public static void Tetrahedralize (UnityEngine.Vector3[] positions, out int[] outIndices, out UnityEngine.Vector3[] outPositions);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="positions" Type="UnityEngine.Vector3[]"/>
+        <Parameter Name="outIndices" Type="System.Int32[]&amp;" RefType="out"/>
+        <Parameter Name="outPositions" Type="UnityEngine.Vector3[]&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="positions">To be added.</param>
+        <param name="outIndices">To be added.</param>
+        <param name="outPositions">To be added.</param>
+        <summary>Calculates a Delaunay Tetrahedralization of the 'positions' point set - the same way the lightmapper</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

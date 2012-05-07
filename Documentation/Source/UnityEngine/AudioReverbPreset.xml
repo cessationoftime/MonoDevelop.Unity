@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<Type Name="AudioReverbPreset" FullName="UnityEngine.AudioReverbPreset">
+  <TypeSignature Language="C#" Value="public enum AudioReverbPreset"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Reverb presets used by the Reverb Zone class and the audio reverb filter</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alley">
+      <MemberSignature Language="C#" Value="Alley"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Alley preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Arena">
+      <MemberSignature Language="C#" Value="Arena"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Arena preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Auditorium">
+      <MemberSignature Language="C#" Value="Auditorium"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Auditorium preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Bathroom">
+      <MemberSignature Language="C#" Value="Bathroom"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bathroom preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CarpetedHallway">
+      <MemberSignature Language="C#" Value="CarpetedHallway"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Carpeted hallway preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cave">
+      <MemberSignature Language="C#" Value="Cave"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Cave preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="City"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>City preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Concerthall">
+      <MemberSignature Language="C#" Value="Concerthall"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Concert hall preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Dizzy">
+      <MemberSignature Language="C#" Value="Dizzy"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dizzy preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Drugged">
+      <MemberSignature Language="C#" Value="Drugged"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Drugged preset</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Forest">
+      <MemberSignature Language="C#" Value="Forest"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Forest preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Generic">
+      <MemberSignature Language="C#" Value="Generic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Generic preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hallway">
+      <MemberSignature Language="C#" Value="Hallway"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Hallway preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Hangar">
+      <MemberSignature Language="C#" Value="Hangar"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Hangar preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Livingroom">
+      <MemberSignature Language="C#" Value="Livingroom"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Livingroom preset</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mountains">
+      <MemberSignature Language="C#" Value="Mountains"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Mountains preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Off">
+      <MemberSignature Language="C#" Value="Off"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No reverb preset selected</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PaddedCell">
+      <MemberSignature Language="C#" Value="PaddedCell"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Padded cell preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParkingLot">
+      <MemberSignature Language="C#" Value="ParkingLot"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Parking Lot preset</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Plain">
+      <MemberSignature Language="C#" Value="Plain"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Plain preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Psychotic">
+      <MemberSignature Language="C#" Value="Psychotic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Psychotic preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Quarry">
+      <MemberSignature Language="C#" Value="Quarry"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Quarry preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Room">
+      <MemberSignature Language="C#" Value="Room"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Room preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SewerPipe">
+      <MemberSignature Language="C#" Value="SewerPipe"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sewer pipe preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StoneCorridor">
+      <MemberSignature Language="C#" Value="StoneCorridor"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stone corridor preset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stoneroom">
+      <MemberSignature Language="C#" Value="Stoneroom"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stoneroom preset</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Underwater">
+      <MemberSignature Language="C#" Value="Underwater"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Underwater presset</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="User"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioReverbPreset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>User defined preset.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

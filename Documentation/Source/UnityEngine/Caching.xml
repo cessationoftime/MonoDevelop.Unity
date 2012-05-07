@@ -144,11 +144,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("this API is for not for public use.")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>UnityEngine.CacheIndex[]</ReturnType>
       </ReturnValue>
@@ -157,6 +152,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("this API is for not for public use.")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="spaceAvailable">
       <MemberSignature Language="C#" Value="public static int spaceAvailable { get; }"/>

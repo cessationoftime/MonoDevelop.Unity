@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Type Name="AudioType" FullName="UnityEngine.AudioType">
+  <TypeSignature Language="C#" Value="public enum AudioType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Type of the imported(native) data</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ACC">
+      <MemberSignature Language="C#" Value="ACC"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>acc - not supported</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AIFF">
+      <MemberSignature Language="C#" Value="AIFF"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>aiff</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AUDIOQUEUE">
+      <MemberSignature Language="C#" Value="AUDIOQUEUE"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>iPhone hardware decoder, supports AAC, ALAC and MP3. Extracodecdata is a pointer to an FMOD_AUDIOQUEUE_EXTRACODECDATA structure.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GCADPCM">
+      <MemberSignature Language="C#" Value="GCADPCM"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>game cube ADPCM</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IT">
+      <MemberSignature Language="C#" Value="IT"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>impulse tracker</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MOD">
+      <MemberSignature Language="C#" Value="MOD"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Protracker / Fasttracker MOD.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MPEG">
+      <MemberSignature Language="C#" Value="MPEG"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>MP2/MP3 MPEG.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OGGVORBIS">
+      <MemberSignature Language="C#" Value="OGGVORBIS"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ogg vorbis</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="S3M">
+      <MemberSignature Language="C#" Value="S3M"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>ScreamTracker 3.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UNKNOWN">
+      <MemberSignature Language="C#" Value="UNKNOWN"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>3rd party / unknown plugin format.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WAV">
+      <MemberSignature Language="C#" Value="WAV"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Microsoft WAV.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="XM">
+      <MemberSignature Language="C#" Value="XM"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>FastTracker 2 XM.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="XMA">
+      <MemberSignature Language="C#" Value="XMA"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Xbox360 XMA</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

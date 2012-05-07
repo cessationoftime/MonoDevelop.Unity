@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Type Name="RenderBuffer" FullName="UnityEngine.RenderBuffer">
+  <TypeSignature Language="C#" Value="public struct RenderBuffer"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Color or depth buffer part of a <see cref="T:UnityEngine.RenderTexture" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.RenderTexture.colorBuffer" />, <see cref="P:UnityEngine.RenderTexture.depthBuffer" />, <see cref="P:UnityEngine.Graphics.activeColorBuffer" />,&#xD;<see cref="P:UnityEngine.Graphics.activeDepthBuffer" />, <see cref="P:UnityEngine.Graphics.SetRenderTarget" />.</remarks>
+  </Docs>
+  <Members/>
+</Type>

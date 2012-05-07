@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="WiiBuildSubtarget" FullName="UnityEditor.WiiBuildSubtarget">
+  <TypeSignature Language="C#" Value="public enum WiiBuildSubtarget"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Target Wii build platform.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildSubtarget" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DVD">
+      <MemberSignature Language="C#" Value="DVD"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Precompiled ELF targeting DVD deployment</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DVDLibrary">
+      <MemberSignature Language="C#" Value="DVDLibrary"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Precompiled libary with additional compile/link step targeting DVD deployment</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="WiiWare">
+      <MemberSignature Language="C#" Value="WiiWare"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Precompiled ELF targeting WiiWare deployment</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="WiiWareLibrary">
+      <MemberSignature Language="C#" Value="WiiWareLibrary"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Precompiled libary with additional compile/link step targeting WiiWare deployment</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildSubtarget" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

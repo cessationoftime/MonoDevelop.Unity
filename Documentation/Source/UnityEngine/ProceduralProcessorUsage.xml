@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="ProceduralProcessorUsage" FullName="UnityEngine.ProceduralProcessorUsage">
+  <TypeSignature Language="C#" Value="public enum ProceduralProcessorUsage"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The global Substance engine processor usage (as used for the <see cref="P:UnityEngine.ProceduralMaterial.substanceProcessorUsage" /> property).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralProcessorUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>All physical processor cores are used for material generation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Half">
+      <MemberSignature Language="C#" Value="Half"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralProcessorUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Half of all physical processor cores are used for material generation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="One">
+      <MemberSignature Language="C#" Value="One"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralProcessorUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A single physical processor core is used for material generation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unsupported">
+      <MemberSignature Language="C#" Value="Unsupported"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralProcessorUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Exact control of processor usage is not available.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

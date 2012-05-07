@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="StrippingLevel" FullName="UnityEditor.StrippingLevel">
+  <TypeSignature Language="C#" Value="public enum StrippingLevel"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Managed code stripping level</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StrippingLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Managed code stripping is disabled</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StripAssemblies">
+      <MemberSignature Language="C#" Value="StripAssemblies"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StrippingLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Unused parts of managed code are stripped away</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="StripByteCode">
+      <MemberSignature Language="C#" Value="StripByteCode"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StrippingLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Managed method bodies are stripped away. AOT platforms only.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UseMicroMSCorlib">
+      <MemberSignature Language="C#" Value="UseMicroMSCorlib"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StrippingLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lightweight mscorlib version will be used at expense of limited compatibility.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

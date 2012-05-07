@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="IMECompositionMode" FullName="UnityEngine.IMECompositionMode">
+  <TypeSignature Language="C#" Value="public enum IMECompositionMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Controls IME input</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.IMECompositionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable IME input only when a text field is selected (default).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Off">
+      <MemberSignature Language="C#" Value="Off"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.IMECompositionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Disable IME input.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="On">
+      <MemberSignature Language="C#" Value="On"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.IMECompositionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable IME input.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

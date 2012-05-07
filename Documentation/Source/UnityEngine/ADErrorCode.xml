@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Type Name="ADErrorCode" FullName="UnityEngine.ADErrorCode">
+  <TypeSignature Language="C#" Value="public enum ADErrorCode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>This enumeration is used to identify an advertisement error.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplicationInactive">
+      <MemberSignature Language="C#" Value="ApplicationInactive"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that ad content is not available because the application is not currently active.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BannerVisibleWithoutContent">
+      <MemberSignature Language="C#" Value="BannerVisibleWithoutContent"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the banner is visible, but no advertisement is shown.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConfigurationError">
+      <MemberSignature Language="C#" Value="ConfigurationError"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that your application has not been configured to receive advertisements.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InventoryUnavailable">
+      <MemberSignature Language="C#" Value="InventoryUnavailable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that no advertisements are currently available to download.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadingThrottled">
+      <MemberSignature Language="C#" Value="LoadingThrottled"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the download from the advertisements server is currently being throttled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerFailure">
+      <MemberSignature Language="C#" Value="ServerFailure"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that the connection to the advertisements server failed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates that an unknown or unexpected error occurred.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

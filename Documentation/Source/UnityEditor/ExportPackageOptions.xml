@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Type Name="ExportPackageOptions" FullName="UnityEditor.ExportPackageOptions">
+  <TypeSignature Language="C#" Value="public enum ExportPackageOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Export package option. Multiple options can be combined together using the | operator.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.AssetDatabase.ExportPackage" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ExportPackageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default mode. Will not include dependencies or subdirectories nor include Library assets unless specifically included in the asset list.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeDependencies">
+      <MemberSignature Language="C#" Value="IncludeDependencies"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ExportPackageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>In addition to the assets paths listed, all dependent assets will be included as well.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeLibraryAssets">
+      <MemberSignature Language="C#" Value="IncludeLibraryAssets"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ExportPackageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The exported package will include all library assets, ie. the project settings located in the Library folder of the project.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Interactive">
+      <MemberSignature Language="C#" Value="Interactive"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ExportPackageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The export operation will be run asynchronously and reveal the exported package file in a file browser window after the export is finished.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurse">
+      <MemberSignature Language="C#" Value="Recurse"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ExportPackageOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Will recurse through any subdirectories listed and include all assets inside them.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

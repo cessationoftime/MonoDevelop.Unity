@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Type Name="iPhone" FullName="UnityEngine.iPhone">
+  <TypeSignature Language="C#" Value="public sealed class iPhone"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Interface into iPhone specific functionality.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public iPhone ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="generation">
+      <MemberSignature Language="C#" Value="public static UnityEngine.iPhoneGeneration generation { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.iPhoneGeneration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The generation of the device (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetNoBackupFlag">
+      <MemberSignature Language="C#" Value="public static void ResetNoBackupFlag (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Reset "no backup" file flag: file will be synced with iCloud/iTunes backup and can be deleted by OS in low storage situations.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNoBackupFlag">
+      <MemberSignature Language="C#" Value="public static void SetNoBackupFlag (string path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Set file flag to be excluded from iCloud/iTunes backup.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

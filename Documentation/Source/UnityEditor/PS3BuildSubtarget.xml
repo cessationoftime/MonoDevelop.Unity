@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="PS3BuildSubtarget" FullName="UnityEditor.PS3BuildSubtarget">
+  <TypeSignature Language="C#" Value="public enum PS3BuildSubtarget"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Target PS3 build platform.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.ps3BuildSubtarget" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BluRayTitle">
+      <MemberSignature Language="C#" Value="BluRayTitle"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PS3BuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a package suited for BluRay Submission</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.ps3BuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="HddTitle">
+      <MemberSignature Language="C#" Value="HddTitle"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PS3BuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build a package suited for DLC Submission</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.ps3BuildSubtarget" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="PCHosted">
+      <MemberSignature Language="C#" Value="PCHosted"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PS3BuildSubtarget</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Build package that it's hosted on the PC</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.ps3BuildSubtarget" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Type Name="AssetDeleteResult" FullName="UnityEditor.AssetDeleteResult">
+  <TypeSignature Language="C#" Value="public enum AssetDeleteResult"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DidDelete">
+      <MemberSignature Language="C#" Value="DidDelete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetDeleteResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells Unity that the asset was deleted by the callback. Unity will not try to delete the asset, but will delete the cached version and preview file.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DidNotDelete">
+      <MemberSignature Language="C#" Value="DidNotDelete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetDeleteResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells the internal implementation that the callback did not delete the asset. The asset will be delete by the internal implementation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedDelete">
+      <MemberSignature Language="C#" Value="FailedDelete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetDeleteResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells Unity that the file cannot be deleted and Unity should leave it alone.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

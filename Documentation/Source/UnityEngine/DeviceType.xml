@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="DeviceType" FullName="UnityEngine.DeviceType">
+  <TypeSignature Language="C#" Value="public enum DeviceType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumeration for <see cref="P:UnityEngine.SystemInfo.deviceType" />, denotes a coarse grouping of kinds of devices.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Console">
+      <MemberSignature Language="C#" Value="Console"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A stationary gaming console.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Desktop">
+      <MemberSignature Language="C#" Value="Desktop"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Desktop or laptop computer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Handheld">
+      <MemberSignature Language="C#" Value="Handheld"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A handheld device like mobile phone or a tablet.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Device type is unknown. You should never see this in practice.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

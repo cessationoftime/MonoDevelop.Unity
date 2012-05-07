@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Type Name="DeviceOrientation" FullName="UnityEngine.DeviceOrientation">
+  <TypeSignature Language="C#" Value="public enum DeviceOrientation"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes physical orientation of the device as determined by the OS.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FaceDown">
+      <MemberSignature Language="C#" Value="FaceDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is held parallel to the ground with the screen facing downwards.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FaceUp">
+      <MemberSignature Language="C#" Value="FaceUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is held parallel to the ground with the screen facing upwards.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapeLeft">
+      <MemberSignature Language="C#" Value="LandscapeLeft"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is in landscape mode, with the device held upright and the home button on the right side.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LandscapeRight">
+      <MemberSignature Language="C#" Value="LandscapeRight"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is in landscape mode, with the device held upright and the home button on the left side.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Portrait">
+      <MemberSignature Language="C#" Value="Portrait"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is in portrait mode, with the device held upright and the home button at the bottom.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PortraitUpsideDown">
+      <MemberSignature Language="C#" Value="PortraitUpsideDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The device is in portrait mode but upside down, with the device held upright and the home button at the top.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.DeviceOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The orientation of the device cannot be determined.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

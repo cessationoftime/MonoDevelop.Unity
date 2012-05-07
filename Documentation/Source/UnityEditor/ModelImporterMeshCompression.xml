@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterMeshCompression" FullName="UnityEditor.ModelImporterMeshCompression">
+  <TypeSignature Language="C#" Value="public enum ModelImporterMeshCompression"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Mesh compression options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.meshCompression" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="High">
+      <MemberSignature Language="C#" Value="High"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMeshCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>High amount of mesh compression.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.meshCompression" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Low">
+      <MemberSignature Language="C#" Value="Low"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMeshCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Low amount of mesh compression.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.meshCompression" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Medium">
+      <MemberSignature Language="C#" Value="Medium"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMeshCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Medium amount of mesh compression.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.meshCompression" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Off">
+      <MemberSignature Language="C#" Value="Off"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMeshCompression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No mesh compression (default).</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.meshCompression" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

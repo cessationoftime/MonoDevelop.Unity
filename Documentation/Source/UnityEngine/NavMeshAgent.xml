@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<Type Name="NavMeshAgent" FullName="UnityEngine.NavMeshAgent">
+  <TypeSignature Language="C#" Value="public sealed class NavMeshAgent : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Navigation mesh agent.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NavMeshAgent ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="acceleration">
+      <MemberSignature Language="C#" Value="public float acceleration { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Maximum acceleration</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateCurrentOffMeshLink">
+      <MemberSignature Language="C#" Value="public void ActivateCurrentOffMeshLink (bool activated);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="activated" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="activated">To be added.</param>
+        <summary>Enables or disables the current link.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="angularSpeed">
+      <MemberSignature Language="C#" Value="public float angularSpeed { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Maximum rotation speed in (deg/s).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autoRepath">
+      <MemberSignature Language="C#" Value="public bool autoRepath { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Attempt to acquire a new path if the existing path becomes invalid</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autoTraverseOffMeshLink">
+      <MemberSignature Language="C#" Value="public bool autoTraverseOffMeshLink { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Automate movement onto and off of OffMeshLinks.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="baseOffset">
+      <MemberSignature Language="C#" Value="public float baseOffset { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The relative vertical displacement of the owning <see cref="T:UnityEngine.GameObject" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatePath">
+      <MemberSignature Language="C#" Value="public bool CalculatePath (UnityEngine.Vector3 targetPosition, UnityEngine.NavMeshPath path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="path" Type="UnityEngine.NavMeshPath"/>
+      </Parameters>
+      <Docs>
+        <param name="targetPosition">To be added.</param>
+        <param name="path">To be added.</param>
+        <summary>Calculate a path to a specified point and store the resulting path.</summary>
+        <returns>boolean - True if a path is found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteOffMeshLink">
+      <MemberSignature Language="C#" Value="public void CompleteOffMeshLink ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Terminate current OffMeshLink.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="currentOffMeshLinkData">
+      <MemberSignature Language="C#" Value="public UnityEngine.OffMeshLinkData currentOffMeshLinkData { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.OffMeshLinkData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="desiredVelocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 desiredVelocity { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The desired velocity of the agent including any potential contribution from avoidance. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="destination">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 destination { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Destination to navigate towards.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindClosestEdge">
+      <MemberSignature Language="C#" Value="public bool FindClosestEdge (out UnityEngine.NavMeshHit hit);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="hit">To be added.</param>
+        <summary>Locate the closest NavMesh edge.</summary>
+        <returns>boolean - True if a nearest edge is found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLayerCost">
+      <MemberSignature Language="C#" Value="public float GetLayerCost (int layer);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layer" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="layer">To be added.</param>
+        <summary>Gets the cost for traversing over geometry of the layer type.</summary>
+        <returns>float - Current cost of specified layer.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hasPath">
+      <MemberSignature Language="C#" Value="public bool hasPath { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Does the agent currently have a path. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="height">
+      <MemberSignature Language="C#" Value="public float height { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Agent height.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isOnOffMeshLink">
+      <MemberSignature Language="C#" Value="public bool isOnOffMeshLink { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is agent currently positioned on an OffMeshLink. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isPathStale">
+      <MemberSignature Language="C#" Value="public bool isPathStale { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Is the current path stale. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public void Move (UnityEngine.Vector3 offset);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="offset">To be added.</param>
+        <summary>Apply relative movement to current position.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nextPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 nextPosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The next position on the path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="obstacleAvoidanceType">
+      <MemberSignature Language="C#" Value="public UnityEngine.ObstacleAvoidanceType obstacleAvoidanceType { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The level of quality of avoidance</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="path">
+      <MemberSignature Language="C#" Value="public UnityEngine.NavMeshPath path { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NavMeshPath</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="pathEndPosition">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 pathEndPosition { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="pathPending">
+      <MemberSignature Language="C#" Value="public bool pathPending { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A path is being computed, but not yet ready. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="pathStatus">
+      <MemberSignature Language="C#" Value="public UnityEngine.NavMeshPathStatus pathStatus { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NavMeshPathStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Query the state of the current path.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="radius">
+      <MemberSignature Language="C#" Value="public float radius { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Agent avoidance radius.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Raycast">
+      <MemberSignature Language="C#" Value="public bool Raycast (UnityEngine.Vector3 targetPosition, out UnityEngine.NavMeshHit hit);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetPosition" Type="UnityEngine.Vector3"/>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="targetPosition">To be added.</param>
+        <param name="hit">To be added.</param>
+        <summary>Trace movement towards a target postion in the NavMesh. Without moving the agent.</summary>
+        <returns>boolean - True If terminated before reaching target position. Otherwise returns false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remainingDistance">
+      <MemberSignature Language="C#" Value="public float remainingDistance { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Remaining distance along the current path - or infinity when not known. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetPath">
+      <MemberSignature Language="C#" Value="public void ResetPath ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Clears the current path. Note that the agent will not start looking for a new path until SetDestination is called.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resume">
+      <MemberSignature Language="C#" Value="public void Resume ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Resumes the movement along the current path.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SamplePathPosition">
+      <MemberSignature Language="C#" Value="public bool SamplePathPosition (int passableMask, float maxDistance, out UnityEngine.NavMeshHit hit);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="passableMask" Type="System.Int32"/>
+        <Parameter Name="maxDistance" Type="System.Single"/>
+        <Parameter Name="hit" Type="UnityEngine.NavMeshHit&amp;" RefType="out"/>
+      </Parameters>
+      <Docs>
+        <param name="passableMask">To be added.</param>
+        <param name="maxDistance">To be added.</param>
+        <param name="hit">To be added.</param>
+        <summary>Sample a position along the current path.</summary>
+        <returns>boolean - True If terminated before reaching position at maxDistance. Otherwise returns false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDestination">
+      <MemberSignature Language="C#" Value="public bool SetDestination (UnityEngine.Vector3 target);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="target" Type="UnityEngine.Vector3"/>
+      </Parameters>
+      <Docs>
+        <param name="target">To be added.</param>
+        <summary>Sets or updates the destination. This triggers calculation for a new path.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLayerCost">
+      <MemberSignature Language="C#" Value="public void SetLayerCost (int layer, float cost);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="layer" Type="System.Int32"/>
+        <Parameter Name="cost" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="layer">To be added.</param>
+        <param name="cost">To be added.</param>
+        <summary>Sets the cost for traversing over geometry of the layer type.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPath">
+      <MemberSignature Language="C#" Value="public bool SetPath (UnityEngine.NavMeshPath path);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="UnityEngine.NavMeshPath"/>
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>Assign path to the agent.</summary>
+        <returns>boolean - True if succesfully assigned.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="speed">
+      <MemberSignature Language="C#" Value="public float speed { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Maximum movement speed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="steeringTarget">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 steeringTarget { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current steering target - usually the next corner or end point of the current path. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Stop movement of the agent along the current path.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop (bool stopUpdates);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stopUpdates" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="stopUpdates">To be added.</param>
+        <summary>Stop movement of the agent along the current path.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="stoppingDistance">
+      <MemberSignature Language="C#" Value="public float stoppingDistance { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stop within this distance from the target position.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="updatePosition">
+      <MemberSignature Language="C#" Value="public bool updatePosition { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should the agent update the transform position.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="updateRotation">
+      <MemberSignature Language="C#" Value="public bool updateRotation { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should the agent update the transform orientation.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="velocity">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector3 velocity { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The current velocity of the <see cref="T:UnityEngine.NavMeshAgent" /> component.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="walkableMask">
+      <MemberSignature Language="C#" Value="public int walkableMask { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies which NavMesh layers are passable (bitfield). Changing walkableMask will make the path stale (see <see cref="P:UnityEngine.isPathStale" />)</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

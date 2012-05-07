@@ -85,11 +85,6 @@
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("Use SystemInfo.supportsRenderTextures instead.")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -98,6 +93,11 @@
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Use SystemInfo.supportsRenderTextures instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
     </Member>
     <Member MemberName="format">
       <MemberSignature Language="C#" Value="public UnityEngine.RenderTextureFormat format { set; get; }"/>

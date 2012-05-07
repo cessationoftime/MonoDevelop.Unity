@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="ObstacleAvoidanceType" FullName="UnityEngine.ObstacleAvoidanceType">
+  <TypeSignature Language="C#" Value="public enum ObstacleAvoidanceType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Level of obstacle avoidance.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GoodQualityObstacleAvoidance">
+      <MemberSignature Language="C#" Value="GoodQualityObstacleAvoidance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Good avoidance. High performance impact</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HighQualityObstacleAvoidance">
+      <MemberSignature Language="C#" Value="HighQualityObstacleAvoidance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable highest precision. Highest performance impact.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LowQualityObstacleAvoidance">
+      <MemberSignature Language="C#" Value="LowQualityObstacleAvoidance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Enable simple avoidance. Low performance impact.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MedQualityObstacleAvoidance">
+      <MemberSignature Language="C#" Value="MedQualityObstacleAvoidance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Medium avoidance. Medium performance impact</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoObstacleAvoidance">
+      <MemberSignature Language="C#" Value="NoObstacleAvoidance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ObstacleAvoidanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Disable avoidance.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

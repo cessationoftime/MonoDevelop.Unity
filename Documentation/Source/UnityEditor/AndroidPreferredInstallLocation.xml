@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="AndroidPreferredInstallLocation" FullName="UnityEditor.AndroidPreferredInstallLocation">
+  <TypeSignature Language="C#" Value="public enum AndroidPreferredInstallLocation"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidPreferredInstallLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Let the OS decide, app doesn't have any preferences</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceInternal">
+      <MemberSignature Language="C#" Value="ForceInternal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidPreferredInstallLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Force installation into internal memory. Needed for things like Live Wallpapers</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PreferExternal">
+      <MemberSignature Language="C#" Value="PreferExternal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidPreferredInstallLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Prefer external, if possible. Install to internal otherwise</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

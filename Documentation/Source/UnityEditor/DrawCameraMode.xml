@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Type Name="DrawCameraMode" FullName="UnityEditor.DrawCameraMode">
+  <TypeSignature Language="C#" Value="public enum DrawCameraMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Drawing modes for <see cref="P:UnityEditor.Handles.DrawCamera" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LightmapResolution">
+      <MemberSignature Language="C#" Value="LightmapResolution"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw textured with overlaid lightmap resolution grid.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the camera like it would be drawn in-game. This uses the clear flags of the camera.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderPaths">
+      <MemberSignature Language="C#" Value="RenderPaths"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw color-coded render paths. Objects are colored Green for Deferred, Yellow for Forward and Red for VertexLit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Textured">
+      <MemberSignature Language="C#" Value="Textured"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the camera textured with selection wireframe and no background clearing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TexturedWire">
+      <MemberSignature Language="C#" Value="TexturedWire"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the camera where all objects have a wireframe overlay. and no background clearing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Wireframe">
+      <MemberSignature Language="C#" Value="Wireframe"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.DrawCameraMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Draw the camera in wireframe and no background clearing.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

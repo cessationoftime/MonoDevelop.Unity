@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="BuildAssetBundleOptions" FullName="UnityEditor.BuildAssetBundleOptions">
+  <TypeSignature Language="C#" Value="public enum BuildAssetBundleOptions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Asset Bundle building options.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CollectDependencies">
+      <MemberSignature Language="C#" Value="CollectDependencies"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Includes all dependencies.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="CompleteAssets">
+      <MemberSignature Language="C#" Value="CompleteAssets"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Forces inclusion of the entire asset.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DeterministicAssetBundle">
+      <MemberSignature Language="C#" Value="DeterministicAssetBundle"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Builds an asset bundle using a hash for the id of the object stored in the asset bundle.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableWriteTypeTree">
+      <MemberSignature Language="C#" Value="DisableWriteTypeTree"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.BuildAssetBundleOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Do not include type information within the AssetBundle.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.BuildPipeline.BuildAssetBundle" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

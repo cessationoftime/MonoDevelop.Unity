@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="AnimationCullingType" FullName="UnityEngine.AnimationCullingType">
+  <TypeSignature Language="C#" Value="public enum AnimationCullingType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>This enum controlls culling of Animation component.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlwaysAnimate">
+      <MemberSignature Language="C#" Value="AlwaysAnimate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCullingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation culling is disabled - object is animated even when offscreen.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BasedOnClipBounds">
+      <MemberSignature Language="C#" Value="BasedOnClipBounds"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCullingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation is disabled when <see cref="P:UnityEngine.Animation.localBounds" /> are not visible.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.BasedOnUserBounds" />, <see cref="P:UnityEngine.Animation.localBounds" /> property, <see cref="P:UnityEngine.AnimationClip.localBounds" /> property</remarks></Docs>
+    </Member>
+    <Member MemberName="BasedOnRenderers">
+      <MemberSignature Language="C#" Value="BasedOnRenderers"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCullingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation is disabled when renderers are not visible.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BasedOnUserBounds">
+      <MemberSignature Language="C#" Value="BasedOnUserBounds"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCullingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Animation is disabled when <see cref="P:UnityEngine.Animation.localBounds" /> are not visible.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.BasedOnClipBounds" />, <see cref="P:UnityEngine.Animation.localBounds" /> property</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

@@ -3,12 +3,36 @@
     <Assembly Name="UnityEngine" Version="0.0.0.0">
       <Attributes>
         <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("UnityEditor")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("UnityEngineTests")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("DynamicProxyGenAssembly2")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Unity.Graphs.LogicGraph.Editor")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Unity.Xbox360.Extensions")</AttributeName>
+        </Attribute>
+        <Attribute>
           <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
         </Attribute>
       </Attributes>
     </Assembly>
-    <Assembly Name="UnityEngine" Version="0.0.0.0">
+    <Assembly Name="UnityEditor" Version="0.0.0.0">
       <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Unity.IntegrationTests")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Unity.Graphs.LogicGraph.Editor")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("UnityEditor.Tests")</AttributeName>
+        </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
         </Attribute>
@@ -25,11 +49,266 @@
   <Remarks>To be added.</Remarks>
   <Copyright>To be added.</Copyright>
   <Types>
+    <Namespace Name="">
+      <Type Name="AssetModificationProcessor" Kind="Class" />
+      <Type Name="IEditablePoint" Kind="Interface" />
+      <Type Name="PointEditor" Kind="Class" />
+      <Type Name="PRXMemoryInfo" Kind="Class" />
+      <Type Name="PRXModuleInfo" Kind="Class" />
+      <Type Name="Xcode4Controller" Kind="Class" />
+    </Namespace>
+    <Namespace Name="TreeEditor">
+      <Type Name="FractalNoise" Kind="Class" />
+      <Type Name="Perlin" Kind="Class" />
+      <Type Name="RingLoop" Kind="Class" />
+      <Type Name="SmoothRandom" Kind="Class" />
+      <Type Name="SplineNode" Kind="Class" />
+      <Type Name="TextureAtlas" Kind="Class" />
+      <Type Name="TextureAtlas+TextureNode" Kind="Class" />
+      <Type Name="TreeAOSphere" Kind="Class" />
+      <Type Name="TreeAttribute" Kind="Class" />
+      <Type Name="TreeData" Kind="Class" />
+      <Type Name="TreeEditorHelper" Kind="Class" />
+      <Type Name="TreeEditorHelper+NodeType" Kind="Enumeration" />
+      <Type Name="TreeGroup" Kind="Class" />
+      <Type Name="TreeGroup+BuildFlag" Kind="Enumeration" />
+      <Type Name="TreeGroup+DistributionMode" Kind="Enumeration" />
+      <Type Name="TreeGroup+LockFlag" Kind="Enumeration" />
+      <Type Name="TreeGroupBranch" Kind="Class" />
+      <Type Name="TreeGroupBranch+GeometryMode" Kind="Enumeration" />
+      <Type Name="TreeGroupLeaf" Kind="Class" />
+      <Type Name="TreeGroupLeaf+GeometryMode" Kind="Enumeration" />
+      <Type Name="TreeGroupRoot" Kind="Class" />
+      <Type Name="TreeMaterial" Kind="Class" />
+      <Type Name="TreeNode" Kind="Class" />
+      <Type Name="TreeSpline" Kind="Class" />
+      <Type Name="TreeTriangle" Kind="Class" />
+      <Type Name="TreeVertex" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEditor">
+      <Type Name="ActiveEditorTracker" Kind="Class" />
+      <Type Name="AndroidBuildSubtarget" Kind="Enumeration" />
+      <Type Name="AndroidPreferredInstallLocation" Kind="Enumeration" />
+      <Type Name="AndroidSdkRoot" Kind="Class" />
+      <Type Name="AndroidSdkVersions" Kind="Enumeration" />
+      <Type Name="AndroidShowActivityIndicatorOnLoading" Kind="Enumeration" />
+      <Type Name="AndroidSplashScreenScale" Kind="Enumeration" />
+      <Type Name="AndroidTargetDevice" Kind="Enumeration" />
+      <Type Name="AndroidTargetGraphics" Kind="Enumeration" />
+      <Type Name="AnimationClipCurveData" Kind="Class" />
+      <Type Name="AnimationUtility" Kind="Class" />
+      <Type Name="ApiCompatibilityLevel" Kind="Enumeration" />
+      <Type Name="ArrayUtility" Kind="Class" />
+      <Type Name="AspectRatio" Kind="Enumeration" />
+      <Type Name="AssemblyHelper" Kind="Class" />
+      <Type Name="AssetDatabase" Kind="Class" />
+      <Type Name="AssetDeleteResult" Kind="Enumeration" />
+      <Type Name="AssetImporter" Kind="Class" />
+      <Type Name="AssetMoveResult" Kind="Enumeration" />
+      <Type Name="AssetPostprocessor" Kind="Class" />
+      <Type Name="AssetsItem" Kind="Class" />
+      <Type Name="AssetStatus" Kind="Enumeration" />
+      <Type Name="AudioFilterGUI" Kind="Class" />
+      <Type Name="AudioImporter" Kind="Class" />
+      <Type Name="AudioImporterChannels" Kind="Enumeration" />
+      <Type Name="AudioImporterFormat" Kind="Enumeration" />
+      <Type Name="AudioImporterLoadType" Kind="Enumeration" />
+      <Type Name="BuildAssetBundleOptions" Kind="Enumeration" />
+      <Type Name="BuildOptions" Kind="Enumeration" />
+      <Type Name="BuildPipeline" Kind="Class" />
+      <Type Name="BuildTarget" Kind="Enumeration" />
+      <Type Name="BuildTargetGroup" Kind="Enumeration" />
+      <Type Name="CanEditMultipleObjects" Kind="Class" />
+      <Type Name="CustomEditor" Kind="Class" />
+      <Type Name="DragAndDrop" Kind="Class" />
+      <Type Name="DragAndDropVisualMode" Kind="Enumeration" />
+      <Type Name="DrawCameraMode" Kind="Enumeration" />
+      <Type Name="DrawGizmo" Kind="Class" />
+      <Type Name="Editor" Kind="Class" />
+      <Type Name="EditorApplication" Kind="Class" />
+      <Type Name="EditorApplication+CallbackFunction" Kind="Delegate" />
+      <Type Name="EditorApplication+HierarchyWindowItemCallback" Kind="Delegate" />
+      <Type Name="EditorApplication+ProjectWindowItemCallback" Kind="Delegate" />
+      <Type Name="EditorBuildSettings" Kind="Class" />
+      <Type Name="EditorBuildSettingsScene" Kind="Class" />
+      <Type Name="EditorGUI" Kind="Class" />
+      <Type Name="EditorGUILayout" Kind="Class" />
+      <Type Name="EditorGUIUtility" Kind="Class" />
+      <Type Name="EditorPrefs" Kind="Class" />
+      <Type Name="EditorSettings" Kind="Class" />
+      <Type Name="EditorSkin" Kind="Enumeration" />
+      <Type Name="EditorStyles" Kind="Class" />
+      <Type Name="EditorUserBuildSettings" Kind="Class" />
+      <Type Name="EditorUserSettings" Kind="Class" />
+      <Type Name="EditorUtility" Kind="Class" />
+      <Type Name="EditorUtility+SelectMenuItemFunction" Kind="Delegate" />
+      <Type Name="EditorWindow" Kind="Class" />
+      <Type Name="ExportPackageOptions" Kind="Enumeration" />
+      <Type Name="ExternalVersionControl" Kind="Enumeration" />
+      <Type Name="FileUtil" Kind="Class" />
+      <Type Name="FontRenderMode" Kind="Enumeration" />
+      <Type Name="FontTextureCase" Kind="Enumeration" />
+      <Type Name="GameObjectUtility" Kind="Class" />
+      <Type Name="GenericMenu" Kind="Class" />
+      <Type Name="GenericMenu+MenuFunction" Kind="Delegate" />
+      <Type Name="GenericMenu+MenuFunction2" Kind="Delegate" />
+      <Type Name="GizmoType" Kind="Enumeration" />
+      <Type Name="Handles" Kind="Class" />
+      <Type Name="Handles+DrawCapFunction" Kind="Delegate" />
+      <Type Name="HandleUtility" Kind="Class" />
+      <Type Name="Help" Kind="Class" />
+      <Type Name="HierarchyProperty" Kind="Class" />
+      <Type Name="HierarchyType" Kind="Enumeration" />
+      <Type Name="ImportAssetOptions" Kind="Enumeration" />
+      <Type Name="InitializeOnLoadAttribute" Kind="Class" />
+      <Type Name="InspectorMode" Kind="Enumeration" />
+      <Type Name="iOSSdkVersion" Kind="Enumeration" />
+      <Type Name="iOSShowActivityIndicatorOnLoading" Kind="Enumeration" />
+      <Type Name="iOSStatusBarStyle" Kind="Enumeration" />
+      <Type Name="iOSTargetDevice" Kind="Enumeration" />
+      <Type Name="iOSTargetOSVersion" Kind="Enumeration" />
+      <Type Name="iOSTargetPlatform" Kind="Enumeration" />
+      <Type Name="iOSTargetResolution" Kind="Enumeration" />
+      <Type Name="LightmapBakeQuality" Kind="Enumeration" />
+      <Type Name="LightmapEditorSettings" Kind="Class" />
+      <Type Name="Lightmapping" Kind="Class" />
+      <Type Name="ListViewState" Kind="Class" />
+      <Type Name="LODGroupEditor" Kind="Class" />
+      <Type Name="LODUtility" Kind="Class" />
+      <Type Name="MathUtils" Kind="Class" />
+      <Type Name="MenuCommand" Kind="Class" />
+      <Type Name="MenuItem" Kind="Class" />
+      <Type Name="MeshUtility" Kind="Class" />
+      <Type Name="MessageType" Kind="Enumeration" />
+      <Type Name="ModelImporter" Kind="Class" />
+      <Type Name="ModelImporterAnimationCompression" Kind="Enumeration" />
+      <Type Name="ModelImporterClipAnimation" Kind="Class" />
+      <Type Name="ModelImporterGenerateAnimations" Kind="Enumeration" />
+      <Type Name="ModelImporterGenerateMaterials" Kind="Enumeration" />
+      <Type Name="ModelImporterMaterialName" Kind="Enumeration" />
+      <Type Name="ModelImporterMaterialSearch" Kind="Enumeration" />
+      <Type Name="ModelImporterMeshCompression" Kind="Enumeration" />
+      <Type Name="ModelImporterTangentSpaceMode" Kind="Enumeration" />
+      <Type Name="MonoScript" Kind="Class" />
+      <Type Name="MouseCursor" Kind="Enumeration" />
+      <Type Name="MovieImporter" Kind="Class" />
+      <Type Name="NavMeshBuilder" Kind="Class" />
+      <Type Name="NavMeshEditorWindow" Kind="Class" />
+      <Type Name="NETVersion" Kind="Enumeration" />
+      <Type Name="ObjectNames" Kind="Class" />
+      <Type Name="OverwriteHandling" Kind="Enumeration" />
+      <Type Name="PackageInfo" Kind="Structure" />
+      <Type Name="PivotMode" Kind="Enumeration" />
+      <Type Name="PivotRotation" Kind="Enumeration" />
+      <Type Name="PlayerSettings" Kind="Class" />
+      <Type Name="PlayerSettings+Android" Kind="Class" />
+      <Type Name="PlayerSettings+iOS" Kind="Class" />
+      <Type Name="PlayerSettings+Wii" Kind="Class" />
+      <Type Name="PrefabType" Kind="Enumeration" />
+      <Type Name="PrefabUtility" Kind="Class" />
+      <Type Name="PreferenceItem" Kind="Class" />
+      <Type Name="ProceduralOutputType" Kind="Enumeration" />
+      <Type Name="ProceduralTexture" Kind="Class" />
+      <Type Name="PropertyModification" Kind="Class" />
+      <Type Name="PS3BuildSubtarget" Kind="Enumeration" />
+      <Type Name="RemoveAssetOptions" Kind="Enumeration" />
+      <Type Name="ReplacePrefabOptions" Kind="Enumeration" />
+      <Type Name="ResolutionDialogSetting" Kind="Enumeration" />
+      <Type Name="SaveAssetsProcessor" Kind="Class" />
+      <Type Name="SceneModeUtility" Kind="Class" />
+      <Type Name="SceneView" Kind="Class" />
+      <Type Name="SceneView+OnSceneFunc" Kind="Delegate" />
+      <Type Name="SceneView+RenderMode" Kind="Enumeration" />
+      <Type Name="ScriptableWizard" Kind="Class" />
+      <Type Name="ScriptCallOptimizationLevel" Kind="Enumeration" />
+      <Type Name="SearchableEditorWindow" Kind="Class" />
+      <Type Name="Selection" Kind="Class" />
+      <Type Name="SelectionMode" Kind="Enumeration" />
+      <Type Name="SerializationMode" Kind="Enumeration" />
+      <Type Name="SerializedObject" Kind="Class" />
+      <Type Name="SerializedProperty" Kind="Class" />
+      <Type Name="SerializedPropertyType" Kind="Enumeration" />
+      <Type Name="StaticEditorFlags" Kind="Enumeration" />
+      <Type Name="StaticOcclusionCulling" Kind="Class" />
+      <Type Name="StaticOcclusionCullingMode" Kind="Enumeration" />
+      <Type Name="StaticOcclusionCullingVisualization" Kind="Class" />
+      <Type Name="StrippingLevel" Kind="Enumeration" />
+      <Type Name="SubstanceArchive" Kind="Class" />
+      <Type Name="SubstanceImporter" Kind="Class" />
+      <Type Name="TargetChoiceHandler" Kind="Class" />
+      <Type Name="TextureImporter" Kind="Class" />
+      <Type Name="TextureImporterFormat" Kind="Enumeration" />
+      <Type Name="TextureImporterGenerateCubemap" Kind="Enumeration" />
+      <Type Name="TextureImporterMipFilter" Kind="Enumeration" />
+      <Type Name="TextureImporterNormalFilter" Kind="Enumeration" />
+      <Type Name="TextureImporterNPOTScale" Kind="Enumeration" />
+      <Type Name="TextureImporterSettings" Kind="Class" />
+      <Type Name="TextureImporterType" Kind="Enumeration" />
+      <Type Name="TextureUsageMode" Kind="Enumeration" />
+      <Type Name="Tool" Kind="Enumeration" />
+      <Type Name="Tools" Kind="Class" />
+      <Type Name="TrueTypeFontImporter" Kind="Class" />
+      <Type Name="UIOrientation" Kind="Enumeration" />
+      <Type Name="Undo" Kind="Class" />
+      <Type Name="UndoSnapshot" Kind="Class" />
+      <Type Name="UnityStats" Kind="Class" />
+      <Type Name="Unsupported" Kind="Class" />
+      <Type Name="Unsupported+ProgressiveMesh" Kind="Structure" />
+      <Type Name="UnwrapParam" Kind="Structure" />
+      <Type Name="Unwrapping" Kind="Class" />
+      <Type Name="UploadingBuildStatus" Kind="Enumeration" />
+      <Type Name="ViewTool" Kind="Enumeration" />
+      <Type Name="WiiBuildDebugLevel" Kind="Enumeration" />
+      <Type Name="WiiBuildSubtarget" Kind="Enumeration" />
+      <Type Name="WiiHio2Usage" Kind="Enumeration" />
+      <Type Name="WiiMemoryArea" Kind="Enumeration" />
+      <Type Name="WiiMemoryLabel" Kind="Enumeration" />
+      <Type Name="WiiRegion" Kind="Enumeration" />
+      <Type Name="XboxBuildSubtarget" Kind="Enumeration" />
+      <Type Name="XboxRunMethod" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="UnityEditor.Macros">
+      <Type Name="MacroEvaluator" Kind="Class" />
+      <Type Name="MethodEvaluator" Kind="Class" />
+      <Type Name="MethodEvaluator+AssemblyResolver" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEditor.VisualStudioIntegration">
+      <Type Name="SolutionGuidGenerator" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEditorInternal">
+      <Type Name="AssetStore" Kind="Class" />
+      <Type Name="InternalEditorUtility" Kind="Class" />
+      <Type Name="JSONValue" Kind="Structure" />
+      <Type Name="MacroEvents" Kind="Class" />
+      <Type Name="MacroEvents+AutoConvert" Kind="Enumeration" />
+      <Type Name="Macros" Kind="Class" />
+      <Type Name="MacroWindow" Kind="Class" />
+      <Type Name="MonoScripts" Kind="Class" />
+      <Type Name="ProfilerArea" Kind="Enumeration" />
+      <Type Name="ProfilerColumn" Kind="Enumeration" />
+      <Type Name="ProfilerDriver" Kind="Class" />
+      <Type Name="ProfilerProperty" Kind="Class" />
+      <Type Name="ProfilerViewType" Kind="Enumeration" />
+    </Namespace>
     <Namespace Name="UnityEngine">
+      <Type Name="AccelerationEvent" Kind="Structure" />
+      <Type Name="ADBannerView" Kind="Class" />
       <Type Name="AddComponentMenu" Kind="Class" />
+      <Type Name="ADError" Kind="Class" />
+      <Type Name="ADErrorCode" Kind="Enumeration" />
+      <Type Name="ADInterstitialAd" Kind="Class" />
+      <Type Name="ADPosition" Kind="Enumeration" />
+      <Type Name="ADSizeIdentifier" Kind="Enumeration" />
+      <Type Name="AndroidInput" Kind="Class" />
+      <Type Name="AndroidJavaClass" Kind="Class" />
+      <Type Name="AndroidJavaObject" Kind="Class" />
+      <Type Name="AndroidJavaRunnable" Kind="Delegate" />
+      <Type Name="AndroidJNI" Kind="Class" />
+      <Type Name="AndroidJNIHelper" Kind="Class" />
       <Type Name="Animation" Kind="Class" />
       <Type Name="AnimationBlendMode" Kind="Enumeration" />
       <Type Name="AnimationClip" Kind="Class" />
+      <Type Name="AnimationCullingType" Kind="Enumeration" />
       <Type Name="AnimationCurve" Kind="Class" />
       <Type Name="AnimationEvent" Kind="Class" />
       <Type Name="AnimationPlayMode" Kind="Enumeration" />
@@ -39,31 +318,55 @@
       <Type Name="Application+LogCallback" Kind="Delegate" />
       <Type Name="AssemblyHelper" Kind="Class" />
       <Type Name="AssetBundle" Kind="Class" />
+      <Type Name="AssetBundleCreateRequest" Kind="Class" />
       <Type Name="AssetBundleRequest" Kind="Class" />
       <Type Name="AssetUtility" Kind="Class" />
       <Type Name="AsyncOperation" Kind="Class" />
+      <Type Name="AudioChorusFilter" Kind="Class" />
       <Type Name="AudioClip" Kind="Class" />
+      <Type Name="AudioClip+PCMReaderCallback" Kind="Delegate" />
+      <Type Name="AudioClip+PCMSetPositionCallback" Kind="Delegate" />
+      <Type Name="AudioDistortionFilter" Kind="Class" />
+      <Type Name="AudioEchoFilter" Kind="Class" />
+      <Type Name="AudioHighPassFilter" Kind="Class" />
       <Type Name="AudioListener" Kind="Class" />
+      <Type Name="AudioLowPassFilter" Kind="Class" />
+      <Type Name="AudioReverbFilter" Kind="Class" />
+      <Type Name="AudioReverbPreset" Kind="Enumeration" />
+      <Type Name="AudioReverbZone" Kind="Class" />
+      <Type Name="AudioRolloffMode" Kind="Enumeration" />
+      <Type Name="AudioSettings" Kind="Class" />
       <Type Name="AudioSource" Kind="Class" />
+      <Type Name="AudioSpeakerMode" Kind="Enumeration" />
+      <Type Name="AudioType" Kind="Enumeration" />
       <Type Name="AudioVelocityUpdateMode" Kind="Enumeration" />
       <Type Name="Behaviour" Kind="Class" />
       <Type Name="BitStream" Kind="Class" />
+      <Type Name="BlendWeights" Kind="Enumeration" />
       <Type Name="BoneWeight" Kind="Structure" />
       <Type Name="Bounds" Kind="Structure" />
       <Type Name="BoxCollider" Kind="Class" />
       <Type Name="CacheIndex" Kind="Structure" />
       <Type Name="Caching" Kind="Class" />
+      <Type Name="CalendarIdentifier" Kind="Enumeration" />
+      <Type Name="CalendarUnit" Kind="Enumeration" />
       <Type Name="Camera" Kind="Class" />
       <Type Name="CameraClearFlags" Kind="Enumeration" />
       <Type Name="CapsuleCollider" Kind="Class" />
       <Type Name="CharacterController" Kind="Class" />
       <Type Name="CharacterJoint" Kind="Class" />
+      <Type Name="Cloth" Kind="Class" />
+      <Type Name="ClothRenderer" Kind="Class" />
+      <Type Name="ClothSkinningCoefficient" Kind="Structure" />
       <Type Name="Collider" Kind="Class" />
       <Type Name="Collision" Kind="Class" />
+      <Type Name="CollisionDetectionMode" Kind="Enumeration" />
       <Type Name="CollisionFlags" Kind="Enumeration" />
       <Type Name="Color" Kind="Structure" />
       <Type Name="Color32" Kind="Structure" />
+      <Type Name="ColorSpace" Kind="Enumeration" />
       <Type Name="CombineInstance" Kind="Structure" />
+      <Type Name="Compass" Kind="Class" />
       <Type Name="Component" Kind="Class" />
       <Type Name="ConfigurableJoint" Kind="Class" />
       <Type Name="ConfigurableJointMotion" Kind="Enumeration" />
@@ -80,17 +383,25 @@
       <Type Name="DepthTextureMode" Kind="Enumeration" />
       <Type Name="DetailPrototype" Kind="Class" />
       <Type Name="DetailRenderMode" Kind="Enumeration" />
+      <Type Name="DeviceOrientation" Kind="Enumeration" />
+      <Type Name="DeviceType" Kind="Enumeration" />
       <Type Name="Dynamics" Kind="Class" />
       <Type Name="Event" Kind="Class" />
+      <Type Name="EventModifiers" Kind="Enumeration" />
       <Type Name="EventType" Kind="Enumeration" />
       <Type Name="ExecuteInEditMode" Kind="Class" />
       <Type Name="ExitGUIException" Kind="Class" />
+      <Type Name="FFTWindow" Kind="Enumeration" />
       <Type Name="FilterMode" Kind="Enumeration" />
       <Type Name="FixedJoint" Kind="Class" />
       <Type Name="Flare" Kind="Class" />
       <Type Name="FocusType" Kind="Enumeration" />
+      <Type Name="FogMode" Kind="Enumeration" />
       <Type Name="Font" Kind="Class" />
+      <Type Name="FontStyle" Kind="Enumeration" />
       <Type Name="ForceMode" Kind="Enumeration" />
+      <Type Name="FullScreenMovieControlMode" Kind="Enumeration" />
+      <Type Name="FullScreenMovieScalingMode" Kind="Enumeration" />
       <Type Name="GameObject" Kind="Class" />
       <Type Name="GeometryUtility" Kind="Class" />
       <Type Name="Gizmos" Kind="Class" />
@@ -116,13 +427,35 @@
       <Type Name="GUIText" Kind="Class" />
       <Type Name="GUITexture" Kind="Class" />
       <Type Name="GUIUtility" Kind="Class" />
+      <Type Name="Gyroscope" Kind="Class" />
+      <Type Name="Handheld" Kind="Class" />
       <Type Name="HideFlags" Kind="Enumeration" />
       <Type Name="HideInInspector" Kind="Class" />
       <Type Name="HingeJoint" Kind="Class" />
       <Type Name="HostData" Kind="Class" />
       <Type Name="IDList" Kind="Class" />
+      <Type Name="ImageEffectOpaque" Kind="Class" />
+      <Type Name="ImageEffectTransformsToLDR" Kind="Class" />
       <Type Name="ImagePosition" Kind="Enumeration" />
+      <Type Name="IMECompositionMode" Kind="Enumeration" />
+      <Type Name="ImplementedInActionScriptAttribute" Kind="Class" />
       <Type Name="Input" Kind="Class" />
+      <Type Name="InteractiveCloth" Kind="Class" />
+      <Type Name="iPhone" Kind="Class" />
+      <Type Name="iPhoneAccelerationEvent" Kind="Structure" />
+      <Type Name="iPhoneGeneration" Kind="Enumeration" />
+      <Type Name="iPhoneInput" Kind="Class" />
+      <Type Name="iPhoneKeyboard" Kind="Class" />
+      <Type Name="iPhoneKeyboardType" Kind="Enumeration" />
+      <Type Name="iPhoneMovieControlMode" Kind="Enumeration" />
+      <Type Name="iPhoneMovieScalingMode" Kind="Enumeration" />
+      <Type Name="iPhoneNetworkReachability" Kind="Enumeration" />
+      <Type Name="iPhoneOrientation" Kind="Enumeration" />
+      <Type Name="iPhoneScreenOrientation" Kind="Enumeration" />
+      <Type Name="iPhoneSettings" Kind="Class" />
+      <Type Name="iPhoneTouch" Kind="Structure" />
+      <Type Name="iPhoneTouchPhase" Kind="Enumeration" />
+      <Type Name="iPhoneUtils" Kind="Class" />
       <Type Name="Joint" Kind="Class" />
       <Type Name="JointDrive" Kind="Structure" />
       <Type Name="JointDriveMode" Kind="Enumeration" />
@@ -130,6 +463,7 @@
       <Type Name="JointMotor" Kind="Structure" />
       <Type Name="JointProjectionMode" Kind="Enumeration" />
       <Type Name="JointSpring" Kind="Structure" />
+      <Type Name="jvalue" Kind="Structure" />
       <Type Name="KeyCode" Kind="Enumeration" />
       <Type Name="Keyframe" Kind="Structure" />
       <Type Name="LayerMask" Kind="Structure" />
@@ -137,10 +471,18 @@
       <Type Name="Light" Kind="Class" />
       <Type Name="LightmapData" Kind="Class" />
       <Type Name="LightmapSettings" Kind="Class" />
+      <Type Name="LightmapsMode" Kind="Enumeration" />
+      <Type Name="LightProbeGroup" Kind="Class" />
+      <Type Name="LightProbes" Kind="Class" />
       <Type Name="LightRenderMode" Kind="Enumeration" />
       <Type Name="LightShadows" Kind="Enumeration" />
       <Type Name="LightType" Kind="Enumeration" />
       <Type Name="LineRenderer" Kind="Class" />
+      <Type Name="LocalNotification" Kind="Class" />
+      <Type Name="LocationInfo" Kind="Structure" />
+      <Type Name="LocationService" Kind="Class" />
+      <Type Name="LocationServiceStatus" Kind="Enumeration" />
+      <Type Name="LODGroup" Kind="Class" />
       <Type Name="LogType" Kind="Enumeration" />
       <Type Name="MasterServer" Kind="Class" />
       <Type Name="MasterServerEvent" Kind="Enumeration" />
@@ -152,25 +494,46 @@
       <Type Name="MeshCollider" Kind="Class" />
       <Type Name="MeshFilter" Kind="Class" />
       <Type Name="MeshRenderer" Kind="Class" />
+      <Type Name="Microphone" Kind="Class" />
       <Type Name="MissingComponentException" Kind="Class" />
       <Type Name="MissingReferenceException" Kind="Class" />
       <Type Name="MonoBehaviour" Kind="Class" />
       <Type Name="MovieTexture" Kind="Class" />
+      <Type Name="NavMesh" Kind="Class" />
+      <Type Name="NavMeshAgent" Kind="Class" />
+      <Type Name="NavMeshHit" Kind="Structure" />
+      <Type Name="NavMeshPath" Kind="Class" />
+      <Type Name="NavMeshPathStatus" Kind="Enumeration" />
       <Type Name="Network" Kind="Class" />
       <Type Name="NetworkConnectionError" Kind="Enumeration" />
       <Type Name="NetworkDisconnection" Kind="Enumeration" />
+      <Type Name="NetworkLogLevel" Kind="Enumeration" />
       <Type Name="NetworkMessageInfo" Kind="Structure" />
       <Type Name="NetworkPeerType" Kind="Enumeration" />
       <Type Name="NetworkPlayer" Kind="Structure" />
+      <Type Name="NetworkReachability" Kind="Enumeration" />
       <Type Name="NetworkStateSynchronization" Kind="Enumeration" />
       <Type Name="NetworkView" Kind="Class" />
       <Type Name="NetworkViewID" Kind="Structure" />
+      <Type Name="NotConvertedAttribute" Kind="Class" />
+      <Type Name="NotificationServices" Kind="Class" />
+      <Type Name="NotRenamedAttribute" Kind="Class" />
       <Type Name="Object" Kind="Class" />
+      <Type Name="ObstacleAvoidanceType" Kind="Enumeration" />
+      <Type Name="OcclusionArea" Kind="Class" />
+      <Type Name="OcclusionPortal" Kind="Class" />
+      <Type Name="OffMeshLink" Kind="Class" />
+      <Type Name="OffMeshLinkData" Kind="Structure" />
+      <Type Name="OffMeshLinkType" Kind="Enumeration" />
       <Type Name="Particle" Kind="Structure" />
       <Type Name="ParticleAnimator" Kind="Class" />
       <Type Name="ParticleEmitter" Kind="Class" />
       <Type Name="ParticleRenderer" Kind="Class" />
       <Type Name="ParticleRenderMode" Kind="Enumeration" />
+      <Type Name="ParticleSystem" Kind="Class" />
+      <Type Name="ParticleSystem+Particle" Kind="Structure" />
+      <Type Name="ParticleSystemRenderer" Kind="Class" />
+      <Type Name="ParticleSystemRenderMode" Kind="Enumeration" />
       <Type Name="PhysicMaterial" Kind="Class" />
       <Type Name="PhysicMaterialCombine" Kind="Enumeration" />
       <Type Name="Physics" Kind="Class" />
@@ -181,6 +544,11 @@
       <Type Name="PlayerPrefsException" Kind="Class" />
       <Type Name="PlayMode" Kind="Enumeration" />
       <Type Name="PrimitiveType" Kind="Enumeration" />
+      <Type Name="ProceduralCacheSize" Kind="Enumeration" />
+      <Type Name="ProceduralMaterial" Kind="Class" />
+      <Type Name="ProceduralProcessorUsage" Kind="Enumeration" />
+      <Type Name="ProceduralPropertyDescription" Kind="Class" />
+      <Type Name="ProceduralPropertyType" Kind="Enumeration" />
       <Type Name="Profiler" Kind="Class" />
       <Type Name="Projector" Kind="Class" />
       <Type Name="QualityLevel" Kind="Enumeration" />
@@ -195,15 +563,21 @@
       <Type Name="RectOffset" Kind="Class" />
       <Type Name="RefCounted" Kind="Class" />
       <Type Name="ReferenceData" Kind="Structure" />
+      <Type Name="RemoteNotification" Kind="Class" />
+      <Type Name="RemoteNotificationType" Kind="Enumeration" />
       <Type Name="RenderBeforeQueues" Kind="Class" />
+      <Type Name="RenderBuffer" Kind="Structure" />
       <Type Name="Renderer" Kind="Class" />
+      <Type Name="RenderingPath" Kind="Enumeration" />
       <Type Name="RenderSettings" Kind="Class" />
       <Type Name="RenderTexture" Kind="Class" />
       <Type Name="RenderTextureFormat" Kind="Enumeration" />
+      <Type Name="RenderTextureReadWrite" Kind="Enumeration" />
       <Type Name="RequireComponent" Kind="Class" />
       <Type Name="Resolution" Kind="Structure" />
       <Type Name="Resources" Kind="Class" />
       <Type Name="Rigidbody" Kind="Class" />
+      <Type Name="RigidbodyConstraints" Kind="Enumeration" />
       <Type Name="RigidbodyInterpolation" Kind="Enumeration" />
       <Type Name="RotationDriveMode" Kind="Enumeration" />
       <Type Name="RPC" Kind="Class" />
@@ -211,23 +585,30 @@
       <Type Name="RuntimePlatform" Kind="Enumeration" />
       <Type Name="ScaleMode" Kind="Enumeration" />
       <Type Name="Screen" Kind="Class" />
+      <Type Name="ScreenOrientation" Kind="Enumeration" />
       <Type Name="ScriptableObject" Kind="Class" />
       <Type Name="ScriptableShaderPass" Kind="Class" />
+      <Type Name="Security" Kind="Class" />
       <Type Name="SendMessageOptions" Kind="Enumeration" />
       <Type Name="SendMouseEvents" Kind="Class" />
       <Type Name="SerializeField" Kind="Class" />
       <Type Name="SerializePrivateVariables" Kind="Class" />
       <Type Name="SetupCoroutine" Kind="Class" />
       <Type Name="Shader" Kind="Class" />
+      <Type Name="ShadowProjection" Kind="Enumeration" />
+      <Type Name="SkinnedCloth" Kind="Class" />
       <Type Name="SkinnedMeshRenderer" Kind="Class" />
       <Type Name="SkinQuality" Kind="Enumeration" />
       <Type Name="Skybox" Kind="Class" />
+      <Type Name="SleepTimeout" Kind="Enumeration" />
+      <Type Name="Social" Kind="Class" />
       <Type Name="SoftJointLimit" Kind="Structure" />
       <Type Name="Space" Kind="Enumeration" />
       <Type Name="SphereCollider" Kind="Class" />
       <Type Name="SplatPrototype" Kind="Class" />
       <Type Name="SpringJoint" Kind="Class" />
       <Type Name="StackTraceUtility" Kind="Class" />
+      <Type Name="StaticBatchingUtility" Kind="Class" />
       <Type Name="SystemInfo" Kind="Class" />
       <Type Name="SystemLanguage" Kind="Enumeration" />
       <Type Name="Terrain" Kind="Class" />
@@ -236,6 +617,7 @@
       <Type Name="TerrainCollider" Kind="Class" />
       <Type Name="TerrainData" Kind="Class" />
       <Type Name="TerrainLighting" Kind="Enumeration" />
+      <Type Name="TerrainRenderFlags" Kind="Enumeration" />
       <Type Name="TexGenMode" Kind="Enumeration" />
       <Type Name="TextAlignment" Kind="Enumeration" />
       <Type Name="TextAnchor" Kind="Enumeration" />
@@ -246,23 +628,34 @@
       <Type Name="TextMesh" Kind="Class" />
       <Type Name="Texture" Kind="Class" />
       <Type Name="Texture2D" Kind="Class" />
+      <Type Name="TextureCompressionQuality" Kind="Enumeration" />
       <Type Name="TextureFormat" Kind="Enumeration" />
       <Type Name="TextureWrapMode" Kind="Enumeration" />
       <Type Name="ThreadPriority" Kind="Enumeration" />
       <Type Name="Time" Kind="Class" />
+      <Type Name="Touch" Kind="Structure" />
+      <Type Name="TouchPhase" Kind="Enumeration" />
+      <Type Name="TouchScreenKeyboard" Kind="Class" />
+      <Type Name="TouchScreenKeyboardType" Kind="Enumeration" />
       <Type Name="TrackedReference" Kind="Class" />
       <Type Name="TrailRenderer" Kind="Class" />
       <Type Name="Transform" Kind="Class" />
+      <Type Name="Tree" Kind="Class" />
       <Type Name="TreeInstance" Kind="Structure" />
       <Type Name="TreePrototype" Kind="Class" />
+      <Type Name="Types" Kind="Class" />
       <Type Name="UnassignedReferenceException" Kind="Class" />
       <Type Name="UnityException" Kind="Class" />
+      <Type Name="UserAuthorization" Kind="Enumeration" />
       <Type Name="Vector2" Kind="Structure" />
       <Type Name="Vector3" Kind="Structure" />
       <Type Name="Vector4" Kind="Structure" />
       <Type Name="WaitForEndOfFrame" Kind="Class" />
       <Type Name="WaitForFixedUpdate" Kind="Class" />
       <Type Name="WaitForSeconds" Kind="Class" />
+      <Type Name="WebCamDevice" Kind="Structure" />
+      <Type Name="WebCamFlags" Kind="Enumeration" />
+      <Type Name="WebCamTexture" Kind="Class" />
       <Type Name="WheelCollider" Kind="Class" />
       <Type Name="WheelFrictionCurve" Kind="Structure" />
       <Type Name="WheelHit" Kind="Structure" />
@@ -271,6 +664,42 @@
       <Type Name="WWWForm" Kind="Class" />
       <Type Name="WWWTranscoder" Kind="Class" />
       <Type Name="YieldInstruction" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEngine.Flash">
+      <Type Name="ActionScript" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEngine.Serialization">
+      <Type Name="UnitySurrogateSelector" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEngine.SocialPlatforms">
+      <Type Name="IAchievement" Kind="Interface" />
+      <Type Name="IAchievementDescription" Kind="Interface" />
+      <Type Name="ILeaderboard" Kind="Interface" />
+      <Type Name="ILocalUser" Kind="Interface" />
+      <Type Name="IScore" Kind="Interface" />
+      <Type Name="ISocialPlatform" Kind="Interface" />
+      <Type Name="IUserProfile" Kind="Interface" />
+      <Type Name="Local" Kind="Class" />
+      <Type Name="Range" Kind="Structure" />
+      <Type Name="TimeScope" Kind="Enumeration" />
+      <Type Name="UserScope" Kind="Enumeration" />
+      <Type Name="UserState" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="UnityEngine.SocialPlatforms.GameCenter">
+      <Type Name="GameCenterPlatform" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEngine.SocialPlatforms.Impl">
+      <Type Name="Achievement" Kind="Class" />
+      <Type Name="AchievementDescription" Kind="Class" />
+      <Type Name="Leaderboard" Kind="Class" />
+      <Type Name="LocalUser" Kind="Class" />
+      <Type Name="Score" Kind="Class" />
+      <Type Name="UserProfile" Kind="Class" />
+    </Namespace>
+    <Namespace Name="UnityEngineInternal">
+      <Type Name="Reproduction" Kind="Class" />
+      <Type Name="TypeInferenceRuleAttribute" Kind="Class" />
+      <Type Name="TypeInferenceRules" Kind="Enumeration" />
     </Namespace>
   </Types>
   <Title>Untitled</Title>

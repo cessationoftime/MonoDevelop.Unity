@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Type Name="AndroidJavaClass" FullName="UnityEngine.AndroidJavaClass">
+  <TypeSignature Language="C#" Value="public class AndroidJavaClass : UnityEngine.AndroidJavaObject"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.AndroidJavaObject</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>AndroidJavaClass is the Unity representation of a generic instance of java.lang.Class</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidJavaClass (string className);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="className" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="className">To be added.</param>
+        <summary>Construct an AndroidJavaClass from the class name</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

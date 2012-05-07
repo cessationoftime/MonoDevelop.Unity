@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<Type Name="InteractiveCloth" FullName="UnityEngine.InteractiveCloth">
+  <TypeSignature Language="C#" Value="public sealed class InteractiveCloth : UnityEngine.Cloth"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Cloth</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The InteractiveCloth component is used to simulate objects with cloth physics.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InteractiveCloth ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForceAtPosition">
+      <MemberSignature Language="C#" Value="public void AddForceAtPosition (UnityEngine.Vector3 force, UnityEngine.Vector3 position, float radius);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>Adds force force to all vertices of the cloth mesh which are with radius distance of position.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddForceAtPosition">
+      <MemberSignature Language="C#" Value="public void AddForceAtPosition (UnityEngine.Vector3 force, UnityEngine.Vector3 position, float radius, UnityEngine.ForceMode mode);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="force" Type="UnityEngine.Vector3"/>
+        <Parameter Name="position" Type="UnityEngine.Vector3"/>
+        <Parameter Name="radius" Type="System.Single"/>
+        <Parameter Name="mode" Type="UnityEngine.ForceMode"/>
+      </Parameters>
+      <Docs>
+        <param name="force">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <param name="mode">To be added.</param>
+        <summary>Adds force force to all vertices of the cloth mesh which are with radius distance of position.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="attachmentResponse">
+      <MemberSignature Language="C#" Value="public float attachmentResponse { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How much force will be applied to attached rigidbodies?</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.AttachToCollider" /> function.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Make it behave like india rubber, increase the value to increase&lt;span class="hl-comment"&gt;&lt;span class="hl-comment"&gt;// the force applied back to the colliders&lt;span class="hl-comment"&gt;transform.GetComponent(InteractiveCloth).attachmentResponse = 10;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        transform.GetComponent&amp;lt;InteractiveCloth&amp;gt;().attachmentResponse = 10;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        transform.GetComponent[of InteractiveCloth]().attachmentResponse = 10&lt;p class="details"&gt;</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="attachmentTearFactor">
+      <MemberSignature Language="C#" Value="public float attachmentTearFactor { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How far attached rigid bodies need to be stretched, before they will tear off.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.AttachToCollider" /> function.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;transform.GetComponent(InteractiveCloth).attachmentTearFactor = 10;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        transform.GetComponent&amp;lt;InteractiveCloth&amp;gt;().attachmentTearFactor = 10;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        transform.GetComponent[of InteractiveCloth]().attachmentTearFactor = 10&lt;p class="details"&gt;</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachToCollider">
+      <MemberSignature Language="C#" Value="public void AttachToCollider (UnityEngine.Collider collider);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider" Type="UnityEngine.Collider"/>
+      </Parameters>
+      <Docs>
+        <param name="collider">To be added.</param>
+        <summary>Attaches a collider to the cloth object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachToCollider">
+      <MemberSignature Language="C#" Value="public void AttachToCollider (UnityEngine.Collider collider, bool tearable);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider" Type="UnityEngine.Collider"/>
+        <Parameter Name="tearable" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="collider">To be added.</param>
+        <param name="tearable">To be added.</param>
+        <summary>Attaches a collider to the cloth object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachToCollider">
+      <MemberSignature Language="C#" Value="public void AttachToCollider (UnityEngine.Collider collider, bool tearable, bool twoWayInteraction);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider" Type="UnityEngine.Collider"/>
+        <Parameter Name="tearable" Type="System.Boolean"/>
+        <Parameter Name="twoWayInteraction" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="collider">To be added.</param>
+        <param name="tearable">To be added.</param>
+        <param name="twoWayInteraction">To be added.</param>
+        <summary>Attaches a collider to the cloth object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="collisionResponse">
+      <MemberSignature Language="C#" Value="public float collisionResponse { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How much force will be applied to colliding rigidbodies?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="density">
+      <MemberSignature Language="C#" Value="public float density { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The density of the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetachFromCollider">
+      <MemberSignature Language="C#" Value="public void DetachFromCollider (UnityEngine.Collider collider);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="collider" Type="UnityEngine.Collider"/>
+      </Parameters>
+      <Docs>
+        <param name="collider">To be added.</param>
+        <summary>Detaches a collider from the cloth object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="friction">
+      <MemberSignature Language="C#" Value="public float friction { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The friction of the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isTeared">
+      <MemberSignature Language="C#" Value="public bool isTeared { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Did the cloth tear? (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mesh">
+      <MemberSignature Language="C#" Value="public UnityEngine.Mesh mesh { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Mesh</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The mesh used as base for the cloth object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="pressure">
+      <MemberSignature Language="C#" Value="public float pressure { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The pressure inside the cloth.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="tearFactor">
+      <MemberSignature Language="C#" Value="public float tearFactor { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>How far cloth vertices need to be stretched, before the cloth will tear.</summary>
+        <value>To be added.</value>
+        <remarks>See Also: <see cref="P:UnityEngine.isTeared" /> variable.&#xD;&#xD;  &#xD;    &#xD;      &#xD;        &#xD;	 &lt;span class="cSelect-Selected"&gt;JavaScript&#xD;	 &#xD;		JavaScript&#xD;		C#&#xD;		Boo&#xD;	 &#xD;      &#xD;    &#xD;    &#xD;  &#xD;&lt;span class="hl-comment"&gt;// Simulate a really thin/aged and fragile cloth that will tear with anything&lt;span class="hl-comment"&gt;transform.GetComponent(InteractiveCloth).tearFactor = 0.1;&lt;p class="details"&gt;&#xD;using UnityEngine;using System.Collections;&lt;span class="hl-keyword"&gt;public &lt;span class="hl-keyword"&gt;class example : <see cref="T:UnityEngine.MonoBehaviour" /> {    &lt;span class="hl-keyword"&gt;void Example() {        transform.GetComponent&amp;lt;InteractiveCloth&amp;gt;().tearFactor = 0.1F;    }}&lt;p class="details"&gt;&#xD;&lt;span class="hl-keyword"&gt;import UnityEngine&lt;span class="hl-keyword"&gt;import System.Collections&lt;span class="hl-keyword"&gt;class example(<see cref="T:UnityEngine.MonoBehaviour" />):    def Example():        transform.GetComponent[of InteractiveCloth]().tearFactor = 0.1F&lt;p class="details"&gt;</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

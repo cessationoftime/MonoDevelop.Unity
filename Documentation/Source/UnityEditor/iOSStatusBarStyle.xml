@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="iOSStatusBarStyle" FullName="UnityEditor.iOSStatusBarStyle">
+  <TypeSignature Language="C#" Value="public enum iOSStatusBarStyle"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>iOS status bar style</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BlackOpaque">
+      <MemberSignature Language="C#" Value="BlackOpaque"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.iOSStatusBarStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Black opaque</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BlackTranslucent">
+      <MemberSignature Language="C#" Value="BlackTranslucent"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.iOSStatusBarStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Black translucent</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.iOSStatusBarStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

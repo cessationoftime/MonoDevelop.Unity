@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<Type Name="NotificationServices" FullName="UnityEngine.NotificationServices">
+  <TypeSignature Language="C#" Value="public sealed class NotificationServices"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>NotificationServices is only available on iPhone/iPad/iPod Touch.</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NotificationServices ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelAllLocalNotifications">
+      <MemberSignature Language="C#" Value="public static void CancelAllLocalNotifications ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Cancels the delivery of all scheduled local notifications.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelLocalNotification">
+      <MemberSignature Language="C#" Value="public static void CancelLocalNotification (UnityEngine.LocalNotification notification);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notification" Type="UnityEngine.LocalNotification"/>
+      </Parameters>
+      <Docs>
+        <param name="notification">To be added.</param>
+        <summary>Cancels the delivery of the specified scheduled local notification.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearLocalNotifications">
+      <MemberSignature Language="C#" Value="public static void ClearLocalNotifications ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Discards of all received local notifications.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearRemoteNotifications">
+      <MemberSignature Language="C#" Value="public static void ClearRemoteNotifications ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Discards of all received remote notifications.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="deviceToken">
+      <MemberSignature Language="C#" Value="public static byte[] deviceToken { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Device token received from Apple Push Service after calling <see cref="P:UnityEngine.NotificationServices.RegisterForRemoteNotificationTypes" />. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="enabledRemoteNotificationTypes">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RemoteNotificationType enabledRemoteNotificationTypes { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotificationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The types of notifications the application accepts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocalNotification">
+      <MemberSignature Language="C#" Value="public static UnityEngine.LocalNotification GetLocalNotification (int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocalNotification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Returns an object representing a specific local notification. (Read Only)</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRemoteNotification">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RemoteNotification GetRemoteNotification (int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotification</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Returns an object representing a specific remote notification. (Read Only)</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="localNotificationCount">
+      <MemberSignature Language="C#" Value="public static int localNotificationCount { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of received local notifications. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="localNotifications">
+      <MemberSignature Language="C#" Value="public static UnityEngine.LocalNotification[] localNotifications { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocalNotification[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The list of objects representing received local notifications. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresentLocalNotificationNow">
+      <MemberSignature Language="C#" Value="public static void PresentLocalNotificationNow (UnityEngine.LocalNotification notification);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notification" Type="UnityEngine.LocalNotification"/>
+      </Parameters>
+      <Docs>
+        <param name="notification">To be added.</param>
+        <summary>Presents a local notification immediately.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterForRemoteNotificationTypes">
+      <MemberSignature Language="C#" Value="public static void RegisterForRemoteNotificationTypes (UnityEngine.RemoteNotificationType notificationTypes);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notificationTypes" Type="UnityEngine.RemoteNotificationType"/>
+      </Parameters>
+      <Docs>
+        <param name="notificationTypes">To be added.</param>
+        <summary>Register to receive remote notifications of the specified types from a provider via Apple Push Service.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="registrationError">
+      <MemberSignature Language="C#" Value="public static string registrationError { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an error that might occur on registration for remote notifications via <see cref="P:UnityEngine.NotificationServices.RegisterForRemoteNotificationTypes" />. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remoteNotificationCount">
+      <MemberSignature Language="C#" Value="public static int remoteNotificationCount { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The number of received remote notifications. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="remoteNotifications">
+      <MemberSignature Language="C#" Value="public static UnityEngine.RemoteNotification[] remoteNotifications { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.RemoteNotification[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The list of objects representing received remote notifications. (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="scheduledLocalNotifications">
+      <MemberSignature Language="C#" Value="public static UnityEngine.LocalNotification[] scheduledLocalNotifications { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.LocalNotification[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>All currently scheduled local notifications.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScheduleLocalNotification">
+      <MemberSignature Language="C#" Value="public static void ScheduleLocalNotification (UnityEngine.LocalNotification notification);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="notification" Type="UnityEngine.LocalNotification"/>
+      </Parameters>
+      <Docs>
+        <param name="notification">To be added.</param>
+        <summary>Schedules a local notification.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterForRemoteNotifications">
+      <MemberSignature Language="C#" Value="public static void UnregisterForRemoteNotifications ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Unregister for remote notifications.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

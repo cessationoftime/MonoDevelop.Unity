@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="ClothSkinningCoefficient" FullName="UnityEngine.ClothSkinningCoefficient">
+  <TypeSignature Language="C#" Value="public struct ClothSkinningCoefficient"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The ClothSkinningCoefficient struct is used to set up how a <see cref="T:UnityEngine.SkinnedCloth" /> component is allowed to move with respect to the <see cref="T:UnityEngine.SkinnedMeshRenderer" /> it is attached to.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="collisionSphereDistance">
+      <MemberSignature Language="C#" Value="public float collisionSphereDistance;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of a sphere a vertex is not allowed to enter. This allows collision against the animated cloth.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="collisionSphereRadius">
+      <MemberSignature Language="C#" Value="public float collisionSphereRadius;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Definition of a sphere a vertex is not allowed to enter. This allows collision against the animated cloth.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxDistance">
+      <MemberSignature Language="C#" Value="public float maxDistance;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Distance a vertex is allowed to travel from the skinned mesh vertex position.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="maxDistanceBias">
+      <MemberSignature Language="C#" Value="public float maxDistanceBias;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Distorts the sphere defined by the maxDistance based on skinned mesh normals.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

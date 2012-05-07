@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="OffMeshLinkType" FullName="UnityEngine.OffMeshLinkType">
+  <TypeSignature Language="C#" Value="public enum OffMeshLinkType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Link type specifier.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LinkTypeDropDown">
+      <MemberSignature Language="C#" Value="LinkTypeDropDown"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.OffMeshLinkType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Vertical drop.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkTypeJumpAcross">
+      <MemberSignature Language="C#" Value="LinkTypeJumpAcross"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.OffMeshLinkType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Horizontal jump.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkTypeManual">
+      <MemberSignature Language="C#" Value="LinkTypeManual"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.OffMeshLinkType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Manually specified type of link.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

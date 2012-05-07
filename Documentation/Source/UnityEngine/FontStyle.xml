@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Type Name="FontStyle" FullName="UnityEngine.FontStyle">
+  <TypeSignature Language="C#" Value="public enum FontStyle"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Font Style applied to GUI Texts, Text Meshes or GUIStyles.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bold">
+      <MemberSignature Language="C#" Value="Bold"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FontStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bold style applied to your texts.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BoldAndItalic">
+      <MemberSignature Language="C#" Value="BoldAndItalic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FontStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bold and Italic styles applied to your texts.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Italic">
+      <MemberSignature Language="C#" Value="Italic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FontStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Italic style applied to your texts.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FontStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No special style is applied.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

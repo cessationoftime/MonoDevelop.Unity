@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Type Name="AssetMoveResult" FullName="UnityEditor.AssetMoveResult">
+  <TypeSignature Language="C#" Value="public enum AssetMoveResult"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DidMove">
+      <MemberSignature Language="C#" Value="DidMove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetMoveResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells the internal implementation that the script moved the asset physically on disk. The internal implementation will</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DidNotMove">
+      <MemberSignature Language="C#" Value="DidNotMove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetMoveResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells the internal implementation that the asset was not moved physically on disk by the script</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedMove">
+      <MemberSignature Language="C#" Value="FailedMove"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AssetMoveResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tells the internal implementation that the script could not move the assets, and Unity should not attempt to move the asset</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

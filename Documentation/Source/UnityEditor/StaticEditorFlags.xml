@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Type Name="StaticEditorFlags" FullName="UnityEditor.StaticEditorFlags">
+  <TypeSignature Language="C#" Value="public enum StaticEditorFlags"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Static Editor Flags</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BatchingStatic">
+      <MemberSignature Language="C#" Value="BatchingStatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Consider for static batching.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LightmapStatic">
+      <MemberSignature Language="C#" Value="LightmapStatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Considered static for lightmapping.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationStatic">
+      <MemberSignature Language="C#" Value="NavigationStatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Considered static for navigation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OccludeeStatic">
+      <MemberSignature Language="C#" Value="OccludeeStatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Considered static for occlusion.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OccluderStatic">
+      <MemberSignature Language="C#" Value="OccluderStatic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Considered static for occlusion.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OffMeshLinkGeneration">
+      <MemberSignature Language="C#" Value="OffMeshLinkGeneration"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.StaticEditorFlags</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Auto-generate OffMeshLink.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Type Name="AudioSpeakerMode" FullName="UnityEngine.AudioSpeakerMode">
+  <TypeSignature Language="C#" Value="public enum AudioSpeakerMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>These are speaker types defined for use with <see cref="P:UnityEngine.AudioSettings.speakerMode" />.</summary>
+    <remarks>See Also: <see cref="T:UnityEngine.AudioSettings" />, <see cref="T:UnityEngine.Audio Manager" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Mode5point1">
+      <MemberSignature Language="C#" Value="Mode5point1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 6. 5.1 speaker setup. This includes front left, front right, center, rear left, rear right and a subwoofer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode7point1">
+      <MemberSignature Language="C#" Value="Mode7point1"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 8. 7.1 speaker setup. This includes front left, front right, center, rear left, rear right, side left, side right and a subwoofer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mono">
+      <MemberSignature Language="C#" Value="Mono"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 1. The speakers are monaural.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Prologic">
+      <MemberSignature Language="C#" Value="Prologic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 2. Stereo output, but data is encoded in a way that is picked up by a Prologic/Prologic2 decoder and split into a 5.1 speaker setup.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Quad">
+      <MemberSignature Language="C#" Value="Quad"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 4. 4 speaker setup. This includes front left, front right, rear left, rear right.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Raw">
+      <MemberSignature Language="C#" Value="Raw"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is unaffected.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Stereo">
+      <MemberSignature Language="C#" Value="Stereo"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 2. The speakers are stereo. This is the editor default.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Surround">
+      <MemberSignature Language="C#" Value="Surround"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AudioSpeakerMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Channel count is set to 5. 5 speaker setup. This includes front left, front right, center, rear left, rear right.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

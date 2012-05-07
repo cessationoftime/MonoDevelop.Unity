@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="BlendWeights" FullName="UnityEngine.BlendWeights">
+  <TypeSignature Language="C#" Value="public enum BlendWeights"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Blend weights.</summary>
+    <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.blendWeights" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FourBones">
+      <MemberSignature Language="C#" Value="FourBones"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.BlendWeights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Four bones affect each vertex.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.blendWeights" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="OneBone">
+      <MemberSignature Language="C#" Value="OneBone"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.BlendWeights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>One bone affects each vertex.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.blendWeights" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="TwoBones">
+      <MemberSignature Language="C#" Value="TwoBones"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.BlendWeights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Two bones affect each vertex.</summary>
+      <remarks>See Also: <see cref="P:UnityEngine.QualitySettings.blendWeights" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

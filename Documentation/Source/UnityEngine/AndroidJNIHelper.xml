@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<Type Name="AndroidJNIHelper" FullName="UnityEngine.AndroidJNIHelper">
+  <TypeSignature Language="C#" Value="public class AndroidJNIHelper"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Helper interface for JNI interaction; signature creation and method lookups</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidJNIHelper ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertFromJNIArray&lt;ArrayType&gt;">
+      <MemberSignature Language="C#" Value="public static ArrayType ConvertFromJNIArray&lt;ArrayType&gt; (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ArrayType</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ArrayType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="ArrayType">To be added.</typeparam>
+        <param name="array">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToJNIArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ConvertToJNIArray (Array array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Array"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Creates a Java array from a managed array</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJavaRunnable">
+      <MemberSignature Language="C#" Value="public static IntPtr CreateJavaRunnable (UnityEngine.AndroidJavaRunnable runnable);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="runnable" Type="UnityEngine.AndroidJavaRunnable"/>
+      </Parameters>
+      <Docs>
+        <param name="runnable">To be added.</param>
+        <summary>Creates a UnityJavaRunnable object (implements java.lang.Runnable).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJNIArgArray">
+      <MemberSignature Language="C#" Value="public static UnityEngine.jvalue[] CreateJNIArgArray (object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.jvalue[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>Creates the parameter array to be used as argument list when invoking Java code through CallMethod() in AndroidJNI.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="debug">
+      <MemberSignature Language="C#" Value="public static bool debug;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set debug to true to log calls through the AndroidJNIHelper</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConstructorID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetConstructorID (IntPtr javaClass);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <summary>Scans a particular Java class for a constructor method matching a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConstructorID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetConstructorID (IntPtr jclass, object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jclass" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <param name="jclass">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Scans a particular Java class for a constructor method matching a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConstructorID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetConstructorID (IntPtr javaClass, string signature);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="signature" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="signature">To be added.</param>
+        <summary>Scans a particular Java class for a constructor method matching a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFieldID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetFieldID (IntPtr javaClass, string fieldName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="fieldName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <summary>Scans a particular Java class for a field matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFieldID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetFieldID (IntPtr javaClass, string fieldName, string signature);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="signature" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <param name="signature">To be added.</param>
+        <summary>Scans a particular Java class for a field matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFieldID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetFieldID (IntPtr javaClass, string fieldName, string signature, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="signature" Type="System.String"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <param name="signature">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>Scans a particular Java class for a field matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFieldID&lt;FieldType&gt;">
+      <MemberSignature Language="C#" Value="public static IntPtr GetFieldID&lt;FieldType&gt; (IntPtr jclass, string fieldName, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="FieldType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="jclass" Type="System.IntPtr"/>
+        <Parameter Name="fieldName" Type="System.String"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="FieldType">To be added.</typeparam>
+        <param name="jclass">To be added.</param>
+        <param name="fieldName">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID (IntPtr javaClass, string methodName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="methodName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <summary>Scans a particular Java class for a method matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID (IntPtr javaClass, string methodName, string signature);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="signature" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <param name="signature">To be added.</param>
+        <summary>Scans a particular Java class for a method matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID (IntPtr jclass, string methodName, object[] args, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jclass" Type="System.IntPtr"/>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="jclass">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>Scans a particular Java class for a method matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID (IntPtr javaClass, string methodName, string signature, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="javaClass" Type="System.IntPtr"/>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="signature" Type="System.String"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="javaClass">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <param name="signature">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>Scans a particular Java class for a method matching a name and a signature.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID&lt;ReturnType&gt; (IntPtr jclass, string methodName, object[] args, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="jclass" Type="System.IntPtr"/>
+        <Parameter Name="methodName" Type="System.String"/>
+        <Parameter Name="args" Type="System.Object[]"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="jclass">To be added.</param>
+        <param name="methodName">To be added.</param>
+        <param name="args">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignature">
+      <MemberSignature Language="C#" Value="public static string GetSignature (object obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Creates the JNI signature string for particular object type</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignature">
+      <MemberSignature Language="C#" Value="public static string GetSignature (object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <param name="args">To be added.</param>
+        <summary>Creates the JNI signature string for particular object type</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignature&lt;ReturnType&gt;">
+      <MemberSignature Language="C#" Value="public static string GetSignature&lt;ReturnType&gt; (object[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="ReturnType"/>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="args" Type="System.Object[]"/>
+      </Parameters>
+      <Docs>
+        <typeparam name="ReturnType">To be added.</typeparam>
+        <param name="args">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

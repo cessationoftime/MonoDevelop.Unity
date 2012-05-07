@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="AudioImporterLoadType" FullName="UnityEditor.AudioImporterLoadType">
+  <TypeSignature Language="C#" Value="public enum AudioImporterLoadType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The way we load audio assets <see cref="T:UnityEditor.AudioImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.loadType" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CompressedInMemory">
+      <MemberSignature Language="C#" Value="CompressedInMemory"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterLoadType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keep audio compressed in memory</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.loadType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DecompressOnLoad">
+      <MemberSignature Language="C#" Value="DecompressOnLoad"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterLoadType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Decompress audio data on load</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.loadType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="StreamFromDisc">
+      <MemberSignature Language="C#" Value="StreamFromDisc"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AudioImporterLoadType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Stream audio from disc</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.AudioImporter.loadType" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

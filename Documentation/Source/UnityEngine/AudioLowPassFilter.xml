@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Type Name="AudioLowPassFilter" FullName="UnityEngine.AudioLowPassFilter">
+  <TypeSignature Language="C#" Value="public sealed class AudioLowPassFilter : UnityEngine.Behaviour"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Behaviour</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The Audio Low Pass Filter filter passes low frequencies of an</summary>
+    <remarks>(Read Only). (null if there is none attached)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AudioLowPassFilter ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="cutoffFrequency">
+      <MemberSignature Language="C#" Value="public float cutoffFrequency { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Lowpass cutoff frequency in hz. 10.0 to 22000.0. Default = 5000.0.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lowpassResonaceQ">
+      <MemberSignature Language="C#" Value="public float lowpassResonaceQ { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines how much the filter's self-resonance is dampened.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

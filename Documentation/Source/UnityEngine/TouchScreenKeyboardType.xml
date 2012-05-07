@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Type Name="TouchScreenKeyboardType" FullName="UnityEngine.TouchScreenKeyboardType">
+  <TypeSignature Language="C#" Value="public enum TouchScreenKeyboardType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes the type of keyboard.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ASCIICapable">
+      <MemberSignature Language="C#" Value="ASCIICapable"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keyboard displays standard ASCII characters.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Default keyboard for the current input method.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress">
+      <MemberSignature Language="C#" Value="EmailAddress"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keyboard optimized for specifying email addresses, features the "@",</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NamePhonePad">
+      <MemberSignature Language="C#" Value="NamePhonePad"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keypad designed for entering a person's name or phone number.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberPad">
+      <MemberSignature Language="C#" Value="NumberPad"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Numeric keypad designed for PIN entry, features the numbers 0 through 9</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NumbersAndPunctuation">
+      <MemberSignature Language="C#" Value="NumbersAndPunctuation"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keyboard with numbers and punctuation.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PhonePad">
+      <MemberSignature Language="C#" Value="PhonePad"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keypad designed for entering telephone numbers, features the numbers 0</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="URL">
+      <MemberSignature Language="C#" Value="URL"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboardType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Keyboard optimized for URL entry, features ".", "/", and ".com"</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

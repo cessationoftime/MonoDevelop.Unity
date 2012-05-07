@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Type Name="Range" FullName="UnityEngine.SocialPlatforms.Range">
+  <TypeSignature Language="C#" Value="public struct Range"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>The score range a leaderboard query should include.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Range (int fromValue, int valueCount);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="fromValue" Type="System.Int32"/>
+        <Parameter Name="valueCount" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="fromValue">To be added.</param>
+        <param name="valueCount">To be added.</param>
+        <summary>Constructor for a score range, the range starts from a specific value and contains a maxium score count.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="count">
+      <MemberSignature Language="C#" Value="public int count;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The total amount of scores retreived.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="from">
+      <MemberSignature Language="C#" Value="public int from;"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The rank of the first score which is returned.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

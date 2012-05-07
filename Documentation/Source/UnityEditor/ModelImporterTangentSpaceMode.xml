@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterTangentSpaceMode" FullName="UnityEditor.ModelImporterTangentSpaceMode">
+  <TypeSignature Language="C#" Value="public enum ModelImporterTangentSpaceMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Animation generation options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.normalImportMode" />, <see cref="P:UnityEditor.ModelImporter.tangentImportMode" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Calculate">
+      <MemberSignature Language="C#" Value="Calculate"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterTangentSpaceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Calculate normals/tangents.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.normalImportMode" />, <see cref="P:UnityEditor.ModelImporter.tangentImportMode" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Import">
+      <MemberSignature Language="C#" Value="Import"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterTangentSpaceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Import normals/tangents from file.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.normalImportMode" />, <see cref="P:UnityEditor.ModelImporter.tangentImportMode" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterTangentSpaceMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Strip normals/tangents.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.normalImportMode" />, <see cref="P:UnityEditor.ModelImporter.tangentImportMode" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

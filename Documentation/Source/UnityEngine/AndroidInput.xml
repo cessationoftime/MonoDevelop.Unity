@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Type Name="AndroidInput" FullName="UnityEngine.AndroidInput">
+  <TypeSignature Language="C#" Value="public sealed class AndroidInput"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>AndroidInput provides support for off-screen touch input, such as a touchpad.</summary>
+    <remarks>(Read Only).</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidInput ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSecondaryTouch">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Touch GetSecondaryTouch (int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Touch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>Returns object representing status of a specific touch on a secondary touchpad (Does not allocate temporary variables).</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryTouchEnabled">
+      <MemberSignature Language="C#" Value="public static bool secondaryTouchEnabled { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Property indicating whether the system provides secondary touch input.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryTouchHeight">
+      <MemberSignature Language="C#" Value="public static int secondaryTouchHeight { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Property indicating the height of the secondary touchpad.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="secondaryTouchWidth">
+      <MemberSignature Language="C#" Value="public static int secondaryTouchWidth { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Property indicating the width of the secondary touchpad.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="touchCountSecondary">
+      <MemberSignature Language="C#" Value="public static int touchCountSecondary { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Number of secondary touches. Guaranteed not to change throughout the frame. (Read Only).</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only).</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

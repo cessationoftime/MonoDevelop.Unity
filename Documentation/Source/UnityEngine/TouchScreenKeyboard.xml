@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<Type Name="TouchScreenKeyboard" FullName="UnityEngine.TouchScreenKeyboard">
+  <TypeSignature Language="C#" Value="public sealed class TouchScreenKeyboard"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Interface into iPhone and Android native on screen keyboards. This</summary>
+    <remarks>(Read Only)</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TouchScreenKeyboard (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder);"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+        <Parameter Name="multiline" Type="System.Boolean"/>
+        <Parameter Name="secure" Type="System.Boolean"/>
+        <Parameter Name="alert" Type="System.Boolean"/>
+        <Parameter Name="textPlaceholder" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <param name="multiline">To be added.</param>
+        <param name="secure">To be added.</param>
+        <param name="alert">To be added.</param>
+        <param name="textPlaceholder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="active">
+      <MemberSignature Language="C#" Value="public bool active { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies if the keyboard is visible or is sliding into the position on</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="area">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect area { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns portion of the screen which is covered by the keyboard. Returns</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autorotateToLandscapeLeft">
+      <MemberSignature Language="C#" Value="public static bool autorotateToLandscapeLeft { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether the keyboard should be automatically rotated to</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autorotateToLandscapeRight">
+      <MemberSignature Language="C#" Value="public static bool autorotateToLandscapeRight { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether the keyboard should be automatically rotated to</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autorotateToPortrait">
+      <MemberSignature Language="C#" Value="public static bool autorotateToPortrait { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether the keyboard should be automatically rotated to</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="autorotateToPortraitUpsideDown">
+      <MemberSignature Language="C#" Value="public static bool autorotateToPortraitUpsideDown { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether the keyboard should be automatically rotated to</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="done">
+      <MemberSignature Language="C#" Value="public bool done { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies if input process was finished (Read Only)</summary>
+        <value>To be added.</value>
+        <remarks>(Read Only)</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~TouchScreenKeyboard ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="hideInput">
+      <MemberSignature Language="C#" Value="public static bool hideInput { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies if text input field above the keyboard will be hidden when</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+        <Parameter Name="multiline" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <param name="multiline">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+        <Parameter Name="multiline" Type="System.Boolean"/>
+        <Parameter Name="secure" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <param name="multiline">To be added.</param>
+        <param name="secure">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+        <Parameter Name="multiline" Type="System.Boolean"/>
+        <Parameter Name="secure" Type="System.Boolean"/>
+        <Parameter Name="alert" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <param name="multiline">To be added.</param>
+        <param name="secure">To be added.</param>
+        <param name="alert">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public static UnityEngine.TouchScreenKeyboard Open (string text, UnityEngine.TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.TouchScreenKeyboard</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String"/>
+        <Parameter Name="keyboardType" Type="UnityEngine.TouchScreenKeyboardType"/>
+        <Parameter Name="autocorrection" Type="System.Boolean"/>
+        <Parameter Name="multiline" Type="System.Boolean"/>
+        <Parameter Name="secure" Type="System.Boolean"/>
+        <Parameter Name="alert" Type="System.Boolean"/>
+        <Parameter Name="textPlaceholder" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="text">To be added.</param>
+        <param name="keyboardType">To be added.</param>
+        <param name="autocorrection">To be added.</param>
+        <param name="multiline">To be added.</param>
+        <param name="secure">To be added.</param>
+        <param name="alert">To be added.</param>
+        <param name="textPlaceholder">To be added.</param>
+        <summary>Opens the native keyboard provided by OS on the screen.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="text">
+      <MemberSignature Language="C#" Value="public string text { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the text displayed by the input field of the keyboard. This</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="visible">
+      <MemberSignature Language="C#" Value="public static bool visible { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns true whenever any keyboard is completely visible on the screen.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

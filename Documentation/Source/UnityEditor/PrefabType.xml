@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Type Name="PrefabType" FullName="UnityEditor.PrefabType">
+  <TypeSignature Language="C#" Value="public enum PrefabType"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The type of a prefab object as returned by <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisconnectedModelPrefabInstance">
+      <MemberSignature Language="C#" Value="DisconnectedModelPrefabInstance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is an instance of an imported 3D model, but the connection is broken.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="DisconnectedPrefabInstance">
+      <MemberSignature Language="C#" Value="DisconnectedPrefabInstance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is an instance of a user created prefab, but the connection is broken.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="MissingPrefabInstance">
+      <MemberSignature Language="C#" Value="MissingPrefabInstance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object was an instance of a prefab, but the original prefab could not be found.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ModelPrefab">
+      <MemberSignature Language="C#" Value="ModelPrefab"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is an imported 3D model asset.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="ModelPrefabInstance">
+      <MemberSignature Language="C#" Value="ModelPrefabInstance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is an instance of an imported 3D model.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is not a prefab nor an instance of a prefab.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Prefab">
+      <MemberSignature Language="C#" Value="Prefab"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is a user created prefab asset.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="PrefabInstance">
+      <MemberSignature Language="C#" Value="PrefabInstance"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.PrefabType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The object is an instance of a user created prefab.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.EditorUtility.GetPrefabType" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

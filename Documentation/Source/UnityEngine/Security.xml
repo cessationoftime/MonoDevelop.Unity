@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Type Name="Security" FullName="UnityEngine.Security">
+  <TypeSignature Language="C#" Value="public sealed class Security"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>Webplayer security related class.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Security ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrefetchSocketPolicy">
+      <MemberSignature Language="C#" Value="public static bool PrefetchSocketPolicy (string ip, int atPort);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ip" Type="System.String"/>
+        <Parameter Name="atPort" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="ip">To be added.</param>
+        <param name="atPort">To be added.</param>
+        <summary>Prefetch the webplayer socket security policy from a non-default port number.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrefetchSocketPolicy">
+      <MemberSignature Language="C#" Value="public static bool PrefetchSocketPolicy (string ip, int atPort, int timeout);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ip" Type="System.String"/>
+        <Parameter Name="atPort" Type="System.Int32"/>
+        <Parameter Name="timeout" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="ip">To be added.</param>
+        <param name="atPort">To be added.</param>
+        <param name="timeout">To be added.</param>
+        <summary>Prefetch the webplayer socket security policy from a non-default port number.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<Type Name="ProceduralMaterial" FullName="UnityEngine.ProceduralMaterial">
+  <TypeSignature Language="C#" Value="public sealed class ProceduralMaterial : UnityEngine.Material"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.Material</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>ProceduralMaterial class.</summary>
+    <remarks>(Read Only).</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProceduralMaterial ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>Default constructor. This should not be used.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="animationUpdateRate">
+      <MemberSignature Language="C#" Value="public int animationUpdateRate { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set &amp; get the update rate in millisecond of the animated substance</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheProceduralProperty">
+      <MemberSignature Language="C#" Value="public void CacheProceduralProperty (string inputName, bool value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Specifies if a named Procedural property should be cached for efficient runtime tweaking.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="cacheSize">
+      <MemberSignature Language="C#" Value="public UnityEngine.ProceduralCacheSize cacheSize { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralCacheSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Set &amp; get the Procedural cache budget.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearCache">
+      <MemberSignature Language="C#" Value="public void ClearCache ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Clear the Procedural cache.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralBoolean">
+      <MemberSignature Language="C#" Value="public bool GetProceduralBoolean (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural boolean property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralColor">
+      <MemberSignature Language="C#" Value="public UnityEngine.Color GetProceduralColor (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural color property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralEnum">
+      <MemberSignature Language="C#" Value="public int GetProceduralEnum (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural enum property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralFloat">
+      <MemberSignature Language="C#" Value="public float GetProceduralFloat (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural float property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralPropertyDescriptions">
+      <MemberSignature Language="C#" Value="public UnityEngine.ProceduralPropertyDescription[] GetProceduralPropertyDescriptions ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralPropertyDescription[]</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Get an array of descriptions of all the properties this Procedural Material has.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralTexture">
+      <MemberSignature Language="C#" Value="public UnityEngine.Texture2D GetProceduralTexture (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural texture property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProceduralVector">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector4 GetProceduralVector (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Get a named Procedural vector property.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasProceduralProperty">
+      <MemberSignature Language="C#" Value="public bool HasProceduralProperty (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Checks if the Procedural Material has a property of a given name.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isLoadTimeGenerated">
+      <MemberSignature Language="C#" Value="public bool isLoadTimeGenerated { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Should the Procedural Material be generated at load time?</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProceduralPropertyCached">
+      <MemberSignature Language="C#" Value="public bool IsProceduralPropertyCached (string inputName);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <summary>Checks if a named Procedural property is cached for efficient runtime tweaking.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isProcessing">
+      <MemberSignature Language="C#" Value="public bool isProcessing { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Checks if the Procedural Material is currently in the process of rebuilding the textures.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isSupported">
+      <MemberSignature Language="C#" Value="public static bool isSupported { get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Checks if the Procedural Materials are supported on the current platform.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebuildTextures">
+      <MemberSignature Language="C#" Value="public void RebuildTextures ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Triggers an asyncronous rebuild of all dirty textures.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebuildTexturesImmediately">
+      <MemberSignature Language="C#" Value="public void RebuildTexturesImmediately ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Triggers an immediate (synchronous) rebuild of all dirty textures.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralBoolean">
+      <MemberSignature Language="C#" Value="public void SetProceduralBoolean (string inputName, bool value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural boolean property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralColor">
+      <MemberSignature Language="C#" Value="public void SetProceduralColor (string inputName, UnityEngine.Color value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="UnityEngine.Color"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural color property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralEnum">
+      <MemberSignature Language="C#" Value="public void SetProceduralEnum (string inputName, int value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural enum property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralFloat">
+      <MemberSignature Language="C#" Value="public void SetProceduralFloat (string inputName, float value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural float property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralTexture">
+      <MemberSignature Language="C#" Value="public void SetProceduralTexture (string inputName, UnityEngine.Texture2D value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="UnityEngine.Texture2D"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural texture property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProceduralVector">
+      <MemberSignature Language="C#" Value="public void SetProceduralVector (string inputName, UnityEngine.Vector4 value);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputName" Type="System.String"/>
+        <Parameter Name="value" Type="UnityEngine.Vector4"/>
+      </Parameters>
+      <Docs>
+        <param name="inputName">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>Set a named Procedural vector property.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopRebuilds">
+      <MemberSignature Language="C#" Value="public static void StopRebuilds ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Remove the current pending rebuilds of the Procedural Material.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="substanceProcessorUsage">
+      <MemberSignature Language="C#" Value="public static UnityEngine.ProceduralProcessorUsage substanceProcessorUsage { set; get; }"/>
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralProcessorUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Used to specify the Substance engine CPU usage.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

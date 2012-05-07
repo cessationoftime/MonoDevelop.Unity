@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="ADPosition" FullName="UnityEngine.ADPosition">
+  <TypeSignature Language="C#" Value="public enum ADPosition"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>This enumeration is used to identify automatic positioning of an advertisement.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bottom">
+      <MemberSignature Language="C#" Value="Bottom"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Banner is automatically positioned at the bottom.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Manual">
+      <MemberSignature Language="C#" Value="Manual"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>No automatic positioning. Use <see cref="P:UnityEngine.ADBannerView.position" /> to set the position of the banner manually. This is the default value.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="Top"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ADPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Banner is automatically positioned at the top.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

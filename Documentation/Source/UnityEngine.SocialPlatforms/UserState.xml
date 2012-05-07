@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Type Name="UserState" FullName="UnityEngine.SocialPlatforms.UserState">
+  <TypeSignature Language="C#" Value="public enum UserState"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>User presence state.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The user is offline.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Online">
+      <MemberSignature Language="C#" Value="Online"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The user is online.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineAndAway">
+      <MemberSignature Language="C#" Value="OnlineAndAway"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The user is online but away from his computer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineAndBusy">
+      <MemberSignature Language="C#" Value="OnlineAndBusy"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The user is only but set his status to busy.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Playing">
+      <MemberSignature Language="C#" Value="Playing"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The user is playing a game.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Type Name="UserScope" FullName="UnityEngine.SocialPlatforms.UserScope">
+  <TypeSignature Language="C#" Value="public enum UserScope"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The scope of the users searched through when querying the leaderboard.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FriendsOnly">
+      <MemberSignature Language="C#" Value="FriendsOnly"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only those found in the users friends list.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Global">
+      <MemberSignature Language="C#" Value="Global"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.SocialPlatforms.UserScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>All users.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

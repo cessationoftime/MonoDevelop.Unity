@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="WiiBuildDebugLevel" FullName="UnityEditor.WiiBuildDebugLevel">
+  <TypeSignature Language="C#" Value="public enum WiiBuildDebugLevel"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Target Wii debugging level.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.EditorUserBuildSettings.wiiBuildDebugLevel" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Full">
+      <MemberSignature Language="C#" Value="Full"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildDebugLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Asserts enabled, memory profiling enabled, Nintendo Wii profiler linked, hio2 library linked, no optimizations.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Minimal">
+      <MemberSignature Language="C#" Value="Minimal"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildDebugLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Memory profiling enabled, Nintendo Wii profiler linked, hio2 library linked, optimizations enabled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.WiiBuildDebugLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Optimizations enabled.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

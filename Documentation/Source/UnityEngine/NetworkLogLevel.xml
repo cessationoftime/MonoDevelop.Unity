@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="NetworkLogLevel" FullName="UnityEngine.NetworkLogLevel">
+  <TypeSignature Language="C#" Value="public enum NetworkLogLevel"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Describes different levels of log information the network layer supports.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Full">
+      <MemberSignature Language="C#" Value="Full"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkLogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Full debug level logging down to each individual message being reported.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Informational">
+      <MemberSignature Language="C#" Value="Informational"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkLogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Report informational messages like connectivity events.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Off">
+      <MemberSignature Language="C#" Value="Off"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.NetworkLogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Only report errors, otherwise silent.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

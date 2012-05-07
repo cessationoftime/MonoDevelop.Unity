@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Type Name="AndroidSdkVersions" FullName="UnityEditor.AndroidSdkVersions">
+  <TypeSignature Language="C#" Value="public enum AndroidSdkVersions"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Supported Android SDK versions</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AndroidApiLevel10">
+      <MemberSignature Language="C#" Value="AndroidApiLevel10"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 2.3.3, "Gingerbread", API level 10</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel11">
+      <MemberSignature Language="C#" Value="AndroidApiLevel11"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 3.0, "Honeycomb", API level 11</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel12">
+      <MemberSignature Language="C#" Value="AndroidApiLevel12"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 3.1, "Honeycomb", API level 12</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel13">
+      <MemberSignature Language="C#" Value="AndroidApiLevel13"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 3.2, "Honeycomb", API level 13</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel14">
+      <MemberSignature Language="C#" Value="AndroidApiLevel14"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 4.0, "Ice Cream Sandwich", API level 14</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel6">
+      <MemberSignature Language="C#" Value="AndroidApiLevel6"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 2.0.1, "Eclair", API level 6</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel7">
+      <MemberSignature Language="C#" Value="AndroidApiLevel7"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 2.1, "Eclair", API level 7</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel8">
+      <MemberSignature Language="C#" Value="AndroidApiLevel8"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 2.2, "Froyo", API level 8</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AndroidApiLevel9">
+      <MemberSignature Language="C#" Value="AndroidApiLevel9"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AndroidSdkVersions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Android 2.3.1, "Gingerbread", API level 9</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

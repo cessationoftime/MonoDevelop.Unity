@@ -1,0 +1,2995 @@
+<?xml version="1.0"?>
+<Type Name="AndroidJNI" FullName="UnityEngine.AndroidJNI">
+  <TypeSignature Language="C#" Value="public sealed class AndroidJNI"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces/>
+  <Docs>
+    <summary>'Raw' JNI interface to Android Dalvik (Java) VM from Mono (CS/JS)</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AndroidJNI ();"/>
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters/>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocObject">
+      <MemberSignature Language="C#" Value="public static IntPtr AllocObject (IntPtr clazz);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <summary>Allocates a new Java object without invoking any of the constructors for the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachCurrentThread">
+      <MemberSignature Language="C#" Value="public static int AttachCurrentThread ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Attaches the current thread to a Java (Dalvik) VM.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallBooleanMethod">
+      <MemberSignature Language="C#" Value="public static bool CallBooleanMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallByteMethod">
+      <MemberSignature Language="C#" Value="public static byte CallByteMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallCharMethod">
+      <MemberSignature Language="C#" Value="public static char CallCharMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallDoubleMethod">
+      <MemberSignature Language="C#" Value="public static double CallDoubleMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallFloatMethod">
+      <MemberSignature Language="C#" Value="public static float CallFloatMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallIntMethod">
+      <MemberSignature Language="C#" Value="public static int CallIntMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallLongMethod">
+      <MemberSignature Language="C#" Value="public static long CallLongMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallObjectMethod">
+      <MemberSignature Language="C#" Value="public static IntPtr CallObjectMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallShortMethod">
+      <MemberSignature Language="C#" Value="public static short CallShortMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticBooleanMethod">
+      <MemberSignature Language="C#" Value="public static bool CallStaticBooleanMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticByteMethod">
+      <MemberSignature Language="C#" Value="public static byte CallStaticByteMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticCharMethod">
+      <MemberSignature Language="C#" Value="public static char CallStaticCharMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticDoubleMethod">
+      <MemberSignature Language="C#" Value="public static double CallStaticDoubleMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticFloatMethod">
+      <MemberSignature Language="C#" Value="public static float CallStaticFloatMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticIntMethod">
+      <MemberSignature Language="C#" Value="public static int CallStaticIntMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticLongMethod">
+      <MemberSignature Language="C#" Value="public static long CallStaticLongMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticObjectMethod">
+      <MemberSignature Language="C#" Value="public static IntPtr CallStaticObjectMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticShortMethod">
+      <MemberSignature Language="C#" Value="public static short CallStaticShortMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticStringMethod">
+      <MemberSignature Language="C#" Value="public static string CallStaticStringMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStaticVoidMethod">
+      <MemberSignature Language="C#" Value="public static void CallStaticVoidMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Invokes a static method on a Java object, according to the specified methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStringMethod">
+      <MemberSignature Language="C#" Value="public static string CallStringMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallVoidMethod">
+      <MemberSignature Language="C#" Value="public static void CallVoidMethod (IntPtr obj, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Calls an instance (nonstatic) Java method defined by methodID, optionally passing an array of arguments (args) to the method.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteGlobalRef">
+      <MemberSignature Language="C#" Value="public static void DeleteGlobalRef (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Deletes the global reference pointed to by obj.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteLocalRef">
+      <MemberSignature Language="C#" Value="public static void DeleteLocalRef (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Deletes the local reference pointed to by obj.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetachCurrentThread">
+      <MemberSignature Language="C#" Value="public static int DetachCurrentThread ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Detaches the current thread from a Java (Dalvik) VM.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnsureLocalCapacity">
+      <MemberSignature Language="C#" Value="public static int EnsureLocalCapacity (int capacity);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="capacity" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="capacity">To be added.</param>
+        <summary>Ensures that at least a given number of local references can be created in the current thread.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionClear">
+      <MemberSignature Language="C#" Value="public static void ExceptionClear ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Clears any exception that is currently being thrown.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionDescribe">
+      <MemberSignature Language="C#" Value="public static void ExceptionDescribe ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Prints an exception and a backtrace of the stack to the logcat</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionOccurred">
+      <MemberSignature Language="C#" Value="public static IntPtr ExceptionOccurred ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Determines if an exception is being thrown</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FatalError">
+      <MemberSignature Language="C#" Value="public static void FatalError (string message);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>Raises a fatal error and does not expect the VM to recover. This function does not return.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindClass">
+      <MemberSignature Language="C#" Value="public static IntPtr FindClass (string name);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>This function loads a locally-defined class.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromBooleanArray">
+      <MemberSignature Language="C#" Value="public static bool[] FromBooleanArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of boolean to a managed array of System.Boolean.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromByteArray">
+      <MemberSignature Language="C#" Value="public static byte[] FromByteArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of byte to a managed array of System.Byte.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromCharArray">
+      <MemberSignature Language="C#" Value="public static char[] FromCharArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of char to a managed array of System.Char.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromDoubleArray">
+      <MemberSignature Language="C#" Value="public static double[] FromDoubleArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of double to a managed array of System.Double.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromFloatArray">
+      <MemberSignature Language="C#" Value="public static float[] FromFloatArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of float to a managed array of System.Single.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromIntArray">
+      <MemberSignature Language="C#" Value="public static int[] FromIntArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of int to a managed array of System.Int32.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromLongArray">
+      <MemberSignature Language="C#" Value="public static long[] FromLongArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of long to a managed array of System.Int64.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromObjectArray">
+      <MemberSignature Language="C#" Value="public static IntPtr[] FromObjectArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of java.lang.Object to a managed array of System.IntPtr, representing Java objects.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromReflectedField">
+      <MemberSignature Language="C#" Value="public static IntPtr FromReflectedField (IntPtr refField);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="refField" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="refField">To be added.</param>
+        <summary>Converts a java.lang.reflect.Field to a field ID.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromReflectedMethod">
+      <MemberSignature Language="C#" Value="public static IntPtr FromReflectedMethod (IntPtr refMethod);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="refMethod" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="refMethod">To be added.</param>
+        <summary>Converts a java.lang.reflect.Method or java.lang.reflect.Constructor object to a method ID.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromShortArray">
+      <MemberSignature Language="C#" Value="public static short[] FromShortArray (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a Java array of short to a managed array of System.Int16.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetArrayLength">
+      <MemberSignature Language="C#" Value="public static int GetArrayLength (IntPtr array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Returns the number of elements in the array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBooleanArrayElement">
+      <MemberSignature Language="C#" Value="public static bool GetBooleanArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBooleanField">
+      <MemberSignature Language="C#" Value="public static bool GetBooleanField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetByteArrayElement">
+      <MemberSignature Language="C#" Value="public static byte GetByteArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetByteField">
+      <MemberSignature Language="C#" Value="public static byte GetByteField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCharArrayElement">
+      <MemberSignature Language="C#" Value="public static char GetCharArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCharField">
+      <MemberSignature Language="C#" Value="public static char GetCharField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDoubleArrayElement">
+      <MemberSignature Language="C#" Value="public static double GetDoubleArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDoubleField">
+      <MemberSignature Language="C#" Value="public static double GetDoubleField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFieldID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetFieldID (IntPtr clazz, string name, string sig);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="sig" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="sig">To be added.</param>
+        <summary>Returns the field ID for an instance (nonstatic) field of a class.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFloatArrayElement">
+      <MemberSignature Language="C#" Value="public static float GetFloatArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFloatField">
+      <MemberSignature Language="C#" Value="public static float GetFloatField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIntArrayElement">
+      <MemberSignature Language="C#" Value="public static int GetIntArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIntField">
+      <MemberSignature Language="C#" Value="public static int GetIntField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLongArrayElement">
+      <MemberSignature Language="C#" Value="public static long GetLongArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLongField">
+      <MemberSignature Language="C#" Value="public static long GetLongField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetMethodID (IntPtr clazz, string name, string sig);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="sig" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="sig">To be added.</param>
+        <summary>Returns the method ID for an instance (nonstatic) method of a class or interface.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectArrayElement">
+      <MemberSignature Language="C#" Value="public static IntPtr GetObjectArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns an element of an Object array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectClass">
+      <MemberSignature Language="C#" Value="public static IntPtr GetObjectClass (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Returns the class of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetObjectField">
+      <MemberSignature Language="C#" Value="public static IntPtr GetObjectField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetShortArrayElement">
+      <MemberSignature Language="C#" Value="public static short GetShortArrayElement (IntPtr array, int index);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>Returns the value of one element of a primitive array.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetShortField">
+      <MemberSignature Language="C#" Value="public static short GetShortField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticBooleanField">
+      <MemberSignature Language="C#" Value="public static bool GetStaticBooleanField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticByteField">
+      <MemberSignature Language="C#" Value="public static byte GetStaticByteField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticCharField">
+      <MemberSignature Language="C#" Value="public static char GetStaticCharField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Char</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticDoubleField">
+      <MemberSignature Language="C#" Value="public static double GetStaticDoubleField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticFieldID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetStaticFieldID (IntPtr clazz, string name, string sig);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="sig" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="sig">To be added.</param>
+        <summary>Returns the field ID for a static field of a class.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticFloatField">
+      <MemberSignature Language="C#" Value="public static float GetStaticFloatField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticIntField">
+      <MemberSignature Language="C#" Value="public static long GetStaticIntField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticLongField">
+      <MemberSignature Language="C#" Value="public static long GetStaticLongField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticMethodID">
+      <MemberSignature Language="C#" Value="public static IntPtr GetStaticMethodID (IntPtr clazz, string name, string sig);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="name" Type="System.String"/>
+        <Parameter Name="sig" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="sig">To be added.</param>
+        <summary>Returns the method ID for a static method of a class.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticObjectField">
+      <MemberSignature Language="C#" Value="public static IntPtr GetStaticObjectField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticShortField">
+      <MemberSignature Language="C#" Value="public static short GetStaticShortField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int16</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticStringField">
+      <MemberSignature Language="C#" Value="public static string GetStaticStringField (IntPtr clazz, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of a static field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStringField">
+      <MemberSignature Language="C#" Value="public static string GetStringField (IntPtr obj, IntPtr fieldID);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <summary>This function returns the value of an instance (nonstatic) field of an object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStringUTFChars">
+      <MemberSignature Language="C#" Value="public static string GetStringUTFChars (IntPtr str);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>Returns a managed string object representing the string in modified UTF-8 encoding.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStringUTFLength">
+      <MemberSignature Language="C#" Value="public static int GetStringUTFLength (IntPtr str);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>Returns the length in bytes of the modified UTF-8 representation of a string.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSuperclass">
+      <MemberSignature Language="C#" Value="public static IntPtr GetSuperclass (IntPtr clazz);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <summary>If clazz represents any class other than the class Object, then this function returns the object that represents the superclass of the class specified by clazz.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVersion">
+      <MemberSignature Language="C#" Value="public static int GetVersion ();"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters/>
+      <Docs>
+        <summary>Returns the version of the native method interface.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssignableFrom">
+      <MemberSignature Language="C#" Value="public static bool IsAssignableFrom (IntPtr clazz1, IntPtr clazz2);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz1" Type="System.IntPtr"/>
+        <Parameter Name="clazz2" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz1">To be added.</param>
+        <param name="clazz2">To be added.</param>
+        <summary>Determines whether an object of clazz1 can be safely cast to clazz2.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInstanceOf">
+      <MemberSignature Language="C#" Value="public static bool IsInstanceOf (IntPtr obj, IntPtr clazz);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="clazz">To be added.</param>
+        <summary>Tests whether an object is an instance of a class.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSameObject">
+      <MemberSignature Language="C#" Value="public static bool IsSameObject (IntPtr obj1, IntPtr obj2);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj1" Type="System.IntPtr"/>
+        <Parameter Name="obj2" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj1">To be added.</param>
+        <param name="obj2">To be added.</param>
+        <summary>Tests whether two references refer to the same Java object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewBooleanArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewBooleanArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewByteArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewByteArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewCharArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewCharArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewDoubleArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewDoubleArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFloatArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewFloatArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewGlobalRef">
+      <MemberSignature Language="C#" Value="public static IntPtr NewGlobalRef (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Creates a new global reference to the object referred to by the obj argument.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewIntArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewIntArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLocalRef">
+      <MemberSignature Language="C#" Value="public static IntPtr NewLocalRef (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Creates a new local reference that refers to the same object as obj.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLongArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewLongArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewObject">
+      <MemberSignature Language="C#" Value="public static IntPtr NewObject (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="args" Type="UnityEngine.jvalue[]"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="args">To be added.</param>
+        <summary>Constructs a new Java object. The method ID indicates which constructor method to invoke. This ID must be obtained by calling GetMethodID() with  as the method name and void (V) as the return type.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewObjectArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewObjectArray (int size, IntPtr clazz, IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <param name="clazz">To be added.</param>
+        <param name="obj">To be added.</param>
+        <summary>Constructs a new array holding objects in class clazz. All elements are initially set to obj.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewShortArray">
+      <MemberSignature Language="C#" Value="public static IntPtr NewShortArray (int size);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>Construct a new primitive array object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewStringUTF">
+      <MemberSignature Language="C#" Value="public static IntPtr NewStringUTF (string bytes);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="bytes">To be added.</param>
+        <summary>Constructs a new java.lang.String object from an array of characters in modified UTF-8 encoding.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopLocalFrame">
+      <MemberSignature Language="C#" Value="public static IntPtr PopLocalFrame (IntPtr result);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="result" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="result">To be added.</param>
+        <summary>Pops off the current local reference frame, frees all the local references, and returns a local reference in the previous local reference frame for the given result object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PushLocalFrame">
+      <MemberSignature Language="C#" Value="public static int PushLocalFrame (int capacity);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="capacity" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="capacity">To be added.</param>
+        <summary>Creates a new local reference frame, in which at least a given number of local references can be created.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBooleanArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetBooleanArrayElement (IntPtr array, int index, byte val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Byte"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetBooleanField">
+      <MemberSignature Language="C#" Value="public static void SetBooleanField (IntPtr obj, IntPtr fieldID, bool val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetByteArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetByteArrayElement (IntPtr array, int index, sbyte val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.SByte"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetByteField">
+      <MemberSignature Language="C#" Value="public static void SetByteField (IntPtr obj, IntPtr fieldID, byte val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Byte"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCharArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetCharArrayElement (IntPtr array, int index, char val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Char"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCharField">
+      <MemberSignature Language="C#" Value="public static void SetCharField (IntPtr obj, IntPtr fieldID, char val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Char"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDoubleArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetDoubleArrayElement (IntPtr array, int index, double val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Double"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDoubleField">
+      <MemberSignature Language="C#" Value="public static void SetDoubleField (IntPtr obj, IntPtr fieldID, double val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Double"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFloatArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetFloatArrayElement (IntPtr array, int index, float val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFloatField">
+      <MemberSignature Language="C#" Value="public static void SetFloatField (IntPtr obj, IntPtr fieldID, float val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIntArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetIntArrayElement (IntPtr array, int index, int val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIntField">
+      <MemberSignature Language="C#" Value="public static void SetIntField (IntPtr obj, IntPtr fieldID, int val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLongArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetLongArrayElement (IntPtr array, int index, long val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Int64"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLongField">
+      <MemberSignature Language="C#" Value="public static void SetLongField (IntPtr obj, IntPtr fieldID, long val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int64"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetObjectArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetObjectArrayElement (IntPtr array, int index, IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="obj">To be added.</param>
+        <summary>Sets an element of an Object array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetObjectField">
+      <MemberSignature Language="C#" Value="public static void SetObjectField (IntPtr obj, IntPtr fieldID, IntPtr val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShortArrayElement">
+      <MemberSignature Language="C#" Value="public static void SetShortArrayElement (IntPtr array, int index, short val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr"/>
+        <Parameter Name="index" Type="System.Int32"/>
+        <Parameter Name="val" Type="System.Int16"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>Sets the value of one element in a primitive array.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetShortField">
+      <MemberSignature Language="C#" Value="public static void SetShortField (IntPtr obj, IntPtr fieldID, short val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int16"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticBooleanField">
+      <MemberSignature Language="C#" Value="public static void SetStaticBooleanField (IntPtr clazz, IntPtr fieldID, bool val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticByteField">
+      <MemberSignature Language="C#" Value="public static void SetStaticByteField (IntPtr clazz, IntPtr fieldID, byte val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Byte"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticCharField">
+      <MemberSignature Language="C#" Value="public static void SetStaticCharField (IntPtr clazz, IntPtr fieldID, char val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Char"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticDoubleField">
+      <MemberSignature Language="C#" Value="public static void SetStaticDoubleField (IntPtr clazz, IntPtr fieldID, double val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Double"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticFloatField">
+      <MemberSignature Language="C#" Value="public static void SetStaticFloatField (IntPtr clazz, IntPtr fieldID, float val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Single"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticIntField">
+      <MemberSignature Language="C#" Value="public static void SetStaticIntField (IntPtr clazz, IntPtr fieldID, int val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int32"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticLongField">
+      <MemberSignature Language="C#" Value="public static void SetStaticLongField (IntPtr clazz, IntPtr fieldID, long val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int64"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticObjectField">
+      <MemberSignature Language="C#" Value="public static void SetStaticObjectField (IntPtr clazz, IntPtr fieldID, IntPtr val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticShortField">
+      <MemberSignature Language="C#" Value="public static void SetStaticShortField (IntPtr clazz, IntPtr fieldID, short val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.Int16"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStaticStringField">
+      <MemberSignature Language="C#" Value="public static void SetStaticStringField (IntPtr clazz, IntPtr fieldID, string val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function ets the value of a static field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetStringField">
+      <MemberSignature Language="C#" Value="public static void SetStringField (IntPtr obj, IntPtr fieldID, string val);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="val" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="val">To be added.</param>
+        <summary>This function sets the value of an instance (nonstatic) field of an object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Throw">
+      <MemberSignature Language="C#" Value="public static int Throw (IntPtr obj);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.IntPtr"/>
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>Causes a java.lang.Throwable object to be thrown.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThrowNew">
+      <MemberSignature Language="C#" Value="public static int ThrowNew (IntPtr clazz, string message);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="message" Type="System.String"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>Constructs an exception object from the specified class with the message specified by message and causes that exception to be thrown.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToBooleanArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToBooleanArray (bool[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Boolean[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Boolean to a Java array of boolean.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToByteArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToByteArray (byte[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Byte[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Byte to a Java array of byte.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToCharArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToCharArray (char[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Char[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Char to a Java array of char.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToDoubleArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToDoubleArray (double[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Double[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Double to a Java array of double.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToFloatArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToFloatArray (float[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Single[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Single to a Java array of float.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToIntArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToIntArray (int[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Int32[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Int32 to a Java array of int.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToLongArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToLongArray (long[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Int64[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Int64 to a Java array of long.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToObjectArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToObjectArray (IntPtr[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.IntPtr[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.IntPtr, representing Java objects, to a Java array of java.lang.Object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToReflectedField">
+      <MemberSignature Language="C#" Value="public static IntPtr ToReflectedField (IntPtr clazz, IntPtr fieldID, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="fieldID" Type="System.IntPtr"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="fieldID">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>Converts a field ID derived from cls to a java.lang.reflect.Field object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToReflectedMethod">
+      <MemberSignature Language="C#" Value="public static IntPtr ToReflectedMethod (IntPtr clazz, IntPtr methodID, bool isStatic);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clazz" Type="System.IntPtr"/>
+        <Parameter Name="methodID" Type="System.IntPtr"/>
+        <Parameter Name="isStatic" Type="System.Boolean"/>
+      </Parameters>
+      <Docs>
+        <param name="clazz">To be added.</param>
+        <param name="methodID">To be added.</param>
+        <param name="isStatic">To be added.</param>
+        <summary>Converts a method ID derived from clazz to a java.lang.reflect.Method or java.lang.reflect.Constructor object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToShortArray">
+      <MemberSignature Language="C#" Value="public static IntPtr ToShortArray (short[] array);"/>
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Int16[]"/>
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <summary>Convert a managed array of System.Int16 to a Java array of short.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

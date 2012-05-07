@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="ModelImporterMaterialSearch" FullName="UnityEditor.ModelImporterMaterialSearch">
+  <TypeSignature Language="C#" Value="public enum ModelImporterMaterialSearch"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Material search options for <see cref="T:UnityEditor.ModelImporter" />.</summary>
+    <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialSearch" />.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Everywhere">
+      <MemberSignature Language="C#" Value="Everywhere"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialSearch</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Searh in all project.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialSearch" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="Local">
+      <MemberSignature Language="C#" Value="Local"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialSearch</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Searh in local Materials forlder.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialSearch" />.</remarks></Docs>
+    </Member>
+    <Member MemberName="RecursiveUp">
+      <MemberSignature Language="C#" Value="RecursiveUp"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ModelImporterMaterialSearch</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Recursive-up search in Materials forlders.</summary>
+      <remarks>See Also: <see cref="P:UnityEditor.ModelImporter.materialSearch" />.</remarks></Docs>
+    </Member>
+  </Members>
+</Type>

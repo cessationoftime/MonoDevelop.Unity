@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Type Name="CollisionDetectionMode" FullName="UnityEngine.CollisionDetectionMode">
+  <TypeSignature Language="C#" Value="public enum CollisionDetectionMode"/>
+  <AssemblyInfo>
+    <AssemblyName>UnityEngine</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>The collision detection mode constants used for <see cref="P:UnityEngine.Rigidbody.collisionDetectionMode" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Continuous">
+      <MemberSignature Language="C#" Value="Continuous"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionDetectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Continuous collision detection is on for colliding with static mesh geometry.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ContinuousDynamic">
+      <MemberSignature Language="C#" Value="ContinuousDynamic"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionDetectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Continuous collision detection is on for colliding with static and dynamic geometry.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Discrete">
+      <MemberSignature Language="C#" Value="Discrete"/>
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.CollisionDetectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Continuous collision detection is off for this Rigidbody.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
